@@ -1,0 +1,100 @@
+name: Build NetLove
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', '**/*.md']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: netlove-build-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+      - run: node scripts/vn-contract.mjs src/story/story.json
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NetLove-PWA
+          path: dist/
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NetLove-Previews
+          path: test-results/previews/
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: NetLove-Test-Report
+          path: playwright-report/
+  windows:
+    needs: web
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run test:desktop
+      - run: npm run desktop:win
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - run: npm run test:desktop:packaged
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NetLove-Windows-x64
+          path: release/*.exe
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NetLove-Desktop-Previews
+          path: test-results/desktop/
+  release:
+    needs: [web, windows]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: NetLove-Windows-x64
+          path: release-assets
+      - uses: actions/download-artifact@v4
+        with:
+          name: NetLove-PWA
+          path: pwa
+      - name: Package and publish verified playable preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if gh release view "v$VERSION" >/dev/null 2>&1; then
+            echo "Published versions remain immutable."
+            exit 0
+          fi
+          (cd pwa && zip -q -r "../release-assets/NetLove-PWA-$VERSION.zip" .)
+          (cd release-assets && sha256sum *.exe *.zip > SHA256SUMS.txt)
+          cp "docs/releases/v$VERSION.md" release-body.md
+          gh release create "v$VERSION" release-assets/* --target "$GITHUB_SHA" --title "“网”恋 v$VERSION · 五章可玩初版" --notes-file release-body.md --prerelease

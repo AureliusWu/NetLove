@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "balcony",
+      "path": "public/art/balcony.webp",
+      "source": "assets_source/balcony.png",
+      "sourceSha256": "c91ae32393ff69507c3425cfc3a591a605cf84d3ad4ff960a92d73f89058286e",
+      "sha256": "04dce5cbcf590d7b0b036d2f402f35eb86d2f1518e4cdd008ea5c3f4526760ac",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 336686,
+      "alpha": false,
+      "promptId": "balcony",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "bedroom",
+      "path": "public/art/bedroom.webp",
+      "source": "assets_source/bedroom.png",
+      "sourceSha256": "731ee26f4ebdeb12fc61586269c4962a9a64e969a00bab09638b2199535e92c1",
+      "sha256": "64535cf28fa0d0eb5cc9ae902cbb54a1826144d5992c40d87a7346d8e846e75b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 273962,
+      "alpha": false,
+      "promptId": "bedroom",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "gate",
+      "path": "public/art/gate.webp",
+      "source": "assets_source/gate.png",
+      "sourceSha256": "747615ff8dc8881398bc975d25cea09f7e87b7b5e9cf611715871ac81980c61c",
+      "sha256": "5a64798bc0d0f24e840e2cccd7d7bac172c60910d2697527d8a0c5d8b3b7c0a7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 456476,
+      "alpha": false,
+      "promptId": "gate",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "printshop",
+      "path": "public/art/printshop.webp",
+      "source": "assets_source/printshop.png",
+      "sourceSha256": "cd8a10f301796e10c54163ac4ecdff8b2111334bb1c434a27a3cb0b647f2d498",
+      "sha256": "eabe81d164f5dede2c97495c90888f97f44f4b5d635a903cfd9a759b0dcbd85b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 330828,
+      "alpha": false,
+      "promptId": "printshop",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "riverbank",
+      "path": "public/art/riverbank.webp",
+      "source": "assets_source/riverbank.png",
+      "sourceSha256": "f15ba3f5333386d25ade91f338a4c8289da9b74fae496325d593d8c9c5e2b47e",
+      "sha256": "df3895afa353c7c062890b48b75644f19234eb7ad4592584c0dc29001f87fd1d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 461570,
+      "alpha": false,
+      "promptId": "riverbank",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "tinghe",
+      "path": "public/art/tinghe.webp",
+      "source": "assets_source/tinghe.png",
+      "sourceSha256": "fcdc4e55b7511029b4475687c2e42fadf714959855b3989a690515e80d2bf474",
+      "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 939400,
+      "alpha": true,
+      "promptId": "tinghe",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "xumi",
+      "path": "public/art/xumi.webp",
+      "source": "assets_source/xumi.png",
+      "sourceSha256": "079cca98f10b4892851a5606a5a0679559bf6440f801aa8b0c8f2a63c922866f",
+      "sha256": "e21e2e044722a37f84fd3802c334367a4bb7f585a3d23da630fe0ddd8c7f4640",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 873976,
+      "alpha": true,
+      "promptId": "xumi",
+      "promptRegistry": "docs/prompts/ART-v1.json"
+    }
+  ]
+}

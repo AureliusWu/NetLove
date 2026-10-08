@@ -1,0 +1,59 @@
+name: Publish NetLove PWA
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Build NetLove]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+concurrency:
+  group: netlove-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - name: Verify current main is the tested build
+        id: current
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {data}=await github.rest.git.getRef({...context.repo,ref:'heads/main'});
+            core.setOutput('deploy',String(data.object.sha===(context.payload.workflow_run?.head_sha||context.sha)));
+      - uses: actions/download-artifact@v4
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_run'
+        with:
+          name: NetLove-PWA
+          path: dist
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - uses: actions/setup-node@v4
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts && npm test && npm run build
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - uses: actions/configure-pages@v5
+        if: steps.current.outputs.deploy == 'true'
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.current.outputs.deploy == 'true'
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        if: steps.current.outputs.deploy == 'true'
+        id: deployment

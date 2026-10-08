@@ -1,0 +1,21 @@
+export type Character = 'tinghe' | 'xumi';
+export type Expression = 'neutral';
+export type Background = 'bedroom' | 'balcony' | 'gate' | 'printshop' | 'riverbank';
+export type CgId = Background;
+export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain';
+export type Ending = 'tinghe-final' | 'xumi-final' | 'friends-final' | 'letter-final';
+export type Stats = { honesty: number; tinghe: number; xumi: number };
+export type Chapter = 1 | 2 | 3 | 4 | 5;
+export type Line = { id: string; speaker: string; text: string; medium?: 'chat' | 'call'; expression?: Expression; variant?: { stat: keyof Stats; min: number; text: string } };
+export type Choice = { id: string; text: string; next: string; effect?: Partial<Stats> };
+export type Scene = {
+  id: string; title: string; location: string; time: string; background: Background;
+  character?: Character; noSprite?: boolean; lines: Line[]; choices?: Choice[];
+  next?: string; ending?: Ending; chapter: Chapter; continuation?: string;
+  chapterEnd?: true; cg?: CgId; music?: MusicId; rain?: boolean;
+};
+export type HistoryEntry = Line & { sceneId: string; line: number };
+export type Decision = { sceneId: string; choiceId: string };
+export type GameState = { schema: 1; storyVersion: 'netlove-v1'; sceneId: string; line: number; stats: Stats; decisions: Decision[]; history: HistoryEntry[] };
+export type Save = { schema: 1; game: 'netlove'; savedAt: string; state: GameState };
+export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };

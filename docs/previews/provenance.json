@@ -1,0 +1,226 @@
+{
+  "browser": "Chromium 138.0.7204.0 temporary local runtime",
+  "version": "0.1.0",
+  "screenshots": [
+    {
+      "file": "docs/previews/ending-1-desktop.jpg",
+      "source": "test-results/previews/ending-1-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "7fb7f7beca009c076f976885813a37c156b0d8363edf37ac7be8c753cedb8f56",
+      "sha256": "b24367126f74bcd90b4c8ee0d1996fac0da2d2315c23c26477b09bc9d3c0c2b8"
+    },
+    {
+      "file": "docs/previews/ending-1-mobile.jpg",
+      "source": "test-results/previews/ending-1-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "bf607067b954098016ff1fcc3a5b3d3e1a3c2d358e53170c173d2d610edeb644",
+      "sha256": "9ff426ad4b28c3f9deb820b96e8a0dac863c9f8032e1d3038dec007373c9d5e3"
+    },
+    {
+      "file": "docs/previews/ending-2-desktop.jpg",
+      "source": "test-results/previews/ending-2-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "4bfa02eb8d9cf72c845b68f8975453ae91fa21048c881d0d2225b5a7c9eee33d",
+      "sha256": "15ee03de55c268cd14dbecbffcc1255ddee66d55293a5accb9ec21f865138a5a"
+    },
+    {
+      "file": "docs/previews/ending-2-mobile.jpg",
+      "source": "test-results/previews/ending-2-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "032079e69b0585268af5a9c371dad086f66d30340078c5b645e547799ccd81a7",
+      "sha256": "6f7c413c456b89b6c9a8c929d1496ee02e839d7dfd0773f53b171a0aaf3cad38"
+    },
+    {
+      "file": "docs/previews/ending-3-desktop.jpg",
+      "source": "test-results/previews/ending-3-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "9e25a570da16738bac1b369d66cdf5cfbc1c0547c1a3ca986645d8d615bb08f8",
+      "sha256": "5e5237edefd4eb7d13a3f8633563671aa92f327924dcf801c7bd64873d9c2ff9"
+    },
+    {
+      "file": "docs/previews/ending-3-mobile.jpg",
+      "source": "test-results/previews/ending-3-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "fbac74203aa5e89d7b6093eb728823a02f590b1ab725bbefcd1b486fd41b76b5",
+      "sha256": "e78fc626f430e6faf65975817534065b1603298ceea0f47843f98090f7ba2c7b"
+    },
+    {
+      "file": "docs/previews/ending-4-desktop.jpg",
+      "source": "test-results/previews/ending-4-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "db94f2a17174239a50c932a7713534f2ce0aecb1e3fb790fcd1568d65689a80b",
+      "sha256": "4e743da721e174af38358079771d2e343b3dc8d54c9c3dccf8aacf8e749c2223"
+    },
+    {
+      "file": "docs/previews/ending-4-mobile.jpg",
+      "source": "test-results/previews/ending-4-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "9b04283ff8935e703783720251ebb0e4ca81bd87477517ec7a28ecf4cf65ecbf",
+      "sha256": "4607da34e74c49d87d6e000514440885d9f79033e6348ee5f2c88e05340d25b8"
+    },
+    {
+      "file": "docs/previews/layout-412-desktop.jpg",
+      "source": "test-results/previews/layout-412-desktop.png",
+      "dimensions": [
+        412,
+        915
+      ],
+      "sourceSha256": "975bdcbf62b1e12009f67751fa6b592170c56700737145b888ed222d7e3dc7d9",
+      "sha256": "87d70b58e0b0bf02465a12601c1562b31f67011d086972d1d9574ddcfd24ed44"
+    },
+    {
+      "file": "docs/previews/layout-412-mobile.jpg",
+      "source": "test-results/previews/layout-412-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "908dbb7c08fab6ba711a99e17b322c8f723d6477c1376c4e634d5657dbf8cf94",
+      "sha256": "ed5605e057aec88b9788ac9fc7480cd2b8eef867a9f16056b78ac6e28fab145a"
+    },
+    {
+      "file": "docs/previews/layout-568-desktop.jpg",
+      "source": "test-results/previews/layout-568-desktop.png",
+      "dimensions": [
+        568,
+        320
+      ],
+      "sourceSha256": "9de1f4e47bf1016a02c59b4a12de21248ab0f8118512ff170b0dd088c409ca69",
+      "sha256": "b104ab4c95497ad559d713176580600efac4d0d0a76b769fdab9d3317a2bba3d"
+    },
+    {
+      "file": "docs/previews/layout-568-mobile.jpg",
+      "source": "test-results/previews/layout-568-mobile.png",
+      "dimensions": [
+        1491,
+        840
+      ],
+      "sourceSha256": "d2998a48c61b7100f2c44b9d0cda62c663f29ce2341d477e73ede889f895ad0c",
+      "sha256": "686350e70500c4295dec1f5a651a63c0483fea7a792498455a6f7467c6e12a46"
+    },
+    {
+      "file": "docs/previews/layout-844-desktop.jpg",
+      "source": "test-results/previews/layout-844-desktop.png",
+      "dimensions": [
+        844,
+        390
+      ],
+      "sourceSha256": "f62df6ed308f973673d9f06cb8f28d0796437902f8d38726f8a12300d4a28901",
+      "sha256": "dac25a80d79eed7c172b5eeabc5a36b50e4532ab9160c667dc4a1299c413ee6c"
+    },
+    {
+      "file": "docs/previews/layout-844-mobile.jpg",
+      "source": "test-results/previews/layout-844-mobile.png",
+      "dimensions": [
+        2216,
+        1024
+      ],
+      "sourceSha256": "9a01802ca798e22899de5dc60a6cef8d48082c2c6672fcddd814f408ba19b0a2",
+      "sha256": "bb8da5d94b98093c9b35c01e7b415dcf2d21d6c6ebf0114d363cfaff469da02f"
+    },
+    {
+      "file": "docs/previews/reading-desktop.jpg",
+      "source": "test-results/previews/reading-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "acd020ddad9efc27c2e3a5db6953d134fb277a9a2d82fe2d665dabaf6fa7ed92",
+      "sha256": "0011b714da51af26dd21f683d0351a0d520a058b53dcc2c060f58e45f53080b8"
+    },
+    {
+      "file": "docs/previews/reading-mobile.jpg",
+      "source": "test-results/previews/reading-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "3ed5261273140f495df102d6c49d6c32d8e8cfaa7332ef57ed46d229ba237764",
+      "sha256": "ba3e005a776ce075c3b516398768b6c2a2dbbbda7a5dbd27bb0f2e6cb0b80a05"
+    },
+    {
+      "file": "docs/previews/tinghe-desktop.jpg",
+      "source": "test-results/previews/tinghe-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "a61ece80dc5a67c682a0433eb66916c64212fc95318bb1845400836f8932ff8b",
+      "sha256": "a1c80bac3968aba60f71f49340b20cd3f2cddf215ea39b5aa481753ccd3239f5"
+    },
+    {
+      "file": "docs/previews/tinghe-mobile.jpg",
+      "source": "test-results/previews/tinghe-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "5973eae0a77d132417d13dd51bda6c3d484315a36e701c9b5512058d7ec7e888",
+      "sha256": "3d4b203bd8246a1d512ec4796b0af0d5069b1911de1659ab46143534c0887b83"
+    },
+    {
+      "file": "docs/previews/title-desktop.jpg",
+      "source": "test-results/previews/title-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "91f465728f62ad6ea628c8a9ee257901bc39ddda8b11958a4317faedb6e4a4f6",
+      "sha256": "c5dd5fc00f81a4a6aa0ac3bc01a57b021d64933bde4288a50bedeaea7460cf10"
+    },
+    {
+      "file": "docs/previews/title-mobile.jpg",
+      "source": "test-results/previews/title-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "a4e61347c26ce547ec5f34eca08cb0247f2b87f1cd9717996f7b589a9ad6ef32",
+      "sha256": "ac5a3c302bef5c789de5da7d93181e3ce549f492e70d9ab1a932972f1fd04ebf"
+    },
+    {
+      "file": "docs/previews/xumi-desktop.jpg",
+      "source": "test-results/previews/xumi-desktop.png",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "sourceSha256": "e2aa65d1343b25eac753ca8ec254a915914975aa098912c3ab97c295f58df0a4",
+      "sha256": "d32597cdc6118ca81bf7811d6fea1e2d4f4d98553146b6e95ec84745b4c8dea5"
+    },
+    {
+      "file": "docs/previews/xumi-mobile.jpg",
+      "source": "test-results/previews/xumi-mobile.png",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "sourceSha256": "018cf210654c44df36f0f826587c2e3d61e9d2628dcb32ca7c7cae185d3a8c8a",
+      "sha256": "b2d8d421decffcb9d44b88039aa7624841434a9ca9196f4b8099d67aaa3279dd"
+    }
+  ]
+}

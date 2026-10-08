@@ -1,0 +1,77 @@
+{
+  "name": "netlove",
+  "productName": "网恋",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "description": "“网”恋 · 2020 梧城原创双端视觉小说",
+  "author": "AureliusWu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/build-pwa.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:desktop": "node scripts/desktop-smoke.cjs",
+    "test:desktop:packaged": "node scripts/desktop-smoke.cjs \"release/win-unpacked/网恋.exe\"",
+    "desktop": "npm run build && electron .",
+    "desktop:pack": "npm run build && electron-builder --dir --publish never",
+    "desktop:win": "npm run build && electron-builder --win --x64 --publish never",
+    "check": "npm test && npm run build && npm run test:e2e"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.3",
+    "vitest": "5.0.3"
+  },
+  "build": {
+    "appId": "com.aureliuswu.netlove",
+    "productName": "网恋",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "icon": "public/icons/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "artifactName": "NetLove-${version}-${arch}-Setup.${ext}",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "“网”恋"
+    },
+    "portable": {
+      "artifactName": "NetLove-${version}-${arch}-Portable.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game",
+      "icon": "public/icons/icon-512.png"
+    }
+  }
+}

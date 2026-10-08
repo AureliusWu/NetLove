@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "“网”恋 · NetLove",
+  "short_name": "网恋",
+  "description": "2020，梧城。那年城市按下暂停，你却出现在我的消息里。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#f5f2e8",
+  "theme_color": "#326466",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

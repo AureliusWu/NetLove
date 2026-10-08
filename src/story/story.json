@@ -1,0 +1,3460 @@
+{
+  "schema": 1,
+  "id": "netlove-v1",
+  "entry": "arrival",
+  "title": "“网”恋",
+  "city": "梧城",
+  "year": 2020,
+  "stats": [
+    "honesty",
+    "tinghe",
+    "xumi"
+  ],
+  "scenes": [
+    {
+      "id": "arrival",
+      "title": "延长的假期",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "arrival-001",
+          "speaker": "旁白",
+          "text": "一月二十七日，梧城。窗外最后一班公交的声音已经很久没有出现。"
+        },
+        {
+          "id": "arrival-002",
+          "speaker": "旁白",
+          "text": "我叫周既明，二十三岁。原本打算过完年就回学校，行李箱还停在门口。"
+        },
+        {
+          "id": "arrival-003",
+          "speaker": "旁白",
+          "text": "返程车次取消了。实习公司的群里，也暂时没有人再提转正。"
+        },
+        {
+          "id": "arrival-004",
+          "speaker": "旁白",
+          "text": "外婆把一盘切得大小不一的苹果放在桌上，问我明天是不是周一。"
+        },
+        {
+          "id": "arrival-005",
+          "speaker": "周既明",
+          "text": "是。应该是。",
+          "medium": "chat"
+        },
+        {
+          "id": "arrival-006",
+          "speaker": "旁白",
+          "text": "我看了一眼电脑右下角。确实是周一，却和昨天没有什么区别。"
+        },
+        {
+          "id": "arrival-007",
+          "speaker": "旁白",
+          "text": "房间还是高中时的房间。椅背上挂着校服，我已经穿不进去了。"
+        },
+        {
+          "id": "arrival-008",
+          "speaker": "旁白",
+          "text": "楼下的防盗门响了一声。我下意识站起来，又慢慢坐下。"
+        },
+        {
+          "id": "arrival-009",
+          "speaker": "旁白",
+          "text": "外婆的新处方放在冰箱上，药还够几天。我在网上翻了三家店，都没有送到这里的选项。"
+        },
+        {
+          "id": "arrival-010",
+          "speaker": "旁白",
+          "text": "手机震动。高中同学陆衡发来一个群邀请。"
+        },
+        {
+          "id": "arrival-011",
+          "speaker": "陆衡",
+          "text": "先别往外跑。进这个群，门口收货、邻里需求都在这儿登记。",
+          "medium": "chat"
+        },
+        {
+          "id": "arrival-012",
+          "speaker": "旁白",
+          "text": "群名是“梧桐里互助”。成员七十二人，有头像的人不多。"
+        },
+        {
+          "id": "arrival-013",
+          "speaker": "旁白",
+          "text": "我点了加入。系统提示跳出来，很快被一串采购清单淹没。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "group"
+    },
+    {
+      "id": "group",
+      "title": "七十三个人",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "group-001",
+          "speaker": "陆衡",
+          "text": "新增需求填表。门牌和电话只交给负责的人，别整张贴群里。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-002",
+          "speaker": "暂停营业",
+          "text": "表格打不开。我妈用的手机比我年纪还大。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-003",
+          "speaker": "陆衡",
+          "text": "你少夸张。你帮她报。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-004",
+          "speaker": "暂停营业",
+          "text": "她觉得我把字打进去，菜就自动长在手机里了。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-005",
+          "speaker": "一格信号",
+          "text": "可以把项目念给她听吗？我来录一版。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-006",
+          "speaker": "旁白",
+          "text": "有人发了一个语音文件。没有配乐，连开头的呼吸声都留着。"
+        },
+        {
+          "id": "group-007",
+          "speaker": "一格信号",
+          "text": "只说明怎么填，别录门牌和电话。录完我先让陆衡确认。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-008",
+          "speaker": "旁白",
+          "text": "我把电脑声音调低。外婆仍然从厨房探出头来：谁在教人买菜？"
+        },
+        {
+          "id": "group-009",
+          "speaker": "周既明",
+          "text": "新群里的邻居。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-010",
+          "speaker": "暂停营业",
+          "text": "新来的，名字后面那个下划线是没想好叫啥吗？",
+          "medium": "chat"
+        },
+        {
+          "id": "group-011",
+          "speaker": "旁白",
+          "text": "我看见自己的昵称：“既明_”。实习简历上也是这个名字。"
+        },
+        {
+          "id": "group-012",
+          "speaker": "周既明",
+          "text": "本来想改，忘了。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-013",
+          "speaker": "暂停营业",
+          "text": "挺好。很像一条还没填完的横线。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-014",
+          "speaker": "一格信号",
+          "text": "也像还可以继续写。",
+          "medium": "chat"
+        },
+        {
+          "id": "group-015",
+          "speaker": "旁白",
+          "text": "两条消息相隔半秒。我分不清最后一句是在接她的话，还是在对我说。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "first-reply"
+    },
+    {
+      "id": "first-reply",
+      "title": "输入中",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "first-reply-001",
+          "speaker": "旁白",
+          "text": "我在需求表里填了外婆的药名和剩余数量，单独发给陆衡。"
+        },
+        {
+          "id": "first-reply-002",
+          "speaker": "旁白",
+          "text": "填完之后，鼠标停在“实习状态”那栏。那是公司的另一张表。"
+        },
+        {
+          "id": "first-reply-003",
+          "speaker": "一格信号",
+          "text": "刚才的录音听得清吗？我担心语速太快。",
+          "medium": "chat"
+        },
+        {
+          "id": "first-reply-004",
+          "speaker": "旁白",
+          "text": "对方发来好友申请，备注是“声音说明”。"
+        },
+        {
+          "id": "first-reply-005",
+          "speaker": "旁白",
+          "text": "我通过了。聊天框空着，光标闪了五次。"
+        },
+        {
+          "id": "first-reply-006",
+          "speaker": "旁白",
+          "text": "要把没有说完的近况也发过去吗？"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "choices": [
+        {
+          "id": "first-reply-1",
+          "text": "说清楚：听得清，只是我最近有点慌。",
+          "next": "c1-honest",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          }
+        },
+        {
+          "id": "first-reply-2",
+          "text": "先聊录音：很好，外婆也听明白了。",
+          "next": "c1-light",
+          "effect": {
+            "tinghe": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1-honest",
+      "title": "一句不完整的近况",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "c1-honest-001",
+          "speaker": "周既明",
+          "text": "听得清。刚才没回，是在看公司的表。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-002",
+          "speaker": "周既明",
+          "text": "他们让我们先待在家里。我不知道实习还算不算数。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-003",
+          "speaker": "旁白",
+          "text": "发出去之后，我立刻觉得说多了。她只是问录音。"
+        },
+        {
+          "id": "c1-honest-004",
+          "speaker": "一格信号",
+          "text": "我也不知道什么时候返校。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-005",
+          "speaker": "一格信号",
+          "text": "今天交了一份作业，老师回复“收到”，我盯着那两个字看了很久。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-006",
+          "speaker": "一格信号",
+          "text": "你那张表，今晚一定要填吗？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-007",
+          "speaker": "周既明",
+          "text": "不用。周五前。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-008",
+          "speaker": "一格信号",
+          "text": "那今天先别对着它坐到两点。录音里的第三步，我读错了一个字。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-honest-009",
+          "speaker": "旁白",
+          "text": "她把第二版文件发过来，没有给我一串建议。"
+        },
+        {
+          "id": "c1-honest-010",
+          "speaker": "旁白",
+          "text": "我关掉公司的表，替她听了第二遍。这一次，我真的听见那个字了。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "c1-xumi"
+    },
+    {
+      "id": "c1-light",
+      "title": "被听见的说明",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "c1-light-001",
+          "speaker": "周既明",
+          "text": "听得清。我外婆也听明白了，问是不是电台播的。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-002",
+          "speaker": "一格信号",
+          "text": "别让她失望，我录了五遍。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-003",
+          "speaker": "周既明",
+          "text": "有一遍能过就行。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-004",
+          "speaker": "一格信号",
+          "text": "有一遍能被人听完，就已经不错了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-005",
+          "speaker": "旁白",
+          "text": "她发来一个只有三秒的文件，内容是录错字后的笑声。"
+        },
+        {
+          "id": "c1-light-006",
+          "speaker": "一格信号",
+          "text": "这段不能进群。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-007",
+          "speaker": "周既明",
+          "text": "收到。私人失误档案。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-light-008",
+          "speaker": "旁白",
+          "text": "我把公司的表缩到了角落。转正那栏还空着，但屏幕上终于有另一件事。"
+        },
+        {
+          "id": "c1-light-009",
+          "speaker": "旁白",
+          "text": "我没有告诉她那件事。以后也许会说。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "c1-xumi"
+    },
+    {
+      "id": "c1-xumi",
+      "title": "暂停营业",
+      "chapter": 1,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "c1-xumi-001",
+          "speaker": "暂停营业",
+          "text": "陆衡说你会做网页。老手机能不能看那种不用下载的？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-002",
+          "speaker": "周既明",
+          "text": "可以。需求表吗？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-003",
+          "speaker": "暂停营业",
+          "text": "表是一件事。还有我妈老让我问，照相馆什么时候能开。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-004",
+          "speaker": "旁白",
+          "text": "她发来一张店里的照片。柜台上是一排没有领走的证件照，纸袋按姓氏摆着。"
+        },
+        {
+          "id": "c1-xumi-005",
+          "speaker": "暂停营业",
+          "text": "别问哪张是我。这里面有七个同名的人。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-006",
+          "speaker": "周既明",
+          "text": "那你是哪家店？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-007",
+          "speaker": "暂停营业",
+          "text": "拾光。拐角那家。招牌的“光”少一根灯管。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-008",
+          "speaker": "旁白",
+          "text": "高中时，我在那里照过一次证件照。店里的人让我把肩膀放平，我一直放不平。"
+        },
+        {
+          "id": "c1-xumi-009",
+          "speaker": "周既明",
+          "text": "我知道。那张蓝底照片把我拍得像在认错。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-010",
+          "speaker": "暂停营业",
+          "text": "可能你本来就在认错。我帮人选照片，见过更凶的。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-011",
+          "speaker": "周既明",
+          "text": "你也拍？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-012",
+          "speaker": "暂停营业",
+          "text": "拍。拍得最多的是“这张能不能再瘦一点”。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-xumi-013",
+          "speaker": "旁白",
+          "text": "她的头像是一只空信封。好友备注写着：“收件地址等开门再说。”"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "c1-window"
+    },
+    {
+      "id": "c1-window",
+      "title": "对面还有灯",
+      "chapter": 1,
+      "background": "balcony",
+      "location": "梧桐里 · 隔窗",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "c1-window-001",
+          "speaker": "旁白",
+          "text": "晚上十点四十七分，外婆睡了。她的电视机仍然留在新闻频道。"
+        },
+        {
+          "id": "c1-window-002",
+          "speaker": "旁白",
+          "text": "我走到阳台，冷空气从领口钻进去。对面楼有四扇亮着的窗。"
+        },
+        {
+          "id": "c1-window-003",
+          "speaker": "一格信号",
+          "text": "你那边是不是有金属碰撞的声音？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-004",
+          "speaker": "周既明",
+          "text": "晾衣杆。风一吹就响。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-005",
+          "speaker": "一格信号",
+          "text": "能录十秒吗？我的作业要收集现在的城市声音。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-006",
+          "speaker": "周既明",
+          "text": "现在还能收到什么？",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-007",
+          "speaker": "一格信号",
+          "text": "电饭煲。楼上拖椅子。家里有人不小心把碗放重了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-008",
+          "speaker": "一格信号",
+          "text": "以前公交经过就盖住了。现在听得见。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-009",
+          "speaker": "旁白",
+          "text": "我按下录音。风声太大，手机里只剩下一团沙沙。"
+        },
+        {
+          "id": "c1-window-010",
+          "speaker": "周既明",
+          "text": "失败了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-011",
+          "speaker": "一格信号",
+          "text": "没有。你最后叹了一口气。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-window-012",
+          "speaker": "旁白",
+          "text": "我把文件撤回，又发了一次。她没有追问我为什么撤回。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "next": "c1-end"
+    },
+    {
+      "id": "c1-end",
+      "title": "先留一个位置",
+      "chapter": 1,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.01.27",
+      "lines": [
+        {
+          "id": "c1-end-001",
+          "speaker": "系统",
+          "text": "一格信号：我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？"
+        },
+        {
+          "id": "c1-end-002",
+          "speaker": "系统",
+          "text": "暂停营业：明天把旧手机给你看看。就放门口，不碰面。"
+        },
+        {
+          "id": "c1-end-003",
+          "speaker": "旁白",
+          "text": "同一分钟，两个窗口同时亮起。"
+        },
+        {
+          "id": "c1-end-004",
+          "speaker": "旁白",
+          "text": "我本来只想找一种给外婆取药的办法。现在却答应了两件没法写进简历的事。"
+        },
+        {
+          "id": "c1-end-005",
+          "speaker": "旁白",
+          "text": "陆衡把领取安排发来，写清楚了接手的人和时间。外婆的药有了着落。"
+        },
+        {
+          "id": "c1-end-006",
+          "speaker": "旁白",
+          "text": "我在桌面建了一个文件夹，叫“暂时”。"
+        },
+        {
+          "id": "c1-end-007",
+          "speaker": "旁白",
+          "text": "想了想，又把名字改成“梧城”。"
+        },
+        {
+          "id": "c1-end-008",
+          "speaker": "旁白",
+          "text": "外婆半夜起来倒水，看见灯还亮着，问我是不是又在等车票。"
+        },
+        {
+          "id": "c1-end-009",
+          "speaker": "周既明",
+          "text": "今天不是。",
+          "medium": "chat"
+        },
+        {
+          "id": "c1-end-010",
+          "speaker": "旁白",
+          "text": "她把苹果盘拿走，留下一个小碟子。里面是最后两块。"
+        },
+        {
+          "id": "c1-end-011",
+          "speaker": "旁白",
+          "text": "我第一次觉得，这个延长的假期也许会发生点什么。"
+        }
+      ],
+      "noSprite": true,
+      "music": "window",
+      "chapterEnd": true,
+      "continuation": "c2-open"
+    },
+    {
+      "id": "c2-open",
+      "title": "多出来的一栏",
+      "chapter": 2,
+      "background": "gate",
+      "location": "梧桐里 · 小区门口",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-open-001",
+          "speaker": "旁白",
+          "text": "三周之后，采购清单从七十三人的需求变成了几栋楼的轮流登记。"
+        },
+        {
+          "id": "c2-open-002",
+          "speaker": "旁白",
+          "text": "陆衡的工作围裙在群视频里晃了一下，他把手机架在纸箱上。"
+        },
+        {
+          "id": "c2-open-003",
+          "speaker": "陆衡",
+          "text": "不要一天到晚问“还需要什么”。看分工表，空着的那栏才需要。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-open-004",
+          "speaker": "旁白",
+          "text": "许弥给旧手机写了大号字的操作纸。她终于告诉我自己的名字。"
+        },
+        {
+          "id": "c2-open-005",
+          "speaker": "许弥",
+          "text": "弥是弥补的弥。不是谜语的谜，证件上都有人写错。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-open-006",
+          "speaker": "旁白",
+          "text": "谢听禾把第一个声音地图样稿发来。文件名末尾是“真的最后一版”。"
+        },
+        {
+          "id": "c2-open-007",
+          "speaker": "旁白",
+          "text": "她也发了名字，说学校提交作业要署名，不能一直写“一格信号”。"
+        },
+        {
+          "id": "c2-open-008",
+          "speaker": "谢听禾",
+          "text": "听是听见的听。禾是稻子的禾。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-open-009",
+          "speaker": "周既明",
+          "text": "名字比账号好记。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-open-010",
+          "speaker": "谢听禾",
+          "text": "账号是我家网太差才改的。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-open-011",
+          "speaker": "旁白",
+          "text": "下午，需求表有三件事撞在一起：录音缺一段、领取说明太小、两家人填重了。"
+        },
+        {
+          "id": "c2-open-012",
+          "speaker": "旁白",
+          "text": "每件都不大，加在一起却让群里开始互相埋怨。"
+        },
+        {
+          "id": "c2-open-013",
+          "speaker": "旁白",
+          "text": "我看着空出来的一小时，决定先接一件。"
+        },
+        {
+          "id": "c2-open-014",
+          "speaker": "旁白",
+          "text": "这一次，我能保证把哪件事做完？"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "choices": [
+        {
+          "id": "c2-open-1",
+          "text": "替听禾核对声音地图的署名与授权。",
+          "next": "c2-audio",
+          "effect": {
+            "tinghe": 2,
+            "honesty": 1
+          }
+        },
+        {
+          "id": "c2-open-2",
+          "text": "帮许弥把领取说明做成大字网页。",
+          "next": "c2-print",
+          "effect": {
+            "xumi": 2
+          }
+        },
+        {
+          "id": "c2-open-3",
+          "text": "和陆衡一起核对重复的采购单。",
+          "next": "c2-count",
+          "effect": {
+            "honesty": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2-audio",
+      "title": "允许留下的声音",
+      "chapter": 2,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-audio-001",
+          "speaker": "旁白",
+          "text": "听禾发来一个压缩包。里面有锅盖、猫叫、几秒突然结束的钢琴。"
+        },
+        {
+          "id": "c2-audio-002",
+          "speaker": "谢听禾",
+          "text": "不要听到最后那个。那是我试麦。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-003",
+          "speaker": "周既明",
+          "text": "你自己也可以列在署名里。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-004",
+          "speaker": "谢听禾",
+          "text": "我没做什么。就是把它们接起来。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-005",
+          "speaker": "周既明",
+          "text": "你问了能不能用，还改了好多遍。也算做了。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-006",
+          "speaker": "旁白",
+          "text": "她停了一阵，给每段录音加上范围：“课堂展示”“私人留存”“待确认”。"
+        },
+        {
+          "id": "c2-audio-007",
+          "speaker": "旁白",
+          "text": "其中一段老人咳嗽的录音，被她从公开稿移走了。"
+        },
+        {
+          "id": "c2-audio-008",
+          "speaker": "谢听禾",
+          "text": "他不知道有人在录。重新问也会让他觉得自己在添麻烦。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-009",
+          "speaker": "旁白",
+          "text": "我们用晾衣杆的声响补上空位。它听起来比我记得的要清楚。"
+        },
+        {
+          "id": "c2-audio-010",
+          "speaker": "周既明",
+          "text": "这次没有我的叹气？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-011",
+          "speaker": "谢听禾",
+          "text": "留在私人版里。你要我删吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-audio-012",
+          "speaker": "旁白",
+          "text": "我回复可以留着。她把那个版本的文件名改成了“已确认”。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "next": "c2-call"
+    },
+    {
+      "id": "c2-print",
+      "title": "一个不用注册的页面",
+      "chapter": 2,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-print-001",
+          "speaker": "旁白",
+          "text": "许弥拿着手机，在镜头外教她母亲点网页。只露出一只拿信封的手。"
+        },
+        {
+          "id": "c2-print-002",
+          "speaker": "许弥",
+          "text": "别双击。它没你想得那么迟钝。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-003",
+          "speaker": "许弥",
+          "text": "等一下，先别评价人家做得丑。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-004",
+          "speaker": "周既明",
+          "text": "可以评价。我在记。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-005",
+          "speaker": "许弥",
+          "text": "我妈说字再大一点。她眼睛比我早退休。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-006",
+          "speaker": "旁白",
+          "text": "我把字放大到整行只有十个。许弥说终于可以站远一点看。"
+        },
+        {
+          "id": "c2-print-007",
+          "speaker": "周既明",
+          "text": "你怎么不把相机里的照片也做个网页？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-008",
+          "speaker": "许弥",
+          "text": "那些东西没有人要。以前投过一个比赛，没入围。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-009",
+          "speaker": "周既明",
+          "text": "你现在还拍吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-010",
+          "speaker": "许弥",
+          "text": "店里东西没搬走。每天换一个角度拍那把空椅子。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-print-011",
+          "speaker": "旁白",
+          "text": "她发来其中一张。椅子歪着，窗帘上有一道斜光。"
+        },
+        {
+          "id": "c2-print-012",
+          "speaker": "旁白",
+          "text": "我没有说一定能入围。我把照片存进文件夹，问她能不能让我再看几张。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "next": "c2-call"
+    },
+    {
+      "id": "c2-count",
+      "title": "十一袋土豆",
+      "chapter": 2,
+      "background": "gate",
+      "location": "梧桐里 · 小区门口",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-count-001",
+          "speaker": "旁白",
+          "text": "陆衡说十一袋土豆，表里却有十三个名字。我们从最后一行重新查。"
+        },
+        {
+          "id": "c2-count-002",
+          "speaker": "旁白",
+          "text": "一个名字是代母亲填的，另一个名字是昨天的订单没删。"
+        },
+        {
+          "id": "c2-count-003",
+          "speaker": "陆衡",
+          "text": "你看。人忙的时候都会觉得自己填过了，最后又不放心填一次。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-count-004",
+          "speaker": "周既明",
+          "text": "我就经常这样。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-count-005",
+          "speaker": "陆衡",
+          "text": "那你怎么还敢给人做表？",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-count-006",
+          "speaker": "周既明",
+          "text": "因为我知道哪里容易填错。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-count-007",
+          "speaker": "旁白",
+          "text": "我们把每项状态分成待确认、已接手和已送达。每个名字只对负责的人可见。"
+        },
+        {
+          "id": "c2-count-008",
+          "speaker": "旁白",
+          "text": "下午五点，他拍来纸箱上的十一道记号。"
+        },
+        {
+          "id": "c2-count-009",
+          "speaker": "陆衡",
+          "text": "以后你的网页上留个“找人核对”。别装得什么都知道。",
+          "medium": "chat"
+        },
+        {
+          "id": "c2-count-010",
+          "speaker": "旁白",
+          "text": "我照着改了。他发来一个拇指，又问我今天吃了没有。"
+        },
+        {
+          "id": "c2-count-011",
+          "speaker": "旁白",
+          "text": "原来认识十年的朋友，也可以在一张表上重新说话。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "next": "c2-call"
+    },
+    {
+      "id": "c2-call",
+      "title": "摄像头之前",
+      "chapter": 2,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-call-001",
+          "speaker": "旁白",
+          "text": "九点半，声音地图的小样第一次完整播放。"
+        },
+        {
+          "id": "c2-call-002",
+          "speaker": "旁白",
+          "text": "许弥把照相馆关灯前的卷帘声发来。陆衡的录音是撕开包装胶带。"
+        },
+        {
+          "id": "c2-call-003",
+          "speaker": "旁白",
+          "text": "我的录音里，有外婆问“你吃苹果吗”。她同意在课堂版本里留这一句。"
+        },
+        {
+          "id": "c2-call-004",
+          "speaker": "谢听禾",
+          "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-call-005",
+          "speaker": "旁白",
+          "text": "她发了通话邀请。我把睡衣领子拽平，才发现她还没有开摄像头。"
+        },
+        {
+          "id": "c2-call-006",
+          "speaker": "谢听禾",
+          "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-call-007",
+          "speaker": "旁白",
+          "text": "我听见她把杯子放在桌上，又听见窗子合拢。"
+        },
+        {
+          "id": "c2-call-008",
+          "speaker": "周既明",
+          "text": "好。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-call-009",
+          "speaker": "谢听禾",
+          "text": "要视频吗？不方便也没关系。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-call-010",
+          "speaker": "旁白",
+          "text": "鼠标停在小小的摄像头图标上。身后那件高中校服还挂着。"
+        },
+        {
+          "id": "c2-call-011",
+          "speaker": "旁白",
+          "text": "我也有权决定这一晚留下什么。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "choices": [
+        {
+          "id": "c2-call-1",
+          "text": "打开摄像头，也让她看看自己的房间。",
+          "next": "c2-camera",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          }
+        },
+        {
+          "id": "c2-call-2",
+          "text": "今晚只通话，把不方便说清楚。",
+          "next": "c2-voice",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2-camera",
+      "title": "卡在一半的笑",
+      "chapter": 2,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-camera-001",
+          "speaker": "旁白",
+          "text": "我打开摄像头。听禾先看见的，大概是我起身收走校服的背影。"
+        },
+        {
+          "id": "c2-camera-002",
+          "speaker": "谢听禾",
+          "text": "不用收。很像我房间，什么都舍不得扔。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-003",
+          "speaker": "旁白",
+          "text": "她的头发松松地编在一边，蓝色发夹离摄像头很近。"
+        },
+        {
+          "id": "c2-camera-004",
+          "speaker": "旁白",
+          "text": "台灯把她的开衫照得暖黄。我认出录音里那只杯子，杯沿有个小缺口。"
+        },
+        {
+          "id": "c2-camera-005",
+          "speaker": "周既明",
+          "text": "我以为学声音的，桌上会很整齐。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-006",
+          "speaker": "谢听禾",
+          "text": "你从哪里得出的结论？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-007",
+          "speaker": "旁白",
+          "text": "她把镜头向下挪。桌面上有三根缠住的线，一包没拆的饼干。"
+        },
+        {
+          "id": "c2-camera-008",
+          "speaker": "旁白",
+          "text": "我笑了，她也笑了。画面恰好卡住，把她的笑留下了一半。"
+        },
+        {
+          "id": "c2-camera-009",
+          "speaker": "谢听禾",
+          "text": "是不是卡了？",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-010",
+          "speaker": "周既明",
+          "text": "嗯，不过停得挺好。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-011",
+          "speaker": "谢听禾",
+          "text": "那你先别截。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-camera-012",
+          "speaker": "旁白",
+          "text": "我把准备按快捷键的手收回了键盘旁边。她恢复过来，像什么也没发生地接着说话。"
+        }
+      ],
+      "noSprite": false,
+      "music": "workshop",
+      "next": "c2-end",
+      "character": "tinghe"
+    },
+    {
+      "id": "c2-voice",
+      "title": "留在声音里",
+      "chapter": 2,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-voice-001",
+          "speaker": "周既明",
+          "text": "今晚只通话吧。房间有点乱，我还没准备好。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-002",
+          "speaker": "谢听禾",
+          "text": "好。我也把镜头关着。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-003",
+          "speaker": "周既明",
+          "text": "我不是不想认识你。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-004",
+          "speaker": "谢听禾",
+          "text": "我知道。我们已经认识了一部分。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-005",
+          "speaker": "旁白",
+          "text": "播放器开始往前走。我的苹果录音出现在胶带声后面，意外地好听。"
+        },
+        {
+          "id": "c2-voice-006",
+          "speaker": "谢听禾",
+          "text": "这里不该切得这么齐。把你外婆喊你第二声也接上吧。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-007",
+          "speaker": "旁白",
+          "text": "我重新发文件。第二声更响，后面跟着我跑过去的脚步。"
+        },
+        {
+          "id": "c2-voice-008",
+          "speaker": "谢听禾",
+          "text": "像有人离开电脑，去做一件更重要的事。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-009",
+          "speaker": "周既明",
+          "text": "她确实觉得苹果很重要。",
+          "medium": "call"
+        },
+        {
+          "id": "c2-voice-010",
+          "speaker": "旁白",
+          "text": "通话挂断时，她发来一张桌面照片，只拍到杯子和耳机。"
+        },
+        {
+          "id": "c2-voice-011",
+          "speaker": "谢听禾",
+          "text": "这部分比较整齐。先给你认识这部分。",
+          "medium": "call"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "next": "c2-end"
+    },
+    {
+      "id": "c2-end",
+      "title": "约定的九点半",
+      "chapter": 2,
+      "background": "balcony",
+      "location": "梧桐里 · 隔窗",
+      "time": "2020.02.17",
+      "lines": [
+        {
+          "id": "c2-end-001",
+          "speaker": "旁白",
+          "text": "那晚之后，九点半变成了一个轻轻放在日程里的时间。"
+        },
+        {
+          "id": "c2-end-002",
+          "speaker": "旁白",
+          "text": "有时我在改网页，她在剪录音。没有谁必须一直说话。"
+        },
+        {
+          "id": "c2-end-003",
+          "speaker": "旁白",
+          "text": "许弥常在十点发来一张空椅子，宣布今天的“闭店摄影大赛”自己又得第一。"
+        },
+        {
+          "id": "c2-end-004",
+          "speaker": "旁白",
+          "text": "陆衡看见我们还在线，会问明早谁能接核对表。"
+        },
+        {
+          "id": "c2-end-005",
+          "speaker": "旁白",
+          "text": "我开始知道谁用句号，谁总把话分成两次发。也知道有些“哈哈”后面其实很累。"
+        },
+        {
+          "id": "c2-end-006",
+          "speaker": "旁白",
+          "text": "公司的转正答复仍然没来。我终于回邮件，问了具体安排。"
+        },
+        {
+          "id": "c2-end-007",
+          "speaker": "旁白",
+          "text": "听禾没有替我编措辞。她说写好了可以帮我读一遍。"
+        },
+        {
+          "id": "c2-end-008",
+          "speaker": "旁白",
+          "text": "我把“不好意思打扰”删了两次，才按下发送。"
+        },
+        {
+          "id": "c2-end-009",
+          "speaker": "旁白",
+          "text": "对面楼的灯在十一点熄灭。我不知道哪一扇属于她，也没有问。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "chapterEnd": true,
+      "continuation": "c3-open"
+    },
+    {
+      "id": "c3-open",
+      "title": "一张没有发完的照片",
+      "chapter": 3,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-open-001",
+          "speaker": "旁白",
+          "text": "三月，许弥整理店里的旧照片，想给重新开门做一个小展。"
+        },
+        {
+          "id": "c3-open-002",
+          "speaker": "旁白",
+          "text": "她把六张接触印样发到我们四人的小群。最后一张是一位老人坐在店门口。"
+        },
+        {
+          "id": "c3-open-003",
+          "speaker": "旁白",
+          "text": "照片下面有一句：“我想给他留一张。”"
+        },
+        {
+          "id": "c3-open-004",
+          "speaker": "许弥",
+          "text": "这张先别转。人还没确认，家里人也没看过。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-open-005",
+          "speaker": "陆衡",
+          "text": "收到。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-open-006",
+          "speaker": "谢听禾",
+          "text": "我能用店门口的声音做一条配套录音吗？只录环境。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-open-007",
+          "speaker": "许弥",
+          "text": "可以。现在还听得到那根坏掉的灯管。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-open-008",
+          "speaker": "旁白",
+          "text": "我把几个小样发给社区的征集负责人，原本只想问尺寸。"
+        },
+        {
+          "id": "c3-open-009",
+          "speaker": "旁白",
+          "text": "附件列表里，那张照片也被选上了。发送完成的时候，我才看见。"
+        },
+        {
+          "id": "c3-open-010",
+          "speaker": "旁白",
+          "text": "我立刻补了一句“最后一张先别用”。负责人回复一个“好”。"
+        },
+        {
+          "id": "c3-open-011",
+          "speaker": "旁白",
+          "text": "屏幕上没有红色警报。我以为事情就到这里。"
+        },
+        {
+          "id": "c3-open-012",
+          "speaker": "旁白",
+          "text": "第二天午后，互助群开始转一张长截图。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-screenshot"
+    },
+    {
+      "id": "c3-screenshot",
+      "title": "被裁掉的半句",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-screenshot-001",
+          "speaker": "旁白",
+          "text": "截图里有老人的照片，下面只剩下“给他留一张”。"
+        },
+        {
+          "id": "c3-screenshot-002",
+          "speaker": "旁白",
+          "text": "有人把这句话读成了别的意思。几条质问同时出现：谁允许拍，为什么要发这种照片。"
+        },
+        {
+          "id": "c3-screenshot-003",
+          "speaker": "旁白",
+          "text": "有人顺手把照相馆的招牌拍出来，打了一个并不完整的店名。"
+        },
+        {
+          "id": "c3-screenshot-004",
+          "speaker": "旁白",
+          "text": "许弥在群里说老人今天还给店里打过电话，问什么时候能领照片。"
+        },
+        {
+          "id": "c3-screenshot-005",
+          "speaker": "旁白",
+          "text": "消息很快被更多问号盖住。"
+        },
+        {
+          "id": "c3-screenshot-006",
+          "speaker": "旁白",
+          "text": "我点开原始文件。老人坐在太阳下面，怀里抱着一袋橘子。没有任何人说过他发生了什么。"
+        },
+        {
+          "id": "c3-screenshot-007",
+          "speaker": "谢听禾",
+          "text": "先别转新的解释图。越转越有人从别处截。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-screenshot-008",
+          "speaker": "陆衡",
+          "text": "负责人已经撤下。我找管理员关掉原帖转发。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-screenshot-009",
+          "speaker": "许弥",
+          "text": "我把这组都删了。算了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-screenshot-010",
+          "speaker": "旁白",
+          "text": "她的头像没有变化，却好像一下子离屏幕很远。"
+        },
+        {
+          "id": "c3-screenshot-011",
+          "speaker": "旁白",
+          "text": "我知道第一封附件是我发的。那句补充提醒没有让错误消失。"
+        },
+        {
+          "id": "c3-screenshot-012",
+          "speaker": "旁白",
+          "text": "这一次，光标没能替我藏住责任。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-choice"
+    },
+    {
+      "id": "c3-choice",
+      "title": "撤回按钮之后",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-choice-001",
+          "speaker": "旁白",
+          "text": "手机上的撤回时间早就过了。"
+        },
+        {
+          "id": "c3-choice-002",
+          "speaker": "旁白",
+          "text": "我已经把发出的附件删除，接下来还有人需要知道发生了什么。"
+        },
+        {
+          "id": "c3-choice-003",
+          "speaker": "旁白",
+          "text": "许弥发来私信：“你也收到那图了？”"
+        },
+        {
+          "id": "c3-choice-004",
+          "speaker": "旁白",
+          "text": "我想把解释写得稳妥一点。写了三遍，每遍都先从“误会”两个字开始。"
+        },
+        {
+          "id": "c3-choice-005",
+          "speaker": "旁白",
+          "text": "要怎样接住这件由我做错的事？"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "choices": [
+        {
+          "id": "c3-choice-1",
+          "text": "公开说明附件由自己误传，协助撤下。",
+          "next": "c3-public",
+          "effect": {
+            "honesty": 2,
+            "xumi": 1
+          }
+        },
+        {
+          "id": "c3-choice-2",
+          "text": "先向许弥坦白，再共同决定怎样说明。",
+          "next": "c3-private",
+          "effect": {
+            "honesty": 2,
+            "xumi": 2
+          }
+        },
+        {
+          "id": "c3-choice-3",
+          "text": "先尽快联系转发的人删除，再把经过告诉她。",
+          "next": "c3-remove",
+          "effect": {
+            "honesty": 1,
+            "xumi": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3-public",
+      "title": "署名的解释",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-public-001",
+          "speaker": "旁白",
+          "text": "我在群里发了自己的名字，写清楚照片来自未确认的私稿，附件由我发出。"
+        },
+        {
+          "id": "c3-public-002",
+          "speaker": "旁白",
+          "text": "没有附新的截图，也没有把老人和家人的信息贴上去。"
+        },
+        {
+          "id": "c3-public-003",
+          "speaker": "周既明",
+          "text": "请停止转发和猜测。已经发出去的，麻烦联系我登记来源，我逐个去处理。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-public-004",
+          "speaker": "旁白",
+          "text": "有人说看见了，有人问我是谁。群里的消息还在往前走。"
+        },
+        {
+          "id": "c3-public-005",
+          "speaker": "旁白",
+          "text": "许弥过了十分钟才回我。"
+        },
+        {
+          "id": "c3-public-006",
+          "speaker": "许弥",
+          "text": "下次先跟我说一声。现在店里接了好几个电话。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-public-007",
+          "speaker": "周既明",
+          "text": "对不起。我以为先说明，会帮你挡一点。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-public-008",
+          "speaker": "许弥",
+          "text": "你能解释你怎么发的。店里要怎么说，我自己来。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-public-009",
+          "speaker": "旁白",
+          "text": "我答应了，替她记下转发来源。手机震得手心发热。"
+        },
+        {
+          "id": "c3-public-010",
+          "speaker": "旁白",
+          "text": "听禾把解释读了一遍，只建议补上原稿尚未得到展示同意。"
+        },
+        {
+          "id": "c3-public-011",
+          "speaker": "旁白",
+          "text": "到晚饭时，大部分能追到的转发被撤下。剩下的，我们留下了联系记录。"
+        },
+        {
+          "id": "c3-public-012",
+          "speaker": "旁白",
+          "text": "这一天，我没有收到任何“没关系”。我也没有再催她给。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-repair"
+    },
+    {
+      "id": "c3-private",
+      "title": "先把经过说完",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-private-001",
+          "speaker": "周既明",
+          "text": "第一份附件是我发的。问尺寸时多选了那张。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-002",
+          "speaker": "周既明",
+          "text": "我补过不能用，对方回了好。我没有再核对，也没有立刻告诉你。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-003",
+          "speaker": "旁白",
+          "text": "许弥很久没有回。我打了一句“你还在吗”，又删掉。"
+        },
+        {
+          "id": "c3-private-004",
+          "speaker": "许弥",
+          "text": "我在接电话。先别让其他人继续帮我解释。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-005",
+          "speaker": "周既明",
+          "text": "好。你希望我做什么？",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-006",
+          "speaker": "许弥",
+          "text": "把发给谁、什么时候发、怎么回复，列给我。不要贴群里。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-007",
+          "speaker": "旁白",
+          "text": "我把每一条写出来。那个“好”字再也不像事情结束的证据。"
+        },
+        {
+          "id": "c3-private-008",
+          "speaker": "旁白",
+          "text": "她确认之后，让我公开说明自己误传，让店里只负责照片与家人的部分。"
+        },
+        {
+          "id": "c3-private-009",
+          "speaker": "旁白",
+          "text": "我们把两段说明分开发出去。没有夸大已经删除的范围。"
+        },
+        {
+          "id": "c3-private-010",
+          "speaker": "许弥",
+          "text": "今晚不选照片了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-011",
+          "speaker": "周既明",
+          "text": "好。明天你想继续的时候再找我。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-private-012",
+          "speaker": "旁白",
+          "text": "这一次，我把聊天框关上，真的没有继续发消息。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-repair"
+    },
+    {
+      "id": "c3-remove",
+      "title": "能处理的部分",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-remove-001",
+          "speaker": "旁白",
+          "text": "我先找到三个转发账号。两个人很快删除，第三个人说是从另一群收到的。"
+        },
+        {
+          "id": "c3-remove-002",
+          "speaker": "旁白",
+          "text": "我把每个来源记下来，准备都处理完再告诉许弥。"
+        },
+        {
+          "id": "c3-remove-003",
+          "speaker": "旁白",
+          "text": "第五个窗口打开的时候，她又发来一句：“这是不是你发出去的？”"
+        },
+        {
+          "id": "c3-remove-004",
+          "speaker": "周既明",
+          "text": "是。我正在联系他们删。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-remove-005",
+          "speaker": "许弥",
+          "text": "你先把这句告诉我，我就不用猜半天。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-remove-006",
+          "speaker": "周既明",
+          "text": "对不起。我想解决了再说。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-remove-007",
+          "speaker": "许弥",
+          "text": "已经发生的事，不会因为你忙着处理就少发生一次。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-remove-008",
+          "speaker": "旁白",
+          "text": "我把做过的和没能做到的都告诉她。她划掉我的解释里“全部撤下”四个字。"
+        },
+        {
+          "id": "c3-remove-009",
+          "speaker": "许弥",
+          "text": "这几处我们追不到。别给别人一个错的结论。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-remove-010",
+          "speaker": "旁白",
+          "text": "我们重新写说明。回到电脑前，我发现晚上已经过去三个小时。"
+        },
+        {
+          "id": "c3-remove-011",
+          "speaker": "旁白",
+          "text": "事情开始得到处理，我们之间却还需要更长一点。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-repair"
+    },
+    {
+      "id": "c3-repair",
+      "title": "第二份授权",
+      "chapter": 3,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-repair-001",
+          "speaker": "旁白",
+          "text": "两天后，老人自己打来电话，说照片里他把橘子抱得像捧奖状。"
+        },
+        {
+          "id": "c3-repair-002",
+          "speaker": "旁白",
+          "text": "许弥把这句话转述给我，没有把通话录音发出来。"
+        },
+        {
+          "id": "c3-repair-003",
+          "speaker": "许弥",
+          "text": "他说愿意展。但是展哪张、配什么字，我重新跟他确认了。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-004",
+          "speaker": "周既明",
+          "text": "还办吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-005",
+          "speaker": "许弥",
+          "text": "办。否则店里只会留下别人转错的那张。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-006",
+          "speaker": "旁白",
+          "text": "她做了一份新的表：每张照片的名字、范围、署名，以及可以撤回的联系人。"
+        },
+        {
+          "id": "c3-repair-007",
+          "speaker": "旁白",
+          "text": "我接手网页。公开页面只放确认过的那三张，原稿仍留在她自己的硬盘。"
+        },
+        {
+          "id": "c3-repair-008",
+          "speaker": "旁白",
+          "text": "听禾重新剪配套声音，把店门口的收音控制在二十秒。陆衡核对展示的时间。"
+        },
+        {
+          "id": "c3-repair-009",
+          "speaker": "旁白",
+          "text": "第一次上线前，许弥没有让我替她按发布。她自己看了两遍，才按下去。"
+        },
+        {
+          "id": "c3-repair-010",
+          "speaker": "旁白",
+          "text": "我在纸上写了一张核对清单，贴在屏幕旁边。"
+        },
+        {
+          "id": "c3-repair-011",
+          "speaker": "旁白",
+          "text": "那张没确认的照片，留在名单之外。它终于可以只是一个人的照片。"
+        },
+        {
+          "id": "c3-repair-012",
+          "speaker": "许弥",
+          "text": "你现在别夸我坚强。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-013",
+          "speaker": "周既明",
+          "text": "我想问那把椅子，明天还拍吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-014",
+          "speaker": "许弥",
+          "text": "拍。它坐得比我稳。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-repair-015",
+          "speaker": "旁白",
+          "text": "我笑了一下。她在通话那头也笑了，却没有说我们已经回到原来。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "next": "c3-frame"
+    },
+    {
+      "id": "c3-frame",
+      "title": "把镜头转过来",
+      "chapter": 3,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-frame-001",
+          "speaker": "旁白",
+          "text": "许弥帮我核对照片颜色时，打开了摄像头。"
+        },
+        {
+          "id": "c3-frame-002",
+          "speaker": "旁白",
+          "text": "她在关着门的照相馆里，围裙口袋装着两支不同颜色的笔。"
+        },
+        {
+          "id": "c3-frame-003",
+          "speaker": "许弥",
+          "text": "你这显示器太蓝了。照片里的太阳像刚从冰箱拿出来。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-004",
+          "speaker": "周既明",
+          "text": "那你给个标准。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-005",
+          "speaker": "旁白",
+          "text": "她把一张白纸举到镜头前。相机的珊瑚色背带在衣服上晃。"
+        },
+        {
+          "id": "c3-frame-006",
+          "speaker": "许弥",
+          "text": "这是白。后面墙是发黄的白。我今天心情是没睡够的白。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-007",
+          "speaker": "周既明",
+          "text": "第三种不能校色。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-008",
+          "speaker": "许弥",
+          "text": "第三种决定我今天还有没有耐心教你。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-009",
+          "speaker": "旁白",
+          "text": "镜头很低。我看见她手边那个空信封，和头像上的一样。"
+        },
+        {
+          "id": "c3-frame-010",
+          "speaker": "周既明",
+          "text": "信封有什么用？",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-011",
+          "speaker": "许弥",
+          "text": "以前想把作品寄给外地的工作室。打印好了，没寄。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-012",
+          "speaker": "周既明",
+          "text": "现在还想去吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-013",
+          "speaker": "许弥",
+          "text": "想。但我得先让这里能少了我也运转。还有，作品需要重新选。",
+          "medium": "call"
+        },
+        {
+          "id": "c3-frame-014",
+          "speaker": "旁白",
+          "text": "我第一次知道，她认真经营这家店，也认真想过离开。"
+        }
+      ],
+      "noSprite": false,
+      "music": "distance",
+      "character": "xumi",
+      "next": "c3-end"
+    },
+    {
+      "id": "c3-end",
+      "title": "保存修改",
+      "chapter": 3,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.03.06",
+      "lines": [
+        {
+          "id": "c3-end-001",
+          "speaker": "旁白",
+          "text": "照片小展上线的那晚，听禾发来一段没有剪完的声音。"
+        },
+        {
+          "id": "c3-end-002",
+          "speaker": "谢听禾",
+          "text": "有个地方留空了。我总觉得填上就太满。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-end-003",
+          "speaker": "旁白",
+          "text": "我听见雨落在窗沿，下一段之前停了两秒。"
+        },
+        {
+          "id": "c3-end-004",
+          "speaker": "周既明",
+          "text": "留着吧。人看照片也会停一下。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-end-005",
+          "speaker": "谢听禾",
+          "text": "好。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-end-006",
+          "speaker": "旁白",
+          "text": "她问我许弥有没有好一点。我说不知道，但今天一起核过色。"
+        },
+        {
+          "id": "c3-end-007",
+          "speaker": "谢听禾",
+          "text": "那就先做到今天能做到的。",
+          "medium": "chat"
+        },
+        {
+          "id": "c3-end-008",
+          "speaker": "旁白",
+          "text": "许弥给我发了新版页面：“白色终于像白色了。”"
+        },
+        {
+          "id": "c3-end-009",
+          "speaker": "旁白",
+          "text": "我把旧文件收进归档，没有把它删得像从来没存在过。"
+        },
+        {
+          "id": "c3-end-010",
+          "speaker": "旁白",
+          "text": "这一次保存的，是修正过的版本。"
+        }
+      ],
+      "noSprite": true,
+      "music": "distance",
+      "chapterEnd": true,
+      "continuation": "c4-open"
+    },
+    {
+      "id": "c4-open",
+      "title": "突然安静的窗口",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-open-001",
+          "speaker": "旁白",
+          "text": "四月十日，九点半。听禾的头像没有亮。"
+        },
+        {
+          "id": "c4-open-002",
+          "speaker": "旁白",
+          "text": "声音地图的答辩改到线上，她这几天忙着补录，一直回复得很短。"
+        },
+        {
+          "id": "c4-open-003",
+          "speaker": "旁白",
+          "text": "九点四十六分，我问她今天还听不听小样。"
+        },
+        {
+          "id": "c4-open-004",
+          "speaker": "旁白",
+          "text": "十点十二分，我发了一个问号。"
+        },
+        {
+          "id": "c4-open-005",
+          "speaker": "旁白",
+          "text": "十点半，手机仍然没有动。最后一条消息是昨晚的：“明天见。”"
+        },
+        {
+          "id": "c4-open-006",
+          "speaker": "旁白",
+          "text": "我切到她的动态，看到上午更新的文件。它证明她上午还在，也证明不了别的。"
+        },
+        {
+          "id": "c4-open-007",
+          "speaker": "旁白",
+          "text": "公司在这天发来终止实习的邮件。时间、盖章、实习证明，写得很齐全。"
+        },
+        {
+          "id": "c4-open-008",
+          "speaker": "旁白",
+          "text": "我把那封邮件关上，又打开我们的聊天框。"
+        },
+        {
+          "id": "c4-open-009",
+          "speaker": "许弥",
+          "text": "你今天校色怎么只回一个“嗯”？",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-open-010",
+          "speaker": "周既明",
+          "text": "工作没了。听禾也不在。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-open-011",
+          "speaker": "许弥",
+          "text": "这是两件事。你先吃饭。她下午说家里网络设备坏了，要借别人的。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-open-012",
+          "speaker": "旁白",
+          "text": "我松了一口气，又因为这口气觉得难堪。"
+        },
+        {
+          "id": "c4-open-013",
+          "speaker": "旁白",
+          "text": "我竟然把她没有回复，也当成了今天失去的东西。"
+        },
+        {
+          "id": "c4-open-014",
+          "speaker": "旁白",
+          "text": "屏幕显示“对方离线”。没有倒计时告诉我应该等到什么时候。"
+        }
+      ],
+      "noSprite": true,
+      "music": "rain",
+      "rain": true,
+      "next": "c4-choice"
+    },
+    {
+      "id": "c4-choice",
+      "title": "第三条消息",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-choice-001",
+          "speaker": "旁白",
+          "text": "我已经发了两条消息，输入框里还有第三条：“你为什么不说一声？”"
+        },
+        {
+          "id": "c4-choice-002",
+          "speaker": "旁白",
+          "text": "写到这里，我看见外婆给我留的晚饭。碗边的水汽已经干了。"
+        },
+        {
+          "id": "c4-choice-003",
+          "speaker": "旁白",
+          "text": "我想被回应。她也可能正在处理自己的一天。"
+        },
+        {
+          "id": "c4-choice-004",
+          "speaker": "旁白",
+          "text": "这一晚，该把什么发出去？"
+        }
+      ],
+      "noSprite": true,
+      "music": "rain",
+      "choices": [
+        {
+          "id": "c4-choice-1",
+          "text": "留一句“方便时再回”，去把晚饭热好。",
+          "next": "c4-wait",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          }
+        },
+        {
+          "id": "c4-choice-2",
+          "text": "说清楚自己担心，再约一个不必随时在线的办法。",
+          "next": "c4-ask",
+          "effect": {
+            "honesty": 2,
+            "tinghe": 1
+          }
+        }
+      ],
+      "rain": true
+    },
+    {
+      "id": "c4-wait",
+      "title": "暂时放下手机",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-wait-001",
+          "speaker": "周既明",
+          "text": "看到你要借设备了。方便时再回，我先吃饭。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-wait-002",
+          "speaker": "旁白",
+          "text": "我把第三条长消息删掉，手机放在冰箱上。晚饭热得不太均匀。"
+        },
+        {
+          "id": "c4-wait-003",
+          "speaker": "旁白",
+          "text": "外婆问公司的邮件是什么。我说暂时不能回去实习了。"
+        },
+        {
+          "id": "c4-wait-004",
+          "speaker": "旁白",
+          "text": "她没问我别人怎样，也没说年轻人都一样。她只问证明给不给开。"
+        },
+        {
+          "id": "c4-wait-005",
+          "speaker": "周既明",
+          "text": "给。明天要把寄送地址发过去。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-wait-006",
+          "speaker": "外婆",
+          "text": "那先办那件。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-wait-007",
+          "speaker": "旁白",
+          "text": "吃完饭，我把证明的地址填好，又把简历里没做完的项目标清楚。"
+        },
+        {
+          "id": "c4-wait-008",
+          "speaker": "旁白",
+          "text": "手机仍然安静。那张清单上却有两件可以打勾的事。"
+        },
+        {
+          "id": "c4-wait-009",
+          "speaker": "旁白",
+          "text": "十一点三十一分，听禾发来一条消息。"
+        },
+        {
+          "id": "c4-wait-010",
+          "speaker": "谢听禾",
+          "text": "借到电脑了。很累，今晚想直接睡。明天再说好吗？",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-wait-011",
+          "speaker": "周既明",
+          "text": "好。晚安。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-wait-012",
+          "speaker": "旁白",
+          "text": "我把闹钟调回正常起床的时间，没有等一个新的“晚安”。"
+        }
+      ],
+      "noSprite": true,
+      "music": "rain",
+      "next": "c4-voice",
+      "rain": true
+    },
+    {
+      "id": "c4-ask",
+      "title": "约一个可以缺席的时间",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-ask-001",
+          "speaker": "周既明",
+          "text": "我有点担心。今天公司终止实习，我可能把几件事混在一起了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-002",
+          "speaker": "周既明",
+          "text": "你忙完再回。以后有事可以留一句“今天不在”，不用解释全部。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-003",
+          "speaker": "旁白",
+          "text": "发完，我去热饭。手机从口袋里拿出来，放到了桌子的另一头。"
+        },
+        {
+          "id": "c4-ask-004",
+          "speaker": "旁白",
+          "text": "十一点三十一分，她回复了。"
+        },
+        {
+          "id": "c4-ask-005",
+          "speaker": "谢听禾",
+          "text": "今天设备坏了，答辩又要换文件。我也急。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-006",
+          "speaker": "谢听禾",
+          "text": "我看见你的消息时，第一反应是又有一件必须马上做的事。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-007",
+          "speaker": "周既明",
+          "text": "对不起。我想听到你，又怕说得像在催。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-008",
+          "speaker": "谢听禾",
+          "text": "你可以说想我。我也可以今天没力气聊。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-009",
+          "speaker": "谢听禾",
+          "text": "“今天不在”这个办法可以。可是有时我连这句都会忘。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-010",
+          "speaker": "周既明",
+          "text": "那我们第二天再联系。真有急事，联系陆衡确认一次就好。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-011",
+          "speaker": "谢听禾",
+          "text": "好。别让他每天点名。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-ask-012",
+          "speaker": "旁白",
+          "text": "我们各发了一个晚安。约定里第一次有了可以缺席的位置。"
+        }
+      ],
+      "noSprite": true,
+      "music": "rain",
+      "next": "c4-voice",
+      "rain": true
+    },
+    {
+      "id": "c4-voice",
+      "title": "没有降噪的版本",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-voice-001",
+          "speaker": "旁白",
+          "text": "第二天晚上，听禾把答辩后的版本发来。结尾是四个人的名字。"
+        },
+        {
+          "id": "c4-voice-002",
+          "speaker": "谢听禾",
+          "text": "老师问我，为什么收进自己的呼吸声。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-003",
+          "speaker": "周既明",
+          "text": "你怎么答？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-004",
+          "speaker": "谢听禾",
+          "text": "说因为录音的人也住在这座城里。说完手一直抖。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-005",
+          "speaker": "周既明",
+          "text": "那你后来删了吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-006",
+          "speaker": "谢听禾",
+          "text": "没删。你那次叹气，我也没放进公开版。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-007",
+          "speaker": "旁白",
+          "text": "她开着摄像头，头发比第一次松了一点。衣领上落着一根耳机线。"
+        },
+        {
+          "id": "c4-voice-008",
+          "speaker": "谢听禾",
+          "text": "工作那件事，你还难受吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-009",
+          "speaker": "周既明",
+          "text": "难受。昨天还想把聊天记录翻一遍，看看自己哪里说错了。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-010",
+          "speaker": "谢听禾",
+          "text": "聊天记录不能解释那封邮件。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-011",
+          "speaker": "周既明",
+          "text": "我知道。昨天才真的知道一点。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-012",
+          "speaker": "旁白",
+          "text": "窗外正在下雨。我们把麦克风开着，听了半分钟。"
+        },
+        {
+          "id": "c4-voice-013",
+          "speaker": "谢听禾",
+          "text": "我们以后还会像现在这样说话吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-014",
+          "speaker": "周既明",
+          "text": "不知道会不会每天。但我想。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-015",
+          "speaker": "谢听禾",
+          "text": "我也想。可以先不用把每天都答应下来。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-voice-016",
+          "speaker": "旁白",
+          "text": "我没有把这段录音存下来。第一次觉得，记住一件事不一定需要一个文件。"
+        }
+      ],
+      "noSprite": false,
+      "music": "rain",
+      "next": "c4-envelope",
+      "character": "tinghe",
+      "rain": true
+    },
+    {
+      "id": "c4-envelope",
+      "title": "待寄出的信封",
+      "chapter": 4,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-envelope-001",
+          "speaker": "旁白",
+          "text": "许弥把重新选好的十二张作品发来，问我排版有没有挤。"
+        },
+        {
+          "id": "c4-envelope-002",
+          "speaker": "旁白",
+          "text": "她删掉三张曾经获过小奖的照片，留下两张空椅子。"
+        },
+        {
+          "id": "c4-envelope-003",
+          "speaker": "许弥",
+          "text": "以前总觉得奖状能替我说一句“这个人行”。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-004",
+          "speaker": "周既明",
+          "text": "这次给谁看？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-005",
+          "speaker": "许弥",
+          "text": "外地那家工作室。先问他们收不收新人作品。收了也未必去。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-006",
+          "speaker": "周既明",
+          "text": "店里呢？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-007",
+          "speaker": "许弥",
+          "text": "我妈会接单了。网页上还有你写的大字。她说你把她当小学生。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-008",
+          "speaker": "周既明",
+          "text": "她已经能自己改了吗？",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-009",
+          "speaker": "许弥",
+          "text": "能。改了八次“请稍等”，最后写成“我会看见”。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-010",
+          "speaker": "旁白",
+          "text": "我点开页面。那行字被她母亲换成了暖红，和页面配色不太一致。"
+        },
+        {
+          "id": "c4-envelope-011",
+          "speaker": "旁白",
+          "text": "我没有换回去。"
+        },
+        {
+          "id": "c4-envelope-012",
+          "speaker": "许弥",
+          "text": "你要找新的实习，先用自己的名字。别什么都叫临时项目。",
+          "medium": "call"
+        },
+        {
+          "id": "c4-envelope-013",
+          "speaker": "旁白",
+          "text": "她把信封压平，这一次写上了收件地址。"
+        },
+        {
+          "id": "c4-envelope-014",
+          "speaker": "旁白",
+          "text": "我看着她，也开始把“暂时”从自己的简历里删掉。"
+        }
+      ],
+      "noSprite": false,
+      "music": "rain",
+      "character": "xumi",
+      "rain": true,
+      "next": "c4-name"
+    },
+    {
+      "id": "c4-name",
+      "title": "改掉的下划线",
+      "chapter": 4,
+      "background": "balcony",
+      "location": "梧桐里 · 隔窗",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-name-001",
+          "speaker": "旁白",
+          "text": "周末，我把昵称从“既明_”改成了“周既明”。"
+        },
+        {
+          "id": "c4-name-002",
+          "speaker": "旁白",
+          "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。"
+        },
+        {
+          "id": "c4-name-003",
+          "speaker": "周既明",
+          "text": "还没有。只是想先用名字。",
+          "medium": "chat",
+          "variant": {
+            "stat": "honesty",
+            "min": 3,
+            "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。"
+          }
+        },
+        {
+          "id": "c4-name-004",
+          "speaker": "谢听禾",
+          "text": "收到了。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-name-005",
+          "speaker": "许弥",
+          "text": "系统没发改名通知，你们怎么都盯着他看。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-name-006",
+          "speaker": "陆衡",
+          "text": "因为他欠我一个需求单的筛选按钮。",
+          "medium": "chat"
+        },
+        {
+          "id": "c4-name-007",
+          "speaker": "旁白",
+          "text": "我们讨论按钮讨论了二十分钟。雨小了一点，对面楼有人把窗子推开。"
+        },
+        {
+          "id": "c4-name-008",
+          "speaker": "旁白",
+          "text": "我不知道我们什么时候能见面。也不知道见面之后，会不会把屏幕里的默契说丢。"
+        },
+        {
+          "id": "c4-name-009",
+          "speaker": "旁白",
+          "text": "手机里却有人催我改一个很具体的按钮。"
+        },
+        {
+          "id": "c4-name-010",
+          "speaker": "旁白",
+          "text": "我把它做完，发了新版地址。"
+        },
+        {
+          "id": "c4-name-011",
+          "speaker": "旁白",
+          "text": "这段关系，至少也活在这些普通的事里。"
+        }
+      ],
+      "noSprite": true,
+      "music": "rain",
+      "rain": true,
+      "next": "c4-end"
+    },
+    {
+      "id": "c4-end",
+      "title": "可以不亮的灯",
+      "chapter": 4,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.04.10",
+      "lines": [
+        {
+          "id": "c4-end-001",
+          "speaker": "旁白",
+          "text": "四月的最后一周，群里的采购单越来越短。"
+        },
+        {
+          "id": "c4-end-002",
+          "speaker": "旁白",
+          "text": "陆衡不再每天统计。他给每项说明补了一句以后可以找谁。"
+        },
+        {
+          "id": "c4-end-003",
+          "speaker": "旁白",
+          "text": "听禾答辩结束，要回学校补设备课程。许弥的作品收到了回信，先约了线上交流。"
+        },
+        {
+          "id": "c4-end-004",
+          "speaker": "旁白",
+          "text": "我也收到一份新的面试邀请。不是当初那家公司，职位名称少了两个很漂亮的字。"
+        },
+        {
+          "id": "c4-end-005",
+          "speaker": "旁白",
+          "text": "外婆问我几点去，我说现在先在电脑上。"
+        },
+        {
+          "id": "c4-end-006",
+          "speaker": "旁白",
+          "text": "她替我把那件校服收进了柜子，椅背一下子空出来。"
+        },
+        {
+          "id": "c4-end-007",
+          "speaker": "旁白",
+          "text": "那晚我十一点关灯。群里还有消息，我决定明早看。"
+        },
+        {
+          "id": "c4-end-008",
+          "speaker": "旁白",
+          "text": "听禾发来的最后一句是“明天有空再讲”。"
+        },
+        {
+          "id": "c4-end-009",
+          "speaker": "旁白",
+          "text": "我回了好，把手机扣在桌面上。"
+        },
+        {
+          "id": "c4-end-010",
+          "speaker": "旁白",
+          "text": "这一次，没有把灯留到消息回来。"
+        }
+      ],
+      "noSprite": true,
+      "music": "evening",
+      "chapterEnd": true,
+      "continuation": "c5-open",
+      "rain": true
+    },
+    {
+      "id": "c5-open",
+      "title": "街道重新有了声音",
+      "chapter": 5,
+      "background": "gate",
+      "location": "梧桐里 · 小区门口",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-open-001",
+          "speaker": "旁白",
+          "text": "五月十七日，梧桐里门口的折叠桌收进了值班室。"
+        },
+        {
+          "id": "c5-open-002",
+          "speaker": "旁白",
+          "text": "有人推着自行车出去，车铃响得很轻。我认出听禾录音里的那个音。"
+        },
+        {
+          "id": "c5-open-003",
+          "speaker": "旁白",
+          "text": "我的新实习从下周开始。证明已经收到，外婆的日程也重新有了固定的星期。"
+        },
+        {
+          "id": "c5-open-004",
+          "speaker": "旁白",
+          "text": "照相馆门口少了一根灯管的招牌还没修，许弥说等第一笔营业收入下来再换。"
+        },
+        {
+          "id": "c5-open-005",
+          "speaker": "旁白",
+          "text": "陆衡把大群改成了只保留必要通知，四人的小群却一直没动。"
+        },
+        {
+          "id": "c5-open-006",
+          "speaker": "谢听禾",
+          "text": "明天要回学校取东西。今天下午可以去江边。",
+          "medium": "chat"
+        },
+        {
+          "id": "c5-open-007",
+          "speaker": "许弥",
+          "text": "今天开门试营业。你们路过可以进来坐，但没有开业礼物。",
+          "medium": "chat"
+        },
+        {
+          "id": "c5-open-008",
+          "speaker": "陆衡",
+          "text": "我四点下班。吃面可以，长篇演讲不行。",
+          "medium": "chat"
+        },
+        {
+          "id": "c5-open-009",
+          "speaker": "旁白",
+          "text": "四条消息在同一张屏幕上。我看见窗外的街道，也看见下午空着的三个小时。"
+        },
+        {
+          "id": "c5-open-010",
+          "speaker": "旁白",
+          "text": "我们终于可以在同一座城里，走到彼此面前。"
+        }
+      ],
+      "noSprite": true,
+      "music": "after-rain",
+      "next": "c5-choice"
+    },
+    {
+      "id": "c5-choice",
+      "title": "把下一句当面说",
+      "chapter": 5,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-choice-001",
+          "speaker": "旁白",
+          "text": "我打开聊天列表，想起一个只有账号的夜晚。"
+        },
+        {
+          "id": "c5-choice-002",
+          "speaker": "旁白",
+          "text": "现在每个名字后面，都有我听过的笑声和我答应过的事。"
+        },
+        {
+          "id": "c5-choice-003",
+          "speaker": "旁白",
+          "text": "见面可能笨拙，也可能和想象不一样。没有人保证它会变成一段恋爱。"
+        },
+        {
+          "id": "c5-choice-004",
+          "speaker": "旁白",
+          "text": "我想认真选择今天的邀约，也把选择说清楚。"
+        },
+        {
+          "id": "c5-choice-005",
+          "speaker": "旁白",
+          "text": "这个下午，我想去哪里？"
+        }
+      ],
+      "noSprite": true,
+      "music": "after-rain",
+      "choices": [
+        {
+          "id": "c5-choice-1",
+          "text": "约听禾去江边，把心意当面说出来。",
+          "next": "c5-tinghe",
+          "effect": {
+            "tinghe": 1
+          }
+        },
+        {
+          "id": "c5-choice-2",
+          "text": "去照相馆，问许弥愿不愿意一起吃早饭。",
+          "next": "c5-xumi",
+          "effect": {
+            "xumi": 1
+          }
+        },
+        {
+          "id": "c5-choice-3",
+          "text": "约大家吃一碗面，继续做朋友。",
+          "next": "c5-friends",
+          "effect": {}
+        },
+        {
+          "id": "c5-choice-4",
+          "text": "先为自己留一封信，认真道别。",
+          "next": "c5-letter",
+          "effect": {
+            "honesty": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5-tinghe",
+      "title": "同一条路",
+      "chapter": 5,
+      "background": "riverbank",
+      "location": "梧江步道",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-tinghe-001",
+          "speaker": "旁白",
+          "text": "听禾提前到了，手里的录音笔没有打开。"
+        },
+        {
+          "id": "c5-tinghe-002",
+          "speaker": "旁白",
+          "text": "她站在长椅旁边，看见我时，先喊了一声“周既明”。"
+        },
+        {
+          "id": "c5-tinghe-003",
+          "speaker": "旁白",
+          "text": "我差点说“听得见”。那是我在通话里最常给她的回答。"
+        },
+        {
+          "id": "c5-tinghe-004",
+          "speaker": "周既明",
+          "text": "你好。"
+        },
+        {
+          "id": "c5-tinghe-005",
+          "speaker": "谢听禾",
+          "text": "你好。你的声音离近了，跟耳机里有点不一样。"
+        },
+        {
+          "id": "c5-tinghe-006",
+          "speaker": "周既明",
+          "text": "失望吗？"
+        },
+        {
+          "id": "c5-tinghe-007",
+          "speaker": "谢听禾",
+          "text": "没有。只是要重新听一遍。"
+        },
+        {
+          "id": "c5-tinghe-008",
+          "speaker": "旁白",
+          "text": "我们并肩走了半条路。我把准备了三天的开场白忘得很干净。"
+        },
+        {
+          "id": "c5-tinghe-009",
+          "speaker": "旁白",
+          "text": "她问我新工作几点下班。我问她取完设备什么时候回来。",
+          "variant": {
+            "stat": "tinghe",
+            "min": 3,
+            "text": "我们并肩走了半条路。她提起那份一起核过署名的声音地图，我把准备好的开场白忘得很干净。"
+          }
+        },
+        {
+          "id": "c5-tinghe-010",
+          "speaker": "旁白",
+          "text": "都不够像我想象中的第一次见面，倒很像我们真会过的一个下午。"
+        },
+        {
+          "id": "c5-tinghe-011",
+          "speaker": "谢听禾",
+          "text": "你今天约我，是想说什么吗？"
+        },
+        {
+          "id": "c5-tinghe-012",
+          "speaker": "旁白",
+          "text": "我停下。江边的风把她的耳机线吹到开衫上，她伸手压住。"
+        },
+        {
+          "id": "c5-tinghe-013",
+          "speaker": "周既明",
+          "text": "我喜欢和你一起待着。屏幕里也是，现在也是。"
+        },
+        {
+          "id": "c5-tinghe-014",
+          "speaker": "周既明",
+          "text": "想继续认识你。你回学校之后，也想约你见面。"
+        },
+        {
+          "id": "c5-tinghe-015",
+          "speaker": "旁白",
+          "text": "听禾低头看了一眼没开机的录音笔，又抬起头。"
+        },
+        {
+          "id": "c5-tinghe-016",
+          "speaker": "谢听禾",
+          "text": "我也想。可是开学以后，我可能真的很忙。"
+        },
+        {
+          "id": "c5-tinghe-017",
+          "speaker": "周既明",
+          "text": "那就约你能来的时间。也不需要每次都有一段好听的话。"
+        },
+        {
+          "id": "c5-tinghe-018",
+          "speaker": "谢听禾",
+          "text": "那下次我可能只会说，我饿了。"
+        },
+        {
+          "id": "c5-tinghe-019",
+          "speaker": "周既明",
+          "text": "这次也可以。前面有面馆。"
+        },
+        {
+          "id": "c5-tinghe-020",
+          "speaker": "旁白",
+          "text": "她笑起来，完整地笑完了，没有卡在一半。"
+        },
+        {
+          "id": "c5-tinghe-021",
+          "speaker": "旁白",
+          "text": "我们走过那张长椅，谁也没有拿起手机。"
+        }
+      ],
+      "noSprite": false,
+      "music": "evening",
+      "next": "end-tinghe",
+      "character": "tinghe"
+    },
+    {
+      "id": "end-tinghe",
+      "title": "同一段呼吸",
+      "chapter": 5,
+      "background": "riverbank",
+      "location": "梧江步道",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "end-tinghe-001",
+          "speaker": "旁白",
+          "text": "回学校的前一晚，听禾给我发来新课表，圈了下周六下午。"
+        },
+        {
+          "id": "end-tinghe-002",
+          "speaker": "谢听禾",
+          "text": "那天要不要一起录点声音？"
+        },
+        {
+          "id": "end-tinghe-003",
+          "speaker": "周既明",
+          "text": "录完再吃面。"
+        },
+        {
+          "id": "end-tinghe-004",
+          "speaker": "谢听禾",
+          "text": "好。这次别把汤喝完才问我吃不吃葱。"
+        },
+        {
+          "id": "end-tinghe-005",
+          "speaker": "旁白",
+          "text": "我们没有把头像换成一对，也没有在群里发一段很长的宣布。"
+        },
+        {
+          "id": "end-tinghe-006",
+          "speaker": "旁白",
+          "text": "许弥看见两碗面挨在一起，发来一句“终于不用给你们校网速了”。"
+        },
+        {
+          "id": "end-tinghe-007",
+          "speaker": "旁白",
+          "text": "陆衡让我们下一次记得留座。他还要倒班。"
+        },
+        {
+          "id": "end-tinghe-008",
+          "speaker": "旁白",
+          "text": "我把日程写进日历。约会也是需要确认地点和时间的普通事。"
+        },
+        {
+          "id": "end-tinghe-009",
+          "speaker": "旁白",
+          "text": "窗外一辆公交开过去。我看了一眼屏幕，把话留到见面再说。"
+        },
+        {
+          "id": "end-tinghe-010",
+          "speaker": "旁白",
+          "text": "从一个好友申请开始，我们终于学会在同一段呼吸里回答。"
+        }
+      ],
+      "noSprite": false,
+      "music": "after-rain",
+      "character": "tinghe",
+      "ending": "tinghe-final"
+    },
+    {
+      "id": "c5-xumi",
+      "title": "重新开门",
+      "chapter": 5,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-xumi-001",
+          "speaker": "旁白",
+          "text": "我到的时候，许弥正把卷帘推到最上面。她抬头看我，笑了一下。"
+        },
+        {
+          "id": "c5-xumi-002",
+          "speaker": "许弥",
+          "text": "真人看起来，比蓝底照片自然一点。"
+        },
+        {
+          "id": "c5-xumi-003",
+          "speaker": "周既明",
+          "text": "你还留着那张？"
+        },
+        {
+          "id": "c5-xumi-004",
+          "speaker": "许弥",
+          "text": "店里老客户的底片会归档。没拿来做展。"
+        },
+        {
+          "id": "c5-xumi-005",
+          "speaker": "旁白",
+          "text": "她说完，我们都停了一下，然后一起笑了。"
+        },
+        {
+          "id": "c5-xumi-006",
+          "speaker": "旁白",
+          "text": "柜台上摆着三个信封。最上面那只写了外地工作室的地址，封口已经粘好。"
+        },
+        {
+          "id": "c5-xumi-007",
+          "speaker": "周既明",
+          "text": "决定去了？"
+        },
+        {
+          "id": "c5-xumi-008",
+          "speaker": "许弥",
+          "text": "先寄作品。交流完再决定。决定之前，不拿“以后”糊弄人。"
+        },
+        {
+          "id": "c5-xumi-009",
+          "speaker": "周既明",
+          "text": "那我能先问一个具体的以后吗？"
+        },
+        {
+          "id": "c5-xumi-010",
+          "speaker": "许弥",
+          "text": "你说。"
+        },
+        {
+          "id": "c5-xumi-011",
+          "speaker": "周既明",
+          "text": "明天早上，要不要一起吃早饭？不用我帮你修网页。"
+        },
+        {
+          "id": "c5-xumi-012",
+          "speaker": "旁白",
+          "text": "她把手里的笔放进围裙口袋。十几秒过去，比通话里久得多。"
+        },
+        {
+          "id": "c5-xumi-013",
+          "speaker": "许弥",
+          "text": "你是想当我的固定技术支持，还是想约我？"
+        },
+        {
+          "id": "c5-xumi-014",
+          "speaker": "周既明",
+          "text": "想约你。也想以后继续约。"
+        },
+        {
+          "id": "c5-xumi-015",
+          "speaker": "许弥",
+          "text": "好。七点半，拐角那家。晚了我会自己先吃。"
+        },
+        {
+          "id": "c5-xumi-016",
+          "speaker": "周既明",
+          "text": "我会提前到。"
+        },
+        {
+          "id": "c5-xumi-017",
+          "speaker": "许弥",
+          "text": "别提前半小时。我不想刚起床就欠你一个很隆重的早晨。"
+        },
+        {
+          "id": "c5-xumi-018",
+          "speaker": "旁白",
+          "text": "她从柜台拿出一只空信封，写了我的名字。",
+          "variant": {
+            "stat": "xumi",
+            "min": 3,
+            "text": "她从柜台拿出一只空信封，写了我的名字。旁边的旧手机亮着我们一起做的大字页面。"
+          }
+        },
+        {
+          "id": "c5-xumi-019",
+          "speaker": "许弥",
+          "text": "下次一起拍的照片放这儿。拍之前我会问你。"
+        },
+        {
+          "id": "c5-xumi-020",
+          "speaker": "旁白",
+          "text": "店门口有人推门进来，她说欢迎光临。我退到旁边，第一次看她在自己的生活里忙起来。"
+        },
+        {
+          "id": "c5-xumi-021",
+          "speaker": "旁白",
+          "text": "我没有觉得被晾在一边。她指了指凳子，给我留了一个可以等的位置。"
+        }
+      ],
+      "noSprite": false,
+      "music": "workshop",
+      "next": "end-xumi",
+      "character": "xumi"
+    },
+    {
+      "id": "end-xumi",
+      "title": "显影的明天",
+      "chapter": 5,
+      "background": "printshop",
+      "location": "拾光照相馆",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "end-xumi-001",
+          "speaker": "旁白",
+          "text": "第二天我迟到三分钟。公交改了线，我在错误的站台等了十分钟。"
+        },
+        {
+          "id": "end-xumi-002",
+          "speaker": "旁白",
+          "text": "许弥已经吃了半碗面，给我留着旁边的凳子。"
+        },
+        {
+          "id": "end-xumi-003",
+          "speaker": "许弥",
+          "text": "说好的提前呢？"
+        },
+        {
+          "id": "end-xumi-004",
+          "speaker": "周既明",
+          "text": "以后我核对一下路线。"
+        },
+        {
+          "id": "end-xumi-005",
+          "speaker": "许弥",
+          "text": "记得核对自己说的话就行。"
+        },
+        {
+          "id": "end-xumi-006",
+          "speaker": "旁白",
+          "text": "我们吃完，各自去上班。她的工作室交流安排在周四，我答应晚上听她讲。"
+        },
+        {
+          "id": "end-xumi-007",
+          "speaker": "旁白",
+          "text": "后来我们拍了第一张合照，没有公开。许弥在信封背面写下日期。"
+        },
+        {
+          "id": "end-xumi-008",
+          "speaker": "旁白",
+          "text": "她仍然想去外地，我也刚开始新的工作。两个人谈起这些，不再急着把远一点的事说成永远。"
+        },
+        {
+          "id": "end-xumi-009",
+          "speaker": "旁白",
+          "text": "七点半的早餐写进日历，下一次的位置留在柜台旁边。"
+        },
+        {
+          "id": "end-xumi-010",
+          "speaker": "旁白",
+          "text": "招牌那根灯管终于修好了。我路过时，许弥隔着玻璃朝我抬了一下手。"
+        }
+      ],
+      "noSprite": false,
+      "music": "after-rain",
+      "character": "xumi",
+      "ending": "xumi-final"
+    },
+    {
+      "id": "c5-friends",
+      "title": "四碗面",
+      "chapter": 5,
+      "background": "riverbank",
+      "location": "梧江步道",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-friends-001",
+          "speaker": "旁白",
+          "text": "面馆桌子太小，四碗面上齐之后，手机只能收回口袋。"
+        },
+        {
+          "id": "c5-friends-002",
+          "speaker": "旁白",
+          "text": "陆衡把醋递给许弥，听禾在找筷子，我替自己那碗捞出香菜。"
+        },
+        {
+          "id": "c5-friends-003",
+          "speaker": "陆衡",
+          "text": "你们网上打字那么快，怎么真人都不说话？"
+        },
+        {
+          "id": "c5-friends-004",
+          "speaker": "许弥",
+          "text": "在忙。你那碗不需要挑吗？"
+        },
+        {
+          "id": "c5-friends-005",
+          "speaker": "陆衡",
+          "text": "我的世界比较宽容。"
+        },
+        {
+          "id": "c5-friends-006",
+          "speaker": "旁白",
+          "text": "谢听禾笑得差点把汤洒出来。我终于听见她的笑不经过压缩。"
+        },
+        {
+          "id": "c5-friends-007",
+          "speaker": "旁白",
+          "text": "我们讲了新实习、照相馆的收件人、学校补课的时间。"
+        },
+        {
+          "id": "c5-friends-008",
+          "speaker": "旁白",
+          "text": "没有人问谁喜欢谁，也没有人把四碗面当作一种错过。"
+        },
+        {
+          "id": "c5-friends-009",
+          "speaker": "周既明",
+          "text": "互助群以后不用每天看了吧？"
+        },
+        {
+          "id": "c5-friends-010",
+          "speaker": "陆衡",
+          "text": "大群不用。小群看你们。别都等我喊。"
+        },
+        {
+          "id": "c5-friends-011",
+          "speaker": "许弥",
+          "text": "换个名字。不想每天打开都像还没营业。"
+        },
+        {
+          "id": "c5-friends-012",
+          "speaker": "谢听禾",
+          "text": "“这周谁有空”？"
+        },
+        {
+          "id": "c5-friends-013",
+          "speaker": "旁白",
+          "text": "我在桌下把群名改了。三个人的手机同时响起来。"
+        },
+        {
+          "id": "c5-friends-014",
+          "speaker": "陆衡",
+          "text": "你看，还是得我有空。"
+        },
+        {
+          "id": "c5-friends-015",
+          "speaker": "旁白",
+          "text": "我们笑了很久。店外有一辆公交停靠，路边的车铃响了两声。"
+        },
+        {
+          "id": "c5-friends-016",
+          "speaker": "旁白",
+          "text": "声音地图可以结束了，我们的群聊还有别的事情能继续。"
+        },
+        {
+          "id": "c5-friends-017",
+          "speaker": "旁白",
+          "text": "我拍了一张面，不拍人。许弥替我把碗往光里推了一点。"
+        }
+      ],
+      "noSprite": true,
+      "music": "workshop",
+      "next": "end-friends"
+    },
+    {
+      "id": "end-friends",
+      "title": "群聊没有散",
+      "chapter": 5,
+      "background": "riverbank",
+      "location": "梧江步道",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "end-friends-001",
+          "speaker": "旁白",
+          "text": "后来，小群有时安静三天，有时一个晚上发满二十条消息。"
+        },
+        {
+          "id": "end-friends-002",
+          "speaker": "旁白",
+          "text": "听禾回学校，许弥去参加工作室交流，陆衡换了一次班，我试用期还没结束。"
+        },
+        {
+          "id": "end-friends-003",
+          "speaker": "旁白",
+          "text": "群里最常出现的话，真的变成了“这周谁有空”。"
+        },
+        {
+          "id": "end-friends-004",
+          "speaker": "旁白",
+          "text": "不是每次都能凑齐。凑不齐时，吃完面的人会发一张碗。"
+        },
+        {
+          "id": "end-friends-005",
+          "speaker": "旁白",
+          "text": "有一天许弥寄来四张照片，每人一张。照片后面写了那顿面的日期。"
+        },
+        {
+          "id": "end-friends-006",
+          "speaker": "旁白",
+          "text": "我把它贴在桌边，下面还是采购清单的第一版。"
+        },
+        {
+          "id": "end-friends-007",
+          "speaker": "旁白",
+          "text": "有人喜欢，有人暂时只想做朋友。说清楚之后，位置并没有因此变少。"
+        },
+        {
+          "id": "end-friends-008",
+          "speaker": "旁白",
+          "text": "某个普通的周四，陆衡发来消息：下班了，有空吃东西吗？"
+        },
+        {
+          "id": "end-friends-009",
+          "speaker": "旁白",
+          "text": "我看了一眼日程，回复有。"
+        },
+        {
+          "id": "end-friends-010",
+          "speaker": "旁白",
+          "text": "这次没有城里安静的长夜，我们仍然可以相约。"
+        }
+      ],
+      "noSprite": true,
+      "music": "after-rain",
+      "ending": "friends-final"
+    },
+    {
+      "id": "c5-letter",
+      "title": "一封给自己的信",
+      "chapter": 5,
+      "background": "bedroom",
+      "location": "周既明的房间",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "c5-letter-001",
+          "speaker": "旁白",
+          "text": "我没有给下午安排一场见面。先把那份新实习的材料装进文件袋。"
+        },
+        {
+          "id": "c5-letter-002",
+          "speaker": "旁白",
+          "text": "学校催交的毕业表格还没有填完，外婆下周要有人陪着去办事。"
+        },
+        {
+          "id": "c5-letter-003",
+          "speaker": "旁白",
+          "text": "我在小群里说，今天不去了。有些事想自己整理一下。"
+        },
+        {
+          "id": "c5-letter-004",
+          "speaker": "谢听禾",
+          "text": "好。想见的时候再问，不用赶在今天。"
+        },
+        {
+          "id": "c5-letter-005",
+          "speaker": "许弥",
+          "text": "信封我给你留着。"
+        },
+        {
+          "id": "c5-letter-006",
+          "speaker": "陆衡",
+          "text": "你别又把午饭整理没了。"
+        },
+        {
+          "id": "c5-letter-007",
+          "speaker": "旁白",
+          "text": "他们的回答很普通。我原本准备的解释，一下子用不上了。"
+        },
+        {
+          "id": "c5-letter-008",
+          "speaker": "旁白",
+          "text": "我拿出一张纸，写：周既明，这几个月发生的事是真的。"
+        },
+        {
+          "id": "c5-letter-009",
+          "speaker": "旁白",
+          "text": "有人听过你的叹气，有人教你核对一张照片，也有人记得你没吃饭。"
+        },
+        {
+          "id": "c5-letter-010",
+          "speaker": "旁白",
+          "text": "你对人动过心，做错过事，修正了一部分。还没有决定的部分，可以继续想。"
+        },
+        {
+          "id": "c5-letter-011",
+          "speaker": "旁白",
+          "text": "我写到这里，停下来。纸上的句子没法撤回，也没有“对方正在输入”。"
+        },
+        {
+          "id": "c5-letter-012",
+          "speaker": "旁白",
+          "text": "给听禾的消息，我终于写清楚：现在我想先把自己的生活接好，不希望你一直等。"
+        },
+        {
+          "id": "c5-letter-013",
+          "speaker": "旁白",
+          "text": "她回复明白，也谢谢我说清楚。"
+        },
+        {
+          "id": "c5-letter-014",
+          "speaker": "旁白",
+          "text": "许弥的照片展我还会看。她的工作室交流，我也祝她顺利。"
+        },
+        {
+          "id": "c5-letter-015",
+          "speaker": "旁白",
+          "text": "我没有把聊天记录删除。把它们归档时，给文件夹写了完整的年份。"
+        },
+        {
+          "id": "c5-letter-016",
+          "speaker": "旁白",
+          "text": "外婆喊我吃饭。我把信折好，走出房间。"
+        }
+      ],
+      "noSprite": true,
+      "music": "evening",
+      "next": "end-letter"
+    },
+    {
+      "id": "end-letter",
+      "title": "离线也会想念",
+      "chapter": 5,
+      "background": "balcony",
+      "location": "梧桐里 · 隔窗",
+      "time": "2020.05.17",
+      "lines": [
+        {
+          "id": "end-letter-001",
+          "speaker": "旁白",
+          "text": "入夏之前，听禾的声音地图拿到了课程成绩。她把最终版发来，说谢谢一起完成。"
+        },
+        {
+          "id": "end-letter-002",
+          "speaker": "旁白",
+          "text": "许弥寄出的作品收到回复。她没有立刻搬走，开始认真列出要学的东西。"
+        },
+        {
+          "id": "end-letter-003",
+          "speaker": "旁白",
+          "text": "陆衡依旧倒班。我的新实习也有不顺利的时候，晚上会累得不想看屏幕。"
+        },
+        {
+          "id": "end-letter-004",
+          "speaker": "旁白",
+          "text": "关系慢慢少了每天的消息。某些记得很清楚的时间，也渐渐不再固定。"
+        },
+        {
+          "id": "end-letter-005",
+          "speaker": "旁白",
+          "text": "我会想念九点半，会想念空椅子的照片。想念没有让我把已经说清楚的话收回。"
+        },
+        {
+          "id": "end-letter-006",
+          "speaker": "旁白",
+          "text": "那封给自己的信留在抽屉里，旁边是一张没有买成的车票。"
+        },
+        {
+          "id": "end-letter-007",
+          "speaker": "旁白",
+          "text": "我不把这几个月叫作“白费”。只是没有给每一次相遇安排同一种结尾。"
+        },
+        {
+          "id": "end-letter-008",
+          "speaker": "旁白",
+          "text": "五月的风从阳台穿过去，晾衣杆又碰了一下。"
+        },
+        {
+          "id": "end-letter-009",
+          "speaker": "旁白",
+          "text": "我听见了，没有录下来。"
+        },
+        {
+          "id": "end-letter-010",
+          "speaker": "旁白",
+          "text": "手机扣在桌上。楼下有人喊我的名字，我答应了一声。"
+        }
+      ],
+      "noSprite": true,
+      "music": "after-rain",
+      "ending": "letter-final"
+    }
+  ]
+}

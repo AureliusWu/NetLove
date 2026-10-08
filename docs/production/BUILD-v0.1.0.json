@@ -1,0 +1,131 @@
+{
+  "project": "NetLove",
+  "version": "0.1.0",
+  "sourceCommit": "aacc7dd064315b9620343a18c737c64dec02cbb0",
+  "buildRun": {
+    "id": 37743739256,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/37743739256",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 113200232687,
+        "name": "web",
+        "conclusion": "success"
+      },
+      {
+        "id": 113200761615,
+        "name": "windows",
+        "conclusion": "success"
+      },
+      {
+        "id": 113201444975,
+        "name": "release",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "browser": {
+    "version": "153.0.8010.12",
+    "tests": 8,
+    "seconds": 49.2
+  },
+  "logic": {
+    "tests": 18,
+    "scenes": 43,
+    "paths": 288,
+    "endings": 4
+  },
+  "desktop": {
+    "platform": "Windows x64",
+    "version": "0.1.0",
+    "sourceSmoke": true,
+    "packagedSmoke": true,
+    "packagedExecutable": "release/win-unpacked/网恋.exe",
+    "checks": [
+      "story",
+      "autosave",
+      "fullWindow",
+      "pictureMode",
+      "sandbox",
+      "tinghe",
+      "xumi",
+      "ending",
+      "archive"
+    ],
+    "artifact": {
+      "id": 11534832242,
+      "name": "NetLove-Desktop-Previews",
+      "size_in_bytes": 606119,
+      "url": "https://api.github.com/repos/AureliusWu/NetLove/actions/artifacts/11534832242",
+      "archive_download_url": "https://api.github.com/repos/AureliusWu/NetLove/actions/artifacts/11534832242/zip",
+      "expired": false,
+      "created_at": "2026-10-08T07:32:56Z",
+      "expires_at": "2027-01-06T07:29:25Z",
+      "updated_at": "2026-10-08T07:32:56Z",
+      "digest": "sha256:cbfa63f7dc49215a0f5f7c041c9b0ce1763b9479ef9bf2ea4d55573ea2c3e9e9",
+      "workflow_run": {
+        "id": 37743739256,
+        "repository_id": 1408667505,
+        "head_repository_id": 1408667505,
+        "head_branch": "main",
+        "head_sha": "aacc7dd064315b9620343a18c737c64dec02cbb0"
+      }
+    },
+    "screenshots": [
+      {
+        "artifactPath": "packaged.png",
+        "sourcePngSha256": "85a1627de6378fda63e35d41e2754fee00d47d91db7fb979f68ed5304100eb48",
+        "width": 1008,
+        "height": 681
+      },
+      {
+        "artifactPath": "source.png",
+        "sourcePngSha256": "68dc0e6921c797e9d3c14e6f87884e9c513c42679ddd37947697ce6612919967",
+        "width": 1008,
+        "height": 681
+      }
+    ]
+  },
+  "pagesRun": {
+    "id": 37744179101,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/37744179101",
+    "conclusion": "success",
+    "publicUrl": "https://aureliuswu.github.io/NetLove/"
+  },
+  "release": {
+    "tag": "v0.1.0",
+    "prerelease": true,
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.1.0",
+    "target": "aacc7dd064315b9620343a18c737c64dec02cbb0",
+    "assets": [
+      {
+        "name": "NetLove-0.1.0-x64-Portable.exe",
+        "bytes": 115608720,
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.0/NetLove-0.1.0-x64-Portable.exe",
+        "sha256": "bf65967240a0b8236cb9c437cce27be07446733d7b89a0f3cfef4f54d1c9006f"
+      },
+      {
+        "name": "NetLove-0.1.0-x64-Setup.exe",
+        "bytes": 115828153,
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.0/NetLove-0.1.0-x64-Setup.exe",
+        "sha256": "7f50183c163d17ef1733e5c561ac5eca1642d6b61c67c04ab8b184bf7e68118b"
+      },
+      {
+        "name": "NetLove-PWA-0.1.0.zip",
+        "bytes": 4000575,
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.0/NetLove-PWA-0.1.0.zip",
+        "sha256": "d34579c0dd39e3cf106973663cff0666628f8e15bd4fc609c22962a480fedc16"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 279,
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.0/SHA256SUMS.txt",
+        "sha256": "a4859e9db5ae81d7c03614c73c3773da5e65c95ad096a04644c8e4ec913313b6"
+      }
+    ]
+  },
+  "capabilityFeedback": {
+    "Project1": "4a79d30e90bea1f4e98e6838c6907e9839638b59",
+    "Test": "72d1389af407aa103f696bba4df1f9e5c0b466e5"
+  }
+}

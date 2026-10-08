@@ -1,0 +1,46 @@
+{
+  "url": "https://aureliuswu.github.io/NetLove/",
+  "testedAt": "2026-10-08T07:36:41.270Z",
+  "browser": "138.0.7204.0",
+  "executionProxyPinned": true,
+  "http": 200,
+  "manifest": {
+    "url": "https://aureliuswu.github.io/NetLove/manifest.webmanifest",
+    "status": 200,
+    "name": "“网”恋 · NetLove",
+    "start_url": "./",
+    "scope": "./",
+    "orientation": "landscape",
+    "display": "standalone"
+  },
+  "cache": {
+    "scope": "https://aureliuswu.github.io/NetLove/",
+    "worker": "https://aureliuswu.github.io/NetLove/sw.js",
+    "name": "netlove-b84147b3834174",
+    "files": [
+      "https://aureliuswu.github.io/NetLove/art/balcony.webp",
+      "https://aureliuswu.github.io/NetLove/art/bedroom.webp",
+      "https://aureliuswu.github.io/NetLove/art/gate.webp",
+      "https://aureliuswu.github.io/NetLove/art/printshop.webp",
+      "https://aureliuswu.github.io/NetLove/art/riverbank.webp",
+      "https://aureliuswu.github.io/NetLove/art/tinghe.webp",
+      "https://aureliuswu.github.io/NetLove/art/xumi.webp",
+      "https://aureliuswu.github.io/NetLove/assets/index-BLufAFeG.css",
+      "https://aureliuswu.github.io/NetLove/assets/index-C469KfVr.js",
+      "https://aureliuswu.github.io/NetLove/assets/story-serif-DoWRf2gT.woff2",
+      "https://aureliuswu.github.io/NetLove/icons/icon-192.png",
+      "https://aureliuswu.github.io/NetLove/icons/icon-512.png",
+      "https://aureliuswu.github.io/NetLove/icons/icon.svg",
+      "https://aureliuswu.github.io/NetLove/icons/maskable-512.png",
+      "https://aureliuswu.github.io/NetLove/index.html",
+      "https://aureliuswu.github.io/NetLove/licenses/MIT.txt",
+      "https://aureliuswu.github.io/NetLove/licenses/OFL-NotoSerifSC.txt",
+      "https://aureliuswu.github.io/NetLove/manifest.webmanifest"
+    ]
+  },
+  "offlineReload": true,
+  "restoredLine": 1,
+  "pageErrors": [],
+  "imagesLoadedOffline": true,
+  "sourceCommit": "aacc7dd064315b9620343a18c737c64dec02cbb0"
+}

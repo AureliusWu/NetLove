@@ -10,7 +10,7 @@
 
 ![实际标题界面](docs/previews/title-desktop.jpg)
 
-源码已可运行。实际发布与验证状态见 [STATUS](docs/STATUS.md) 和 [VALIDATION](docs/VALIDATION.md)，[构建流程](https://github.com/AureliusWu/NetLove/actions/workflows/build.yml) 成功后提供 PWA ZIP 与 Windows 安装/便携包。[版本下载](https://github.com/AureliusWu/NetLove/releases)。
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.1.0)。公开 PWA 已验证断网续读，Windows 源码与实际 EXE 启动检查均通过。完整发布与验证记录见 [STATUS](docs/STATUS.md)、[VALIDATION](docs/VALIDATION.md) 和 [构建凭据](docs/production/BUILD-v0.1.0.json)。
 
 ## 开发与游玩
 

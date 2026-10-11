@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "contractVersion": "1.1.0",
+  "project": "NetLove",
+  "repository": "https://github.com/AureliusWu/NetLove",
+  "sourceCommit": "e331d2512fa77cb39ee08f94af3f019e67b561d1",
+  "inventoryDate": "2026-10-11",
+  "entries": [
+    {
+      "id": "shared-vn-production",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "AureliusWu/Rain, NetLove and Healing; shared production contract v1.1.0",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code/procedural material only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "docs/production/SHARED-VN.md",
+          "encoding": "text-lf",
+          "sha256": "f08a062eed6bf65683b8fd4197bbd3852973adb45d5f107a72d303028c571f1d"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-contract.mjs",
+          "encoding": "text-lf",
+          "sha256": "7385f28e51f7b633e3e64ec15b51891d4b5edbc17d1f3a0a7d18c9d5887ecdb7"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-contract.d.mts",
+          "encoding": "text-lf",
+          "sha256": "382423131839fa824b4ba46ad2c64cb5653c6a562f736c381da938f013ac776f"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-materials.mjs",
+          "encoding": "text-lf",
+          "sha256": "3b7ad85d6437f85bb376dbe2bf1d72b5c086c1a7a89e5db6e1cfe6ba78d76d6d"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-materials.test.mjs",
+          "encoding": "text-lf",
+          "sha256": "591898378eab69462e3d8f725486574c7ef7201a0f74fa7441de63b50bce9cab"
+        },
+        {
+          "role": "recipe",
+          "path": "docs/production/REUSABLE-MATERIALS.md",
+          "encoding": "text-lf",
+          "sha256": "68659626d126f1e8751f145123541da02c7592b9ce19fc24d5ee9cab3cbfa6e4"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/ART-PROMPT.md",
+          "encoding": "text-lf",
+          "sha256": "2707278d457016924469427b4d80e2a7ae19a7090df06d3fc0f33a1c3348db49"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/ASSET-RECORD.json",
+          "encoding": "text-lf",
+          "sha256": "e89b8775b40e89e5ca57135fbae0eb8f13a009ff450fcb9baed83b9543c92cc9"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/DUAL-PLATFORM-CHECKLIST.md",
+          "encoding": "text-lf",
+          "sha256": "25e938e4294def0b00b34cc4703bfdec7221591fd2ae13ce10109cc390d933d1"
+        }
+      ]
+    },
+    {
+      "id": "story-serif-subset",
+      "kind": "font",
+      "reuse": "licensed",
+      "origin": "Noto Serif SC; project-specific subset",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Upstream full font is not stored here; regenerate with target JSON/UI glyph coverage, preserve OFL naming restrictions",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "file": {
+          "role": "license",
+          "path": "public/licenses/OFL-NotoSerifSC.txt",
+          "encoding": "text-lf",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+        }
+      },
+      "files": [
+        {
+          "role": "runtime",
+          "path": "src/assets/story-serif.woff2",
+          "encoding": "binary",
+          "sha256": "81d46caf0e65a640f068080e7f29301a68248c9912118758d15c14e61bdebbd3"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/subset-font.py",
+          "encoding": "text-lf",
+          "sha256": "960639e6b6290a19f49fd347d70f77b360ebed69d7497a6c553c0d7b429ac9c6"
+        }
+      ]
+    },
+    {
+      "id": "image-encoding",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project Pillow encoding and atlas checks; adapt to target assets",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code/procedural material only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "scripts/prepare-art.py",
+          "encoding": "text-lf",
+          "sha256": "856ef48fbad2dd50af0b46a0a9e745fcc3986cd2850f90dcc98db36c514393b5"
+        }
+      ]
+    },
+    {
+      "id": "font-subsetting",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project fonttools glyph collection and subsetting; regenerate for target story",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code/procedural material only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "scripts/subset-font.py",
+          "encoding": "text-lf",
+          "sha256": "960639e6b6290a19f49fd347d70f77b360ebed69d7497a6c553c0d7b429ac9c6"
+        }
+      ]
+    },
+    {
+      "id": "procedural-web-audio",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project melody/chord/WebAudio synthesis; adapt scene IDs, UI store and browser audio unlock",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code/procedural material only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "src/game/score.ts",
+          "encoding": "text-lf",
+          "sha256": "2a9c35be38a493ec2328320fc1dcb5839d1a867718ce28821d52f653717505fc"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/music.ts",
+          "encoding": "text-lf",
+          "sha256": "28e22c08cfcfd1630c78ca240edce439d9ab73d266892706e877d4f7fe8793f3"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/types.ts",
+          "encoding": "text-lf",
+          "sha256": "2bd980718febf4d1700cc5eae64c72a04720d9982da4fb12dc1ba9de0ad366bc"
+        }
+      ]
+    },
+    {
+      "id": "balcony",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/balcony.webp",
+          "encoding": "binary",
+          "sha256": "04dce5cbcf590d7b0b036d2f402f35eb86d2f1518e4cdd008ea5c3f4526760ac"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/balcony.png",
+          "encoding": "binary",
+          "sha256": "c91ae32393ff69507c3425cfc3a591a605cf84d3ad4ff960a92d73f89058286e"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "alpha": false,
+        "bytes": 336686
+      }
+    },
+    {
+      "id": "bedroom",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/bedroom.webp",
+          "encoding": "binary",
+          "sha256": "64535cf28fa0d0eb5cc9ae902cbb54a1826144d5992c40d87a7346d8e846e75b"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/bedroom.png",
+          "encoding": "binary",
+          "sha256": "731ee26f4ebdeb12fc61586269c4962a9a64e969a00bab09638b2199535e92c1"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "alpha": false,
+        "bytes": 273962
+      }
+    },
+    {
+      "id": "gate",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/gate.webp",
+          "encoding": "binary",
+          "sha256": "5a64798bc0d0f24e840e2cccd7d7bac172c60910d2697527d8a0c5d8b3b7c0a7"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/gate.png",
+          "encoding": "binary",
+          "sha256": "747615ff8dc8881398bc975d25cea09f7e87b7b5e9cf611715871ac81980c61c"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "alpha": false,
+        "bytes": 456476
+      }
+    },
+    {
+      "id": "printshop",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/printshop.webp",
+          "encoding": "binary",
+          "sha256": "eabe81d164f5dede2c97495c90888f97f44f4b5d635a903cfd9a759b0dcbd85b"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/printshop.png",
+          "encoding": "binary",
+          "sha256": "cd8a10f301796e10c54163ac4ecdff8b2111334bb1c434a27a3cb0b647f2d498"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "alpha": false,
+        "bytes": 330828
+      }
+    },
+    {
+      "id": "riverbank",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/riverbank.webp",
+          "encoding": "binary",
+          "sha256": "df3895afa353c7c062890b48b75644f19234eb7ad4592584c0dc29001f87fd1d"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/riverbank.png",
+          "encoding": "binary",
+          "sha256": "f15ba3f5333386d25ade91f338a4c8289da9b74fae496325d593d8c9c5e2b47e"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "alpha": false,
+        "bytes": 461570
+      }
+    },
+    {
+      "id": "tinghe",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/tinghe.webp",
+          "encoding": "binary",
+          "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/tinghe.png",
+          "encoding": "binary",
+          "sha256": "fcdc4e55b7511029b4475687c2e42fadf714959855b3989a690515e80d2bf474"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "alpha": true,
+        "bytes": 939400
+      }
+    },
+    {
+      "id": "xumi",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "present",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/xumi.webp",
+          "encoding": "binary",
+          "sha256": "e21e2e044722a37f84fd3802c334367a4bb7f585a3d23da630fe0ddd8c7f4640"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/xumi.png",
+          "encoding": "binary",
+          "sha256": "079cca98f10b4892851a5606a5a0679559bf6440f801aa8b0c8f2a63c922866f"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v1.json",
+          "encoding": "text-lf",
+          "sha256": "79496e1397c245ffac159cb9c3067002fb60c16f3f4d2f69ac1a11619ec52a29"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "alpha": true,
+        "bytes": 873976
+      }
+    },
+    {
+      "id": "pwa-offline-delivery",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "NetLove scope-isolated atomic cache and install/update state adapter; change namespace/BASE_URL/build paths for a new app",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code/procedural material only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "src/pwa.ts",
+          "encoding": "text-lf",
+          "sha256": "fa0751a4b447274a38ad30247e2018534fe3be575b3b191a136031e71431ead3"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/build-pwa.mjs",
+          "encoding": "text-lf",
+          "sha256": "b7be8ef29b5fbd937301bb271f8d459c02d4de4685f67c9cb2ba38b2a6ceeb69"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/pwa-build.mjs",
+          "encoding": "text-lf",
+          "sha256": "18c0bcd19ad0cf158983d14fe48254cb73f89492f35789a828186b853901f59c"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/pwa-build.d.mts",
+          "encoding": "text-lf",
+          "sha256": "be206b0b9934aede25b490a7fa270e1e92440df04979e134f58e53df0dbb8594"
+        }
+      ]
+    }
+  ]
+}

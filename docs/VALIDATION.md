@@ -1,5 +1,18 @@
 # 验证记录
 
+2026-10-11 / v0.1.1 本地验证。
+
+- `npm run check` exit 0：素材工具 5 项、Vitest 31 项、生产构建、Chromium 145.0.7632.6 的 14 项浏览器测试全部通过（1.1 分钟）。测试使用 NetLove 专属端口、自启严格端口服务，避免其他项目预览被误复用。
+- 43 场景、507 段、288 条真实路线与四结局保持原有完整性。新增 PWA 单元覆盖路径摘要、文件长度边界、scope 缓存清理、安装批次失败、本作品激活才就绪、失败后重试与等待更新；浏览器验证父 scope 已 ready 仍能准确识别本作品下载失败、两条部署路径断网重开、关闭所有游戏页后新版接管并恢复存档与图像。
+- 更新测试通过 scope 外页面观察旧客户端清空后再重开，避免“新版本仍合法 waiting、按钮改为有新版本”的测试竞争；没有改变产品的等待更新策略。
+- `npm run desktop:win` 构建 NSIS 与 portable 成功。源码和实际 win-unpacked EXE 各自 `DESKTOP_SMOKE_OK`，version 0.1.1，packaged 分别 false/true；原有九项检查、真实 HTML 原生全屏入/退、end-tinghe 第 9 段 UI/磁盘存档保持，以及最终 hiddenWindow 均通过。smoke 静音、禁止抢焦点和任务栏入口，退出全屏后隐藏；原生全屏转换可能短暂显示，未宣称完全 headless。
+- ASAR 内 20 个 dist 文件逐字节与最终已测构建相同，desktop main/smoke 脚本也一致。两个 EXE 与源码/包截图的 SHA-256、尺寸和字节写入 [LOCAL-VALIDATION-v0.1.1.json](production/LOCAL-VALIDATION-v0.1.1.json)。这些属于本机证据；CI 的发行资产应另记本次真实哈希，不假设与本机构建一致。
+- 共用素材校验 13 项/36 文件，固定共用文本哈希 9 项；本地 `.reuse-kit/netlove-0.1.1-final` 导出 6 项/21 文件，所有导出哈希重新校验、7 项作品专属图像排除。CI 提供独立材料附件。
+- 原始基线由 e331d25 的 git archive 隔离重建，与修改前的 cache/JS 身份及 4,272,913 字节一致；最终 dist 4,273,064 字节。三次成组测量及真实 dispatch 区分自动等待，结果与全部组见 [PERFORMANCE-v0.1.1.json](production/PERFORMANCE-v0.1.1.json)。小样本墙钟增长与下降均保留，最终 WARN；未给公开网络或实体设备性能结论。
+- 新版 GitHub CI、公开 PWA 与实际安装/升级尚待独立凭据；不把 v0.1.0 的线上 PASS 借给 v0.1.1。没有修改正常玩家窗口设置、剧情、图像与存档标识。
+
+## v0.1.0 历史发布验证
+
 2026-10-08 / v0.1.0。
 
 - 18 项 Vitest 检查通过；43 场景与全部 288 条完整路线可达，四结局齐全；完整路线、代表路线逐段重放与非法存档拒绝通过。

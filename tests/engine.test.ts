@@ -22,7 +22,7 @@ function explore(initial: GameState) {
 }
 explore(newGame());
 describe('authored story and native replay',()=>{
-  it('validates unique stable IDs, successors and all scene reachability',()=>expect(validateGraph(story)).toEqual({contract:'1.0.0',scenes:43,lines:507,choices:6,endings:4}));
+  it('validates unique stable IDs, successors and all scene reachability',()=>expect(validateGraph(story)).toEqual({contract:'1.1.0',scenes:43,lines:507,choices:6,endings:4}));
   it('plays all 288 choice combinations to a final ending',()=>{expect(terminals).toHaveLength(288);expect(new Set(terminals.map(s=>getScene(s).ending))).toEqual(new Set(finalEndingIds));});
   it('actually visits all 43 scenes',()=>expect(visited.size).toBe(scenes.length));
   it('roundtrips every full route, reconstructing stats and history',()=>{for(const s of terminals){const decoded=decodeSave(JSON.stringify(encodeSave(s))).state;expect(decoded.decisions).toEqual(s.decisions);expect(decoded.stats).toEqual(s.stats);expect(decoded.sceneId).toBe(s.sceneId);expect(decoded.line).toBe(s.line);expect(decoded.history.at(-1)?.text).toBe(s.history.at(-1)?.text);}});

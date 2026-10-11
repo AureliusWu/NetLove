@@ -17,7 +17,7 @@ jobs:
   deploy:
     if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -44,7 +44,11 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci --ignore-scripts && npm test && npm run build
+      - run: npm ci --ignore-scripts && npm run test:materials && npm test && npm run build
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - run: npx playwright install --with-deps chromium
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - run: npm run test:e2e
         if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
       - uses: actions/configure-pages@v5
         if: steps.current.outputs.deploy == 'true'
@@ -53,7 +57,41 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         if: steps.current.outputs.deploy == 'true'
         with:
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: dist
-      - uses: actions/deploy-pages@v4
+      - name: Recheck main immediately before publishing
+        id: latest
         if: steps.current.outputs.deploy == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {data}=await github.rest.git.getRef({...context.repo,ref:'heads/main'});
+            const target=context.payload.workflow_run?.head_sha||context.sha;
+            core.setOutput('deploy',String(data.object.sha===target));
+            if(data.object.sha!==target) core.notice('A newer main commit exists; this older build will not replace it.');
+      - uses: actions/deploy-pages@v4
+        if: steps.latest.outputs.deploy == 'true'
         id: deployment
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/setup-node@v4
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+      - run: npx playwright install --with-deps chromium
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+      - name: Verify actual published version and disconnected reading
+        if: steps.deployment.outcome == 'success'
+        run: node scripts/live-smoke.mjs
+        env:
+          GAME_URL: ${{ steps.deployment.outputs.page_url }}
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.deployment.outcome == 'success'
+        with:
+          name: NetLove-Live-Previews
+          path: test-results/live/

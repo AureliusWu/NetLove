@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "version": "0.1.1",
+  "recordedAt": "2026-10-11T03:54:26.269Z",
+  "sourceBaseline": "e331d2512fa77cb39ee08f94af3f019e67b561d1",
+  "branch": "main",
+  "sourceState": "Uncommitted coordinated changes; final release commit/CI/public evidence is recorded separately after publishing.",
+  "runtime": {
+    "node": "v24.14.0",
+    "electron": "44.5.1",
+    "localChromium": "145.0.7632.6",
+    "hostOS": "Windows10.0.26200 x64"
+  },
+  "story": {
+    "game": "netlove",
+    "storyVersion": "netlove-v1",
+    "storageKey": "netlove:v1",
+    "scenes": 43,
+    "lines": 507,
+    "routes": 288,
+    "endings": 4,
+    "creativeContentChanged": false
+  },
+  "validation": {
+    "command": "npm run check",
+    "exitCode": 0,
+    "sharedTests": 5,
+    "sharedFiles": 9,
+    "catalogEntries": 13,
+    "catalogFiles": 36,
+    "logicTests": 31,
+    "e2eTests": 14,
+    "e2eDuration": "1.1m",
+    "e2eViewports": [
+      "1440x900",
+      "412x915",
+      "568x320",
+      "844x390"
+    ],
+    "scopeIsolation": [
+      "/NetLove/",
+      "/Copy/"
+    ],
+    "parentWorkerFirstDownloadFailureAndRetry": true,
+    "waitingUpdateCloseActivateOfflineSavedLine": true,
+    "desktopSource": {
+      "exitCode": 0,
+      "packaged": false,
+      "version": "0.1.1",
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0
+    },
+    "desktopPackaged": {
+      "exitCode": 0,
+      "packaged": true,
+      "version": "0.1.1",
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0
+    },
+    "desktopChecks": {
+      "story": true,
+      "autosave": true,
+      "fullWindow": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "tinghe": true,
+      "xumi": true,
+      "ending": true,
+      "archive": true,
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true
+    },
+    "desktopBuild": {
+      "command": "npm run desktop:win",
+      "exitCode": 0,
+      "targets": [
+        "NSIS",
+        "portable"
+      ],
+      "asarPackageVersion": "0.1.1",
+      "allDistFilesIdenticalToTestedBuild": true,
+      "desktopMainAndSmokeScriptIdentical": true,
+      "smokeVisibility": {
+        "initialShowSuppressed": true,
+        "focusable": false,
+        "skipTaskbar": true,
+        "audioMuted": true,
+        "backgroundThrottling": false,
+        "sourceFinalHidden": true,
+        "packagedFinalHidden": true,
+        "note": "Native fullscreen can briefly display the OS window. Explicit hide occurs after exit and at completion; final hiddenWindow is measured, not an all-time headless guarantee. These options apply only to smoke mode."
+      }
+    }
+  },
+  "pwa": {
+    "precacheFiles": 18,
+    "distFiles": 20,
+    "distBytes": 4273064,
+    "cacheVersion": "591cbb6ecda27a",
+    "cachePrefix": "netlove-v2:<encoded exact registration.scope>:",
+    "legacyUnscopedCaches": "Retained because another installation may own them.",
+    "distFilesAndPackagedComparison": [
+      {
+        "path": "dist/art/balcony.webp",
+        "bytes": 336686,
+        "sha256": "04dce5cbcf590d7b0b036d2f402f35eb86d2f1518e4cdd008ea5c3f4526760ac",
+        "packagedSha256": "04dce5cbcf590d7b0b036d2f402f35eb86d2f1518e4cdd008ea5c3f4526760ac",
+        "identical": true
+      },
+      {
+        "path": "dist/art/bedroom.webp",
+        "bytes": 273962,
+        "sha256": "64535cf28fa0d0eb5cc9ae902cbb54a1826144d5992c40d87a7346d8e846e75b",
+        "packagedSha256": "64535cf28fa0d0eb5cc9ae902cbb54a1826144d5992c40d87a7346d8e846e75b",
+        "identical": true
+      },
+      {
+        "path": "dist/art/gate.webp",
+        "bytes": 456476,
+        "sha256": "5a64798bc0d0f24e840e2cccd7d7bac172c60910d2697527d8a0c5d8b3b7c0a7",
+        "packagedSha256": "5a64798bc0d0f24e840e2cccd7d7bac172c60910d2697527d8a0c5d8b3b7c0a7",
+        "identical": true
+      },
+      {
+        "path": "dist/art/printshop.webp",
+        "bytes": 330828,
+        "sha256": "eabe81d164f5dede2c97495c90888f97f44f4b5d635a903cfd9a759b0dcbd85b",
+        "packagedSha256": "eabe81d164f5dede2c97495c90888f97f44f4b5d635a903cfd9a759b0dcbd85b",
+        "identical": true
+      },
+      {
+        "path": "dist/art/riverbank.webp",
+        "bytes": 461570,
+        "sha256": "df3895afa353c7c062890b48b75644f19234eb7ad4592584c0dc29001f87fd1d",
+        "packagedSha256": "df3895afa353c7c062890b48b75644f19234eb7ad4592584c0dc29001f87fd1d",
+        "identical": true
+      },
+      {
+        "path": "dist/art/tinghe.webp",
+        "bytes": 939400,
+        "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098",
+        "packagedSha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098",
+        "identical": true
+      },
+      {
+        "path": "dist/art/xumi.webp",
+        "bytes": 873976,
+        "sha256": "e21e2e044722a37f84fd3802c334367a4bb7f585a3d23da630fe0ddd8c7f4640",
+        "packagedSha256": "e21e2e044722a37f84fd3802c334367a4bb7f585a3d23da630fe0ddd8c7f4640",
+        "identical": true
+      },
+      {
+        "path": "dist/assets/index-BLufAFeG.css",
+        "bytes": 41952,
+        "sha256": "8ac44440955daab6542f56d59d5013b4d78ac6e0e0e8b99c2e65e9191a908b39",
+        "packagedSha256": "8ac44440955daab6542f56d59d5013b4d78ac6e0e0e8b99c2e65e9191a908b39",
+        "identical": true
+      },
+      {
+        "path": "dist/assets/index-BwvXqvD-.js",
+        "bytes": 342750,
+        "sha256": "7b8272bb123a810113eab83c75fa8bfbf06925a21ff1309a1790080fe51b3c02",
+        "packagedSha256": "7b8272bb123a810113eab83c75fa8bfbf06925a21ff1309a1790080fe51b3c02",
+        "identical": true
+      },
+      {
+        "path": "dist/assets/story-serif-DoWRf2gT.woff2",
+        "bytes": 181248,
+        "sha256": "81d46caf0e65a640f068080e7f29301a68248c9912118758d15c14e61bdebbd3",
+        "packagedSha256": "81d46caf0e65a640f068080e7f29301a68248c9912118758d15c14e61bdebbd3",
+        "identical": true
+      },
+      {
+        "path": "dist/icons/icon-192.png",
+        "bytes": 4835,
+        "sha256": "2888467df172dfdea19f20d65d7061ca548257bfe8fa79ec253ce17fca8c9d59",
+        "packagedSha256": "2888467df172dfdea19f20d65d7061ca548257bfe8fa79ec253ce17fca8c9d59",
+        "identical": true
+      },
+      {
+        "path": "dist/icons/icon-512.png",
+        "bytes": 3092,
+        "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+        "packagedSha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+        "identical": true
+      },
+      {
+        "path": "dist/icons/icon.ico",
+        "bytes": 13394,
+        "sha256": "30b334ee3ebafce2ebd37b26126aebb2481ef762c2fb2003dc4cc89ddfa4537e",
+        "packagedSha256": "30b334ee3ebafce2ebd37b26126aebb2481ef762c2fb2003dc4cc89ddfa4537e",
+        "identical": true
+      },
+      {
+        "path": "dist/icons/icon.svg",
+        "bytes": 395,
+        "sha256": "044316806fc16bda90dd265ed18633fb4fd1d54e66a6374622565ebf1bb45c7e",
+        "packagedSha256": "044316806fc16bda90dd265ed18633fb4fd1d54e66a6374622565ebf1bb45c7e",
+        "identical": true
+      },
+      {
+        "path": "dist/icons/maskable-512.png",
+        "bytes": 3092,
+        "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+        "packagedSha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+        "identical": true
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 1162,
+        "sha256": "eca7a690348c8bff2140d4a124d1a87f0c1cd6ca1199d7947617872f6168227d",
+        "packagedSha256": "eca7a690348c8bff2140d4a124d1a87f0c1cd6ca1199d7947617872f6168227d",
+        "identical": true
+      },
+      {
+        "path": "dist/licenses/MIT.txt",
+        "bytes": 1088,
+        "sha256": "238146682b7b36c5e0c8577a6c99dc51af60908b6905a8534c726fa0350661e5",
+        "packagedSha256": "238146682b7b36c5e0c8577a6c99dc51af60908b6905a8534c726fa0350661e5",
+        "identical": true
+      },
+      {
+        "path": "dist/licenses/OFL-NotoSerifSC.txt",
+        "bytes": 4444,
+        "sha256": "64538aaa923b7e75559725ecf64eff7b18f623857b8e6d31a7347743ab27e907",
+        "packagedSha256": "64538aaa923b7e75559725ecf64eff7b18f623857b8e6d31a7347743ab27e907",
+        "identical": true
+      },
+      {
+        "path": "dist/manifest.webmanifest",
+        "bytes": 719,
+        "sha256": "5ae7c1cb59cde07e899fe590ec2cbbe982881761d9f0a9131bc2d19d470a546f",
+        "packagedSha256": "5ae7c1cb59cde07e899fe590ec2cbbe982881761d9f0a9131bc2d19d470a546f",
+        "identical": true
+      },
+      {
+        "path": "dist/sw.js",
+        "bytes": 1995,
+        "sha256": "65830eacc95951cfe0a3b7c587442a2900e51f7ba843004d5c3a815157ab040b",
+        "packagedSha256": "65830eacc95951cfe0a3b7c587442a2900e51f7ba843004d5c3a815157ab040b",
+        "identical": true
+      }
+    ]
+  },
+  "windowsArtifacts": [
+    {
+      "path": "release/NetLove-0.1.1-x64-Setup.exe",
+      "bytes": 115828594,
+      "sha256": "f75cdef3f67448c77f41f3bcfff2b6f6c3f1f5cfe48f29b9fc841f89877b7f36",
+      "authenticode": "NotSigned"
+    },
+    {
+      "path": "release/NetLove-0.1.1-x64-Portable.exe",
+      "bytes": 115609216,
+      "sha256": "330f5acabbfe0558b7af6dd02587870666883ad3c455048364996449851554ac",
+      "authenticode": "NotSigned"
+    }
+  ],
+  "desktopScreenshots": [
+    {
+      "path": "test-results/desktop/source.png",
+      "bytes": 1992117,
+      "sha256": "6dd388201630570d69acdb8cb23a6458ce6767d25b38f992ffaa37217c5fce69",
+      "width": 1683,
+      "height": 1030
+    },
+    {
+      "path": "test-results/desktop/packaged.png",
+      "bytes": 1992117,
+      "sha256": "6dd388201630570d69acdb8cb23a6458ce6767d25b38f992ffaa37217c5fce69",
+      "width": 1683,
+      "height": 1030
+    }
+  ],
+  "reusableKit": {
+    "path": ".reuse-kit/netlove-0.1.1-final",
+    "entries": 6,
+    "files": 21,
+    "excludedProjectOnly": 7,
+    "allExportedHashesRechecked": true,
+    "manifest": {
+      "path": ".reuse-kit/netlove-0.1.1-final/MANIFEST.json",
+      "bytes": 12213,
+      "sha256": "8ae535fde3909903adb5a9e92bcd8c237dec48a9f18456aed23bd882246accdb"
+    }
+  },
+  "performance": {
+    "record": "docs/production/PERFORMANCE-v0.1.1.json",
+    "verdict": "WARN; small-sample timing variance; no blanket performance PASS"
+  },
+  "pending": {
+    "newVersionGithubCI": true,
+    "newVersionPublicPwa": true,
+    "realMobileInstall": true,
+    "realInstallerUpgradeAndDataPreservation": true,
+    "authenticodeSigning": true
+  },
+  "notes": [
+    "Original v0.1.0 production evidence is retained separately.",
+    "Source execution, win-unpacked execution, NSIS/portable creation, public deployment and installer upgrade acceptance are separate evidence.",
+    "Packaged content is byte-compared against final tested dist and desktop scripts."
+  ],
+  "intermediateDesktopRecord": {
+    "recordedAt": "2026-10-11T03:46:42.953Z",
+    "note": "The earlier nine checks included full-window artwork, not native fullscreen. The earlier hidden-mode field described initial show suppression and was not a runtime visibility measurement; it is superseded by the explicit native fullscreen and final visibility checks below.",
+    "windowsArtifacts": [
+      {
+        "path": "release/NetLove-0.1.1-x64-Setup.exe",
+        "bytes": 115828183,
+        "sha256": "a1a8db1f1bac7548363ff971c6a3bdbbebe6785c1239782edb79f82baeb572bd",
+        "authenticode": "NotSigned"
+      },
+      {
+        "path": "release/NetLove-0.1.1-x64-Portable.exe",
+        "bytes": 115608725,
+        "sha256": "5c45e52cf209a4ef5102ec30dd95a09625a64044b32ff4b593285645360d86d6",
+        "authenticode": "NotSigned"
+      }
+    ],
+    "checks": {
+      "story": true,
+      "autosave": true,
+      "fullWindow": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "tinghe": true,
+      "xumi": true,
+      "ending": true,
+      "archive": true
+    }
+  }
+}

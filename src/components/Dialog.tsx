@@ -22,7 +22,7 @@ export function Dialog({ title, subtitle, children, onClose, wide = false }: { t
   }, [onClose]);
   return <div className="overlay" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
     <div ref={ref} className={`dialog ${wide ? 'wide' : ''}`} role="dialog" aria-modal="true" aria-labelledby="dialog-title">
-      <div className="dialog-heading"><div><span className="eyebrow">MOIST HEALING</span><h2 id="dialog-title">{title}</h2>{subtitle && <p>{subtitle}</p>}</div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" /></button></div>
+      <div className="dialog-heading"><div><span className="eyebrow">NETLOVE</span><h2 id="dialog-title">{title}</h2>{subtitle && <p>{subtitle}</p>}</div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" /></button></div>
       <div className="dialog-body">{children}</div>
     </div>
   </div>;

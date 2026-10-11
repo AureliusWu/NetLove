@@ -1,7 +1,7 @@
 {
   "name": "netlove",
   "productName": "网恋",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
@@ -19,7 +19,8 @@
     "desktop": "npm run build && electron .",
     "desktop:pack": "npm run build && electron-builder --dir --publish never",
     "desktop:win": "npm run build && electron-builder --win --x64 --publish never",
-    "check": "npm test && npm run build && npm run test:e2e"
+    "test:materials": "node --test scripts/vn-materials.test.mjs && node scripts/vn-materials.mjs verify",
+    "check": "npm run test:materials && npm test && npm run build && npm run test:e2e"
   },
   "dependencies": {
     "react": "19.3.0",

@@ -14,4 +14,10 @@ NetLove 使用 game=netlove、storyVersion=netlove-v1、localStorage=netlove:v1�
 
 开发：npm ci / npm run dev。生产：npm run build。Windows：npm run desktop:win。实际包检查：npm run test:desktop:packaged。全部生成物和依赖不入 Git。
 
+v0.1.1 的缓存身份由归一化资源相对路径、长度与内容共同生成，缓存名带完整 registration.scope。同源不同路径的安装互不清理；旧版没有 scope 标识的缓存保留，因为无法准确判定其所属安装。离线完成只认本作品注册中已 activated 的 Worker，父路径其他 Worker 的 ready 不作为下载证明。更新不执行 skipWaiting，等所有游戏窗口关闭再接管。
+
+共用制作契约 v1.1.0 服务 Rain、NetLove、Healing。`npm run test:materials` 校验共用文件哈希、素材来源与许可，`npm run check` 串行执行素材、逻辑、构建、浏览器检查。素材目录与导出约定见 [REUSABLE-MATERIALS](production/REUSABLE-MATERIALS.md)，作品专属图像不进入通用材料包。
+
+桌面 smoke 使用独立临时 profile，静音、禁止抢焦点和任务栏入口，关闭测试模式的后台节流，实际验证 HTML 原生全屏进出与保存段落。全屏转换可能令系统短暂显示窗口；退出全屏后明确 hide，报告最后的 hiddenWindow 实测值，不能称为全过程无窗口。普通玩家的窗口焦点、任务栏、音频与后台节流采用默认行为。源码 smoke、win-unpacked EXE、安装/升级与公开 PWA 保持独立证据。
+
 技术参考：[Electron 安全](https://www.electronjs.org/docs/latest/tutorial/security/)、[MDN 离线缓存](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching)、[Manifest orientation](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation)。

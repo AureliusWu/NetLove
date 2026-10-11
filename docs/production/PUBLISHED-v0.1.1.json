@@ -1,0 +1,306 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "version": "0.1.1",
+  "recordedAtUtc": "2026-10-11T04:09:08.292Z",
+  "engineeringDelivery": "complete playable preview",
+  "testedCodeSha": "d013a9a95b18ddeab23fb72df12fe67efa509b96",
+  "codeUrl": "https://github.com/AureliusWu/NetLove/commit/d013a9a95b18ddeab23fb72df12fe67efa509b96",
+  "build": {
+    "id": 38110158252,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38110158252",
+    "headSha": "d013a9a95b18ddeab23fb72df12fe67efa509b96",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "web",
+        "conclusion": "success",
+        "startedAt": "2026-10-11T03:59:56Z",
+        "completedAt": "2026-10-11T04:01:37Z"
+      },
+      {
+        "name": "windows",
+        "conclusion": "success",
+        "startedAt": "2026-10-11T04:01:39Z",
+        "completedAt": "2026-10-11T04:03:41Z"
+      },
+      {
+        "name": "release",
+        "conclusion": "success",
+        "startedAt": "2026-10-11T04:03:43Z",
+        "completedAt": "2026-10-11T04:04:12Z"
+      }
+    ],
+    "tests": {
+      "sharedMaterialTool": 5,
+      "vitest": 31,
+      "playwright": 14
+    },
+    "desktopRuntime": [
+      {
+        "story": true,
+        "autosave": true,
+        "fullWindow": true,
+        "pictureMode": true,
+        "sandbox": true,
+        "tinghe": true,
+        "xumi": true,
+        "ending": true,
+        "archive": true,
+        "nativeFullscreen": true,
+        "fullscreenProgress": true,
+        "hiddenWindow": true,
+        "smokeShowEvents": 0,
+        "packaged": false,
+        "version": "0.1.1"
+      },
+      {
+        "story": true,
+        "autosave": true,
+        "fullWindow": true,
+        "pictureMode": true,
+        "sandbox": true,
+        "tinghe": true,
+        "xumi": true,
+        "ending": true,
+        "archive": true,
+        "nativeFullscreen": true,
+        "fullscreenProgress": true,
+        "hiddenWindow": true,
+        "smokeShowEvents": 0,
+        "packaged": true,
+        "version": "0.1.1"
+      }
+    ],
+    "materials": {
+      "contractVersion": "1.1.0",
+      "entries": 6,
+      "files": 21,
+      "excludedProjectOnly": 7,
+      "allExportedHashesVerified": true
+    },
+    "artifacts": [
+      {
+        "id": 11691352277,
+        "name": "NetLove-Reusable-Materials",
+        "digest": "sha256:40c5c378465e57e9b9df60224b14c4d353a48cbf965cc2ca99c6b7796d604798",
+        "bytes": 211847
+      },
+      {
+        "id": 11691179162,
+        "name": "NetLove-Desktop-Previews",
+        "digest": "sha256:1fcf5cdd1997ad46962a0ee2056f9c49ef3497878438556ab1e9aa2078daa173",
+        "bytes": 1634044
+      },
+      {
+        "id": 11691158760,
+        "name": "NetLove-PWA",
+        "digest": "sha256:37e2abe0faf2fa6db1883ce8a2e9df07b45f707d4ee7400a42d64a86b8f9e8ac",
+        "bytes": 4000817
+      },
+      {
+        "id": 11690928953,
+        "name": "NetLove-Previews",
+        "digest": "sha256:4bbbbc0d79ea0bc76e7b7c1eb402da2bec3a921372246f2025c1a86d9b0e1402",
+        "bytes": 26104052
+      },
+      {
+        "id": 11690799371,
+        "name": "NetLove-Windows-x64",
+        "digest": "sha256:cacb9216524c08df2111a9807bf9462d4753b1917e381067467ab693e76bedac",
+        "bytes": 231452132
+      }
+    ]
+  },
+  "pages": {
+    "id": 38110407401,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38110407401",
+    "headSha": "d013a9a95b18ddeab23fb72df12fe67efa509b96",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "deploy",
+        "conclusion": "success",
+        "startedAt": "2026-10-11T04:04:19Z",
+        "completedAt": "2026-10-11T04:05:27Z"
+      }
+    ],
+    "publishedUrl": "https://aureliuswu.github.io/NetLove/",
+    "mainRecheckedImmediatelyBeforeDeploy": true,
+    "entryIntegrity": [
+      {
+        "path": "index.html",
+        "bytes": 1144,
+        "sha256": "ba45b77a3bd7fa535390a5ee15f9bc430a8d9252c388c6030b9cc791d24293bc",
+        "httpStatus": 200,
+        "responseBytesMatchCiArtifact": true,
+        "ciLiveAndIndependentLiveVerified": true
+      },
+      {
+        "path": "sw.js",
+        "bytes": 1995,
+        "sha256": "58ed5ffd91d513be8d7caf47dfcd320ef29296f316b2eb56f15c3d3c9deefe09",
+        "httpStatus": 200,
+        "responseBytesMatchCiArtifact": true,
+        "ciLiveAndIndependentLiveVerified": true
+      }
+    ],
+    "ciPublicBrowser": {
+      "browserVersion": "153.0.8010.12",
+      "results": [
+        {
+          "screen": "desktop",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "mobile",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": true,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "landscape",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        }
+      ]
+    },
+    "independentPublicBrowser": {
+      "browserVersion": "154.0.8037.98",
+      "results": [
+        {
+          "screen": "desktop",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "mobile",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": true,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "landscape",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.1.1",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        }
+      ],
+      "usesEnvironmentProxy": true,
+      "customCaConfigured": false,
+      "certificateValidationBypassed": false
+    },
+    "liveArtifact": [
+      {
+        "id": 11691159095,
+        "name": "NetLove-Live-Previews",
+        "digest": "sha256:cb1b34ae63d19b1b3dc9bf814627e517595ded7181e866066a0f157ecbdfb14d",
+        "bytes": 6759526
+      }
+    ]
+  },
+  "release": {
+    "tag": "v0.1.1",
+    "tagCommit": "d013a9a95b18ddeab23fb72df12fe67efa509b96",
+    "targetCommit": "d013a9a95b18ddeab23fb72df12fe67efa509b96",
+    "prerelease": true,
+    "draft": false,
+    "publishedAt": "2026-10-11T04:04:10Z",
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.1.1",
+    "assets": [
+      {
+        "name": "NetLove-0.1.1-x64-Portable.exe",
+        "bytes": 115609215,
+        "sha256": "15337395b9c48341e35945cb02f7bcfa72b1db5690ccd2c34fe66faa8ce6be31",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.1/NetLove-0.1.1-x64-Portable.exe",
+        "downloadedBytesVerified": true,
+        "githubDigestMatches": true,
+        "checksumTableMatches": true,
+        "authenticode": "NotSigned",
+        "executedLocally": false,
+        "installedLocally": false
+      },
+      {
+        "name": "NetLove-0.1.1-x64-Setup.exe",
+        "bytes": 115828670,
+        "sha256": "44df4d665dd9d16a1b8d37f6c83bdb74cd8d1d34ac1da7de331474f06700b185",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.1/NetLove-0.1.1-x64-Setup.exe",
+        "downloadedBytesVerified": true,
+        "githubDigestMatches": true,
+        "checksumTableMatches": true,
+        "authenticode": "NotSigned",
+        "executedLocally": false,
+        "installedLocally": false
+      },
+      {
+        "name": "NetLove-PWA-0.1.1.zip",
+        "bytes": 4000585,
+        "sha256": "a4fe7916c095385cdadbc465383e6ceea879d9a7457d2470e95e1b3b6c025d99",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.1/NetLove-PWA-0.1.1.zip",
+        "downloadedBytesVerified": true,
+        "githubDigestMatches": true,
+        "checksumTableMatches": true
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 279,
+        "sha256": "48177d5a0851939b35d765912766372d2a1e8922b059514c8f5fb628433d1367",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.1.1/SHA256SUMS.txt",
+        "downloadedBytesVerified": true,
+        "githubDigestMatches": true,
+        "checksumTableMatches": "table file itself"
+      }
+    ],
+    "pwaReleaseZipByteForByteEqualToCiArtifact": true,
+    "pwaFileCount": 20
+  },
+  "boundaries": {
+    "localBuildRecord": "LOCAL-VALIDATION-v0.1.1.json",
+    "ciAssetsAreNotTheLocalBuild": true,
+    "realMobileHomeScreenInstall": "not performed",
+    "realNsisInstallAndUpgradeDataPreservation": "not performed",
+    "windowsSigning": "unsigned; both downloaded EXEs report NotSigned",
+    "performance": "WARN; see PERFORMANCE-v0.1.1.json; no public-network or real-device timing claim",
+    "smokeVisibility": "no focus/audio; native fullscreen may briefly show a window, measured hidden at completion; not fully headless"
+  }
+}

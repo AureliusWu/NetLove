@@ -10,7 +10,9 @@
 
 ![实际标题界面](docs/previews/title-desktop.jpg)
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases)。v0.1.1 修补离线完成判断与多路径缓存隔离，保留原有剧情和存档。源码、实际 Windows 包、公开部署分别验收；本地记录见 [LOCAL-VALIDATION](docs/production/LOCAL-VALIDATION-v0.1.1.json)，最新发布状态见 [STATUS](docs/STATUS.md) 与 [VALIDATION](docs/VALIDATION.md)。v0.1.0 的已发布凭据继续保留。
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [v0.1.1 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.1.1)。v0.1.1 修补离线完成判断与多路径缓存隔离，保留原有剧情和存档。
+
+2026-10-11 双端工程交付完成：测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96` 的 [Build 38110158252](https://github.com/AureliusWu/NetLove/actions/runs/38110158252) 与 [Pages 38110407401](https://github.com/AureliusWu/NetLove/actions/runs/38110407401) 均通过，v0.1.1 预发布标签精确指向该提交。CI 和独立公网浏览器分别通过电脑、手机、横屏的真实断网刷新与续读；入口和 Service Worker 哈希与该 CI 的 PWA 产物一致。两份公开 EXE 与 PWA ZIP 已实际下载并核对发布校验表。发布资产的真实大小、SHA-256 和验收边界见 [PUBLISHED](docs/production/PUBLISHED-v0.1.1.json)；本机构建另记 [LOCAL-VALIDATION](docs/production/LOCAL-VALIDATION-v0.1.1.json)，最新状态见 [STATUS](docs/STATUS.md) 与 [VALIDATION](docs/VALIDATION.md)。v0.1.0 历史凭据继续保留。
 
 ## 开发与游玩
 

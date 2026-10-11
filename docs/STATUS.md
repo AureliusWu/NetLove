@@ -1,6 +1,6 @@
 # v0.1.1 双端可靠性补丁
 
-2026-10-11：本地实现与验证完成，等待本次提交的 GitHub CI、版本发行与公开 PWA 部署验收。v0.1.0 的历史发布记录保留在下方，不作为新版线上通过的证明。
+2026-10-11：v0.1.1 双端工程交付完成，继续定位为五章可玩预览。测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96` 已通过本次 GitHub CI、版本发行与公开 PWA 验收。v0.1.0 历史记录保留在下方，新版使用自己的独立凭据。
 
 修补 PWA 就绪误认、多安装路径缓存互相清理与资源改名不更新缓存三处缺口。已激活的本作品 Worker 才能显示离线完成；首装失败可重试，更新等窗口全部关闭才接管。五章正文、人物、图像、引擎、`netlove-v1` 和 `netlove:v1` 都保持原有内容与身份。
 
@@ -12,7 +12,11 @@ Rain、NetLove、Healing 使用共用制作契约 v1.1.0；素材索引 13 项/3
 
 同机三次前后测量保留全部组与方法边界：dist 增加 151 字节，JS/CSS gzip 增加 11 字节；真实点击后阅读资源与画面就绪中位 41.7→37.6ms。墙钟样本受自动等待与并行负载影响，百分比有波动，记录为 WARN；没有笼统宣称性能全 PASS。
 
-本地详细记录：[LOCAL-VALIDATION-v0.1.1.json](production/LOCAL-VALIDATION-v0.1.1.json)、[PERFORMANCE-v0.1.1.json](production/PERFORMANCE-v0.1.1.json)。复用约定：[REUSABLE-MATERIALS](production/REUSABLE-MATERIALS.md)。下一步由发布协调流程推送 main，核对新版 CI、发行资产、SHA-256 与公开离线续读，更新新版发布证明。
+[Build 38110158252](https://github.com/AureliusWu/NetLove/actions/runs/38110158252) 的 web、windows、release 全部成功：CI 的素材工具 5 项、逻辑 31 项、浏览器 14 项通过；Windows 源码与实际包分别报告 v0.1.1、原生全屏和进度保持通过、最终窗口隐藏。v0.1.1 标签精确指向该测试提交，[预发布](https://github.com/AureliusWu/NetLove/releases/tag/v0.1.1) 已提供安装版、便携版、PWA ZIP 和 SHA256SUMS.txt。两份公开 EXE 与 ZIP 均实际下载核对大小、GitHub digest 和校验表，ZIP 解包后 20 文件与 CI PWA 逐字节相同；这些发行哈希独立于本机构建。
+
+[Pages 38110407401](https://github.com/AureliusWu/NetLove/actions/runs/38110407401) 使用同次 CI 的 PWA，发布前再次核对 main，并在部署后通过真实公网门禁。CI Chromium 153.0.8010.12 与独立系统 Chrome 154.0.8037.98 各自验证三个视口：v0.1.1、精确 `/NetLove/` scope、隐藏恢复、手机旋转、真断网刷新后从第 1 段续读、图像和全窗口显示，页面错误均为空。公开入口 SHA-256 为 `ba45b77a3bd7fa535390a5ee15f9bc430a8d9252c388c6030b9cc791d24293bc`，sw.js 为 `58ed5ffd91d513be8d7caf47dfcd320ef29296f316b2eb56f15c3d3c9deefe09`，均与 CI 字节相同。
+
+发布详细记录：[PUBLISHED-v0.1.1.json](production/PUBLISHED-v0.1.1.json)。本地记录：[LOCAL-VALIDATION-v0.1.1.json](production/LOCAL-VALIDATION-v0.1.1.json)、[PERFORMANCE-v0.1.1.json](production/PERFORMANCE-v0.1.1.json)。复用约定：[REUSABLE-MATERIALS](production/REUSABLE-MATERIALS.md)。公开 EXE 的 Authenticode 均为 NotSigned；实体手机安装、真实 NSIS 安装/升级与数据保留未执行，继续按独立设备体验记录，不借用自动 smoke 结果。
 
 ## v0.1.0 历史发布记录
 

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "version": "0.2.0",
+  "runtimeCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+  "desktopJob": 115366788202,
+  "desktop": [
+    {
+      "story": true,
+      "autosave": true,
+      "fullWindow": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "tinghe": true,
+      "xumi": true,
+      "ending": true,
+      "archive": true,
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0,
+      "packaged": false,
+      "version": "0.2.0"
+    },
+    {
+      "story": true,
+      "autosave": true,
+      "fullWindow": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "tinghe": true,
+      "xumi": true,
+      "ending": true,
+      "archive": true,
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0,
+      "packaged": true,
+      "version": "0.2.0"
+    }
+  ],
+  "public": {
+    "browserVersion": "153.0.8010.12",
+    "results": [
+      {
+        "screen": "desktop",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "mobile",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": true,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "landscape",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      }
+    ]
+  }
+}

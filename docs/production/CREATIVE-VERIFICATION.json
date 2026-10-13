@@ -15,13 +15,36 @@
     "build": "passed",
     "browserCollected": 18
   },
-  "browserRuntime": "pending_ci",
-  "windowsRuntime": "pending_ci",
-  "publicPwa": "pending_ci",
+  "browserRuntime": "passed",
+  "windowsRuntime": "passed",
+  "publicPwa": "passed",
   "sourceHashes": {
     "src/story/story.json": "0eda4aba652626e2be3ec63fd3c5d02e2192a63699e693f5c0e6205eedf8b761",
     "src/game/character-frames.json": "2f185b47c772532dd2599a2927fcee9b7068be47a334a91f39f2a4fde8b6c57d",
     "src/assets/story-serif.woff2": "dae01ca35732946bdf005376a68de4d7fd1e9a8d4e36f0ded1019403c421d631"
   },
-  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs"
+  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs",
+  "runtimeCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+  "platformEvidence": "PLATFORM-v0.2.0.json",
+  "publicationEvidence": "PUBLISHED-v0.2.0.json",
+  "visualEvidence": [
+    {
+      "path": "docs/previews/v0.2.0/expressions-desktop.png",
+      "sha256": "574cd55cab1fe0824f4d18a0e1844a250bdbbf2df57e344f41ef68ed96683ef3",
+      "gitBlob": "39cb9575874ccea2b68d0c4f8e0d4f0ce0f82a04",
+      "sourceArtifact": 11825113000,
+      "artifactSha256": "ed3ef55deea9621425fca8ac82ce6c34af1526cd98f9ab74eceb09c4ced7815a",
+      "sourceCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    },
+    {
+      "path": "docs/previews/v0.2.0/expression-save-mobile.png",
+      "sha256": "4d2d43262edfc7f52a9b039b125fa6b02b02dcaba7c6a1a3f4113c7e77106567",
+      "gitBlob": "92574147e91c987ab727e5d21a7bbdcf1db50de2",
+      "sourceArtifact": 11825113000,
+      "artifactSha256": "ed3ef55deea9621425fca8ac82ce6c34af1526cd98f9ab74eceb09c4ced7815a",
+      "sourceCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    }
+  ]
 }

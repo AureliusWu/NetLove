@@ -1,6 +1,6 @@
-# v0.2.0 剧情与美术候选 · 2026-10-13
+# v0.2.0 剧情与美术精修已交付 · 2026-10-13
 
-修订 42 段。两位角色各六表情与 38 处明确注解，按旧档段落恢复，匿名聊天保留隐藏人物。 共享契约 v1.2.0 已同步，当前验证见 [精修记录](production/CREATIVE-REVIEW.md)。平台结果以本次 CI 为准。
+修订 42 段、两位角色各六表情与 38 处明确注解。34 项逻辑、288 条路线、18 项浏览器、Windows 源码/实际 EXE 和公开 PWA 三屏通过。运行提交 `5ec6e4648b8c0410283e18683cb3b75888f3d68e`；[v0.2.0 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.0)、[精修记录](production/CREATIVE-REVIEW.md)、[发布凭据](production/PUBLISHED-v0.2.0.json)。共用制作契约 v1.2.0 的 14 项文件及实际导出包通过核对。
 
 ---
 

@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "project": "NetLove",
+  "version": "0.2.0",
+  "runtimeCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+  "build": {
+    "run": 38417472879,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38417472879",
+    "status": "success",
+    "desktopJob": 115366788202,
+    "webTests": 18
+  },
+  "publicPwa": {
+    "run": 38418259350,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38418259350",
+    "target": "https://aureliuswu.github.io/NetLove/",
+    "status": "success",
+    "screens": [
+      "desktop",
+      "mobile",
+      "landscape"
+    ],
+    "sourceArtifact": 11825575935,
+    "artifactSha256": "d18b710cd8df2067fe5080fa06aea233af9300b22495b49336b0b0915432a3b8",
+    "entryAndWorkerMatchTestedBuild": true
+  },
+  "release": {
+    "tag": "v0.2.0",
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.2.0",
+    "prerelease": true,
+    "targetCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+    "assets": [
+      {
+        "name": "NetLove-0.2.0-x64-Portable.exe",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.0/NetLove-0.2.0-x64-Portable.exe",
+        "bytes": 116993720,
+        "digest": "sha256:faece207756aee17423e41be4b04ba01e95cfa2ab8647a041333722cf931ea25"
+      },
+      {
+        "name": "NetLove-0.2.0-x64-Setup.exe",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.0/NetLove-0.2.0-x64-Setup.exe",
+        "bytes": 117213091,
+        "digest": "sha256:e676881648b8b273ae611e096be4a9fb8defd08125b8be03aa1d8525083db0ad"
+      },
+      {
+        "name": "NetLove-PWA-0.2.0.zip",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.0/NetLove-PWA-0.2.0.zip",
+        "bytes": 5385958,
+        "digest": "sha256:b30ec5ac36626eaf445fdf0c6f0901d7a3747967a417b386bb17874957effb09"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.0/SHA256SUMS.txt",
+        "bytes": 279,
+        "digest": "sha256:bef4cbb25d4b476b84a1d393aeac574e3859eec9814f81cde2bf9a3eb5effa34"
+      }
+    ],
+    "readback": "GitHub tag/asset metadata and upload digest verification; no independent EXE download readback claimed"
+  },
+  "previews": [
+    {
+      "path": "docs/previews/v0.2.0/expressions-desktop.png",
+      "sha256": "574cd55cab1fe0824f4d18a0e1844a250bdbbf2df57e344f41ef68ed96683ef3",
+      "gitBlob": "39cb9575874ccea2b68d0c4f8e0d4f0ce0f82a04",
+      "sourceArtifact": 11825113000,
+      "artifactSha256": "ed3ef55deea9621425fca8ac82ce6c34af1526cd98f9ab74eceb09c4ced7815a",
+      "sourceCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    },
+    {
+      "path": "docs/previews/v0.2.0/expression-save-mobile.png",
+      "sha256": "4d2d43262edfc7f52a9b039b125fa6b02b02dcaba7c6a1a3f4113c7e77106567",
+      "gitBlob": "92574147e91c987ab727e5d21a7bbdcf1db50de2",
+      "sourceArtifact": 11825113000,
+      "artifactSha256": "ed3ef55deea9621425fca8ac82ce6c34af1526cd98f9ab74eceb09c4ced7815a",
+      "sourceCommit": "5ec6e4648b8c0410283e18683cb3b75888f3d68e",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    }
+  ]
+}

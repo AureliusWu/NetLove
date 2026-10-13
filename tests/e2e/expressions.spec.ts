@@ -25,7 +25,10 @@ test('old paragraph saves restore expression through narration, hiding and rotat
   await page.goto('/');await page.getByRole('button',{name:'继续上次的故事',exact:true}).click();
   await expect(page.locator('.scene-character')).toHaveAttribute('data-expression','surprised');
   await page.getByRole('button',{name:'隐藏界面',exact:true}).click();await page.getByRole('button',{name:'恢复阅读界面',exact:true}).click();
-  for(const size of [{width:568,height:320},{width:844,height:390},{width:412,height:915}]){await page.setViewportSize(size);await expect(page.locator('.game-screen')).toHaveAttribute('data-line','6');await expect(page.locator('.scene-character')).toHaveAttribute('data-expression','surprised');}
+  for(const size of [{width:568,height:320},{width:844,height:390},{width:412,height:915}]){
+    await page.setViewportSize(size);await expect(page.locator('.game-screen')).toHaveAttribute('data-line','6');await expect(page.locator('.scene-character')).toHaveAttribute('data-expression','surprised');
+    await expect.poll(()=>page.locator('.scene-character').evaluate(el=>{const box=el.getBoundingClientRect();return box.width/box.height;})).toBeCloseTo(261/606,2);
+  }
   await page.reload();await page.getByRole('button',{name:'继续上次的故事',exact:true}).click();await expect(page.locator('.scene-character')).toHaveAttribute('data-expression','surprised');
   await expect(page.locator('.toast.visible')).toHaveCount(0);await mkdir('test-results/previews',{recursive:true});await page.screenshot({path:`test-results/previews/expression-save-${info.project.name}.png`});
 });

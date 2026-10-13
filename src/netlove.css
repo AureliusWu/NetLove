@@ -19,7 +19,7 @@
 .note-number{color:#8aa4a4}
 .title-footer{color:#748887}
 .character-sprite{aspect-ratio:var(--sprite-ratio)}
-.scene-character{height:112%!important;width:auto!important;aspect-ratio:var(--sprite-ratio);bottom:-34%!important;right:8%!important;filter:none!important}
+.scene-character{height:112%!important;width:auto!important;aspect-ratio:var(--sprite-ratio);bottom:-34%!important;right:auto!important;filter:none!important}
 .netlove-characters{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .netlove-characters .character-portrait{height:300px}
 .gallery-sprite{height:112%;width:auto!important;aspect-ratio:var(--sprite-ratio);bottom:-10%!important}
@@ -32,5 +32,5 @@
 .choice-panel button:hover{background:#71989824}
 .choice-number{color:#759b9e}
 .signal-note{font-family:monospace;font-size:11px;letter-spacing:.05em}
-@media(max-width:700px){.title-copy h1{font-size:52px}.netlove-characters{grid-template-columns:1fr}.scene-character{right:-6%!important;height:108%!important;bottom:-31%!important}.cover-character{width:105%!important;right:-18%!important}.visual-caption{max-width:58%}}
-@media(max-height:500px) and (orientation:landscape){.title-screen{min-height:100dvh}.title-copy h1{font-size:40px}.scene-character{right:11%!important;height:118%!important;bottom:-39%!important}.title-visual{border-radius:45px 4px 4px 4px}.visual-caption{bottom:8px!important;padding:8px;font-size:11px}.visual-date{font-size:9px!important;left:10px!important;padding:7px}.netlove-characters .character-portrait{height:230px}.reading-panel[data-medium="chat"] .dialogue-text>span[aria-hidden="true"]{padding-left:9px}}
+@media(max-width:700px){.title-copy h1{font-size:52px}.netlove-characters{grid-template-columns:1fr}.scene-character{height:108%!important;bottom:-31%!important}.cover-character{width:105%!important;right:-18%!important}.visual-caption{max-width:58%}}
+@media(max-height:500px) and (orientation:landscape){.title-screen{min-height:100dvh}.title-copy h1{font-size:40px}.scene-character{height:118%!important;bottom:-39%!important}.title-visual{border-radius:45px 4px 4px 4px}.visual-caption{bottom:8px!important;padding:8px;font-size:11px}.visual-date{font-size:9px!important;left:10px!important;padding:7px}.netlove-characters .character-portrait{height:230px}.reading-panel[data-medium="chat"] .dialogue-text>span[aria-hidden="true"]{padding-left:9px}}

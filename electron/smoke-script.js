@@ -26,9 +26,9 @@ async function importAt(sceneId,line,decisions){
  await wait(()=>document.querySelector('.game-screen')?.dataset.scene===sceneId);
 }
 await importAt('c2-camera',0,choices.slice(0,3));
-await wait(()=>document.querySelector('[data-character=tinghe] img')?.naturalWidth===1024);
+await wait(()=>document.querySelector('[data-character=tinghe] img')?.naturalWidth===1254);
 await importAt('c3-frame',0,choices.slice(0,4));
-await wait(()=>document.querySelector('[data-character=xumi] img')?.naturalWidth===1024);
+await wait(()=>document.querySelector('[data-character=xumi] img')?.naturalWidth===1254);
 await importAt('end-tinghe',9,choices);await wait(()=>button('回到标题'));
 if(!document.querySelector('.ending-card').textContent.includes('同一段呼吸'))throw new Error('Ending failed');
 button('制作人员').click();await wait(()=>document.querySelector('.credits-copy'));button('关闭').click();

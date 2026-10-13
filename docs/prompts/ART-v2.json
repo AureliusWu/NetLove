@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "tool": "Built-in imagegen",
+  "model": "not exposed by tool",
+  "date": "2026-10-13",
+  "requests": [
+    {
+      "key": "tinghe-atlas",
+      "prompt": "Use case: identity-preserve. Asset type: transparent character expression atlas for a Chinese 2D visual novel. Edit the referenced approved character into exactly SIX full-body copies on one 1536x1536 transparent RGBA canvas, a precisely spaced 3 columns by 2 rows atlas. Each cell 512x768, ALL six figures entirely contained inside their cells with at least 28px clear transparent gutters, identical head-to-shoe size and same front-facing standing pose as the original. Keep every face identity, hairstyle, hairclip side, outfit, prop, hand pose and adult proportions. Only eyebrows, eyes, mouth and small cheek blush change. Top row left to right: neutral attentive, gentle closed-mouth smile, slight surprised eyes and mouth. Bottom row: worried knitted eyebrows, quietly hurt/downcast (no tears), shy small smile with both eyes OPEN. Clear delicate linework, simplified two-to-three-tone anime cel shading matching the reference; no photorealism, background, glow, shadow halos, text, labels, frames, watermark or grid lines. Preserve natural hands and all props. This is a runtime sprite atlas, not a poster. True transparent background across all empty regions.\nCharacter: adult 22-year-old Xie Tinghe. Chestnut low side braid, pale blue rectangular hairclip in the same visible side as reference, amber eyes, mustard cardigan, ivory long dress, pale canvas shoes, wired blue earphones and handheld black recorder. Keep recorder pose and cardigan design exactly.",
+      "reference": "assets_source/tinghe.png",
+      "output": "assets_source/expressions/tinghe-initial-v1.png"
+    },
+    {
+      "key": "tinghe-atlas-clean",
+      "prompt": "Use case: background-extraction and precise-object-edit. Edit this existing SIX-character transparent expression atlas for production. Keep exactly the same six character identities, expressions, outfits, hand poses and props, in the same 3-column 2-row order. Remove ALL stray red/yellow/white speckles, blotches, halos, detached pixels and any noise outside the six character silhouettes. Empty areas must have true alpha zero, with clean anti-aliased character edges. Keep a square transparent RGBA canvas divisible by 3 and 2 (1254x1254 is good). Make each of the six FULL BODY characters uniformly about 12% smaller and center her within her same cell, ensuring at least 35px transparent space above every head and below every shoe, and 35px clear empty gutters between columns and rows. Preserve all shoes, fingers, hairclips, camera or recorder. Do not redraw or add a background, shadows, text, labels or frames. Preserve both open eyes in the shy bottom-right expression. Required output: one genuinely clean transparent runtime sprite atlas.",
+      "reference": "assets_source/expressions/tinghe-initial-v1.png",
+      "output": "assets_source/expressions/tinghe-gutters-v1.png"
+    },
+    {
+      "key": "tinghe-atlas-final",
+      "prompt": "Use case: precise-object-edit. In this existing transparent six-expression character atlas, change ONLY the bottom-middle character's FACE. This cell must show quietly hurt or disappointed: both amber eyes OPEN with slightly downcast gaze, gently knitted inner eyebrows, a small flat or downward mouth, NO smile, no tears. Leave the other five faces, all bodies, pose, dress, recorder, hair and hairclip untouched. Same 3x2 atlas, genuine RGBA transparency, same canvas and positions. Keep all six full-body figures within image with clear margins. Do not add background, glow, text, labels or detached pixels.",
+      "reference": "assets_source/expressions/tinghe-gutters-v1.png",
+      "output": "assets_source/expressions/tinghe-face-v1.png"
+    },
+    {
+      "key": "tinghe-atlas-approved",
+      "prompt": "Edit ONLY the EYES of the BOTTOM-RIGHT figure in this transparent six-expression atlas. Open BOTH eyes naturally to show her amber irises, keeping a restrained shy smile and small blush. Preserve the bottom-middle disappointed figure with BOTH eyes OPEN and a small flat mouth, and preserve the other four expressions exactly. Do not change any other face, hair, outfit, pose, props, canvas size, row positions or transparency. Six full-body identical adult characters in a transparent 3x2 atlas. No text, labels, background, glow or extra pixels.",
+      "reference": "assets_source/expressions/tinghe-face-v1.png",
+      "output": "assets_source/expressions/tinghe-v1.png"
+    },
+    {
+      "key": "xumi-atlas",
+      "prompt": "Use case: identity-preserve. Asset type: transparent character expression atlas for a Chinese 2D visual novel. Edit the referenced approved character into exactly SIX full-body copies on one 1536x1536 transparent RGBA canvas, a precisely spaced 3 columns by 2 rows atlas. Each cell 512x768, ALL six figures entirely contained inside their cells with at least 28px clear transparent gutters, identical head-to-shoe size and same front-facing standing pose as the original. Keep every face identity, hairstyle, hairclip side, outfit, prop, hand pose and adult proportions. Only eyebrows, eyes, mouth and small cheek blush change. Top row left to right: neutral attentive, gentle closed-mouth smile, slight surprised eyes and mouth. Bottom row: worried knitted eyebrows, quietly hurt/downcast (no tears), shy small smile with both eyes OPEN. Clear delicate linework, simplified two-to-three-tone anime cel shading matching the reference; no photorealism, background, glow, shadow halos, text, labels, frames, watermark or grid lines. Preserve natural hands and all props. This is a runtime sprite atlas, not a poster. True transparent background across all empty regions.\nCharacter: adult 23-year-old Xu Mi. Blue-black chin-length bob, coral triangular hairclip on the same visible side as reference, teal eyes, ivory hoodie, teal short work apron, navy trousers, pale sneakers, hanging compact camera with coral strap and blank envelope held at waist. Keep camera and envelope hand pose exactly.",
+      "reference": "assets_source/xumi.png",
+      "output": "assets_source/expressions/xumi-initial-v1.png"
+    },
+    {
+      "key": "xumi-atlas-clean",
+      "prompt": "Use case: background-extraction and precise-object-edit. Edit this existing SIX-character transparent expression atlas for production. Keep exactly the same six character identities, expressions, outfits, hand poses and props, in the same 3-column 2-row order. Remove ALL stray red/yellow/white speckles, blotches, halos, detached pixels and any noise outside the six character silhouettes. Empty areas must have true alpha zero, with clean anti-aliased character edges. Keep a square transparent RGBA canvas divisible by 3 and 2 (1254x1254 is good). Make each of the six FULL BODY characters uniformly about 12% smaller and center her within her same cell, ensuring at least 35px transparent space above every head and below every shoe, and 35px clear empty gutters between columns and rows. Preserve all shoes, fingers, hairclips, camera or recorder. Do not redraw or add a background, shadows, text, labels or frames. Preserve both open eyes in the shy bottom-right expression. Required output: one genuinely clean transparent runtime sprite atlas.",
+      "reference": "assets_source/expressions/xumi-initial-v1.png",
+      "output": "assets_source/expressions/xumi-v1.png"
+    }
+  ]
+}

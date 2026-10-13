@@ -1,0 +1,262 @@
+{
+  "creativeVersion": "1.0.0",
+  "scenes": 43,
+  "revisedParagraphs": 42,
+  "protectedVoices": 0,
+  "savePositionsPreserved": true,
+  "routeContractPreserved": true,
+  "changes": [
+    {
+      "scene": "arrival",
+      "section": "lines",
+      "index": 6,
+      "id": "arrival-007"
+    },
+    {
+      "scene": "arrival",
+      "section": "lines",
+      "index": 7,
+      "id": "arrival-008"
+    },
+    {
+      "scene": "c1-window",
+      "section": "lines",
+      "index": 11,
+      "id": "c1-window-012"
+    },
+    {
+      "scene": "c2-camera",
+      "section": "lines",
+      "index": 7,
+      "id": "c2-camera-008"
+    },
+    {
+      "scene": "c2-camera",
+      "section": "lines",
+      "index": 11,
+      "id": "c2-camera-012"
+    },
+    {
+      "scene": "c3-open",
+      "section": "lines",
+      "index": 7,
+      "id": "c3-open-008"
+    },
+    {
+      "scene": "c3-open",
+      "section": "lines",
+      "index": 8,
+      "id": "c3-open-009"
+    },
+    {
+      "scene": "c3-open",
+      "section": "lines",
+      "index": 9,
+      "id": "c3-open-010"
+    },
+    {
+      "scene": "c3-open",
+      "section": "lines",
+      "index": 10,
+      "id": "c3-open-011"
+    },
+    {
+      "scene": "c3-repair",
+      "section": "lines",
+      "index": 5,
+      "id": "c3-repair-006"
+    },
+    {
+      "scene": "c3-repair",
+      "section": "lines",
+      "index": 8,
+      "id": "c3-repair-009"
+    },
+    {
+      "scene": "c3-repair",
+      "section": "lines",
+      "index": 9,
+      "id": "c3-repair-010"
+    },
+    {
+      "scene": "c3-repair",
+      "section": "lines",
+      "index": 10,
+      "id": "c3-repair-011"
+    },
+    {
+      "scene": "c3-repair",
+      "section": "lines",
+      "index": 14,
+      "id": "c3-repair-015"
+    },
+    {
+      "scene": "c3-frame",
+      "section": "lines",
+      "index": 13,
+      "id": "c3-frame-014"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 5,
+      "id": "c4-open-006"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 9,
+      "id": "c4-open-010"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 10,
+      "id": "c4-open-011"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 11,
+      "id": "c4-open-012"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 12,
+      "id": "c4-open-013"
+    },
+    {
+      "scene": "c4-open",
+      "section": "lines",
+      "index": 13,
+      "id": "c4-open-014"
+    },
+    {
+      "scene": "c4-voice",
+      "section": "lines",
+      "index": 8,
+      "id": "c4-voice-009"
+    },
+    {
+      "scene": "c4-voice",
+      "section": "lines",
+      "index": 9,
+      "id": "c4-voice-010"
+    },
+    {
+      "scene": "c4-voice",
+      "section": "lines",
+      "index": 10,
+      "id": "c4-voice-011"
+    },
+    {
+      "scene": "c4-voice",
+      "section": "lines",
+      "index": 15,
+      "id": "c4-voice-016"
+    },
+    {
+      "scene": "c4-envelope",
+      "section": "lines",
+      "index": 13,
+      "id": "c4-envelope-014"
+    },
+    {
+      "scene": "c4-end",
+      "section": "lines",
+      "index": 9,
+      "id": "c4-end-010"
+    },
+    {
+      "scene": "c5-tinghe",
+      "section": "lines",
+      "index": 9,
+      "id": "c5-tinghe-010"
+    },
+    {
+      "scene": "c5-tinghe",
+      "section": "lines",
+      "index": 11,
+      "id": "c5-tinghe-012"
+    },
+    {
+      "scene": "c5-tinghe",
+      "section": "lines",
+      "index": 16,
+      "id": "c5-tinghe-017"
+    },
+    {
+      "scene": "c5-tinghe",
+      "section": "lines",
+      "index": 20,
+      "id": "c5-tinghe-021"
+    },
+    {
+      "scene": "end-tinghe",
+      "section": "lines",
+      "index": 7,
+      "id": "end-tinghe-008"
+    },
+    {
+      "scene": "end-tinghe",
+      "section": "lines",
+      "index": 9,
+      "id": "end-tinghe-010"
+    },
+    {
+      "scene": "c5-xumi",
+      "section": "lines",
+      "index": 7,
+      "id": "c5-xumi-008"
+    },
+    {
+      "scene": "c5-xumi",
+      "section": "lines",
+      "index": 8,
+      "id": "c5-xumi-009"
+    },
+    {
+      "scene": "c5-xumi",
+      "section": "lines",
+      "index": 20,
+      "id": "c5-xumi-021"
+    },
+    {
+      "scene": "end-xumi",
+      "section": "lines",
+      "index": 4,
+      "id": "end-xumi-005"
+    },
+    {
+      "scene": "end-xumi",
+      "section": "lines",
+      "index": 7,
+      "id": "end-xumi-008"
+    },
+    {
+      "scene": "end-friends",
+      "section": "lines",
+      "index": 6,
+      "id": "end-friends-007"
+    },
+    {
+      "scene": "end-friends",
+      "section": "lines",
+      "index": 9,
+      "id": "end-friends-010"
+    },
+    {
+      "scene": "end-letter",
+      "section": "lines",
+      "index": 4,
+      "id": "end-letter-005"
+    },
+    {
+      "scene": "end-letter",
+      "section": "lines",
+      "index": 6,
+      "id": "end-letter-007"
+    }
+  ]
+}

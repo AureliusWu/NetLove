@@ -1,5 +1,5 @@
 export type Character = 'tinghe' | 'xumi';
-export type Expression = 'neutral';
+export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
 export type Background = 'bedroom' | 'balcony' | 'gate' | 'printshop' | 'riverbank';
 export type CgId = Background;
 export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain';

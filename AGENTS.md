@@ -9,3 +9,5 @@
 - docs/production/SHARED-VN.md 与 scripts/vn-contract.mjs 是三项目共用契约，更新时记录版本与哈希。引擎与人物素材不跨项目强行统一。
 - 遍历全部路线并验证重放、非法存档、离线重开、横竖屏旋转。Windows 源码与实际包分别验收；未执行不记成功。
 - 只维护 main，保留远端改动，不 force push。先验证再提交。保留真实断点和可复用经验。
+
+剧情、美术精修另读 [协作方法](docs/production/CREATIVE-PLAYBOOK.md)。保留原段落、路线与录音句，检查点与实际平台证据分别留档。

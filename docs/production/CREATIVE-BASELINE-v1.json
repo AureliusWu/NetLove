@@ -1,0 +1,3575 @@
+{
+  "schema": 1,
+  "engineContract": {
+    "entry": "arrival",
+    "stats": [
+      "honesty",
+      "tinghe",
+      "xumi"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "arrival",
+      "routing": {
+        "next": "group"
+      },
+      "lines": [
+        {
+          "id": "arrival-001",
+          "speaker": "旁白",
+          "textSha256": "958b7ef8b2d878766da6e08bc308e8b02638e24816a3b3d0f75870b769638ffb",
+          "voice": null
+        },
+        {
+          "id": "arrival-002",
+          "speaker": "旁白",
+          "textSha256": "b0c634ea6bfea8698508d1304d7f57de6864de10569d45ebea88eef51143fa87",
+          "voice": null
+        },
+        {
+          "id": "arrival-003",
+          "speaker": "旁白",
+          "textSha256": "30d97f3346fd0365f10bb9c7989975fb15d8b8469eaa821c6e6f43dba261a7f2",
+          "voice": null
+        },
+        {
+          "id": "arrival-004",
+          "speaker": "旁白",
+          "textSha256": "3c2d622e51ae773d2585b914986da980e0d18ba52c90d8f88fea1287bba86bc4",
+          "voice": null
+        },
+        {
+          "id": "arrival-005",
+          "speaker": "周既明",
+          "textSha256": "be01c45327100eb2148ab63cd42c48c04549a44f507220d229c22afb73992a70",
+          "voice": null
+        },
+        {
+          "id": "arrival-006",
+          "speaker": "旁白",
+          "textSha256": "aebaab3a98e0a87f5828fbe456068f7c11f4bca494a0281a00e03f6825741952",
+          "voice": null
+        },
+        {
+          "id": "arrival-007",
+          "speaker": "旁白",
+          "textSha256": "9fe37808a8baba87296fbde0b55cc7daf2ba99503ddaed7d1495ab5813650bcc",
+          "voice": null
+        },
+        {
+          "id": "arrival-008",
+          "speaker": "旁白",
+          "textSha256": "5fb07e47908fcb8c5adb577a46011f608f002ea62be4fe8cf295c1efc395867e",
+          "voice": null
+        },
+        {
+          "id": "arrival-009",
+          "speaker": "旁白",
+          "textSha256": "ac900a04ced52fa6e9361e109a0290610fb27df9fb47bf8542142573058de0f1",
+          "voice": null
+        },
+        {
+          "id": "arrival-010",
+          "speaker": "旁白",
+          "textSha256": "08399c8f44b679a1789638a593b8d55e9f800914399d0ab188a603655bff50ad",
+          "voice": null
+        },
+        {
+          "id": "arrival-011",
+          "speaker": "陆衡",
+          "textSha256": "bc8130caae0aa94dc849e6cb5b3848fa14326214a4b4c05c21cec510df77cac7",
+          "voice": null
+        },
+        {
+          "id": "arrival-012",
+          "speaker": "旁白",
+          "textSha256": "a078056753050fca2e22b20c5b7ae78584f9973c85793e0699e909c790f57cce",
+          "voice": null
+        },
+        {
+          "id": "arrival-013",
+          "speaker": "旁白",
+          "textSha256": "06ff462f4ef06a43460988a1a9e727eb2dcdb303072af769c4e3ee1f7cf91bdc",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "group",
+      "routing": {
+        "next": "first-reply"
+      },
+      "lines": [
+        {
+          "id": "group-001",
+          "speaker": "陆衡",
+          "textSha256": "cad6ca7be85b139d5c8812509009e4750a38fc609c4d26af38cb53383b02ed2e",
+          "voice": null
+        },
+        {
+          "id": "group-002",
+          "speaker": "暂停营业",
+          "textSha256": "00b17666c00576c78918588fcb6b8d020f5f1bc895a59cdfc8e9699d3e38a3a8",
+          "voice": null
+        },
+        {
+          "id": "group-003",
+          "speaker": "陆衡",
+          "textSha256": "25e61f3f68215a1a82e96832aea261deca8b6172e32a7457f1351d83b216efbd",
+          "voice": null
+        },
+        {
+          "id": "group-004",
+          "speaker": "暂停营业",
+          "textSha256": "c4a939170aabbf1884e7c85556277853c95ab4d9ada1eecae8de6690806c66c2",
+          "voice": null
+        },
+        {
+          "id": "group-005",
+          "speaker": "一格信号",
+          "textSha256": "428604342c9e8a81435484b02b80b99ff2bd05acf9c120d0e35d76170106f807",
+          "voice": null
+        },
+        {
+          "id": "group-006",
+          "speaker": "旁白",
+          "textSha256": "a50a999b00c1b6714b1c3ca4414bee6ab95fbcde011d4bc7c53cba9a6f418462",
+          "voice": null
+        },
+        {
+          "id": "group-007",
+          "speaker": "一格信号",
+          "textSha256": "def6985d3f33934013d8e2c5c7a49a9571d5b104724ba282ae2cac4a8335c910",
+          "voice": null
+        },
+        {
+          "id": "group-008",
+          "speaker": "旁白",
+          "textSha256": "a9036d008deb2d8421b824d3b3f17d349e355e65f9af6bc9fb941dcbbf44606f",
+          "voice": null
+        },
+        {
+          "id": "group-009",
+          "speaker": "周既明",
+          "textSha256": "ec6cc7c2cd84e85fd78b306f9678077379bc8290befb481275999ca4ee3bfa11",
+          "voice": null
+        },
+        {
+          "id": "group-010",
+          "speaker": "暂停营业",
+          "textSha256": "739d3b2945e0a47b3d7085f351b0304494d7d5bd0ffac8bdb42274b42e2efa28",
+          "voice": null
+        },
+        {
+          "id": "group-011",
+          "speaker": "旁白",
+          "textSha256": "233ccca367064576e8f7529e8cd786457d50e2aff4d1c65feae124946a1a2328",
+          "voice": null
+        },
+        {
+          "id": "group-012",
+          "speaker": "周既明",
+          "textSha256": "a8c45c4e64e945efe1846a267fdc9ce90b84328e56671f14e0d305a33b02a3de",
+          "voice": null
+        },
+        {
+          "id": "group-013",
+          "speaker": "暂停营业",
+          "textSha256": "7734a873ad440c706c4e54f784bd9948ddd6e06e5159353fe08140941c0187d3",
+          "voice": null
+        },
+        {
+          "id": "group-014",
+          "speaker": "一格信号",
+          "textSha256": "6d9eff07e8f32e6a811c9fec26c2a0f75f357f192e0b17d2e03072d885c4fc4d",
+          "voice": null
+        },
+        {
+          "id": "group-015",
+          "speaker": "旁白",
+          "textSha256": "1fa6f1d90f291f1edef3b137672c637172425ef0249f02ddca9db29f0b3295d0",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "first-reply",
+      "routing": {},
+      "lines": [
+        {
+          "id": "first-reply-001",
+          "speaker": "旁白",
+          "textSha256": "61066e65b81b3b92dbb0a3cb5b8db8cd4ac65d5e75978b136c198649c3da8f41",
+          "voice": null
+        },
+        {
+          "id": "first-reply-002",
+          "speaker": "旁白",
+          "textSha256": "d2b02ed806ad0e0e565707ca51cca1b54b6cb7bcd6c1f2db5a80971bc3d5dc49",
+          "voice": null
+        },
+        {
+          "id": "first-reply-003",
+          "speaker": "一格信号",
+          "textSha256": "c779863a5f9db15886d9516fe0cb358d8d867dc9ced78294e248dd6c272a7d1f",
+          "voice": null
+        },
+        {
+          "id": "first-reply-004",
+          "speaker": "旁白",
+          "textSha256": "4cca4829693e3ade3ceef0de56a7e265c885baf6d1ef6110b1f81bd06e631d93",
+          "voice": null
+        },
+        {
+          "id": "first-reply-005",
+          "speaker": "旁白",
+          "textSha256": "9aa0f3a5c76854e4a30914eaede0dd45569da83471a4853768ec38247babb973",
+          "voice": null
+        },
+        {
+          "id": "first-reply-006",
+          "speaker": "旁白",
+          "textSha256": "8677f330ca74b0421d7669a87ef2c2aa54846191518b34ba9f1cda3547f186bb",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "first-reply-1",
+          "next": "c1-honest",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          },
+          "response": []
+        },
+        {
+          "id": "first-reply-2",
+          "next": "c1-light",
+          "effect": {
+            "tinghe": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c1-honest",
+      "routing": {
+        "next": "c1-xumi"
+      },
+      "lines": [
+        {
+          "id": "c1-honest-001",
+          "speaker": "周既明",
+          "textSha256": "a0501c69fdc72dedcd54a518c04be62a75b3547990a3f8c1fa70785410c37b76",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-002",
+          "speaker": "周既明",
+          "textSha256": "95756cf0decaee5be8e4481fee4c5901f0c57c35a9729b7da20d988c865c4e99",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-003",
+          "speaker": "旁白",
+          "textSha256": "53d87a4aae4eb8063f02d0d8b48511e11b7b14faa04b6927c9fd388e382d1fbb",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-004",
+          "speaker": "一格信号",
+          "textSha256": "3750729bebb32857f30dbad5020cd2d2449db867901683e82b1890eeba247490",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-005",
+          "speaker": "一格信号",
+          "textSha256": "4cd215ba711378f5e2bd96fc4fa232cc332b48fc5c127c49a39804b738ea2d6e",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-006",
+          "speaker": "一格信号",
+          "textSha256": "267b8c0cfa3957336ba4441a0367abaa4d8a15013ab361fb4826aa48a8c4f471",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-007",
+          "speaker": "周既明",
+          "textSha256": "e144280505d2bbf7e3b778935136362ef7cd633a539f9c432a651685cc4d2c31",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-008",
+          "speaker": "一格信号",
+          "textSha256": "caeeec591565a91a017cb9d2f325ab49d2bb6afa85d1f5ff5f08dccbb71b1112",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-009",
+          "speaker": "旁白",
+          "textSha256": "874f53901c7d29b82bd8ff9eb69c20af9cd0b7ed4933dd9d3912fb78da5153d1",
+          "voice": null
+        },
+        {
+          "id": "c1-honest-010",
+          "speaker": "旁白",
+          "textSha256": "3b93d861dbb316ee93c4b9b5e37066a8106934c0202185253814ab8e3343feaa",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c1-light",
+      "routing": {
+        "next": "c1-xumi"
+      },
+      "lines": [
+        {
+          "id": "c1-light-001",
+          "speaker": "周既明",
+          "textSha256": "52c405f6c501722596185182c113cd462452be53863da70970896dc2fdc7bae6",
+          "voice": null
+        },
+        {
+          "id": "c1-light-002",
+          "speaker": "一格信号",
+          "textSha256": "fb0f0a080a9076396cbbbe925a22d53ddfab0a4c090a8096af1c7be84ccc84ee",
+          "voice": null
+        },
+        {
+          "id": "c1-light-003",
+          "speaker": "周既明",
+          "textSha256": "f7f871aa9232a71e071dc98f649e9fc1685865018800328ca408c2f56a9a55c5",
+          "voice": null
+        },
+        {
+          "id": "c1-light-004",
+          "speaker": "一格信号",
+          "textSha256": "ff707e283404c299738e5e6e00f85b4bab142ba23b06d5d27392fa60ed8f6c8b",
+          "voice": null
+        },
+        {
+          "id": "c1-light-005",
+          "speaker": "旁白",
+          "textSha256": "611798f4e2fb51d8182a277657d8a4cdd359f44b70ec592c8964267790b69229",
+          "voice": null
+        },
+        {
+          "id": "c1-light-006",
+          "speaker": "一格信号",
+          "textSha256": "6e0374ff857ae0632dda32b82ae4cabb4ffb834930616be72bb9d519aa6742e0",
+          "voice": null
+        },
+        {
+          "id": "c1-light-007",
+          "speaker": "周既明",
+          "textSha256": "8272f792cdf49ed20bac1c3513fb57f643a3ce6ac908556acb8c45b9c4b6357e",
+          "voice": null
+        },
+        {
+          "id": "c1-light-008",
+          "speaker": "旁白",
+          "textSha256": "8d30f01a5234757a7f70a69ddf498e7491240c23810b863f579a4ae7b519e621",
+          "voice": null
+        },
+        {
+          "id": "c1-light-009",
+          "speaker": "旁白",
+          "textSha256": "abe68e38129bfe65745ff7db38fe8165b4355704f26ad7c8bb279e182f204859",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c1-xumi",
+      "routing": {
+        "next": "c1-window"
+      },
+      "lines": [
+        {
+          "id": "c1-xumi-001",
+          "speaker": "暂停营业",
+          "textSha256": "a42856ea8b5b5c7e5872f326dfb8520aa86da7c6a1692f80dfa328f1df5abf83",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-002",
+          "speaker": "周既明",
+          "textSha256": "4c6529ce70538b6e6458cf5075d1a77a73b11554f0e9800206f1a90004104cec",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-003",
+          "speaker": "暂停营业",
+          "textSha256": "de8845466da0544a27ec07dd7abf846a2f0b597ee20f43b574649d4da9236939",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-004",
+          "speaker": "旁白",
+          "textSha256": "9aac2f680ef2dc47082c3230391646d78b66a443511e4f08f797c5d2b7dde15a",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-005",
+          "speaker": "暂停营业",
+          "textSha256": "1be0e6425926d4958d3222e17338a845b41e0fedbb715cb95f3731200a6147e1",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-006",
+          "speaker": "周既明",
+          "textSha256": "00ac40854766f139f4d78cbd7ce5b17759333f1065e0159431ebf9a663c38a35",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-007",
+          "speaker": "暂停营业",
+          "textSha256": "b8a75fa7fd66bfdc1dbd077b624383ec574994b720166ee7c027b98b0a60efbc",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-008",
+          "speaker": "旁白",
+          "textSha256": "d9c8bc9026314f1b73d126e5f5df755e1bfeb2ee1edbe175fd125bed187f057f",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-009",
+          "speaker": "周既明",
+          "textSha256": "3b3ffd4c7f1dc11f614bfbb73d1b402c5ae89f653cfca6a40fe85ea5f95462c7",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-010",
+          "speaker": "暂停营业",
+          "textSha256": "0f101c1e5c01db688a4ba25e1ba0986bbd64b75754c9f2783495f6a31e014f89",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-011",
+          "speaker": "周既明",
+          "textSha256": "848eee74ff7002b9ddf5e41b81ffacc5144d60d7949ac4476e507d87a06b83fe",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-012",
+          "speaker": "暂停营业",
+          "textSha256": "2b10b56d473d7e3d7d2aa48600e96964d9e65491bfcae64a7e7274a6ee52a77d",
+          "voice": null
+        },
+        {
+          "id": "c1-xumi-013",
+          "speaker": "旁白",
+          "textSha256": "f7fed5fea7583f1c25b5f1d8aad0cc50da2a621ad1b25a4793796d74ad4bd466",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c1-window",
+      "routing": {
+        "next": "c1-end"
+      },
+      "lines": [
+        {
+          "id": "c1-window-001",
+          "speaker": "旁白",
+          "textSha256": "7678a82e38c2fd37d26492b47ca7cf59ad142e3fb8b8d7a42586198d0d5ac63b",
+          "voice": null
+        },
+        {
+          "id": "c1-window-002",
+          "speaker": "旁白",
+          "textSha256": "4377f82d2db80d647ae0562433d7ee93973b5ccb34445e6a5c726cbba0088089",
+          "voice": null
+        },
+        {
+          "id": "c1-window-003",
+          "speaker": "一格信号",
+          "textSha256": "a512a5a7af346b002640a522f54d895039cdce9bb1b1480c324d8beae5013c78",
+          "voice": null
+        },
+        {
+          "id": "c1-window-004",
+          "speaker": "周既明",
+          "textSha256": "ba0a1cb87495d6e9ee63314f9442b3fc1de3ab0005db20a7e3e0b4f3b330f270",
+          "voice": null
+        },
+        {
+          "id": "c1-window-005",
+          "speaker": "一格信号",
+          "textSha256": "f75936b3cb3a7190ad6ec5801e615611ef219e2f4d5186d35631001f2ffd944e",
+          "voice": null
+        },
+        {
+          "id": "c1-window-006",
+          "speaker": "周既明",
+          "textSha256": "daf8dc708b509458ec6e502aa91e3ed18aeb0b15ad4578457e088719774d7d0b",
+          "voice": null
+        },
+        {
+          "id": "c1-window-007",
+          "speaker": "一格信号",
+          "textSha256": "1a5ae1c8afccba5b5d36d388fafef41fe69b15cc3787489ff89f4bf4de115654",
+          "voice": null
+        },
+        {
+          "id": "c1-window-008",
+          "speaker": "一格信号",
+          "textSha256": "8a9a59a791887218a7bfc4c56d41ad940aa8e915cd6a73b014ecc9f9696371b1",
+          "voice": null
+        },
+        {
+          "id": "c1-window-009",
+          "speaker": "旁白",
+          "textSha256": "82a6dff12daa99b99063d77dfe3b5d0c08f010127663369710b4512eb991bbbe",
+          "voice": null
+        },
+        {
+          "id": "c1-window-010",
+          "speaker": "周既明",
+          "textSha256": "4c674cd44a80562ac166b10462a74c7372f39ab3a5d515dd4463a60150440506",
+          "voice": null
+        },
+        {
+          "id": "c1-window-011",
+          "speaker": "一格信号",
+          "textSha256": "8a82bd040e67194ef5fcf265df2f9f2766aa974884c49d3bcd4478b44d5cb3b6",
+          "voice": null
+        },
+        {
+          "id": "c1-window-012",
+          "speaker": "旁白",
+          "textSha256": "2f2a80479d77895aa67c7604fdba8738e433a8e866ae3666e17303daa86ae047",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c1-end",
+      "routing": {
+        "continuation": "c2-open",
+        "chapterEnd": true
+      },
+      "lines": [
+        {
+          "id": "c1-end-001",
+          "speaker": "系统",
+          "textSha256": "3677cbf4ba6c35fdabc7ada24020fa7e45e1db71b4ffc36fd6a7672d268856f8",
+          "voice": null
+        },
+        {
+          "id": "c1-end-002",
+          "speaker": "系统",
+          "textSha256": "984f65e067f7daa8e40e3c23e1a67169fde7d923e7f4c3e0bd31d3619b6f573d",
+          "voice": null
+        },
+        {
+          "id": "c1-end-003",
+          "speaker": "旁白",
+          "textSha256": "117989ce587c88bd17034fec2ebf32ac5446c04a0962a679054b514adf5b39d2",
+          "voice": null
+        },
+        {
+          "id": "c1-end-004",
+          "speaker": "旁白",
+          "textSha256": "dde9303abc3657f1e3169d4f52f2a9d7eaf5c576ff299b0dd4a1562e1934dca6",
+          "voice": null
+        },
+        {
+          "id": "c1-end-005",
+          "speaker": "旁白",
+          "textSha256": "bd3fdc4c9a91640ad489ca06193754b5b7a06fe9c3835edcfded668adb12a945",
+          "voice": null
+        },
+        {
+          "id": "c1-end-006",
+          "speaker": "旁白",
+          "textSha256": "8c5edacf13b3924a2be45fe076b2c104ecdb872a07bcda4b07c6e08aaccf4fda",
+          "voice": null
+        },
+        {
+          "id": "c1-end-007",
+          "speaker": "旁白",
+          "textSha256": "6b7c108a981f0ea60222f835a8f0da4f097f7c7f7216130381fe4a2adc6dc794",
+          "voice": null
+        },
+        {
+          "id": "c1-end-008",
+          "speaker": "旁白",
+          "textSha256": "b588e60541736a3fa285fedc6dd050abec72d4b8012b5ebc75c09a4635d2536c",
+          "voice": null
+        },
+        {
+          "id": "c1-end-009",
+          "speaker": "周既明",
+          "textSha256": "f2a3edd36e7420b083481b193a03e607a84e4278bfcb81ca30820d2f1841d08f",
+          "voice": null
+        },
+        {
+          "id": "c1-end-010",
+          "speaker": "旁白",
+          "textSha256": "6c34fc208a230d4234a83105a6353abcccd2a9ff310686207a17681a554e7bfb",
+          "voice": null
+        },
+        {
+          "id": "c1-end-011",
+          "speaker": "旁白",
+          "textSha256": "16b1f6411201358aae2e45619d00a1aca018533dd5ad9210fe13c716bbeff597",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-open",
+      "routing": {},
+      "lines": [
+        {
+          "id": "c2-open-001",
+          "speaker": "旁白",
+          "textSha256": "302a3d311f7d79e6d194aa8ad785d30c3114929ba4df9be28ed05d2d04b3854f",
+          "voice": null
+        },
+        {
+          "id": "c2-open-002",
+          "speaker": "旁白",
+          "textSha256": "b8c1f4e3c85a8dc9461670843748b6afd66fd0510b01b1c80b7d8ec4b67356af",
+          "voice": null
+        },
+        {
+          "id": "c2-open-003",
+          "speaker": "陆衡",
+          "textSha256": "c660c05d2b2915217f207abc4a6baaa53b7f6fe5576b3441060fcc3de4a727fb",
+          "voice": null
+        },
+        {
+          "id": "c2-open-004",
+          "speaker": "旁白",
+          "textSha256": "5f81227df68b7c1f359776f20993b563793c8289abfa390feabd01664acb7d37",
+          "voice": null
+        },
+        {
+          "id": "c2-open-005",
+          "speaker": "许弥",
+          "textSha256": "d0976fb3b62cfbf32323599b71b767763c474c95ea7234201cd609188f91f43b",
+          "voice": null
+        },
+        {
+          "id": "c2-open-006",
+          "speaker": "旁白",
+          "textSha256": "acd9b4886761b105413b0e9e095fff86c35623c36c19c3242b468c91521b8282",
+          "voice": null
+        },
+        {
+          "id": "c2-open-007",
+          "speaker": "旁白",
+          "textSha256": "2bffde8378a93e6a2907778e5731ca7a6066d72099d31598299b9ef0af8151cc",
+          "voice": null
+        },
+        {
+          "id": "c2-open-008",
+          "speaker": "谢听禾",
+          "textSha256": "4313f6d026af000c259aa77666f259546e941138dbbe451b188c908ef89bd50d",
+          "voice": null
+        },
+        {
+          "id": "c2-open-009",
+          "speaker": "周既明",
+          "textSha256": "aeb60e42b916b570f5c38eb5499d5cbac19103230660f380a40c84015d1ddc14",
+          "voice": null
+        },
+        {
+          "id": "c2-open-010",
+          "speaker": "谢听禾",
+          "textSha256": "342c08cccfe50cbf6eeb030c18e3f7414fa0f17a72f41383925194b8a192bad7",
+          "voice": null
+        },
+        {
+          "id": "c2-open-011",
+          "speaker": "旁白",
+          "textSha256": "ca825b1413ac3b7cfc008eeb855b5a39b7ab32e73949a0b33f69ec5c10439488",
+          "voice": null
+        },
+        {
+          "id": "c2-open-012",
+          "speaker": "旁白",
+          "textSha256": "101e402b3550c7a6ecfdadacd7dda586005d6581379c1621f7dddae2892920ab",
+          "voice": null
+        },
+        {
+          "id": "c2-open-013",
+          "speaker": "旁白",
+          "textSha256": "6bd79f0c03876581fea3a0aa5c4117a90ee4b251220b2009312ee8236e8f2c8f",
+          "voice": null
+        },
+        {
+          "id": "c2-open-014",
+          "speaker": "旁白",
+          "textSha256": "d3a2184f1da78d1427597f7d373bc7435e35485bc840ae57fe64a57975020b73",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "c2-open-1",
+          "next": "c2-audio",
+          "effect": {
+            "tinghe": 2,
+            "honesty": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c2-open-2",
+          "next": "c2-print",
+          "effect": {
+            "xumi": 2
+          },
+          "response": []
+        },
+        {
+          "id": "c2-open-3",
+          "next": "c2-count",
+          "effect": {
+            "honesty": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c2-audio",
+      "routing": {
+        "next": "c2-call"
+      },
+      "lines": [
+        {
+          "id": "c2-audio-001",
+          "speaker": "旁白",
+          "textSha256": "7d7571041a560e7109b60333ba6132deb9e35446e47dcebb602a8b8d3ce85392",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-002",
+          "speaker": "谢听禾",
+          "textSha256": "1ee1bcde45ab67a2941239574ca736da65485accb0e2b97208053e69b11edc72",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-003",
+          "speaker": "周既明",
+          "textSha256": "f00ce857bcbb6918be42b0330ce6e9d63c078fad8f55cb6b1c3ab49db11cbe3c",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-004",
+          "speaker": "谢听禾",
+          "textSha256": "1ad9b49e13bc2995f7c9fdbb9dd0f5c37612980c5f104732d4ef25284d61f414",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-005",
+          "speaker": "周既明",
+          "textSha256": "149892f7c1668d6274ac5b23a27ef90091da248cd79ffbc272d16a605bd04c6a",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-006",
+          "speaker": "旁白",
+          "textSha256": "1f59317700a2ac5675cbf9e39419ebfad3e9aa4c318af6a8b54f344bb75e7c1f",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-007",
+          "speaker": "旁白",
+          "textSha256": "ad330c2a135e3bfcc52bb5a1a303a1ccd7c525ae61cd58af7d6ff848899c5c59",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-008",
+          "speaker": "谢听禾",
+          "textSha256": "14340a7bdb8199ccd0fed5f30593b4306694a5e5173e7d7da046b3c6535f1c08",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-009",
+          "speaker": "旁白",
+          "textSha256": "8e7df0a0bf35ea9e1ce08e3f9fb3e0f4402adb4b4776e941555657649bb978cb",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-010",
+          "speaker": "周既明",
+          "textSha256": "93325a5620cd7bb82b5775460f3f1910f3ca67824e206face4bbe2959d578716",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-011",
+          "speaker": "谢听禾",
+          "textSha256": "dbff673c45db7db6f558d0de34908d28d9020803b777a8e66c92f9d691e76dc2",
+          "voice": null
+        },
+        {
+          "id": "c2-audio-012",
+          "speaker": "旁白",
+          "textSha256": "8b24be42e7081768c623c5c49c1cf06ae380dcdee86ffb409ed42da5bbe6dc22",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-print",
+      "routing": {
+        "next": "c2-call"
+      },
+      "lines": [
+        {
+          "id": "c2-print-001",
+          "speaker": "旁白",
+          "textSha256": "f91663fc2dee54be6c6583abc74884b696ded95dc3479bf69d35fe598f12f36e",
+          "voice": null
+        },
+        {
+          "id": "c2-print-002",
+          "speaker": "许弥",
+          "textSha256": "41c3390330f81c667010ddd4d2f6a6c555d27a7fe861281a2036ab0c41c62931",
+          "voice": null
+        },
+        {
+          "id": "c2-print-003",
+          "speaker": "许弥",
+          "textSha256": "20fb247096cf8b18e40e823deeb774685f182007f12996589f1f8d360f0e8810",
+          "voice": null
+        },
+        {
+          "id": "c2-print-004",
+          "speaker": "周既明",
+          "textSha256": "b6b5a4b9f14568a2f39ce5d556a45530853cc3a61ff9eec0e2225171a20adfbc",
+          "voice": null
+        },
+        {
+          "id": "c2-print-005",
+          "speaker": "许弥",
+          "textSha256": "1d5e5298749da9e50b8f80617057c03e6068d94a609c4d15f1995a86ba11b1b9",
+          "voice": null
+        },
+        {
+          "id": "c2-print-006",
+          "speaker": "旁白",
+          "textSha256": "522cd5a8703d35c40f3f7f7a5c1cc301ea064b7bb9fdf9d7132ae8d6f1ea7a1f",
+          "voice": null
+        },
+        {
+          "id": "c2-print-007",
+          "speaker": "周既明",
+          "textSha256": "8665f78202a5f748d97f90cc6e8e7e4cfb210eb031585f0f993114bbae3ec395",
+          "voice": null
+        },
+        {
+          "id": "c2-print-008",
+          "speaker": "许弥",
+          "textSha256": "f58c6062bdfda3fb320285fe775a2a9c309008db03ba0f67809874c7d6b22fc0",
+          "voice": null
+        },
+        {
+          "id": "c2-print-009",
+          "speaker": "周既明",
+          "textSha256": "e8a58e087a983cb5ef2dfe006f359971e3a17debb7e29505c14d3831232ed9c1",
+          "voice": null
+        },
+        {
+          "id": "c2-print-010",
+          "speaker": "许弥",
+          "textSha256": "42ae04f66f413b06809bd5b2b6b380bfc6c87fc7f815cc969895ed5ec981155f",
+          "voice": null
+        },
+        {
+          "id": "c2-print-011",
+          "speaker": "旁白",
+          "textSha256": "7c5ee7379bd82dfce78a0a02200d858c2512b8d85e140659557c65fe31a1d4b5",
+          "voice": null
+        },
+        {
+          "id": "c2-print-012",
+          "speaker": "旁白",
+          "textSha256": "75a320baccba224c28ffa695cf013f536cc9fa4da7bd2d028a3ccb156261875f",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-count",
+      "routing": {
+        "next": "c2-call"
+      },
+      "lines": [
+        {
+          "id": "c2-count-001",
+          "speaker": "旁白",
+          "textSha256": "19e351e32381406dec720efe85cc09a079745752d00bec303f4c1e4048bf3ceb",
+          "voice": null
+        },
+        {
+          "id": "c2-count-002",
+          "speaker": "旁白",
+          "textSha256": "94b63c6b2c6f39cf5c214b7fa3e005f586d284b618f64ca2dce88e793135a6c2",
+          "voice": null
+        },
+        {
+          "id": "c2-count-003",
+          "speaker": "陆衡",
+          "textSha256": "318debd5fba21cb60ffa42e1a7e6324edb9fa5a97fb594f3b3c5c3357a61971b",
+          "voice": null
+        },
+        {
+          "id": "c2-count-004",
+          "speaker": "周既明",
+          "textSha256": "6a73cb39866203661b6dbe0e328d1a0097df00dc0a345c8bf86c78b0cf5d521f",
+          "voice": null
+        },
+        {
+          "id": "c2-count-005",
+          "speaker": "陆衡",
+          "textSha256": "ca0910b761276c8788c59b6db3b6bcf11dee7c5de3dd41b36e73d1486b0e2ddf",
+          "voice": null
+        },
+        {
+          "id": "c2-count-006",
+          "speaker": "周既明",
+          "textSha256": "804d6dbb293157a01b52f16e1dae5c3f5a2691b988f5b4df99c7e3b35aa1f984",
+          "voice": null
+        },
+        {
+          "id": "c2-count-007",
+          "speaker": "旁白",
+          "textSha256": "9163b44b4d5c7a25af67fbfa6b47aa693b109c5a5c149a3ffe76054ebe764a5c",
+          "voice": null
+        },
+        {
+          "id": "c2-count-008",
+          "speaker": "旁白",
+          "textSha256": "1225c0ada3d958e36f26145aa11a175b32570d5f76b79e6fbdbb23b78bac003b",
+          "voice": null
+        },
+        {
+          "id": "c2-count-009",
+          "speaker": "陆衡",
+          "textSha256": "8e12ffe1e4a182876982f26f69d8eab7de94cdecc04f69d516b3a86f7dd28d63",
+          "voice": null
+        },
+        {
+          "id": "c2-count-010",
+          "speaker": "旁白",
+          "textSha256": "595bc6831ce89de0a00ad1ea30835f1225e8e96b24df2dcca050a381d9ee0a82",
+          "voice": null
+        },
+        {
+          "id": "c2-count-011",
+          "speaker": "旁白",
+          "textSha256": "983eeb47345df6befb901deb636f2bff6fdd2e250cfc7f433b33ad0033f31491",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-call",
+      "routing": {},
+      "lines": [
+        {
+          "id": "c2-call-001",
+          "speaker": "旁白",
+          "textSha256": "daa3fd3dd2494a9dad7a30bd41d558a55efbdd083610d483dd5ec62058b3d89c",
+          "voice": null
+        },
+        {
+          "id": "c2-call-002",
+          "speaker": "旁白",
+          "textSha256": "d0d08f3059ad613e51f3b82994bebc135ca1049e52cb39fca2d13da257dc0595",
+          "voice": null
+        },
+        {
+          "id": "c2-call-003",
+          "speaker": "旁白",
+          "textSha256": "191f5a0ceb2a6652d44fb64ee6000a1a4ab0111db41333dc8a943fd9226bb37a",
+          "voice": null
+        },
+        {
+          "id": "c2-call-004",
+          "speaker": "谢听禾",
+          "textSha256": "347fcc3a4f2ac08f38a9b4ed2c334e3c43ce81da55719496a62e29f5de1e3663",
+          "voice": null
+        },
+        {
+          "id": "c2-call-005",
+          "speaker": "旁白",
+          "textSha256": "ac0b06737ebd8605d757a62725836b8a70d3b2f1efd66153eb8f853bbc05b3bb",
+          "voice": null
+        },
+        {
+          "id": "c2-call-006",
+          "speaker": "谢听禾",
+          "textSha256": "34dd051bdaaa3c5606ee46cf90f08a01624b068414b02947bb4a81ee3697cfa6",
+          "voice": null
+        },
+        {
+          "id": "c2-call-007",
+          "speaker": "旁白",
+          "textSha256": "625cfb9db0220c6b91045af8c156f414a7eb20681b56b13dc0b814a59a692dac",
+          "voice": null
+        },
+        {
+          "id": "c2-call-008",
+          "speaker": "周既明",
+          "textSha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7",
+          "voice": null
+        },
+        {
+          "id": "c2-call-009",
+          "speaker": "谢听禾",
+          "textSha256": "461444e2187ca2580f281a7a192138273a0be237de4e8260b976309541ad6d2e",
+          "voice": null
+        },
+        {
+          "id": "c2-call-010",
+          "speaker": "旁白",
+          "textSha256": "5179551686d05ba79ecade2c477d44eb5a9628fb00f8655549399433ff805231",
+          "voice": null
+        },
+        {
+          "id": "c2-call-011",
+          "speaker": "旁白",
+          "textSha256": "b050b76c94a6e423f0df9a731c977ee1a701dc102d908a43769140bc20822ac9",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "c2-call-1",
+          "next": "c2-camera",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c2-call-2",
+          "next": "c2-voice",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c2-camera",
+      "routing": {
+        "next": "c2-end"
+      },
+      "lines": [
+        {
+          "id": "c2-camera-001",
+          "speaker": "旁白",
+          "textSha256": "12d5f51b728d0ef6b8da42e21b82921ed74b6e9f3f66896e44b50dc6cdb96956",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-002",
+          "speaker": "谢听禾",
+          "textSha256": "72af5ec2e217a9a418f58a41ce9eaf70bb7f84bf24e63c97a393b00812efbd78",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-003",
+          "speaker": "旁白",
+          "textSha256": "d478b5f857544dd134e6d64437d32d9b779a5487c85c0dda1d5765304f845689",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-004",
+          "speaker": "旁白",
+          "textSha256": "9e92892bc07b091c2b9b34009d312b7ffae869c8535254de88e5d49c549f799c",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-005",
+          "speaker": "周既明",
+          "textSha256": "521a75a05a974f58da1f2442590961987317aa6ec8778702639d23ee9d08181d",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-006",
+          "speaker": "谢听禾",
+          "textSha256": "435e164b19ebe6725c8927dace05876b4cdafcaef64665db9f86d44e5388579a",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-007",
+          "speaker": "旁白",
+          "textSha256": "a35fc6c697c25412bd0d246f938781f1b6c77e66b0b63a0336a9d1948abd532f",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-008",
+          "speaker": "旁白",
+          "textSha256": "cc720c41c86d36a601e764cb8b14993b1137ba9252a6938af849bbd4f4281888",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-009",
+          "speaker": "谢听禾",
+          "textSha256": "08e640bbd7eac82a3c2386435c4804480d959bbe3c15b5cefdd3375a277d49e7",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-010",
+          "speaker": "周既明",
+          "textSha256": "9535f59b5ef9f280398be0fd5c3fca27a1cd0ba638adbbd82e46705098a8ebc7",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-011",
+          "speaker": "谢听禾",
+          "textSha256": "4c9e3e5de3dbed0cd92a44d4d19754efb3d1214d23d591080e98b1a054f937cf",
+          "voice": null
+        },
+        {
+          "id": "c2-camera-012",
+          "speaker": "旁白",
+          "textSha256": "ae767b87958ca64556eb2bdfa50278cbff77a018d5d500d963aebb409b290e68",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-voice",
+      "routing": {
+        "next": "c2-end"
+      },
+      "lines": [
+        {
+          "id": "c2-voice-001",
+          "speaker": "周既明",
+          "textSha256": "8894b0a52d3560f1066e246208dec1c56bcf388e38fd517ffdf900f329e6e34f",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-002",
+          "speaker": "谢听禾",
+          "textSha256": "6282fb59223f59bcafcae28d310a242ab0066a780339d5690bdd76dcf88fb6e0",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-003",
+          "speaker": "周既明",
+          "textSha256": "51ab200fa99599f89b41a67d8547913cb723a6888c606a2a207f2cbd896df4a4",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-004",
+          "speaker": "谢听禾",
+          "textSha256": "f980f0d7cf959b610077be5e4a6854439049447d9a2b1b8be676c1a7fd5fc52a",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-005",
+          "speaker": "旁白",
+          "textSha256": "4c28e20d973f1b2ebd6dd62dda8f782764b39336412bedb27b8e8d0db375a2d0",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-006",
+          "speaker": "谢听禾",
+          "textSha256": "08b2415a5ff67b2dd63378ed21939331fba91fd2abc838bf5f85359acd71cbe7",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-007",
+          "speaker": "旁白",
+          "textSha256": "b7d798e13f43e281e6f720cacac31ab0136a6cd88e88236d40fe6d7674af0027",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-008",
+          "speaker": "谢听禾",
+          "textSha256": "945ac3c94e7303e6a79290aec8694f2aea78941f0a7407f036f2d72919ddf8ae",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-009",
+          "speaker": "周既明",
+          "textSha256": "fd855c10aefc6a00aabb13d5c965519f318e5dc3ab990a59b3e5ae44ecda6b66",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-010",
+          "speaker": "旁白",
+          "textSha256": "1b76ce5b0a96734393c92496eef7469cbd9f9809e5afbe521cf70795ea17d83a",
+          "voice": null
+        },
+        {
+          "id": "c2-voice-011",
+          "speaker": "谢听禾",
+          "textSha256": "9b4fd7efad5ea8c04268e2780a85cda207eb355bb5def2ed7bcbd1cef3450081",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c2-end",
+      "routing": {
+        "continuation": "c3-open",
+        "chapterEnd": true
+      },
+      "lines": [
+        {
+          "id": "c2-end-001",
+          "speaker": "旁白",
+          "textSha256": "b6dc8377617120ca35112dff9d70830cd79f5df45abfd64b05191165a1c54f1f",
+          "voice": null
+        },
+        {
+          "id": "c2-end-002",
+          "speaker": "旁白",
+          "textSha256": "005588e1d9c42f5a536fe36e0c618658381ac5ee8eddfa3be58113fea86b59ae",
+          "voice": null
+        },
+        {
+          "id": "c2-end-003",
+          "speaker": "旁白",
+          "textSha256": "e98e62f52cc1ba602deccc4a380dde61fe2f6843056676a4824ca8281651a994",
+          "voice": null
+        },
+        {
+          "id": "c2-end-004",
+          "speaker": "旁白",
+          "textSha256": "c70cef91e91bbbbf7dc71599aa64bf49194a66ca31390291a9ce89de1c97e09a",
+          "voice": null
+        },
+        {
+          "id": "c2-end-005",
+          "speaker": "旁白",
+          "textSha256": "db0e452cebb842382d7e42ec9963a5a070d5d40ea9063dfc2bb08f715e7e72e6",
+          "voice": null
+        },
+        {
+          "id": "c2-end-006",
+          "speaker": "旁白",
+          "textSha256": "169f9c2b3d6b98ecd4260b6f553079dc8c6efa98bb3af5bcec650cf602afefce",
+          "voice": null
+        },
+        {
+          "id": "c2-end-007",
+          "speaker": "旁白",
+          "textSha256": "bc232927f2912897f7025e78d5fa710c2d06bf467022896d435c0e46f2fd7124",
+          "voice": null
+        },
+        {
+          "id": "c2-end-008",
+          "speaker": "旁白",
+          "textSha256": "8e5f9f261e7693c74aeda35d41d6000f93b73ac7884d1d9472df70c24508a7dc",
+          "voice": null
+        },
+        {
+          "id": "c2-end-009",
+          "speaker": "旁白",
+          "textSha256": "22befe2eb895b47522d73dcda78325b792c7057074b1a5e03070df0d6aab811c",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-open",
+      "routing": {
+        "next": "c3-screenshot"
+      },
+      "lines": [
+        {
+          "id": "c3-open-001",
+          "speaker": "旁白",
+          "textSha256": "6d3a11d1e30f1107cd4280b908568aa2969c9a7660772231a077a3628822510b",
+          "voice": null
+        },
+        {
+          "id": "c3-open-002",
+          "speaker": "旁白",
+          "textSha256": "4adcdcc9fd34eb77fa2c62814fa3824316d9ea62882ed969cd2738b1b67fed12",
+          "voice": null
+        },
+        {
+          "id": "c3-open-003",
+          "speaker": "旁白",
+          "textSha256": "40966f2f478cd33bc8514df197ea96fb51e937832d620aa3e115c5ed10b99b13",
+          "voice": null
+        },
+        {
+          "id": "c3-open-004",
+          "speaker": "许弥",
+          "textSha256": "69c9909d8b3c3f17f3f54e8f0acf072bac4f666183c530907d4166274975cb28",
+          "voice": null
+        },
+        {
+          "id": "c3-open-005",
+          "speaker": "陆衡",
+          "textSha256": "d55b704f1348a1eead227fe3eba91e476fdad55bfcf9f772b23583127eae46ff",
+          "voice": null
+        },
+        {
+          "id": "c3-open-006",
+          "speaker": "谢听禾",
+          "textSha256": "3d5f45bf33503406af2bc630b16beac114d48d0a4ea9241fab019976baa41b33",
+          "voice": null
+        },
+        {
+          "id": "c3-open-007",
+          "speaker": "许弥",
+          "textSha256": "2e756c7c0c4627c7bbaa9521d11fe62ba7b3a15ecb4adbd6d5ea1bca26915870",
+          "voice": null
+        },
+        {
+          "id": "c3-open-008",
+          "speaker": "旁白",
+          "textSha256": "5482da328310a0a0908f85452699241f4fb2662f67c6c7daf45d92f2c6a0e542",
+          "voice": null
+        },
+        {
+          "id": "c3-open-009",
+          "speaker": "旁白",
+          "textSha256": "d990b31dfce3cfc4ba9babbbd4c1c4540164ab8ed633d384f354fcf48f07e7ba",
+          "voice": null
+        },
+        {
+          "id": "c3-open-010",
+          "speaker": "旁白",
+          "textSha256": "5fac0973c823ebd136472b0a7b8e13f54255f4b9db4812f8c416e320047b793b",
+          "voice": null
+        },
+        {
+          "id": "c3-open-011",
+          "speaker": "旁白",
+          "textSha256": "538b3ce9ecfde58950497c43424ddc6a9986eb774d89b45e895668ee8c3f7b1a",
+          "voice": null
+        },
+        {
+          "id": "c3-open-012",
+          "speaker": "旁白",
+          "textSha256": "6a43056046d6dde92f86251d6ba038242b82650595bac5b71f9e52b90bb2f302",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-screenshot",
+      "routing": {
+        "next": "c3-choice"
+      },
+      "lines": [
+        {
+          "id": "c3-screenshot-001",
+          "speaker": "旁白",
+          "textSha256": "835ccb1c0a4d48fa70330e2f3d1b5bfbb7245538fdbd168c75843edc1e8f5cfc",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-002",
+          "speaker": "旁白",
+          "textSha256": "0a11cc049df22240c8d26460625f3899bd0a1430cb1c3b2d5ff99965f0433629",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-003",
+          "speaker": "旁白",
+          "textSha256": "8eee1157137ea3bcfd15099d45f3ce165b347b5da757dcfcadcb18428a7edc7a",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-004",
+          "speaker": "旁白",
+          "textSha256": "faff18c4f84dc03e66046375bb741c2d6c1c48d5b6a033359ddecb32bcd40796",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-005",
+          "speaker": "旁白",
+          "textSha256": "0c5c62e142faabc0c042eae8fedb29ec503917ea7f70e249b10949f99a3478a3",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-006",
+          "speaker": "旁白",
+          "textSha256": "4d701e74cbcf32ac60ef3a015a587e67515d34da8fbba27c904ca99222a901e2",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-007",
+          "speaker": "谢听禾",
+          "textSha256": "94497f2f7258b14974a7327f8b57522ab32bdefa7230f83ffcbe3376b9710888",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-008",
+          "speaker": "陆衡",
+          "textSha256": "e1d33fee68f727b49df372047a61a059575e20b2808d38e6b0609eaacc401e60",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-009",
+          "speaker": "许弥",
+          "textSha256": "21e8bf59cc4d4a36030c26c9486931ceeffb8d4fae1f3fdec7ee7d4da0b464b3",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-010",
+          "speaker": "旁白",
+          "textSha256": "b5655ac94fdd4251f840110e3af81ff1917ca888501efffcb4e3f382fe86cc93",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-011",
+          "speaker": "旁白",
+          "textSha256": "fed4126574cd0be115adb4efb7c3d09deaa5b7d62a96ae68b1f44865c50263fd",
+          "voice": null
+        },
+        {
+          "id": "c3-screenshot-012",
+          "speaker": "旁白",
+          "textSha256": "1156febd9c59d4695537b21ed85e305a9e9eaedbaa2647173708cf0aa0dceaf4",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-choice",
+      "routing": {},
+      "lines": [
+        {
+          "id": "c3-choice-001",
+          "speaker": "旁白",
+          "textSha256": "3f8cb9d2cda914f50077ce2dd5c644db1ff4ea1db7428e5f82a001cbefeca314",
+          "voice": null
+        },
+        {
+          "id": "c3-choice-002",
+          "speaker": "旁白",
+          "textSha256": "eb14955ba1607d6fc02d409294966423222000c774571076905311ec1bb6fb09",
+          "voice": null
+        },
+        {
+          "id": "c3-choice-003",
+          "speaker": "旁白",
+          "textSha256": "595f621a8fe9364da5ddde7652772e230d3bad7fe64d5a3997526226013e40df",
+          "voice": null
+        },
+        {
+          "id": "c3-choice-004",
+          "speaker": "旁白",
+          "textSha256": "02f8397b3da12c97ec6789baf4296d40b5d262f70f2061515711e4e64b12daef",
+          "voice": null
+        },
+        {
+          "id": "c3-choice-005",
+          "speaker": "旁白",
+          "textSha256": "40d3542d1614ef4fcdd8ef15f8fc6ca6da45031a86ed1c3cacccabd6f5b358a9",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "c3-choice-1",
+          "next": "c3-public",
+          "effect": {
+            "honesty": 2,
+            "xumi": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c3-choice-2",
+          "next": "c3-private",
+          "effect": {
+            "honesty": 2,
+            "xumi": 2
+          },
+          "response": []
+        },
+        {
+          "id": "c3-choice-3",
+          "next": "c3-remove",
+          "effect": {
+            "honesty": 1,
+            "xumi": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c3-public",
+      "routing": {
+        "next": "c3-repair"
+      },
+      "lines": [
+        {
+          "id": "c3-public-001",
+          "speaker": "旁白",
+          "textSha256": "709cb59ca7e740b98915eca661d2357591ed1dee07941bac2c281800191b0b5d",
+          "voice": null
+        },
+        {
+          "id": "c3-public-002",
+          "speaker": "旁白",
+          "textSha256": "cf6d7dcd3521a6c9f536b3d2053cab3e7ea186f9c92064a0791437e7c3aa4d27",
+          "voice": null
+        },
+        {
+          "id": "c3-public-003",
+          "speaker": "周既明",
+          "textSha256": "111a6640fff4cb019ddf06568eb9de788e8f9c2161931d8c9bd0ef855083b1c9",
+          "voice": null
+        },
+        {
+          "id": "c3-public-004",
+          "speaker": "旁白",
+          "textSha256": "c57f00b5437d0a196c643c2eb562c06a88aa3e5ba206432976d72d6c3b1c3fe8",
+          "voice": null
+        },
+        {
+          "id": "c3-public-005",
+          "speaker": "旁白",
+          "textSha256": "7cec1dc79d8ace03c6ac84ac14d9b019567b349e11b75101ac6e51ebb1b2bd8a",
+          "voice": null
+        },
+        {
+          "id": "c3-public-006",
+          "speaker": "许弥",
+          "textSha256": "df3ae74e6ea86eea76c4c21cce44c23fff61f479e2d561f31319eafb18ee948f",
+          "voice": null
+        },
+        {
+          "id": "c3-public-007",
+          "speaker": "周既明",
+          "textSha256": "56a8ca0f54ca6e7428dae96c00bdae1eacc176cd00fbbcfd7c5f33908cae8b15",
+          "voice": null
+        },
+        {
+          "id": "c3-public-008",
+          "speaker": "许弥",
+          "textSha256": "bbea40a9c126ed7d379dc8d68774fdddcf924ef9cc2054ae6ab4415607d21ac8",
+          "voice": null
+        },
+        {
+          "id": "c3-public-009",
+          "speaker": "旁白",
+          "textSha256": "c973c800e8ee4e15ade0d89e4895c362bd8a3fba62f4e4ca7fe2ed97bd6e4087",
+          "voice": null
+        },
+        {
+          "id": "c3-public-010",
+          "speaker": "旁白",
+          "textSha256": "1c3ae7b3fec9fbea098ecfc62476dc7d027b531d23aa5f2dadb994a30f5fcab1",
+          "voice": null
+        },
+        {
+          "id": "c3-public-011",
+          "speaker": "旁白",
+          "textSha256": "beea188f0ff0dad025f87f1fec3669ca67fb3b038795ff0822eb14a3e7200999",
+          "voice": null
+        },
+        {
+          "id": "c3-public-012",
+          "speaker": "旁白",
+          "textSha256": "53735e8bb13d0a71aa48741a077df0b9b99b65d534ba7e8dbe132bc14ac210e8",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-private",
+      "routing": {
+        "next": "c3-repair"
+      },
+      "lines": [
+        {
+          "id": "c3-private-001",
+          "speaker": "周既明",
+          "textSha256": "1eb1dac5557389e46c93b1ada8da3cca1d8ebe8a75de9b5a4ff9b351892690f6",
+          "voice": null
+        },
+        {
+          "id": "c3-private-002",
+          "speaker": "周既明",
+          "textSha256": "0deb12df4e7598e53f52441303552d211f9f2827939a915281f7159de8277742",
+          "voice": null
+        },
+        {
+          "id": "c3-private-003",
+          "speaker": "旁白",
+          "textSha256": "52083e5f2df0ccec473cf1bdad6f7c312baab019533d077feef6b64d83370fd3",
+          "voice": null
+        },
+        {
+          "id": "c3-private-004",
+          "speaker": "许弥",
+          "textSha256": "03c9d0f34e43c105748b82a65d9f75f2190b1f22f9940b6d6ceb729a5eca7fdc",
+          "voice": null
+        },
+        {
+          "id": "c3-private-005",
+          "speaker": "周既明",
+          "textSha256": "8c142c4fda23a853e863263c2ca001d55bfc93ca742ee731c44af4d940ea68df",
+          "voice": null
+        },
+        {
+          "id": "c3-private-006",
+          "speaker": "许弥",
+          "textSha256": "f35ec88484a2ee7bd7afefe25b3988a6336ebb7dd1e35b11630e4409f192544b",
+          "voice": null
+        },
+        {
+          "id": "c3-private-007",
+          "speaker": "旁白",
+          "textSha256": "38ea20259f0d4cf700f949281fc9843801ee96f0cdf08c1b805c596f85442df5",
+          "voice": null
+        },
+        {
+          "id": "c3-private-008",
+          "speaker": "旁白",
+          "textSha256": "8476dc5feb9ec6ced72db21be9c997ab428ad0824a98221c48781fe287453838",
+          "voice": null
+        },
+        {
+          "id": "c3-private-009",
+          "speaker": "旁白",
+          "textSha256": "18320b1d81da6cd4513108f5fcb99cb8f3e8b33c6db6b6fef3912e5c4410851e",
+          "voice": null
+        },
+        {
+          "id": "c3-private-010",
+          "speaker": "许弥",
+          "textSha256": "008c8ce109cc0751dc0a2a76b5bedc854ee59baea82d0fe9c275dd3bcdaf903d",
+          "voice": null
+        },
+        {
+          "id": "c3-private-011",
+          "speaker": "周既明",
+          "textSha256": "5affec4079cfabdab488f961c7ef7f53771f567d0192df77461425a7c6b9a12f",
+          "voice": null
+        },
+        {
+          "id": "c3-private-012",
+          "speaker": "旁白",
+          "textSha256": "ab56e363f42f27e8fa74fb294b03bac9b771b4e239138548bfe39a79f13e534b",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-remove",
+      "routing": {
+        "next": "c3-repair"
+      },
+      "lines": [
+        {
+          "id": "c3-remove-001",
+          "speaker": "旁白",
+          "textSha256": "5f8f8e8980b5e1b0d384f5d1a61f12258eac08fb83ad0ac3dd8dbbf25e22cc03",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-002",
+          "speaker": "旁白",
+          "textSha256": "c6b7fcc6ebe3b6a20f2f17bd90497281746ef50ee4bb8d025a2fe7cec083eb04",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-003",
+          "speaker": "旁白",
+          "textSha256": "7b7eed762f0911863dfeab85b665e76c3abf155f88b3160786d9df804d078c39",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-004",
+          "speaker": "周既明",
+          "textSha256": "6533ed2abee0ea46e6f660c5e4d0bffe686766c853ada8837ebc539cef9c1f12",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-005",
+          "speaker": "许弥",
+          "textSha256": "68d29e59a7fdd3cb79887920ae4c7c431eecc081c2ffd517a4085ae9328696f6",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-006",
+          "speaker": "周既明",
+          "textSha256": "a9be329754981608a5fe82b51bc60751b7e6de8799d9210ebc46c5db1093a8fb",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-007",
+          "speaker": "许弥",
+          "textSha256": "3f371c794d2a892175929416cd0fb0946e0f7a43c08cec0e629a600eae002959",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-008",
+          "speaker": "旁白",
+          "textSha256": "7aae806a607f7bc58c98a7ea8efb17d6c4c6646f224746ee827997c632c71532",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-009",
+          "speaker": "许弥",
+          "textSha256": "1dcf8e6030ebcb3f25948762204ade5a1c2d5a285900e6c24df651f774c0444d",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-010",
+          "speaker": "旁白",
+          "textSha256": "12f762d2a6c277992ecab264e03c138a847b557d74964edac9e5695ebd5a6cff",
+          "voice": null
+        },
+        {
+          "id": "c3-remove-011",
+          "speaker": "旁白",
+          "textSha256": "98d7f2d46d6a1f9294734e7cac6e58b2fbe9b4fe3b6d909570803cf79b4f772b",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-repair",
+      "routing": {
+        "next": "c3-frame"
+      },
+      "lines": [
+        {
+          "id": "c3-repair-001",
+          "speaker": "旁白",
+          "textSha256": "54c14af93611bb39aa24d0dd71c7a19b4e7c8b7c831e95fa0ec28f07324f07db",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-002",
+          "speaker": "旁白",
+          "textSha256": "0bb998d0b298d9c52b659f4242a6e75a9a81f6120845274a860665c20cfffc87",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-003",
+          "speaker": "许弥",
+          "textSha256": "af7d7141873dbddadacac8cc160cfcbb7eada7fad5cc12e6734a4ca3af9b6314",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-004",
+          "speaker": "周既明",
+          "textSha256": "55a242f77421ed85369325187cf8eeb798610488fdb2eefeb4f3cada275db36f",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-005",
+          "speaker": "许弥",
+          "textSha256": "221d4f6d964f32cf762fe720368d145fdb89f5baaf1c7063b33578736879d05b",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-006",
+          "speaker": "旁白",
+          "textSha256": "68f50d1f6d226622b13779a776b3c072c8389c4ccaf67a827ac3f7bed8b0efae",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-007",
+          "speaker": "旁白",
+          "textSha256": "529c5c722168970c8fa7cfe812830942e39c386eb06df7be6705e00df5942150",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-008",
+          "speaker": "旁白",
+          "textSha256": "a40c16199ecf9711d4c41d2e37b0ccc9ce712677075f933023239005b15e9aaa",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-009",
+          "speaker": "旁白",
+          "textSha256": "0ba5ecff9708e6159919dfd1139f2b934facf29ebb623c84390bafb0f1218fd2",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-010",
+          "speaker": "旁白",
+          "textSha256": "8ce5c783730c006b82a55cacaa02058bea279d16e662ff106ac169f408879a46",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-011",
+          "speaker": "旁白",
+          "textSha256": "2fa98c498fb6a8aec7f7eed8e48f854a5fdc236b1ed42f63ac9d017f7e781e6b",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-012",
+          "speaker": "许弥",
+          "textSha256": "fa00974c14b000f0e5d168bd8dd8c0ff4637e6cc3563ad7641e0d00c04b7982d",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-013",
+          "speaker": "周既明",
+          "textSha256": "3c526582c625b61a3e70f02c2af0c92b92d287cc8afc5d323aba684b06b19a44",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-014",
+          "speaker": "许弥",
+          "textSha256": "fbb28958f44fbdeb637e95bf9250cf859fcd855d23947c3d436b9e47d5195755",
+          "voice": null
+        },
+        {
+          "id": "c3-repair-015",
+          "speaker": "旁白",
+          "textSha256": "17329dff5b573cbcd30812d33e426814fb78e86d3b6ddc59e111efa799bf9d7c",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-frame",
+      "routing": {
+        "next": "c3-end"
+      },
+      "lines": [
+        {
+          "id": "c3-frame-001",
+          "speaker": "旁白",
+          "textSha256": "354c63f047b3b6c6097c7b55466529a61c08d27b0c2b496fd12c6d3826fb0e85",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-002",
+          "speaker": "旁白",
+          "textSha256": "9763fc6fa4c1329480a0b830de8bfdcc3652974bd1c3ae6c67b3fbf019d0d0e9",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-003",
+          "speaker": "许弥",
+          "textSha256": "8bacc56e468a30c5443ce00ac7b506d22de5159f5fcc1b966bbfcb34db1e7f65",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-004",
+          "speaker": "周既明",
+          "textSha256": "e8302ba0fe7850cd57ca74649b1ea3b1e549ad66338a8efd2b3683fc97926b49",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-005",
+          "speaker": "旁白",
+          "textSha256": "99b4f5797bdf57df054e9d0577f25e7871e9df883145f83926597d98ce2db43d",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-006",
+          "speaker": "许弥",
+          "textSha256": "76e925a2925894ec8e367c09141997df4dcb39bf8098b4529dd9903cc7c2f451",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-007",
+          "speaker": "周既明",
+          "textSha256": "48e6846838913e34a040ca1466f4f79cad7e3df07f76e7868a37699a86028d51",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-008",
+          "speaker": "许弥",
+          "textSha256": "0cbc343ce7273acc845c3945e72efb7d71d968c5417d8263d0846c215aa480c1",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-009",
+          "speaker": "旁白",
+          "textSha256": "d198fec3942ec412cdf15af993915b68815c98d0fb204e0ed1ff13a7536cc2cd",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-010",
+          "speaker": "周既明",
+          "textSha256": "74a0d87e6474d5a43ca7d5b07e1892f0f14102436a033e3f47e19c3c525a4dee",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-011",
+          "speaker": "许弥",
+          "textSha256": "ace5e6dd89672502d6815dcd96932da47b1d139e279ad71a9e5d8d1538344a97",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-012",
+          "speaker": "周既明",
+          "textSha256": "7e3bee26e39df335e3b4e49471c4381bcabe42573445131f4a842deb5bc1e8f5",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-013",
+          "speaker": "许弥",
+          "textSha256": "9b56bf02b580084c0172e4091c66c06935d84f1ef28c081790a1a31d34a32c8f",
+          "voice": null
+        },
+        {
+          "id": "c3-frame-014",
+          "speaker": "旁白",
+          "textSha256": "44a375cff5f72e3df9ec72018938e4a10a27209342cc54bb31403e1949358548",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c3-end",
+      "routing": {
+        "continuation": "c4-open",
+        "chapterEnd": true
+      },
+      "lines": [
+        {
+          "id": "c3-end-001",
+          "speaker": "旁白",
+          "textSha256": "67b7c8d2947316f9e0d988b3873fb39247c278aa913feaf148b888c44f957595",
+          "voice": null
+        },
+        {
+          "id": "c3-end-002",
+          "speaker": "谢听禾",
+          "textSha256": "c3dc63f9cd81ff494c3b9c1127f455a8caba88d93de9107afca47503e6837fcc",
+          "voice": null
+        },
+        {
+          "id": "c3-end-003",
+          "speaker": "旁白",
+          "textSha256": "a7add623b7fa28ae66579aeb4b8525952b90e0ff78c7d83bacd540756d3a1db0",
+          "voice": null
+        },
+        {
+          "id": "c3-end-004",
+          "speaker": "周既明",
+          "textSha256": "5397ef0a893be32be8e02260a592ad7083636d7fe7689014902c6adbb7f64e1f",
+          "voice": null
+        },
+        {
+          "id": "c3-end-005",
+          "speaker": "谢听禾",
+          "textSha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7",
+          "voice": null
+        },
+        {
+          "id": "c3-end-006",
+          "speaker": "旁白",
+          "textSha256": "784c3bab9dc01bf5cff20f902ced7db98b6d08c51d70891346a17f587060dbd9",
+          "voice": null
+        },
+        {
+          "id": "c3-end-007",
+          "speaker": "谢听禾",
+          "textSha256": "17a26280b167da083126e9bd3bd79397ddf9c1f9abf62e1c9f0f85388a8f8744",
+          "voice": null
+        },
+        {
+          "id": "c3-end-008",
+          "speaker": "旁白",
+          "textSha256": "f8fd9b8a64a05703b58f551b2a47246416c438614df1407ca54ec1e67a8cdd46",
+          "voice": null
+        },
+        {
+          "id": "c3-end-009",
+          "speaker": "旁白",
+          "textSha256": "96f493c502fb57337ceded3f76623fce13c0c03e771881b615a055169edea294",
+          "voice": null
+        },
+        {
+          "id": "c3-end-010",
+          "speaker": "旁白",
+          "textSha256": "9e1f4dd317ed64e654313890f58d0a1d07bf95ccc7f8b67484153cf96e3d1bae",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-open",
+      "routing": {
+        "next": "c4-choice"
+      },
+      "lines": [
+        {
+          "id": "c4-open-001",
+          "speaker": "旁白",
+          "textSha256": "0c820d510c3b5e26cb39729a5f0c4c8440f8a5d67cf00987399e607eea253534",
+          "voice": null
+        },
+        {
+          "id": "c4-open-002",
+          "speaker": "旁白",
+          "textSha256": "764654626b391158a6e9d32868f5dfdc32ee11aaa5383f3970d41eb7c8e6a6bd",
+          "voice": null
+        },
+        {
+          "id": "c4-open-003",
+          "speaker": "旁白",
+          "textSha256": "6d451a3f8c5c54e3264c271adcdb3732f61445af578ff05f5e9a039271ed8c92",
+          "voice": null
+        },
+        {
+          "id": "c4-open-004",
+          "speaker": "旁白",
+          "textSha256": "4dcad59f7992459390c2a6b12138922eaa44de3a9a5d72175004eda9b1ceb0fd",
+          "voice": null
+        },
+        {
+          "id": "c4-open-005",
+          "speaker": "旁白",
+          "textSha256": "f5ce17132b0a29e430529c948df4ae2088f4348c3440d7f90bc30f0efcb86bd0",
+          "voice": null
+        },
+        {
+          "id": "c4-open-006",
+          "speaker": "旁白",
+          "textSha256": "b20fe5189d2c353e24afdd13e0aa7fd62a8865a6f4e041908e298ee69b3f0429",
+          "voice": null
+        },
+        {
+          "id": "c4-open-007",
+          "speaker": "旁白",
+          "textSha256": "6459f6dc735a5e06055302aacb3e9586a3ab01bc5b8d946aa59fd3d1e52c1532",
+          "voice": null
+        },
+        {
+          "id": "c4-open-008",
+          "speaker": "旁白",
+          "textSha256": "ea1984fe50d58cb2b8226c852a7769bddce69111335ee3b4f014fc3ad05ba065",
+          "voice": null
+        },
+        {
+          "id": "c4-open-009",
+          "speaker": "许弥",
+          "textSha256": "b0e8479eb58053ef54342dc47fc1232331702914871c121602d714a6e74d8c96",
+          "voice": null
+        },
+        {
+          "id": "c4-open-010",
+          "speaker": "周既明",
+          "textSha256": "1c2173740c8d33a5b93c2f1ffa31d164d99b3df1456d1ec6dae8a77525f6d001",
+          "voice": null
+        },
+        {
+          "id": "c4-open-011",
+          "speaker": "许弥",
+          "textSha256": "73f9f29c01948e87c8a7b89f905a1f80d5eb97ea2aefc4e44145227575ecd8c9",
+          "voice": null
+        },
+        {
+          "id": "c4-open-012",
+          "speaker": "旁白",
+          "textSha256": "4e92d92d99843780ddede3cedbeb057502eccdf64280e687a578ff05c6abc169",
+          "voice": null
+        },
+        {
+          "id": "c4-open-013",
+          "speaker": "旁白",
+          "textSha256": "bec99d6ce199ef3e230211150ce60d580474627be789f2a4bb4d820a3375815f",
+          "voice": null
+        },
+        {
+          "id": "c4-open-014",
+          "speaker": "旁白",
+          "textSha256": "dc47ec5cc451db8b786d36ee2ca886e80848ed8535a74fc07d60f38fabf23cac",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-choice",
+      "routing": {},
+      "lines": [
+        {
+          "id": "c4-choice-001",
+          "speaker": "旁白",
+          "textSha256": "a565be206bfe2bce870dc8d4e1481e4910d6dccc4bb574e2a6cbf3445d9bb383",
+          "voice": null
+        },
+        {
+          "id": "c4-choice-002",
+          "speaker": "旁白",
+          "textSha256": "103479cce57202b143eaf12d59d578cf866c59e18e0c896ad9adf6589e40a1cb",
+          "voice": null
+        },
+        {
+          "id": "c4-choice-003",
+          "speaker": "旁白",
+          "textSha256": "3b797fe78a5ae6018e7b875250e5259470aa46a6370ada9c8fb7b8d8cd146cfe",
+          "voice": null
+        },
+        {
+          "id": "c4-choice-004",
+          "speaker": "旁白",
+          "textSha256": "ab5df09c55cc09fbb2ac6fc4df25d721de5405f85fea92d667336fb5daf12de2",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "c4-choice-1",
+          "next": "c4-wait",
+          "effect": {
+            "honesty": 1,
+            "tinghe": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c4-choice-2",
+          "next": "c4-ask",
+          "effect": {
+            "honesty": 2,
+            "tinghe": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c4-wait",
+      "routing": {
+        "next": "c4-voice"
+      },
+      "lines": [
+        {
+          "id": "c4-wait-001",
+          "speaker": "周既明",
+          "textSha256": "ec71975844ee52d720c57215f6fb5307bf66154420fa44f432ffc1ecbda7d656",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-002",
+          "speaker": "旁白",
+          "textSha256": "fdbccaa6dd9318fa0bbc8320cd4cf6d40d01799f70476981d43f9386ce8b6280",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-003",
+          "speaker": "旁白",
+          "textSha256": "33bd0e969336dcc3d5ab1525f861988480b252a61de1d636489d7aa407b74e26",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-004",
+          "speaker": "旁白",
+          "textSha256": "144ae0cf5f972a4aa7f58e1394b4840541dd4406b029c29c73ebb7e4528fd0c0",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-005",
+          "speaker": "周既明",
+          "textSha256": "a0fd5db4092e393390c89b89d2a2eb3212efdd4e69c97ebd88a8a0836a814e3f",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-006",
+          "speaker": "外婆",
+          "textSha256": "8f39f2260c6446066b2714385c6e9ff8ae0f60a765cd56dfa98aeba9b84db79b",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-007",
+          "speaker": "旁白",
+          "textSha256": "a7eb0b363fda3d0f5858a081d307eb83440e03540ca0e6f4aa18ca2d002741ca",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-008",
+          "speaker": "旁白",
+          "textSha256": "9ba6c5ddd8101f3f7e2da465c69997a5c43763511365f7529fce2b2fba4dd3e7",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-009",
+          "speaker": "旁白",
+          "textSha256": "66f7de73b7303fef4bf9e92f9cb5625f1e81cb4aca7a95e665f907228563580b",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-010",
+          "speaker": "谢听禾",
+          "textSha256": "92347926bd48e3ed06b1ad29e11d5fdd673d953d4f0d49b9e688fe45be8db1f3",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-011",
+          "speaker": "周既明",
+          "textSha256": "f8e8a88a21e813c594c545317da4fcfef8d312d49263f1361ffa14a4fc1ab397",
+          "voice": null
+        },
+        {
+          "id": "c4-wait-012",
+          "speaker": "旁白",
+          "textSha256": "6f1e342395060e30895ebc8222f34b8e0f6aa9dc224f2200b44f058bafcf20f3",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-ask",
+      "routing": {
+        "next": "c4-voice"
+      },
+      "lines": [
+        {
+          "id": "c4-ask-001",
+          "speaker": "周既明",
+          "textSha256": "1339404ce6a6f00104d8c05279c5a35d02b740ef4f8ea870b8a68919e5587dcb",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-002",
+          "speaker": "周既明",
+          "textSha256": "41aae1bfb21fd4ad94544c19d4bae4451e88b52a9e6eb8804f41fc7bf95fe474",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-003",
+          "speaker": "旁白",
+          "textSha256": "b402cb8bf816fa41a02c6ebc8ccaea026784957c12081988fd5dbb02ff534ec6",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-004",
+          "speaker": "旁白",
+          "textSha256": "572b0c651f23aa57cd3e4d7ee5b645fcc70e107373ee111c27208a9d1c9c40ec",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-005",
+          "speaker": "谢听禾",
+          "textSha256": "ce21e80ad28862c6f2c395c041b6dc3f14e92a8c16c3909f0884a879b2f58109",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-006",
+          "speaker": "谢听禾",
+          "textSha256": "bee0da5e46dcb1e8a9cbe4ed26e40a2050085832a676ce5d0d475d6777bc57a0",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-007",
+          "speaker": "周既明",
+          "textSha256": "9fea6c62d1433e7db415ea95319a8b5a28e010e37007bcd4a3c3a1829579c1cd",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-008",
+          "speaker": "谢听禾",
+          "textSha256": "74f7acc0c2f17322b1d5e2295727637d2c9e2955036ff3d26fb1b9ea629e8973",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-009",
+          "speaker": "谢听禾",
+          "textSha256": "821d00282e2c4429a1bcb9cd70dd6a98ae242454136ddeb81ae24d8a741e6983",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-010",
+          "speaker": "周既明",
+          "textSha256": "5746fca0921cfc2bdbfdfcdbec9303bae98688cc123bf61511f3dd5902c68c07",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-011",
+          "speaker": "谢听禾",
+          "textSha256": "dd1149890207560cf762e89f57e8d876b82666692b4b432b7de5b359f864d145",
+          "voice": null
+        },
+        {
+          "id": "c4-ask-012",
+          "speaker": "旁白",
+          "textSha256": "48e6f6910d73f1d24180253030457680622a8836acd3cc3114936a43acb22fa9",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-voice",
+      "routing": {
+        "next": "c4-envelope"
+      },
+      "lines": [
+        {
+          "id": "c4-voice-001",
+          "speaker": "旁白",
+          "textSha256": "c85a328afebe8b55d010b3a99969e8aa0895747098aacaa6b4f704259dd34528",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-002",
+          "speaker": "谢听禾",
+          "textSha256": "ee2b5b0f22b32e08ebdc6cbe7d355bf1081dcd639f8b5b31790e5d5425ee34c5",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-003",
+          "speaker": "周既明",
+          "textSha256": "0d8bcb482c6ca2ef4690e629767ea934a251c8c4ca7969024b48be5b28e04713",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-004",
+          "speaker": "谢听禾",
+          "textSha256": "0cc6f1ddd0189b868651ef2f07b182b6dcc3145b4087dce69237802ef87f3351",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-005",
+          "speaker": "周既明",
+          "textSha256": "06eeb937ea47a7aa8152a709d5ad43968bc7bfaae9e2ce09c0a038bf3cbf64f7",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-006",
+          "speaker": "谢听禾",
+          "textSha256": "02d3035be290f3565b0855b86a5f5adbc6abb6bd0fd0d0b64d6f49494ae797cf",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-007",
+          "speaker": "旁白",
+          "textSha256": "36f48fcf6b7dd7126a7fe95a182e137ea2bb7752d1d0bf12ee02d25782dbffaf",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-008",
+          "speaker": "谢听禾",
+          "textSha256": "b683e8a513d7fe76db2db72b330ee8495d4193f0dd000044d0e0f37ce0eef1ce",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-009",
+          "speaker": "周既明",
+          "textSha256": "544fbd33c0d2ad55076c4dde0e4d8b691e3d105645b41371dda2a544aae48bb9",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-010",
+          "speaker": "谢听禾",
+          "textSha256": "38881fcad7c51fb51f03fefaba5f0de0b993eb390f79bb2ab373cceaa8017bde",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-011",
+          "speaker": "周既明",
+          "textSha256": "c2c55a3380aa82d9e18b1a673b32470bf3efd4ff70209bf50218a3233fce2d90",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-012",
+          "speaker": "旁白",
+          "textSha256": "574257d83ed921248e7e24edf7b9baff427d8554e135b3b92022724a0ef90a1d",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-013",
+          "speaker": "谢听禾",
+          "textSha256": "f32a8ebf1cc970790a3268f1d30eae9c3992a2a7fb64631722dd2e611b9c64a4",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-014",
+          "speaker": "周既明",
+          "textSha256": "bb54d7233b46809da69f42c48476fae1d23d5df2b905dcd72e72e76178e108ee",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-015",
+          "speaker": "谢听禾",
+          "textSha256": "c06351d4659d2bab958a44fd1444d6c8f00884ee8ceea966ab14f6a2a0a736f9",
+          "voice": null
+        },
+        {
+          "id": "c4-voice-016",
+          "speaker": "旁白",
+          "textSha256": "cb7b7b002eb046c0c19e0a39987895b454e52a4ad1172e48db0eb7cdd9f613e7",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-envelope",
+      "routing": {
+        "next": "c4-name"
+      },
+      "lines": [
+        {
+          "id": "c4-envelope-001",
+          "speaker": "旁白",
+          "textSha256": "ca5b1aba2e344deae02a757f0e2e01e77b64e41e5cf938c1c659b7ea2466c003",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-002",
+          "speaker": "旁白",
+          "textSha256": "b7694738fb7fb37a381fce93236d43851a1835b45b77d58186eadb2e388b8dae",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-003",
+          "speaker": "许弥",
+          "textSha256": "5d8c53a87010233ba4efc5789c7983b18f3c670ec774fc7bfff670933cacfc4e",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-004",
+          "speaker": "周既明",
+          "textSha256": "2b5ed4696b452af8460c9066b9e2b126170c5663a3e7608e697077588f1c0fd2",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-005",
+          "speaker": "许弥",
+          "textSha256": "fe3fd3db22d2fe8b050699bb3959e78ca5924f5c0a9df3cc5bf471b12dbafd98",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-006",
+          "speaker": "周既明",
+          "textSha256": "fb7adc050f170a95293334d59dbc38768ff2de0fbf18d471f8f04d2b8d1cecf7",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-007",
+          "speaker": "许弥",
+          "textSha256": "f56038cce49cdef7266fa9b0b50bc1b3343bfa604c16f0dde957808f2d092a5e",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-008",
+          "speaker": "周既明",
+          "textSha256": "4606a22679889bb3b3f7737e9e94e762c2e9013235dfabc69f57245257ed83ee",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-009",
+          "speaker": "许弥",
+          "textSha256": "4eab042b2efb90d55b43aa752d479acf52cf2a942be27515b208c675e44fdeec",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-010",
+          "speaker": "旁白",
+          "textSha256": "4971470a20281941968301f8022ed6dc4606ca207fc4c7d38958344af4af11f2",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-011",
+          "speaker": "旁白",
+          "textSha256": "aea7c39fd598ebe383eaa2ce3fa9205356d51a4bd5f69bd60727e2ac58998da7",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-012",
+          "speaker": "许弥",
+          "textSha256": "e2d8f5bd0db33f1ebac41a38a5270ca32e55016eb6cb0caa1067d41e0d422071",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-013",
+          "speaker": "旁白",
+          "textSha256": "bfb913e7465e05a9d39c14d0c38f1c0f06066f985aac5d2fbe900ba69f2eb646",
+          "voice": null
+        },
+        {
+          "id": "c4-envelope-014",
+          "speaker": "旁白",
+          "textSha256": "fbeeb22f8ef10dca074fcead2974729b587977c62294c21e7f96c17ddf58d77c",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-name",
+      "routing": {
+        "next": "c4-end"
+      },
+      "lines": [
+        {
+          "id": "c4-name-001",
+          "speaker": "旁白",
+          "textSha256": "7ec93e51927e64db8580356969a17f737796f3d8f5ad7d998083555d6121bc52",
+          "voice": null
+        },
+        {
+          "id": "c4-name-002",
+          "speaker": "旁白",
+          "textSha256": "332e7f8b474cda5598dcf89e4faf2a675a9b931ec1dd62c665bc16f15224d8ab",
+          "voice": null
+        },
+        {
+          "id": "c4-name-003",
+          "speaker": "周既明",
+          "textSha256": "c7dbf50134cc7d409bf83e8efdc513ecdabb700453f8d818dafe85c25397b627",
+          "voice": null
+        },
+        {
+          "id": "c4-name-004",
+          "speaker": "谢听禾",
+          "textSha256": "e3e603f875043b090b785f6614fb50a0d0233a1269e8fd5781d5b3eab31666fd",
+          "voice": null
+        },
+        {
+          "id": "c4-name-005",
+          "speaker": "许弥",
+          "textSha256": "806a82d8eacda6c7a198907dfa2cecb8d448c52e1b2cfefef087eaa49fac009b",
+          "voice": null
+        },
+        {
+          "id": "c4-name-006",
+          "speaker": "陆衡",
+          "textSha256": "fd39641928571eaeb424b53f0d700133c2c33ca70d16995c8e48522df838a260",
+          "voice": null
+        },
+        {
+          "id": "c4-name-007",
+          "speaker": "旁白",
+          "textSha256": "a36090f474b9e79a3cc6fd9720c1a00d0c5a27c810c445c157c8e55042f3c926",
+          "voice": null
+        },
+        {
+          "id": "c4-name-008",
+          "speaker": "旁白",
+          "textSha256": "a6372d3934b7c53513ec04eab70f8b8633f98385ce1548aaa106d7fbfc0b05e2",
+          "voice": null
+        },
+        {
+          "id": "c4-name-009",
+          "speaker": "旁白",
+          "textSha256": "f2801dd29b47a9f357e3d41c9016f94187888ca5f83ab652f01273cff05e3301",
+          "voice": null
+        },
+        {
+          "id": "c4-name-010",
+          "speaker": "旁白",
+          "textSha256": "498e1ae505b2bb5ba8c31b12cc48a58825503f18b9ced6f73e836fcba0e84d40",
+          "voice": null
+        },
+        {
+          "id": "c4-name-011",
+          "speaker": "旁白",
+          "textSha256": "4b5209bf1f5261b1fe5b5aa42fe39691bc11469debae5b68b9932505744b08a0",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c4-end",
+      "routing": {
+        "continuation": "c5-open",
+        "chapterEnd": true
+      },
+      "lines": [
+        {
+          "id": "c4-end-001",
+          "speaker": "旁白",
+          "textSha256": "5cb9b990a358d62a34349899da9674c12802f62f9b4109294d077eb46d56a201",
+          "voice": null
+        },
+        {
+          "id": "c4-end-002",
+          "speaker": "旁白",
+          "textSha256": "e39be854b1b8c19260ed3ff1b153d5a09ec2ec6a47380922073407309efd2d26",
+          "voice": null
+        },
+        {
+          "id": "c4-end-003",
+          "speaker": "旁白",
+          "textSha256": "258f07a9434fd7eef7b41bf64883913b84be1eab4751f88ff3fe03624084b91d",
+          "voice": null
+        },
+        {
+          "id": "c4-end-004",
+          "speaker": "旁白",
+          "textSha256": "bc973d8f168f4701bc3f3becf6a28d550a142592ccba1b086053e72e42b9c6c1",
+          "voice": null
+        },
+        {
+          "id": "c4-end-005",
+          "speaker": "旁白",
+          "textSha256": "b7ab884e3e53fd75c8b78fad80bc61a0dd5bc58ded1b89cdf6370300b7f589cf",
+          "voice": null
+        },
+        {
+          "id": "c4-end-006",
+          "speaker": "旁白",
+          "textSha256": "fe3b1af127b85551ea20938d23c3bbd51585ffac012274399ec752b16a4c0a46",
+          "voice": null
+        },
+        {
+          "id": "c4-end-007",
+          "speaker": "旁白",
+          "textSha256": "02d5157b2f9cb05419a3f747f3499b27024627a14e817d03e199052a2f044ffa",
+          "voice": null
+        },
+        {
+          "id": "c4-end-008",
+          "speaker": "旁白",
+          "textSha256": "5bde5316f62fa4dc0a5c533404f762cd1e941716bd0b57a1fbe9b006a2de2453",
+          "voice": null
+        },
+        {
+          "id": "c4-end-009",
+          "speaker": "旁白",
+          "textSha256": "d3432a1c137a4781f8067261f056926fbe1463ca57da10ee3d891cd98062b140",
+          "voice": null
+        },
+        {
+          "id": "c4-end-010",
+          "speaker": "旁白",
+          "textSha256": "b59cda5f3559eafd0abb3af6db3f4d54b6913bc8355d4eb7e092ee76123cbe7d",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c5-open",
+      "routing": {
+        "next": "c5-choice"
+      },
+      "lines": [
+        {
+          "id": "c5-open-001",
+          "speaker": "旁白",
+          "textSha256": "51ad68e3a984665a22b36cbf965eb4f33a7f1fdabc43b79a97215c38b9d942f9",
+          "voice": null
+        },
+        {
+          "id": "c5-open-002",
+          "speaker": "旁白",
+          "textSha256": "2711076ac70904313af21742290db8e2751188d5aecee80823230f598f2740d5",
+          "voice": null
+        },
+        {
+          "id": "c5-open-003",
+          "speaker": "旁白",
+          "textSha256": "a2876223c4df0c08118cb31ea91ca8ad30c5a6af7ecace0434ec735356316e6d",
+          "voice": null
+        },
+        {
+          "id": "c5-open-004",
+          "speaker": "旁白",
+          "textSha256": "3e3aac4ce7bfc2c1d0d5892b05d4cb360ffe4d3862849de8f37bd34c51afd95b",
+          "voice": null
+        },
+        {
+          "id": "c5-open-005",
+          "speaker": "旁白",
+          "textSha256": "cf7bb5814ae999563ba334d089cccc97c20bfab01c95da6711bb7ba5543c50b5",
+          "voice": null
+        },
+        {
+          "id": "c5-open-006",
+          "speaker": "谢听禾",
+          "textSha256": "ad783d400667b09beb2816c0efed5a3c4176a15d248e7ea3d1a2d85ebc62a5fc",
+          "voice": null
+        },
+        {
+          "id": "c5-open-007",
+          "speaker": "许弥",
+          "textSha256": "c80a95323dfe5aff86af8692a02c8421265c3715b66f5ae0094bff7f51747105",
+          "voice": null
+        },
+        {
+          "id": "c5-open-008",
+          "speaker": "陆衡",
+          "textSha256": "dc7166c21f7f470e22d276a00ebd06d458107c2e26699bd266e7389562dcabf3",
+          "voice": null
+        },
+        {
+          "id": "c5-open-009",
+          "speaker": "旁白",
+          "textSha256": "43427174386e28e13e43785a3a15012cb2fcb4a91bd6f2928f60032e1a370283",
+          "voice": null
+        },
+        {
+          "id": "c5-open-010",
+          "speaker": "旁白",
+          "textSha256": "db45cd8f7addca9530e335374f331ea1c12330ed3358143a9fbdcf6d852ba67f",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c5-choice",
+      "routing": {},
+      "lines": [
+        {
+          "id": "c5-choice-001",
+          "speaker": "旁白",
+          "textSha256": "98f026615782dab850ed9925cd023ca79891e11ae1bb44af3f736b6a52c75b29",
+          "voice": null
+        },
+        {
+          "id": "c5-choice-002",
+          "speaker": "旁白",
+          "textSha256": "eafd437e1d6ed358e30c0ee393952c7a67193e4ffc430ee4610545e0bafd7bb3",
+          "voice": null
+        },
+        {
+          "id": "c5-choice-003",
+          "speaker": "旁白",
+          "textSha256": "5d209bc3bc3822efa843165a0809a997aa96c90014c3c77cefba886a7b35a1d6",
+          "voice": null
+        },
+        {
+          "id": "c5-choice-004",
+          "speaker": "旁白",
+          "textSha256": "4266b6e762bfc05bd6040f81561dd67c6794ecb73780a23807027e49f14861a0",
+          "voice": null
+        },
+        {
+          "id": "c5-choice-005",
+          "speaker": "旁白",
+          "textSha256": "45ca8a99b5a3673763d8b3087e9199fa1f236916de47ef081dc9fd4c45c7b858",
+          "voice": null
+        }
+      ],
+      "choices": [
+        {
+          "id": "c5-choice-1",
+          "next": "c5-tinghe",
+          "effect": {
+            "tinghe": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c5-choice-2",
+          "next": "c5-xumi",
+          "effect": {
+            "xumi": 1
+          },
+          "response": []
+        },
+        {
+          "id": "c5-choice-3",
+          "next": "c5-friends",
+          "effect": {},
+          "response": []
+        },
+        {
+          "id": "c5-choice-4",
+          "next": "c5-letter",
+          "effect": {
+            "honesty": 1
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "id": "c5-tinghe",
+      "routing": {
+        "next": "end-tinghe"
+      },
+      "lines": [
+        {
+          "id": "c5-tinghe-001",
+          "speaker": "旁白",
+          "textSha256": "c130e6fa73c3b59f612d7e7a4e9ac41d13ecb91bb5fa29178bdd8a2e0a8a6299",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-002",
+          "speaker": "旁白",
+          "textSha256": "51f00645ad80e32b20968de15e6e9a6d5c5b3d2b716e1ae357f8d20d0fa605b0",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-003",
+          "speaker": "旁白",
+          "textSha256": "c6368cf8af0fcfee4ceec1de8a9d8a16247cb8bb373031a0770a2bcdc3dbc6a0",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-004",
+          "speaker": "周既明",
+          "textSha256": "81fddea03ec6aa29ed52fc9b346ca130613650a71fd8d3ffc93077bc27806bc1",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-005",
+          "speaker": "谢听禾",
+          "textSha256": "92f4073a70659908e51cf83c77036382b5b2a121ef619fd3ca14f6c37d1a3fa2",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-006",
+          "speaker": "周既明",
+          "textSha256": "1424b7055003443cabcd8fb022ef27facf4be7256383c9108d5a3d56ec83a5cb",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-007",
+          "speaker": "谢听禾",
+          "textSha256": "9a01fcc2992d38c84f14c82e52c531844efdfcca2bccac75d9bf0fc12c3aa866",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-008",
+          "speaker": "旁白",
+          "textSha256": "a723e16533368f92f662cf06273e98e2641edaa5fbdd27876bb4a44f1f02c17e",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-009",
+          "speaker": "旁白",
+          "textSha256": "b17164f7ca17a3ca76c2a131f891b776d2fa18edb47604f3c3588b1b38f62543",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-010",
+          "speaker": "旁白",
+          "textSha256": "d1a3abbd69cf34c19b3dae0208facc10abf95b802ad95e43375c82813424c6b6",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-011",
+          "speaker": "谢听禾",
+          "textSha256": "dc7c365c4723591b59c707dff6dc5292f7a2268c9b97b8fd68ccf1578456bc2b",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-012",
+          "speaker": "旁白",
+          "textSha256": "031dd8ec2d3111b7c91d0fd7f96e797175ebf2fadafe35e301c88c752eb4b1e2",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-013",
+          "speaker": "周既明",
+          "textSha256": "f16e1233130906051de11e11a6861f922a7d668fe16038485af93b8afa530e7a",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-014",
+          "speaker": "周既明",
+          "textSha256": "092ec05d6302a0f58f7b95b0d2b501848bce9cccd0d71d14887f4b50051bdb13",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-015",
+          "speaker": "旁白",
+          "textSha256": "c8d616033c701997a66b23397b28261d011b67c3492c81d3b30bc4b87ad22bef",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-016",
+          "speaker": "谢听禾",
+          "textSha256": "56b7590fa28bc629dae97903f6847dfe69d0121ecce69057eaaab81018b80b6c",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-017",
+          "speaker": "周既明",
+          "textSha256": "044bb565291783f3e3491ec775cdf319915ed646a35a7c6aeb049dba13fa4ca0",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-018",
+          "speaker": "谢听禾",
+          "textSha256": "4fcf837389969f14538a370c9d19513d20e088437966cf725fe1055115e0fa23",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-019",
+          "speaker": "周既明",
+          "textSha256": "6ed2facac685855622667caa1c757c38ab9d81e0a4eb2f5a525e066574e9f453",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-020",
+          "speaker": "旁白",
+          "textSha256": "6ab78d53092c338f8060a1cd1f06fc38925dfc1230469103a43251055e76652d",
+          "voice": null
+        },
+        {
+          "id": "c5-tinghe-021",
+          "speaker": "旁白",
+          "textSha256": "5ff18c20153c5450d53063244be7013c292b256ae91095a959b6965e3a9b7ecf",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "end-tinghe",
+      "routing": {
+        "ending": "tinghe-final"
+      },
+      "lines": [
+        {
+          "id": "end-tinghe-001",
+          "speaker": "旁白",
+          "textSha256": "4dda8c94c37e348c48eeb16fec6ecd6d3d285e56972d53ec5f0727f4817d8bb3",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-002",
+          "speaker": "谢听禾",
+          "textSha256": "fef90d7118fee3aa989afa6da724c18151daebffff4253dc71869378b65f2f45",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-003",
+          "speaker": "周既明",
+          "textSha256": "c53d5e1b01bb4cd1a44e5f51e167e5a7f7620548b4649305341b3204a7bbf5ba",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-004",
+          "speaker": "谢听禾",
+          "textSha256": "75c1c0d39780263856d3fb0766e5df166e9cbd46a7a7d05f21dd7c3b3f8e726e",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-005",
+          "speaker": "旁白",
+          "textSha256": "d8e6af12c0317a325c7ce1b6bec6fde90f182875949314e4a69bb82ea3f65abf",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-006",
+          "speaker": "旁白",
+          "textSha256": "bb8f2239839339f78b8268fd4cb19b85c723bbc828d46738b99e4e4b23693dc6",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-007",
+          "speaker": "旁白",
+          "textSha256": "0fd24aad93062c112d62ff07292596dd88e1a7efe6bb2e38b5af59dd97ec96ae",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-008",
+          "speaker": "旁白",
+          "textSha256": "81583c4fef8feebf9d78504543b624745f8f58f8443841036621ab4697d67096",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-009",
+          "speaker": "旁白",
+          "textSha256": "f04e5c01137215ae97913a3bf42477f83db4ea301076fec33e31cbf7068e1fef",
+          "voice": null
+        },
+        {
+          "id": "end-tinghe-010",
+          "speaker": "旁白",
+          "textSha256": "dd6b1bdb7ae6c38c942c61dc8e68c895d03108dceb658ca615bc468b77afc8c2",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c5-xumi",
+      "routing": {
+        "next": "end-xumi"
+      },
+      "lines": [
+        {
+          "id": "c5-xumi-001",
+          "speaker": "旁白",
+          "textSha256": "f8986da3d1e59b8e7fbd58762db14b3cb8584b07b3d62ec28ab4e7e201d06e04",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-002",
+          "speaker": "许弥",
+          "textSha256": "9d1f06cbe0d4d88869f625b0f2547c665c5540fcfe5ea56c26989c2695e40ff4",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-003",
+          "speaker": "周既明",
+          "textSha256": "180b8f1107e86625046cb392be0b1495f04a082df12410e3ff3946fe0daede70",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-004",
+          "speaker": "许弥",
+          "textSha256": "333e276c3a1a7ce46769ad22091d70a0fe6bba85bf28aa5c8532bc4d82326383",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-005",
+          "speaker": "旁白",
+          "textSha256": "4b31be29d6c7b435806c469ce5de89941c31ce4c5465d44798f125db79a494df",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-006",
+          "speaker": "旁白",
+          "textSha256": "580df631a58ee41a9059bfa6b7776200438be79118b3f99efef81803831db3d4",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-007",
+          "speaker": "周既明",
+          "textSha256": "c52a9869f7ebfa5dd1875ca9abcc66aeade9afd3405779fd8142a571436cfaf1",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-008",
+          "speaker": "许弥",
+          "textSha256": "6555a0d78f9aa45f6599436800bc9f27082f57aa195f7dd419926ca94648225d",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-009",
+          "speaker": "周既明",
+          "textSha256": "ec0cbb2e1798719a003781ea3d1c6b77a7841742233fae5497016e067172dcdd",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-010",
+          "speaker": "许弥",
+          "textSha256": "ab9f98fc8a2850e9f1bf3fe381de984a930ca7ea8a67b46557cc17f98deb2e77",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-011",
+          "speaker": "周既明",
+          "textSha256": "c5650299bb5569225e1af473025d1fbe1ed75671e5437ef4f350e64fcad089b9",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-012",
+          "speaker": "旁白",
+          "textSha256": "bfc21ddc3630a34b9b80efb90d7597bcd7fd690044cbdd81737762f5b1a67f2e",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-013",
+          "speaker": "许弥",
+          "textSha256": "33800af6de3d425603152f836090d408ddfbd3586b231069bee980a557bf9f38",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-014",
+          "speaker": "周既明",
+          "textSha256": "e8092a5700dc8512e9b9b720fc5179463ae000794be4a59cb84348a7331f5f2f",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-015",
+          "speaker": "许弥",
+          "textSha256": "df51c1530d8004a32bf3635653f87145e0fc5e8d9d03488cfdeea42914ae7d73",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-016",
+          "speaker": "周既明",
+          "textSha256": "6e3c94c9e0bc401e608fd5f6c4a83cae87b4ab64a3ae107badb03782f9a23aac",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-017",
+          "speaker": "许弥",
+          "textSha256": "c9a2ada8de82d31c56c02f8ee0452c63b72a1e4c30bb35bd59aad8fad809d458",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-018",
+          "speaker": "旁白",
+          "textSha256": "b87eea56e83950f368c4d21ce61782555f6b05ea09296e60d9345cf42b2dff1d",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-019",
+          "speaker": "许弥",
+          "textSha256": "e9e9b7a40ad882dfa9e1a3bd5741b1c46f798a550fd5dff1b0defa8a561a4933",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-020",
+          "speaker": "旁白",
+          "textSha256": "f8d9f7fe91b120661bfa002a713b1e639fe5b101e6fc742b184bf42f0dc48ca5",
+          "voice": null
+        },
+        {
+          "id": "c5-xumi-021",
+          "speaker": "旁白",
+          "textSha256": "5bdb4e71ef500f5244930d35bb58806a259ff05a789c3b20d0d146128abd1145",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "end-xumi",
+      "routing": {
+        "ending": "xumi-final"
+      },
+      "lines": [
+        {
+          "id": "end-xumi-001",
+          "speaker": "旁白",
+          "textSha256": "5b3d1f32f4cf47d8bf83798af73829823efd8ac4247aaec228171dba845a34fc",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-002",
+          "speaker": "旁白",
+          "textSha256": "c7240f6c056acd3f292a62cb0e2a332fad758db5dccf35950554e5525b8f0fd0",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-003",
+          "speaker": "许弥",
+          "textSha256": "a5d37fe2bf4caf93fec4cedf65b24bfec2dfb9422506a7df5ba6373adeba5a53",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-004",
+          "speaker": "周既明",
+          "textSha256": "089c39faed936589da01952c1b480bc8386531da0b4ac53e3fb029161675ef9a",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-005",
+          "speaker": "许弥",
+          "textSha256": "52146006fda8d87379f15eec3684773250c60479fc5391db40ef86a3ed30db0e",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-006",
+          "speaker": "旁白",
+          "textSha256": "ac684264241ec4c94f8889d77cd7e7cc9159018ed4dadc0866d4535baab130e0",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-007",
+          "speaker": "旁白",
+          "textSha256": "8d63ea07d63740edcafd2381d8cca55b390198893c60585fac742d3d94b0539f",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-008",
+          "speaker": "旁白",
+          "textSha256": "29996bba66a27eb1fde5f759fe86fac3e202ac02b4aaeb5e1c10ceb9c8a358f5",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-009",
+          "speaker": "旁白",
+          "textSha256": "2949a401d68ec48b1460406eb1de8195aa44c8143411dfda8323f00f3f81577e",
+          "voice": null
+        },
+        {
+          "id": "end-xumi-010",
+          "speaker": "旁白",
+          "textSha256": "d593f3134c5a20d48ad2b02f1a547d05a2686c6bab2d67854d308cf58eb5feba",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c5-friends",
+      "routing": {
+        "next": "end-friends"
+      },
+      "lines": [
+        {
+          "id": "c5-friends-001",
+          "speaker": "旁白",
+          "textSha256": "a2a76d6364d352dc06391b5e0cd975fcfb7b3fd77616a23b97719505a677c02f",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-002",
+          "speaker": "旁白",
+          "textSha256": "51d2bdfe78bb642d374980a2bbcba82c404e553b736e23dd7e96468a295d3091",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-003",
+          "speaker": "陆衡",
+          "textSha256": "2a4ef38bc67ce6c77cb188fdb8c025f5e49428be2070b76d942cd20315b114fc",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-004",
+          "speaker": "许弥",
+          "textSha256": "29be8e8391e1dd5a5cad3fe49043e2cd7393e6b53a41ba034f0f6b46f289022a",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-005",
+          "speaker": "陆衡",
+          "textSha256": "7dc461648189614be0e7273964c7ae9167f9ef374a80539da6f2fea8b9ac2b8e",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-006",
+          "speaker": "旁白",
+          "textSha256": "11c29875879f5629b7996d47aec4311e734913390ac61bfafaba189be132c444",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-007",
+          "speaker": "旁白",
+          "textSha256": "fc81f817817231bda36b9e546c7f45b26386f4a7f8798e471816f406d0155d4e",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-008",
+          "speaker": "旁白",
+          "textSha256": "c55a55ef29258830e63247c5e2b3537c435a106ed1f306abf5d0b3e50fd8c506",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-009",
+          "speaker": "周既明",
+          "textSha256": "87aff6619a18e7a0dcd6662cc1133460975887fee27fed716793596904825caf",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-010",
+          "speaker": "陆衡",
+          "textSha256": "a9585be61300c46f5f31cf09c8fdf14435561c8be5a3192f5bc6d88cfc1f7af3",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-011",
+          "speaker": "许弥",
+          "textSha256": "22b2e58f9a1047ec3bd72d2ae5b5d7cca408869a97d86a2e28e91a689984b932",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-012",
+          "speaker": "谢听禾",
+          "textSha256": "6de64b2ac88f272b704521925c628fefdfb2a7665028811a5997666e2a922b3f",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-013",
+          "speaker": "旁白",
+          "textSha256": "08b7f4bb4f8492a71f0f07d4d3d1b6c4bad6343cbb94754466b66e746533ef62",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-014",
+          "speaker": "陆衡",
+          "textSha256": "d39551e12477fed6e84c7bfd1407f0b938612399add256d5b5371d27c5dad7d1",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-015",
+          "speaker": "旁白",
+          "textSha256": "01efc6da96740e153874371ce85d49460c4d85dee10f9f509e1b5fa7f1c98e83",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-016",
+          "speaker": "旁白",
+          "textSha256": "47e8aa6694e8c98ac822ffcc0595c3f19a5b9ddab080edf231229075b7dacd29",
+          "voice": null
+        },
+        {
+          "id": "c5-friends-017",
+          "speaker": "旁白",
+          "textSha256": "71ec2ceec99a749d48ace3f4af472e2a935aa6b6cb062d9dd17217370ee1d47d",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "end-friends",
+      "routing": {
+        "ending": "friends-final"
+      },
+      "lines": [
+        {
+          "id": "end-friends-001",
+          "speaker": "旁白",
+          "textSha256": "ca8208afd04b6f20f73c8829934b3aef1b9fd722628cd44680316184e27b3aa5",
+          "voice": null
+        },
+        {
+          "id": "end-friends-002",
+          "speaker": "旁白",
+          "textSha256": "9d1d2a5056ff46a5e9c35524f7e796826e25b296ba64de797d7630902b0852cc",
+          "voice": null
+        },
+        {
+          "id": "end-friends-003",
+          "speaker": "旁白",
+          "textSha256": "2eb6a7535172226c4c8e524725c249654370c79dac4c235600f4158b754b0579",
+          "voice": null
+        },
+        {
+          "id": "end-friends-004",
+          "speaker": "旁白",
+          "textSha256": "7c40e116c4cdc778aacf31e0d83a0e9ee9de08983e3e1c4d67a82cd49391a105",
+          "voice": null
+        },
+        {
+          "id": "end-friends-005",
+          "speaker": "旁白",
+          "textSha256": "44b1f5b095f76bdf2ad6f442343c7f9c72787857bcda4a51ecf697ac4a52e6d3",
+          "voice": null
+        },
+        {
+          "id": "end-friends-006",
+          "speaker": "旁白",
+          "textSha256": "f2da356da1176dd7180c22206829abbf528c852a61fafcab8b989531971e150a",
+          "voice": null
+        },
+        {
+          "id": "end-friends-007",
+          "speaker": "旁白",
+          "textSha256": "c920f8f10be155738b350d9b3aceaa33c775689c3b8873863c3ea9fcb88aa9c2",
+          "voice": null
+        },
+        {
+          "id": "end-friends-008",
+          "speaker": "旁白",
+          "textSha256": "f4b057e659a15b96a33e570e6d8c68c90cfad7c76e8c21277d9d95a4c0915712",
+          "voice": null
+        },
+        {
+          "id": "end-friends-009",
+          "speaker": "旁白",
+          "textSha256": "856ce8bdcfd1badff29d642cc852d2555110d8d2da5282a138c110b4997e5a4a",
+          "voice": null
+        },
+        {
+          "id": "end-friends-010",
+          "speaker": "旁白",
+          "textSha256": "db848b0ecd43148df1ea3630fc4f48159d5469d09fe5e14c27baed3025b52357",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "c5-letter",
+      "routing": {
+        "next": "end-letter"
+      },
+      "lines": [
+        {
+          "id": "c5-letter-001",
+          "speaker": "旁白",
+          "textSha256": "f2da25499de5572ed372e5d1baff7a1b18948c7629794d0683bb4a863bd5c04b",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-002",
+          "speaker": "旁白",
+          "textSha256": "9b2122b6ad932ba914b33c8a61e201a1cb7da581e3d06cfe0f5914be1e9f9f9c",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-003",
+          "speaker": "旁白",
+          "textSha256": "c5962d6f6ab6faab19edb85597e9082c3e1dba32ee9b98df4ecde0d71d3b4721",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-004",
+          "speaker": "谢听禾",
+          "textSha256": "eff87747c74a5c9371bbd553cc4ce360f2e133a7054922a3eae2b004d52782ec",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-005",
+          "speaker": "许弥",
+          "textSha256": "ed54f408e06505ffd2fab5057a123b6b9e8f6fbaf280a5623f5a72330c63837a",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-006",
+          "speaker": "陆衡",
+          "textSha256": "e107def8976b3d8389ede637e6063947549fbf726fff721851373d719b6a5622",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-007",
+          "speaker": "旁白",
+          "textSha256": "53a1ca66ccf4f31fed07161533c287536c74c09888a94e72a64fde4bd0dce808",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-008",
+          "speaker": "旁白",
+          "textSha256": "c6d78e7af93fece67383f30ee25eb5fd485b143b10d8d8b6c2900f5d5fa3a741",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-009",
+          "speaker": "旁白",
+          "textSha256": "2b25029c66fec16eb18dcbaee2947f2211ff178b68c05e717c8ea8b8e320cf15",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-010",
+          "speaker": "旁白",
+          "textSha256": "924939508ff232a986bfab8d585496202ce1bb3526c856c15646c79770a79adc",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-011",
+          "speaker": "旁白",
+          "textSha256": "7e06835d6edd4f8544cd7502544822f8aa8f6590d4ab48c8672f14ebb4e29448",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-012",
+          "speaker": "旁白",
+          "textSha256": "15f672d05480067279c0162c8a4dacffc92047dd0f3d8b47047456b6714dc1dd",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-013",
+          "speaker": "旁白",
+          "textSha256": "8fe29e49738ac42ea11eff8f53442ef79a89016d687d29aa97b6ab971915b254",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-014",
+          "speaker": "旁白",
+          "textSha256": "7b56e47dffccb5e1c82321c4372af7bc7d8ff5e9ce01a8ca964e26db726e762b",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-015",
+          "speaker": "旁白",
+          "textSha256": "e0a2d66d769f038fa4dac93136a850ca82ae5d3dd9922c60d359ce5c0635243a",
+          "voice": null
+        },
+        {
+          "id": "c5-letter-016",
+          "speaker": "旁白",
+          "textSha256": "641eedc3cf092aa4776b674a0c062cb8674a64cea0eebcd42bfbc469df762d11",
+          "voice": null
+        }
+      ],
+      "choices": []
+    },
+    {
+      "id": "end-letter",
+      "routing": {
+        "ending": "letter-final"
+      },
+      "lines": [
+        {
+          "id": "end-letter-001",
+          "speaker": "旁白",
+          "textSha256": "a53b0f23d315a6277d5c22e3e6bd8329c55471dba367a22d9922f1c0b9ad5884",
+          "voice": null
+        },
+        {
+          "id": "end-letter-002",
+          "speaker": "旁白",
+          "textSha256": "a82407dab12eff18de8f4138c2f1d3abf87461ad88f7613b931076e5b49c79f3",
+          "voice": null
+        },
+        {
+          "id": "end-letter-003",
+          "speaker": "旁白",
+          "textSha256": "e7ceecab8276177e5266ff144e6b678d0f04a9ded483dab90ca52e63ea71be7b",
+          "voice": null
+        },
+        {
+          "id": "end-letter-004",
+          "speaker": "旁白",
+          "textSha256": "3ebf20eaddf72bba510caff4b3d5447b136e4cc355923a601af30b42a266652d",
+          "voice": null
+        },
+        {
+          "id": "end-letter-005",
+          "speaker": "旁白",
+          "textSha256": "64f3fad694e5e3a8afa28dae07192098effc37473e16b0811cdc109adc82c374",
+          "voice": null
+        },
+        {
+          "id": "end-letter-006",
+          "speaker": "旁白",
+          "textSha256": "d34976752e11366aa6f2b87c1bf46ccd9dd0e67da87db4597a979b3013b8672b",
+          "voice": null
+        },
+        {
+          "id": "end-letter-007",
+          "speaker": "旁白",
+          "textSha256": "6e1f3636b15589128c494eb73f4953ac47d4654f33b60b876283a3472c6c8fa0",
+          "voice": null
+        },
+        {
+          "id": "end-letter-008",
+          "speaker": "旁白",
+          "textSha256": "6dfffc58e84a15f7dd7f45b08cfbe69e8b4d9870132eba9d709fcc034017be86",
+          "voice": null
+        },
+        {
+          "id": "end-letter-009",
+          "speaker": "旁白",
+          "textSha256": "f8b9d4c6d0bf8c67c9a7e4bdc4a65fdd5fd65c1cb3bf20c2c5e9dbce0cc8adb9",
+          "voice": null
+        },
+        {
+          "id": "end-letter-010",
+          "speaker": "旁白",
+          "textSha256": "0eedd0023455544d5c4e0187a2d5cc678739cc0076202d68ca9605bfd0386901",
+          "voice": null
+        }
+      ],
+      "choices": []
+    }
+  ]
+}

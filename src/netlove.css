@@ -18,12 +18,11 @@
 .primary:hover{background:#245456}
 .note-number{color:#8aa4a4}
 .title-footer{color:#748887}
-.character-sprite{aspect-ratio:2/3}
-.netlove-sprite{width:100%;height:100%;object-fit:contain;display:block}
-.scene-character{height:112%!important;width:auto!important;aspect-ratio:2/3;bottom:-34%!important;right:8%!important;filter:none!important}
+.character-sprite{aspect-ratio:var(--sprite-ratio)}
+.scene-character{height:112%!important;width:auto!important;aspect-ratio:var(--sprite-ratio);bottom:-34%!important;right:8%!important;filter:none!important}
 .netlove-characters{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .netlove-characters .character-portrait{height:300px}
-.gallery-sprite{height:112%;width:auto!important;aspect-ratio:2/3;bottom:-10%!important}
+.gallery-sprite{height:112%;width:auto!important;aspect-ratio:var(--sprite-ratio);bottom:-10%!important}
 .reading-panel{color:#284a50}
 .speaker-marker{background:#518b8b}
 .speaker-marker.narration{background:#a4b6ac}

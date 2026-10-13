@@ -44,7 +44,7 @@ test('starts, saves, hides without advancing and restores after reload',async({p
 test('replays imported character and every ending, retaining chapter archive',async({page},info)=>{
   await boot(page);await page.getByRole('button',{name:'开始阅读',exact:true}).click();
   await importAt(page,'c2-camera');await expect(page.locator('[data-character="tinghe"]')).toBeVisible();
-  await expect(page.locator('.netlove-sprite')).toHaveJSProperty('naturalWidth',1024);
+  await expect(page.locator('.netlove-sprite')).toHaveJSProperty('naturalWidth',1254);
   await page.locator('.dialogue-text').click();await page.locator('.dialogue-text').click();await expect(page.locator('.toast')).not.toHaveClass(/visible/);await page.screenshot({path:`test-results/previews/tinghe-${info.project.name}.png`});
   await importAt(page,'c3-frame');await expect(page.locator('[data-character="xumi"]')).toBeVisible();
   await page.locator('.dialogue-text').click();await page.locator('.dialogue-text').click();await expect(page.locator('.toast')).not.toHaveClass(/visible/);await page.screenshot({path:`test-results/previews/xumi-${info.project.name}.png`});
@@ -68,7 +68,7 @@ test('downloads complete offline content and resumes with assets while disconnec
   await context.setOffline(true);await page.reload();
   await page.getByRole('button',{name:'继续上次的故事',exact:true}).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-scene','c2-camera');
-  await expect(page.locator('.netlove-sprite')).toHaveJSProperty('naturalWidth',1024);
+  await expect(page.locator('.netlove-sprite')).toHaveJSProperty('naturalWidth',1254);
   await expect(page.locator('.scene-background')).toHaveJSProperty('naturalWidth',1672);
   await context.setOffline(false);
 });

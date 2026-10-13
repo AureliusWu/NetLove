@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "project": "NetLove",
+  "version": "0.2.0",
+  "baselineCommit": "154cda098c9bfd66bc84990a1d2d80ef42babc5c",
+  "revisedParagraphs": 42,
+  "sharedContract": "1.2.0",
+  "sharedPinnedFiles": 14,
+  "localChecks": {
+    "logicTests": 34,
+    "routes": 288,
+    "sharedToolTests": 10,
+    "fontCoverage": "passed",
+    "build": "passed",
+    "browserCollected": 18
+  },
+  "browserRuntime": "pending_ci",
+  "windowsRuntime": "pending_ci",
+  "publicPwa": "pending_ci",
+  "sourceHashes": {
+    "src/story/story.json": "0eda4aba652626e2be3ec63fd3c5d02e2192a63699e693f5c0e6205eedf8b761",
+    "src/game/character-frames.json": "2f185b47c772532dd2599a2927fcee9b7068be47a334a91f39f2a4fde8b6c57d",
+    "src/assets/story-serif.woff2": "dae01ca35732946bdf005376a68de4d7fd1e9a8d4e36f0ded1019403c421d631"
+  },
+  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs"
+}

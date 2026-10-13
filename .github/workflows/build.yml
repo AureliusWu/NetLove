@@ -24,11 +24,11 @@ jobs:
           ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
       - run: node scripts/vn-contract.mjs src/story/story.json
       - run: npm run test:materials
-      - run: node scripts/vn-materials.mjs export .reuse-kit/v1.1.0
+      - run: node scripts/vn-materials.mjs export .reuse-kit/v1.2.0
       - uses: actions/upload-artifact@v4
         with:
           name: NetLove-Reusable-Materials
-          path: .reuse-kit/v1.1.0/
+          path: .reuse-kit/v1.2.0/
           include-hidden-files: true
       - run: npm test
       - run: npm run build

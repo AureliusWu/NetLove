@@ -105,6 +105,118 @@
       "alpha": true,
       "promptId": "xumi",
       "promptRegistry": "docs/prompts/ART-v1.json"
+    },
+    {
+      "id": "tinghe-expressions",
+      "path": "public/art/tinghe-expressions.webp",
+      "source": "assets_source/expressions/tinghe-v1.png",
+      "sourceSha256": "4f3e771d7a361d65b30d7108b4b635f6ebdcd2c0e28160e65ebcf745f170d826",
+      "sha256": "7f892127c5e39290a7c4793b0da280a1f27f98692842a91e2a4109d5c15279d4",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "width": 1254,
+      "height": 1254,
+      "bytes": 750286,
+      "alpha": true,
+      "promptRegistry": "docs/prompts/ART-v2.json",
+      "generator": "built-in imagegen",
+      "approval": "agent integration review",
+      "frames": [
+        [
+          144,
+          36,
+          261,
+          606
+        ],
+        [
+          505,
+          36,
+          261,
+          606
+        ],
+        [
+          884,
+          36,
+          261,
+          606
+        ],
+        [
+          144,
+          648,
+          261,
+          606
+        ],
+        [
+          507,
+          648,
+          261,
+          606
+        ],
+        [
+          881,
+          648,
+          261,
+          606
+        ]
+      ]
+    },
+    {
+      "id": "xumi-expressions",
+      "path": "public/art/xumi-expressions.webp",
+      "source": "assets_source/expressions/xumi-v1.png",
+      "sourceSha256": "1001d1a2ff1a0384ad087aa2de5871eeb0b0f36baab02f549cb1620e007d2975",
+      "sha256": "f4b25f2fd15a99e17e7da487e4a483355e62a79375ddb05308a98bdb57632403",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "width": 1254,
+      "height": 1254,
+      "bytes": 627666,
+      "alpha": true,
+      "promptRegistry": "docs/prompts/ART-v2.json",
+      "generator": "built-in imagegen",
+      "approval": "agent integration review",
+      "frames": [
+        [
+          135,
+          60,
+          226,
+          561
+        ],
+        [
+          526,
+          59,
+          226,
+          561
+        ],
+        [
+          915,
+          60,
+          226,
+          561
+        ],
+        [
+          135,
+          665,
+          226,
+          561
+        ],
+        [
+          526,
+          664,
+          226,
+          561
+        ],
+        [
+          916,
+          664,
+          226,
+          561
+        ]
+      ]
     }
   ]
 }

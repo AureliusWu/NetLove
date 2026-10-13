@@ -1,4 +1,4 @@
-import story from './story.json';
+import story from './story.json' with { type: 'json' };
 import type { Ending, Scene } from '../game/types';
 // Authored dialogue and choices live only in story.json.
 export const scenes: Scene[] = story.scenes as Scene[];

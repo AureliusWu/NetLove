@@ -10,7 +10,8 @@ import { FullscreenButton, RotationHint } from './components/DisplayControls';
 import { useDisplayMode } from './useDisplayMode';
 import { pwa } from './pwa';
 import { advance, choose, continueStory, getScene, newGame, recordLine } from './game/engine';
-import { decodeSave, encodeSave, KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
+import { KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
+import { applyProgressImport, createReadingBackup, decodeProgressFile } from './game/backup';
 import { music } from './game/music';
 import { presentationAt } from './game/presentation';
 import { musicFor, readGallery, readScores, rememberProgress } from './game/progress';
@@ -62,7 +63,7 @@ export function App() {
   const refreshSaves = useCallback(() => setSaveList(Object.fromEntries(slots.map(s => [s, readSave(s)])) as Record<Slot, Save | null>), []);
   const store = useCallback((slot: Slot, state: GameState) => {
     try { writeSave(slot, state); refreshSaves(); return true; }
-    catch { if (!storageWarning.current) { notify('暂时无法写入存档，请用导出存档保留进度。'); storageWarning.current = true; } return false; }
+    catch { if (!storageWarning.current) { notify('暂时无法写入存档，请用导出阅读备份保留进度。'); storageWarning.current = true; } return false; }
   }, [notify, refreshSaves]);
 
   useEffect(() => {
@@ -89,15 +90,17 @@ export function App() {
     };
   }, []);
 
+  useEffect(() => { setVisible(0); }, [game.sceneId, game.line, line.text]);
   useEffect(() => {
-    setVisible(0);
-    if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setVisible(Array.from(line.text).length); return; }
+    if (screen !== 'game' || panel || confirm || uiHidden) return;
+    const length = Array.from(line.text).length;
+    if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setVisible(length); return; }
     const id = setInterval(() => setVisible(count => {
-      if (count >= Array.from(line.text).length) clearInterval(id);
+      if (count >= length) { clearInterval(id); return length; }
       return count + 1;
     }), Math.round(1000 / settings.textSpeed));
     return () => clearInterval(id);
-  }, [game.sceneId, game.line, line.text, settings.textSpeed, settings.reducedMotion, fast]);
+  }, [game.sceneId, game.line, line.text, settings.textSpeed, settings.reducedMotion, fast, screen, panel, confirm, uiHidden]);
 
   const step = useCallback(() => {
     if (screen !== 'game' || panel || confirm) return;
@@ -156,21 +159,31 @@ export function App() {
     setGame(save.state); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
   }
   function exportProgress() {
-    const state = screen === 'game' ? currentRef.current : saveList.auto?.state;
-    if (!state) { notify('开始阅读后，就能导出进度。'); return; }
-    const blob = new Blob([JSON.stringify(encodeSave(state), null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement('a');
-    anchor.href = url; anchor.download = `NetLove-${new Date().toISOString().slice(0, 10)}.json`;
-    anchor.click(); setTimeout(() => URL.revokeObjectURL(url), 10000);
-    notify('存档已导出。可在另一台设备导入继续。');
+    try {
+      const backup = createReadingBackup(screen === 'game' ? currentRef.current : undefined);
+      const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = url; anchor.download = `NetLove-reading-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      anchor.click(); setTimeout(() => URL.revokeObjectURL(url), 10000);
+      notify('阅读备份已导出，包含存档、章首与消息归档。');
+    } catch { notify('暂时无法读取备份，请稍后重试。'); }
   }
   async function importProgress(file: File | undefined) {
     if (!file) return;
     try {
       if (file.size > 2_000_000) throw new Error('存档文件过大');
-      const save = decodeSave(await file.text());
-      setConfirm({ text: '导入后会切换到这份存档，并更新自动存档。手动存档会保留。', action: () => load(save) });
+      const imported = decodeProgressFile(await file.text());
+      const text = imported.kind === 'single' ? '导入后会切换到这份存档，并更新自动存档。手动存档会保留。'
+        : `这份备份包含 ${Object.keys(imported.slots).length} 份存档、${Object.keys(imported.chapters).length} 个章首和 ${imported.memories.endings.length} 段结局。导入会更新对应位置并合并消息归档；备份中没有的位置会保留。`;
+      setConfirm({ text, action: () => {
+        try {
+          applyProgressImport(imported);
+          refreshSaves(); setEndings(readEndings()); setGallery(readGallery()); setScores(readScores());
+          const save = imported.kind === 'single' ? imported.save : imported.slots.auto;
+          if (save) load(save); else notify('阅读备份已导入，可以选择存档继续。');
+        } catch (error) { notify(error instanceof Error ? error.message : '存档读取失败'); }
+      } });
     } catch (error) { notify(error instanceof Error ? error.message : '存档读取失败'); }
     if (importRef.current) importRef.current.value = '';
   }
@@ -241,8 +254,8 @@ export function App() {
       {panel === 'memories' && <MemoryBook endings={endings} gallery={gallery} scores={scores} load={load} audition={audition} onAudition={setAudition} />}
       {panel === 'credits' && <Credits />}
       {panel === 'settings' && <div className="settings-list"><label className="setting"><span>文字速度<small>{settings.textSpeed === 0 ? '一次显示全部' : `${settings.textSpeed} 字 / 秒`}</small></span><input aria-label="文字速度" type="range" min="0" max="80" step="4" value={settings.textSpeed} onChange={e => setSetting('textSpeed', +e.target.value)} /></label><label className="setting"><span>自动阅读停留<small>{(settings.autoDelay / 1000).toFixed(1)} 秒 + 段落阅读时间</small></span><input aria-label="自动阅读停留" type="range" min="800" max="6000" step="200" value={settings.autoDelay} onChange={e => setSetting('autoDelay', +e.target.value)} /></label><label className="setting"><span>背景音乐<small>六首离线程序配乐 · 首次点击后播放</small></span><input aria-label="背景音乐" type="checkbox" checked={settings.music} onChange={e => { setSetting('music', e.target.checked); if (e.target.checked) void music.unlock(); }} /></label><label className="setting"><span>声音音量<small>{Math.round(settings.volume * 100)}%</small></span><input aria-label="声音音量" type="range" min="0" max="1" step="0.05" value={settings.volume} onChange={e => setSetting('volume', +e.target.value)} /></label><label className="setting"><span>环境雨声<small>在雨天场景播放，可独立关闭</small></span><input aria-label="环境雨声" type="checkbox" checked={settings.ambience} onChange={e => setSetting('ambience', e.target.checked)} /></label><label className="setting"><span>操作提示音<small>轻声提示翻页与选择</small></span><input aria-label="操作提示音" type="checkbox" checked={settings.soundEffects} onChange={e => setSetting('soundEffects', e.target.checked)} /></label><label className="setting"><span>减少动态效果<small>关闭动画并一次显示文字</small></span><input aria-label="减少动态效果" type="checkbox" checked={settings.reducedMotion} onChange={e => setSetting('reducedMotion', e.target.checked)} /></label><div className="display-setting"><div><strong>横屏阅读</strong><p>把手机横过来，能看见更多梧城与角色。</p></div><FullscreenButton display={display} /></div><div className="keyboard-hints"><span>空格 / Enter · 继续</span><span>A · 自动</span><span>S / Esc · 存档</span><span>L · 回看</span><span>H · 隐藏 / 恢复界面</span></div><p className="soft-note">隐藏界面后会暂停自动阅读，轻触画面即可恢复，段落保持原位。推荐横屏游玩。安装后优先横屏；也可继续竖屏阅读，旋转时自动保留进度。若屏幕没有转向，请开启系统的自动旋转。</p></div>}
-      {panel === 'saves' && <><div className="save-grid">{slots.map(slot => { const save = saveList[slot]; return <article key={slot} className="save-card"><div className="save-heading"><span>{slot === 'auto' ? '自动存档' : `手动存档 ${slot}`}</span><small>{save ? new Date(save.savedAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) : '空白'}</small></div><h3>{save ? getScene(save.state).title : '把这一刻留下来'}</h3><p>{save ? `${getScene(save.state).location} · 第 ${save.state.line + 1} 段` : '开始阅读后可以存入这里。'}</p><div>{slot !== 'auto' && <button disabled={screen !== 'game'} onClick={() => { const run = () => { if (store(slot, currentRef.current)) notify('这一刻已经保存。'); }; if (save) setConfirm({ text: `要更新手动存档 ${slot} 吗？`, action: run }); else run(); }}>存入</button>}<button disabled={!save} onClick={() => save && load(save)}>读取 <Icon name="arrow" size={14} /></button></div></article>; })}</div><div className="save-actions"><button onClick={exportProgress}><Icon name="download" size={18} />导出存档</button><button onClick={() => importRef.current?.click()}><Icon name="upload" size={18} />导入存档</button></div><p className="soft-note">手机与电脑共用存档格式。导出 JSON 后，在另一台设备导入即可继续；当前版本不提供账户云同步。</p></>}
-      {panel === 'history' && <RecordSearch entries={recordLine(game).history} renderEntry={entry => <article><span>{entry.speaker}</span><p>{entry.text}</p></article>} />}
+      {panel === 'saves' && <><div className="save-actions"><button onClick={exportProgress}><Icon name="download" size={18} />导出阅读备份</button><button onClick={() => importRef.current?.click()}><Icon name="upload" size={18} />导入存档</button></div><p className="save-backup-note">一起带走自动与手动存档、章首及消息归档。旧版单份存档仍可导入。</p><div className="save-grid">{slots.map(slot => { const save = saveList[slot]; return <article key={slot} className="save-card"><div className="save-heading"><span>{slot === 'auto' ? '自动存档' : `手动存档 ${slot}`}</span><small>{save ? new Date(save.savedAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) : '空白'}</small></div><h3>{save ? getScene(save.state).title : '把这一刻留下来'}</h3><p>{save ? `${getScene(save.state).location} · 第 ${save.state.line + 1} 段` : '开始阅读后可以存入这里。'}</p><div>{slot !== 'auto' && <button disabled={screen !== 'game'} onClick={() => { const run = () => { if (store(slot, currentRef.current)) notify('这一刻已经保存。'); }; if (save) setConfirm({ text: `要更新手动存档 ${slot} 吗？`, action: run }); else run(); }}>存入</button>}<button disabled={!save} onClick={() => save && load(save)}>读取 <Icon name="arrow" size={14} /></button></div></article>; })}</div><p className="soft-note">手机与电脑共用存档格式。导出 JSON 后，在另一台设备导入即可继续；当前版本不提供账户云同步。</p></>}
+      {panel === 'history' && <RecordSearch entries={complete ? recordLine(game).history : game.history} renderEntry={entry => <article><span>{entry.speaker}</span><p>{entry.text}</p></article>} />}
       {panel === 'about' && <div className="about-copy"><span className="about-leaf"><Icon name="users" size={46} /></span><p>《“网”恋》是一部发生在 2020 年架空城市梧城的原创视觉小说。</p><p>你扮演二十三岁的周既明，在疫情时期的互助群里认识谢听禾、许弥和老朋友陆衡。从匿名消息、一起做事，到误会与等待，决定想把怎样的关系带回线下。</p><p>五章故事、六次选择、四种结局。恋爱、友情与告别都可以认真完成。城市安排与人物经历为虚构。</p><p className="soft-note">创作 / AureliusWu 与 AI 协作<br/>美术 / AI 生成原创立绘与场景<br/>音乐 / Project1 程序配乐复用<br/>版本 / {__APP_VERSION__}</p></div>}
     </Dialog>}
     {confirm && <Dialog title="留住这一刻" onClose={() => setConfirm(null)}><p className="confirm-text">{confirm.text}</p><div className="confirm-actions"><button className="secondary" onClick={() => setConfirm(null)}>再想一下</button><button className="primary" onClick={() => { confirm.action(); setConfirm(null); }}>继续 <Icon name="arrow" size={18} /></button></div></Dialog>}

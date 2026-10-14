@@ -1,3 +1,5 @@
+> 2026-10-14：v0.2.1 回看检索候选，本地剧情、存档与浏览器检查通过；双端 CI 待验收。见 [本轮记录](docs/production/HISTORY-REVIEW.md)。
+
 > 2026-10-13：v0.2.0 剧情与六表情精修已发布；Windows 成品、浏览器及公开 PWA 通过本次 CI。见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [发布凭据](docs/production/PUBLISHED-v0.2.0.json)。
 
 # “网”恋 / NetLove

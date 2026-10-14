@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "project": "NetLove",
+  "baseCommit": "42a421e778c64ebb8309f01471c1d2b37896e91c",
+  "scope": "read-history search; native story/save identities and existing art/voices preserved",
+  "platforms": {
+    "local": "verified; see HISTORY-REVIEW.md",
+    "githubCI": "pending",
+    "publicPWA": "pending",
+    "humanListening": "not performed"
+  },
+  "version": "0.2.1",
+  "localChecks": {
+    "unit": 37,
+    "browserPassed": 20,
+    "browserSkipped": 0,
+    "routes": 288
+  },
+  "browser": "Chromium 140.0.7339.186; production build"
+}

@@ -1,3 +1,7 @@
+# v0.2.1 回看检索候选 · 2026-10-14
+
+本地 37 项逻辑、288 路线与 20 项浏览器通过；双端 CI / 公网待当前提交验收。见 [本轮记录](production/HISTORY-REVIEW.md)。
+
 # v0.2.0 剧情与美术精修已交付 · 2026-10-13
 
 修订 42 段、两位角色各六表情与 38 处明确注解。34 项逻辑、288 条路线、18 项浏览器、Windows 源码/实际 EXE 和公开 PWA 三屏通过。运行提交 `5ec6e4648b8c0410283e18683cb3b75888f3d68e`；[v0.2.0 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.0)、[精修记录](production/CREATIVE-REVIEW.md)、[发布凭据](production/PUBLISHED-v0.2.0.json)。共用制作契约 v1.2.0 的 14 项文件及实际导出包通过核对。

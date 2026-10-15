@@ -16,6 +16,10 @@
 .history-preview-text > span { font-size: 11px; color: #75866b; }
 .history-preview-text p { margin-top: 8px; font-family: var(--serif); font-size: 15px; line-height: 1.9; overflow-wrap: anywhere; }
 .history-preview-navigation { display: flex; justify-content: space-between; gap: 12px; }
+.history-preview .history-start-reread { display: block; margin: 16px auto 0; background: #e5ecdc; }
+.reread-banner { position: fixed; inset: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) auto auto; z-index: 12; display: flex; align-items: center; gap: 14px; max-width: calc(100vw - 24px); padding: 9px 12px; border: 1px solid #d5e2d4; border-radius: 8px; color: #f7f8f1; background: #2a4035ed; box-shadow: 0 6px 20px #18221c40; font-size: 11px; }
+.reread-banner button { flex-shrink: 0; min-height: 36px; padding: 7px 10px; border: 1px solid #d5e2d4; border-radius: 4px; }
+.game-screen[data-ui-hidden='true'] .reread-banner { display: none; }
 .history-reader button:focus-visible { outline: 2px solid #496143; outline-offset: 3px; }
 @media (max-width: 480px) {
   .history-preview-toolbar span { order: 1; flex-basis: 100%; text-align: center; }

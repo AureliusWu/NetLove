@@ -12,8 +12,8 @@ export type HistoryFrame = {
   presentation: ReturnType<typeof presentationAt>;
 };
 
-/** Reconstruct an already-read position without touching the live game or storage. */
-export function historyFrame(state: GameState, complete: boolean, index: number): HistoryFrame | null {
+/** Restore only the choices preceding an already-read position, ready to choose again. */
+export function historyState(state: GameState, complete: boolean, index: number): GameState | null {
   const records = readableHistory(state, complete);
   if (!Number.isInteger(index) || index < 0 || index >= records.length) return null;
   const entry = records[index];
@@ -25,12 +25,21 @@ export function historyFrame(state: GameState, complete: boolean, index: number)
       const scene = getScene(restored);
       const line = scene.lines[restored.line];
       if (line.id !== entry.id || line.text !== entry.text) return null;
-      return {
-        sceneId: scene.id, line: restored.line, title: scene.title, location: scene.location, time: scene.time,
-        background: scene.background, cg: scene.cg, speaker: line.speaker, text: line.text,
-        presentation: presentationAt(scene, restored.line),
-      };
+      return restored;
     } catch { /* The target needs a different preceding choice prefix. */ }
   }
   return null;
+}
+
+/** Reconstruct an already-read position without touching the live game or storage. */
+export function historyFrame(state: GameState, complete: boolean, index: number): HistoryFrame | null {
+  const restored = historyState(state, complete, index);
+  if (!restored) return null;
+  const scene = getScene(restored);
+  const line = scene.lines[restored.line];
+  return {
+    sceneId: scene.id, line: restored.line, title: scene.title, location: scene.location, time: scene.time,
+    background: scene.background, cg: scene.cg, speaker: line.speaker, text: line.text,
+    presentation: presentationAt(scene, restored.line),
+  };
 }

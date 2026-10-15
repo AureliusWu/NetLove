@@ -7,7 +7,9 @@ import '../history-preview.css';
 
 const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
 
-export function HistoryReader({ game, complete, onClose }: { game: GameState; complete: boolean; onClose: () => void }) {
+export function HistoryReader({ game, complete, onClose, onReread }: {
+  game: GameState; complete: boolean; onClose: () => void; onReread: (index: number) => void;
+}) {
   const entries = useMemo(() => readableHistory(game, complete), [game, complete]);
   const [index, setIndex] = useState<number | null>(null);
   const frame = useMemo(() => index === null ? null : historyFrame(game, complete, index), [game, complete, index]);
@@ -24,7 +26,7 @@ export function HistoryReader({ game, complete, onClose }: { game: GameState; co
   }
   return <section ref={reader} className="history-reader">
     <div hidden={index !== null}>
-      <p className="history-review-note">选择已读文字，回看当时的画面。</p>
+      <p className="history-review-note">选择已读文字，回看当时的画面；从这里重读，可以重新选择。原进度会保留。</p>
       <RecordSearch entries={entries} renderEntry={(entry, originalIndex) => <article>
         <span>{entry.speaker}</span><p>{entry.text}</p>
         <button type="button" className="history-open-frame" onClick={event => {
@@ -51,6 +53,7 @@ export function HistoryReader({ game, complete, onClose }: { game: GameState; co
         <button type="button" disabled={index === 0} onClick={() => setIndex(index - 1)}>上一段</button>
         <button type="button" disabled={index === entries.length - 1} onClick={() => setIndex(index + 1)}>下一段</button>
       </nav>
+      <button type="button" className="history-start-reread" onClick={() => onReread(index)}>从这里重读</button>
     </section>}
   </section>;
 }

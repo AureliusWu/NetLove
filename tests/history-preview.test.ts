@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 import { advance, choose, continueStory, getScene, newGame, replay } from '../src/game/engine';
-import { historyFrame, readableHistory } from '../src/game/history-preview';
+import { historyFrame, historyState, readableHistory } from '../src/game/history-preview';
 import type { GameState } from '../src/game/types';
 
 const decisions = [
@@ -54,5 +54,32 @@ describe('temporary review of native already-read positions', () => {
     const voice = replay([...decisions.slice(0, 2), { sceneId: 'c2-call', choiceId: 'c2-call-2' }], 'c2-voice', 3);
     expect(historyFrame(voice, true, readableHistory(voice, true).length - 1)?.presentation.character).toBeUndefined();
     expect(entries.every(entry => entry.sceneId !== 'c2-voice')).toBe(true);
+  });
+
+  test('rereads before a choice with its original scores and removes all later choices and history', () => {
+    const current = finishRoute(newGame());
+    const original = structuredClone(current);
+    const source = getScene(replay([], 'first-reply', 0));
+    const index = readableHistory(current, true).findIndex(entry => entry.sceneId === source.id && entry.line === source.lines.length - 1);
+    const restored = historyState(current, true, index)!;
+    expect(restored.decisions).toEqual([]);
+    expect(restored.stats).toEqual(newGame().stats);
+    expect(restored).toEqual(replay([], source.id, source.lines.length - 1));
+    const alternative = choose(restored, source.choices![1].id);
+    expect(alternative.decisions).toEqual([{ sceneId: source.id, choiceId: source.choices![1].id }]);
+    expect(alternative.sceneId).toBe(source.choices![1].next);
+    expect(current).toEqual(original);
+  });
+
+  test('restores a later choice with only its preceding route and safely rejects changed history text', () => {
+    const current = finishRoute(newGame());
+    const entries = readableHistory(current, true);
+    const target = entries.findIndex(entry => entry.sceneId === 'c5-choice' && entry.line === getScene(replay(current.decisions.slice(0, -1), 'c5-choice', 0)).lines.length - 1);
+    const restored = historyState(current, true, target)!;
+    expect(restored.decisions).toEqual(current.decisions.slice(0, -1));
+    expect(restored.history.every(entry => !entry.sceneId.startsWith('end-'))).toBe(true);
+    expect(finishRoute(choose(restored, 'c5-choice-2')).sceneId).toBe('end-xumi');
+    const damaged = { ...current, history: current.history.map((entry, index) => index === target ? { ...entry, text: '已改变的记录' } : entry) };
+    expect(historyState(damaged, true, target)).toBeNull();
   });
 });

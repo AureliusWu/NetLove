@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "project": "NetLove",
+  "version": "0.2.3",
+  "baseCommit": "2e7b5fccdb1b659adeb36a5bb3a8670ab27050ce",
+  "scope": "Temporary read-history scene review, native choice-prefix replay, independent live game and storage",
+  "checks": {
+    "unitPassed": 47,
+    "routes": 288,
+    "sharedFiles": 15,
+    "assetEntries": 16,
+    "assetFiles": 54,
+    "sourceCjkMissingGlyphs": 0,
+    "productionBuild": "passed"
+  },
+  "platforms": {
+    "localBrowser": "pending",
+    "githubCI": "pending",
+    "windows": "not executed in this session",
+    "publicPWA": "pending",
+    "humanListening": "not performed"
+  }
+}

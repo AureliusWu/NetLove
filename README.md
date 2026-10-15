@@ -1,4 +1,4 @@
-> 2026-10-14：v0.2.1 回看检索候选，本地剧情、存档与浏览器检查通过；双端 CI 待验收。见 [本轮记录](docs/production/HISTORY-REVIEW.md)。
+> 2026-10-15：v0.2.3 已读画面回看候选。检索到一段文字后可查看当时场景、人物表情，并前后回看已读段落；完整阅读备份沿用 v0.2.2。当前本地逻辑通过，浏览器及双端 CI 分项记录于 [本轮记录](docs/production/HISTORY-PREVIEW-REVIEW.md)。
 
 > 2026-10-13：v0.2.0 剧情与六表情精修已发布；Windows 成品、浏览器及公开 PWA 通过本次 CI。见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [发布凭据](docs/production/PUBLISHED-v0.2.0.json)。
 

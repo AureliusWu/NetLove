@@ -6,7 +6,8 @@ export function Dialog({ title, subtitle, children, onClose, wide = false }: { t
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
     const panel = ref.current!;
-    const selectable = () => [...panel.querySelectorAll<HTMLElement>('button:not([disabled]), input, select, a[href], [tabindex="0"]')];
+    const selectable = () => [...panel.querySelectorAll<HTMLElement>('button:not([disabled]), input, select, a[href], [tabindex="0"]')]
+      .filter(element => element.getClientRects().length > 0 && getComputedStyle(element).visibility !== 'hidden' && !element.closest('[inert]'));
     selectable()[0]?.focus();
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Escape') { e.preventDefault(); onClose(); }

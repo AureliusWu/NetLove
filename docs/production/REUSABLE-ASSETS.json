@@ -4,7 +4,7 @@
   "project": "NetLove",
   "repository": "https://github.com/AureliusWu/NetLove",
   "sourceCommit": "e331d2512fa77cb39ee08f94af3f019e67b561d1",
-  "inventoryDate": "2026-10-13",
+  "inventoryDate": "2026-10-14",
   "entries": [
     {
       "id": "shared-vn-production",
@@ -129,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "dae01ca35732946bdf005376a68de4d7fd1e9a8d4e36f0ded1019403c421d631"
+          "sha256": "245675bdb4e39cf81e63fe1fd6be503d5e6f2d81fcad96f6f46481833a3b9e72"
         },
         {
           "role": "recipe",
@@ -598,6 +598,48 @@
       ],
       "licenseNote": "Original project generated art; does not inherit a general MIT artwork license",
       "approvalStatus": "agent_integration_review"
+    },
+    {
+      "id": "read-history-search",
+      "kind": "ui",
+      "reuse": "recipe",
+      "origin": "AureliusWu/NetLove, Healing, Rain and Circuit; read-history search v1.0.0 (2026-10-14)",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "docs/production/READ-HISTORY.md",
+          "encoding": "text-lf",
+          "sha256": "d56162182346d6eaecc6d8a31557b27cc11609c5c8316f96f3e9086f9a4471c5"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/history.ts",
+          "encoding": "text-lf",
+          "sha256": "709e050b8731d937cda3f90a0d9456af22a16b3e900d66a160533e736310b517"
+        },
+        {
+          "role": "recipe",
+          "path": "src/components/RecordSearch.tsx",
+          "encoding": "text-lf",
+          "sha256": "c24a9dae27f2707709ef71eb593a430428b1b6a1510a71a3446342979e5da8f2"
+        },
+        {
+          "role": "recipe",
+          "path": "src/history-search.css",
+          "encoding": "text-lf",
+          "sha256": "934b8e89dbf4a8a951460f89ef9d72ac0bbd486a4cfb4f3871c649be1976e77b"
+        }
+      ]
     }
   ]
 }

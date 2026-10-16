@@ -1,5 +1,18 @@
 # 验证记录
 
+## v0.2.4 · PR 验证已完成，正式发布待验
+
+2026-10-15。代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 的 [Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589) 已成功。
+
+- Web：49 项逻辑、288 条路线重放、34 项完整浏览器检查通过；包含桌面和手机的安全重读、返回原打字位置、原持久化数据保护，以及未读完结局的返回边界。生产构建、10 项素材工具检查、15 份共用文件校验与素材导出通过。
+- Windows：源码和 `release/win-unpacked/网恋.exe` 分别输出 `DESKTOP_SMOKE_OK`，版本均为 0.2.4，`packaged` 分别为 false/true；原生全屏、进度保持和最终隐藏窗口检查通过。NSIS 安装包与 portable 构建成功。
+- PWA：本轮产物为 20 文件，缓存版本 `da53b51516fff2`。这是 PR 构建证据，正式 main 构建、v0.2.4 发行文件与公开 Pages 的部署后离线检查尚待执行。
+- 边界：尚未实际安装/升级 NSIS、启动 portable 封装器，亦未进行实体设备手工体验；构建成功和 win-unpacked EXE 启动不替代这些检查。
+
+逐轮证据与运行源码指纹见 [HISTORY-REREAD-VALIDATION.json](production/HISTORY-REREAD-VALIDATION.json)，状态边界见 [HISTORY-REREAD-REVIEW.md](production/HISTORY-REREAD-REVIEW.md)。下方历史版本证据保持原样。
+
+## v0.1.1 历史发布验证
+
 2026-10-11 / v0.1.1 双端工程交付验证。测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96`；本地、CI 产物与公开部署分别记录。
 
 - `npm run check` exit 0：素材工具 5 项、Vitest 31 项、生产构建、Chromium 145.0.7632.6 的 14 项浏览器测试全部通过（1.1 分钟）。测试使用 NetLove 专属端口、自启严格端口服务，避免其他项目预览被误复用。

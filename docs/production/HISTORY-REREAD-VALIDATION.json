@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-15",
+  "project": "NetLove",
+  "version": "0.2.4",
+  "baseCommit": "e59318ab57b737c095ca37451832c67e2c7833f8",
+  "scope": "Native rereading isolated from the saved route; restore-frame guard protects the original read boundary",
+  "currentRestoredExecution": {
+    "unitPassed": 49,
+    "routes": 288,
+    "productionBuild": "passed",
+    "pwaFiles": 20,
+    "pwaCacheVersion": "da53b51516fff2",
+    "materialToolTestsPassed": 10,
+    "sharedFiles": 15,
+    "assetEntries": 16,
+    "assetFiles": 54,
+    "browser": {
+      "runtimeCheckpoint": "b4e6af613ca8e83a64d3108b2f9364a5890df1c3",
+      "browser": "Chromium 153.0.8010.0",
+      "command": "npm run test:e2e -- tests/e2e/history-reread.spec.ts --grep 'longer reread'",
+      "targetedPassed": 2,
+      "targetedFailed": 0,
+      "projects": [
+        "desktop",
+        "mobile"
+      ],
+      "durationSeconds": 3.6,
+      "fullSuiteTests": 34,
+      "fullSuiteStatus": "completed with 34 passed in pullRequestCI; local restored run covered 2 targeted cases"
+    },
+    "windows": "not executed"
+  },
+  "priorBrowserExecutions": [
+    {
+      "checkpoint": "b710e7d5e8a37ae8fd04a2bee3d254733633e025",
+      "variant": "before restore-frame guard",
+      "browser": "Chromium 153.0.8010.0",
+      "passed": 32,
+      "failed": 0,
+      "complete": true
+    },
+    {
+      "checkpoint": "3711fd02d5002c55dde37043bdb9d507fce3a2a4",
+      "variant": "with restore-frame guard",
+      "browser": "Chromium 153.0.8010.0",
+      "configuredTests": 34,
+      "observedPassed": 9,
+      "observedPassedTestNumbers": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "complete": false,
+      "desktopEndingReturnBoundary": "passed",
+      "mobileEndingReturnBoundary": "not observed",
+      "interruption": "environment reset before final output was available"
+    }
+  ],
+  "endingReturnRegression": {
+    "beforeGuard": "reproduced on desktop and mobile: returning from a longer reread while the original ending is still typing adds two ending keys",
+    "fix": "use queued original visible count during the first restore render",
+    "currentFullBrowserStatus": "passed in pullRequestCI: all 34 browser tests, including desktop and mobile return-boundary regressions",
+    "currentTargetedBrowserStatus": "passed on desktop and mobile after final environment restore"
+  },
+  "testedRuntimeSha256": {
+    "src/App.tsx": "4d9bf7bbd32f2096bcc0bdff410b0465ec88970499e01f79d209d1c3df446b54",
+    "src/game/history-preview.ts": "0c11c6f12abe120c1be0e7eb45cd2bedfeb1a490c1a93d33f3996c3be5d1d6ee",
+    "src/components/HistoryReader.tsx": "11e8097c21079b1e8724323fcdb90f9d53fa6fa031da830101e71be959ed0ab2",
+    "src/components/Dialog.tsx": "4dde3bbfa200c19b7a32a1397c49f111de3a53a86b2972f07bee33919b353656",
+    "tests/e2e/history-reread.spec.ts": "bc62052e373f5c97e5d55708382d8b4f0082073eeb48c0bf35b19b2b500afbd8"
+  },
+  "platforms": {
+    "githubCI": "PR Build 38743072589 completed/success for 0808b41619fae0e09d049b591fe69f183b351f54",
+    "windows": "PR CI source and actual win-unpacked EXE smoke passed; NSIS/portable build passed; installer install/upgrade and portable launcher not executed",
+    "publicPWA": "pending formal Pages deployment and published offline checks; existing release unchanged",
+    "humanListening": "not performed",
+    "mainBuild": "pending formal main build",
+    "release": "v0.2.4 pending creation and asset verification"
+  },
+  "pullRequestCI": {
+    "headCommit": "0808b41619fae0e09d049b591fe69f183b351f54",
+    "runId": 38743072589,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38743072589",
+    "status": "completed",
+    "conclusion": "success",
+    "web": {
+      "jobId": 116449515462,
+      "unitPassed": 49,
+      "routes": 288,
+      "browserPassed": 34,
+      "browserFailed": 0,
+      "browserDuration": "2.0m",
+      "productionBuild": "passed",
+      "materialVerificationAndExport": "passed",
+      "pwaFiles": 20,
+      "pwaCacheVersion": "da53b51516fff2"
+    },
+    "windows": {
+      "jobId": 116450964574,
+      "sourceSmoke": "passed",
+      "packagedExeSmoke": "passed",
+      "version": "0.2.4",
+      "sourcePackagedFlag": false,
+      "exePackagedFlag": true,
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0,
+      "nsisBuild": "passed",
+      "portableBuild": "passed",
+      "nsisInstallAndUpgrade": "not executed",
+      "portableLauncher": "not executed"
+    },
+    "releaseJob": "skipped for pull_request event"
+  }
+}

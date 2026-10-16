@@ -34,3 +34,8 @@
 .signal-note{font-family:monospace;font-size:11px;letter-spacing:.05em}
 @media(max-width:700px){.title-copy h1{font-size:52px}.netlove-characters{grid-template-columns:1fr}.scene-character{height:108%!important;bottom:-31%!important}.cover-character{width:105%!important;right:-18%!important}.visual-caption{max-width:58%}}
 @media(max-height:500px) and (orientation:landscape){.title-screen{min-height:100dvh}.title-copy h1{font-size:40px}.scene-character{height:118%!important;bottom:-39%!important}.title-visual{border-radius:45px 4px 4px 4px}.visual-caption{bottom:8px!important;padding:8px;font-size:11px}.visual-date{font-size:9px!important;left:10px!important;padding:7px}.netlove-characters .character-portrait{height:230px}.reading-panel[data-medium="chat"] .dialogue-text>span[aria-hidden="true"]{padding-left:9px}}
+
+.save-actions{margin:0 0 10px;flex-wrap:wrap;gap:10px}
+.save-actions button{min-height:44px}
+.save-backup-note{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 18px}
+@media(max-height:380px) and (orientation:landscape){.dialog-heading p{display:none}.save-backup-note{font-size:10px;margin-bottom:10px}.save-actions{margin-bottom:6px}}

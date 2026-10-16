@@ -124,3 +124,5 @@ jobs:
         with:
           name: NetLove-Publication-Finalization
           path: .publication-finalization/*.json
+          include-hidden-files: true
+          if-no-files-found: error

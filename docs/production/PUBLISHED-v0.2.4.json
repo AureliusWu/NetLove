@@ -292,5 +292,122 @@
     "Release remains an explicitly published playable-preview prerelease.",
     "NSIS installer installation and upgrade, portable-wrapper launch, and physical-device manual checks were not executed.",
     "Actual win-unpacked EXE startup is tested on GitHub Windows; public EXE downloads were hashed without execution in the Linux workspace."
-  ]
+  ],
+  "notesSynchronization": {
+    "workflow": ".github/workflows/finalize-publication.yml",
+    "scope": "Description only; the existing release identity, tag and all published assets are verified and retained.",
+    "executionEvidence": "Successful first finalization run/job logs and API readback; that original run did not upload an artifact.",
+    "firstFinalization": {
+      "documentationCommit": "d5583e363695514ef2e781df9090b667c8efadf6",
+      "run": 38829095744,
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829095744",
+      "job": 116743418212,
+      "jobUrl": "https://github.com/AureliusWu/NetLove/actions/runs/38829095744/job/116743418212",
+      "status": "success",
+      "finalizedAt": "2026-10-16T00:22:28.3081208Z",
+      "log": {
+        "path": "artifacts/finalize-38829095744-job-116743418212.log",
+        "sha256": "e21d9b4ed3eb0e0fede16551f9c85160dc4879f169d44c9ac37e5e2d4af57cb2"
+      },
+      "result": {
+        "version": "0.2.4",
+        "runtimeCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+        "documentationCommit": "d5583e363695514ef2e781df9090b667c8efadf6",
+        "changedPaths": [
+          ".github/workflows/finalize-publication.yml",
+          "README.md",
+          "docs/STATUS.md",
+          "docs/VALIDATION.md",
+          "docs/production/HISTORY-REREAD-REVIEW.md",
+          "docs/production/HISTORY-REREAD-VALIDATION.json",
+          "docs/production/PUBLISHED-v0.2.4.json",
+          "docs/releases/v0.2.4.md"
+        ],
+        "tagVerified": true,
+        "successfulRuntimeBuildAndPagesVerified": true,
+        "allFourAssetsDownloadedAndDigestsMatched": true,
+        "allThreeChecksumRowsMatched": true,
+        "all22PwaFilesMatched": true,
+        "publicEntryAndWorkerMatched": true,
+        "assetSha256": {
+          "NetLove-0.2.4-x64-Portable.exe": "03ae638078cef17bc65536bd69bb8bd2f7be8a215a995c0c8c1b6a47532b5627",
+          "NetLove-0.2.4-x64-Setup.exe": "90fc34526de96be183faaef958743ef0abc58a720b4b68f189af3a12229a7e1a",
+          "NetLove-PWA-0.2.4.zip": "d65e42231e9b09128e39bfff12281d4b50669e26ae10b2d619a097f0aa029be4",
+          "SHA256SUMS.txt": "76f098d12f03a1cbdac5397a4260e09cd202fe82a1b0a75a1b2ff63f0e01b06a"
+        },
+        "releaseNotesReadbackMatched": true,
+        "assetsUnchanged": true,
+        "tagUnchanged": true,
+        "draftAndPrereleaseUnchanged": true
+      },
+      "artifact": {
+        "name": "NetLove-Publication-Finalization",
+        "status": "not-uploaded",
+        "apiArtifactCount": 0,
+        "originalUploadOptions": {
+          "include-hidden-files": false,
+          "if-no-files-found": "warn"
+        },
+        "warning": "No files were found with the provided path: .publication-finalization/*.json. No artifacts will be uploaded.",
+        "uploadStepConclusion": "success",
+        "explanation": "The JSON files were created under the hidden .publication-finalization directory; the original upload step excluded hidden files. Its missing-file warning did not fail the finalization checks or job."
+      }
+    },
+    "documentationFollowup": {
+      "commit": "d5583e363695514ef2e781df9090b667c8efadf6",
+      "build": {
+        "run": 38829095779,
+        "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829095779",
+        "name": "Build NetLove",
+        "event": "push",
+        "headCommit": "d5583e363695514ef2e781df9090b667c8efadf6",
+        "status": "success",
+        "jobs": [
+          {
+            "id": 116743417715,
+            "name": "web",
+            "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829095779/job/116743417715",
+            "status": "success"
+          },
+          {
+            "id": 116744242196,
+            "name": "windows",
+            "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829095779/job/116744242196",
+            "status": "success"
+          },
+          {
+            "id": 116744922342,
+            "name": "release",
+            "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829095779/job/116744922342",
+            "status": "success"
+          }
+        ]
+      },
+      "publicPwa": {
+        "run": 38829607586,
+        "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829607586",
+        "name": "Publish NetLove PWA",
+        "event": "workflow_run",
+        "headCommit": "d5583e363695514ef2e781df9090b667c8efadf6",
+        "status": "success",
+        "jobs": [
+          {
+            "id": 116745090383,
+            "name": "deploy",
+            "url": "https://github.com/AureliusWu/NetLove/actions/runs/38829607586/job/116745090383",
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "artifactUploadRepair": {
+      "uploadOptions": {
+        "include-hidden-files": true,
+        "if-no-files-found": "error"
+      },
+      "trigger": "A subsequent main push changing docs/production/PUBLISHED-v0.2.4.json",
+      "status": "configured-awaiting-run",
+      "executionEvidence": "A new run and its uploaded JSON artifact must be inspected before recording artifact-upload success."
+    }
+  }
 }

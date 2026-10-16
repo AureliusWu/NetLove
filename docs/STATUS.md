@@ -1,14 +1,20 @@
-# v0.2.4 安全重读候选 · 2026-10-15
+# v0.2.4 已完成 PR 验证 · 2026-10-15
 
-已读定位、原生选择前缀重建、临时路线、返回原进度和另存/导入确认已实现。本次恢复后 49 项逻辑（含 288 条路线）、生产构建和 10 项素材工具检查通过。旧检查点完整 32 项浏览器通过；加入返回帧 guard 后，本次桌面/手机两项关键回归通过；最终 34 项全量未完整观测，仍待验收，Windows 未执行。见 [制作记录](production/HISTORY-REREAD-REVIEW.md) 与 [验证记录](production/HISTORY-REREAD-VALIDATION.json)。当前仅候选分支，无合并部署。
+已读文字支持关键词和说话人检索、原场景/表情回看及安全重读；可以重新选择，并返回原段落和未完成的打字位置。完整阅读备份包含存档、章首和消息归档。临时重读保留原路线、自动存档与解锁记录，原剧情和 `netlove-v1` / `netlove:v1` 身份保持。
 
-# v0.2.3 已读画面回看候选 · 2026-10-15
+[PR #1](https://github.com/AureliusWu/NetLove/pull/1) 的精确代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 已通过 [Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589)：49 项逻辑（含 288 条路线）、34 项完整浏览器、TypeScript/Vite 构建、素材校验及导出全部通过。Windows 源码和实际 win-unpacked EXE 均通过 v0.2.4 启动、全屏与进度检查；NSIS 安装包和 portable 已构建成功。
+
+正式 main 构建、v0.2.4 版本发行与公开 PWA 尚待验收。安装器实际安装/升级、portable 封装器启动及实体设备手工体验未执行。见 [制作记录](production/HISTORY-REREAD-REVIEW.md)、[验证记录](production/HISTORY-REREAD-VALIDATION.json) 与 [发布说明](releases/v0.2.4.md)。
+
+# v0.2.3 本地阶段记录 · 2026-10-15
+
+以下保留当时断点，后续平台检查由本页 v0.2.4 记录接续。
 
 已读记录可查看原段落对应的场景与表情，上一段/下一段沿当前已读路线移动；返回记录保留筛选与焦点，关闭回看到原阅读位置与打字进度。画面由原生 replay 重建，只使用该时刻之前的选择。当前游戏状态、分数、自动/手动存档、章首与消息归档独立保留。
 
 本地 47 项逻辑（含 288 条路线）、TypeScript/Vite 构建及 15 份共享文件哈希已通过；本轮浏览器、Windows、公开 PWA 尚待执行。详情见 [制作记录](production/HISTORY-PREVIEW-REVIEW.md)。v0.2.2 的完整阅读备份保留，既有 `netlove-v1` / `netlove:v1` 不变。
 
-# v0.2.1 回看检索候选 · 2026-10-14
+# v0.2.1 本地阶段记录 · 2026-10-14
 
 本地 37 项逻辑、288 路线与 20 项浏览器通过；双端 CI / 公网待当前提交验收。见 [本轮记录](production/HISTORY-REVIEW.md)。
 

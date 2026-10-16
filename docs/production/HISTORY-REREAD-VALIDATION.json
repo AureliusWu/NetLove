@@ -26,7 +26,7 @@
       ],
       "durationSeconds": 3.6,
       "fullSuiteTests": 34,
-      "fullSuiteStatus": "pending final complete run"
+      "fullSuiteStatus": "completed with 34 passed in pullRequestCI; local restored run covered 2 targeted cases"
     },
     "windows": "not executed"
   },
@@ -65,7 +65,7 @@
   "endingReturnRegression": {
     "beforeGuard": "reproduced on desktop and mobile: returning from a longer reread while the original ending is still typing adds two ending keys",
     "fix": "use queued original visible count during the first restore render",
-    "currentFullBrowserStatus": "pending",
+    "currentFullBrowserStatus": "passed in pullRequestCI: all 34 browser tests, including desktop and mobile return-boundary regressions",
     "currentTargetedBrowserStatus": "passed on desktop and mobile after final environment restore"
   },
   "testedRuntimeSha256": {
@@ -76,9 +76,47 @@
     "tests/e2e/history-reread.spec.ts": "bc62052e373f5c97e5d55708382d8b4f0082073eeb48c0bf35b19b2b500afbd8"
   },
   "platforms": {
-    "githubCI": "not started for this local candidate; branch push awaits authorization",
-    "windows": "not executed for this candidate",
-    "publicPWA": "not deployed; existing release unchanged",
-    "humanListening": "not performed"
+    "githubCI": "PR Build 38743072589 completed/success for 0808b41619fae0e09d049b591fe69f183b351f54",
+    "windows": "PR CI source and actual win-unpacked EXE smoke passed; NSIS/portable build passed; installer install/upgrade and portable launcher not executed",
+    "publicPWA": "pending formal Pages deployment and published offline checks; existing release unchanged",
+    "humanListening": "not performed",
+    "mainBuild": "pending formal main build",
+    "release": "v0.2.4 pending creation and asset verification"
+  },
+  "pullRequestCI": {
+    "headCommit": "0808b41619fae0e09d049b591fe69f183b351f54",
+    "runId": 38743072589,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38743072589",
+    "status": "completed",
+    "conclusion": "success",
+    "web": {
+      "jobId": 116449515462,
+      "unitPassed": 49,
+      "routes": 288,
+      "browserPassed": 34,
+      "browserFailed": 0,
+      "browserDuration": "2.0m",
+      "productionBuild": "passed",
+      "materialVerificationAndExport": "passed",
+      "pwaFiles": 20,
+      "pwaCacheVersion": "da53b51516fff2"
+    },
+    "windows": {
+      "jobId": 116450964574,
+      "sourceSmoke": "passed",
+      "packagedExeSmoke": "passed",
+      "version": "0.2.4",
+      "sourcePackagedFlag": false,
+      "exePackagedFlag": true,
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0,
+      "nsisBuild": "passed",
+      "portableBuild": "passed",
+      "nsisInstallAndUpgrade": "not executed",
+      "portableLauncher": "not executed"
+    },
+    "releaseJob": "skipped for pull_request event"
   }
 }

@@ -296,7 +296,7 @@
   "notesSynchronization": {
     "workflow": ".github/workflows/finalize-publication.yml",
     "scope": "Description only; the existing release identity, tag and all published assets are verified and retained.",
-    "executionEvidence": "Successful first finalization run/job logs and API readback; that original run did not upload an artifact.",
+    "executionEvidence": "Completed finalization runs, actual downloaded verification artifacts, unchanged release/tag/assets, and successful follow-up build and public offline checks.",
     "firstFinalization": {
       "documentationCommit": "d5583e363695514ef2e781df9090b667c8efadf6",
       "run": 38829095744,
@@ -406,8 +406,122 @@
         "if-no-files-found": "error"
       },
       "trigger": "A subsequent main push changing docs/production/PUBLISHED-v0.2.4.json",
-      "status": "configured-awaiting-run",
-      "executionEvidence": "A new run and its uploaded JSON artifact must be inspected before recording artifact-upload success."
+      "status": "passed",
+      "executionEvidence": "A new run and its uploaded JSON artifact must be inspected before recording artifact-upload success.",
+      "completedRun": 38859999230,
+      "completedArtifact": 12028956710
+    },
+    "latestFinalization": {
+      "project": "NetLove",
+      "run": 38859999230,
+      "artifact": 12028956710,
+      "artifactSha256": "sha256:1d68d5cbe5d76c88c27efab3c0ba49247aff2379991231e1b2242e38c5c383b5",
+      "jsonFiles": [
+        "after.json",
+        "before.json",
+        "finalization.json",
+        "tag-after.json",
+        "verification.json"
+      ],
+      "version": "0.2.4",
+      "runtimeCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+      "documentationCommit": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+      "allFinalizationFlagsTrue": {
+        "tagVerified": true,
+        "successfulRuntimeBuildAndPagesVerified": true,
+        "allFourAssetsDownloadedAndDigestsMatched": true,
+        "allThreeChecksumRowsMatched": true,
+        "all22PwaFilesMatched": true,
+        "publicEntryAndWorkerMatched": true,
+        "releaseNotesReadbackMatched": true,
+        "assetsUnchanged": true,
+        "tagUnchanged": true,
+        "draftAndPrereleaseUnchanged": true
+      },
+      "releaseSnapshotsUnchanged": true,
+      "releaseNotesMatchLocalMarkdown": true,
+      "tagMatchesFixedRuntimeCommit": true,
+      "allAssetsMatchPublishedRecord": true,
+      "assetCount": 4,
+      "job": 116839878365,
+      "jobLogSha256": "d0fb17c92e3930c8957ce21dce9d4d4ae020a00fea76a1e7e852e444cf6d8bf5",
+      "allThreeRepairRunsSuccessful": [
+        {
+          "run": 38860488204,
+          "name": "Publish NetLove PWA",
+          "status": "completed",
+          "conclusion": "success",
+          "headCommit": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+          "url": "https://github.com/AureliusWu/NetLove/actions/runs/38860488204"
+        },
+        {
+          "run": 38859999230,
+          "name": "Finalize v0.2.4 publication record",
+          "status": "completed",
+          "conclusion": "success",
+          "headCommit": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+          "url": "https://github.com/AureliusWu/NetLove/actions/runs/38859999230"
+        },
+        {
+          "run": 38859999261,
+          "name": "Build NetLove",
+          "status": "completed",
+          "conclusion": "success",
+          "headCommit": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+          "url": "https://github.com/AureliusWu/NetLove/actions/runs/38859999261"
+        }
+      ],
+      "pagesJob": 116841418023,
+      "pagesEvidenceLogSha256": "790d94eddf8c1157524318d3a57568e4b3c2d247482de9ac5f7e32a174b2ab2f",
+      "pagesLiveResults": [
+        {
+          "screen": "desktop",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.4",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "mobile",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.4",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": true,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "landscape",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.4",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        }
+      ],
+      "pagesPublishedFileChecks": [
+        {
+          "file": "index.html",
+          "sha256": "0903c324a2ccc8e73d67253221469e6ad487401e644e208786d9a763d1be5488"
+        },
+        {
+          "file": "sw.js",
+          "sha256": "5743fb9f280d1887414c66d18ce4396fd91e7baf9176adaceaf42190089d3764"
+        }
+      ],
+      "releaseAndTagAfterBuildAndPagesMatchOriginalRecord": true
     }
   }
 }

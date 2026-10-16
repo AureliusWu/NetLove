@@ -76,12 +76,12 @@
     "tests/e2e/history-reread.spec.ts": "bc62052e373f5c97e5d55708382d8b4f0082073eeb48c0bf35b19b2b500afbd8"
   },
   "platforms": {
-    "githubCI": "PR Build 38743072589 completed/success for 0808b41619fae0e09d049b591fe69f183b351f54",
-    "windows": "PR CI source and actual win-unpacked EXE smoke passed; NSIS/portable build passed; installer install/upgrade and portable launcher not executed",
-    "publicPWA": "pending formal Pages deployment and published offline checks; existing release unchanged",
+    "githubCI": "main Build 38827582748 completed/success for 58503cc4e9cbe6827008245b49cbe6ea6acc4c39; prior PR Build retained below",
+    "windows": "main source and actual win-unpacked EXE smoke passed; NSIS/portable build passed; installer install/upgrade and portable launcher not executed",
+    "publicPWA": "Pages 38828223622 completed/success; entry and worker bytes match main CI; desktop/mobile/landscape real offline-resume passed with zero page errors",
     "humanListening": "not performed",
-    "mainBuild": "pending formal main build",
-    "release": "v0.2.4 pending creation and asset verification"
+    "mainBuild": "completed/success: 38827582748",
+    "release": "v0.2.4 published prerelease; four public assets actually downloaded; bytes/digests/checksum file match; all 22 PWA files match tested main artifact"
   },
   "pullRequestCI": {
     "headCommit": "0808b41619fae0e09d049b591fe69f183b351f54",
@@ -118,5 +118,15 @@
       "portableLauncher": "not executed"
     },
     "releaseJob": "skipped for pull_request event"
+  },
+  "publication": {
+    "date": "2026-10-16",
+    "evidence": "PUBLISHED-v0.2.4.json",
+    "runtimeCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+    "buildRun": 38827582748,
+    "pagesRun": 38828223622,
+    "releaseId": 414394177,
+    "publicAssetReadback": "passed",
+    "publicPwaZipMatchesCiFiles": 22
   }
 }

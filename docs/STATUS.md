@@ -1,10 +1,12 @@
-# v0.2.4 已完成 PR 验证 · 2026-10-15
+# v0.2.4 已完成发布验证 · 2026-10-16
 
 已读文字支持关键词和说话人检索、原场景/表情回看及安全重读；可以重新选择，并返回原段落和未完成的打字位置。完整阅读备份包含存档、章首和消息归档。临时重读保留原路线、自动存档与解锁记录，原剧情和 `netlove-v1` / `netlove:v1` 身份保持。
 
-[PR #1](https://github.com/AureliusWu/NetLove/pull/1) 的精确代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 已通过 [Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589)：49 项逻辑（含 288 条路线）、34 项完整浏览器、TypeScript/Vite 构建、素材校验及导出全部通过。Windows 源码和实际 win-unpacked EXE 均通过 v0.2.4 启动、全屏与进度检查；NSIS 安装包和 portable 已构建成功。
+正式代码提交 `58503cc4e9cbe6827008245b49cbe6ea6acc4c39` 已通过 [Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748)：49 项逻辑（含 288 条路线）、34 项完整浏览器、TypeScript/Vite 构建、素材校验及导出通过。Windows 源码和实际 win-unpacked EXE 均通过 v0.2.4 启动、全屏与进度检查；NSIS 安装包和 portable 构建成功。
 
-正式 main 构建、v0.2.4 版本发行与公开 PWA 尚待验收。安装器实际安装/升级、portable 封装器启动及实体设备手工体验未执行。见 [制作记录](production/HISTORY-REREAD-REVIEW.md)、[验证记录](production/HISTORY-REREAD-VALIDATION.json) 与 [发布说明](releases/v0.2.4.md)。
+[v0.2.4 可玩预览发行](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 已发布，标签精确指向上述 main 提交。安装版、便携版、PWA ZIP 和 SHA256SUMS.txt 均已匿名实际下载：大小及 SHA-256 与 GitHub digest 一致，三个载荷与校验表一致；公开 PWA ZIP 的 22 个文件与同次 CI PWA 逐项一致。
+
+[Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 使用同次已测 PWA，部署后验证 index.html、sw.js 实际字节一致，并通过桌面、手机、横屏的 v0.2.4 显示、精确 scope、隐藏恢复、断网刷新续读、图像及无溢出检查；三屏页面错误均为空。安装器实际安装/升级、portable 封装器启动及实体设备手工体验未执行。见 [发布凭据](production/PUBLISHED-v0.2.4.json)、[制作记录](production/HISTORY-REREAD-REVIEW.md) 与 [发布说明](releases/v0.2.4.md)。
 
 # v0.2.3 本地阶段记录 · 2026-10-15
 

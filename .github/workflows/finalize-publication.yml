@@ -1,0 +1,126 @@
+name: Finalize v0.2.4 publication record
+on:
+  push:
+    branches: [main]
+    paths: [docs/production/PUBLISHED-v0.2.4.json]
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: finalize-netlove-v0.2.4
+  cancel-in-progress: false
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify the published runtime, assets and public PWA
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, subprocess, urllib.request, zipfile
+          from pathlib import Path
+          repository = os.environ['GITHUB_REPOSITORY']
+          assert repository == 'AureliusWu/NetLove'
+          record = json.loads(Path('docs/production/PUBLISHED-v0.2.4.json').read_text())
+          commit = '58503cc4e9cbe6827008245b49cbe6ea6acc4c39'
+          assert record['version'] == '0.2.4' and record['runtimeCommit'] == commit
+          assert subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() == os.environ['GITHUB_SHA']
+          subprocess.run(['git', 'merge-base', '--is-ancestor', commit, 'HEAD'], check=True)
+          changed = subprocess.check_output(['git', 'diff', '--name-only', commit, 'HEAD'], text=True).splitlines()
+          assert changed and all(p.startswith('docs/') or p in ['README.md', '.github/workflows/finalize-publication.yml'] for p in changed), changed
+          def api(path):
+              request = urllib.request.Request('https://api.github.com/repos/' + repository + path, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+          tag = api('/git/ref/tags/v0.2.4')
+          assert tag['object']['type'] == 'commit' and tag['object']['sha'] == commit
+          release = api('/releases/tags/v0.2.4')
+          assert not release['draft'] and release['prerelease'] and release['target_commitish'] == commit
+          assert release['id'] == record['release']['id'] and release['html_url'] == record['release']['url']
+          assert record['release']['targetCommit'] == record['release']['tagCommit'] == commit
+          for key, name in [('build', 'Build NetLove'), ('publicPwa', 'Publish NetLove PWA')]:
+              assert record[key]['status'] == 'success'
+              run = api('/actions/runs/' + str(record[key]['run']))
+              assert run['name'] == name and run['status'] == 'completed' and run['conclusion'] == 'success' and run['head_sha'] == commit
+          names = {'NetLove-0.2.4-x64-Setup.exe', 'NetLove-0.2.4-x64-Portable.exe', 'NetLove-PWA-0.2.4.zip', 'SHA256SUMS.txt'}
+          expected = {a['name']: a for a in record['release']['assets']}
+          assert {a['name'] for a in release['assets']} == set(expected) == names
+          root = Path('.publication-finalization')
+          root.mkdir()
+          (root / 'before.json').write_text(json.dumps(release, indent=2) + '\n')
+          hashes = {}
+          for asset in release['assets']:
+              name = asset['name']
+              assert asset['id'] == expected[name]['id'] and asset['size'] == expected[name]['bytes'] and asset['digest'] == expected[name]['digest']
+              assert asset['browser_download_url'] == expected[name]['url']
+              request = urllib.request.Request(asset['browser_download_url'], headers={'User-Agent': 'NetLove-publication-finalization', 'Cache-Control': 'no-cache'})
+              digest, size = hashlib.sha256(), 0
+              with urllib.request.urlopen(request, timeout=180) as response, (root / name).open('wb') as output:
+                  assert response.status == 200
+                  while data := response.read(1024 * 1024):
+                      output.write(data)
+                      digest.update(data)
+                      size += len(data)
+              hashes[name] = digest.hexdigest()
+              assert size == asset['size'] and 'sha256:' + hashes[name] == asset['digest'], name
+          lines = (root / 'SHA256SUMS.txt').read_text().splitlines()
+          sums = dict((name, sha) for sha, name in (line.split('  ', 1) for line in lines))
+          assert len(lines) == 3 and set(sums) == names - {'SHA256SUMS.txt'}
+          assert all(hashes[name] == sha for name, sha in sums.items())
+          with zipfile.ZipFile(root / 'NetLove-PWA-0.2.4.zip') as archive:
+              assert archive.testzip() is None
+              files = {entry.filename: {'bytes': entry.file_size, 'sha256': hashlib.sha256(archive.read(entry)).hexdigest()} for entry in archive.infolist() if not entry.is_dir()}
+          assert len(files) == 22 and files == record['release']['publicDownloadReadback']['pwaFiles']
+          pwa = record['publicPwa']
+          assert pwa['target'] == 'https://aureliuswu.github.io/NetLove/' and pwa['entryAndWorkerMatchTestedBuild']
+          assert {r['screen'] for r in pwa['liveResults']} == {'desktop', 'mobile', 'landscape'}
+          assert all(r['version'] == '0.2.4' and r['offlineResume'] and not r['pageErrors'] for r in pwa['liveResults'])
+          assert {f['file'] for f in pwa['publishedFiles']} == {'index.html', 'sw.js'}
+          for file in pwa['publishedFiles']:
+              assert files[file['file']]['sha256'] == file['sha256']
+              request = urllib.request.Request(pwa['target'] + file['file'] + '?finalize=' + os.environ['GITHUB_SHA'], headers={'Cache-Control': 'no-cache'})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  assert response.status == 200 and hashlib.sha256(response.read()).hexdigest() == file['sha256']
+          evidence = {'version': '0.2.4', 'runtimeCommit': commit, 'documentationCommit': os.environ['GITHUB_SHA'], 'changedPaths': changed, 'tagVerified': True, 'successfulRuntimeBuildAndPagesVerified': True, 'allFourAssetsDownloadedAndDigestsMatched': True, 'allThreeChecksumRowsMatched': True, 'all22PwaFilesMatched': True, 'publicEntryAndWorkerMatched': True, 'assetSha256': hashes}
+          (root / 'verification.json').write_text(json.dumps(evidence, indent=2) + '\n')
+          print('PUBLICATION_VERIFIED', json.dumps(evidence))
+          PY
+      - name: Synchronize release notes without replacing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release edit v0.2.4 --repo "$GITHUB_REPOSITORY" --notes-file docs/releases/v0.2.4.md
+      - name: Read back the updated notes and unchanged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/v0.2.4" > .publication-finalization/after.json
+          gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v0.2.4" > .publication-finalization/tag-after.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('.publication-finalization')
+          before, after = [json.loads((root / (name + '.json')).read_text()) for name in ['before', 'after']]
+          for key in ['id', 'tag_name', 'target_commitish', 'name', 'draft', 'prerelease', 'created_at', 'published_at']:
+              assert before[key] == after[key], key
+          asset_fields = ['id', 'name', 'size', 'digest', 'browser_download_url', 'state']
+          def assets(release):
+              return sorted([{k: a[k] for k in asset_fields} for a in release['assets']], key=lambda a: a['name'])
+          assert assets(before) == assets(after)
+          assert after['body'] == Path('docs/releases/v0.2.4.md').read_text()
+          tag = json.loads((root / 'tag-after.json').read_text())
+          assert tag['object']['type'] == 'commit' and tag['object']['sha'] == before['target_commitish']
+          evidence = json.loads((root / 'verification.json').read_text())
+          evidence.update({'releaseNotesReadbackMatched': True, 'assetsUnchanged': True, 'tagUnchanged': True, 'draftAndPrereleaseUnchanged': True})
+          (root / 'finalization.json').write_text(json.dumps(evidence, indent=2) + '\n')
+          print('PUBLICATION_FINALIZED', json.dumps(evidence))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NetLove-Publication-Finalization
+          path: .publication-finalization/*.json

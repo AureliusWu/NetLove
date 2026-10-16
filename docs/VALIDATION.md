@@ -1,15 +1,17 @@
 # 验证记录
 
-## v0.2.4 · PR 验证已完成，正式发布待验
+## v0.2.4 · 发布验证已完成
 
-2026-10-15。代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 的 [Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589) 已成功。
+2026-10-16。正式 main `58503cc4e9cbe6827008245b49cbe6ea6acc4c39` 的 [Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748) 与 [Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 均成功。
 
 - Web：49 项逻辑、288 条路线重放、34 项完整浏览器检查通过；包含桌面和手机的安全重读、返回原打字位置、原持久化数据保护，以及未读完结局的返回边界。生产构建、10 项素材工具检查、15 份共用文件校验与素材导出通过。
 - Windows：源码和 `release/win-unpacked/网恋.exe` 分别输出 `DESKTOP_SMOKE_OK`，版本均为 0.2.4，`packaged` 分别为 false/true；原生全屏、进度保持和最终隐藏窗口检查通过。NSIS 安装包与 portable 构建成功。
-- PWA：本轮产物为 20 文件，缓存版本 `da53b51516fff2`。这是 PR 构建证据，正式 main 构建、v0.2.4 发行文件与公开 Pages 的部署后离线检查尚待执行。
-- 边界：尚未实际安装/升级 NSIS、启动 portable 封装器，亦未进行实体设备手工体验；构建成功和 win-unpacked EXE 启动不替代这些检查。
+- 发行：[v0.2.4](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 为已公开的可玩预览 prerelease，标签和 release target 均精确指向上述 main。两份 EXE、PWA ZIP、SHA256SUMS.txt 均实际匿名下载；大小、实际 SHA-256、GitHub digest 相同，三个载荷同时符合校验表。公开 PWA ZIP 的全部 22 文件与 Build 的 PWA artifact 12015757232 按字节数和 SHA-256 逐项相同，ZIP CRC 通过。
+- 线上：Pages 部署前两次核对 main，部署后真实 HTTP 回读 `index.html` SHA-256 `0903c324a2ccc8e73d67253221469e6ad487401e644e208786d9a763d1be5488`、`sw.js` SHA-256 `5743fb9f280d1887414c66d18ce4396fd91e7baf9176adaceaf42190089d3764`，均与同次 CI PWA 完全一致。20 项缓存版本为 `da53b51516fff2`。
+- 实际公开 PWA 的 Chromium 153.0.8010.12 三屏检查通过：桌面 1440×900、手机 412×915、横屏 844×390，均显示 v0.2.4，scope 精确 `/NetLove/`；隐藏恢复、手机旋转、真断网刷新续读、图像完整与全窗口画面通过，页面错误为空。
+- 边界：尚未实际安装/升级 NSIS、启动 portable 封装器，亦未进行实体设备手工体验；公开 EXE 回读只验证下载字节，不代替这些运行检查。
 
-逐轮证据与运行源码指纹见 [HISTORY-REREAD-VALIDATION.json](production/HISTORY-REREAD-VALIDATION.json)，状态边界见 [HISTORY-REREAD-REVIEW.md](production/HISTORY-REREAD-REVIEW.md)。下方历史版本证据保持原样。
+正式发布凭据和四项文件哈希见 [PUBLISHED-v0.2.4.json](production/PUBLISHED-v0.2.4.json)。此前代码 `0808b41619fae0e09d049b591fe69f183b351f54` 的 [PR Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589) 验证作为历史保留在 [HISTORY-REREAD-VALIDATION.json](production/HISTORY-REREAD-VALIDATION.json)。下方旧版本记录保持原样。
 
 ## v0.1.1 历史发布验证
 

@@ -14,7 +14,7 @@
 
 ## 回归和平台记录
 
-本次恢复后重新执行 49 项逻辑（含 288 条路线）、TypeScript/Vite 生产构建、10 项素材工具检查，全部通过；15 份共用文件与 16 项/54 文件素材索引验证通过。精确代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 的 [PR Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589) 已进一步通过 34 项完整浏览器与 Windows 源码/实际 EXE 检查；详见 [HISTORY-REREAD-VALIDATION.json](HISTORY-REREAD-VALIDATION.json)。正式 main 构建、版本发行和公开 PWA 尚待验收，不以旧版本的公开 PWA 证明本轮。
+本次恢复后重新执行 49 项逻辑（含 288 条路线）、TypeScript/Vite 生产构建、10 项素材工具检查，全部通过；15 份共用文件与 16 项/54 文件素材索引验证通过。精确代码提交 `0808b41619fae0e09d049b591fe69f183b351f54` 的 [PR Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589) 已进一步通过 34 项完整浏览器与 Windows 源码/实际 EXE 检查；详见 [HISTORY-REREAD-VALIDATION.json](HISTORY-REREAD-VALIDATION.json)。正式 main `58503cc4` 已完成 [Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748)、v0.2.4 发行和 [Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 验收；四项公开资产实际下载核对大小、SHA-256 和校验表，PWA ZIP 的 22 文件与同次 CI 相同。公开三屏断网刷新续读及入口/Worker 字节核对通过，详见 [发布凭据](PUBLISHED-v0.2.4.json)。
 
 新增浏览器用例覆盖真实表情、关键词返回焦点、可见控件 Tab 环、换选至另一结局且全部原持久化键逐字节保持、普通导出原路线、存入/读取/导入的取消与确认、短横屏返回按钮、原打字计数恢复，以及离线刷新后丢弃临时重读并恢复原存档。
 
@@ -26,4 +26,4 @@
 
 guard 检查点 `3711fd02d5002c55dde37043bdb9d507fce3a2a4` 的 34 项全量运行在环境重置前观测到 9 项通过，其中包含桌面新增边界回归；未观测到整轮结束和手机新增边界结果。本次恢复后，针对同一关键边界重新执行桌面和手机两项真实浏览器检查，均通过（Chromium 153.0.8010.0，整轮 3.6 秒）；原结局仍逐字时返回不会增加任何持久化键，真正读完后才正确归档。该恢复阶段尚未完成 34 项全量；随后已在精确代码提交的 PR CI 中完整通过全部 34 项，不再借用此前 32 项证明最终 guard 版本。
 
-实现已推送至 PR #1 并通过 CI。Windows 两次 `DESKTOP_SMOKE_OK` 均为 v0.2.4，`packaged` 分别为 false/true；`nativeFullscreen`、`fullscreenProgress`、`hiddenWindow` 均为 true，`smokeShowEvents` 均为 0。NSIS 与 portable 构建成功；安装器实际安装/升级和 portable 封装器启动未执行。正式 main 构建、版本发行及 Pages 部署后检查仍待验收；旧的本地断点仅作历史记录。
+实现已推送至 PR #1 并通过 CI。Windows 两次 `DESKTOP_SMOKE_OK` 均为 v0.2.4，`packaged` 分别为 false/true；`nativeFullscreen`、`fullscreenProgress`、`hiddenWindow` 均为 true，`smokeShowEvents` 均为 0。NSIS 与 portable 构建成功；安装器实际安装/升级和 portable 封装器启动未执行。正式 main 构建、版本发行及 Pages 部署后三屏检查均已完成；旧的本地和 PR 断点作为历史记录保留，当前平台结果以 [发布凭据](PUBLISHED-v0.2.4.json) 为准。

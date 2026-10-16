@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "date": "2026-10-16",
+  "project": "NetLove",
+  "version": "0.2.4",
+  "runtimeCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+  "build": {
+    "run": 38827582748,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38827582748",
+    "status": "success",
+    "webJob": 116738530158,
+    "desktopJob": 116739438332,
+    "releaseJob": 116740465788,
+    "unitPassed": 49,
+    "routes": 288,
+    "browserPassed": 34,
+    "browserFailed": 0,
+    "browserVersion": "153.0.8010.12",
+    "pwaPrecacheFiles": 20,
+    "pwaCacheVersion": "da53b51516fff2",
+    "sourceAndActualPackagedExeSmoke": {
+      "passed": true,
+      "version": "0.2.4",
+      "packagedFlags": [
+        false,
+        true
+      ],
+      "nativeFullscreen": true,
+      "fullscreenProgress": true,
+      "hiddenWindow": true,
+      "smokeShowEvents": 0
+    },
+    "nsisBuild": "passed",
+    "portableBuild": "passed"
+  },
+  "publicPwa": {
+    "run": 38828223622,
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/38828223622",
+    "job": 116740608132,
+    "target": "https://aureliuswu.github.io/NetLove/",
+    "status": "success",
+    "sourceArtifact": 12015757232,
+    "sourceArtifactBytes": 5392141,
+    "sourceArtifactSha256": "382ce1fe31d9ef0ba2bf1766430ae856a7f8f615508167fa0273eb2cf1ae7886",
+    "entryAndWorkerMatchTestedBuild": true,
+    "publishedFiles": [
+      {
+        "file": "index.html",
+        "sha256": "0903c324a2ccc8e73d67253221469e6ad487401e644e208786d9a763d1be5488"
+      },
+      {
+        "file": "sw.js",
+        "sha256": "5743fb9f280d1887414c66d18ce4396fd91e7baf9176adaceaf42190089d3764"
+      }
+    ],
+    "liveResults": [
+      {
+        "screen": "desktop",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.4",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "mobile",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.4",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": true,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "landscape",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.2.4",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      }
+    ],
+    "livePreviewsArtifact": 12015738137
+  },
+  "release": {
+    "id": 414394177,
+    "tag": "v0.2.4",
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4",
+    "draft": false,
+    "prerelease": true,
+    "publishedAt": "2026-10-16T00:13:07Z",
+    "targetCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+    "tagCommit": "58503cc4e9cbe6827008245b49cbe6ea6acc4c39",
+    "assets": [
+      {
+        "id": 645586877,
+        "name": "NetLove-0.2.4-x64-Portable.exe",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-0.2.4-x64-Portable.exe",
+        "bytes": 116999660,
+        "digest": "sha256:03ae638078cef17bc65536bd69bb8bd2f7be8a215a995c0c8c1b6a47532b5627"
+      },
+      {
+        "id": 645586873,
+        "name": "NetLove-0.2.4-x64-Setup.exe",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-0.2.4-x64-Setup.exe",
+        "bytes": 117219102,
+        "digest": "sha256:90fc34526de96be183faaef958743ef0abc58a720b4b68f189af3a12229a7e1a"
+      },
+      {
+        "id": 645586874,
+        "name": "NetLove-PWA-0.2.4.zip",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-PWA-0.2.4.zip",
+        "bytes": 5391955,
+        "digest": "sha256:d65e42231e9b09128e39bfff12281d4b50669e26ae10b2d619a097f0aa029be4"
+      },
+      {
+        "id": 645586875,
+        "name": "SHA256SUMS.txt",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/SHA256SUMS.txt",
+        "bytes": 279,
+        "digest": "sha256:76f098d12f03a1cbdac5397a4260e09cd202fe82a1b0a75a1b2ff63f0e01b06a"
+      }
+    ],
+    "readback": "Anonymous actual public asset downloads; byte counts and SHA-256 match GitHub metadata; three payloads match SHA256SUMS; all 22 public PWA ZIP files match the tested main CI PWA by bytes and SHA-256",
+    "publicDownloadReadback": {
+      "project": "NetLove",
+      "version": "0.2.4",
+      "date": "2026-10-16T00:14:49.525126+00:00",
+      "method": "Anonymous HTTPS GET of published browser_download_url; streams saved without execution; byte counts, SHA-256 and public SHA256SUMS compared",
+      "metadataReleaseId": 414394177,
+      "assets": [
+        {
+          "name": "NetLove-0.2.4-x64-Portable.exe",
+          "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-0.2.4-x64-Portable.exe",
+          "bytes": 116999660,
+          "sha256": "03ae638078cef17bc65536bd69bb8bd2f7be8a215a995c0c8c1b6a47532b5627",
+          "githubDigest": "sha256:03ae638078cef17bc65536bd69bb8bd2f7be8a215a995c0c8c1b6a47532b5627",
+          "digestMatch": true,
+          "finalHost": "release-assets.githubusercontent.com",
+          "httpStatus": 200,
+          "checksumFileMatch": true
+        },
+        {
+          "name": "NetLove-0.2.4-x64-Setup.exe",
+          "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-0.2.4-x64-Setup.exe",
+          "bytes": 117219102,
+          "sha256": "90fc34526de96be183faaef958743ef0abc58a720b4b68f189af3a12229a7e1a",
+          "githubDigest": "sha256:90fc34526de96be183faaef958743ef0abc58a720b4b68f189af3a12229a7e1a",
+          "digestMatch": true,
+          "finalHost": "release-assets.githubusercontent.com",
+          "httpStatus": 200,
+          "checksumFileMatch": true
+        },
+        {
+          "name": "NetLove-PWA-0.2.4.zip",
+          "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/NetLove-PWA-0.2.4.zip",
+          "bytes": 5391955,
+          "sha256": "d65e42231e9b09128e39bfff12281d4b50669e26ae10b2d619a097f0aa029be4",
+          "githubDigest": "sha256:d65e42231e9b09128e39bfff12281d4b50669e26ae10b2d619a097f0aa029be4",
+          "digestMatch": true,
+          "finalHost": "release-assets.githubusercontent.com",
+          "httpStatus": 200,
+          "checksumFileMatch": true
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.4/SHA256SUMS.txt",
+          "bytes": 279,
+          "sha256": "76f098d12f03a1cbdac5397a4260e09cd202fe82a1b0a75a1b2ff63f0e01b06a",
+          "githubDigest": "sha256:76f098d12f03a1cbdac5397a4260e09cd202fe82a1b0a75a1b2ff63f0e01b06a",
+          "digestMatch": true,
+          "finalHost": "release-assets.githubusercontent.com",
+          "httpStatus": 200
+        }
+      ],
+      "pwaZipCrc": "passed",
+      "pwaFiles": {
+        "icons/maskable-512.png": {
+          "bytes": 3092,
+          "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2"
+        },
+        "icons/icon.ico": {
+          "bytes": 13394,
+          "sha256": "30b334ee3ebafce2ebd37b26126aebb2481ef762c2fb2003dc4cc89ddfa4537e"
+        },
+        "icons/icon.svg": {
+          "bytes": 395,
+          "sha256": "044316806fc16bda90dd265ed18633fb4fd1d54e66a6374622565ebf1bb45c7e"
+        },
+        "icons/icon-512.png": {
+          "bytes": 3092,
+          "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2"
+        },
+        "icons/icon-192.png": {
+          "bytes": 4835,
+          "sha256": "2888467df172dfdea19f20d65d7061ca548257bfe8fa79ec253ce17fca8c9d59"
+        },
+        "art/balcony.webp": {
+          "bytes": 336686,
+          "sha256": "04dce5cbcf590d7b0b036d2f402f35eb86d2f1518e4cdd008ea5c3f4526760ac"
+        },
+        "art/xumi.webp": {
+          "bytes": 873976,
+          "sha256": "e21e2e044722a37f84fd3802c334367a4bb7f585a3d23da630fe0ddd8c7f4640"
+        },
+        "art/xumi-expressions.webp": {
+          "bytes": 627666,
+          "sha256": "f4b25f2fd15a99e17e7da487e4a483355e62a79375ddb05308a98bdb57632403"
+        },
+        "art/gate.webp": {
+          "bytes": 456476,
+          "sha256": "5a64798bc0d0f24e840e2cccd7d7bac172c60910d2697527d8a0c5d8b3b7c0a7"
+        },
+        "art/tinghe-expressions.webp": {
+          "bytes": 750286,
+          "sha256": "7f892127c5e39290a7c4793b0da280a1f27f98692842a91e2a4109d5c15279d4"
+        },
+        "art/riverbank.webp": {
+          "bytes": 461570,
+          "sha256": "df3895afa353c7c062890b48b75644f19234eb7ad4592584c0dc29001f87fd1d"
+        },
+        "art/bedroom.webp": {
+          "bytes": 273962,
+          "sha256": "64535cf28fa0d0eb5cc9ae902cbb54a1826144d5992c40d87a7346d8e846e75b"
+        },
+        "art/tinghe.webp": {
+          "bytes": 939400,
+          "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098"
+        },
+        "art/printshop.webp": {
+          "bytes": 330828,
+          "sha256": "eabe81d164f5dede2c97495c90888f97f44f4b5d635a903cfd9a759b0dcbd85b"
+        },
+        "licenses/MIT.txt": {
+          "bytes": 1067,
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        },
+        "licenses/OFL-NotoSerifSC.txt": {
+          "bytes": 4350,
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+        },
+        "manifest.webmanifest": {
+          "bytes": 689,
+          "sha256": "8fc0c9c66b7a018bf2211f4fa89cc9114c911d9f36618ec3c178ef651e669537"
+        },
+        "assets/index-BJ5KZIQG.css": {
+          "bytes": 45865,
+          "sha256": "3105d907138a787ab6b825369344e1b65c90e75be426ea2694be58bc3b7f505d"
+        },
+        "assets/story-serif-vEdQO9qP.woff2": {
+          "bytes": 188796,
+          "sha256": "245675bdb4e39cf81e63fe1fd6be503d5e6f2d81fcad96f6f46481833a3b9e72"
+        },
+        "assets/index-JFqWw92f.js": {
+          "bytes": 355831,
+          "sha256": "561263270517d23c099f67fcae5e4c07b4d5dac66aebaaba7319838cc3cc445c"
+        },
+        "index.html": {
+          "bytes": 1144,
+          "sha256": "0903c324a2ccc8e73d67253221469e6ad487401e644e208786d9a763d1be5488"
+        },
+        "sw.js": {
+          "bytes": 2057,
+          "sha256": "5743fb9f280d1887414c66d18ce4396fd91e7baf9176adaceaf42190089d3764"
+        }
+      },
+      "boundaries": [
+        "Public EXE bytes downloaded and hashed, not executed in this Linux environment",
+        "No installer installation/upgrade or portable-wrapper execution is claimed"
+      ],
+      "pwaMatchesTestedMainArtifact": {
+        "artifactId": 12015757232,
+        "artifactBytes": 5392141,
+        "artifactSha256": "382ce1fe31d9ef0ba2bf1766430ae856a7f8f615508167fa0273eb2cf1ae7886",
+        "files": 22,
+        "fileBytesAndSha256AllMatch": true
+      }
+    }
+  },
+  "boundaries": [
+    "Release remains an explicitly published playable-preview prerelease.",
+    "NSIS installer installation and upgrade, portable-wrapper launch, and physical-device manual checks were not executed.",
+    "Actual win-unpacked EXE startup is tested on GitHub Windows; public EXE downloads were hashed without execution in the Linux workspace."
+  ]
+}

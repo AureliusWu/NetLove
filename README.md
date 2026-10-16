@@ -1,4 +1,4 @@
-> 2026-10-15：v0.2.4 已完成 PR 验证。已读检索、完整阅读备份、原场景回看与安全重读通过 [Build 38743072589](https://github.com/AureliusWu/NetLove/actions/runs/38743072589)：49 项逻辑、34 项完整浏览器，以及 Windows 源码和实际 EXE 检查通过。正式 main 构建、版本发行与公开 PWA 尚待验收；安装器安装/升级和 portable 封装器启动未测。见 [本轮记录](docs/production/HISTORY-REREAD-REVIEW.md)。
+> 2026-10-16：v0.2.4 已完成发布验证。[Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748) 通过 49 项逻辑、34 项完整浏览器和 Windows 源码/实际 EXE 检查；[v0.2.4 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 四项公开文件已实际下载核验，[Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 三屏断网续读通过。见 [发布凭据](docs/production/PUBLISHED-v0.2.4.json)。安装器安装/升级和 portable 封装器启动未测。
 
 > 2026-10-13：v0.2.0 剧情与六表情精修已发布；Windows 成品、浏览器及公开 PWA 通过本次 CI。见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [发布凭据](docs/production/PUBLISHED-v0.2.0.json)。
 
@@ -14,7 +14,7 @@
 
 ![v0.2.0 角色与表情实际界面](docs/previews/v0.2.0/expressions-desktop.png)
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [当前已发布 v0.2.0 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.0) · [v0.2.0 电脑/手机预览](docs/previews/v0.2.0/README.md)。正文精修与表情重建保留原有路线和存档。
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [当前已发布 v0.2.4 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) · [v0.2.0 电脑/手机预览](docs/previews/v0.2.0/README.md)。正文精修与表情重建保留原有路线和存档。
 
 2026-10-11 双端工程交付完成：测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96` 的 [Build 38110158252](https://github.com/AureliusWu/NetLove/actions/runs/38110158252) 与 [Pages 38110407401](https://github.com/AureliusWu/NetLove/actions/runs/38110407401) 均通过，v0.1.1 预发布标签精确指向该提交。CI 和独立公网浏览器分别通过电脑、手机、横屏的真实断网刷新与续读；入口和 Service Worker 哈希与该 CI 的 PWA 产物一致。两份公开 EXE 与 PWA ZIP 已实际下载并核对发布校验表。发布资产的真实大小、SHA-256 和验收边界见 [PUBLISHED](docs/production/PUBLISHED-v0.1.1.json)；本机构建另记 [LOCAL-VALIDATION](docs/production/LOCAL-VALIDATION-v0.1.1.json)，最新状态见 [STATUS](docs/STATUS.md) 与 [VALIDATION](docs/VALIDATION.md)。v0.1.0 历史凭据继续保留。
 

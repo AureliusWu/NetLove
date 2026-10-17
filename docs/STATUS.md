@@ -1,5 +1,7 @@
 # v0.2.5 已发布并完成验证 · 2026-10-17
 
+下一版计划为 v0.3.0：关键语音、两分支事件 CG 与安装/便携封装补验；当前仍为 v0.2.5 可玩预览。四站 PWA 实际清单与图标核验通过，详见 [四仓更新规划](production/FOUR-GAMES-NEXT-20261017.md)。
+
 更新与推送最终核验已完成：四份下载、PWA ZIP 与线上入口/worker 一致，主线无待发布玩家程序差异；v0.2.5 保持可玩预览。见 [闭环回执](production/RELEASE-CLOSURE-20261017.md)。
 
 后台打字暂停、同段显式读档重新打字、标题页同路线继续和载入首帧结局边界已更新。运行提交 `8e4236e` 的 [Build 39004333641](https://github.com/AureliusWu/NetLove/actions/runs/39004333641) 全部成功：49 项逻辑（288 路线）、44 项完整浏览器、素材与生产构建通过；Windows 源码和实际 win-unpacked EXE 均完成 v0.2.5 启动、存档与全屏检查，NSIS/portable 构建成功。

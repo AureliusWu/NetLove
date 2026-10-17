@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-17",
+  "project": "NetLove",
+  "version": "0.2.5",
+  "status": "release_update_closed",
+  "auditedMain": "4974d8912a88ffa30d50a5e6614e8bd668276dc3",
+  "runtimeTag": "v0.2.5",
+  "runtimeCommit": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+  "release": {
+    "id": 415592376,
+    "tag": "v0.2.5",
+    "prerelease": true,
+    "draft": false,
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.2.5",
+    "publishedAt": "2026-10-17T04:59:53Z"
+  },
+  "openPullRequests": 0,
+  "unpublishedPlayerChanges": false,
+  "postReleaseChangedPaths": [
+    "README.md",
+    "docs/STATUS.md",
+    "docs/VALIDATION.md",
+    "docs/production/PUBLISHED-v0.2.5.json",
+    "docs/production/READING-LIFECYCLE-20261017.json",
+    "docs/production/READING-LIFECYCLE-20261017.md"
+  ],
+  "assets": [
+    {
+      "id": 649590694,
+      "name": "NetLove-0.2.5-x64-Portable.exe",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.5/NetLove-0.2.5-x64-Portable.exe",
+      "bytes": 116999859,
+      "sha256": "cb70e892374055daa81b1270bbe536502ec85d2f110b8b76bbda4b4e3b8c7bf3",
+      "verified": true,
+      "method": "cached bytes rehashed against freshly read GitHub digest"
+    },
+    {
+      "id": 649590697,
+      "name": "NetLove-0.2.5-x64-Setup.exe",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.5/NetLove-0.2.5-x64-Setup.exe",
+      "bytes": 117219256,
+      "sha256": "6afaaea917f9a2f4cacd4b0d6ab6fd9838116fa8c8d11e5660ce1988f0bd146b",
+      "verified": true,
+      "method": "cached bytes rehashed against freshly read GitHub digest"
+    },
+    {
+      "id": 649590693,
+      "name": "NetLove-PWA-0.2.5.zip",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.5/NetLove-PWA-0.2.5.zip",
+      "bytes": 5392054,
+      "sha256": "85f31836fdd56c10f63e518660784e22936c84a716f17f3fd6a184f27008d2b8",
+      "verified": true,
+      "method": "cached bytes rehashed against freshly read GitHub digest"
+    },
+    {
+      "id": 649590698,
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.2.5/SHA256SUMS.txt",
+      "bytes": 279,
+      "sha256": "4b2161a1c7c000158a4de61b53d5ca446f76bdb0eabaec79cba869673a45b201",
+      "verified": true,
+      "method": "cached bytes rehashed against freshly read GitHub digest"
+    }
+  ],
+  "checksumFiles": {
+    "SHA256SUMS.txt": [
+      {
+        "name": "NetLove-0.2.5-x64-Portable.exe",
+        "publicName": "NetLove-0.2.5-x64-Portable.exe",
+        "sha256": "cb70e892374055daa81b1270bbe536502ec85d2f110b8b76bbda4b4e3b8c7bf3"
+      },
+      {
+        "name": "NetLove-0.2.5-x64-Setup.exe",
+        "publicName": "NetLove-0.2.5-x64-Setup.exe",
+        "sha256": "6afaaea917f9a2f4cacd4b0d6ab6fd9838116fa8c8d11e5660ce1988f0bd146b"
+      },
+      {
+        "name": "NetLove-PWA-0.2.5.zip",
+        "publicName": "NetLove-PWA-0.2.5.zip",
+        "sha256": "85f31836fdd56c10f63e518660784e22936c84a716f17f3fd6a184f27008d2b8"
+      }
+    ]
+  },
+  "zipChecks": [
+    {
+      "name": "NetLove-PWA-0.2.5.zip",
+      "crc": "passed",
+      "entries": 26,
+      "files": 22
+    }
+  ],
+  "publicPwa": {
+    "expectedBytesSource": "published Web/PWA ZIP",
+    "entryAndWorker": [
+      {
+        "url": "https://aureliuswu.github.io/NetLove/index.html",
+        "httpStatus": 200,
+        "bytes": 1144,
+        "sha256": "4c2eefc3652d48919c0bd62ffc988cd0a3a0d81fbb46c58b62bab978d5bf2ed5",
+        "matchesVerifiedBuild": true
+      },
+      {
+        "url": "https://aureliuswu.github.io/NetLove/sw.js",
+        "httpStatus": 200,
+        "bytes": 2057,
+        "sha256": "d66d5093abe8d6d22898c4ab1731df7e893cb4793df370150c975bb412b53557",
+        "matchesVerifiedBuild": true
+      }
+    ]
+  },
+  "observedWorkflowRuns": [
+    {
+      "id": 39004628048,
+      "name": "Publish NetLove PWA",
+      "sha": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39004333641,
+      "name": "Build NetLove",
+      "sha": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38860488204,
+      "name": "Publish NetLove PWA",
+      "sha": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38859999261,
+      "name": "Build NetLove",
+      "sha": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38859999230,
+      "name": "Finalize v0.2.4 publication record",
+      "sha": "b517bd106f22cdf3b9f94d8412cf85392c1844ff",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "scope": "Source push, release identity, published downloads and deployed PWA consistency. Existing native/offline interaction evidence is retained in the version-specific publication receipt; this audit does not relabel physical-device or human acceptance as completed.",
+  "existingPlatformReceipt": "PUBLISHED-v0.2.5.json",
+  "requiredSuccessfulWorkflows": [
+    {
+      "id": 39004333641,
+      "name": "Build NetLove",
+      "sha": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39004628048,
+      "name": "Publish NetLove PWA",
+      "sha": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "receiptUpdate": {
+    "type": "documentation_only",
+    "preservesRuntimeTagAndReleaseAssets": true,
+    "auditedMainIsTheParentOfThisReceipt": true
+  }
+}

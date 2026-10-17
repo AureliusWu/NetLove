@@ -1,5 +1,7 @@
 # v0.2.5 已发布并完成验证 · 2026-10-17
 
+更新与推送最终核验已完成：四份下载、PWA ZIP 与线上入口/worker 一致，主线无待发布玩家程序差异；v0.2.5 保持可玩预览。见 [闭环回执](production/RELEASE-CLOSURE-20261017.md)。
+
 后台打字暂停、同段显式读档重新打字、标题页同路线继续和载入首帧结局边界已更新。运行提交 `8e4236e` 的 [Build 39004333641](https://github.com/AureliusWu/NetLove/actions/runs/39004333641) 全部成功：49 项逻辑（288 路线）、44 项完整浏览器、素材与生产构建通过；Windows 源码和实际 win-unpacked EXE 均完成 v0.2.5 启动、存档与全屏检查，NSIS/portable 构建成功。
 
 [v0.2.5 可玩预览发行](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.5) 标签精确指向该运行提交；四个公开文件已实际下载并核对大小、服务端摘要与三行校验表，PWA ZIP 的 22 文件与已验证构建逐项一致。[Pages 39004628048](https://github.com/AureliusWu/NetLove/actions/runs/39004628048) 通过桌面、手机、横屏的真实断网续读及无页面错误检查；独立回读线上 index.html / sw.js 与公开包逐字节一致。安装器安装/升级、portable 封装器启动及实体设备体验保持独立验收范围。详见 [发布回执](production/PUBLISHED-v0.2.5.json) 与 [实现记录](production/READING-LIFECYCLE-20261017.md)。

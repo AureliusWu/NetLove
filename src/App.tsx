@@ -47,6 +47,7 @@ export function App() {
   const [auto, setAuto] = useState(false);
   const [fast, setFast] = useState(false);
   const [uiHidden, setUiHidden] = useState(false);
+  const [pageHidden, setPageHidden] = useState(() => document.hidden);
   const [toast, setToast] = useState('');
   const pwaState = useSyncExternalStore(pwa.subscribe, pwa.getState);
   const [confirm, setConfirm] = useState<{ text: string; action: () => void } | null>(null);
@@ -98,6 +99,7 @@ export function App() {
   }, [liveGame, screen, store]);
   useEffect(() => {
     const visibility = () => {
+      setPageHidden(document.hidden);
       if (document.hidden) { setAuto(false); setFast(false); music.pause(); }
     };
     document.addEventListener('visibilitychange', visibility);
@@ -111,28 +113,29 @@ export function App() {
     resumeVisible.current = null;
   }, [game.sceneId, game.line, line.text, readingSession]);
   useEffect(() => {
-    if (screen !== 'game' || panel || confirm || uiHidden) return;
+    if (screen !== 'game' || panel || confirm || uiHidden || pageHidden || document.hidden) return;
     const length = Array.from(line.text).length;
     if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setVisible(length); return; }
     const id = setInterval(() => setVisible(count => {
+      if (document.hidden) return count;
       if (count >= length) { clearInterval(id); return length; }
       return count + 1;
     }), Math.round(1000 / settings.textSpeed));
     return () => clearInterval(id);
-  }, [game.sceneId, game.line, line.text, settings.textSpeed, settings.reducedMotion, fast, screen, panel, confirm, uiHidden]);
+  }, [game.sceneId, game.line, line.text, readingSession, settings.textSpeed, settings.reducedMotion, fast, screen, panel, confirm, uiHidden, pageHidden]);
 
   const step = useCallback(() => {
-    if (screen !== 'game' || panel || confirm) return;
+    if (document.hidden || screen !== 'game' || panel || confirm) return;
     if (uiHidden) { setUiHidden(false); return; }
     if (finished) return;
     if (!complete) { setVisible(characters.length); return; }
     if (!choicesVisible) { music.effect('page'); setGame(state => advance(state)); }
   }, [screen, panel, confirm, uiHidden, finished, complete, characters.length, choicesVisible]);
   useEffect(() => {
-    if ((!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
+    if (pageHidden || document.hidden || (!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
     const id = setTimeout(step, fast ? 70 : settings.autoDelay + Math.min(line.text.length * 45, 2500));
     return () => clearTimeout(id);
-  }, [auto, fast, uiHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
+  }, [auto, fast, uiHidden, pageHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
   useEffect(() => {
     if (choicesVisible || finished) { setAuto(false); setFast(false); }
   }, [choicesVisible, finished]);
@@ -174,12 +177,15 @@ export function App() {
     if (saveList.auto) setConfirm({ text: '开始新的阅读会更新自动存档。手动存档会保留。', action: run });
     else run();
   }
-  function restoreSave(save: Save) {
-    setLiveGame(save.state); setReread(null); if (rereading) setReadingSession(value => value + 1); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
+  function restoreSave(save: Save, resumeCurrentTyping = false) {
+    const sameReading = resumeCurrentTyping && !rereading && save.state.sceneId === liveGame.sceneId && save.state.line === liveGame.line
+      && JSON.stringify(save.state.decisions) === JSON.stringify(liveGame.decisions);
+    if (!sameReading) { resumeVisible.current = 0; setReadingSession(value => value + 1); }
+    setLiveGame(save.state); setReread(null); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
   }
-  function load(save: Save) {
+  function load(save: Save, resumeCurrentTyping = false) {
     if (rereading) setConfirm({ text: '读取存档会结束这次重读，并切换原进度。要继续吗？', action: () => restoreSave(save) });
-    else restoreSave(save);
+    else restoreSave(save, resumeCurrentTyping);
   }
   function saveCurrent(slot: Slot, existing: Save | null) {
     const run = () => { if (store(slot, currentRef.current)) notify('这一刻已经保存。'); };
@@ -249,7 +255,7 @@ export function App() {
         <h1>“网”恋<span className="title-dot">。</span></h1>
         <div className="english-title">NETLOVE</div>
         <p className="title-description">那年，城市按下暂停。<br />你却出现在我的消息里。</p>
-        <div className="title-menu"><button className="primary start-button" onClick={begin}><span>开始阅读</span><Icon name="arrow" size={22} /></button><button className="continue-button" disabled={!saveList.auto} onClick={() => saveList.auto && load(saveList.auto)}><Icon name="history" size={18} /><span>{saveList.auto ? '继续上次的故事' : '故事，从这里开始'}</span></button></div>
+        <div className="title-menu"><button className="primary start-button" onClick={begin}><span>开始阅读</span><Icon name="arrow" size={22} /></button><button className="continue-button" disabled={!saveList.auto} onClick={() => saveList.auto && load(saveList.auto, true)}><Icon name="history" size={18} /><span>{saveList.auto ? '继续上次的故事' : '故事，从这里开始'}</span></button></div>
         <nav className="title-nav" aria-label="游戏菜单">{navigation}</nav>
         <div className="chapter-note"><span className="note-number">05</span><div><span>五章故事 / 四种结局</span><p>从一个好友申请，到一句当面说出的名字。</p></div></div>
       </section>

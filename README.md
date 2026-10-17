@@ -1,3 +1,5 @@
+> 2026-10-17：v0.2.5 候选已修复后台打字与同段读档，保留标题页继续原字数。49 项逻辑、44 项完整浏览器与生产构建通过；本版 Windows / 公开 PWA 待云端执行。见 [本轮记录](docs/production/READING-LIFECYCLE-20261017.md)。
+
 > 2026-10-16：v0.2.4 已完成发布验证。[Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748) 通过 49 项逻辑、34 项完整浏览器和 Windows 源码/实际 EXE 检查；[v0.2.4 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 四项公开文件已实际下载核验，[Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 三屏断网续读通过。见 [发布凭据](docs/production/PUBLISHED-v0.2.4.json)。安装器安装/升级和 portable 封装器启动未测。
 
 > 2026-10-13：v0.2.0 剧情与六表情精修已发布；Windows 成品、浏览器及公开 PWA 通过本次 CI。见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [发布凭据](docs/production/PUBLISHED-v0.2.0.json)。
@@ -6,7 +8,7 @@
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-2020 年架空城市“梧城”的原创视觉小说。五章完整可玩预览，当前制作版本 v0.2.4；PWA 与 Windows 共用同一份故事与资源。
+2020 年架空城市“梧城”的原创视觉小说。五章完整可玩预览，当前制作版本 v0.2.5；PWA 与 Windows 共用同一份故事与资源。
 
 你扮演二十三岁的周既明，在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、第一次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
 

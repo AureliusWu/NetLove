@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "project": "NetLove",
+  "version": "0.2.5",
+  "baseCommit": "2c4cca12f886efa15483d9496f44ae8a96008396",
+  "baseline": {
+    "version": "0.2.4",
+    "expectedFailuresReproduced": 2,
+    "background": {
+      "speedCharactersPerSecond": 4,
+      "before": "一月",
+      "hiddenVirtualMilliseconds": 60000,
+      "observed": "whole paragraph visible"
+    },
+    "sameParagraphLoad": {
+      "beforeVisibleCount": 5,
+      "expectedAfterLoad": 0,
+      "observedAfterLoad": 5
+    }
+  },
+  "local": {
+    "logicPassed": 49,
+    "completeRoutes": 288,
+    "materialToolTestsPassed": 10,
+    "sharedFilesVerified": 15,
+    "materialFilesVerified": 54,
+    "typeScript": "passed",
+    "productionBuild": "passed",
+    "browser": {
+      "version": "153.0.8010.0",
+      "workers": 2,
+      "passed": 44,
+      "failed": 0,
+      "skipped": 0,
+      "complete": true,
+      "newCases": 10,
+      "durationSecondsApprox": 114
+    }
+  },
+  "sourceSha256": {
+    "src/App.tsx": "79545b2faa015322f7caf8a9b5ff70a4eb24c035944bc6d38da4fcae97159499",
+    "tests/e2e/background-reading.spec.ts": "8fbd6e57ca9aea983d300ea6c0679e5e4c2f19be4aea85d1f260497c40d08de2",
+    "package.json": "f98e89018577a9b274e7148402281014bac81eb3f254f74b3bdfbf3ead9c5f46",
+    "package-lock.json": "be1cde120464da80671006df8c414a95e1a583a5c3be706e22e8163e9e4f106c"
+  },
+  "platforms": {
+    "windows": "pending current-version CI",
+    "publicPwa": "pending current-version deployment",
+    "publishedDownload": "pending current-version release"
+  },
+  "scope": "Production UI and real Chromium with injected lifecycle signals; physical device sleep and installer installation/upgrade are separate acceptance."
+}

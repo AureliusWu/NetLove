@@ -44,9 +44,31 @@
     "package-lock.json": "be1cde120464da80671006df8c414a95e1a583a5c3be706e22e8163e9e4f106c"
   },
   "platforms": {
-    "windows": "pending current-version CI",
-    "publicPwa": "pending current-version deployment",
-    "publishedDownload": "pending current-version release"
+    "windows": {
+      "status": "passed",
+      "buildRun": 39004333641,
+      "sourceAndPackagedExe": true,
+      "installerInstallAndUpgradeExecuted": false
+    },
+    "publicPwa": {
+      "status": "passed",
+      "pagesRun": 39004628048,
+      "viewports": [
+        "desktop",
+        "mobile",
+        "landscape"
+      ],
+      "offlineResume": true
+    },
+    "publishedDownload": {
+      "status": "verified",
+      "tag": "v0.2.5",
+      "releaseId": 415592376,
+      "actualDownloadsVerified": 4,
+      "checksumRows": 3,
+      "pwaFilesVerified": 22
+    }
   },
-  "scope": "Production UI and real Chromium with injected lifecycle signals; physical device sleep and installer installation/upgrade are separate acceptance."
+  "scope": "Production UI and real Chromium with injected lifecycle signals; physical device sleep and installer installation/upgrade are separate acceptance.",
+  "publicationReceipt": "PUBLISHED-v0.2.5.json"
 }

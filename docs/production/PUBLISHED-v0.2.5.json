@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-17",
+  "project": "NetLove",
+  "version": "0.2.5",
+  "runtimeCommit": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+  "tag": "refs/tags/v0.2.5",
+  "tagCommit": "8e4236ec4d3ee854fe4f7948734a554e5ee842eb",
+  "release": {
+    "id": 415592376,
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.2.5",
+    "publishedAt": "2026-10-17T04:59:53Z",
+    "draft": false,
+    "prerelease": true
+  },
+  "ci": {
+    "build": {
+      "id": 39004333641,
+      "status": "success",
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/39004333641",
+      "logicPassed": 49,
+      "browserPassed": 44
+    },
+    "windows": {
+      "jobId": 117314080053,
+      "checks": [
+        {
+          "story": true,
+          "autosave": true,
+          "fullWindow": true,
+          "pictureMode": true,
+          "sandbox": true,
+          "tinghe": true,
+          "xumi": true,
+          "ending": true,
+          "archive": true,
+          "nativeFullscreen": true,
+          "fullscreenProgress": true,
+          "hiddenWindow": true,
+          "smokeShowEvents": 0,
+          "packaged": false,
+          "version": "0.2.5"
+        },
+        {
+          "story": true,
+          "autosave": true,
+          "fullWindow": true,
+          "pictureMode": true,
+          "sandbox": true,
+          "tinghe": true,
+          "xumi": true,
+          "ending": true,
+          "archive": true,
+          "nativeFullscreen": true,
+          "fullscreenProgress": true,
+          "hiddenWindow": true,
+          "smokeShowEvents": 0,
+          "packaged": true,
+          "version": "0.2.5"
+        }
+      ],
+      "installerInstallAndUpgradeExecuted": false,
+      "portableWrapperExecuted": false
+    },
+    "pages": {
+      "id": 39004628048,
+      "status": "success",
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/39004628048",
+      "checks": [
+        {
+          "screen": "desktop",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.5",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "mobile",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.5",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": true,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        },
+        {
+          "screen": "landscape",
+          "url": "https://aureliuswu.github.io/NetLove/",
+          "version": "0.2.5",
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "fullWindowArtwork": true,
+          "hideRestore": true,
+          "rotation": false,
+          "offlineResume": true,
+          "assets": true,
+          "pageErrors": []
+        }
+      ]
+    }
+  },
+  "scope": "Current-version source, actual unpacked Windows EXE, public PWA and real published downloads; no physical-device or installer-upgrade claim.",
+  "publicDownloads": {
+    "status": "public-downloads-verified",
+    "version": "0.2.5",
+    "assets": [
+      {
+        "id": 649590694,
+        "name": "NetLove-0.2.5-x64-Portable.exe",
+        "bytes": 116999859,
+        "sha256": "cb70e892374055daa81b1270bbe536502ec85d2f110b8b76bbda4b4e3b8c7bf3"
+      },
+      {
+        "id": 649590697,
+        "name": "NetLove-0.2.5-x64-Setup.exe",
+        "bytes": 117219256,
+        "sha256": "6afaaea917f9a2f4cacd4b0d6ab6fd9838116fa8c8d11e5660ce1988f0bd146b"
+      },
+      {
+        "id": 649590693,
+        "name": "NetLove-PWA-0.2.5.zip",
+        "bytes": 5392054,
+        "sha256": "85f31836fdd56c10f63e518660784e22936c84a716f17f3fd6a184f27008d2b8"
+      },
+      {
+        "id": 649590698,
+        "name": "SHA256SUMS.txt",
+        "bytes": 279,
+        "sha256": "4b2161a1c7c000158a4de61b53d5ca446f76bdb0eabaec79cba869673a45b201"
+      }
+    ],
+    "checksumRowsVerified": 3,
+    "pwaZipCrc": "passed",
+    "pwaFilesEqualToVerifiedBuild": 22,
+    "entrySha256": {
+      "index.html": "4c2eefc3652d48919c0bd62ffc988cd0a3a0d81fbb46c58b62bab978d5bf2ed5",
+      "sw.js": "d66d5093abe8d6d22898c4ab1731df7e893cb4793df370150c975bb412b53557"
+    },
+    "publicHttpByteChecks": [
+      {
+        "url": "https://aureliuswu.github.io/NetLove/index.html",
+        "status": 200,
+        "bytes": 1144,
+        "sha256": "4c2eefc3652d48919c0bd62ffc988cd0a3a0d81fbb46c58b62bab978d5bf2ed5",
+        "matchesPublishedZip": true
+      },
+      {
+        "url": "https://aureliuswu.github.io/NetLove/sw.js",
+        "status": 200,
+        "bytes": 2057,
+        "sha256": "d66d5093abe8d6d22898c4ab1731df7e893cb4793df370150c975bb412b53557",
+        "matchesPublishedZip": true
+      }
+    ]
+  },
+  "localVerification": "READING-LIFECYCLE-20261017.json"
+}

@@ -132,10 +132,11 @@ test('typing pauses in history, saves, confirmation, hidden UI and title, keepin
   await seed(page, {}, 4); await page.getByRole('button', { name: '开始阅读', exact: true }).click();
   const visible = page.locator('.dialogue-text > span[aria-hidden="true"]');
   await expect.poll(() => visible.textContent()).toMatch(/^一月/);
-  const readBefore = await visible.textContent();
   await page.getByRole('button', { name: '回看', exact: true }).click();
   await expect(page.locator('.history-list article')).toHaveCount(0);
   await expect(page.getByText('还没有读过的文字。', { exact: true })).toBeVisible();
+  // Snapshot after the panel opens: actionability waits may span a typing tick.
+  const readBefore = await visible.textContent();
   await page.waitForTimeout(800); expect(await visible.textContent()).toBe(readBefore);
   await page.getByRole('button', { name: '关闭', exact: true }).click();
   expect(await visible.textContent()).toBe(readBefore);

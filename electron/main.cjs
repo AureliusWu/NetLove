@@ -2,6 +2,7 @@ const { app, BrowserWindow, Menu } = require('electron');
 const path=require('node:path'), fs=require('node:fs');
 const {pathToFileURL}=require('node:url');
 const smoke=process.argv.includes('--smoke-test');
+const hostedSmoke=smoke&&process.platform==='win32'&&process.env.CI==='true'&&process.env.GITHUB_ACTIONS==='true'&&process.env.GITHUB_REPOSITORY==='AureliusWu/NetLove';
 const smokeDataArgument=process.argv.indexOf('--smoke-user-data-dir');
 const restoring=smoke&&smokeDataArgument>=0;
 if(smoke){
@@ -13,10 +14,10 @@ let window;
 function openWindow(){
  const index=path.join(__dirname,'..','dist','index.html'),entry=pathToFileURL(index).href;
  window=new BrowserWindow({width:1360,height:860,minWidth:800,minHeight:560,title:'“网”恋 · NetLove',backgroundColor:'#f5f2e8',icon:path.join(__dirname,'..','dist','icons','icon-512.png'),show:false,focusable:!smoke,skipTaskbar:smoke,autoHideMenuBar:true,webPreferences:{nodeIntegration:false,contextIsolation:true,sandbox:true,webSecurity:true,backgroundThrottling:!smoke}});
- let smokeShowEvents=0;
+ let smokeShowEvents=0,fullscreenSmokeActive=false;
  if(smoke){
   window.webContents.setAudioMuted(true);
-  window.on('show',()=>{smokeShowEvents++;window.hide();});
+  window.on('show',()=>{smokeShowEvents++;if(!fullscreenSmokeActive)window.hide();});
  }
  Menu.setApplicationMenu(null);window.webContents.setWindowOpenHandler(()=>({action:'deny'}));
  window.webContents.on('will-navigate',(event,url)=>{if(url.split('#')[0]!==entry)event.preventDefault();});
@@ -49,22 +50,27 @@ function openWindow(){
    await window.webContents.executeJavaScript(`(async()=>{
     document.querySelector('[aria-label="关闭"]').click();
     [...document.querySelectorAll('button')].find(button=>button.textContent.trim()==='继续上次的故事').click();
-    for(let i=0;i<100;i++){if(document.querySelector('.game-screen')?.dataset.scene==='end-tinghe')return;await new Promise(resolve=>setTimeout(resolve,25));}
+    for(let i=0;i<400;i++){if(document.querySelector('.game-screen')?.dataset.scene==='end-tinghe')return;await new Promise(resolve=>setTimeout(resolve,25));}
     throw new Error('Fullscreen continuation setup failed');
    })()`);
    console.log('DESKTOP_SMOKE_PHASE','native-fullscreen-enter');
+   // The disposable Windows runner exercises a real visible fullscreen window.
+   // Suppressing its show event can cancel the portable launcher's transition.
+   if(hostedSmoke){fullscreenSmokeActive=true;window.setFocusable(true);window.show();window.focus();}
    await window.webContents.executeJavaScript(`(async()=>{
     document.querySelector('[aria-label="全屏阅读"]').click();
-    for(let i=0;i<100;i++){if(document.fullscreenElement&&document.querySelector('[aria-label="退出全屏"]'))return;await new Promise(resolve=>setTimeout(resolve,25));}
+    for(let i=0;i<400;i++){if(document.fullscreenElement&&document.querySelector('[aria-label="退出全屏"]'))return;await new Promise(resolve=>setTimeout(resolve,25));}
     throw new Error('Native fullscreen entry failed');
    })()`,true);
    console.log('DESKTOP_SMOKE_PHASE','native-fullscreen-exit');
    await window.webContents.executeJavaScript(`(async()=>{
-    for(let i=0;i<100;i++){const button=document.querySelector('[aria-label="退出全屏"]');if(button&&!button.disabled){button.click();break;}await new Promise(resolve=>setTimeout(resolve,25));}
-    for(let i=0;i<100;i++){if(!document.fullscreenElement&&document.querySelector('[aria-label="全屏阅读"]'))return;await new Promise(resolve=>setTimeout(resolve,25));}
+    for(let i=0;i<400;i++){const button=document.querySelector('[aria-label="退出全屏"]');if(button&&!button.disabled){button.click();break;}await new Promise(resolve=>setTimeout(resolve,25));}
+    for(let i=0;i<400;i++){if(!document.fullscreenElement&&document.querySelector('[aria-label="全屏阅读"]'))return;await new Promise(resolve=>setTimeout(resolve,25));}
     throw new Error('Native fullscreen exit failed');
    })()`,true);
+   fullscreenSmokeActive=false;
    window.hide();
+   if(hostedSmoke)window.setFocusable(false);
    const fullscreenProgress=await window.webContents.executeJavaScript(`document.querySelector('.game-screen')?.dataset.scene==='end-tinghe'&&document.querySelector('.game-screen').dataset.line==='9'&&JSON.parse(localStorage.getItem('netlove:v1:save:auto')).state.line===9`);
    if(!fullscreenProgress)throw new Error('Native fullscreen changed the saved reading position');
    // Native fullscreen may briefly show an OS window despite show:false.

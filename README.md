@@ -1,3 +1,5 @@
+> 2026-10-18：v0.2.6 已实现关键语音播放与绑定基础，实际配音/事件 CG 尚待制作。当前仍为五章可玩预览；本地验证与远端接续见 [实现记录](docs/production/IMPLEMENTATION-20261018.md)。
+
 > 2026-10-17：v0.2.5 已发布为可玩预览，修复后台打字与同段读档，保留标题页继续原字数。[Build 39004333641](https://github.com/AureliusWu/NetLove/actions/runs/39004333641) 的 49 项逻辑、44 项浏览器与 Windows 源码/实际 EXE 检查通过；[Pages 39004628048](https://github.com/AureliusWu/NetLove/actions/runs/39004628048) 三屏离线通过。四份公开下载、PWA ZIP 22 文件及线上入口/worker 已实际回读校验，见 [发布回执](docs/production/PUBLISHED-v0.2.5.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
 
 > 2026-10-16：v0.2.4 已完成发布验证。[Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748) 通过 49 项逻辑、34 项完整浏览器和 Windows 源码/实际 EXE 检查；[v0.2.4 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 四项公开文件已实际下载核验，[Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 三屏断网续读通过。见 [发布凭据](docs/production/PUBLISHED-v0.2.4.json)。安装器安装/升级和 portable 封装器启动未测。

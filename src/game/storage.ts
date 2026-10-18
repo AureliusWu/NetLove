@@ -43,7 +43,7 @@ export function readSettings(): Settings {
     const value: unknown = raw ? JSON.parse(raw) : null;
     if (!object(value)) return DEFAULT_SETTINGS;
     const number = (key: string, fallback: number, min: number, max: number) => typeof value[key] === 'number' && Number.isFinite(value[key]) ? Math.max(min, Math.min(max, value[key] as number)) : fallback;
-    return { textSpeed: number('textSpeed', 32, 0, 80), autoDelay: number('autoDelay', 2200, 800, 6000), volume: number('volume', 0.2, 0, 1), music: typeof value.music === 'boolean' ? value.music : true, reducedMotion: typeof value.reducedMotion === 'boolean' ? value.reducedMotion : false, soundEffects: typeof value.soundEffects === 'boolean' ? value.soundEffects : true, ambience: typeof value.ambience === 'boolean' ? value.ambience : true };
+    return { voiceEnabled: typeof value.voiceEnabled === 'boolean' ? value.voiceEnabled : true, voiceVolume: number('voiceVolume', 0.8, 0, 1), textSpeed: number('textSpeed', 32, 0, 80), autoDelay: number('autoDelay', 2200, 800, 6000), volume: number('volume', 0.2, 0, 1), music: typeof value.music === 'boolean' ? value.music : true, reducedMotion: typeof value.reducedMotion === 'boolean' ? value.reducedMotion : false, soundEffects: typeof value.soundEffects === 'boolean' ? value.soundEffects : true, ambience: typeof value.ambience === 'boolean' ? value.ambience : true };
   } catch { return DEFAULT_SETTINGS; }
 }
 export function readEndings(): string[] {

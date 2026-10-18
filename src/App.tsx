@@ -12,6 +12,8 @@ import { pwa } from './pwa';
 import { advance, choose, continueStory, getScene, newGame } from './game/engine';
 import { KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
 import { applyProgressImport, createReadingBackup, decodeProgressFile } from './game/backup';
+import { RecordedVoice, voiceBlocksAuto } from './game/voice';
+import { voiceClips, voiceFor } from './game/voice-catalog';
 import { music } from './game/music';
 import { presentationAt } from './game/presentation';
 import { historyState } from './game/history-preview';
@@ -25,6 +27,8 @@ const panelTitles = { chapters: '章节', characters: '与你相遇', memories: 
 const backgroundLabels = { bedroom: '梧城夜晚的旧房间', balcony: '隔窗相望的住宅楼', gate: '梧桐里小区门口', printshop: '拾光照相馆', riverbank: '五月的梧江步道' };
 
 export function App() {
+  const [voice] = useState(() => new RecordedVoice());
+  const voiceState = useSyncExternalStore(voice.subscribe, voice.getState);
   const [screen, setScreen] = useState<'title' | 'game'>('title');
   const [liveGame, setLiveGame] = useState<GameState>(newGame);
   const [reread, setReread] = useState<{ game: GameState; originalVisible: number } | null>(null);
@@ -57,6 +61,7 @@ export function App() {
   currentRef.current = game;
   const scene = getScene(game);
   const line = scene.lines[game.line];
+  const currentVoice = voiceFor(line);
   const characters = Array.from(line.text);
   const complete = visible >= characters.length;
   const lastLine = game.line === scene.lines.length - 1;
@@ -76,6 +81,14 @@ export function App() {
   const hideInterface = useCallback(() => {
     setAuto(false); setFast(false); setToast(''); setUiHidden(true);
   }, []);
+  useEffect(() => {
+    voice.configure(settings.voiceEnabled !== false, settings.voiceVolume ?? 0.8, screen === 'game' && !panel && !confirm && !uiHidden, !pageHidden, panel === 'history');
+  }, [voice, settings.voiceEnabled, settings.voiceVolume, screen, panel, confirm, uiHidden, pageHidden]);
+  useEffect(() => {
+    if (screen === 'game') voice.enter(currentVoice ? { ...currentVoice, src: `${import.meta.env.BASE_URL}${currentVoice.src}` } : undefined, `${game.sceneId}/${game.line}/${readingSession}/${settings.voiceEnabled !== false}`);
+    else voice.stop();
+  }, [voice, screen, game.sceneId, game.line, readingSession, currentVoice, settings.voiceEnabled]);
+  useEffect(() => () => voice.stop(), [voice]);
   useEffect(() => { if (screen === 'game') window.scrollTo(0, 0); }, [screen]);
   const refreshSaves = useCallback(() => setSaveList(Object.fromEntries(slots.map(s => [s, readSave(s)])) as Record<Slot, Save | null>), []);
   const store = useCallback((slot: Slot, state: GameState) => {
@@ -132,10 +145,10 @@ export function App() {
     if (!choicesVisible) { music.effect('page'); setGame(state => advance(state)); }
   }, [screen, panel, confirm, uiHidden, finished, complete, characters.length, choicesVisible]);
   useEffect(() => {
-    if (pageHidden || document.hidden || (!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
+    if (voiceBlocksAuto(voiceState) || pageHidden || document.hidden || (!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
     const id = setTimeout(step, fast ? 70 : settings.autoDelay + Math.min(line.text.length * 45, 2500));
     return () => clearTimeout(id);
-  }, [auto, fast, uiHidden, pageHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
+  }, [voiceState, auto, fast, uiHidden, pageHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
   useEffect(() => {
     if (choicesVisible || finished) { setAuto(false); setFast(false); }
   }, [choicesVisible, finished]);
@@ -245,7 +258,7 @@ export function App() {
     <button onClick={() => setPanel('settings')}><Icon name="gear" /><span>设置</span></button>
   </>;
 
-  return <div className={settings.reducedMotion ? 'app reduce-motion' : 'app'} onPointerDown={() => { void music.unlock(); }}>
+  return <div className={settings.reducedMotion ? 'app reduce-motion' : 'app'} onPointerDown={() => { void music.unlock(); voice.unlock(); }}>
     <div className="main-surface" inert={!!panel || !!confirm}>
     {screen === 'title' && <RotationHint display={display} reading={false} />}
     {screen === 'title' ? <main className="title-screen">
@@ -287,6 +300,7 @@ export function App() {
             <div><span className="eyebrow">CHAPTER 0{chapter.id} · END / {scene.ending ? endingInfo[scene.ending].badge : '章节完成'}</span><h2>{scene.ending ? endingInfo[scene.ending].label : '消息，先停在这里'}</h2><p>{scene.ending ? endingInfo[scene.ending].subtitle : '到下一章，再把没有说完的话继续。'}</p></div>
             <div className="ending-actions">{scene.continuation ? <button className="primary" onClick={() => { music.effect('choice'); setGame(state => continueStory(state)); }}>下一章 · {chapters[chapter.id].title} <Icon name="arrow" size={18} /></button> : <button className="primary" onClick={() => setPanel('credits')}>制作人员 <Icon name="arrow" size={18} /></button>}<button className="secondary" onClick={returnToTitle}>回到标题</button></div>
           </section>}
+          {currentVoice && <div className="voice-controls" aria-label="人物语音"><button onClick={() => voice.replay({ ...currentVoice, src: `${import.meta.env.BASE_URL}${currentVoice.src}` })}>重听本句</button>{voiceState.status === 'playing' && <button onClick={() => voice.pause()}>暂停语音</button>}{['paused','blocked'].includes(voiceState.status) && <button onClick={() => voice.resume()}>继续语音</button>}{voiceState.status === 'failed' && <span>语音暂不可用，可继续阅读。</span>}</div>}
           <div className="reading-bottom">
             <div className="game-tools"><button onClick={() => setPanel('saves')}><Icon name="save" size={16} />存档</button><button onClick={() => setPanel('history')}><Icon name="history" size={16} />回看</button><button className={auto ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setAuto(value => !value); setFast(false); }} aria-pressed={auto}><Icon name={auto ? 'pause' : 'play'} size={15} />自动</button><button className={fast ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setFast(value => !value); setAuto(false); }} aria-pressed={fast}>快进</button><button onClick={hideInterface} aria-keyshortcuts="H" title="隐藏界面 · H，轻触画面恢复"><Icon name="eye-off" size={16} />隐藏界面</button></div>
             <span className="next-indicator">{finished ? '本章结束' : choicesVisible ? '请做出选择' : complete ? '点击继续 ◇' : '正在阅读'}</span>
@@ -303,9 +317,9 @@ export function App() {
       {panel === 'characters' && <CharacterGallery />}
       {panel === 'memories' && <MemoryBook endings={endings} gallery={gallery} scores={scores} load={load} audition={audition} onAudition={setAudition} />}
       {panel === 'credits' && <Credits />}
-      {panel === 'settings' && <div className="settings-list"><label className="setting"><span>文字速度<small>{settings.textSpeed === 0 ? '一次显示全部' : `${settings.textSpeed} 字 / 秒`}</small></span><input aria-label="文字速度" type="range" min="0" max="80" step="4" value={settings.textSpeed} onChange={e => setSetting('textSpeed', +e.target.value)} /></label><label className="setting"><span>自动阅读停留<small>{(settings.autoDelay / 1000).toFixed(1)} 秒 + 段落阅读时间</small></span><input aria-label="自动阅读停留" type="range" min="800" max="6000" step="200" value={settings.autoDelay} onChange={e => setSetting('autoDelay', +e.target.value)} /></label><label className="setting"><span>背景音乐<small>六首离线程序配乐 · 首次点击后播放</small></span><input aria-label="背景音乐" type="checkbox" checked={settings.music} onChange={e => { setSetting('music', e.target.checked); if (e.target.checked) void music.unlock(); }} /></label><label className="setting"><span>声音音量<small>{Math.round(settings.volume * 100)}%</small></span><input aria-label="声音音量" type="range" min="0" max="1" step="0.05" value={settings.volume} onChange={e => setSetting('volume', +e.target.value)} /></label><label className="setting"><span>环境雨声<small>在雨天场景播放，可独立关闭</small></span><input aria-label="环境雨声" type="checkbox" checked={settings.ambience} onChange={e => setSetting('ambience', e.target.checked)} /></label><label className="setting"><span>操作提示音<small>轻声提示翻页与选择</small></span><input aria-label="操作提示音" type="checkbox" checked={settings.soundEffects} onChange={e => setSetting('soundEffects', e.target.checked)} /></label><label className="setting"><span>减少动态效果<small>关闭动画并一次显示文字</small></span><input aria-label="减少动态效果" type="checkbox" checked={settings.reducedMotion} onChange={e => setSetting('reducedMotion', e.target.checked)} /></label><div className="display-setting"><div><strong>横屏阅读</strong><p>把手机横过来，能看见更多梧城与角色。</p></div><FullscreenButton display={display} /></div><div className="keyboard-hints"><span>空格 / Enter · 继续</span><span>A · 自动</span><span>S / Esc · 存档</span><span>L · 回看</span><span>H · 隐藏 / 恢复界面</span></div><p className="soft-note">隐藏界面后会暂停自动阅读，轻触画面即可恢复，段落保持原位。推荐横屏游玩。安装后优先横屏；也可继续竖屏阅读，旋转时自动保留进度。若屏幕没有转向，请开启系统的自动旋转。</p></div>}
+      {panel === 'settings' && <div className="settings-list">{voiceClips.length > 0 && <><label className="setting"><span>人物语音</span><input aria-label="人物语音" type="checkbox" checked={settings.voiceEnabled !== false} onChange={e => setSetting('voiceEnabled', e.target.checked)} /></label><label className="setting"><span>语音音量</span><input aria-label="语音音量" type="range" min="0" max="1" step="0.05" value={settings.voiceVolume ?? 0.8} onChange={e => setSetting('voiceVolume', +e.target.value)} /></label></>}<label className="setting"><span>文字速度<small>{settings.textSpeed === 0 ? '一次显示全部' : `${settings.textSpeed} 字 / 秒`}</small></span><input aria-label="文字速度" type="range" min="0" max="80" step="4" value={settings.textSpeed} onChange={e => setSetting('textSpeed', +e.target.value)} /></label><label className="setting"><span>自动阅读停留<small>{(settings.autoDelay / 1000).toFixed(1)} 秒 + 段落阅读时间</small></span><input aria-label="自动阅读停留" type="range" min="800" max="6000" step="200" value={settings.autoDelay} onChange={e => setSetting('autoDelay', +e.target.value)} /></label><label className="setting"><span>背景音乐<small>六首离线程序配乐 · 首次点击后播放</small></span><input aria-label="背景音乐" type="checkbox" checked={settings.music} onChange={e => { setSetting('music', e.target.checked); if (e.target.checked) void music.unlock(); }} /></label><label className="setting"><span>声音音量<small>{Math.round(settings.volume * 100)}%</small></span><input aria-label="声音音量" type="range" min="0" max="1" step="0.05" value={settings.volume} onChange={e => setSetting('volume', +e.target.value)} /></label><label className="setting"><span>环境雨声<small>在雨天场景播放，可独立关闭</small></span><input aria-label="环境雨声" type="checkbox" checked={settings.ambience} onChange={e => setSetting('ambience', e.target.checked)} /></label><label className="setting"><span>操作提示音<small>轻声提示翻页与选择</small></span><input aria-label="操作提示音" type="checkbox" checked={settings.soundEffects} onChange={e => setSetting('soundEffects', e.target.checked)} /></label><label className="setting"><span>减少动态效果<small>关闭动画并一次显示文字</small></span><input aria-label="减少动态效果" type="checkbox" checked={settings.reducedMotion} onChange={e => setSetting('reducedMotion', e.target.checked)} /></label><div className="display-setting"><div><strong>横屏阅读</strong><p>把手机横过来，能看见更多梧城与角色。</p></div><FullscreenButton display={display} /></div><div className="keyboard-hints"><span>空格 / Enter · 继续</span><span>A · 自动</span><span>S / Esc · 存档</span><span>L · 回看</span><span>H · 隐藏 / 恢复界面</span></div><p className="soft-note">隐藏界面后会暂停自动阅读，轻触画面即可恢复，段落保持原位。推荐横屏游玩。安装后优先横屏；也可继续竖屏阅读，旋转时自动保留进度。若屏幕没有转向，请开启系统的自动旋转。</p></div>}
       {panel === 'saves' && <><div className="save-actions"><button onClick={exportProgress}><Icon name="download" size={18} />导出阅读备份</button><button onClick={() => importRef.current?.click()}><Icon name="upload" size={18} />导入存档</button></div><p className="save-backup-note">{rereading ? '正在重读。导出仍保留原进度；重读内容可另存到手动存档，自动存档与消息归档保持。' : '一起带走自动与手动存档、章首及消息归档。旧版单份存档仍可导入。'}</p><div className="save-grid">{slots.map(slot => { const save = saveList[slot]; return <article key={slot} className="save-card"><div className="save-heading"><span>{slot === 'auto' ? '自动存档' : `手动存档 ${slot}`}</span><small>{save ? new Date(save.savedAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) : '空白'}</small></div><h3>{save ? getScene(save.state).title : '把这一刻留下来'}</h3><p>{save ? `${getScene(save.state).location} · 第 ${save.state.line + 1} 段` : '开始阅读后可以存入这里。'}</p><div>{slot !== 'auto' && <button disabled={screen !== 'game'} onClick={() => saveCurrent(slot, save)}>存入</button>}<button disabled={!save} onClick={() => save && load(save)}>读取 <Icon name="arrow" size={14} /></button></div></article>; })}</div><p className="soft-note">手机与电脑共用存档格式。导出 JSON 后，在另一台设备导入即可继续；当前版本不提供账户云同步。</p></>}
-      {panel === 'history' && <HistoryReader game={game} complete={complete} onClose={closePanel} onReread={startReread} />}
+      {panel === 'history' && <HistoryReader game={game} complete={complete} onClose={closePanel} onReread={startReread} onReplay={entry => { const clip = voiceFor(entry); if (clip) voice.replay({ ...clip, src: `${import.meta.env.BASE_URL}${clip.src}` }, true); }} voiceEnabled={settings.voiceEnabled !== false} />}
       {panel === 'about' && <div className="about-copy"><span className="about-leaf"><Icon name="users" size={46} /></span><p>《“网”恋》是一部发生在 2020 年架空城市梧城的原创视觉小说。</p><p>你扮演二十三岁的周既明，在疫情时期的互助群里认识谢听禾、许弥和老朋友陆衡。从匿名消息、一起做事，到误会与等待，决定想把怎样的关系带回线下。</p><p>五章故事、六次选择、四种结局。恋爱、友情与告别都可以认真完成。城市安排与人物经历为虚构。</p><p className="soft-note">创作 / AureliusWu 与 AI 协作<br/>美术 / AI 生成原创立绘与场景<br/>音乐 / Project1 程序配乐复用<br/>版本 / {__APP_VERSION__}</p></div>}
     </Dialog>}
     {confirm && <Dialog title="留住这一刻" onClose={() => setConfirm(null)}><p className="confirm-text">{confirm.text}</p><div className="confirm-actions"><button className="secondary" onClick={() => setConfirm(null)}>再想一下</button><button className="primary" onClick={() => { confirm.action(); setConfirm(null); }}>继续 <Icon name="arrow" size={18} /></button></div></Dialog>}

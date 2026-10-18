@@ -18,4 +18,4 @@ export type HistoryEntry = Line & { sceneId: string; line: number };
 export type Decision = { sceneId: string; choiceId: string };
 export type GameState = { schema: 1; storyVersion: 'netlove-v1'; sceneId: string; line: number; stats: Stats; decisions: Decision[]; history: HistoryEntry[] };
 export type Save = { schema: 1; game: 'netlove'; savedAt: string; state: GameState };
-export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };
+export type Settings = { voiceEnabled?: boolean; voiceVolume?: number; textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };

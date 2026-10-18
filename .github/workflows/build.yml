@@ -103,4 +103,4 @@ jobs:
           (cd pwa && zip -q -r "../release-assets/NetLove-PWA-$VERSION.zip" .)
           (cd release-assets && sha256sum *.exe *.zip > SHA256SUMS.txt)
           cp "docs/releases/v$VERSION.md" release-body.md
-          gh release create "v$VERSION" release-assets/* --target "$GITHUB_SHA" --title "“网”恋 v$VERSION · 五章可玩初版" --notes-file release-body.md --prerelease
+          gh release create "v$VERSION" release-assets/* --target "$GITHUB_SHA" --title "$(head -n 1 docs/releases/v$VERSION.md | sed 's/^# *//')" --notes-file release-body.md --prerelease

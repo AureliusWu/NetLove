@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "game": "netlove",
+  "publishedClips": 0,
+  "clips": [
+    {
+      "lineId": "c2-call-004",
+      "sceneId": "c2-call",
+      "speaker": "谢听禾",
+      "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+      "medium": "call",
+      "noSprite": true,
+      "textSha256": "347fcc3a4f2ac08f38a9b4ed2c334e3c43ce81da55719496a62e29f5de1e3663",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c2-call-006",
+      "sceneId": "c2-call",
+      "speaker": "谢听禾",
+      "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+      "medium": "call",
+      "noSprite": true,
+      "textSha256": "34dd051bdaaa3c5606ee46cf90f08a01624b068414b02947bb4a81ee3697cfa6",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c2-call-009",
+      "sceneId": "c2-call",
+      "speaker": "谢听禾",
+      "text": "要视频吗？不方便也没关系。",
+      "medium": "call",
+      "noSprite": true,
+      "textSha256": "461444e2187ca2580f281a7a192138273a0be237de4e8260b976309541ad6d2e",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-tinghe-005",
+      "sceneId": "c5-tinghe",
+      "speaker": "谢听禾",
+      "text": "你好。你的声音离近了，跟耳机里有点不一样。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "92f4073a70659908e51cf83c77036382b5b2a121ef619fd3ca14f6c37d1a3fa2",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-tinghe-016",
+      "sceneId": "c5-tinghe",
+      "speaker": "谢听禾",
+      "text": "我也想。可是开学以后，我可能真的很忙。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "56b7590fa28bc629dae97903f6847dfe69d0121ecce69057eaaab81018b80b6c",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-xumi-002",
+      "sceneId": "c5-xumi",
+      "speaker": "许弥",
+      "text": "真人看起来，比蓝底照片自然一点。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "9d1f06cbe0d4d88869f625b0f2547c665c5540fcfe5ea56c26989c2695e40ff4",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-xumi-008",
+      "sceneId": "c5-xumi",
+      "speaker": "许弥",
+      "text": "先寄作品。周四聊完才知道去不去，火车票还没买。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "db93f67235d976b872e9fcc32285619cf17cf09180d55aca3f6dbb652f974c51",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-xumi-013",
+      "sceneId": "c5-xumi",
+      "speaker": "许弥",
+      "text": "你是想当我的固定技术支持，还是想约我？",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "33800af6de3d425603152f836090d408ddfbd3586b231069bee980a557bf9f38",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-xumi-015",
+      "sceneId": "c5-xumi",
+      "speaker": "许弥",
+      "text": "好。七点半，拐角那家。晚了我会自己先吃。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "df51c1530d8004a32bf3635653f87145e0fc5e8d9d03488cfdeea42914ae7d73",
+      "status": "planned-not-recorded"
+    },
+    {
+      "lineId": "c5-xumi-019",
+      "sceneId": "c5-xumi",
+      "speaker": "许弥",
+      "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "medium": "narration",
+      "noSprite": false,
+      "textSha256": "e9e9b7a40ad882dfa9e1a3bd5741b1c46f798a550fd5dff1b0defa8a561a4933",
+      "status": "planned-not-recorded"
+    }
+  ]
+}

@@ -27,3 +27,6 @@
   .history-preview-caption strong { font-size: 14px; }
   .history-preview-caption span { font-size: 9px; }
 }
+
+.voice-controls {display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;}
+.voice-controls button {border:1px solid #aac8bd;border-radius:6px;padding:4px 9px;background:#ffffffc9;color:#34584b;}

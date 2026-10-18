@@ -78,7 +78,7 @@ function openWindow(){
    if(report&&process.env.GITHUB_ACTIONS==='true'&&process.env.GITHUB_REPOSITORY==='AureliusWu/NetLove'){
     const directory=path.dirname(path.resolve(report));
     if(path.dirname(directory).toLowerCase()!==path.resolve(process.env.RUNNER_TEMP||'').toLowerCase()||!path.basename(directory).startsWith('NetLove-installed-'))throw new Error('Unsafe smoke report path');
-    if(app.isPackaged)proof.asarSha256=require('node:crypto').createHash('sha256').update(fs.readFileSync(app.getAppPath())).digest('hex');
+    if(app.isPackaged)proof.asarSha256=require('node:crypto').createHash('sha256').update(require('original-fs').readFileSync(app.getAppPath())).digest('hex');
     fs.writeFileSync(report,JSON.stringify(proof));
    }
    console.log('DESKTOP_SMOKE_OK',JSON.stringify(proof));app.exit(0);

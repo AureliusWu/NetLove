@@ -93,7 +93,19 @@ try {
   await access(portable);
   const proofFile=path.join(sandbox,'portable-result.json');
   env.NETLOVE_SMOKE_REPORT=proofFile;
-  await run(portable,['--smoke-test'],'',180000);
+  evidence.portable={file:portable,sha256:digest(await readFile(portable)),report:proofFile};
+  try {
+    await run(portable,['--smoke-test'],'',180000);
+  } catch(error) {
+    try {
+      const childProof=JSON.parse(await readFile(proofFile,'utf8'));
+      evidence.portable.childFailure=childProof;
+      console.error('PORTABLE_CHILD_FAILURE',JSON.stringify(childProof));
+    } catch {
+      console.error('PORTABLE_CHILD_FAILURE','No child report; portable launcher exited before a report was written');
+    }
+    throw error;
+  }
   for(let attempt=0;attempt<360;attempt++){
     try{await access(proofFile);break;}catch{await new Promise(resolve=>setTimeout(resolve,250));}
   }

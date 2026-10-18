@@ -82,7 +82,13 @@ function openWindow(){
     fs.writeFileSync(report,JSON.stringify(proof));
    }
    console.log('DESKTOP_SMOKE_OK',JSON.stringify(proof));app.exit(0);
-  }catch(error){console.error(error);app.exit(1);}
+   }catch(error){
+   const report=process.env.NETLOVE_SMOKE_REPORT;
+   if(report&&process.env.GITHUB_ACTIONS==='true'&&process.env.GITHUB_REPOSITORY==='AureliusWu/NetLove'){
+    try{fs.writeFileSync(report,JSON.stringify({status:'failed',stage:'renderer-smoke',error:String(error),stack:error?.stack,cwd:process.cwd(),profile:app.getPath('userData')}));}catch{}
+   }
+   console.error(error);app.exit(1);
+  }
  });
  void window.loadFile(index);
 }

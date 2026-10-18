@@ -1,0 +1,74 @@
+{
+  "repo": "NetLove",
+  "tag": "v0.2.6",
+  "target": "dff2989f91407545b643f351a69f13985990275e",
+  "releaseId": 416285264,
+  "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.2.6",
+  "assets": [
+    {
+      "id": 652727180,
+      "name": "NetLove-0.2.6-x64-Portable.exe",
+      "bytes": 117000363,
+      "sha256": "4b1c297984ada1afe2d3a6098dc0938f3d39df214f85b742ba27b56373ce9288"
+    },
+    {
+      "id": 652727182,
+      "name": "NetLove-0.2.6-x64-Setup.exe",
+      "bytes": 117219751,
+      "sha256": "e8ec39a70595108de0380a7321207fd10dfce42b8d485e50ac2bdafc5cc5f32c"
+    },
+    {
+      "id": 652727181,
+      "name": "NetLove-PWA-0.2.6.zip",
+      "bytes": 5393223,
+      "sha256": "70052af68bca3a13006c687223ab85f055de96d5b4f043bcafc25c960624a856",
+      "zip_entries": 26,
+      "crc": "passed"
+    },
+    {
+      "id": 652727184,
+      "name": "SHA256SUMS.txt",
+      "bytes": 279,
+      "sha256": "ebea417217340bd74a799862a6326fb0688edb1d64f7cb71194ab5bbea29960c"
+    }
+  ],
+  "checksum_table": "passed",
+  "public_pwa": {
+    "index.html": {
+      "sha256": "6a1b70b2440fa1159bb8e5c0648fb0bad9efe80cb8ae675607c597e941ebe58e",
+      "same_as_download": true
+    },
+    "sw.js": {
+      "sha256": "d2cb62431e791d095d828b4dfdd1caa92c871c7cbe97ba8e0ea5069fb3976c18",
+      "same_as_download": true
+    }
+  },
+  "status": "anonymous_assets_verified",
+  "schema": 1,
+  "verifiedOn": "2026-10-18",
+  "runtimeCommit": "dff2989f91407545b643f351a69f13985990275e",
+  "validationCommit": "dff2989f91407545b643f351a69f13985990275e",
+  "workflows": {
+    "build": {
+      "runId": 39105142679,
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/39105142679",
+      "conclusion": "success"
+    },
+    "ci": {
+      "runId": 39105142679,
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/39105142679",
+      "conclusion": "success"
+    },
+    "pages": {
+      "runId": 39105485626,
+      "url": "https://github.com/AureliusWu/NetLove/actions/runs/39105485626",
+      "conclusion": "success"
+    }
+  },
+  "checks": {
+    "logic": 57,
+    "browser": "44 passed",
+    "windows": "source and win-unpacked EXE passed, NSIS and portable built; actual install/upgrade and portable wrapper launch not executed"
+  },
+  "humanReview": "not claimed"
+}

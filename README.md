@@ -1,4 +1,4 @@
-> 2026-10-18：v0.2.6 已实现关键语音播放与绑定基础，实际配音/事件 CG 尚待制作。当前仍为五章可玩预览；本地验证与远端接续见 [实现记录](docs/production/IMPLEMENTATION-20261018.md)。
+> 2026-10-18：**v0.2.6 预览补丁已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。v0.3.0 的实际录音、两分支事件 CG、试听及安装/便携封装实际启动仍待制作与补验。
 
 > 2026-10-17：v0.2.5 已发布为可玩预览，修复后台打字与同段读档，保留标题页继续原字数。[Build 39004333641](https://github.com/AureliusWu/NetLove/actions/runs/39004333641) 的 49 项逻辑、44 项浏览器与 Windows 源码/实际 EXE 检查通过；[Pages 39004628048](https://github.com/AureliusWu/NetLove/actions/runs/39004628048) 三屏离线通过。四份公开下载、PWA ZIP 22 文件及线上入口/worker 已实际回读校验，见 [发布回执](docs/production/PUBLISHED-v0.2.5.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
 
@@ -18,7 +18,7 @@
 
 ![v0.2.0 角色与表情实际界面](docs/previews/v0.2.0/expressions-desktop.png)
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [当前已发布 v0.2.5 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.5) · [v0.2.0 电脑/手机预览](docs/previews/v0.2.0/README.md)。正文精修与表情重建保留原有路线和存档。
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [当前已发布 v0.2.6 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.6) · [v0.2.0 电脑/手机预览](docs/previews/v0.2.0/README.md)。正文精修与表情重建保留原有路线和存档。
 
 2026-10-11 双端工程交付完成：测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96` 的 [Build 38110158252](https://github.com/AureliusWu/NetLove/actions/runs/38110158252) 与 [Pages 38110407401](https://github.com/AureliusWu/NetLove/actions/runs/38110407401) 均通过，v0.1.1 预发布标签精确指向该提交。CI 和独立公网浏览器分别通过电脑、手机、横屏的真实断网刷新与续读；入口和 Service Worker 哈希与该 CI 的 PWA 产物一致。两份公开 EXE 与 PWA ZIP 已实际下载并核对发布校验表。发布资产的真实大小、SHA-256 和验收边界见 [PUBLISHED](docs/production/PUBLISHED-v0.1.1.json)；本机构建另记 [LOCAL-VALIDATION](docs/production/LOCAL-VALIDATION-v0.1.1.json)，最新状态见 [STATUS](docs/STATUS.md) 与 [VALIDATION](docs/VALIDATION.md)。v0.1.0 历史凭据继续保留。
 

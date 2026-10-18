@@ -12,7 +12,11 @@ if(smoke){
 }
 let window;
 function openWindow(){
- const index=path.join(__dirname,'..','dist','index.html'),entry=pathToFileURL(index).href;
+ // Resolve the portable launcher's Windows 8.3 extraction path before creating file URLs.
+ // Chromium and Node must identify the same exact packaged document for fullscreen.
+ const root=require('original-fs').realpathSync.native(app.getAppPath());
+ const index=path.join(root,'dist','index.html'),entry=pathToFileURL(index).href;
+ const permissionTrace=[];
  window=new BrowserWindow({width:1360,height:860,minWidth:800,minHeight:560,title:'“网”恋 · NetLove',backgroundColor:'#f5f2e8',icon:path.join(__dirname,'..','dist','icons','icon-512.png'),show:false,focusable:!smoke,skipTaskbar:smoke,autoHideMenuBar:true,webPreferences:{nodeIntegration:false,contextIsolation:true,sandbox:true,webSecurity:true,backgroundThrottling:!smoke}});
  let smokeShowEvents=0,fullscreenSmokeActive=false;
  if(smoke){
@@ -21,7 +25,12 @@ function openWindow(){
  }
  Menu.setApplicationMenu(null);window.webContents.setWindowOpenHandler(()=>({action:'deny'}));
  window.webContents.on('will-navigate',(event,url)=>{if(url.split('#')[0]!==entry)event.preventDefault();});
- const allowed=(contents,permission,details={})=>permission==='fullscreen'&&contents===window.webContents&&contents.getURL().split('#')[0]===entry&&details.isMainFrame!==false;
+ const allowed=(contents,permission,details={})=>{
+  const actual=contents?.getURL().split('#')[0];
+  const granted=permission==='fullscreen'&&contents===window.webContents&&actual===entry&&details.isMainFrame!==false;
+  if(smoke)permissionTrace.push({permission,entry,actual,isMainFrame:details.isMainFrame,requestingUrl:details.requestingUrl,granted});
+  return granted;
+ };
  window.webContents.session.setPermissionRequestHandler((contents,permission,callback,details)=>callback(allowed(contents,permission,details)));
  window.webContents.session.setPermissionCheckHandler((contents,permission,_origin,details)=>allowed(contents,permission,details));
  window.webContents.on('before-input-event',(event,input)=>{if(input.key==='F11'&&input.type==='keyDown'){event.preventDefault();window.setFullScreen(!window.isFullScreen());}});
@@ -91,7 +100,10 @@ function openWindow(){
    }catch(error){
    const report=process.env.NETLOVE_SMOKE_REPORT;
    if(report&&process.env.GITHUB_ACTIONS==='true'&&process.env.GITHUB_REPOSITORY==='AureliusWu/NetLove'){
-    try{fs.writeFileSync(report,JSON.stringify({status:'failed',stage:'renderer-smoke',error:String(error),stack:error?.stack,cwd:process.cwd(),profile:app.getPath('userData')}));}catch{}
+    try{
+     const renderer=await window.webContents.executeJavaScript(`({url:location.href,focused:document.hasFocus(),visibility:document.visibilityState,fullscreen:!!document.fullscreenElement,enabled:document.fullscreenEnabled,button:document.querySelector('[aria-label="全屏阅读"]')?.outerHTML})`).catch(()=>null);
+     fs.writeFileSync(report,JSON.stringify({status:'failed',stage:'renderer-smoke',error:String(error),stack:error?.stack,cwd:process.cwd(),profile:app.getPath('userData'),entry,permissionTrace,renderer}));
+    }catch{}
    }
    console.error(error);app.exit(1);
   }

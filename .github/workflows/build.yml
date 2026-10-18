@@ -115,3 +115,58 @@ jobs:
           (cd release-assets && sha256sum *.exe *.zip > SHA256SUMS.txt)
           cp "docs/releases/v$VERSION.md" release-body.md
           gh release create "v$VERSION" release-assets/* --target "$GITHUB_SHA" --title "$(head -n 1 docs/releases/v$VERSION.md | sed 's/^# *//')" --notes-file release-body.md --prerelease
+
+      - name: Independently verify every public download against tested artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, urllib.request, zipfile
+          root=pathlib.Path('release-assets')
+          version=json.loads(pathlib.Path('package.json').read_text(encoding='utf-8'))['version']
+          tag='v'+version
+          repo=os.environ['GITHUB_REPOSITORY']
+          def api(endpoint):
+              request=urllib.request.Request('https://api.github.com/repos/'+repo+'/'+endpoint,headers={'Accept':'application/vnd.github+json','Authorization':'Bearer '+os.environ['GH_TOKEN'],'X-GitHub-Api-Version':'2022-11-28'})
+              with urllib.request.urlopen(request,timeout=120) as response:return json.load(response)
+          release=api('releases/tags/'+tag)
+          assert not release['draft'] and release['prerelease'] and release['tag_name']==tag
+          ref=api('git/ref/tags/'+tag)
+          assert ref['object']['type']=='commit' and ref['object']['sha']==os.environ['GITHUB_SHA'], 'Release tag does not identify this tested build'
+          expected={p.name:p for p in root.iterdir() if p.is_file()}
+          assert set(expected)=={'NetLove-'+version+'-x64-Setup.exe','NetLove-'+version+'-x64-Portable.exe','NetLove-PWA-'+version+'.zip','SHA256SUMS.txt'}
+          assert {a['name'] for a in release['assets']}==set(expected), 'Public asset set differs from tested artifacts'
+          out=pathlib.Path('public-readback');out.mkdir(exist_ok=True)
+          records=[]
+          for asset in release['assets']:
+              name=asset['name']
+              with urllib.request.urlopen(asset['browser_download_url'],timeout=180) as response:data=response.read()
+              digest=hashlib.sha256(data).hexdigest()
+              assert len(data)==asset['size'] and asset['digest']=='sha256:'+digest
+              assert data==expected[name].read_bytes(), 'Public download differs from original tested artifact: '+name
+              if name.endswith('.exe'):assert data[:2]==b'MZ'
+              (out/name).write_bytes(data)
+              records.append({'id':asset['id'],'name':name,'bytes':len(data),'sha256':digest,'url':asset['browser_download_url']})
+              print('PUBLIC_DOWNLOAD_OK',json.dumps(records[-1]),flush=True)
+          sums={}
+          for line in (out/'SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
+              digest,name=line.split('  ',1)
+              assert name in expected and name!='SHA256SUMS.txt' and name not in sums
+              assert hashlib.sha256((out/name).read_bytes()).hexdigest()==digest
+              sums[name]=digest
+          assert set(sums)==set(expected)-{'SHA256SUMS.txt'}
+          with zipfile.ZipFile(out/('NetLove-PWA-'+version+'.zip')) as archive:
+              assert archive.testzip() is None, 'Published PWA ZIP CRC failed'
+              actual={info.filename:hashlib.sha256(archive.read(info)).hexdigest() for info in archive.infolist() if not info.is_dir()}
+              original={p.relative_to('pwa').as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in pathlib.Path('pwa').rglob('*') if p.is_file()}
+              assert actual==original, 'Published PWA payload differs from the exact tested web artifact'
+          record={'schema':1,'status':'passed','version':version,'runtimeCommit':os.environ['GITHUB_SHA'],'runId':int(os.environ['GITHUB_RUN_ID']),'releaseId':release['id'],'prerelease':release['prerelease'],'assets':records,'allPublicBytesMatchTestedArtifacts':True,'checksumEntries':len(sums),'pwaZipCrc':True,'pwaFiles':len(actual),'pwaFilesMatchTestedArtifact':True}
+          (out/'result.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('PUBLIC_RELEASE_READBACK_OK',json.dumps(record),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NetLove-Public-Readback-${{ github.run_id }}-${{ github.run_attempt }}
+          path: public-readback/result.json
+          if-no-files-found: warn

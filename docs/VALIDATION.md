@@ -1,3 +1,15 @@
+# v0.3.0 声音与事件画面预览已发布 — 2026-10-18
+
+[可玩预览 v0.3.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0) 与 [在线PWA](https://aureliuswu.github.io/NetLove/) 已完成本版交付。新增8句独立离线录音、两张按真实分支解锁的事件CG，延续43场景、507段、288路线和netlove-v1存档。
+
+冻结运行/tag：`1858eb52dfb59939c5f5ffe407e34744ccbe8b43`。[Build 39139742321](https://github.com/AureliusWu/NetLove/actions/runs/39139742321) 全部成功：59项逻辑、52项浏览器、24个音频源/成品解码及8句ASR指纹；Windows源码、win-unpacked、NSIS同profile真实v0.2.6旧档升级，以及portable外层和其真实子程序分别通过。各形态均实际检查全屏与保存位置，包内ASAR完全相同。
+
+四份公开文件已无凭证下载回读，与同次验收工件逐字节一致；三个SHA256SUMS条目、PWA ZIP CRC和33个载荷文件全部通过。[Pages 39140284348](https://github.com/AureliusWu/NetLove/actions/runs/39140284348) 的入口/worker精确字节及电脑、手机、横屏离线续读通过，三屏0页面错误。
+
+本版继续为预览发行。真人听感、阅读计时、实体设备/普通电脑/DPI和创作定案继续待实际体验；CG原图已恢复，原生成请求缺失明确留档。详见[发布凭据](production/PUBLISHED-v0.3.0.json)与[闭环说明](production/RELEASE-CLOSURE-v0.3.0.md)。下面较早的候选与旧版状态为历史记录。
+
+---
+
 ## Windows验收脚本接续
 
 保留旧profile完成升级验证后，完整内容夹具会显式确认新开局，避免停在正常保护提示。新增电脑/手机两项实际浏览器夹具回归通过（共52项浏览器检查）；实际Windows结果仍由本版CI记录。portable子进程用Electron original-fs读取物理ASAR并与构建摘要比对，不能把虚拟目录当普通文件读取。

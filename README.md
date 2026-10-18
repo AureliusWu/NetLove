@@ -1,30 +1,40 @@
-> 2026-10-18：v0.3.0 声音与见面画面候选已完成本地验证：59项逻辑、50项真实浏览器、8句独立转写与24个音频源/成品解码。新增Windows安装/升级与portable外层实际启动门禁；远端结果及预览发布另记。
-
-> 2026-10-18：**v0.2.6 预览补丁已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。v0.3.0 的录音与两分支事件CG已接入；本版Windows封装与公开PWA进入最终验收，真人试听待完成。
-
-> 2026-10-17：v0.2.5 已发布为可玩预览，修复后台打字与同段读档，保留标题页继续原字数。[Build 39004333641](https://github.com/AureliusWu/NetLove/actions/runs/39004333641) 的 49 项逻辑、44 项浏览器与 Windows 源码/实际 EXE 检查通过；[Pages 39004628048](https://github.com/AureliusWu/NetLove/actions/runs/39004628048) 三屏离线通过。四份公开下载、PWA ZIP 22 文件及线上入口/worker 已实际回读校验，见 [发布回执](docs/production/PUBLISHED-v0.2.5.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
-
-> 2026-10-16：v0.2.4 已完成发布验证。[Build 38827582748](https://github.com/AureliusWu/NetLove/actions/runs/38827582748) 通过 49 项逻辑、34 项完整浏览器和 Windows 源码/实际 EXE 检查；[v0.2.4 下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.4) 四项公开文件已实际下载核验，[Pages 38828223622](https://github.com/AureliusWu/NetLove/actions/runs/38828223622) 三屏断网续读通过。见 [发布凭据](docs/production/PUBLISHED-v0.2.4.json)。安装器安装/升级和 portable 封装器启动未测。
-
-> 2026-10-13：v0.2.0 剧情与六表情精修已发布；Windows 成品、浏览器及公开 PWA 通过本次 CI。见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [发布凭据](docs/production/PUBLISHED-v0.2.0.json)。
-
 # “网”恋 / NetLove
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-2020 年架空城市“梧城”的原创视觉小说。五章完整可玩预览，当前制作版本 v0.3.0 预览候选；PWA 与 Windows 共用同一份故事与资源。
+**v0.3.0 声音与见面画面可玩预览，PWA + Windows 安装版 / 便携版。**
 
-你扮演二十三岁的周既明，在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、第一次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
+[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v0.3.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0) · [本版说明](docs/releases/v0.3.0.md) · [发布凭据](docs/production/PUBLISHED-v0.3.0.json)
 
-43 个场景，507 段文字，六次选择，288 条路线。两位角色各六种表情、五处梧城场景；完整中文字体、离线阅读、本地存档与 JSON 双端迁移。
+2020年架空城市“梧城”，二十三岁的周既明在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、首次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
 
-![v0.2.0 角色与表情实际界面](docs/previews/v0.2.0/expressions-desktop.png)
+五章、43场景、507段、六次选择、288条路线与四种结局。两位角色各六种表情、五处城市背景、两张分支事件CG、完整中文字体与跨端阅读备份。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/NetLove/) · [当前已发布 v0.2.6 Windows 安装版 / 便携版 / PWA ZIP](https://github.com/AureliusWu/NetLove/releases/tag/v0.2.6) · [v0.2.0 电脑/手机预览](docs/previews/v0.2.0/README.md)。正文精修与表情重建保留原有路线和存档。
+## 本版声音与画面
 
-2026-10-11 双端工程交付完成：测试代码 `d013a9a95b18ddeab23fb72df12fe67efa509b96` 的 [Build 38110158252](https://github.com/AureliusWu/NetLove/actions/runs/38110158252) 与 [Pages 38110407401](https://github.com/AureliusWu/NetLove/actions/runs/38110407401) 均通过，v0.1.1 预发布标签精确指向该提交。CI 和独立公网浏览器分别通过电脑、手机、横屏的真实断网刷新与续读；入口和 Service Worker 哈希与该 CI 的 PWA 产物一致。两份公开 EXE 与 PWA ZIP 已实际下载并核对发布校验表。发布资产的真实大小、SHA-256 和验收边界见 [PUBLISHED](docs/production/PUBLISHED-v0.1.1.json)；本机构建另记 [LOCAL-VALIDATION](docs/production/LOCAL-VALIDATION-v0.1.1.json)，最新状态见 [STATUS](docs/STATUS.md) 与 [VALIDATION](docs/VALIDATION.md)。v0.1.0 历史凭据继续保留。
+- 谢听禾5句、许弥3句独立离线录音，覆盖首次通话与见面；播放器不需要模型、账号或语音服务。
+- 本句和已读历史可重听，支持独立开关/音量；自动阅读等待语音，切后台或打开面板暂停，保持当前段落。
+- 江边见面与照相馆空白信封各有事件CG，实际到达对应分支后解锁；重新开始仍保留已获画面。
+- 阅读备份保留已读路线与画面证明；没有到达另一分支时，导入不能提前解锁其CG。
+- 沿用netlove-v1 / netlove:v1和阅读备份schema 1，保留原场景、台词、路线与结局身份。
 
-## 开发与游玩
+八句录音完成正文/请求/音频指纹、24个源/成品完整解码及8句独立ASR。真人听感与创作定案仍待体验。CG原始图片及哈希已恢复，原生成请求没有随原件保留；来源记录明确标注缺口。
+
+## 游玩与备份
+
+Windows安装版可选择安装位置；便携版直接启动。PWA先联网完成完整缓存后再断网，支持桌面、手机和横屏。底部阅读层提供存档、回看、自动、快进、隐藏、全屏与设置；界面透明度独立保存。
+
+空格/Enter推进，H隐藏/恢复，S存档，L回看，A自动。旋转、隐藏和全屏保持段落；自动/快进在选择和章末停下。JSON阅读备份用于双端迁移，浏览器清理数据前请先导出。
+
+## 工程验收
+
+59项逻辑测试覆盖288条路线；52项完整浏览器检查覆盖配音、分支CG、阅读备份、打字暂停、离线与更新。Windows分别运行源码、win-unpacked真实EXE、NSIS同安装位置/同profile从v0.2.6升级，以及portable外层和其实际子程序，不能互相替代。
+
+公开发行文件须与同次验收的原始工件逐字节一致，校验全部四份下载、三个SHA256SUMS条目和PWA ZIP CRC/文件清单。公开PWA以同次已测构建部署，另验入口/worker和三屏断网续读。精确运行编号与结果见[发布凭据](docs/production/PUBLISHED-v0.3.0.json)和[当前状态](docs/STATUS.md)。
+
+本版保持可玩预览身份。真人试听、实体设备、普通电脑/中文路径/DPI与最终创作审阅单独记录。
+
+## 开发
 
 Node.js 24：
 
@@ -33,19 +43,10 @@ npm ci
 npm run dev
 ```
 
-生产 PWA：`npm run build && npm run preview`；Windows：`npm run desktop:win`。网页可横屏游玩，安装到主屏幕后优先横屏；联网缓存完整故事后能断网重开。
-
-底部半透明阅读层集成存档、回看、自动、快进、隐藏、全屏和设置；透明度调整独立持久化。空格/Enter 推进，H 隐藏/恢复，S 存档，L 回看，A 自动。隐藏与旋转保留当前段落，自动/快进在选择与章末停下。
-
-## 三项目复用
-
-采用 Project1 的 React/Electron 双端框架和阅读交互，Test 的剧情数据、素材溯源与实际包验收方法。当前 Rain、NetLove 与 Healing 共用 [制作契约 v1.2.0](docs/production/SHARED-VN.md)、[精修方法与场景模板](docs/production/CREATIVE-PLAYBOOK.md)、[结构检查脚本](scripts/vn-contract.mjs) 和 [可复用素材校验/导出](docs/production/REUSABLE-MATERIALS.md)，保留各作品的引擎、故事和存档标识。素材包包含带许可的字体与加工模板、实际 PWA 交付适配器；人物和场景原图按作品追溯，排除在通用导出包外。
-
-[完整剧情](docs/STORY.md) · [人物设定](docs/CHARACTERS.md) · [架构](docs/ARCHITECTURE.md) · [六表情美术请求](docs/prompts/ART-v2.json) · [资源来源](docs/production/ART-ASSETS.json)
+生产PWA：npm run build后运行npm run preview。Windows：npm run desktop:win。
 
 ```bash
 node scripts/vn-contract.mjs src/story/story.json
-node scripts/vn-materials.mjs verify
 npm run test:materials
 npm test
 npm run build
@@ -55,6 +56,12 @@ npm run test:desktop
 npm run test:desktop:packaged
 ```
 
-`npm run check` 串行执行共用素材、逻辑、构建与浏览器门禁。CI 导出 `NetLove-Reusable-Materials` 附件；本地可用 `node scripts/vn-materials.mjs export .reuse-kit/<新名称>` 创建带固定哈希和逐项许可的材料包，已有包不会覆盖。
+npm run test:desktop:installed仅用于本仓临时Windows Actions运行器，实际执行安装/升级和portable外层；本机桌面测试使用独立临时profile。
 
-两位角色的表情按原段落重建，旁白继承上一拍，匿名聊天与纯声音通话保留隐藏立绘。代码与文本 MIT，字体 SIL OFL；授权文本随播放器提供。原图、生成请求和源码均保留。
+## 制作方法与来源
+
+[共享制作契约](docs/production/SHARED-VN.md) · [创作方法](docs/production/CREATIVE-PLAYBOOK.md) · [素材复用](docs/production/REUSABLE-MATERIALS.md) · [完整剧情](docs/STORY.md) · [人物设定](docs/CHARACTERS.md) · [架构](docs/ARCHITECTURE.md) · [资源来源](docs/production/ART-ASSETS.json)
+
+本作采用React/Electron，保留自身故事和存档身份。带许可字体、加工模板与平台适配器按固定摘要复用；人物/场景原图按作品追溯，排除在通用导出包之外。代码与文本MIT，字体SIL OFL，Qwen模型许可与声音来源随项目记录。
+
+[v0.2.6历史发布](docs/production/RELEASE-CLOSURE-20261018.md) · [v0.2.0电脑/手机预览](docs/previews/v0.2.0/README.md) · [完整验证记录](docs/VALIDATION.md)

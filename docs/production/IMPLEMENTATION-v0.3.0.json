@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.3.0",
-  "status": "local_validation_passed_remote_release_pending",
+  "status": "published_preview_downloads_native_windows_and_public_pwa_verified",
   "logicTests": 59,
   "browserTests": 52,
   "nativeRoutes": 288,
@@ -14,8 +14,14 @@
   "materialsTests": 10,
   "materialsVerification": "passed; 26 entries / 82 exact file references",
   "storageCompatibility": "netlove-v1 and reading-backup schema 1 retained; optional picture route proofs added",
-  "windowsGate": "source, unpacked, installed same-profile v0.2.6 upgrade and portable outer wrapper; pending this version CI",
+  "windowsGate": "passed in this version CI: source, unpacked, installed same-profile v0.2.6 upgrade and portable outer wrapper",
   "humanListening": "pending",
   "artPromptRecovery": "original CG bytes recovered; original generation request not present, explicitly recorded",
-  "desktopContentFixture": "retained upgrade profile and new-game confirmation: passed both desktop and mobile; does not claim native Windows execution"
+  "desktopContentFixture": "retained upgrade profile and new-game confirmation: passed both desktop and mobile; does not claim native Windows execution",
+  "runtimeCommit": "1858eb52dfb59939c5f5ffe407e34744ccbe8b43",
+  "checkedAt": "2026-10-18T15:26:36.311Z",
+  "buildRun": 39139742321,
+  "pagesRun": 39140284348,
+  "publicDownloadReadback": "all 4 actual public downloads exactly match tested artifacts; 3 checksum entries, PWA ZIP CRC and 33 payload files passed",
+  "publishedRecord": "PUBLISHED-v0.3.0.json"
 }

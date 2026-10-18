@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-18T15:26:36.311Z",
+  "version": "0.3.0",
+  "status": "published_preview_downloads_native_windows_and_public_pwa_verified",
+  "runtimeCommit": "1858eb52dfb59939c5f5ffe407e34744ccbe8b43",
+  "release": {
+    "id": 416524664,
+    "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0",
+    "publishedAt": "2026-10-18T15:23:35Z",
+    "draft": false,
+    "prerelease": true,
+    "targetCommit": "1858eb52dfb59939c5f5ffe407e34744ccbe8b43",
+    "tagCommit": "1858eb52dfb59939c5f5ffe407e34744ccbe8b43",
+    "assets": [
+      {
+        "id": 653782827,
+        "name": "NetLove-0.3.0-x64-Portable.exe",
+        "bytes": 117832737,
+        "sha256": "fadc6d7250b66bc5594ce23d3080f24b5bae5428e47c06974e25a3c664b47227",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.3.0/NetLove-0.3.0-x64-Portable.exe"
+      },
+      {
+        "id": 653782826,
+        "name": "NetLove-0.3.0-x64-Setup.exe",
+        "bytes": 118052136,
+        "sha256": "cc0cca61ab502131fd6149c27cfc8143d95ac6f3e9d2cd2def5e23eb5bedc5c1",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.3.0/NetLove-0.3.0-x64-Setup.exe"
+      },
+      {
+        "id": 653782829,
+        "name": "NetLove-PWA-0.3.0.zip",
+        "bytes": 6246662,
+        "sha256": "f3687b2808c181584446d7d11bc747893d913c93be2497733e9de10e538590a8",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.3.0/NetLove-PWA-0.3.0.zip"
+      },
+      {
+        "id": 653782831,
+        "name": "SHA256SUMS.txt",
+        "bytes": 279,
+        "sha256": "0a0ce19dd95b80bff77de7a11335cb12da03b1aa2231cf041ad5d696884e62c1",
+        "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.3.0/SHA256SUMS.txt"
+      }
+    ],
+    "publicDownloadReadback": {
+      "run": 39139742321,
+      "job": 117713029696,
+      "status": "passed",
+      "anonymousPublicDownloads": true,
+      "allPublicBytesMatchTestedArtifacts": true,
+      "checksumEntries": 3,
+      "pwaZipCrc": true,
+      "pwaFiles": 33,
+      "pwaFilesMatchTestedArtifact": true
+    }
+  },
+  "build": {
+    "run": 39139742321,
+    "status": "success",
+    "webJob": 117711521443,
+    "windowsJob": 117712289805,
+    "logicTests": 59,
+    "browserTests": 52,
+    "nativeRoutes": 288,
+    "scenes": 43,
+    "lines": 507,
+    "materialsTests": 10,
+    "materialEntries": 26,
+    "materialFileReferences": 82,
+    "voiceClips": 8,
+    "audioDecodedFiles": 24,
+    "independentAsrPassed": 8,
+    "eventCgs": 2
+  },
+  "windows": {
+    "source": "DESKTOP_SMOKE_OK: version 0.3.0, packaged false",
+    "winUnpacked": "DESKTOP_SMOKE_OK: version 0.3.0, packaged true",
+    "installedUpgrade": {
+      "previousVersion": "0.2.6",
+      "version": "0.3.0",
+      "measuredAt": "2026-10-18T15:22:16.922Z",
+      "installation": "D:\\a\\_temp\\NetLove-installed-pd9RKS\\game",
+      "stages": [
+        {
+          "name": "baseline-installed",
+          "version": "0.2.6",
+          "smoke": true,
+          "pid": 1516
+        },
+        {
+          "name": "upgrade-installed",
+          "version": "0.3.0",
+          "sameInstallation": true,
+          "sameProfile": true,
+          "actualPriorSaveRestored": true,
+          "smoke": true
+        },
+        {
+          "name": "portable-outer-wrapper",
+          "version": "0.3.0",
+          "actualChildProof": {
+            "story": true,
+            "autosave": true,
+            "fullWindow": true,
+            "pictureMode": true,
+            "sandbox": true,
+            "tinghe": true,
+            "xumi": true,
+            "ending": true,
+            "archive": true,
+            "nativeFullscreen": true,
+            "fullscreenProgress": true,
+            "hiddenWindow": true,
+            "smokeShowEvents": 1,
+            "packaged": true,
+            "version": "0.3.0",
+            "profile": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\netlove-smoke-6432",
+            "asarSha256": "174a7fea8486c55b64e27479a35a20fd2447d6573667ce4ee39347b6fcac84a3"
+          }
+        }
+      ],
+      "baselineInstallerSha256": "e8ec39a70595108de0380a7321207fd10dfce42b8d485e50ac2bdafc5cc5f32c",
+      "currentInstallerSha256": "cc0cca61ab502131fd6149c27cfc8143d95ac6f3e9d2cd2def5e23eb5bedc5c1",
+      "baselineExecutableVersion": "0.2.6",
+      "upgradedExecutableVersion": "0.3.0",
+      "installedAsarSha256": "174a7fea8486c55b64e27479a35a20fd2447d6573667ce4ee39347b6fcac84a3",
+      "builtAsarSha256": "174a7fea8486c55b64e27479a35a20fd2447d6573667ce4ee39347b6fcac84a3",
+      "portable": {
+        "file": "D:\\a\\NetLove\\NetLove\\release\\NetLove-0.3.0-x64-Portable.exe",
+        "sha256": "fadc6d7250b66bc5594ce23d3080f24b5bae5428e47c06974e25a3c664b47227",
+        "report": "D:\\a\\_temp\\NetLove-installed-pd9RKS\\portable-result.json"
+      },
+      "ok": true
+    },
+    "portableOuterWrapper": "actual outer EXE launched; child proof matches exact ASAR SHA-256, full content/archive/autosave/sandbox/fullscreen/reading position passed",
+    "nativeFullscreenScope": "CI disposable Windows runner; visible fullscreen used and final window hidden",
+    "physicalDeviceClaimed": false
+  },
+  "compatibility": {
+    "gameVersion": "netlove-v1",
+    "storagePrefix": "netlove:v1",
+    "readingBackupSchema": 1,
+    "priorVersion": "0.2.6",
+    "sameProfilePriorSaveRestored": true,
+    "cgRouteProofs": "optional pictures in schema 1; original route required for unlock"
+  },
+  "creativeSources": {
+    "voices": "fixed Qwen3-TTS CustomVoice; project-specific offline clips, source/master/runtime fingerprints and independent ASR retained",
+    "art": "two original event CGs recovered and hashed",
+    "originalCgGenerationRequests": "not recovered; documented gap, reconstructed descriptions are not claimed as original requests"
+  },
+  "pending": [
+    "human listening",
+    "physical device and ordinary Windows/Chinese path/DPI experience",
+    "human reading timing",
+    "final creative review",
+    "two additional planned voice clips remain unrecorded; current eight-clip milestone met"
+  ],
+  "publicPwa": {
+    "run": 39140284348,
+    "job": 117713138769,
+    "status": "success",
+    "target": "https://aureliuswu.github.io/NetLove/",
+    "entryAndWorkerMatchTestedBuild": true,
+    "publishedFiles": [
+      {
+        "file": "index.html",
+        "sha256": "b1223624ece98cca4d19b638f5895ac6eabaa0da57b775836c9c2f2de14a5f9a"
+      },
+      {
+        "file": "sw.js",
+        "sha256": "51430565d99641bffe39dcf9c98859ac24cf2eb8ce71d2fda4d296d8e55e8487"
+      }
+    ],
+    "liveResults": [
+      {
+        "screen": "desktop",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.3.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "mobile",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.3.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": true,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      },
+      {
+        "screen": "landscape",
+        "url": "https://aureliuswu.github.io/NetLove/",
+        "version": "0.3.0",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "fullWindowArtwork": true,
+        "hideRestore": true,
+        "rotation": false,
+        "offlineResume": true,
+        "assets": true,
+        "pageErrors": []
+      }
+    ]
+  }
+}

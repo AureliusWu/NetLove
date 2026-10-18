@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Icon } from './Icon';
-import { chapters, cgInfo, endingInfo, finalEndingIds } from '../story';
+import { chapters, cgInfo, endingInfo, finalEndingIds, pictureAsset } from '../story';
 import { readChapter, readEnding } from '../game/progress';
 import { scoreInfo } from '../game/score';
 import type { CgId, MusicId, Save } from '../game/types';
@@ -17,13 +17,13 @@ export function MemoryBook({ endings, gallery, scores, load, audition, onAuditio
   audition: MusicId | null; onAudition: (id: MusicId | null) => void;
 }) {
   const [picture, setPicture] = useState<CgId | null>(null);
-  if (picture) return <div className="cg-view"><button className="secondary" onClick={() => setPicture(null)}>返回消息归档</button><figure><img src={art(picture)} alt={cgInfo[picture].description} /><figcaption><strong>{cgInfo[picture].title}</strong><span>{cgInfo[picture].description}</span></figcaption></figure></div>;
-  return <div className="edition-memories"><p className="soft-note">结局 {endings.length} / 4 · 梧城场景 {gallery.length} / 5。只收藏实际读到的内容。</p>
+  if (picture) return <div className="cg-view"><button className="secondary" onClick={() => setPicture(null)}>返回消息归档</button><figure><img src={art(pictureAsset(picture))} alt={cgInfo[picture].description} /><figcaption><strong>{cgInfo[picture].title}</strong><span>{cgInfo[picture].description}</span></figcaption></figure></div>;
+  return <div className="edition-memories"><p className="soft-note">结局 {endings.length} / 4 · 画面 {gallery.length} / {Object.keys(cgInfo).length}。只收藏实际读到的内容。</p>
     <h3 className="memory-heading">后来，消息继续</h3><div className="memory-list">{finalEndingIds.map((id,index) => {
       const info=endingInfo[id], unlocked=endings.includes(id), save=unlocked?readEnding(id):null;
       return <article key={id} className={unlocked?'memory unlocked':'memory'}><span>0{index+1}</span><div><small>{unlocked?info.badge:'尚未到达'}</small><h3>{unlocked?info.label:'一段未读的消息'}</h3><p>{unlocked?info.subtitle:'阅读到最后，在见面以前做出自己的决定。'}</p>{save&&<button className="memory-replay" onClick={()=>load(save)}>重读这段结局 <Icon name="arrow" size={14}/></button>}</div><Icon name={unlocked?'check':'book'}/></article>;
     })}</div>
-    <h3 className="memory-heading">梧城的五处风景</h3><div className="cg-grid">{(Object.keys(cgInfo) as CgId[]).map(id=><button className="cg-card" key={id} disabled={!gallery.includes(id)} onClick={()=>setPicture(id)}>{gallery.includes(id)?<img src={art(id)} alt={cgInfo[id].description}/>:<span className="cg-placeholder"><Icon name="book" size={32}/></span>}<strong>{gallery.includes(id)?cgInfo[id].title:'尚未抵达'}</strong></button>)}</div>
+    <h3 className="memory-heading">梧城风景与见面画面</h3><div className="cg-grid">{(Object.keys(cgInfo) as CgId[]).map(id=><button className="cg-card" key={id} disabled={!gallery.includes(id)} onClick={()=>setPicture(id)}>{gallery.includes(id)?<img src={art(pictureAsset(id))} alt={cgInfo[id].description}/>:<span className="cg-placeholder"><Icon name="book" size={32}/></span>}<strong>{gallery.includes(id)?cgInfo[id].title:'尚未抵达'}</strong></button>)}</div>
     <h3 className="memory-heading">同一座城的声音</h3><p className="soft-note">沿用 Project1 的离线程序配乐，按实际到达的场景解锁。试听结束后恢复阅读设置。</p><div className="score-list">{(Object.entries(scoreInfo) as [MusicId,(typeof scoreInfo)[MusicId]][]).map(([id,score])=><button className={audition===id?'score-card active':'score-card'} key={id} disabled={!scores.includes(id)} aria-pressed={audition===id} onClick={()=>onAudition(audition===id?null:id)}><Icon name={audition===id?'pause':'play'} size={19}/><span><strong>{scores.includes(id)?score.title:'尚未听见'}</strong><small>{scores.includes(id)?score.description:'继续阅读后开启。'}</small></span></button>)}</div>
   </div>;
 }

@@ -1,5 +1,62 @@
 {
   "schema": 1,
   "game": "netlove",
-  "clips": []
+  "clips": [
+    {
+      "id": "c2-call-004",
+      "lineId": "c2-call-004",
+      "speaker": "谢听禾",
+      "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+      "src": "voice/c2-call-004.ogg"
+    },
+    {
+      "id": "c2-call-006",
+      "lineId": "c2-call-006",
+      "speaker": "谢听禾",
+      "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+      "src": "voice/c2-call-006.ogg"
+    },
+    {
+      "id": "c2-call-009",
+      "lineId": "c2-call-009",
+      "speaker": "谢听禾",
+      "text": "要视频吗？不方便也没关系。",
+      "src": "voice/c2-call-009.ogg"
+    },
+    {
+      "id": "c5-tinghe-005",
+      "lineId": "c5-tinghe-005",
+      "speaker": "谢听禾",
+      "text": "你好。你的声音离近了，跟耳机里有点不一样。",
+      "src": "voice/c5-tinghe-005.ogg"
+    },
+    {
+      "id": "c5-tinghe-016",
+      "lineId": "c5-tinghe-016",
+      "speaker": "谢听禾",
+      "text": "我也想。可是开学以后，我可能真的很忙。",
+      "src": "voice/c5-tinghe-016.ogg"
+    },
+    {
+      "id": "c5-xumi-002",
+      "lineId": "c5-xumi-002",
+      "speaker": "许弥",
+      "text": "真人看起来，比蓝底照片自然一点。",
+      "src": "voice/c5-xumi-002.ogg"
+    },
+    {
+      "id": "c5-xumi-013",
+      "lineId": "c5-xumi-013",
+      "speaker": "许弥",
+      "text": "你是想当我的固定技术支持，还是想约我？",
+      "src": "voice/c5-xumi-013.ogg"
+    },
+    {
+      "id": "c5-xumi-019",
+      "lineId": "c5-xumi-019",
+      "speaker": "许弥",
+      "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "src": "voice/c5-xumi-019.ogg"
+    }
+  ]
 }

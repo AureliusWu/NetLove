@@ -45,8 +45,8 @@ it('does not play a newly loaded line while hidden, supports explicit same-line 
 });
 it('keeps planned line bindings exact without publishing placeholder recordings or chat voices',()=>{
  const plan=JSON.parse(readFileSync('docs/production/VOICE-BINDINGS-v0.3.0.json','utf8'));
- expect(plan.clips).toHaveLength(10);expect(plan.publishedClips).toBe(voiceClips.length);expect(voiceClips).toHaveLength(0);
- for(const planned of plan.clips){const scene=scenes.find(scene=>scene.id===planned.sceneId)!;const line=scene.lines.find(line=>line.id===planned.lineId)!;expect(line.text).toBe(planned.text);expect(line.speaker).toBe(planned.speaker);expect(line.medium).not.toBe('chat');expect(createHash('sha256').update(line.text).digest('hex')).toBe(planned.textSha256);expect(voiceFor(line)).toBeUndefined();expect(planned.status).toBe('planned-not-recorded');}
+ expect(plan.clips).toHaveLength(10);expect(plan.publishedClips).toBe(voiceClips.length);expect(voiceClips).toHaveLength(8);
+ for(const planned of plan.clips){const scene=scenes.find(scene=>scene.id===planned.sceneId)!;const line=scene.lines.find(line=>line.id===planned.lineId)!;expect(line.text).toBe(planned.text);expect(line.speaker).toBe(planned.speaker);expect(line.medium).not.toBe('chat');expect(createHash('sha256').update(line.text).digest('hex')).toBe(planned.textSha256);const recorded=voiceClips.find(clip=>clip.lineId===line.id);if(recorded){expect(voiceFor(line)).toEqual(recorded);expect(planned.status).toBe('recorded-pending-human-listening');const bytes=readFileSync(`public/${recorded.src}`);expect(bytes.subarray(0,4).toString()).toBe('OggS');}else{expect(voiceFor(line)).toBeUndefined();expect(planned.status).toBe('planned-not-recorded');}}
 });
 it('defaults independent voice preferences for older settings',()=>{
  const original=Object.getOwnPropertyDescriptor(globalThis,'localStorage');Object.defineProperty(globalThis,'localStorage',{configurable:true,value:{getItem:(key:string)=>key===`${KEY}:settings`?'{"volume":0.1,"voiceVolume":3}':null}});

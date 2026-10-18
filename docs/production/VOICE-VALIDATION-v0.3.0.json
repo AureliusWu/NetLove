@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "clips": [
+    {
+      "id": "c2-call-004",
+      "duration": 4.96,
+      "sha256": "a964b1fa5e3277ff6264801b79d41c7c8946bb42fb3bb8f9981a19d749a521cc",
+      "bytes": 37377
+    },
+    {
+      "id": "c2-call-006",
+      "duration": 5.52,
+      "sha256": "dfcc56eeb744dc5b5b4385014d84720f51d4a019985e2e3578b3222c4983cbb0",
+      "bytes": 42785
+    },
+    {
+      "id": "c2-call-009",
+      "duration": 3.28,
+      "sha256": "de03eafb8ac0c5883ca37a54e16aac8557c751e948401bbc64e1179157772538",
+      "bytes": 26417
+    },
+    {
+      "id": "c5-tinghe-005",
+      "duration": 4.08,
+      "sha256": "8635b7c4420ac36c9aa9388e9e699439d05331f0ac77590362bc5e8233e58350",
+      "bytes": 32561
+    },
+    {
+      "id": "c5-tinghe-016",
+      "duration": 3.92,
+      "sha256": "3f6c95123fee91933ee5bdcd741874940cd9a6b007a23b124b8a80e54ae2c241",
+      "bytes": 31291
+    },
+    {
+      "id": "c5-xumi-002",
+      "duration": 3.76,
+      "sha256": "93123795e6e9d8352fa60185a9a052c2cf17a67a3b7d8665f47cc2d704e39378",
+      "bytes": 30638
+    },
+    {
+      "id": "c5-xumi-013",
+      "duration": 4.64,
+      "sha256": "32382faf743ff3ba7ad21b73dbd528473bfddb6e8ffa62623e5fbbde9c3e327e",
+      "bytes": 36229
+    },
+    {
+      "id": "c5-xumi-019",
+      "duration": 3.76,
+      "sha256": "5866ad6088321c73bfa96d5a062bc80852c0e6187dd25b6dde71a5b6fb8f9662",
+      "bytes": 31075
+    }
+  ],
+  "decodedFiles": 24,
+  "humanListening": "pending",
+  "limitations": "Decode, provenance and ASR checks do not certify voice acting."
+}

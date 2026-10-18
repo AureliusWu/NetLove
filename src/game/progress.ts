@@ -1,7 +1,7 @@
-import { chapters, cgInfo } from '../story';
+import { chapters, cgInfo, eventCgIds } from '../story';
 import { replay, sceneMap } from './engine';
 import { decodeSave, encodeSave, KEY, readEndings } from './storage';
-import type { Chapter, CgId, Ending, GameState, MusicId, Save } from './types';
+import type { Chapter, CgId, Ending, EventCgId, GameState, MusicId, Save } from './types';
 import { scoreInfo } from './score';
 
 function checkpoint(key: string): Save | null {
@@ -14,6 +14,10 @@ export function readChapter(chapter: Chapter): Save | null {
 export function readEnding(ending: Ending): Save | null {
   const save = checkpoint(`ending:${ending}`);
   return save && sceneMap.get(save.state.sceneId)?.ending === ending && save.state.line === 0 ? save : null;
+}
+export function readPicture(id: EventCgId): Save | null {
+  const save = checkpoint(`picture:${id}`);
+  return save && sceneMap.get(save.state.sceneId)?.cg === id && save.state.line === 0 ? save : null;
 }
 function known<T extends string>(key: string, ids: T[]): T[] {
   try {
@@ -40,7 +44,12 @@ export function rememberProgress(state: GameState, finished: boolean) {
     }
   }
   const visited = [...new Set([...state.history.map(line => line.sceneId), state.sceneId])].map(id => sceneMap.get(id)!);
-  const gallery = union('gallery', readGallery(), visited.map(item => item.background));
+  for (const item of visited) {
+    const id = item.cg as EventCgId | undefined;
+    if (!id || !eventCgIds.includes(id) || readPicture(id)) continue;
+    localStorage.setItem(`${KEY}:picture:${id}`, JSON.stringify(encodeSave(replay(state.decisions, item.id, 0))));
+  }
+  const gallery = union('gallery', readGallery(), visited.flatMap(item => item.cg ? [item.background, item.cg] : [item.background]));
   const scores = union('scores', readScores(), visited.map(item => musicFor(item.id)));
   let endings = readEndings();
   if (finished && scene.ending) {

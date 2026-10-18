@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "version": "0.3.0",
+  "status": "local_validation_passed_remote_release_pending",
+  "logicTests": 59,
+  "browserTests": 50,
+  "nativeRoutes": 288,
+  "scenes": 43,
+  "lines": 507,
+  "voiceClips": 8,
+  "audioDecodedFiles": 24,
+  "asrPassed": 8,
+  "eventCgs": 2,
+  "materialsTests": 10,
+  "materialsVerification": "passed; 26 entries / 82 exact file references",
+  "storageCompatibility": "netlove-v1 and reading-backup schema 1 retained; optional picture route proofs added",
+  "windowsGate": "source, unpacked, installed same-profile v0.2.6 upgrade and portable outer wrapper; pending this version CI",
+  "humanListening": "pending",
+  "artPromptRecovery": "original CG bytes recovered; original generation request not present, explicitly recorded"
+}

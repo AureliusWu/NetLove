@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "cg-tinghe-meeting",
+      "source": "assets_source/cg/v0.3.0/tinghe-meeting.png",
+      "output": "public/art/cg-tinghe-meeting.webp",
+      "sourceLibraryId": "libfile_a75cfce3be4881918a28d2df6bcc7f76",
+      "sourceSha256": "188fc954c5747131574fc6ae250e4eb75853b405e1d47e9cf21ae4d62ad06e63",
+      "sourceBytes": 2572474,
+      "sha256": "c41362d792ab0d187d378ca3978375d1446b1f9e583df078170b1cd24c4139a7",
+      "bytes": 346652,
+      "sourceDimensions": [
+        1659,
+        948
+      ],
+      "dimensions": [
+        1659,
+        948
+      ],
+      "tool": "built-in image generation (recovered original)",
+      "promptStatus": "original generation request not present in recovered file; no reconstructed prompt presented as original",
+      "license": "AI-generated project-only artwork; platform output terms apply",
+      "humanApproval": "pending",
+      "processing": "RGB WebP encoding; Circuit resized to existing 1600x900 canvas"
+    },
+    {
+      "id": "cg-xumi-envelope",
+      "source": "assets_source/cg/v0.3.0/xumi-envelope.png",
+      "output": "public/art/cg-xumi-envelope.webp",
+      "sourceLibraryId": "libfile_033f9c4531d88191b86c08e33ae5b8e1",
+      "sourceSha256": "9251848bc9f642b186dfd98a6516a48fa064737d8456f074a91cb6b41f359f56",
+      "sourceBytes": 2122081,
+      "sha256": "916bd4dfd4264654e7f934e547801e173b0ba7a0b18ce4df3b0f8f45bb007977",
+      "bytes": 238984,
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "tool": "built-in image generation (recovered original)",
+      "promptStatus": "original generation request not present in recovered file; no reconstructed prompt presented as original",
+      "license": "AI-generated project-only artwork; platform output terms apply",
+      "humanApproval": "pending",
+      "processing": "RGB WebP encoding; Circuit resized to existing 1600x900 canvas"
+    }
+  ]
+}

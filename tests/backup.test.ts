@@ -50,7 +50,18 @@ describe('complete reading backup', () => {
     const retained = [data.get(`${KEY}:save:2`), data.get(`${KEY}:chapter:2`), data.get(`${KEY}:ending:xumi-final`)];
     backup.memories.gallery = ['bedroom']; applyProgressImport(decodeProgressFile(JSON.stringify(backup)));
     expect([data.get(`${KEY}:save:2`), data.get(`${KEY}:chapter:2`), data.get(`${KEY}:ending:xumi-final`)]).toEqual(retained);
-    expect(readGallery()).toHaveLength(5); expect(readEndings()).toHaveLength(4);
+    expect(readGallery()).toHaveLength(7); expect(readEndings()).toHaveLength(4);
+  });
+  it('keeps a reached event picture proof after starting over, and rejects a forged unread event', () => {
+    const state = replay(decisions, 'c5-tinghe', 4);
+    rememberProgress(state, false); writeSave('auto', newGame());
+    const backup = createReadingBackup();
+    expect(backup.pictures?.['tinghe-meeting']?.state.sceneId).toBe('c5-tinghe');
+    expect(() => decodeProgressFile(JSON.stringify(backup))).not.toThrow();
+    const bad = { ...backup, memories: { ...backup.memories, gallery: [...backup.memories.gallery, 'xumi-envelope'] } };
+    expect(() => decodeProgressFile(JSON.stringify(bad))).toThrow(/画面/);
+    data.clear(); applyProgressImport(decodeProgressFile(JSON.stringify(backup)));
+    expect(createReadingBackup().pictures?.['tinghe-meeting']?.state.sceneId).toBe('c5-tinghe');
   });
   it('keeps legacy single-save JSON compatible without replacing manual slots', () => {
     writeSave('3', newGame()); const retained = data.get(`${KEY}:save:3`);

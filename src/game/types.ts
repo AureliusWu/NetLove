@@ -1,7 +1,8 @@
 export type Character = 'tinghe' | 'xumi';
 export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
 export type Background = 'bedroom' | 'balcony' | 'gate' | 'printshop' | 'riverbank';
-export type CgId = Background;
+export type EventCgId = 'tinghe-meeting' | 'xumi-envelope';
+export type CgId = Background | EventCgId;
 export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain';
 export type Ending = 'tinghe-final' | 'xumi-final' | 'friends-final' | 'letter-final';
 export type Stats = { honesty: number; tinghe: number; xumi: number };

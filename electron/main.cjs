@@ -2,7 +2,13 @@ const { app, BrowserWindow, Menu } = require('electron');
 const path=require('node:path'), fs=require('node:fs');
 const {pathToFileURL}=require('node:url');
 const smoke=process.argv.includes('--smoke-test');
-if(smoke)app.setPath('userData',path.join(app.getPath('temp'),`netlove-smoke-${process.pid}`));
+const smokeDataArgument=process.argv.indexOf('--smoke-user-data-dir');
+const restoring=smoke&&smokeDataArgument>=0;
+if(smoke){
+ const directory=restoring?path.resolve(process.argv[smokeDataArgument+1]||''):path.join(app.getPath('temp'),`netlove-smoke-${process.pid}`);
+ if(path.dirname(directory).toLowerCase()!==path.resolve(app.getPath('temp')).toLowerCase()||!/^netlove-smoke-\d+$/.test(path.basename(directory)))throw new Error('Smoke storage must be an isolated temporary game profile');
+ app.setPath('userData',directory);
+}
 let window;
 function openWindow(){
  const index=path.join(__dirname,'..','dist','index.html'),entry=pathToFileURL(index).href;
@@ -22,6 +28,20 @@ function openWindow(){
  window.webContents.on('did-fail-load',(_event,code,description)=>{console.error('Desktop load failed:',code,description);if(smoke)app.exit(1);});
  if(smoke)window.webContents.once('did-finish-load',async()=>{
   try{
+   if(restoring){
+    await window.webContents.executeJavaScript(`(async()=>{
+     const saved=JSON.parse(localStorage.getItem('netlove:v1:save:auto'))||{};
+     if(saved.game!=='netlove'||saved.schema!==1||saved.state.storyVersion!=='netlove-v1'||saved.state.sceneId!=='end-tinghe'||saved.state.line!==9||saved.state.decisions.length!==6)throw new Error('Installed upgrade lost the prior version save');
+     const button=name=>[...document.querySelectorAll('button')].find(b=>b.textContent.trim()===name);
+     for(let i=0;i<200&&!button('继续上次的故事');i++)await new Promise(r=>setTimeout(r,25));
+     button('继续上次的故事').click();
+     for(let i=0;i<400&&!document.querySelector('.ending-card');i++)await new Promise(r=>setTimeout(r,25));
+     if(document.querySelector('.game-screen')?.dataset.scene!=='end-tinghe'||document.querySelector('.game-screen')?.dataset.line!=='9'||!document.querySelector('.ending-card'))throw new Error('Upgraded installed game cannot resume old ending');
+     button('回到标题').click();
+     for(let i=0;i<200&&!button('开始阅读');i++)await new Promise(r=>setTimeout(r,25));
+    })()`);
+    console.log('DESKTOP_UPGRADE_OK',JSON.stringify({version:app.getVersion(),saveSchema:1,sameProfile:true}));
+   }
    console.log('DESKTOP_SMOKE_PHASE','story-and-archive');
    const result=await window.webContents.executeJavaScript(fs.readFileSync(path.join(__dirname,'smoke-script.js'),'utf8'));
    console.log('DESKTOP_SMOKE_PHASE','fullscreen-continuation');
@@ -53,7 +73,15 @@ function openWindow(){
    if(!hiddenWindow)throw new Error('Desktop smoke window remained visible');
    const out=path.join(process.cwd(),'test-results','desktop');fs.mkdirSync(out,{recursive:true});
    fs.writeFileSync(path.join(out,app.isPackaged?'packaged.png':'source.png'),(await window.webContents.capturePage()).toPNG());
-   console.log('DESKTOP_SMOKE_OK',JSON.stringify({...result,nativeFullscreen:true,fullscreenProgress,hiddenWindow,smokeShowEvents,packaged:app.isPackaged,version:app.getVersion()}));app.exit(0);
+   const proof={...result,nativeFullscreen:true,fullscreenProgress,hiddenWindow,smokeShowEvents,packaged:app.isPackaged,version:app.getVersion(),profile:app.getPath('userData')};
+   const report=process.env.NETLOVE_SMOKE_REPORT;
+   if(report&&process.env.GITHUB_ACTIONS==='true'&&process.env.GITHUB_REPOSITORY==='AureliusWu/NetLove'){
+    const directory=path.dirname(path.resolve(report));
+    if(path.dirname(directory).toLowerCase()!==path.resolve(process.env.RUNNER_TEMP||'').toLowerCase()||!path.basename(directory).startsWith('NetLove-installed-'))throw new Error('Unsafe smoke report path');
+    if(app.isPackaged)proof.asarSha256=require('node:crypto').createHash('sha256').update(fs.readFileSync(app.getAppPath())).digest('hex');
+    fs.writeFileSync(report,JSON.stringify(proof));
+   }
+   console.log('DESKTOP_SMOKE_OK',JSON.stringify(proof));app.exit(0);
   }catch(error){console.error(error);app.exit(1);}
  });
  void window.loadFile(index);

@@ -1,0 +1,344 @@
+{
+  "schema": 1,
+  "game": "netlove",
+  "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+  "clips": [
+    {
+      "id": "c2-call-004",
+      "lineId": "c2-call-004",
+      "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+      "speaker": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。",
+      "seed": 300030,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "79a8e6c3334a08c9c334ed1972b3b9c0d44fc76e0c61163a1fd41c355d0f4747",
+      "duration": 4.96,
+      "generationSeconds": 28.456,
+      "loudnessInput": {
+        "input_i": "-23.55",
+        "input_tp": "-8.84",
+        "input_lra": "1.10",
+        "input_thresh": "-34.06",
+        "output_i": "-20.03",
+        "output_tp": "-5.54",
+        "output_lra": "1.30",
+        "output_thresh": "-30.67",
+        "normalization_type": "dynamic",
+        "target_offset": "0.03"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-004-raw.wav",
+          "bytes": 238124,
+          "sha256": "60ff133fd1cc8d29bdd08b69c696017be17587afd5790c746955de55a942af05"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-004.wav",
+          "bytes": 238158,
+          "sha256": "3b3c785207c08d65901d66f2d85785fa9d27ba031fa001c0c8409a80c24f911b"
+        },
+        {
+          "path": "public/voice/c2-call-004.ogg",
+          "bytes": 37377,
+          "sha256": "a964b1fa5e3277ff6264801b79d41c7c8946bb42fb3bb8f9981a19d749a521cc"
+        }
+      ]
+    },
+    {
+      "id": "c2-call-006",
+      "lineId": "c2-call-006",
+      "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+      "speaker": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。",
+      "seed": 300031,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "1c284e0943ee9d97fd75c74f64bbb925bf4c6501d8d98dc4177dbd5c55cdbd78",
+      "duration": 5.52,
+      "generationSeconds": 33.477,
+      "loudnessInput": {
+        "input_i": "-27.92",
+        "input_tp": "-11.88",
+        "input_lra": "2.80",
+        "input_thresh": "-38.36",
+        "output_i": "-20.44",
+        "output_tp": "-4.98",
+        "output_lra": "2.80",
+        "output_thresh": "-30.78",
+        "normalization_type": "dynamic",
+        "target_offset": "0.44"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-006-raw.wav",
+          "bytes": 265004,
+          "sha256": "b3ef0ab57199d379afd5d6e4b7f83218e6151e4d5ea4c534d9cbc48771102d71"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-006.wav",
+          "bytes": 265038,
+          "sha256": "54da5a0f1f885ab2dd791c3297efab7191ae71e6c311bdfeb88ee9a802c07e0d"
+        },
+        {
+          "path": "public/voice/c2-call-006.ogg",
+          "bytes": 42785,
+          "sha256": "dfcc56eeb744dc5b5b4385014d84720f51d4a019985e2e3578b3222c4983cbb0"
+        }
+      ]
+    },
+    {
+      "id": "c2-call-009",
+      "lineId": "c2-call-009",
+      "text": "要视频吗？不方便也没关系。",
+      "speaker": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。",
+      "seed": 300032,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "87411feadebc4cf2546b936c192a5e340c6f843ed14bf8138b193e1462c67a96",
+      "duration": 3.28,
+      "generationSeconds": 17.32,
+      "loudnessInput": {
+        "input_i": "-25.98",
+        "input_tp": "-9.11",
+        "input_lra": "1.80",
+        "input_thresh": "-37.17",
+        "output_i": "-19.33",
+        "output_tp": "-3.00",
+        "output_lra": "0.00",
+        "output_thresh": "-30.51",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.67"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-009-raw.wav",
+          "bytes": 157484,
+          "sha256": "c87e2217b8b214e178138d34b2feec60b8adbad9a8dc0b78b7dc9b63e72a02ff"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c2-call-009.wav",
+          "bytes": 157518,
+          "sha256": "d8c55b0c28ce4121adc3fdbdd00814f6352dd603e07d0c1d3feb9b6512cd0c2a"
+        },
+        {
+          "path": "public/voice/c2-call-009.ogg",
+          "bytes": 26417,
+          "sha256": "de03eafb8ac0c5883ca37a54e16aac8557c751e948401bbc64e1179157772538"
+        }
+      ]
+    },
+    {
+      "id": "c5-tinghe-005",
+      "lineId": "c5-tinghe-005",
+      "text": "你好。你的声音离近了，跟耳机里有点不一样。",
+      "speaker": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。",
+      "seed": 300033,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "ba383bb096243e49f55085cfef9bce0cd5e34f18d28bcdd76bb16af8c6bee433",
+      "duration": 4.08,
+      "generationSeconds": 23.261,
+      "loudnessInput": {
+        "input_i": "-25.69",
+        "input_tp": "-10.98",
+        "input_lra": "0.80",
+        "input_thresh": "-35.88",
+        "output_i": "-19.39",
+        "output_tp": "-4.62",
+        "output_lra": "0.80",
+        "output_thresh": "-29.74",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.61"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-005-raw.wav",
+          "bytes": 195884,
+          "sha256": "361891207ffb908ffe35cab9d536d84e28b2720144fe0ac1406bec55bdcd135b"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-005.wav",
+          "bytes": 195918,
+          "sha256": "1b9cda7280ac6e7acf7147acbcc0f2394ecd1567142d9f00aef4a3fadca756ca"
+        },
+        {
+          "path": "public/voice/c5-tinghe-005.ogg",
+          "bytes": 32561,
+          "sha256": "8635b7c4420ac36c9aa9388e9e699439d05331f0ac77590362bc5e8233e58350"
+        }
+      ]
+    },
+    {
+      "id": "c5-tinghe-016",
+      "lineId": "c5-tinghe-016",
+      "text": "我也想。可是开学以后，我可能真的很忙。",
+      "speaker": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。",
+      "seed": 300034,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "838a54886f10608345b4250c802d04bb033b3c802f8e8666ff515f342f986467",
+      "duration": 3.92,
+      "generationSeconds": 19.416,
+      "loudnessInput": {
+        "input_i": "-28.01",
+        "input_tp": "-12.62",
+        "input_lra": "0.80",
+        "input_thresh": "-38.21",
+        "output_i": "-18.81",
+        "output_tp": "-3.61",
+        "output_lra": "0.00",
+        "output_thresh": "-29.19",
+        "normalization_type": "dynamic",
+        "target_offset": "-1.19"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-016-raw.wav",
+          "bytes": 188204,
+          "sha256": "6dc269ad6d6981d02b066dd095833cdd825dc2bc846295c7b99f10dc304c139e"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-016.wav",
+          "bytes": 188238,
+          "sha256": "6cc67dfb8c93263643371a2d42ad508b30094392609515fa56b32d90a6259ca9"
+        },
+        {
+          "path": "public/voice/c5-tinghe-016.ogg",
+          "bytes": 31291,
+          "sha256": "3f6c95123fee91933ee5bdcd741874940cd9a6b007a23b124b8a80e54ae2c241"
+        }
+      ]
+    },
+    {
+      "id": "c5-xumi-002",
+      "lineId": "c5-xumi-002",
+      "text": "真人看起来，比蓝底照片自然一点。",
+      "speaker": "许弥",
+      "voice": "Vivian",
+      "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。",
+      "seed": 300035,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "ada87cf608701d2ac120e1b291e474c2157034c2c0befeceb168a77dd6f4e596",
+      "duration": 3.76,
+      "generationSeconds": 18.862,
+      "loudnessInput": {
+        "input_i": "-19.51",
+        "input_tp": "-2.31",
+        "input_lra": "0.90",
+        "input_thresh": "-29.77",
+        "output_i": "-20.07",
+        "output_tp": "-3.11",
+        "output_lra": "0.00",
+        "output_thresh": "-30.31",
+        "normalization_type": "dynamic",
+        "target_offset": "0.07"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-002-raw.wav",
+          "bytes": 180524,
+          "sha256": "af3e25758635853bf3c07197e62e7f973aad6d6edd1f69a72196666747bb6547"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-002.wav",
+          "bytes": 180558,
+          "sha256": "9e979100c231296ed3a2d6f8234b721f1365a2a2a2b28818c70ef294da803fd8"
+        },
+        {
+          "path": "public/voice/c5-xumi-002.ogg",
+          "bytes": 30638,
+          "sha256": "93123795e6e9d8352fa60185a9a052c2cf17a67a3b7d8665f47cc2d704e39378"
+        }
+      ]
+    },
+    {
+      "id": "c5-xumi-013",
+      "lineId": "c5-xumi-013",
+      "text": "你是想当我的固定技术支持，还是想约我？",
+      "speaker": "许弥",
+      "voice": "Vivian",
+      "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。",
+      "seed": 300037,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "60b85d028550afcdf4ef024de49517307ffb1b854a7d7b21bf02ce1126dedd87",
+      "duration": 4.64,
+      "generationSeconds": 21.883,
+      "loudnessInput": {
+        "input_i": "-21.32",
+        "input_tp": "-7.01",
+        "input_lra": "3.60",
+        "input_thresh": "-31.46",
+        "output_i": "-20.19",
+        "output_tp": "-6.68",
+        "output_lra": "1.90",
+        "output_thresh": "-30.41",
+        "normalization_type": "dynamic",
+        "target_offset": "0.19"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-013-raw.wav",
+          "bytes": 222764,
+          "sha256": "ed0589c1b487e7e21a4059e2eefbd69872e547d873a81de30528d2db89c6b8aa"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-013.wav",
+          "bytes": 222798,
+          "sha256": "2d82cb1135458a8dde3a8bb05ffbf81f609ca0eafa2c26d1265c165a1bee9170"
+        },
+        {
+          "path": "public/voice/c5-xumi-013.ogg",
+          "bytes": 36229,
+          "sha256": "32382faf743ff3ba7ad21b73dbd528473bfddb6e8ffa62623e5fbbde9c3e327e"
+        }
+      ]
+    },
+    {
+      "id": "c5-xumi-019",
+      "lineId": "c5-xumi-019",
+      "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "speaker": "许弥",
+      "voice": "Vivian",
+      "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。",
+      "seed": 300039,
+      "providerSha256": "fee85bf1a6e53fd2027261179fd12722995019fc48c9dcd0f7d618f75c315b68",
+      "requestSha256": "25287624817c64017b83f4c7fd33bfca5fa8273271138ed0ab3a5b22a5182b22",
+      "duration": 3.76,
+      "generationSeconds": 16.722,
+      "loudnessInput": {
+        "input_i": "-19.05",
+        "input_tp": "-4.02",
+        "input_lra": "0.30",
+        "input_thresh": "-29.33",
+        "output_i": "-19.47",
+        "output_tp": "-4.60",
+        "output_lra": "0.00",
+        "output_thresh": "-29.73",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.53"
+      },
+      "files": [
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-019-raw.wav",
+          "bytes": 180524,
+          "sha256": "8c1e01f7b46418d1d94f2862f99c7bc7eaae8d7b595f721c3f3a305bf6a87c2b"
+        },
+        {
+          "path": "assets_source/voice/v0.3.0/c5-xumi-019.wav",
+          "bytes": 180558,
+          "sha256": "c6a54f8c73ed96cd68ecdcc120de6f1641a5fa1a41847b00b432d234bfa8f6f2"
+        },
+        {
+          "path": "public/voice/c5-xumi-019.ogg",
+          "bytes": 31075,
+          "sha256": "5866ad6088321c73bfa96d5a062bc80852c0e6187dd25b6dde71a5b6fb8f9662"
+        }
+      ]
+    }
+  ],
+  "humanListening": "pending"
+}

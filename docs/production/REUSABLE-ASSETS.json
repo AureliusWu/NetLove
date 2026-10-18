@@ -4,7 +4,7 @@
   "project": "NetLove",
   "repository": "https://github.com/AureliusWu/NetLove",
   "sourceCommit": "e331d2512fa77cb39ee08f94af3f019e67b561d1",
-  "inventoryDate": "2026-10-14",
+  "inventoryDate": "2026-10-18",
   "entries": [
     {
       "id": "shared-vn-production",
@@ -219,7 +219,7 @@
           "role": "recipe",
           "path": "src/game/types.ts",
           "encoding": "text-lf",
-          "sha256": "dc22185d135904397e9efe66fa17b4d6b5e44466c78b1bb414dedae0534f677d"
+          "sha256": "c3f74de2da37872d9efecaccacc05950eeeed9a81350e30c41d2280771d55926"
         }
       ]
     },
@@ -638,6 +638,290 @@
           "path": "src/history-search.css",
           "encoding": "text-lf",
           "sha256": "934b8e89dbf4a8a951460f89ef9d72ac0bbd486a4cfb4f3871c649be1976e77b"
+        }
+      ]
+    },
+    {
+      "id": "cg-tinghe-meeting",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Recovered original built-in image generation; original request unavailable, gap explicitly recorded",
+      "sourceStatus": "present",
+      "licenseNote": "AI-generated project-only artwork; platform output terms apply",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/cg/v0.3.0/tinghe-meeting.png",
+          "encoding": "binary",
+          "sha256": "188fc954c5747131574fc6ae250e4eb75853b405e1d47e9cf21ae4d62ad06e63"
+        },
+        {
+          "role": "runtime",
+          "path": "public/art/cg-tinghe-meeting.webp",
+          "encoding": "binary",
+          "sha256": "c41362d792ab0d187d378ca3978375d1446b1f9e583df078170b1cd24c4139a7"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1659,
+          948
+        ],
+        "bytes": 346652,
+        "alpha": false
+      }
+    },
+    {
+      "id": "cg-xumi-envelope",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Recovered original built-in image generation; original request unavailable, gap explicitly recorded",
+      "sourceStatus": "present",
+      "licenseNote": "AI-generated project-only artwork; platform output terms apply",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/cg/v0.3.0/xumi-envelope.png",
+          "encoding": "binary",
+          "sha256": "9251848bc9f642b186dfd98a6516a48fa064737d8456f074a91cb6b41f359f56"
+        },
+        {
+          "role": "runtime",
+          "path": "public/art/cg-xumi-envelope.webp",
+          "encoding": "binary",
+          "sha256": "916bd4dfd4264654e7f934e547801e173b0ba7a0b18ce4df3b0f8f45bb007977"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 238984,
+        "alpha": false
+      }
+    },
+    {
+      "id": "voice-c2-call-004",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-004-raw.wav",
+          "encoding": "binary",
+          "sha256": "60ff133fd1cc8d29bdd08b69c696017be17587afd5790c746955de55a942af05"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-004.wav",
+          "encoding": "binary",
+          "sha256": "3b3c785207c08d65901d66f2d85785fa9d27ba031fa001c0c8409a80c24f911b"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c2-call-004.ogg",
+          "encoding": "binary",
+          "sha256": "a964b1fa5e3277ff6264801b79d41c7c8946bb42fb3bb8f9981a19d749a521cc"
+        }
+      ]
+    },
+    {
+      "id": "voice-c2-call-006",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-006-raw.wav",
+          "encoding": "binary",
+          "sha256": "b3ef0ab57199d379afd5d6e4b7f83218e6151e4d5ea4c534d9cbc48771102d71"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-006.wav",
+          "encoding": "binary",
+          "sha256": "54da5a0f1f885ab2dd791c3297efab7191ae71e6c311bdfeb88ee9a802c07e0d"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c2-call-006.ogg",
+          "encoding": "binary",
+          "sha256": "dfcc56eeb744dc5b5b4385014d84720f51d4a019985e2e3578b3222c4983cbb0"
+        }
+      ]
+    },
+    {
+      "id": "voice-c2-call-009",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-009-raw.wav",
+          "encoding": "binary",
+          "sha256": "c87e2217b8b214e178138d34b2feec60b8adbad9a8dc0b78b7dc9b63e72a02ff"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c2-call-009.wav",
+          "encoding": "binary",
+          "sha256": "d8c55b0c28ce4121adc3fdbdd00814f6352dd603e07d0c1d3feb9b6512cd0c2a"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c2-call-009.ogg",
+          "encoding": "binary",
+          "sha256": "de03eafb8ac0c5883ca37a54e16aac8557c751e948401bbc64e1179157772538"
+        }
+      ]
+    },
+    {
+      "id": "voice-c5-tinghe-005",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-005-raw.wav",
+          "encoding": "binary",
+          "sha256": "361891207ffb908ffe35cab9d536d84e28b2720144fe0ac1406bec55bdcd135b"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-005.wav",
+          "encoding": "binary",
+          "sha256": "1b9cda7280ac6e7acf7147acbcc0f2394ecd1567142d9f00aef4a3fadca756ca"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c5-tinghe-005.ogg",
+          "encoding": "binary",
+          "sha256": "8635b7c4420ac36c9aa9388e9e699439d05331f0ac77590362bc5e8233e58350"
+        }
+      ]
+    },
+    {
+      "id": "voice-c5-tinghe-016",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-016-raw.wav",
+          "encoding": "binary",
+          "sha256": "6dc269ad6d6981d02b066dd095833cdd825dc2bc846295c7b99f10dc304c139e"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-tinghe-016.wav",
+          "encoding": "binary",
+          "sha256": "6cc67dfb8c93263643371a2d42ad508b30094392609515fa56b32d90a6259ca9"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c5-tinghe-016.ogg",
+          "encoding": "binary",
+          "sha256": "3f6c95123fee91933ee5bdcd741874940cd9a6b007a23b124b8a80e54ae2c241"
+        }
+      ]
+    },
+    {
+      "id": "voice-c5-xumi-002",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-002-raw.wav",
+          "encoding": "binary",
+          "sha256": "af3e25758635853bf3c07197e62e7f973aad6d6edd1f69a72196666747bb6547"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-002.wav",
+          "encoding": "binary",
+          "sha256": "9e979100c231296ed3a2d6f8234b721f1365a2a2a2b28818c70ef294da803fd8"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c5-xumi-002.ogg",
+          "encoding": "binary",
+          "sha256": "93123795e6e9d8352fa60185a9a052c2cf17a67a3b7d8665f47cc2d704e39378"
+        }
+      ]
+    },
+    {
+      "id": "voice-c5-xumi-013",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-013-raw.wav",
+          "encoding": "binary",
+          "sha256": "ed0589c1b487e7e21a4059e2eefbd69872e547d873a81de30528d2db89c6b8aa"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-013.wav",
+          "encoding": "binary",
+          "sha256": "2d82cb1135458a8dde3a8bb05ffbf81f609ca0eafa2c26d1265c165a1bee9170"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c5-xumi-013.ogg",
+          "encoding": "binary",
+          "sha256": "32382faf743ff3ba7ad21b73dbd528473bfddb6e8ffa62623e5fbbde9c3e327e"
+        }
+      ]
+    },
+    {
+      "id": "voice-c5-xumi-019",
+      "kind": "voice",
+      "reuse": "project-only",
+      "origin": "Independent Qwen3-TTS recording for NetLove; exact requests in VOICE-RECORDINGS-v0.3.0.json",
+      "sourceStatus": "present",
+      "licenseNote": "Qwen3-TTS model Apache-2.0; generated project voice identity is project-only",
+      "files": [
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-019-raw.wav",
+          "encoding": "binary",
+          "sha256": "8c1e01f7b46418d1d94f2862f99c7bc7eaae8d7b595f721c3f3a305bf6a87c2b"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/voice/v0.3.0/c5-xumi-019.wav",
+          "encoding": "binary",
+          "sha256": "c6a54f8c73ed96cd68ecdcc120de6f1641a5fa1a41847b00b432d234bfa8f6f2"
+        },
+        {
+          "role": "runtime",
+          "path": "public/voice/c5-xumi-019.ogg",
+          "encoding": "binary",
+          "sha256": "5866ad6088321c73bfa96d5a062bc80852c0e6187dd25b6dde71a5b6fb8f9662"
         }
       ]
     }

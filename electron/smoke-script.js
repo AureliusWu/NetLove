@@ -34,6 +34,6 @@ if(!document.querySelector('.ending-card').textContent.includes('同一段呼吸
 button('制作人员').click();await wait(()=>document.querySelector('.credits-copy'));button('关闭').click();
 button('回到标题').click();await wait(()=>button('回忆'));button('回忆').click();
 await wait(()=>document.querySelector('.memory.unlocked'));
-if(document.querySelectorAll('.cg-card:not(:disabled)').length!==5)throw new Error('Background unlocks not reconstructed');
+if(document.querySelectorAll('.cg-card:not(:disabled)').length!==6)throw new Error('Background unlocks not reconstructed');
 return {story:true,autosave:true,fullWindow:true,pictureMode:true,sandbox:true,tinghe:true,xumi:true,ending:true,archive:true};
 })()

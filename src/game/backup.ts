@@ -1,9 +1,9 @@
-import { chapters, cgInfo, finalEndingIds } from '../story';
+import { chapters, cgInfo, finalEndingIds, eventCgIds } from '../story';
 import { sceneMap } from './engine';
-import { readChapter, readEnding, readGallery, readScores } from './progress';
+import { readChapter, readEnding, readGallery, readPicture, readScores } from './progress';
 import { scoreInfo } from './score';
 import { decodeSave, encodeSave, KEY, readEndings, readSave, slots, type Slot } from './storage';
-import type { Chapter, CgId, Ending, GameState, MusicId, Save } from './types';
+import type { Chapter, CgId, Ending, EventCgId, GameState, MusicId, Save } from './types';
 
 // History and scores are reconstructed by decodeSave/replay, rather than repeated
 // in every checkpoint. Stable story identity and actual decisions travel with it.
@@ -13,11 +13,13 @@ export type ReadingBackup = {
   slots: Partial<Record<Slot, CompactSave>>;
   chapters: Partial<Record<Chapter, CompactSave>>;
   endings: Partial<Record<Ending, CompactSave>>;
+  pictures?: Partial<Record<EventCgId, CompactSave>>;
   memories: { endings: Ending[]; gallery: CgId[]; scores: MusicId[] };
 };
 export type ProgressImport = { kind: 'single'; save: Save } | {
   kind: 'backup'; slots: Partial<Record<Slot, Save>>;
   chapters: Partial<Record<Chapter, Save>>; endings: Partial<Record<Ending, Save>>;
+  pictures: Partial<Record<EventCgId, Save>>;
   memories: ReadingBackup['memories'];
 };
 
@@ -38,8 +40,10 @@ export function createReadingBackup(current?: GameState, date = new Date()): Rea
   for (const chapter of chapters) { const save = readChapter(chapter.id); if (save) chapterProofs[chapter.id] = compact(save); }
   const endingProofs: ReadingBackup['endings'] = {};
   for (const ending of finalEndingIds) { const save = readEnding(ending); if (save) endingProofs[ending] = compact(save); }
+  const pictureProofs: ReadingBackup['pictures'] = {};
+  for (const id of eventCgIds) { const save = readPicture(id); if (save) pictureProofs[id] = compact(save); }
   return { format: 'netlove-reading-backup', schema: 1, game: 'netlove', storyVersion: 'netlove-v1', exportedAt: date.toISOString(),
-    slots: saves, chapters: chapterProofs, endings: endingProofs,
+    slots: saves, chapters: chapterProofs, endings: endingProofs, pictures: pictureProofs,
     memories: { endings: readEndings().filter((id): id is Ending => finalEndingIds.includes(id as Ending) && !!endingProofs[id as Ending]), gallery: readGallery(), scores: readScores() } };
 }
 function saveMap<T extends string | number>(value: unknown, ids: readonly T[], validate?: (save: Save, id: T) => boolean): Partial<Record<T, Save>> {
@@ -65,10 +69,12 @@ export function decodeProgressFile(raw: string): ProgressImport {
   const saves = saveMap(value.slots, slots);
   const chapterProofs = saveMap(value.chapters, chapters.map(chapter => chapter.id), (save, id) => save.state.sceneId === chapters.find(chapter => chapter.id === id)!.start && save.state.line === 0);
   const endingProofs = saveMap(value.endings, finalEndingIds, (save, id) => sceneMap.get(save.state.sceneId)?.ending === id && save.state.line === 0);
+  const pictureProofs = saveMap(value.pictures ?? {}, eventCgIds, (save, id) => sceneMap.get(save.state.sceneId)?.cg === id && save.state.line === 0);
   if (!object(value.memories)) throw new Error('备份中的回忆记录损坏');
   const memories = { endings: knownList(value.memories.endings, finalEndingIds), gallery: knownList(value.memories.gallery, Object.keys(cgInfo) as CgId[]), scores: knownList(value.memories.scores, Object.keys(scoreInfo) as MusicId[]) };
   if (memories.endings.some(id => !endingProofs[id])) throw new Error('备份缺少已读结局的路线证明');
-  return { kind: 'backup', slots: saves, chapters: chapterProofs, endings: endingProofs, memories };
+  if (memories.gallery.some(id => eventCgIds.includes(id as EventCgId) && !pictureProofs[id as EventCgId])) throw new Error('备份缺少已读画面的路线证明');
+  return { kind: 'backup', slots: saves, chapters: chapterProofs, endings: endingProofs, pictures: pictureProofs, memories };
 }
 
 type ProgressStorage = Pick<Storage, 'getItem' | 'setItem' | 'removeItem'>;
@@ -79,6 +85,7 @@ export function applyProgressImport(imported: ProgressImport, storage: ProgressS
     for (const slot of slots) if (imported.slots[slot]) updates.set(`${KEY}:save:${slot}`, JSON.stringify(imported.slots[slot]));
     for (const chapter of chapters) if (imported.chapters[chapter.id]) updates.set(`${KEY}:chapter:${chapter.id}`, JSON.stringify(imported.chapters[chapter.id]));
     for (const ending of finalEndingIds) if (imported.endings[ending]) updates.set(`${KEY}:ending:${ending}`, JSON.stringify(imported.endings[ending]));
+    for (const id of eventCgIds) if (imported.pictures[id]) updates.set(`${KEY}:picture:${id}`, JSON.stringify(imported.pictures[id]));
     const merge = <T extends string>(key: string, ids: readonly T[], added: readonly T[]) => {
       let old: T[] = [];
       try { const value: unknown = JSON.parse(storage.getItem(`${KEY}:${key}`) ?? '[]'); if (Array.isArray(value)) old = value.filter((id): id is T => typeof id === 'string' && ids.includes(id as T)); } catch { /* Invalid local unlock list has no trusted entries. */ }

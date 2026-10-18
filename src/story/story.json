@@ -2911,7 +2911,8 @@
       "noSprite": false,
       "music": "evening",
       "next": "end-tinghe",
-      "character": "tinghe"
+      "character": "tinghe",
+      "cg": "tinghe-meeting"
     },
     {
       "id": "end-tinghe",
@@ -3109,7 +3110,8 @@
       "noSprite": false,
       "music": "workshop",
       "next": "end-xumi",
-      "character": "xumi"
+      "character": "xumi",
+      "cg": "xumi-envelope"
     },
     {
       "id": "end-xumi",

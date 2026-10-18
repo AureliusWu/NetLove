@@ -30,6 +30,13 @@ jobs:
           name: NetLove-Reusable-Materials
           path: .reuse-kit/v1.2.0/
           include-hidden-files: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify offline voice sources and runtime audio
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          python scripts/validate-voice.py
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium
@@ -65,6 +72,10 @@ jobs:
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
       - run: npm run test:desktop:packaged
+      - name: Verify installed upgrade and portable outer wrapper
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: npm run test:desktop:installed
       - uses: actions/upload-artifact@v4
         with:
           name: NetLove-Windows-x64

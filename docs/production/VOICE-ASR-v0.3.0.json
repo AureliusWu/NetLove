@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "model": "Systran/faster-whisper-large-v3",
+  "modelSha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+  "computeType": "int8",
+  "initialPrompt": null,
+  "hotwords": null,
+  "elapsedSeconds": 56.25,
+  "recheckedIds": null,
+  "comparisonNormalization": "Simplified Chinese, alphanumeric, Chinese and Arabic numeral equivalence",
+  "passed": 8,
+  "review": 0,
+  "clips": [
+    {
+      "id": "c2-call-004",
+      "oggSha256": "a964b1fa5e3277ff6264801b79d41c7c8946bb42fb3bb8f9981a19d749a521cc",
+      "expected": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+      "transcript": "能一起听吗?发文件过去,听的时候总不在同一秒。",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c2-call-006",
+      "oggSha256": "dfcc56eeb744dc5b5b4385014d84720f51d4a019985e2e3578b3222c4983cbb0",
+      "expected": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+      "transcript": "先说一下,我的网可能卡,卡住的时候不用急着挂。",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c2-call-009",
+      "oggSha256": "de03eafb8ac0c5883ca37a54e16aac8557c751e948401bbc64e1179157772538",
+      "expected": "要视频吗？不方便也没关系。",
+      "transcript": "要视频吗?不方便也没关系",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c5-tinghe-005",
+      "oggSha256": "8635b7c4420ac36c9aa9388e9e699439d05331f0ac77590362bc5e8233e58350",
+      "expected": "你好。你的声音离近了，跟耳机里有点不一样。",
+      "transcript": "你好,你的声音离近了,跟耳机里有点不一样。",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c5-tinghe-016",
+      "oggSha256": "3f6c95123fee91933ee5bdcd741874940cd9a6b007a23b124b8a80e54ae2c241",
+      "expected": "我也想。可是开学以后，我可能真的很忙。",
+      "transcript": "我也想,可是开学以后,我可能真的很忙。",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c5-xumi-002",
+      "oggSha256": "93123795e6e9d8352fa60185a9a052c2cf17a67a3b7d8665f47cc2d704e39378",
+      "expected": "真人看起来，比蓝底照片自然一点。",
+      "transcript": "真人看起来比蓝底照片自然一点",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c5-xumi-013",
+      "oggSha256": "32382faf743ff3ba7ad21b73dbd528473bfddb6e8ffa62623e5fbbde9c3e327e",
+      "expected": "你是想当我的固定技术支持，还是想约我？",
+      "transcript": "你是想当我的固定技术支持,还是想约我?",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    },
+    {
+      "id": "c5-xumi-019",
+      "oggSha256": "5866ad6088321c73bfa96d5a062bc80852c0e6187dd25b6dde71a5b6fb8f9662",
+      "expected": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "transcript": "下次一起拍的照片放这儿拍之前我会问你",
+      "cer": 0.0,
+      "polarityCountsMatch": true,
+      "status": "passed"
+    }
+  ],
+  "limitations": "ASR errors, names and acting require human listening; this is a diagnostic, not creative approval."
+}

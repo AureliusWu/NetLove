@@ -1,5 +1,5 @@
 import story from './story.json' with { type: 'json' };
-import type { Ending, Scene } from '../game/types';
+import type { Ending, EventCgId, Scene } from '../game/types';
 // Authored dialogue and choices live only in story.json.
 export const scenes: Scene[] = story.scenes as Scene[];
 export const chapters = [
@@ -16,13 +16,19 @@ export const endingInfo: Record<Ending, { label: string; subtitle: string; badge
   'letter-final': { label: '离线也会想念', subtitle: '各自回到生活里，承认相遇真实，也允许关系停在这里。', badge: '个人篇 · 告别' },
 };
 export const finalEndingIds: Ending[] = Object.keys(endingInfo) as Ending[];
+export const eventCgIds: EventCgId[] = ['tinghe-meeting', 'xumi-envelope'];
 export const cgInfo = {
+  'tinghe-meeting': { title: '听见你的地方', description: '五月江边，谢听禾带着录音笔，第一次当面听见你的声音。' },
+  'xumi-envelope': { title: '下一张合照', description: '重开的照相馆里，许弥递来一只留给下一张照片的空白信封。' },
   bedroom: { title: '等待消息的房间', description: '旧房间、电脑与窗外的灯，长夜从这里开始。' },
   balcony: { title: '隔窗的灯', description: '楼与楼之间的距离，一段也许有人听见的风。' },
   gate: { title: '梧桐里门口', description: '采购单、折叠桌，与重新开始流动的日常。' },
   printshop: { title: '拾光照相馆', description: '照片、信封和一把等待重新坐下的椅子。' },
   riverbank: { title: '梧江步道', description: '五月的江边，那句终于可以当面说完的话。' },
 } as const;
+export function pictureAsset(id: string): string {
+  return id === 'tinghe-meeting' || id === 'xumi-envelope' ? `cg-${id}` : id;
+}
 export const characterInfo = {
   tinghe: { name: '谢听禾', role: '22 岁 / 声音设计学生 / 一格信号', subtitle: '栗棕低辫、蓝色发夹、芥黄色开衫。她记录窗外的声音，也会删掉录音里自己的停顿。', quote: '“这一段别降噪了。我想知道你那边也在下雨。”' },
   xumi: { name: '许弥', role: '23 岁 / 照相馆助理 / 暂停营业', subtitle: '蓝黑短发、珊瑚发夹、青色围裙。帮别人把照片冲洗清楚，自己的计划却迟迟没有交卷。', quote: '“寄不到也先留着。信封又不会催你。”' },

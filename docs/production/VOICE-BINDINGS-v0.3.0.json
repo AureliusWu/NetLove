@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "game": "netlove",
-  "publishedClips": 0,
+  "publishedClips": 8,
   "clips": [
     {
       "lineId": "c2-call-004",
@@ -11,7 +11,7 @@
       "medium": "call",
       "noSprite": true,
       "textSha256": "347fcc3a4f2ac08f38a9b4ed2c334e3c43ce81da55719496a62e29f5de1e3663",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c2-call-006",
@@ -21,7 +21,7 @@
       "medium": "call",
       "noSprite": true,
       "textSha256": "34dd051bdaaa3c5606ee46cf90f08a01624b068414b02947bb4a81ee3697cfa6",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c2-call-009",
@@ -31,7 +31,7 @@
       "medium": "call",
       "noSprite": true,
       "textSha256": "461444e2187ca2580f281a7a192138273a0be237de4e8260b976309541ad6d2e",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c5-tinghe-005",
@@ -41,7 +41,7 @@
       "medium": "narration",
       "noSprite": false,
       "textSha256": "92f4073a70659908e51cf83c77036382b5b2a121ef619fd3ca14f6c37d1a3fa2",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c5-tinghe-016",
@@ -51,7 +51,7 @@
       "medium": "narration",
       "noSprite": false,
       "textSha256": "56b7590fa28bc629dae97903f6847dfe69d0121ecce69057eaaab81018b80b6c",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c5-xumi-002",
@@ -61,7 +61,7 @@
       "medium": "narration",
       "noSprite": false,
       "textSha256": "9d1f06cbe0d4d88869f625b0f2547c665c5540fcfe5ea56c26989c2695e40ff4",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c5-xumi-008",
@@ -81,7 +81,7 @@
       "medium": "narration",
       "noSprite": false,
       "textSha256": "33800af6de3d425603152f836090d408ddfbd3586b231069bee980a557bf9f38",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     },
     {
       "lineId": "c5-xumi-015",
@@ -101,7 +101,7 @@
       "medium": "narration",
       "noSprite": false,
       "textSha256": "e9e9b7a40ad882dfa9e1a3bd5741b1c46f798a550fd5dff1b0defa8a561a4933",
-      "status": "planned-not-recorded"
+      "status": "recorded-pending-human-listening"
     }
   ]
 }

@@ -1,3 +1,9 @@
+# v0.3.1 已发布 · 2026-10-19
+
+按已读章节、说话人和关键词筛选，并保持原回看索引已交付，Windows 实际运行与公开三屏断网复验通过。[发布凭据](production/PUBLISHED-v0.3.1.json)。下面较早版本和候选状态按日期保留。
+
+---
+
 # v0.3.0 声音与事件画面预览已发布 — 2026-10-18
 
 [可玩预览 v0.3.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0) 与 [在线PWA](https://aureliuswu.github.io/NetLove/) 已完成本版交付。新增8句独立离线录音、两张按真实分支解锁的事件CG，延续43场景、507段、288路线和netlove-v1存档。

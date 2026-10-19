@@ -1,10 +1,12 @@
+> 2026-10-19：**v0.3.1 已发布**。按已读章节、说话人和关键词筛选，并保持原回看索引已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v0.3.1.json) · [下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.1)。
+
 # “网”恋 / NetLove
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-**v0.3.0 声音与见面画面可玩预览，PWA + Windows 安装版 / 便携版。**
+**v0.3.1 阅读检索可玩预览，PWA + Windows 安装版 / 便携版。**
 
-[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v0.3.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0) · [本版说明](docs/releases/v0.3.0.md) · [发布凭据](docs/production/PUBLISHED-v0.3.0.json)
+[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v0.3.1](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.1) · [本版说明](docs/releases/v0.3.1.md) · [发布凭据](docs/production/PUBLISHED-v0.3.1.json)
 
 2020年架空城市“梧城”，二十三岁的周既明在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、首次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
 

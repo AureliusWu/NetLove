@@ -30,9 +30,9 @@ Windows安装版可选择安装位置；便携版直接启动。PWA先联网完�
 
 ## 工程验收
 
-59项逻辑测试覆盖288条路线；52项完整浏览器检查覆盖配音、分支CG、阅读备份、打字暂停、离线与更新。Windows分别运行源码、win-unpacked真实EXE、NSIS同安装位置/同profile从v0.2.6升级，以及portable外层和其实际子程序，不能互相替代。
+59项逻辑测试覆盖288条路线；54项完整浏览器检查覆盖配音、分支CG、阅读备份、打字暂停、离线与更新。Windows分别运行源码、win-unpacked真实EXE、NSIS同安装位置/同profile从v0.2.6升级，以及portable外层和其实际子程序，不能互相替代。
 
-公开发行文件须与同次验收的原始工件逐字节一致，校验全部四份下载、三个SHA256SUMS条目和PWA ZIP CRC/文件清单。公开PWA以同次已测构建部署，另验入口/worker和三屏断网续读。精确运行编号与结果见[发布凭据](docs/production/PUBLISHED-v0.3.0.json)和[当前状态](docs/STATUS.md)。
+公开发行文件须与同次验收的原始工件逐字节一致，校验全部四份下载、三个SHA256SUMS条目和PWA ZIP CRC/文件清单。公开PWA以同次已测构建部署，另验入口/worker和三屏断网续读。精确运行编号与结果见[发布凭据](docs/production/PUBLISHED-v0.3.1.json)和[当前状态](docs/STATUS.md)。
 
 本版保持可玩预览身份。真人试听、实体设备、普通电脑/中文路径/DPI与最终创作审阅单独记录。
 
@@ -67,3 +67,7 @@ npm run test:desktop:installed仅用于本仓临时Windows Actions运行器，�
 本作采用React/Electron，保留自身故事和存档身份。带许可字体、加工模板与平台适配器按固定摘要复用；人物/场景原图按作品追溯，排除在通用导出包之外。代码与文本MIT，字体SIL OFL，Qwen模型许可与声音来源随项目记录。
 
 [v0.2.6历史发布](docs/production/RELEASE-CLOSURE-20261018.md) · [v0.2.0电脑/手机预览](docs/previews/v0.2.0/README.md) · [完整验证记录](docs/VALIDATION.md)
+
+## 四作共存复验
+
+本版与 Circuit 1.5.2、Healing 1.1.1、Rain 1.3.1 在同一独立浏览器环境中共存，缓存和实际阅读进度保留，四站断网重开通过，页面错误为零。[统一回执与复用入口](docs/production/FOUR-GAMES-CLOSURE-20261019.md)。

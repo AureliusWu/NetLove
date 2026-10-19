@@ -3,10 +3,16 @@ import { RecordSearch } from './RecordSearch';
 import { CharacterSprite } from './CharacterSprite';
 import { historyFrame, readableHistory } from '../game/history-preview';
 import { voiceFor } from '../game/voice-catalog';
+import { sceneMap } from '../game/engine';
+import { chapters } from '../story';
 import type { GameState, HistoryEntry } from '../game/types';
 import '../history-preview.css';
 
 const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
+const chapterFor = (entry: HistoryEntry) => {
+  const chapter = chapters.find(item => item.id === sceneMap.get(entry.sceneId)?.chapter);
+  return chapter ? { id: String(chapter.id), title: chapter.title } : undefined;
+};
 
 export function HistoryReader({ game, complete, onClose, onReread, onReplay, voiceEnabled }: {
   game: GameState; complete: boolean; onClose: () => void; onReread: (index: number) => void; onReplay?: (entry: HistoryEntry) => void; voiceEnabled?: boolean;
@@ -28,7 +34,7 @@ export function HistoryReader({ game, complete, onClose, onReread, onReplay, voi
   return <section ref={reader} className="history-reader">
     <div hidden={index !== null}>
       <p className="history-review-note">选择已读文字，回看当时的画面；从这里重读，可以重新选择。原进度会保留。</p>
-      <RecordSearch entries={entries} renderEntry={(entry, originalIndex) => <article>
+      <RecordSearch entries={entries} chapterFor={chapterFor} renderEntry={(entry, originalIndex) => <article>
         <span>{entry.speaker}</span><p>{entry.text}</p>{voiceEnabled && voiceFor(entry) && <button type="button" onClick={() => onReplay?.(entry)}>重听语音</button>}
         <button type="button" className="history-open-frame" onClick={event => {
           recordButton.current = event.currentTarget;

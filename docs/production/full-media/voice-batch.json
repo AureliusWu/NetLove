@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "batch": "20261020-full-dialogue-01",
+  "project": "NetLove",
+  "count": 217,
+  "semanticSha256": "6738621876df153f05502c04db46d54bd2863aca57d6e282f6654104e8330288",
+  "scope": "All characters and branches, including written dialogue; narration excluded.",
+  "humanListening": false
+}

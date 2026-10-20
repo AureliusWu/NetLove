@@ -1,0 +1,404 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "status": "all_active_images_decoded_and_checked",
+  "count": 3,
+  "assets": [
+    {
+      "id": "luheng",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/luheng-expressions.png",
+      "sourceBytes": 1538008,
+      "gitBlobSha": "13a03325f7b41fb073b1a3765d7c20bcf696a12c",
+      "prompt": "Use case: illustration-story. Asset type: original visual novel transparent character expression atlas. The input image is ONLY a style reference for linework, flat colors, restrained cel shading and ordinary adult proportions; do not copy its female character. Create Lu Heng, the 24-year-old Chinese male pharmacy clerk and neighborhood volunteer group administrator in the existing original game NetLove, set in fictional Wucheng in 2020. New male identity: short tidy black hair, warm dark brown eyes, slightly broad shoulders and an approachable ordinary face, no glasses. Muted teal casual overshirt open over an ivory crewneck T-shirt, charcoal straight trousers, off-white canvas shoes. Carry one small plain grocery tote in his left hand, right hand relaxed; no medical uniform, no logos. Make ONE clean 3-column by 2-row sprite sheet with SIX clearly separated FULL BODY standing drawings of EXACTLY the SAME man and same pose/outfit/scale. Top row left to right: neutral, gentle smile, surprised. Bottom row: worried, quietly hurt/disappointed, slightly shy with both eyes open. Every figure includes the complete head, both hands and shoes, same frontal three-quarter view. Wide TRANSPARENT gutters horizontally and vertically, full empty margins, no overlap between figures. True transparent RGBA background throughout including all gutters, no floor, shadow, glow, gradients, checkerboard, text, labels or grid lines. High quality Chinese indie visual novel hand-drawn linework matching the stylistic reference. Landscape canvas approximately 2160 by 1440 pixels. Nonsexual everyday clothing. CRITICAL LAYOUT CORRECTION: Use the provided six-figure atlas to preserve the SAME male identity. Recompose the entire atlas with all six complete figures substantially smaller, each at most 410 pixels tall on the 1536x1024 canvas. Top-row feet above y=470, bottom-row heads below y=560 and feet above y=980. Leave at least 25px true transparent margin above every hairstyle and below every shoe. No visible body part touches ANY canvas border. Restore every shoe, never crop a lower figure. Make identical facial anatomy and standing pose in all six. This is an atlas layout and full-body visibility correction; no other design changes.",
+      "tool": "image_gen",
+      "sourceSha256": "6b2945e4ca11012a53d6b6aeee12ed9e99ffad0701646aae2d1b667eae680cec",
+      "referenceHashes": [
+        {
+          "path": "public/art/tinghe.webp",
+          "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/luheng-expressions-v1.png",
+          "sha256": "3c51449613f041f7a70c13b5903fd00e1707f2c2d06655577b497982cb1fe085"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7796,
+        "alphaBounds": [
+          155,
+          27,
+          1400,
+          992
+        ],
+        "solidAlphaBounds": [
+          271,
+          32,
+          1277,
+          983
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 507,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            271,
+            32,
+            447,
+            493
+          ],
+          [
+            687,
+            32,
+            863,
+            493
+          ],
+          [
+            1104,
+            32,
+            1277,
+            493
+          ],
+          [
+            271,
+            521,
+            447,
+            983
+          ],
+          [
+            687,
+            522,
+            863,
+            983
+          ],
+          [
+            1108,
+            522,
+            1265,
+            983
+          ]
+        ],
+        "frames": [
+          [
+            255,
+            26,
+            208,
+            474
+          ],
+          [
+            671,
+            26,
+            208,
+            474
+          ],
+          [
+            1086,
+            26,
+            208,
+            474
+          ],
+          [
+            255,
+            515,
+            208,
+            474
+          ],
+          [
+            671,
+            516,
+            208,
+            474
+          ],
+          [
+            1082,
+            516,
+            208,
+            474
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/luheng-expressions.webp",
+        "bytes": 971712,
+        "sha256": "c3d0158e2acd36b26ed1c991b41a69526146c41ea1fe6e5bf07b5ae04c6db727"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "jiming",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/jiming-expressions.png",
+      "sourceBytes": 1479051,
+      "gitBlobSha": "babbd730610c4f8e4568d75406dfec5140790799",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese visual novel NetLove. Image 1 provides ONLY the established clean hand-drawn linework, simple cel shading and modest everyday style; do not copy the female heroine. Zhou Jiming, the 23-year-old Chinese adult male player character and web-production intern. Distinct from Lu Heng: medium-short dark brown hair with a neat side part, narrow dark brown eyes, slender ordinary adult build, slightly reserved face. Plain navy zip hoodie over an ivory T-shirt, gray straight trousers, plain white sneakers. Hands relaxed at his sides, no props, no logos. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly shy with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "7644a60cf468f031913c59db98e8b2e6ef8c98d2e90043abbafd89de3ec7c528",
+      "referenceHashes": [
+        {
+          "path": "public/art/tinghe.webp",
+          "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/luheng-expressions.png",
+          "sha256": "6b2945e4ca11012a53d6b6aeee12ed9e99ffad0701646aae2d1b667eae680cec"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7875,
+        "alphaBounds": [
+          153,
+          0,
+          1500,
+          1024
+        ],
+        "solidAlphaBounds": [
+          244,
+          13,
+          1304,
+          1010
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 512,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            244,
+            14,
+            407,
+            498
+          ],
+          [
+            690,
+            13,
+            854,
+            499
+          ],
+          [
+            1137,
+            14,
+            1300,
+            499
+          ],
+          [
+            246,
+            526,
+            410,
+            1010
+          ],
+          [
+            691,
+            526,
+            855,
+            1009
+          ],
+          [
+            1140,
+            526,
+            1304,
+            1009
+          ]
+        ],
+        "frames": [
+          [
+            228,
+            8,
+            196,
+            498
+          ],
+          [
+            674,
+            7,
+            196,
+            498
+          ],
+          [
+            1120,
+            8,
+            196,
+            498
+          ],
+          [
+            230,
+            520,
+            196,
+            498
+          ],
+          [
+            675,
+            520,
+            196,
+            498
+          ],
+          [
+            1124,
+            520,
+            196,
+            498
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/jiming-expressions.webp",
+        "bytes": 948498,
+        "sha256": "83d5bd3c0ea6c7d4330549e78af37b92d30e80d311a033a5ff624eedc1bf671d"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "grandma",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/grandma-expressions.png",
+      "sourceBytes": 1453868,
+      "gitBlobSha": "ba1137843efcaa5dddeda4cb5147046b98ab4ffd",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese visual novel NetLove. Image 1 provides ONLY the established clean hand-drawn linework, simple cel shading and modest everyday style; do not copy the female heroine. The protagonist's Chinese grandmother, an ordinary elderly woman around seventy, gently lined face, silver-gray hair in a low neat bun, brown eyes, natural elderly proportions, warm practical manner. Muted plum-brown knitted cardigan, pale cream collared blouse, navy loose straight trousers and dark flat walking shoes. Hands loosely together in front, no props. Make the expressions subtle and appropriate to her age, no romantic blushing. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly embarrassed/apologetic with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "e88a5f3413db33b5158b9fa20c3da47638774ac6cba2ca3143582ca82756df1d",
+      "referenceHashes": [
+        {
+          "path": "public/art/tinghe.webp",
+          "sha256": "9957d2f79e2573a1713aa582f89f4d75b6283f049895e032f81b2bced7f69098"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/luheng-expressions.png",
+          "sha256": "6b2945e4ca11012a53d6b6aeee12ed9e99ffad0701646aae2d1b667eae680cec"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7941,
+        "alphaBounds": [
+          65,
+          13,
+          1514,
+          1006
+        ],
+        "solidAlphaBounds": [
+          273,
+          16,
+          1266,
+          1001
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 508,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            273,
+            16,
+            423,
+            495
+          ],
+          [
+            690,
+            16,
+            841,
+            495
+          ],
+          [
+            1111,
+            16,
+            1264,
+            495
+          ],
+          [
+            274,
+            522,
+            425,
+            1001
+          ],
+          [
+            690,
+            522,
+            841,
+            1001
+          ],
+          [
+            1115,
+            523,
+            1266,
+            1001
+          ]
+        ],
+        "frames": [
+          [
+            256,
+            10,
+            185,
+            491
+          ],
+          [
+            673,
+            10,
+            185,
+            491
+          ],
+          [
+            1095,
+            10,
+            185,
+            491
+          ],
+          [
+            257,
+            516,
+            185,
+            491
+          ],
+          [
+            673,
+            516,
+            185,
+            491
+          ],
+          [
+            1098,
+            517,
+            185,
+            491
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/grandma-expressions.webp",
+        "bytes": 928856,
+        "sha256": "cfcfc1e776ad0fe1517c3c7f52446ae273c6408c9edd27629d1982d83ca6d065"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    }
+  ],
+  "humanVisualApproval": false,
+  "runtimeIntegration": "pending",
+  "release": "not_published"
+}

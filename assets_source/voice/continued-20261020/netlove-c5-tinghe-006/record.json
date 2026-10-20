@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-006",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "失望吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1886808159,
+  "textSha256": "1424b7055003443cabcd8fb022ef27facf4be7256383c9108d5a3d56ec83a5cb",
+  "medium": "spoken",
+  "requestSha256": "fb465cc3a26b0e43ca5347b4141a528f69c75efc47043b46647013173ba30a63",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "失望嗎?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 35.518,
+  "loudness": {
+    "input_i": "-19.79",
+    "input_tp": "-7.54",
+    "input_lra": "0.00",
+    "input_thresh": "-29.79",
+    "output_i": "-19.99",
+    "output_tp": "-7.75",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-006/raw.wav",
+      "bytes": 107600,
+      "sha256": "3cd950e048b4a256d877d5601a521f84465c435db2cda13de6ec9651ee3ae5aa"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-006/master.wav",
+      "bytes": 53838,
+      "sha256": "dfb14e405d937aee43c9635d0c5d17cb0c3357be74565a6dbbf403aad1ab570e"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-006/runtime.ogg",
+      "bytes": 11085,
+      "sha256": "26b620bc9c2816577be00e3fe1df3d29f9c508ca9ca291dd649e6f53a1e7ed4d"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

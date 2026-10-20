@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-008",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-008",
+  "lineIndex": 7,
+  "speaker": "周既明",
+  "text": "她已经能自己改了吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 108238963,
+  "textSha256": "4606a22679889bb3b3f7737e9e94e762c2e9013235dfabc69f57245257ed83ee",
+  "medium": "call",
+  "requestSha256": "8a62a1d595964e5b7d75f21d856a0a7b16e5e5ca40f2ef26ec3721d4cb4ad9c4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他已经能自己改了吗",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 8.318,
+  "loudness": {
+    "input_i": "-28.91",
+    "input_tp": "-8.29",
+    "input_lra": "0.00",
+    "input_thresh": "-38.91",
+    "output_i": "-22.62",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-32.62",
+    "normalization_type": "linear",
+    "target_offset": "2.62"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-008/raw.wav",
+      "bytes": 161360,
+      "sha256": "192f9fbd38e99f4d96fea0d2549b707c966aea9b9405f475e8bb88af8faebb06"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-008/master.wav",
+      "bytes": 80718,
+      "sha256": "ebdb8e684d136f2facbd0545f15ca7ecb41fb9ed5a5d8b2fa0e62beede177eef"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-008/runtime.ogg",
+      "bytes": 16365,
+      "sha256": "f104d52a5da80b3b1114c7877066ee4ca205bbbf5ebf5fd9c8e7f39d47bcc232"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

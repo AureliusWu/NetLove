@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-end-009",
+  "sceneId": "c1-end",
+  "lineId": "c1-end-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "今天不是。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 375409273,
+  "textSha256": "f2a3edd36e7420b083481b193a03e607a84e4278bfcb81ca30820d2f1841d08f",
+  "medium": "chat",
+  "requestSha256": "e11ca39442ed8a01a86afe6924e9d13c1f27c256eb22c95663163b6682e19da3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天不是",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.88,
+  "wallSeconds": 34.733,
+  "loudness": {
+    "input_i": "-23.89",
+    "input_tp": "-9.90",
+    "input_lra": "0.00",
+    "input_thresh": "-33.89",
+    "output_i": "-20.01",
+    "output_tp": "-6.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-end-009/raw.wav",
+      "bytes": 84560,
+      "sha256": "4e51d54113178e328819f73fda57514d0cb6ad40f58f7b68296e28a47ef46b1a"
+    },
+    "master": {
+      "path": "netlove-c1-end-009/master.wav",
+      "bytes": 42318,
+      "sha256": "117ef078659d9dea66532c3aee3e45047aaa172b2a28011b1f8915c0b967eaea"
+    },
+    "runtime": {
+      "path": "netlove-c1-end-009/runtime.ogg",
+      "bytes": 10111,
+      "sha256": "fd72bd7e33e71bc434fc365d1105034aeb0a06614569b48d527de744d5e3d07f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

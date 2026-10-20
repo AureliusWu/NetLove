@@ -1,0 +1,55 @@
+{
+  "id": "netlove-arrival-005",
+  "sceneId": "arrival",
+  "lineId": "arrival-005",
+  "lineIndex": 4,
+  "speaker": "周既明",
+  "text": "是。应该是。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 701938409,
+  "textSha256": "be01c45327100eb2148ab63cd42c48c04549a44f507220d229c22afb73992a70",
+  "medium": "chat",
+  "requestSha256": "cc16903ff33fc5b6ecc5ae338d9452b581030bfb6982687af8893db09e84c758",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "是,应该是",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 55.014,
+  "loudness": {
+    "input_i": "-23.45",
+    "input_tp": "-7.95",
+    "input_lra": "0.00",
+    "input_thresh": "-33.45",
+    "output_i": "-20.01",
+    "output_tp": "-4.50",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-arrival-005/raw.wav",
+      "bytes": 130640,
+      "sha256": "d14d6b2302614cbb1d4ac1de9dcaa489d6dbb77d1f5b030e2122eb44bd3e3d39"
+    },
+    "master": {
+      "path": "netlove-arrival-005/master.wav",
+      "bytes": 65358,
+      "sha256": "4b902916b67abcd5a322fde6e54157eed30edf94489e784a1964b1819cbbe3e8"
+    },
+    "runtime": {
+      "path": "netlove-arrival-005/runtime.ogg",
+      "bytes": 13108,
+      "sha256": "f241fec8c26ca364cca63751b4848fd86a4ec636f3663b87f70259deaee4497a"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-003",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "你还留着那张？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 469325757,
+  "textSha256": "180b8f1107e86625046cb392be0b1495f04a082df12410e3ff3946fe0daede70",
+  "medium": "spoken",
+  "requestSha256": "b2e69131777c6dd8cfe5a45e0053e14ba036813044ce576658a54ed6508b07c4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你还留着那张",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 12.098,
+  "loudness": {
+    "input_i": "-22.85",
+    "input_tp": "-4.81",
+    "input_lra": "0.00",
+    "input_thresh": "-32.85",
+    "output_i": "-20.04",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.04",
+    "normalization_type": "linear",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-003/raw.wav",
+      "bytes": 99920,
+      "sha256": "f918f763b135335efe402fa0975ee3d8ce5c3dc942aee1b42883b36f5bdedb88"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-003/master.wav",
+      "bytes": 49998,
+      "sha256": "ccc0acb2d9c9cf13e09b70914cb4f85d332ce6ebeb220531232cb1e699705bc8"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-003/runtime.ogg",
+      "bytes": 11579,
+      "sha256": "7b68e8cf43c2171187814151cb8f180afe8bb2edb411e71658f5985163ef1951"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

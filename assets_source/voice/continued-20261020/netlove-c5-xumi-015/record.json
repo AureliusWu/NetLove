@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-015",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-015",
+  "lineIndex": 14,
+  "speaker": "许弥",
+  "text": "好。七点半，拐角那家。晚了我会自己先吃。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1123855404,
+  "textSha256": "df51c1530d8004a32bf3635653f87145e0fc5e8d9d03488cfdeea42914ae7d73",
+  "medium": "spoken",
+  "requestSha256": "636ea43b8981fd665e27ac96a5ad10b1b6b5a5404c551b299f89f6f25e9057f0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好,七点半拐脚那家,晚了我会自己先吃。",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.56,
+  "wallSeconds": 266.763,
+  "loudness": {
+    "input_i": "-19.38",
+    "input_tp": "-4.57",
+    "input_lra": "1.40",
+    "input_thresh": "-29.76",
+    "output_i": "-20.05",
+    "output_tp": "-4.85",
+    "output_lra": "1.70",
+    "output_thresh": "-30.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-015/raw.wav",
+      "bytes": 821840,
+      "sha256": "cb82a5dcb6b44e55a33e6c098aa42c9e0d7ddb7996f3dcefd7cd6ca07958fca0"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-015/master.wav",
+      "bytes": 410958,
+      "sha256": "4f439c11f4410ba3e7d8f920a82a919551c4b2f90b5e8e66c4a6b5a15e6f9fa0"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-015/runtime.ogg",
+      "bytes": 59541,
+      "sha256": "1344cc5adec7eb3f70eaee089e5f3d7e9e2c145d7877acf24abdc8e4f3f6865c"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

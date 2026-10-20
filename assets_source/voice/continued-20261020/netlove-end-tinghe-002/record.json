@@ -1,0 +1,55 @@
+{
+  "id": "netlove-end-tinghe-002",
+  "sceneId": "end-tinghe",
+  "lineId": "end-tinghe-002",
+  "lineIndex": 1,
+  "speaker": "谢听禾",
+  "text": "那天要不要一起录点声音？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1990710509,
+  "textSha256": "fef90d7118fee3aa989afa6da724c18151daebffff4253dc71869378b65f2f45",
+  "medium": "spoken",
+  "requestSha256": "5d367534802c2979d38a7ffd9da8d66c98ec8d66b12aa6a55abdba624036611d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那天要不要一起录点声音",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 11.907,
+  "loudness": {
+    "input_i": "-22.12",
+    "input_tp": "-7.15",
+    "input_lra": "0.00",
+    "input_thresh": "-32.12",
+    "output_i": "-19.99",
+    "output_tp": "-5.03",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-end-tinghe-002/raw.wav",
+      "bytes": 230480,
+      "sha256": "d48d59e71ed471e961ce045b53b2069b8d8a5fcca6deda895efeacbcd4231afc"
+    },
+    "master": {
+      "path": "netlove-end-tinghe-002/master.wav",
+      "bytes": 115278,
+      "sha256": "acb7da0a1b7a0773ff7d6f0de8d57be9a1e8fbd4eaeeac0642e51bf544fad61f"
+    },
+    "runtime": {
+      "path": "netlove-end-tinghe-002/runtime.ogg",
+      "bytes": 20914,
+      "sha256": "9efb04df814da337e0d0cdf579d23f84f47f35518b569d2308155fbb70bc87c3"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

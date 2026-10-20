@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-005",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "外地那家工作室。先问他们收不收新人作品。收了也未必去。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 16805430,
+  "textSha256": "fe3fd3db22d2fe8b050699bb3959e78ca5924f5c0a9df3cc5bf471b12dbafd98",
+  "medium": "call",
+  "requestSha256": "005b0d931d380cf631900fe8d104787d08963367495771b652a8e5dc53c03cbc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "外地那家工作室,先问他们收不收新人作品,收了也未必去",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 48.774,
+  "loudness": {
+    "input_i": "-20.50",
+    "input_tp": "-3.92",
+    "input_lra": "5.60",
+    "input_thresh": "-31.42",
+    "output_i": "-21.13",
+    "output_tp": "-5.38",
+    "output_lra": "4.60",
+    "output_thresh": "-31.92",
+    "normalization_type": "dynamic",
+    "target_offset": "1.13"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-005/raw.wav",
+      "bytes": 599120,
+      "sha256": "c421f9e2dc6ad4b7f3dde100ea3772d9bd1c4a201263f269b2e46e1fe24508d8"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-005/master.wav",
+      "bytes": 299598,
+      "sha256": "c57a5ed3ee3c58eb5a930c28d1f6b514e648a91aef2ae953f865fdceb472a100"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-005/runtime.ogg",
+      "bytes": 47491,
+      "sha256": "3d349a0dd8fe22e028bd748585254f89e32f4c23e690544f4ea9f6d8e93c41cb"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

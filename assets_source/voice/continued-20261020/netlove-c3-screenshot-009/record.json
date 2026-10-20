@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-screenshot-009",
+  "sceneId": "c3-screenshot",
+  "lineId": "c3-screenshot-009",
+  "lineIndex": 8,
+  "speaker": "许弥",
+  "text": "我把这组都删了。算了。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1630558556,
+  "textSha256": "21e8bf59cc4d4a36030c26c9486931ceeffb8d4fae1f3fdec7ee7d4da0b464b3",
+  "medium": "chat",
+  "requestSha256": "3469f06bff8593786f7fba26e3116c9e70729f08ebaca29348ec089ddc9b621c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我把这一组都删了算了",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 12.79,
+  "loudness": {
+    "input_i": "-20.77",
+    "input_tp": "-2.44",
+    "input_lra": "0.00",
+    "input_thresh": "-30.77",
+    "output_i": "-20.33",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.33",
+    "normalization_type": "linear",
+    "target_offset": "0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-screenshot-009/raw.wav",
+      "bytes": 261200,
+      "sha256": "b55bed83a5521fa687bf07aa4cae38bf481d12658d25d7145290ec13faf4d016"
+    },
+    "master": {
+      "path": "netlove-c3-screenshot-009/master.wav",
+      "bytes": 130638,
+      "sha256": "598f4c5174f5687bca764657463dca847939a4cac860be4c5c06029700d4d5be"
+    },
+    "runtime": {
+      "path": "netlove-c3-screenshot-009/runtime.ogg",
+      "bytes": 23205,
+      "sha256": "80cf52916d6c154cbe6c8de2a98099d95c4876235a640cc92dea10bbc007ff26"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

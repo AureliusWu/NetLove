@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-004",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "我知道。我们已经认识了一部分。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 465277918,
+  "textSha256": "f980f0d7cf959b610077be5e4a6854439049447d9a2b1b8be676c1a7fd5fc52a",
+  "medium": "call",
+  "requestSha256": "b81055560af8801f46b3610933d874fbf09ed8261c8416bb7fb8938e4260ddfe",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道,我们已经认识了一部分。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.8,
+  "wallSeconds": 112.62,
+  "loudness": {
+    "input_i": "-25.79",
+    "input_tp": "-8.13",
+    "input_lra": "0.00",
+    "input_thresh": "-35.97",
+    "output_i": "-20.00",
+    "output_tp": "-2.34",
+    "output_lra": "0.00",
+    "output_thresh": "-30.35",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-004/raw.wav",
+      "bytes": 268880,
+      "sha256": "6230295235b66476b08ca8e4d9943fb6a8af1469598882d35556ca3f906e9b96"
+    },
+    "master": {
+      "path": "netlove-c2-voice-004/master.wav",
+      "bytes": 134478,
+      "sha256": "b730db63f9755e85074ea26ff44194547c2c0e2179d6705acd3e92fb2be83fa5"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-004/runtime.ogg",
+      "bytes": 23109,
+      "sha256": "5024e7b707d846f2800a4519a9bd44c6b991bb2fdac688073babe42d3afd3be2"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

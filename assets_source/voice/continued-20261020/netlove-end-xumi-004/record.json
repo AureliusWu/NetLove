@@ -1,0 +1,55 @@
+{
+  "id": "netlove-end-xumi-004",
+  "sceneId": "end-xumi",
+  "lineId": "end-xumi-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "以后我核对一下路线。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 446072465,
+  "textSha256": "089c39faed936589da01952c1b480bc8386531da0b4ac53e3fb029161675ef9a",
+  "medium": "spoken",
+  "requestSha256": "40a190f18f96dfd08331640095d435c3d04fbec2008b518b1b9664271f1a1915",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以后我核对一下路线",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 16.141,
+  "loudness": {
+    "input_i": "-24.73",
+    "input_tp": "-9.03",
+    "input_lra": "0.00",
+    "input_thresh": "-34.73",
+    "output_i": "-20.00",
+    "output_tp": "-4.30",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-end-xumi-004/raw.wav",
+      "bytes": 153680,
+      "sha256": "a70a756d1b0d0f84feeceab5f8aa921f045989680bf87a113feddd58b052485f"
+    },
+    "master": {
+      "path": "netlove-end-xumi-004/master.wav",
+      "bytes": 76878,
+      "sha256": "b57b52c02db2fbcb83fda829c47708ff59f0dadce6f87ecbd63d2727cb8501b5"
+    },
+    "runtime": {
+      "path": "netlove-end-xumi-004/runtime.ogg",
+      "bytes": 16086,
+      "sha256": "9da28be937e39148852c2890492288d3275785b1b388286d8f0d096d105f4c1f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

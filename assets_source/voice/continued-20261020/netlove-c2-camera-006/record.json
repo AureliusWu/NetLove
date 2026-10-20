@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-006",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "你从哪里得出的结论？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1967082103,
+  "textSha256": "435e164b19ebe6725c8927dace05876b4cdafcaef64665db9f86d44e5388579a",
+  "medium": "call",
+  "requestSha256": "caddcbf0dd9c0a9ebb03066e43bfa45433fe027a0a1fd7ad7a9a8c356c8797b9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你从哪里得出的结论",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 74.257,
+  "loudness": {
+    "input_i": "-24.89",
+    "input_tp": "-12.25",
+    "input_lra": "0.00",
+    "input_thresh": "-34.89",
+    "output_i": "-20.01",
+    "output_tp": "-7.35",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-006/raw.wav",
+      "bytes": 176720,
+      "sha256": "7aaaa3bc594076652346a4d45e3b62ec2ef5eb2b43b17140972e55ccbcd043f9"
+    },
+    "master": {
+      "path": "netlove-c2-camera-006/master.wav",
+      "bytes": 88398,
+      "sha256": "ff6f80affdfc4d8c1c7a83d07eb22b1508830c58f02acf526435e5edf2fe267b"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-006/runtime.ogg",
+      "bytes": 17612,
+      "sha256": "acc152536022830c5a0dc162986f1d5edd8580798ffc11dca7623a8349da8312"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

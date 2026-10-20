@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-010",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "失败了。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 40879763,
+  "textSha256": "4c674cd44a80562ac166b10462a74c7372f39ab3a5d515dd4463a60150440506",
+  "medium": "chat",
+  "requestSha256": "14c2e1dac2109c9c528c64508df467c48e8d53a7012c43b23c76995872915c26",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "失敗了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 10.301,
+  "loudness": {
+    "input_i": "-23.65",
+    "input_tp": "-6.58",
+    "input_lra": "0.00",
+    "input_thresh": "-33.65",
+    "output_i": "-20.01",
+    "output_tp": "-2.93",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-010/raw.wav",
+      "bytes": 76880,
+      "sha256": "a7c43109700cee2fb0b04de437e82782cfffa4a4c5a86960de9faad633ef74b5"
+    },
+    "master": {
+      "path": "netlove-c1-window-010/master.wav",
+      "bytes": 38478,
+      "sha256": "3977045062777d4aa725a87b3a96c5406e495472ada19b28a8f12356002ac09b"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-010/runtime.ogg",
+      "bytes": 9155,
+      "sha256": "06d91071c7610c0d49b84173ca6650d2c4b10366f608e1003e4aeceeefce90bc"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

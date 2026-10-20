@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-003",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "你怎么答？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1580574510,
+  "textSha256": "0d8bcb482c6ca2ef4690e629767ea934a251c8c4ca7969024b48be5b28e04713",
+  "medium": "call",
+  "requestSha256": "be4b411ee0c56241b6a122e184105c2996332292d194e1f79a98a1b520fb3e9b",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你怎么答",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.72,
+  "wallSeconds": 24.71,
+  "loudness": {
+    "input_i": "-24.33",
+    "input_tp": "-5.93",
+    "input_lra": "0.00",
+    "input_thresh": "-34.33",
+    "output_i": "-20.36",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.36",
+    "normalization_type": "linear",
+    "target_offset": "0.36"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-003/raw.wav",
+      "bytes": 69200,
+      "sha256": "5f73a9b1a707647bc7f59aa73004e11d77769f607cbba6880a0b74ed7806190d"
+    },
+    "master": {
+      "path": "netlove-c4-voice-003/master.wav",
+      "bytes": 34638,
+      "sha256": "b5b905cab01f0487da30001c6823f2048914238fba43d2c581466ab2ac82248c"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-003/runtime.ogg",
+      "bytes": 9353,
+      "sha256": "bb293b02f13e86de6d398fe7acf3fd8eef8a554d6ad9226695e1cc866bf100ca"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

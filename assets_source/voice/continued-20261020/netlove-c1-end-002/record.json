@@ -1,0 +1,57 @@
+{
+  "id": "netlove-c1-end-002",
+  "sceneId": "c1-end",
+  "lineId": "c1-end-002",
+  "lineIndex": 1,
+  "speaker": "暂停营业",
+  "text": "明天把旧手机给你看看。就放门口，不碰面。",
+  "sourceSpeaker": "系统",
+  "sourceText": "暂停营业：明天把旧手机给你看看。就放门口，不碰面。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 408497579,
+  "textSha256": "2ed55ad97b3b0db668e0d21039f773162c8dd31f73ba65066a21b35a0ce4678e",
+  "medium": "chat",
+  "requestSha256": "db298617a679a5ef41d47846cfd7eca174d278e7188fe6f1e12fe3209f099fb8",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天把舊手机给你看看,就放门口,不碰面。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.88,
+  "wallSeconds": 37.163,
+  "loudness": {
+    "input_i": "-21.76",
+    "input_tp": "-3.05",
+    "input_lra": "1.60",
+    "input_thresh": "-31.91",
+    "output_i": "-20.23",
+    "output_tp": "-2.00",
+    "output_lra": "2.10",
+    "output_thresh": "-30.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-end-002/raw.wav",
+      "bytes": 660560,
+      "sha256": "fc3d7273a5c71866a7a37ba1fb862cccd7d017533da1c32e3ee1f37555ebab1c"
+    },
+    "master": {
+      "path": "netlove-c1-end-002/master.wav",
+      "bytes": 330318,
+      "sha256": "a3947fe8e5ad76d84e5170b4cdb316b0e6a8326cf518d8b164305949c8664ae8"
+    },
+    "runtime": {
+      "path": "netlove-c1-end-002/runtime.ogg",
+      "bytes": 49706,
+      "sha256": "1544d4f02f12aa0cfee4b6780c6871ab7db3d98f15a6d96afed7fe1275a36b87"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

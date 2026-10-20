@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-open-003",
+  "sceneId": "c2-open",
+  "lineId": "c2-open-003",
+  "lineIndex": 2,
+  "speaker": "陆衡",
+  "text": "不要一天到晚问“还需要什么”。看分工表，空着的那栏才需要。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1668803554,
+  "textSha256": "c660c05d2b2915217f207abc4a6baaa53b7f6fe5576b3441060fcc3de4a727fb",
+  "medium": "chat",
+  "requestSha256": "97257a4375f29082312571b63f5b612e3240b15805ebbb9c6bcdab24fc8daa3b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不要一天到晚问,还需要什么?看分工表,空着的内栏才需要。",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 30.043,
+  "loudness": {
+    "input_i": "-24.64",
+    "input_tp": "-8.83",
+    "input_lra": "0.80",
+    "input_thresh": "-35.26",
+    "output_i": "-19.37",
+    "output_tp": "-3.89",
+    "output_lra": "0.30",
+    "output_thresh": "-30.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.63"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-open-003/raw.wav",
+      "bytes": 652880,
+      "sha256": "e97529d85f691a5db7d0e1b4dfbbd80d31a7b8bca447e37e138b78bcd7553daa"
+    },
+    "master": {
+      "path": "netlove-c2-open-003/master.wav",
+      "bytes": 326478,
+      "sha256": "f3d53c8bff689daefbb0b7c5c7633e10221e5c44f0fa291f27b4562def085cae"
+    },
+    "runtime": {
+      "path": "netlove-c2-open-003/runtime.ogg",
+      "bytes": 50108,
+      "sha256": "59f4db46779ea8511a8a7738c26981dd9867514dc463d04916db270df5b3351d"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

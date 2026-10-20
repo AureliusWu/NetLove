@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-005",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-005",
+  "lineIndex": 4,
+  "speaker": "陆衡",
+  "text": "我的世界比较宽容。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 785356366,
+  "textSha256": "7dc461648189614be0e7273964c7ae9167f9ef374a80539da6f2fea8b9ac2b8e",
+  "medium": "spoken",
+  "requestSha256": "02fb28ab16d2186d0e4388fe6d0b5a89ed1ddc69180d8d126c361360330ff4f9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我的世界比较宽容。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 118.02,
+  "loudness": {
+    "input_i": "-20.22",
+    "input_tp": "-2.82",
+    "input_lra": "0.00",
+    "input_thresh": "-30.43",
+    "output_i": "-20.00",
+    "output_tp": "-2.59",
+    "output_lra": "0.00",
+    "output_thresh": "-30.20",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-005/raw.wav",
+      "bytes": 230480,
+      "sha256": "194805a89795e5798e429927f040b782dba41a2ab101d7891f829cfdbc2c1eb7"
+    },
+    "master": {
+      "path": "netlove-c5-friends-005/master.wav",
+      "bytes": 115278,
+      "sha256": "8346744f790ed188613dd86766da235e63247166e48b7b23fb20a1864b1b26b1"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-005/runtime.ogg",
+      "bytes": 22492,
+      "sha256": "51baa5055153bcde9a4cca9dfc8f37bb520a9a705b7f09a7bc88c1f1a346be0a"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

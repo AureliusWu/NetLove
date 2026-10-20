@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-002",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-002",
+  "lineIndex": 1,
+  "speaker": "周既明",
+  "text": "我补过不能用，对方回了好。我没有再核对，也没有立刻告诉你。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1151208701,
+  "textSha256": "0deb12df4e7598e53f52441303552d211f9f2827939a915281f7159de8277742",
+  "medium": "chat",
+  "requestSha256": "42bee0b29b99826ba08b1f89db607d67bd47d031831c9000d2394fa90ec1ae7a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我补光,不能用對方回了好我沒有在核對也沒有立刻告訴",
+    "cer": 0.12,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 170.973,
+  "loudness": {
+    "input_i": "-24.86",
+    "input_tp": "-4.00",
+    "input_lra": "0.80",
+    "input_thresh": "-35.32",
+    "output_i": "-20.19",
+    "output_tp": "-2.00",
+    "output_lra": "1.30",
+    "output_thresh": "-30.75",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-002/raw.wav",
+      "bytes": 499280,
+      "sha256": "836dedccae46db48fd443cc4a3b10737ee2f363ee146a5f38de77043b203ba7d"
+    },
+    "master": {
+      "path": "netlove-c3-private-002/master.wav",
+      "bytes": 249678,
+      "sha256": "a57f268b116a808985492fda5e1275f20191525766347043330f038f31dfd56c"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-002/runtime.ogg",
+      "bytes": 40566,
+      "sha256": "c5ff5032d47f98d9b6e423390cc1125f64342b30085bbfc3d666d4cdf4340b23"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-007",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "决定去了？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1943563394,
+  "textSha256": "c52a9869f7ebfa5dd1875ca9abcc66aeade9afd3405779fd8142a571436cfaf1",
+  "medium": "spoken",
+  "requestSha256": "2f097c26dee6a3a6362f1f59a04d16b425205559c05291dce02468c56cb720bf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "决定去了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 136.583,
+  "loudness": {
+    "input_i": "-24.45",
+    "input_tp": "-10.32",
+    "input_lra": "0.00",
+    "input_thresh": "-34.45",
+    "output_i": "-19.98",
+    "output_tp": "-5.88",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-007/raw.wav",
+      "bytes": 122960,
+      "sha256": "76d9e542ef9ea01bf6598c536f69281529d01eda78b56880949aa675c9d57b03"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-007/master.wav",
+      "bytes": 61518,
+      "sha256": "7d8be235bad5904b26108f104bd279fd873578fae7713da2da5c7d83cf354119"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-007/runtime.ogg",
+      "bytes": 12657,
+      "sha256": "f2508bee5db1c606da8fdd8d510c9b587a512aaf03c0c5916bacd02ca19bec29"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

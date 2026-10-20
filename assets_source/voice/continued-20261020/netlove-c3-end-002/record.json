@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-end-002",
+  "sceneId": "c3-end",
+  "lineId": "c3-end-002",
+  "lineIndex": 1,
+  "speaker": "谢听禾",
+  "text": "有个地方留空了。我总觉得填上就太满。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 627077098,
+  "textSha256": "c3dc63f9cd81ff494c3b9c1127f455a8caba88d93de9107afca47503e6837fcc",
+  "medium": "chat",
+  "requestSha256": "5151b7c9bfcc44f9032c792fbbd72d3cf662b35a2561539deb52f4c038882208",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有个地方流空了我总觉得田上就太满",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.36,
+  "wallSeconds": 28.427,
+  "loudness": {
+    "input_i": "-24.49",
+    "input_tp": "-8.86",
+    "input_lra": "0.10",
+    "input_thresh": "-34.63",
+    "output_i": "-19.81",
+    "output_tp": "-4.29",
+    "output_lra": "0.00",
+    "output_thresh": "-29.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.19"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-end-002/raw.wav",
+      "bytes": 322640,
+      "sha256": "c95154f34ed4cb73dfcf211c57743cf3bb30fe2d2b26822b63158102845b8d89"
+    },
+    "master": {
+      "path": "netlove-c3-end-002/master.wav",
+      "bytes": 161358,
+      "sha256": "ca9f536242e410b6b9dcb525688d347fcf6346fa626caede4e7b023418bd778c"
+    },
+    "runtime": {
+      "path": "netlove-c3-end-002/runtime.ogg",
+      "bytes": 27953,
+      "sha256": "a9d4923b47ad367f500477066ca22e02475c61de4570c7540e8a6fbe4a6ca56f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

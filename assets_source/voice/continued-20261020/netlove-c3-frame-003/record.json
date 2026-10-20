@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-003",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-003",
+  "lineIndex": 2,
+  "speaker": "许弥",
+  "text": "你这显示器太蓝了。照片里的太阳像刚从冰箱拿出来。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 199815108,
+  "textSha256": "8bacc56e468a30c5443ce00ac7b506d22de5159f5fcc1b966bbfcb34db1e7f65",
+  "medium": "call",
+  "requestSha256": "326fc8d512356c70afa7f2de80681baaee004980cb68db3fdf63f0d4b5f404ed",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你这显示器太蓝了照片里的太阳像刚从冰箱拿出来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.72,
+  "wallSeconds": 212.303,
+  "loudness": {
+    "input_i": "-22.56",
+    "input_tp": "-6.51",
+    "input_lra": "1.00",
+    "input_thresh": "-32.74",
+    "output_i": "-19.63",
+    "output_tp": "-3.45",
+    "output_lra": "0.30",
+    "output_thresh": "-29.94",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.37"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-003/raw.wav",
+      "bytes": 453200,
+      "sha256": "908f6d1faf98965dbd1a9230df310572a4c898d19d94795ce6adb7258626f7f2"
+    },
+    "master": {
+      "path": "netlove-c3-frame-003/master.wav",
+      "bytes": 226638,
+      "sha256": "2bef7f2751296ae69cf206197cea5bd1424feacd44c8ce4457fae442e16cd103"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-003/runtime.ogg",
+      "bytes": 39229,
+      "sha256": "0840d8f3c9f193ee4ccaa0145c31debf3be128bd8941547f80374c03164ed2b3"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

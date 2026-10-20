@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-002",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-002",
+  "lineIndex": 1,
+  "speaker": "周既明",
+  "text": "你忙完再回。以后有事可以留一句“今天不在”，不用解释全部。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 987632487,
+  "textSha256": "41aae1bfb21fd4ad94544c19d4bae4451e88b52a9e6eb8804f41fc7bf95fe474",
+  "medium": "chat",
+  "requestSha256": "f6114bd60a4fff850579511effe1d40b70d01cc0a6388b150e970c8bc11bbd94",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你忙完再回以后有事可以留一句今天不在不用解释全部",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.12,
+  "wallSeconds": 834.83,
+  "loudness": {
+    "input_i": "-27.55",
+    "input_tp": "-8.15",
+    "input_lra": "2.20",
+    "input_thresh": "-37.78",
+    "output_i": "-20.73",
+    "output_tp": "-2.00",
+    "output_lra": "1.60",
+    "output_thresh": "-31.11",
+    "normalization_type": "dynamic",
+    "target_offset": "0.73"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-002/raw.wav",
+      "bytes": 491600,
+      "sha256": "627c733a73ec436108a566377efb2c42342c7487e76d0638972c3a3dfc962795"
+    },
+    "master": {
+      "path": "netlove-c4-ask-002/master.wav",
+      "bytes": 245838,
+      "sha256": "85fe1a342656ea99699982095eba9282f66b4c5b14c2afb2e4d47d0d058bd997"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-002/runtime.ogg",
+      "bytes": 42575,
+      "sha256": "a3d40e6f843be9ef9019683ce96aeef07acdf6bb8888dab492538233df152052"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

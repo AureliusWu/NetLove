@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-018",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-018",
+  "lineIndex": 17,
+  "speaker": "谢听禾",
+  "text": "那下次我可能只会说，我饿了。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 36239522,
+  "textSha256": "4fcf837389969f14538a370c9d19513d20e088437966cf725fe1055115e0fa23",
+  "medium": "spoken",
+  "requestSha256": "5bc749949ba31f50cb1e223f2a9bc1f36a390f573bf22a0829e9166b21fd93cc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那下次我可能只會說我餓了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 69.819,
+  "loudness": {
+    "input_i": "-20.61",
+    "input_tp": "-6.32",
+    "input_lra": "0.00",
+    "input_thresh": "-30.61",
+    "output_i": "-20.00",
+    "output_tp": "-5.71",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-018/raw.wav",
+      "bytes": 230480,
+      "sha256": "4e1151f6e25dec3375f289c1bcf82a174d57a72c45d198c8c8adb2828c3b1a31"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-018/master.wav",
+      "bytes": 115278,
+      "sha256": "04548e370fd4aeab18bb21b090bfa0ee18a70d2e01790d7346afcff66c1e57a1"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-018/runtime.ogg",
+      "bytes": 21006,
+      "sha256": "24309c19a74c7d0b2ad53ab9cf68faa6b1930a305bd2383f88b4109f113ae42f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

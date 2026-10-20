@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-010",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "信封有什么用？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1464428176,
+  "textSha256": "74a0d87e6474d5a43ca7d5b07e1892f0f14102436a033e3f47e19c3c525a4dee",
+  "medium": "call",
+  "requestSha256": "cd6193f6d966aec602b774c4ce33631b14a5d526702a07fef499c5f3996ae76d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "信方有什么用",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 6.308,
+  "loudness": {
+    "input_i": "-22.72",
+    "input_tp": "-7.83",
+    "input_lra": "0.00",
+    "input_thresh": "-32.72",
+    "output_i": "-19.99",
+    "output_tp": "-5.11",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-010/raw.wav",
+      "bytes": 115280,
+      "sha256": "9111196fc8c00b4c2625e63f71614672a1a524a5270822dab3ca0805b2f83dc9"
+    },
+    "master": {
+      "path": "netlove-c3-frame-010/master.wav",
+      "bytes": 57678,
+      "sha256": "fd0e5ae5267b8a1082b7d5a75a6542e23b90b29c2295d70d31c8d8a4ca819484"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-010/runtime.ogg",
+      "bytes": 12094,
+      "sha256": "5bd226c8938df46324b2ec69f40dd92e6951d1eb2bc96773aedeae3ebd8a0f82"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

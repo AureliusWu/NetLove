@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-004",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "我没做什么。就是把它们接起来。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 89317138,
+  "textSha256": "1ad9b49e13bc2995f7c9fdbb9dd0f5c37612980c5f104732d4ef25284d61f414",
+  "medium": "call",
+  "requestSha256": "67eb0f58f02ee346f99282eb9427f5a39bd45e7af5ec8b9df28dd6b2e351336a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我没做什么,就是把他们接起来。",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 17.261,
+  "loudness": {
+    "input_i": "-22.76",
+    "input_tp": "-9.63",
+    "input_lra": "1.40",
+    "input_thresh": "-33.21",
+    "output_i": "-19.40",
+    "output_tp": "-6.67",
+    "output_lra": "0.00",
+    "output_thresh": "-29.94",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-004/raw.wav",
+      "bytes": 368720,
+      "sha256": "b290e93a1187cee6873af4f5c02b5a3b782f19b30c646483006ec75a7476d180"
+    },
+    "master": {
+      "path": "netlove-c2-audio-004/master.wav",
+      "bytes": 184398,
+      "sha256": "92eec0d186efd40a0645bc09d331141de9b4afa25f9012e151ee61918caf2428"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-004/runtime.ogg",
+      "bytes": 29436,
+      "sha256": "c7214ee7056f00f8f4fd42f609332bc9988d8055caa469c52e43389361f7c50f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

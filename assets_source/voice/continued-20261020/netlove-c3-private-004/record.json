@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-004",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-004",
+  "lineIndex": 3,
+  "speaker": "许弥",
+  "text": "我在接电话。先别让其他人继续帮我解释。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1844821369,
+  "textSha256": "03c9d0f34e43c105748b82a65d9f75f2190b1f22f9940b6d6ceb729a5eca7fdc",
+  "medium": "chat",
+  "requestSha256": "ef9deef4cb16c80ab4ffce00c8d0d58f1163617803134aadaa1b8c4b5408f141",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我在接電話,先別讓其他人繼續幫我解釋。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 19.636,
+  "loudness": {
+    "input_i": "-19.77",
+    "input_tp": "-2.88",
+    "input_lra": "1.20",
+    "input_thresh": "-30.03",
+    "output_i": "-19.24",
+    "output_tp": "-2.51",
+    "output_lra": "0.20",
+    "output_thresh": "-29.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.76"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-004/raw.wav",
+      "bytes": 422480,
+      "sha256": "2ac6de70499546d72d42ef4a1f222d81fe6ce43fb6c9fcbb41d0d6c432a1d6d4"
+    },
+    "master": {
+      "path": "netlove-c3-private-004/master.wav",
+      "bytes": 211278,
+      "sha256": "7b767d2b8406ceda31bdd4ce44ebca18f2a0721dc2b694f23ed84175b5feaa22"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-004/runtime.ogg",
+      "bytes": 34896,
+      "sha256": "147cce168da95bbe246cf521412e6fa72f1882b23b901c86c5c42a7fd552b1d8"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

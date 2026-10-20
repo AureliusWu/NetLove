@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-012",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-012",
+  "lineIndex": 11,
+  "speaker": "许弥",
+  "text": "你现在别夸我坚强。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 888331453,
+  "textSha256": "fa00974c14b000f0e5d168bd8dd8c0ff4637e6cc3563ad7641e0d00c04b7982d",
+  "medium": "call",
+  "requestSha256": "11a0b822b282e90ffb8c5409bebbe6a48e6d51d5fe7393e3665d74dcaa4b800b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你現在別誇我堅強",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 87.069,
+  "loudness": {
+    "input_i": "-16.17",
+    "input_tp": "-4.99",
+    "input_lra": "0.00",
+    "input_thresh": "-27.66",
+    "output_i": "-19.99",
+    "output_tp": "-8.82",
+    "output_lra": "0.00",
+    "output_thresh": "-31.47",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-012/raw.wav",
+      "bytes": 253520,
+      "sha256": "0a8c0c74b34b05877015e29574ca401356c91b35ee7efdf13c222a3e0b2f0ee3"
+    },
+    "master": {
+      "path": "netlove-c3-repair-012/master.wav",
+      "bytes": 126798,
+      "sha256": "50a3b8e10f04adb71f36ecaa57a62be61649f07da8a103cd66d599162adbafd8"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-012/runtime.ogg",
+      "bytes": 20188,
+      "sha256": "32c0df4a2886c538ef997a31399d45aec6776a4459176b483e5f667cdf54f8b0"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

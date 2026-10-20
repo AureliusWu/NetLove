@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-004",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-004",
+  "lineIndex": 3,
+  "speaker": "许弥",
+  "text": "店里老客户的底片会归档。没拿来做展。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 57475644,
+  "textSha256": "333e276c3a1a7ce46769ad22091d70a0fe6bba85bf28aa5c8532bc4d82326383",
+  "medium": "spoken",
+  "requestSha256": "b2c397f4a287ed6b3b5e6ddf0adb7f37b960f2874396e202cb33a600ce284afc",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "店里老客户的底片会归到没拿来作诈",
+    "cer": 0.1875,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 303.551,
+  "loudness": {
+    "input_i": "-19.76",
+    "input_tp": "-5.04",
+    "input_lra": "0.60",
+    "input_thresh": "-29.91",
+    "output_i": "-18.88",
+    "output_tp": "-4.43",
+    "output_lra": "0.00",
+    "output_thresh": "-29.01",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.12"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-004/raw.wav",
+      "bytes": 368720,
+      "sha256": "57113e6b10a9c90702d633e45d93efbd2ef652a91bf74c1df8ec44f6b2760f9c"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-004/master.wav",
+      "bytes": 184398,
+      "sha256": "c1c452b6a28d43ff0d9356a11c2858b9cb9cc4e57a1cbfb3c45a5ab22a1e2338"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-004/runtime.ogg",
+      "bytes": 30053,
+      "sha256": "a2e8c583279a123ba6ec6c7d9aa5150669be7996973f5586d0a18bcc17d9f8d6"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

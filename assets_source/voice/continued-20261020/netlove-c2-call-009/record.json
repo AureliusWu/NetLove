@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-call-009",
+  "sceneId": "c2-call",
+  "lineId": "c2-call-009",
+  "lineIndex": 8,
+  "speaker": "谢听禾",
+  "text": "要视频吗？不方便也没关系。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 69754661,
+  "textSha256": "461444e2187ca2580f281a7a192138273a0be237de4e8260b976309541ad6d2e",
+  "medium": "call",
+  "requestSha256": "edb9e1c07dea1fdbd35f45e123e91449c4730c063a12627882e347fd400ff95e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "要视频吗?不方便也没关系",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 14.946,
+  "loudness": {
+    "input_i": "-25.16",
+    "input_tp": "-9.05",
+    "input_lra": "0.50",
+    "input_thresh": "-35.49",
+    "output_i": "-19.21",
+    "output_tp": "-3.31",
+    "output_lra": "0.00",
+    "output_thresh": "-29.71",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-call-009/raw.wav",
+      "bytes": 314960,
+      "sha256": "e4737d3a367a0e961600b348e4377574a0080d49825c69db753e2ff0fbd71a85"
+    },
+    "master": {
+      "path": "netlove-c2-call-009/master.wav",
+      "bytes": 157518,
+      "sha256": "f4b5ec92aac9384c883d9b12e3062381d17f877fc96322910723e65fef29ccb7"
+    },
+    "runtime": {
+      "path": "netlove-c2-call-009/runtime.ogg",
+      "bytes": 25972,
+      "sha256": "ba34df134ffb300002478538ca93f553d117537cb0cbece2b7cfb84fd6db150b"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

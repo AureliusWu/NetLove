@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-letter-006",
+  "sceneId": "c5-letter",
+  "lineId": "c5-letter-006",
+  "lineIndex": 5,
+  "speaker": "陆衡",
+  "text": "你别又把午饭整理没了。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1733216656,
+  "textSha256": "e107def8976b3d8389ede637e6063947549fbf726fff721851373d719b6a5622",
+  "medium": "spoken",
+  "requestSha256": "1e4b3615eb96a1ace4a0c26ee07e735ff682e981d6a6c0fda6d29985627089cc",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你别又把午饭整理没了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 62.135,
+  "loudness": {
+    "input_i": "-22.24",
+    "input_tp": "-6.91",
+    "input_lra": "0.00",
+    "input_thresh": "-32.24",
+    "output_i": "-20.03",
+    "output_tp": "-4.67",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-letter-006/raw.wav",
+      "bytes": 161360,
+      "sha256": "ed3a1f136bc18c3b3505b6d3a33a10a603732d071a2a6456e42bb548e71190a2"
+    },
+    "master": {
+      "path": "netlove-c5-letter-006/master.wav",
+      "bytes": 80718,
+      "sha256": "7b78c81de5edb2b124167cff3c28e4a09bfe702c10d877d98fa30062e1c8bc52"
+    },
+    "runtime": {
+      "path": "netlove-c5-letter-006/runtime.ogg",
+      "bytes": 15769,
+      "sha256": "ad72741977425056c01106ba7c794ab6cf379c4f6102d293193fc136b2cb421f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

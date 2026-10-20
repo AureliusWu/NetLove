@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-016",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-016",
+  "lineIndex": 15,
+  "speaker": "周既明",
+  "text": "我会提前到。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1458078595,
+  "textSha256": "6e3c94c9e0bc401e608fd5f6c4a83cae87b4ab64a3ae107badb03782f9a23aac",
+  "medium": "spoken",
+  "requestSha256": "d2f0a4f7c6a335613f8d4ff6139f2eeb54c60d3fa60bf12cf053a68b21d70d82",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我會提前到",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 5.578,
+  "loudness": {
+    "input_i": "-27.62",
+    "input_tp": "-6.01",
+    "input_lra": "0.00",
+    "input_thresh": "-37.62",
+    "output_i": "-23.60",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.60",
+    "normalization_type": "linear",
+    "target_offset": "3.60"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-016/raw.wav",
+      "bytes": 92240,
+      "sha256": "d29e9f4e27b87e013c471503ddc1974e5f1d3a05aff396d40298f251698925d7"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-016/master.wav",
+      "bytes": 46158,
+      "sha256": "fbf3d9c0afcd1ea1c7fbde1adaff10db7269f4a76cfcead8f067780583de0fa8"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-016/runtime.ogg",
+      "bytes": 10882,
+      "sha256": "d3d1e4f83e34fec82690792bcc1662f296104d449b6f9d811600128b8db80784"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

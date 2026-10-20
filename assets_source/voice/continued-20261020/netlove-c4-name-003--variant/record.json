@@ -1,0 +1,60 @@
+{
+  "id": "netlove-c4-name-003--variant",
+  "sceneId": "c4-name",
+  "lineId": "c4-name-003--variant",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。",
+  "variant": {
+    "stat": "honesty",
+    "min": 3,
+    "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。"
+  },
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 91015988,
+  "textSha256": "9d9cffca5c6b21069779c1bea96535519d57d0cc98e0c2b0390f0fc9a37cf6c9",
+  "medium": "chat",
+  "requestSha256": "bf2869ecf7165f6f6d08fc54b6786485739801f5d04310274afd3cf1ec2aff0c",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "陸恒第一個發現問我是不是終於把那條橫線填完了我想起那份寫著自己名字的解釋",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.32,
+  "wallSeconds": 568.018,
+  "loudness": {
+    "input_i": "-26.15",
+    "input_tp": "-6.01",
+    "input_lra": "0.60",
+    "input_thresh": "-36.52",
+    "output_i": "-20.07",
+    "output_tp": "-2.00",
+    "output_lra": "0.60",
+    "output_thresh": "-30.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-name-003--variant/raw.wav",
+      "bytes": 798800,
+      "sha256": "8fdd40d5253cbe2862ad3e12c676e67d75a0ef5d22b2b4307c1148da45843aa8"
+    },
+    "master": {
+      "path": "netlove-c4-name-003--variant/master.wav",
+      "bytes": 399438,
+      "sha256": "2cd6d5893a6627c357232c1b339eb8dcfb2482d7888a07e06539493d002871ca"
+    },
+    "runtime": {
+      "path": "netlove-c4-name-003--variant/runtime.ogg",
+      "bytes": 66592,
+      "sha256": "960c9e72ad4d86470d92a16dc41f3f75ef24971baa394c147f94ab712562ab91"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-010",
+  "sceneId": "group",
+  "lineId": "group-010",
+  "lineIndex": 9,
+  "speaker": "暂停营业",
+  "text": "新来的，名字后面那个下划线是没想好叫啥吗？",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 2270400,
+  "textSha256": "739d3b2945e0a47b3d7085f351b0304494d7d5bd0ffac8bdb42274b42e2efa28",
+  "medium": "chat",
+  "requestSha256": "9d41e8db20fb889088e8f7235b1c1b61fa97bfb50c199e95c2e48fe5f2c6d9c4",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "新来的,名字后面那个夏华县是没想好叫啥吗?",
+    "cer": 0.157895,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 134.241,
+  "loudness": {
+    "input_i": "-20.96",
+    "input_tp": "-4.39",
+    "input_lra": "0.30",
+    "input_thresh": "-31.46",
+    "output_i": "-19.67",
+    "output_tp": "-3.28",
+    "output_lra": "0.30",
+    "output_thresh": "-30.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-010/raw.wav",
+      "bytes": 445520,
+      "sha256": "870307aa9bdd5916220cd5cad7f44619034362b0342d8674c34ad9af1d828466"
+    },
+    "master": {
+      "path": "netlove-group-010/master.wav",
+      "bytes": 222798,
+      "sha256": "f5a8a7ad3a7f2b5111481677133c1db8acfc923e4489f9b63ef4e7ee413cdf24"
+    },
+    "runtime": {
+      "path": "netlove-group-010/runtime.ogg",
+      "bytes": 36278,
+      "sha256": "8093b8f2c4f37e62fb20af8f27fe51194a991ad8a7feefae70e1714c49e43196"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-008",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-008",
+  "lineIndex": 7,
+  "speaker": "许弥",
+  "text": "那些东西没有人要。以前投过一个比赛，没入围。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 903194262,
+  "textSha256": "f58c6062bdfda3fb320285fe775a2a9c309008db03ba0f67809874c7d6b22fc0",
+  "medium": "call",
+  "requestSha256": "567bb089fd76c0896ee35fc287538dac474c8362025db75acb157ab3a4ea65d8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那些東西沒有人要,以前投過一個比賽,沒入圍。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 182.263,
+  "loudness": {
+    "input_i": "-21.07",
+    "input_tp": "-4.36",
+    "input_lra": "3.40",
+    "input_thresh": "-31.27",
+    "output_i": "-20.51",
+    "output_tp": "-4.61",
+    "output_lra": "2.30",
+    "output_thresh": "-30.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.51"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-008/raw.wav",
+      "bytes": 407120,
+      "sha256": "a936d54fd0aec407843ae6e35934567470239ec5b7425f1df9559b55a9d4ea83"
+    },
+    "master": {
+      "path": "netlove-c2-print-008/master.wav",
+      "bytes": 203598,
+      "sha256": "2faed1af16071d9b888cef781711be61f237b15876fcfd638070dad9a0433e2a"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-008/runtime.ogg",
+      "bytes": 34076,
+      "sha256": "6dcba3ae7222331f2b8d4b18c186da3461091dcecf5ec0a76b34983916ab7a80"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

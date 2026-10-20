@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-013",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-013",
+  "lineIndex": 12,
+  "speaker": "周既明",
+  "text": "我想问那把椅子，明天还拍吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1140405992,
+  "textSha256": "3c526582c625b61a3e70f02c2af0c92b92d287cc8afc5d323aba684b06b19a44",
+  "medium": "call",
+  "requestSha256": "d5f0c2fbd60f067e4b383f1a3b1d25ad1d1a01d5b80f59300f3476058b70d5a3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想问那把椅子啊明天还拍吗",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 12.809,
+  "loudness": {
+    "input_i": "-26.08",
+    "input_tp": "-6.95",
+    "input_lra": "0.00",
+    "input_thresh": "-36.26",
+    "output_i": "-21.14",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.32",
+    "normalization_type": "linear",
+    "target_offset": "1.14"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-013/raw.wav",
+      "bytes": 261200,
+      "sha256": "4df02ff31ed8f10abca3fa8802a15d73a10ed918e73a6e28f8560ed86fe981e9"
+    },
+    "master": {
+      "path": "netlove-c3-repair-013/master.wav",
+      "bytes": 130638,
+      "sha256": "b308981c1ee0f756a5902e0051dcdf72fa0952e31e91537a8d2b54edba38c101"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-013/runtime.ogg",
+      "bytes": 23497,
+      "sha256": "23ad402c469e3492cdb16ba939856f769263486828066b48cad16da2ae55ccc1"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

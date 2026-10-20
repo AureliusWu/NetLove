@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "sourceRun": 39436514322,
+  "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
+  "target": 220,
+  "accepted": 216,
+  "pendingCount": 4,
+  "pending": [
+    {
+      "id": "netlove-c1-window-004",
+      "text": "晾衣杆。风一吹就响。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "两一干 风一吹就响",
+        "cer": 0.375,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c2-open-008",
+      "text": "听是听见的听。禾是稻子的禾。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "听是听见的听 和是道子的和",
+        "cer": 0.25,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c3-repair-014",
+      "text": "拍。它坐得比我稳。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "嗨 她做我的比我穩",
+        "cer": 0.714286,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c4-voice-006",
+      "text": "没删。你那次叹气，我也没放进公开版。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "梅山,你那次探棄,我也沒放進公開板。",
+        "cer": 0.333333,
+        "polarityCountsMatch": false,
+        "passed": false
+      },
+      "error": null
+    }
+  ],
+  "status": "recovered_verified_takes",
+  "archive": "assets_source/voice/continued-20261020",
+  "humanListening": false,
+  "runtimeIntegration": "pending",
+  "release": "not_published"
+}

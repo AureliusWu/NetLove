@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-004",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "还办吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 260557308,
+  "textSha256": "55a242f77421ed85369325187cf8eeb798610488fdb2eefeb4f3cada275db36f",
+  "medium": "call",
+  "requestSha256": "b1a4612f6e4824f91f3e6ed128704b7ce17bafb030cccd1b64e3fe28b5c526d1",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "还办吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 10.029,
+  "loudness": {
+    "input_i": "-23.06",
+    "input_tp": "-6.49",
+    "input_lra": "0.00",
+    "input_thresh": "-33.06",
+    "output_i": "-19.99",
+    "output_tp": "-3.44",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-004/raw.wav",
+      "bytes": 76880,
+      "sha256": "8b1169385ed32fdf487c9faed710d1aa0b3c20b8e4d3c9940e635e212dccb650"
+    },
+    "master": {
+      "path": "netlove-c3-repair-004/master.wav",
+      "bytes": 38478,
+      "sha256": "151b2d6856caa2a4176129dc56ec700357815c4b6986a1741c66bd53aa177581"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-004/runtime.ogg",
+      "bytes": 9622,
+      "sha256": "db929ca858138d31a77a7b1d67a09c9438b53e44c7229bedc1c7c7314627c405"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

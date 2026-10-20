@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-007",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-007",
+  "lineIndex": 6,
+  "speaker": "一格信号",
+  "text": "电饭煲。楼上拖椅子。家里有人不小心把碗放重了。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 439301913,
+  "textSha256": "1a5ae1c8afccba5b5d36d388fafef41fe69b15cc3787489ff89f4bf4de115654",
+  "medium": "chat",
+  "requestSha256": "09fb144aff4020ae9026b8e00d0a99a6c0b479caa207a49429bc1e67eccb63c7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "店販包,樓上拖椅子,家裡有人不小心把碗放中了",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 334.254,
+  "loudness": {
+    "input_i": "-25.25",
+    "input_tp": "-8.92",
+    "input_lra": "0.30",
+    "input_thresh": "-35.81",
+    "output_i": "-19.70",
+    "output_tp": "-3.08",
+    "output_lra": "1.00",
+    "output_thresh": "-30.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.30"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-007/raw.wav",
+      "bytes": 537680,
+      "sha256": "871da73b9a05718e12504a128fc42331f2c0f367898c8acf40359e2e2c4cf196"
+    },
+    "master": {
+      "path": "netlove-c1-window-007/master.wav",
+      "bytes": 268878,
+      "sha256": "0465b4430ea0641f3ea182302358dda7440fc3b8d13ec7622e55ba32f613d3ef"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-007/runtime.ogg",
+      "bytes": 42199,
+      "sha256": "4537a20a3990a021fe2faf983a6a77055ca3ded4ebfb2084afef15f8970fff41"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

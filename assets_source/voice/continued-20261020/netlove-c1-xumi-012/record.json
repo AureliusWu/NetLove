@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-012",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-012",
+  "lineIndex": 11,
+  "speaker": "暂停营业",
+  "text": "拍。拍得最多的是“这张能不能再瘦一点”。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1490789039,
+  "textSha256": "2b10b56d473d7e3d7d2aa48600e96964d9e65491bfcae64a7e7274a6ee52a77d",
+  "medium": "chat",
+  "requestSha256": "c7cac286cfbcd90c833f57467ad1766a5467e68041dc964523ec87269aecb24d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "拍,拍得最多的是,這張能不能再瘦一點",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 37.683,
+  "loudness": {
+    "input_i": "-24.74",
+    "input_tp": "-9.89",
+    "input_lra": "1.70",
+    "input_thresh": "-35.19",
+    "output_i": "-18.18",
+    "output_tp": "-3.64",
+    "output_lra": "1.50",
+    "output_thresh": "-28.84",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.82"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-012/raw.wav",
+      "bytes": 460880,
+      "sha256": "44a67e3779109cc0ca0fa7ee079741f58e07474722da828d8f2708d71519fd46"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-012/master.wav",
+      "bytes": 230478,
+      "sha256": "c7d5a1e7230b26aa35d2a044b0e527fc6cf29aaea449fb79a1477e1c113f3513"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-012/runtime.ogg",
+      "bytes": 36435,
+      "sha256": "5a07e74a6ec1e5b49f651f23e913de0710e116fb0c2c2649d58d61b7e415a089"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

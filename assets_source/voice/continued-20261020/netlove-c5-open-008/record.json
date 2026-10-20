@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-open-008",
+  "sceneId": "c5-open",
+  "lineId": "c5-open-008",
+  "lineIndex": 7,
+  "speaker": "陆衡",
+  "text": "我四点下班。吃面可以，长篇演讲不行。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1884727159,
+  "textSha256": "dc7166c21f7f470e22d276a00ebd06d458107c2e26699bd266e7389562dcabf3",
+  "medium": "chat",
+  "requestSha256": "531268751726fe50f60de8e8bd8178760e7efb9bdf57e7be7fbf869772b8d899",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我四点下班,吃面可以,长篇演讲不行。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 291.48,
+  "loudness": {
+    "input_i": "-24.35",
+    "input_tp": "-6.00",
+    "input_lra": "0.90",
+    "input_thresh": "-34.89",
+    "output_i": "-19.58",
+    "output_tp": "-2.00",
+    "output_lra": "0.70",
+    "output_thresh": "-30.07",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.42"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-open-008/raw.wav",
+      "bytes": 476240,
+      "sha256": "c3af4a37ca30118fa6a41bde84e7405645b57e14be90a0f09b18a6cb17e51751"
+    },
+    "master": {
+      "path": "netlove-c5-open-008/master.wav",
+      "bytes": 238158,
+      "sha256": "2117fe5cb8949e3dcf048b16d3065c4bdca0acd6783073de09403e48e367319e"
+    },
+    "runtime": {
+      "path": "netlove-c5-open-008/runtime.ogg",
+      "bytes": 41578,
+      "sha256": "c300deb1807e0ea723f7cdcab1d86ac10aa810bd149237938367e083a3265f04"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

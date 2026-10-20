@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-008",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-008",
+  "lineIndex": 7,
+  "speaker": "一格信号",
+  "text": "以前公交经过就盖住了。现在听得见。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 485444002,
+  "textSha256": "8a9a59a791887218a7bfc4c56d41ad940aa8e915cd6a73b014ecc9f9696371b1",
+  "medium": "chat",
+  "requestSha256": "b671beb5be2082cfae7896b00937e5c6c41b54ff82c85b8b0f3bee2b27efaa0e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前,公交金库就蓋住了。現在聽得見。",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 231.505,
+  "loudness": {
+    "input_i": "-24.77",
+    "input_tp": "-8.97",
+    "input_lra": "0.80",
+    "input_thresh": "-35.18",
+    "output_i": "-18.80",
+    "output_tp": "-2.96",
+    "output_lra": "0.80",
+    "output_thresh": "-29.28",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.20"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-008/raw.wav",
+      "bytes": 384080,
+      "sha256": "c1935cbceee8994c5a69f36b710ef275777c98b6f2d016bcab4e56e63a6cde95"
+    },
+    "master": {
+      "path": "netlove-c1-window-008/master.wav",
+      "bytes": 192078,
+      "sha256": "7a793b280ba3a9d85c2b2a032d984aebfd0f2fe8d9fd2f8080b55e53a20a1a61"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-008/runtime.ogg",
+      "bytes": 32608,
+      "sha256": "996d7d1ce138b225f763159b7ea5e52acad363c6a8a1176718468bfbf833792f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

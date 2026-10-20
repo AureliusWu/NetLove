@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-009",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "你现在还拍吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 271007464,
+  "textSha256": "e8a58e087a983cb5ef2dfe006f359971e3a17debb7e29505c14d3831232ed9c1",
+  "medium": "call",
+  "requestSha256": "9e683ba020168986ed7f17e28846cb948d7729ab5157b12855d80922dc525c31",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你现在还拍吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 12.347,
+  "loudness": {
+    "input_i": "-22.82",
+    "input_tp": "-8.22",
+    "input_lra": "0.00",
+    "input_thresh": "-32.82",
+    "output_i": "-19.98",
+    "output_tp": "-5.41",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-009/raw.wav",
+      "bytes": 107600,
+      "sha256": "fcd08f3c0ad02b84f1e0d1d1af757d1167ecab6fdf6ab9c680389c20e8701dbd"
+    },
+    "master": {
+      "path": "netlove-c2-print-009/master.wav",
+      "bytes": 53838,
+      "sha256": "0fa5febe038e5de51a91c7dc48aa89a9b76cb60e5a893a8679d213922782b9ce"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-009/runtime.ogg",
+      "bytes": 11556,
+      "sha256": "50f82023d7f33d39edb463d0f72e55d12c02c58ab262a7c948f60b375abee328"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-011",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-011",
+  "lineIndex": 10,
+  "speaker": "一格信号",
+  "text": "没有。你最后叹了一口气。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 996728514,
+  "textSha256": "8a82bd040e67194ef5fcf265df2f9f2766aa974884c49d3bcd4478b44d5cb3b6",
+  "medium": "chat",
+  "requestSha256": "266654844bed59d37e419fe48b7675282cd3fc3fd0d5532b9967725e17e42809",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没有,你最后踏了一口气。",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 87.295,
+  "loudness": {
+    "input_i": "-27.21",
+    "input_tp": "-12.27",
+    "input_lra": "0.60",
+    "input_thresh": "-37.90",
+    "output_i": "-19.29",
+    "output_tp": "-4.52",
+    "output_lra": "0.00",
+    "output_thresh": "-30.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.71"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-011/raw.wav",
+      "bytes": 299600,
+      "sha256": "e3bff04ae5d4c1ebfb2dc960786238e376462dd2810ec7f5022f1d0e6b6426f4"
+    },
+    "master": {
+      "path": "netlove-c1-window-011/master.wav",
+      "bytes": 149838,
+      "sha256": "2d8865224055b6cfc2e4f44adcef492b8767863b75b3aa6f80ed3d396b8fc2f1"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-011/runtime.ogg",
+      "bytes": 24695,
+      "sha256": "3728b080ee8db2bbf9262fe4f94cf93e1e493cce172a7bf22b762a853893655c"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

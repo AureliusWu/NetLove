@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-001",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "第一份附件是我发的。问尺寸时多选了那张。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 186825758,
+  "textSha256": "1eb1dac5557389e46c93b1ada8da3cca1d8ebe8a75de9b5a4ff9b351892690f6",
+  "medium": "chat",
+  "requestSha256": "b251a7355c990e65b6b163663cb8b45a96bf43c23665a84eefb8550b2cde8d48",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "第一份附件是我发的问尺寸石多选了那张",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 122.672,
+  "loudness": {
+    "input_i": "-23.60",
+    "input_tp": "-4.13",
+    "input_lra": "0.60",
+    "input_thresh": "-33.87",
+    "output_i": "-19.98",
+    "output_tp": "-2.00",
+    "output_lra": "0.60",
+    "output_thresh": "-30.21",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-001/raw.wav",
+      "bytes": 414800,
+      "sha256": "fb40aad73ed62fc854f8b484c36630d8908dfd349b29e2ea74a66a5cc179899e"
+    },
+    "master": {
+      "path": "netlove-c3-private-001/master.wav",
+      "bytes": 207438,
+      "sha256": "79991e8c1c1b82e2d6915a68e0cb09468688656b2ff3089e23215c6500756d59"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-001/runtime.ogg",
+      "bytes": 36322,
+      "sha256": "0bb466928495f68c03cbefe7c6cd445de20bcbc0549ce8b527b467ea41158b7c"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

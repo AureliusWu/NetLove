@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-open-005",
+  "sceneId": "c2-open",
+  "lineId": "c2-open-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "弥是弥补的弥。不是谜语的谜，证件上都有人写错。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1386452455,
+  "textSha256": "d0976fb3b62cfbf32323599b71b767763c474c95ea7234201cd609188f91f43b",
+  "medium": "chat",
+  "requestSha256": "715aa131dd41966e0e9a6705b27ff4e86171b5606dbfe37873e5a71a7c77c405",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "謎是彌補的謎,不是謎語的謎,證件上都有人寫錯",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.84,
+  "wallSeconds": 185.629,
+  "loudness": {
+    "input_i": "-23.67",
+    "input_tp": "-11.64",
+    "input_lra": "2.60",
+    "input_thresh": "-33.84",
+    "output_i": "-20.52",
+    "output_tp": "-9.00",
+    "output_lra": "2.20",
+    "output_thresh": "-30.94",
+    "normalization_type": "dynamic",
+    "target_offset": "0.52"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-open-005/raw.wav",
+      "bytes": 560720,
+      "sha256": "169cf030e1f8d6945633b5b9884d537a37610c5cef831ac2a4130e0891ec5bc4"
+    },
+    "master": {
+      "path": "netlove-c2-open-005/master.wav",
+      "bytes": 280398,
+      "sha256": "5c4828ea630e253ba45d579206109e915623935523a20e8a09c60d7b2d7f64b9"
+    },
+    "runtime": {
+      "path": "netlove-c2-open-005/runtime.ogg",
+      "bytes": 43676,
+      "sha256": "9eb9306f7e215e23010443e6e303a6b1eb00869bfa5e86d11478d191f6f70871"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-call-008",
+  "sceneId": "c2-call",
+  "lineId": "c2-call-008",
+  "lineIndex": 7,
+  "speaker": "周既明",
+  "text": "好。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1704441590,
+  "textSha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7",
+  "medium": "call",
+  "requestSha256": "30d139c0b6bcdacce79aba8a0ff29dc342721e1cdde032edc794c8b63e312249",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.48,
+  "wallSeconds": 30.702,
+  "loudness": {
+    "input_i": "-18.95",
+    "input_tp": "-4.38",
+    "input_lra": "0.00",
+    "input_thresh": "-28.95",
+    "output_i": "-20.05",
+    "output_tp": "-5.43",
+    "output_lra": "0.00",
+    "output_thresh": "-30.05",
+    "normalization_type": "linear",
+    "target_offset": "0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-call-008/raw.wav",
+      "bytes": 46160,
+      "sha256": "a33f04804e717094e40cb82da6d0862778478369b0b2e95b0396f9ccede61e01"
+    },
+    "master": {
+      "path": "netlove-c2-call-008/master.wav",
+      "bytes": 23118,
+      "sha256": "24bd3335817cb50d6bce41e5735da726d1d414c96a9adf86fc237de1cd9e6ca7"
+    },
+    "runtime": {
+      "path": "netlove-c2-call-008/runtime.ogg",
+      "bytes": 6864,
+      "sha256": "bccf107a59aba47dd523a4b310e0a79a0fb55f6fa070cf2c7c545cbf9df2eb20"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

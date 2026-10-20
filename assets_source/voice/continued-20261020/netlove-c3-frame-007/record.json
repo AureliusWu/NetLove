@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-007",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "第三种不能校色。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1791235536,
+  "textSha256": "48e6846838913e34a040ca1466f4f79cad7e3df07f76e7868a37699a86028d51",
+  "medium": "call",
+  "requestSha256": "8ac2ebd85f8cbc2775abc135595810a48a8a66e2f85d2a1de5209960a2ddf8ee",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "第三种不能校色",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 59.662,
+  "loudness": {
+    "input_i": "-24.59",
+    "input_tp": "-6.83",
+    "input_lra": "0.00",
+    "input_thresh": "-34.59",
+    "output_i": "-20.03",
+    "output_tp": "-2.24",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-007/raw.wav",
+      "bytes": 146000,
+      "sha256": "2309e8b445f35aeef4d71920d9a5f039ad47bd8022d2bc274db9770027b55061"
+    },
+    "master": {
+      "path": "netlove-c3-frame-007/master.wav",
+      "bytes": 73038,
+      "sha256": "e1773a43a615845f6735ea45df356b54acab6d8637780cd978127171963b5c04"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-007/runtime.ogg",
+      "bytes": 15194,
+      "sha256": "f13a8958d70c38a14827a69a9650519461d280ac49202b9f443c7b75a3ecf6fc"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

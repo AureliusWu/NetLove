@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-004",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-004",
+  "lineIndex": 3,
+  "speaker": "一格信号",
+  "text": "我也不知道什么时候返校。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1391081195,
+  "textSha256": "3750729bebb32857f30dbad5020cd2d2449db867901683e82b1890eeba247490",
+  "medium": "chat",
+  "requestSha256": "e164864b722e0d97ae4b298ddb383758868bf0cda8cb79796f0477a5cd3c32e9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也不知道什么时候反笑",
+    "cer": 0.181818,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 63.342,
+  "loudness": {
+    "input_i": "-22.16",
+    "input_tp": "-5.06",
+    "input_lra": "0.00",
+    "input_thresh": "-32.16",
+    "output_i": "-20.01",
+    "output_tp": "-2.90",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-004/raw.wav",
+      "bytes": 199760,
+      "sha256": "c31a99570baf326f54fbd47ba3a2168099bf8ffc025fa7ddef4e4191fce94a21"
+    },
+    "master": {
+      "path": "netlove-c1-honest-004/master.wav",
+      "bytes": 99918,
+      "sha256": "5fafd15ed46065dc0796afcc114373efe405c9d739aebf8de645e3993b5b5ed8"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-004/runtime.ogg",
+      "bytes": 18551,
+      "sha256": "0f21b268125d63524fc483d9c70267a7c57d47f080ee2466e9c117d369c25d19"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

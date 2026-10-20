@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-002",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-002",
+  "lineIndex": 1,
+  "speaker": "谢听禾",
+  "text": "不用收。很像我房间，什么都舍不得扔。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1469045360,
+  "textSha256": "72af5ec2e217a9a418f58a41ce9eaf70bb7f84bf24e63c97a393b00812efbd78",
+  "medium": "call",
+  "requestSha256": "13e8fdb7f6e02f720b49bdd62e8f7b3c3333195a73ccec8bfc581c28824367cd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不用收很像我房间什么都舍不得扔",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 113.526,
+  "loudness": {
+    "input_i": "-25.90",
+    "input_tp": "-12.28",
+    "input_lra": "0.30",
+    "input_thresh": "-36.51",
+    "output_i": "-19.18",
+    "output_tp": "-5.53",
+    "output_lra": "0.00",
+    "output_thresh": "-29.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.82"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-002/raw.wav",
+      "bytes": 330320,
+      "sha256": "d8a057ba6d8a560b3d5cce1b647af086a56f38f3541c33a4c3b6764c384f5aac"
+    },
+    "master": {
+      "path": "netlove-c2-camera-002/master.wav",
+      "bytes": 165198,
+      "sha256": "29fe152d432914d65ca63d20eda6ad0b0f66778531c7060e4d27fbec032d665e"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-002/runtime.ogg",
+      "bytes": 28278,
+      "sha256": "ecdfb6c871db3c3ea53cf019cf9d5dec0bb115cae863a26b0c868abd4088009a"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

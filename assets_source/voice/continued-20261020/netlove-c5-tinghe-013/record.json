@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-013",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-013",
+  "lineIndex": 12,
+  "speaker": "周既明",
+  "text": "我喜欢和你一起待着。屏幕里也是，现在也是。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 795275217,
+  "textSha256": "f16e1233130906051de11e11a6861f922a7d668fe16038485af93b8afa530e7a",
+  "medium": "spoken",
+  "requestSha256": "fe4f5db84630b95dead7fcdcd764c7f85265fe7d6ae7c29876dec36a486f12be",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我喜欢和你一起呆着屏幕里也是现在也是",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 114.338,
+  "loudness": {
+    "input_i": "-25.15",
+    "input_tp": "-5.69",
+    "input_lra": "0.60",
+    "input_thresh": "-35.15",
+    "output_i": "-20.40",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.40"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-013/raw.wav",
+      "bytes": 330320,
+      "sha256": "eb3966c0616583e2531967181746a4c18d81bd1243d8c9ffcc15b6fd548cf668"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-013/master.wav",
+      "bytes": 165198,
+      "sha256": "eee0234e62db5c500747db57e05daf5ec5caa49d499614c28e6ff8442f1b2747"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-013/runtime.ogg",
+      "bytes": 30303,
+      "sha256": "b2d167e568ab98ee71771bc4bb171a2f70fd91767d07cafed77ad52fe6952bad"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

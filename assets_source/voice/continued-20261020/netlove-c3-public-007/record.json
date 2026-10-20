@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-public-007",
+  "sceneId": "c3-public",
+  "lineId": "c3-public-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "对不起。我以为先说明，会帮你挡一点。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 50570149,
+  "textSha256": "56a8ca0f54ca6e7428dae96c00bdae1eacc176cd00fbbcfd7c5f33908cae8b15",
+  "medium": "chat",
+  "requestSha256": "0c3551800609f0175f49ffd125280bc61fb75533d01a63a869b080552c4fb71c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "对不起,我以为先说明会帮你挡一点。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.88,
+  "wallSeconds": 157.678,
+  "loudness": {
+    "input_i": "-27.85",
+    "input_tp": "-6.78",
+    "input_lra": "0.00",
+    "input_thresh": "-38.02",
+    "output_i": "-22.91",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.25",
+    "normalization_type": "linear",
+    "target_offset": "2.91"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-public-007/raw.wav",
+      "bytes": 276560,
+      "sha256": "a02fab7cd9f2b8021593ef77622dd00156fcdfe4768858776771237e7bacda59"
+    },
+    "master": {
+      "path": "netlove-c3-public-007/master.wav",
+      "bytes": 138318,
+      "sha256": "f8cfdb4d9c13da6fdee67fd24512549fa8bcb10b2a6a50520576e1bbf563dc6f"
+    },
+    "runtime": {
+      "path": "netlove-c3-public-007/runtime.ogg",
+      "bytes": 25409,
+      "sha256": "db0b9f9b4bac7537202535eb3f792842116e5b8c3587e7d7a14d14a79b758043"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

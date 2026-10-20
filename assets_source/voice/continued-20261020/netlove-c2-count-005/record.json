@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-count-005",
+  "sceneId": "c2-count",
+  "lineId": "c2-count-005",
+  "lineIndex": 4,
+  "speaker": "陆衡",
+  "text": "那你怎么还敢给人做表？",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1443878672,
+  "textSha256": "ca0910b761276c8788c59b6db3b6bcf11dee7c5de3dd41b36e73d1486b0e2ddf",
+  "medium": "chat",
+  "requestSha256": "67e33562c514df12957b1a54954a01324956ac6476f02c7406d85bd4b67c3e5f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你怎么还敢给人做表?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 119.244,
+  "loudness": {
+    "input_i": "-22.21",
+    "input_tp": "-6.58",
+    "input_lra": "0.00",
+    "input_thresh": "-32.21",
+    "output_i": "-20.00",
+    "output_tp": "-4.37",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-count-005/raw.wav",
+      "bytes": 230480,
+      "sha256": "1b9e01fc49c6dabd444017dc23a2821ced362e7d2cf3c56e90ef15fa4d96439d"
+    },
+    "master": {
+      "path": "netlove-c2-count-005/master.wav",
+      "bytes": 115278,
+      "sha256": "8c1fd79f9f1f6cf4ceeb2bc5c798479feff95cba8a7d2f6102b558bc97446315"
+    },
+    "runtime": {
+      "path": "netlove-c2-count-005/runtime.ogg",
+      "bytes": 21121,
+      "sha256": "3cb642b957f2a2315d923ac2d866afb61568da95273dacc9cb941a5558e2ad03"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

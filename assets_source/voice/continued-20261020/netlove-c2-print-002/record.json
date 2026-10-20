@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-002",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-002",
+  "lineIndex": 1,
+  "speaker": "许弥",
+  "text": "别双击。它没你想得那么迟钝。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 956983297,
+  "textSha256": "41c3390330f81c667010ddd4d2f6a6c555d27a7fe861281a2036ab0c41c62931",
+  "medium": "call",
+  "requestSha256": "9224bcaa7f3170d74aa1821329f0c41aea2afb3c89c2a3edf136312b4caf9d58",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "别双击他没你想的那么迟钝",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 78.255,
+  "loudness": {
+    "input_i": "-24.28",
+    "input_tp": "-7.84",
+    "input_lra": "0.00",
+    "input_thresh": "-34.64",
+    "output_i": "-20.00",
+    "output_tp": "-3.56",
+    "output_lra": "0.00",
+    "output_thresh": "-30.37",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-002/raw.wav",
+      "bytes": 261200,
+      "sha256": "028867c0ce820c8843e6d4292982f562074985180f360328e129448bca08b72e"
+    },
+    "master": {
+      "path": "netlove-c2-print-002/master.wav",
+      "bytes": 130638,
+      "sha256": "cfdf7d76d817e212bfb890b42c51e31692f036254f6b24362e2520fa7b2ccfa7"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-002/runtime.ogg",
+      "bytes": 23799,
+      "sha256": "3be7cbcbfba90e0f71277c68789f381cf9fa52bb01e8e0e6398ddd9f93d27b25"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

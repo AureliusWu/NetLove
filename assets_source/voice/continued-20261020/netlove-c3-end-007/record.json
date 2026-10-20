@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-end-007",
+  "sceneId": "c3-end",
+  "lineId": "c3-end-007",
+  "lineIndex": 6,
+  "speaker": "谢听禾",
+  "text": "那就先做到今天能做到的。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 34601517,
+  "textSha256": "17a26280b167da083126e9bd3bd79397ddf9c1f9abf62e1c9f0f85388a8f8744",
+  "medium": "chat",
+  "requestSha256": "57367e68107d3857e161ab905e64206f0424409284ae9e4d4b981a61c5e57f08",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那就先做到今天能做到的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 10.759,
+  "loudness": {
+    "input_i": "-22.90",
+    "input_tp": "-9.45",
+    "input_lra": "0.00",
+    "input_thresh": "-32.90",
+    "output_i": "-20.00",
+    "output_tp": "-6.55",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-end-007/raw.wav",
+      "bytes": 215120,
+      "sha256": "1598813067237fd2dc27f6913e4d18e02f8c5355198cdfc86585db69fc4ef8bf"
+    },
+    "master": {
+      "path": "netlove-c3-end-007/master.wav",
+      "bytes": 107598,
+      "sha256": "59b20ad89ce3106d55550f506d44311283b53d3547e16010286e8a8930283df0"
+    },
+    "runtime": {
+      "path": "netlove-c3-end-007/runtime.ogg",
+      "bytes": 20936,
+      "sha256": "67f1c0069610bb670756e7cc773252cf04fb83d20d43a586619ebb26931ffc45"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

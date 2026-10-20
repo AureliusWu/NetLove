@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-010",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "那我们第二天再联系。真有急事，联系陆衡确认一次就好。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 667222340,
+  "textSha256": "5746fca0921cfc2bdbfdfcdbec9303bae98688cc123bf61511f3dd5902c68c07",
+  "medium": "chat",
+  "requestSha256": "4fa92a4e847a1d92f821a44ce4a7318ef5b2462fc34aac04d131731f92a1b393",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我们第二天再联系真有急事联系路行确认一次就好",
+    "cer": 0.086957,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 292.507,
+  "loudness": {
+    "input_i": "-25.43",
+    "input_tp": "-4.98",
+    "input_lra": "1.20",
+    "input_thresh": "-35.54",
+    "output_i": "-19.42",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.60",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.58"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-010/raw.wav",
+      "bytes": 460880,
+      "sha256": "f90fed03df5bbb45c10b34267d9ef220c10716e0cf1467740f3ad758c82ba83c"
+    },
+    "master": {
+      "path": "netlove-c4-ask-010/master.wav",
+      "bytes": 230478,
+      "sha256": "c84c36e7dca3b36952ae3d104ecab2057798a6c19642ee51359415765fef2dc8"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-010/runtime.ogg",
+      "bytes": 39319,
+      "sha256": "7a2e826b4375a91312b9e3535634b40131eff29dad408e2ad99d4a7592a03144"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-count-003",
+  "sceneId": "c2-count",
+  "lineId": "c2-count-003",
+  "lineIndex": 2,
+  "speaker": "陆衡",
+  "text": "你看。人忙的时候都会觉得自己填过了，最后又不放心填一次。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 117541745,
+  "textSha256": "318debd5fba21cb60ffa42e1a7e6324edb9fa5a97fb594f3b3c5c3357a61971b",
+  "medium": "chat",
+  "requestSha256": "dcdb0c84adda6cfde9e61d572174325ce31324c65fd5cf2e53058d1121bab800",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你看,人忙的時候都會覺得自己甜過了最後又不放心甜一次",
+    "cer": 0.08,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 213.036,
+  "loudness": {
+    "input_i": "-25.03",
+    "input_tp": "-4.16",
+    "input_lra": "5.70",
+    "input_thresh": "-35.79",
+    "output_i": "-21.06",
+    "output_tp": "-2.00",
+    "output_lra": "4.50",
+    "output_thresh": "-31.90",
+    "normalization_type": "dynamic",
+    "target_offset": "1.06"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-count-003/raw.wav",
+      "bytes": 652880,
+      "sha256": "017b0a7ef55032f96a12df439ad5ca2e7fc226f41cc7cff5826a6a8667485c6e"
+    },
+    "master": {
+      "path": "netlove-c2-count-003/master.wav",
+      "bytes": 326478,
+      "sha256": "2ea1f544b434d3b68927d89847b7e75f5c8d47332c4731019800e63bce5f7731"
+    },
+    "runtime": {
+      "path": "netlove-c2-count-003/runtime.ogg",
+      "bytes": 53581,
+      "sha256": "49d37f06e8acd26f590d6546c1c7b79292302438ad6c799ee150ed8ee5e13d69"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

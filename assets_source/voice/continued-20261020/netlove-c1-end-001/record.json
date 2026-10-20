@@ -1,0 +1,57 @@
+{
+  "id": "netlove-c1-end-001",
+  "sceneId": "c1-end",
+  "lineId": "c1-end-001",
+  "lineIndex": 0,
+  "speaker": "一格信号",
+  "text": "我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
+  "sourceSpeaker": "系统",
+  "sourceText": "一格信号：我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1506951038,
+  "textSha256": "7000e4c0f67ec036e130e511804724c3d8914bc1c7acf492823adbc6c9418013",
+  "medium": "chat",
+  "requestSha256": "f23d3637c84f79b26ecb66993390230d367d7718ec85b4d24b528fb9d4addc82",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想做一份無程還在想的聲音地圖,你願意幫我試試嗎?",
+    "cer": 0.130435,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 308.256,
+  "loudness": {
+    "input_i": "-26.56",
+    "input_tp": "-9.85",
+    "input_lra": "1.40",
+    "input_thresh": "-36.67",
+    "output_i": "-19.85",
+    "output_tp": "-2.87",
+    "output_lra": "2.60",
+    "output_thresh": "-29.93",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.15"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-end-001/raw.wav",
+      "bytes": 583760,
+      "sha256": "287788aebd03ecdda2f7b0cbb9e3e1264481379ad6e4fb7fbb1177b8e3758ef6"
+    },
+    "master": {
+      "path": "netlove-c1-end-001/master.wav",
+      "bytes": 291918,
+      "sha256": "5c0c721f97c5b22109232a8b928733ed32d0ae9cc975df906bcc98a8231ed07b"
+    },
+    "runtime": {
+      "path": "netlove-c1-end-001/runtime.ogg",
+      "bytes": 46628,
+      "sha256": "ecedfdd04bfb8683e50239e12143ba5ee827d23c97f37918fadef59e9ca9c2fd"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

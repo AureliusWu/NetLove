@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-002",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-002",
+  "lineIndex": 1,
+  "speaker": "一格信号",
+  "text": "别让她失望，我录了五遍。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1258813169,
+  "textSha256": "fb0f0a080a9076396cbbbe925a22d53ddfab0a4c090a8096af1c7be84ccc84ee",
+  "medium": "chat",
+  "requestSha256": "97608bb8a937d4026bb95cdf0ff17687242d32db41ea3f5acd2e52783c80ed4b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "別讓他失望,我錄了五遍",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 20.001,
+  "loudness": {
+    "input_i": "-24.90",
+    "input_tp": "-10.34",
+    "input_lra": "0.00",
+    "input_thresh": "-34.90",
+    "output_i": "-20.00",
+    "output_tp": "-5.43",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-002/raw.wav",
+      "bytes": 207440,
+      "sha256": "acfc6ffd6bbe0ca8f5cf742dea93a7a2bce964042c6559a294104baf193a944a"
+    },
+    "master": {
+      "path": "netlove-c1-light-002/master.wav",
+      "bytes": 103758,
+      "sha256": "ff8fe005ac51859a5e67f186d5abeba4678b3ded483f9c67ac654850d44914b5"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-002/runtime.ogg",
+      "bytes": 18296,
+      "sha256": "0da6194f1841215b2d5bd9382c51bfdd4c341b22ac59aceafd53b7ab530a0650"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-007",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "你怎么不把相机里的照片也做个网页？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 123433761,
+  "textSha256": "8665f78202a5f748d97f90cc6e8e7e4cfb210eb031585f0f993114bbae3ec395",
+  "medium": "call",
+  "requestSha256": "e3ad191fa5ab45c4fa97022d127769c252cca399180a9b7c38a1db71f47e6dd1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你怎么不把相机里的照片也做个网页",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.96,
+  "wallSeconds": 120.689,
+  "loudness": {
+    "input_i": "-25.24",
+    "input_tp": "-7.17",
+    "input_lra": "0.00",
+    "input_thresh": "-35.24",
+    "output_i": "-20.09",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.09",
+    "normalization_type": "linear",
+    "target_offset": "0.09"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-007/raw.wav",
+      "bytes": 284240,
+      "sha256": "7f6ae20e84d7690a655e01677d7aefb129f85e947e2b4de6c8830b670e546ca5"
+    },
+    "master": {
+      "path": "netlove-c2-print-007/master.wav",
+      "bytes": 142158,
+      "sha256": "6709539cf99749f0e1beca2cec4f86cb08a9fe52948713f0c7d4b02e18c0065a"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-007/runtime.ogg",
+      "bytes": 26189,
+      "sha256": "5b12b9ef95589efbc69940864abfac67d54c440d02c0e5cc4b2bef1263af776a"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

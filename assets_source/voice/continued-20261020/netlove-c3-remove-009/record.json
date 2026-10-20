@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-remove-009",
+  "sceneId": "c3-remove",
+  "lineId": "c3-remove-009",
+  "lineIndex": 8,
+  "speaker": "许弥",
+  "text": "这几处我们追不到。别给别人一个错的结论。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 656109361,
+  "textSha256": "1dcf8e6030ebcb3f25948762204ade5a1c2d5a285900e6c24df651f774c0444d",
+  "medium": "chat",
+  "requestSha256": "f07ede6d623b939a93d9d8af2b34e23cf47baffd6f79f259ddc3d941ce0b0e72",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "這幾處我們追不到別給別人一個錯的結論",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 211.12,
+  "loudness": {
+    "input_i": "-20.26",
+    "input_tp": "-2.49",
+    "input_lra": "0.20",
+    "input_thresh": "-30.41",
+    "output_i": "-19.85",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.15"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-remove-009/raw.wav",
+      "bytes": 338000,
+      "sha256": "b27bce7b7700699fa45f3859249c5dde0dbce3433735f736292ade2b1233d6dd"
+    },
+    "master": {
+      "path": "netlove-c3-remove-009/master.wav",
+      "bytes": 169038,
+      "sha256": "212124744e3535c7ffc80954f7861ea83bfe6647cd6f4b435a90c5ad9a415991"
+    },
+    "runtime": {
+      "path": "netlove-c3-remove-009/runtime.ogg",
+      "bytes": 29502,
+      "sha256": "d1f2a03a3ba26c7ddbc62fcda33cffd0ec856c8014df8b895d268ef3140eb1f3"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

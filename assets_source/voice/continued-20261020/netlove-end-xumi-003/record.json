@@ -1,0 +1,55 @@
+{
+  "id": "netlove-end-xumi-003",
+  "sceneId": "end-xumi",
+  "lineId": "end-xumi-003",
+  "lineIndex": 2,
+  "speaker": "许弥",
+  "text": "说好的提前呢？",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 804397901,
+  "textSha256": "a5d37fe2bf4caf93fec4cedf65b24bfec2dfb9422506a7df5ba6373adeba5a53",
+  "medium": "spoken",
+  "requestSha256": "df05fcef07a1cc07b6ffe99342592930eeb911410f23b6a2186156cc969345b8",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "说好的提前呢",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 108.578,
+  "loudness": {
+    "input_i": "-18.81",
+    "input_tp": "-5.18",
+    "input_lra": "0.00",
+    "input_thresh": "-28.81",
+    "output_i": "-19.99",
+    "output_tp": "-6.37",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-end-xumi-003/raw.wav",
+      "bytes": 199760,
+      "sha256": "05b609ab1dee987c9ea258617363665698ad05fa946eec84cd87d1e7c1c94ed2"
+    },
+    "master": {
+      "path": "netlove-end-xumi-003/master.wav",
+      "bytes": 99918,
+      "sha256": "2e0c3afa641350894d3e4f7aba94ca594eb9623552e5fd5ad7fdb399e399e435"
+    },
+    "runtime": {
+      "path": "netlove-end-xumi-003/runtime.ogg",
+      "bytes": 18534,
+      "sha256": "55ec2304ac7cf690fef0d99fd64217a87e92acbd1606aaad0b6d6323e1505f81"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

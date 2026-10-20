@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-003",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-003",
+  "lineIndex": 2,
+  "speaker": "许弥",
+  "text": "他说愿意展。但是展哪张、配什么字，我重新跟他确认了。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 695295374,
+  "textSha256": "af7d7141873dbddadacac8cc160cfcbb7eada7fad5cc12e6734a4ca3af9b6314",
+  "medium": "call",
+  "requestSha256": "58a2a91ab5b04fb91dcb9f5dd3e2e3116da37fe08c46eea0dabb3dec9eb962a0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他說願意展但是展哪張配什麼字我重新跟他確認了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.52,
+  "wallSeconds": 270.986,
+  "loudness": {
+    "input_i": "-19.52",
+    "input_tp": "-3.21",
+    "input_lra": "1.50",
+    "input_thresh": "-29.80",
+    "output_i": "-20.53",
+    "output_tp": "-4.59",
+    "output_lra": "1.20",
+    "output_thresh": "-30.78",
+    "normalization_type": "dynamic",
+    "target_offset": "0.53"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-003/raw.wav",
+      "bytes": 530000,
+      "sha256": "0b529a8b83aae31106067159bdcd95f0cb2d46cb8e3d7684978936e4cb992b13"
+    },
+    "master": {
+      "path": "netlove-c3-repair-003/master.wav",
+      "bytes": 265038,
+      "sha256": "ec636efcf0fd4f5c3713791eae229eff581d4d72121b4df0a8ac34ddde9bc2ab"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-003/runtime.ogg",
+      "bytes": 43873,
+      "sha256": "44b6f3a7e8f76a7be034119908bfa723526e0ed77f830c9b23fa9a9714366d49"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

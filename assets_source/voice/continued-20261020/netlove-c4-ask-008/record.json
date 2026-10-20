@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-008",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-008",
+  "lineIndex": 7,
+  "speaker": "谢听禾",
+  "text": "你可以说想我。我也可以今天没力气聊。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 544503915,
+  "textSha256": "74f7acc0c2f17322b1d5e2295727637d2c9e2955036ff3d26fb1b9ea629e8973",
+  "medium": "chat",
+  "requestSha256": "dd316bce364018f60a0b3aaf3ca77075850be7d762108be3910792a3fe2238fa",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你可以说想我,我也可以今天没力气聊。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 14.801,
+  "loudness": {
+    "input_i": "-26.06",
+    "input_tp": "-11.40",
+    "input_lra": "0.20",
+    "input_thresh": "-36.69",
+    "output_i": "-19.34",
+    "output_tp": "-4.75",
+    "output_lra": "0.00",
+    "output_thresh": "-29.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.66"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-008/raw.wav",
+      "bytes": 314960,
+      "sha256": "3e021cbb38916959867ac641c058dfd339a23e654ce4e704ce3a713ceed40af8"
+    },
+    "master": {
+      "path": "netlove-c4-ask-008/master.wav",
+      "bytes": 157518,
+      "sha256": "f0754e328c7f8009c75e93eaaa01319de6c9542fbdeb7aa4cf417e7ca5e56eb8"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-008/runtime.ogg",
+      "bytes": 26701,
+      "sha256": "a9dd1e57b43974bd74c2e3adb1c90034d5b51f590adc8e7a7a1fe207fb0d0098"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

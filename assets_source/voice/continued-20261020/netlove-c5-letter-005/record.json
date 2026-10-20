@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-letter-005",
+  "sceneId": "c5-letter",
+  "lineId": "c5-letter-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "信封我给你留着。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1674220415,
+  "textSha256": "ed54f408e06505ffd2fab5057a123b6b9e8f6fbaf280a5623f5a72330c63837a",
+  "medium": "spoken",
+  "requestSha256": "d76280cda383760c0f983587b941d3b43da4b573695cee4ea5a7aa23c2098ec8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "信封我給你留著",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 75.401,
+  "loudness": {
+    "input_i": "-18.81",
+    "input_tp": "-5.75",
+    "input_lra": "0.00",
+    "input_thresh": "-28.81",
+    "output_i": "-20.00",
+    "output_tp": "-6.94",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-letter-005/raw.wav",
+      "bytes": 138320,
+      "sha256": "0d56056859eef25e8bbcca8d0b02e8c9f445858be78c530eb044f3e3ffdc0b85"
+    },
+    "master": {
+      "path": "netlove-c5-letter-005/master.wav",
+      "bytes": 69198,
+      "sha256": "75715d07acd199a21a1799cdf40a82fbe11010fe3e7ced9fdd5f22b81929b19e"
+    },
+    "runtime": {
+      "path": "netlove-c5-letter-005/runtime.ogg",
+      "bytes": 13978,
+      "sha256": "d0fa7ca378fe133b454d618cefc5cde09d7649742929a6085fd44053516a9e73"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

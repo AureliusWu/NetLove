@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-019",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-019",
+  "lineIndex": 18,
+  "speaker": "许弥",
+  "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 846196618,
+  "textSha256": "e9e9b7a40ad882dfa9e1a3bd5741b1c46f798a550fd5dff1b0defa8a561a4933",
+  "medium": "spoken",
+  "requestSha256": "1c158ad991aae14d5cec9e77e76b3a26237f528a2ffd41508211d306dcd7f501",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下次一起拍的照片放这儿拍之前我会问你",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 24.896,
+  "loudness": {
+    "input_i": "-20.43",
+    "input_tp": "-1.96",
+    "input_lra": "1.90",
+    "input_thresh": "-30.68",
+    "output_i": "-20.50",
+    "output_tp": "-2.41",
+    "output_lra": "1.00",
+    "output_thresh": "-30.72",
+    "normalization_type": "dynamic",
+    "target_offset": "0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-019/raw.wav",
+      "bytes": 414800,
+      "sha256": "ff0107143368874fb9d26d3643eb4673d39d171755d9007ae358500c33bbff8d"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-019/master.wav",
+      "bytes": 207438,
+      "sha256": "dd495b3bb3374f53a246ad087c89bce3cdfd2a95d8c6642145586a69a42ff384"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-019/runtime.ogg",
+      "bytes": 34095,
+      "sha256": "2cb9f316e2694026f3b4c951674982d0aa020822a6ae699a1d842a1e2d40e8de"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-007",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-007",
+  "lineIndex": 6,
+  "speaker": "谢听禾",
+  "text": "没有。只是要重新听一遍。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1554487472,
+  "textSha256": "9a01fcc2992d38c84f14c82e52c531844efdfcca2bccac75d9bf0fc12c3aa866",
+  "medium": "spoken",
+  "requestSha256": "5f6dcf7abf09acd9b8767c14ac7e27773ba646b4e59dfb1648c99290718c966f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没有,只是要重新听一遍。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.2,
+  "wallSeconds": 219.112,
+  "loudness": {
+    "input_i": "-25.39",
+    "input_tp": "-10.30",
+    "input_lra": "0.80",
+    "input_thresh": "-35.87",
+    "output_i": "-19.49",
+    "output_tp": "-4.61",
+    "output_lra": "0.00",
+    "output_thresh": "-29.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.51"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-007/raw.wav",
+      "bytes": 307280,
+      "sha256": "747d16aa9f3d4df89059f691a06bdb9c15870eba5f8bbbe856a2cafde49e8d41"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-007/master.wav",
+      "bytes": 153678,
+      "sha256": "77d6b7e4981869be0654dadec1e9df87243af43c03b7f561bb71dbf4f8756eae"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-007/runtime.ogg",
+      "bytes": 25317,
+      "sha256": "f7ce84d8492cdc6877507244d362f0d0e697579bcbd8be4d740c908f5fd519e7"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-010",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-010",
+  "lineIndex": 9,
+  "speaker": "陆衡",
+  "text": "大群不用。小群看你们。别都等我喊。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 967733463,
+  "textSha256": "a9585be61300c46f5f31cf09c8fdf14435561c8be5a3192f5bc6d88cfc1f7af3",
+  "medium": "spoken",
+  "requestSha256": "2b788ef9ef3351c252c7ea3874c8641b01d0100ae6d549ba304a38c889ead49c",
+  "attempt": 4,
+  "status": "accepted",
+  "asr": {
+    "transcript": "大群不用,小群看你們,別都懂我喊。",
+    "cer": 0.071429,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 105.328,
+  "loudness": {
+    "input_i": "-27.36",
+    "input_tp": "-8.08",
+    "input_lra": "0.70",
+    "input_thresh": "-37.82",
+    "output_i": "-19.77",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.25",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-010/raw.wav",
+      "bytes": 299600,
+      "sha256": "0dfaa5bf32feb2efad55f79ee59f15d473cb64da5043d9ba9df4a79695193bfb"
+    },
+    "master": {
+      "path": "netlove-c5-friends-010/master.wav",
+      "bytes": 149838,
+      "sha256": "28f15cb386682d52bd5cd198b2ab078650303cc59d296b71f3399ba6ee676105"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-010/runtime.ogg",
+      "bytes": 26148,
+      "sha256": "c6928e70dced6a4e38dd8be41081a86710bdb0433852ff8599ce86dc80292689"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-010",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-010",
+  "lineIndex": 9,
+  "speaker": "暂停营业",
+  "text": "可能你本来就在认错。我帮人选照片，见过更凶的。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1301286710,
+  "textSha256": "0f101c1e5c01db688a4ba25e1ba0986bbd64b75754c9f2783495f6a31e014f89",
+  "medium": "chat",
+  "requestSha256": "420c50c6d9afbbd6f2dff90689d579611d5f6502e2cc7f144ea64606fcfcdd1a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可能你本來就在認錯我幫人選照片見過更兇的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 195.231,
+  "loudness": {
+    "input_i": "-21.99",
+    "input_tp": "-5.25",
+    "input_lra": "0.40",
+    "input_thresh": "-32.51",
+    "output_i": "-19.64",
+    "output_tp": "-2.95",
+    "output_lra": "0.40",
+    "output_thresh": "-30.18",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.36"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-010/raw.wav",
+      "bytes": 422480,
+      "sha256": "94e535040b8c8e08c480ab109ed336de85a0edc6f38e31457b5a79dbc1e80345"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-010/master.wav",
+      "bytes": 211278,
+      "sha256": "39756c477390585aa74c2bb74496d418e7dc0f48105ae10f51658d056e1ed1fc"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-010/runtime.ogg",
+      "bytes": 35220,
+      "sha256": "6e95935a27d42f51a1bd6d81b7a24d3253423caad0ff20bf01c1c511fe56ca84"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

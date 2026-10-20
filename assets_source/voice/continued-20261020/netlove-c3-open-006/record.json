@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-open-006",
+  "sceneId": "c3-open",
+  "lineId": "c3-open-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "我能用店门口的声音做一条配套录音吗？只录环境。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 175439102,
+  "textSha256": "3d5f45bf33503406af2bc630b16beac114d48d0a4ea9241fab019976baa41b33",
+  "medium": "chat",
+  "requestSha256": "7531efa776329a5db271622611bfc5fe33f88fa198bf4da1b0ff70a8846f31f1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我能用店门口的声音做一条配套录音吗?指路环境",
+    "cer": 0.095238,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 190.723,
+  "loudness": {
+    "input_i": "-24.91",
+    "input_tp": "-7.88",
+    "input_lra": "2.00",
+    "input_thresh": "-35.05",
+    "output_i": "-20.32",
+    "output_tp": "-3.63",
+    "output_lra": "1.60",
+    "output_thresh": "-30.44",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-open-006/raw.wav",
+      "bytes": 422480,
+      "sha256": "fd9cb50792caf51150fd2a46260b5e7e17ea1984b26b058a40f535c8bcde75e3"
+    },
+    "master": {
+      "path": "netlove-c3-open-006/master.wav",
+      "bytes": 211278,
+      "sha256": "51737ffeedb7774f0c31ed24cceab6828818a4d0859141bf3c3cb02ee533c313"
+    },
+    "runtime": {
+      "path": "netlove-c3-open-006/runtime.ogg",
+      "bytes": 35327,
+      "sha256": "12b3582ffffb8051259c5cf9f8833a25d5ff8396f943d1b0652fccea1de3cbc5"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

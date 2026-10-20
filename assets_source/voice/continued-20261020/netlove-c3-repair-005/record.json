@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-005",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "办。否则店里只会留下别人转错的那张。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 246231771,
+  "textSha256": "221d4f6d964f32cf762fe720368d145fdb89f5baaf1c7063b33578736879d05b",
+  "medium": "call",
+  "requestSha256": "7f282565fc0f92e8da381680586f6da3cdb02727dae3e74c4c32a90089b705cf",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "办!否则店里只会留下别人赚错的那张",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 165.921,
+  "loudness": {
+    "input_i": "-19.74",
+    "input_tp": "-3.21",
+    "input_lra": "0.90",
+    "input_thresh": "-30.04",
+    "output_i": "-20.09",
+    "output_tp": "-3.81",
+    "output_lra": "0.00",
+    "output_thresh": "-30.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-005/raw.wav",
+      "bytes": 460880,
+      "sha256": "ea16d8a15e1b623a8cae26efbd755b5a5c564a89f34e75f90d7108edee18433d"
+    },
+    "master": {
+      "path": "netlove-c3-repair-005/master.wav",
+      "bytes": 230478,
+      "sha256": "0b6cabbad1a7623b3ea62bb94db15593fd454e6cf59fa601894d388f71bd6cae"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-005/runtime.ogg",
+      "bytes": 37088,
+      "sha256": "18451e972d5984dc4984122408912b70561041e8896eca087fa2d66c60f4dac3"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-002",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-002",
+  "lineIndex": 1,
+  "speaker": "许弥",
+  "text": "真人看起来，比蓝底照片自然一点。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1877545264,
+  "textSha256": "9d1f06cbe0d4d88869f625b0f2547c665c5540fcfe5ea56c26989c2695e40ff4",
+  "medium": "spoken",
+  "requestSha256": "10838856eb03810602888bec6ab627c826bc1424644f7da2b24a5c6a438ab16e",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "真人看起來比藍底照片自然一點",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 203.689,
+  "loudness": {
+    "input_i": "-22.48",
+    "input_tp": "-2.05",
+    "input_lra": "1.10",
+    "input_thresh": "-32.75",
+    "output_i": "-20.28",
+    "output_tp": "-2.00",
+    "output_lra": "1.10",
+    "output_thresh": "-30.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.28"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-002/raw.wav",
+      "bytes": 384080,
+      "sha256": "ec6d5d3862764b404043abc20d30b6f7bf1e385bf512095bd746ce32cf1f9f7f"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-002/master.wav",
+      "bytes": 192078,
+      "sha256": "9739dcafa64f985f6050d294a6371eb095e96f05bf3047ca9bb91bb1375e1904"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-002/runtime.ogg",
+      "bytes": 31479,
+      "sha256": "6b7179f24576db4bf266e1ed7e5e80d50a8f2ee9ad4b0c1da1e94b2f0c994a20"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

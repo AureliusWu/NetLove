@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-open-007",
+  "sceneId": "c5-open",
+  "lineId": "c5-open-007",
+  "lineIndex": 6,
+  "speaker": "许弥",
+  "text": "今天开门试营业。你们路过可以进来坐，但没有开业礼物。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 543875581,
+  "textSha256": "c80a95323dfe5aff86af8692a02c8421265c3715b66f5ae0094bff7f51747105",
+  "medium": "chat",
+  "requestSha256": "2953930db5b909e492d0c5d9c2ad1e4abbed8b2e0046fb70b3083fdac8dda734",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天开门是营业,你们路过可以进来做,但没有开业礼物。",
+    "cer": 0.086957,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.92,
+  "wallSeconds": 283.973,
+  "loudness": {
+    "input_i": "-20.49",
+    "input_tp": "-4.77",
+    "input_lra": "1.00",
+    "input_thresh": "-30.80",
+    "output_i": "-20.12",
+    "output_tp": "-4.69",
+    "output_lra": "0.40",
+    "output_thresh": "-30.43",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-open-007/raw.wav",
+      "bytes": 568400,
+      "sha256": "3e3e2bf113af569ebc922d0c18131243faefec7d98438ab2d77263f81c74fd50"
+    },
+    "master": {
+      "path": "netlove-c5-open-007/master.wav",
+      "bytes": 284238,
+      "sha256": "a24e612c41b2cea4f342e096afdac6c6cad69d3e9f4125e6e0b1ef0b24e2e5d4"
+    },
+    "runtime": {
+      "path": "netlove-c5-open-007/runtime.ogg",
+      "bytes": 44142,
+      "sha256": "036aa92aaadcf5cfd8bdf96e84ea9f936cbc9a0472579ebd3f75b45e98a3d420"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

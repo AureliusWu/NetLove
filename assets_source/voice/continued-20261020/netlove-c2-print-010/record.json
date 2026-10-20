@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-010",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-010",
+  "lineIndex": 9,
+  "speaker": "许弥",
+  "text": "店里东西没搬走。每天换一个角度拍那把空椅子。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1301864036,
+  "textSha256": "42ae04f66f413b06809bd5b2b6b380bfc6c87fc7f815cc969895ed5ec981155f",
+  "medium": "call",
+  "requestSha256": "e46a92ce6da1e7de1ca48e216f60c9fec5cc211e60ad1d720d7f613a809d095a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "店里东西没搬走每天换一个角度拍那把空椅子",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.72,
+  "wallSeconds": 130.222,
+  "loudness": {
+    "input_i": "-22.74",
+    "input_tp": "-6.15",
+    "input_lra": "3.80",
+    "input_thresh": "-33.36",
+    "output_i": "-20.85",
+    "output_tp": "-4.82",
+    "output_lra": "1.70",
+    "output_thresh": "-31.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.85"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-010/raw.wav",
+      "bytes": 453200,
+      "sha256": "4565da82f5117a7c2c7c15304c48d2f6e439cf3ccd084f371e2f2ad7fe413402"
+    },
+    "master": {
+      "path": "netlove-c2-print-010/master.wav",
+      "bytes": 226638,
+      "sha256": "fb68fc84d849eef97fc022c973203ba9d43bc6bb1b3a0643ee01bcbcd2b544ac"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-010/runtime.ogg",
+      "bytes": 37445,
+      "sha256": "d7a91f0c1d26222eec2f08e52ca5ed1fc717875a9d25c2f55f18251a40319d73"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

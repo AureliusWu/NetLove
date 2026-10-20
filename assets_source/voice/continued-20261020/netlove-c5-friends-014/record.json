@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-014",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-014",
+  "lineIndex": 13,
+  "speaker": "陆衡",
+  "text": "你看，还是得我有空。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 397827081,
+  "textSha256": "d39551e12477fed6e84c7bfd1407f0b938612399add256d5b5371d27c5dad7d1",
+  "medium": "spoken",
+  "requestSha256": "8f8e25d2245d30550ba371311539721ba4808d9967a3043fd58d32bb90794daa",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你看 還是得我有空",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 104.016,
+  "loudness": {
+    "input_i": "-24.87",
+    "input_tp": "-6.97",
+    "input_lra": "0.50",
+    "input_thresh": "-36.30",
+    "output_i": "-18.73",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.18",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.27"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-014/raw.wav",
+      "bytes": 299600,
+      "sha256": "51204e360bd7d6f3ac829e6679c0a9532be1980a054fed4cb90b514345d2ab7e"
+    },
+    "master": {
+      "path": "netlove-c5-friends-014/master.wav",
+      "bytes": 149838,
+      "sha256": "c9ce57d2ee7ec7d648fc548f0703e5ddb020975afdbe7f3148959a3b5027372f"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-014/runtime.ogg",
+      "bytes": 24740,
+      "sha256": "9334ba25165172bc14f0d4d687c5f7a6f4715a3c3193fe86690b70e67e309e42"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

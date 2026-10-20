@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-012",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-012",
+  "lineIndex": 11,
+  "speaker": "谢听禾",
+  "text": "“这周谁有空”？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 442266638,
+  "textSha256": "6de64b2ac88f272b704521925c628fefdfb2a7665028811a5997666e2a922b3f",
+  "medium": "spoken",
+  "requestSha256": "f5a86f9da8283e665afce71500d14daa31048eac27b7af9cf482996f06cc53b2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这周谁有空",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 35.998,
+  "loudness": {
+    "input_i": "-29.66",
+    "input_tp": "-15.46",
+    "input_lra": "0.00",
+    "input_thresh": "-39.66",
+    "output_i": "-20.03",
+    "output_tp": "-5.80",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-012/raw.wav",
+      "bytes": 107600,
+      "sha256": "12837301918762ece86df51a26bc06ae95111cddafd8158259c4d7f0c4bb64ed"
+    },
+    "master": {
+      "path": "netlove-c5-friends-012/master.wav",
+      "bytes": 53838,
+      "sha256": "bd08461c8887b75d2cc8b37d923fccdd578736cf12350f3270c5fcdfa6dfffa1"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-012/runtime.ogg",
+      "bytes": 11972,
+      "sha256": "e3214f3ce591d09acfca9bc8bf76e9a92acaeeabc3a72c87a8ee50746453a787"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

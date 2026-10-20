@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-011",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-011",
+  "lineIndex": 10,
+  "speaker": "许弥",
+  "text": "以前想把作品寄给外地的工作室。打印好了，没寄。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 337330319,
+  "textSha256": "ace5e6dd89672502d6815dcd96932da47b1d139e279ad71a9e5d8d1538344a97",
+  "medium": "call",
+  "requestSha256": "c91e0de2826db9db56d3966970395dd0cc39b8628a2e38a9caad6bd9499ec431",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前想把作品寄给外地的工作室打印好了没寄",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 163.632,
+  "loudness": {
+    "input_i": "-19.24",
+    "input_tp": "-2.86",
+    "input_lra": "0.40",
+    "input_thresh": "-29.59",
+    "output_i": "-19.67",
+    "output_tp": "-2.99",
+    "output_lra": "0.40",
+    "output_thresh": "-29.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-011/raw.wav",
+      "bytes": 483920,
+      "sha256": "234e8127cf0a05737fef78ae635fe5d835f26388f819f8b38a433ce18b818fe4"
+    },
+    "master": {
+      "path": "netlove-c3-frame-011/master.wav",
+      "bytes": 241998,
+      "sha256": "6c87bc9724ee2e3e873a3b7860697d55c8429d7a66abc016774c68c74f07db72"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-011/runtime.ogg",
+      "bytes": 39905,
+      "sha256": "f7f490c13bcf9c72b9ba8463d3897cf3df7b3aa115c4f5ce6fc77578ae942413"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

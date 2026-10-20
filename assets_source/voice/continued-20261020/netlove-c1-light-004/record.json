@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-004",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-004",
+  "lineIndex": 3,
+  "speaker": "一格信号",
+  "text": "有一遍能被人听完，就已经不错了。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 445873933,
+  "textSha256": "ff707e283404c299738e5e6e00f85b4bab142ba23b06d5d27392fa60ed8f6c8b",
+  "medium": "chat",
+  "requestSha256": "0a7875e6a111c9edad2c42686af182cbd054ede7f92f1aa98657229d012c7514",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有一遍能被人聽完,就已經不錯了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 104.663,
+  "loudness": {
+    "input_i": "-27.34",
+    "input_tp": "-9.01",
+    "input_lra": "0.90",
+    "input_thresh": "-37.81",
+    "output_i": "-19.76",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.24",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.24"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-004/raw.wav",
+      "bytes": 299600,
+      "sha256": "cdc17970d03c5619645ad3637268ccd6bd0eafe4c2e27e29b36969511aa06bf4"
+    },
+    "master": {
+      "path": "netlove-c1-light-004/master.wav",
+      "bytes": 149838,
+      "sha256": "00b505964ca90876bd3b13f29fcdb65dcdf97ba40842198a9624862f64e02b27"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-004/runtime.ogg",
+      "bytes": 25271,
+      "sha256": "0ff5b40319c2259c35e8bf42cbc96e454894654b749ebffc8844a0ea70ae9358"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

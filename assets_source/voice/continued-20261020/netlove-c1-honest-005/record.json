@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-005",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-005",
+  "lineIndex": 4,
+  "speaker": "一格信号",
+  "text": "今天交了一份作业，老师回复“收到”，我盯着那两个字看了很久。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1733698875,
+  "textSha256": "4cd215ba711378f5e2bd96fc4fa232cc332b48fc5c127c49a39804b738ea2d6e",
+  "medium": "chat",
+  "requestSha256": "d470dd9dbb68b446b4b38ff8e6325e0244b27149ca1482321e00c7d3176fa9ce",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天教了一份作业,老师回复收到,我盯着那两个字看了很久",
+    "cer": 0.04,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 240.444,
+  "loudness": {
+    "input_i": "-26.44",
+    "input_tp": "-10.57",
+    "input_lra": "1.00",
+    "input_thresh": "-36.55",
+    "output_i": "-20.51",
+    "output_tp": "-4.72",
+    "output_lra": "0.60",
+    "output_thresh": "-30.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.51"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-005/raw.wav",
+      "bytes": 476240,
+      "sha256": "e3392c49f726c12fadd4a40f09d574ca9818a9a3a67f4d221bf527136964bdff"
+    },
+    "master": {
+      "path": "netlove-c1-honest-005/master.wav",
+      "bytes": 238158,
+      "sha256": "dbc40d89d6ac85cbc1179b269439330a2124ac540872f99d54242207b70384ef"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-005/runtime.ogg",
+      "bytes": 40325,
+      "sha256": "d92b4fd0e2140ed5568a6ea9c5e615975d45c13f58cffff00b4ce5a22a6d731d"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

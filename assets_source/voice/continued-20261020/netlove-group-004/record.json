@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-004",
+  "sceneId": "group",
+  "lineId": "group-004",
+  "lineIndex": 3,
+  "speaker": "暂停营业",
+  "text": "她觉得我把字打进去，菜就自动长在手机里了。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1875148295,
+  "textSha256": "c4a939170aabbf1884e7c85556277853c95ab4d9ada1eecae8de6690806c66c2",
+  "medium": "chat",
+  "requestSha256": "012788591d9eb50ac29c64830a876f7e18929ed3962b465aa6dbe2d3a4dff598",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他覺得我把字打進去菜就自動長在手機裡了",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 230.044,
+  "loudness": {
+    "input_i": "-19.49",
+    "input_tp": "-3.30",
+    "input_lra": "2.30",
+    "input_thresh": "-30.12",
+    "output_i": "-18.13",
+    "output_tp": "-2.00",
+    "output_lra": "2.00",
+    "output_thresh": "-28.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.87"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-004/raw.wav",
+      "bytes": 476240,
+      "sha256": "6ea8d84d832c3fd5fcaecb01af43b86c56d9fe735b56a0500f28f6162d568b3c"
+    },
+    "master": {
+      "path": "netlove-group-004/master.wav",
+      "bytes": 238158,
+      "sha256": "df7fbbb6b9b811bffdbe2e1ee5c54d630a0d405059c92eb6fda26b462b91004f"
+    },
+    "runtime": {
+      "path": "netlove-group-004/runtime.ogg",
+      "bytes": 39284,
+      "sha256": "2570a42a2646b53318ee84ae48e9ad9c780749a3cb6564720948963debf76152"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

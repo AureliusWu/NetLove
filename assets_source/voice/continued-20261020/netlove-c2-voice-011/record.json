@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-011",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-011",
+  "lineIndex": 10,
+  "speaker": "谢听禾",
+  "text": "这部分比较整齐。先给你认识这部分。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 84584193,
+  "textSha256": "9b4fd7efad5ea8c04268e2780a85cda207eb355bb5def2ed7bcbd1cef3450081",
+  "medium": "call",
+  "requestSha256": "fa04c4762380f80e455fbc82f809b24a7703e77c9572db33f8b58ce5a085d0f9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这部分比较整齐先给你认识这部分",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 16.082,
+  "loudness": {
+    "input_i": "-23.59",
+    "input_tp": "-7.82",
+    "input_lra": "0.70",
+    "input_thresh": "-33.89",
+    "output_i": "-19.78",
+    "output_tp": "-4.14",
+    "output_lra": "0.00",
+    "output_thresh": "-30.07",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-011/raw.wav",
+      "bytes": 338000,
+      "sha256": "624b853fc55bbed83b178da836fa56070ec03f7efd4a553b0ff9c1952638ab93"
+    },
+    "master": {
+      "path": "netlove-c2-voice-011/master.wav",
+      "bytes": 169038,
+      "sha256": "9ab4a5df2a9f86e785550ad861b5ae602fb5478d892cfe321b0a01535e174bfe"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-011/runtime.ogg",
+      "bytes": 28875,
+      "sha256": "ae3decba118388ee6f02a34777abd9fe244e2f79b3c650a61cfccd1f32a76b32"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

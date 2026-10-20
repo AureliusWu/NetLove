@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-011",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-011",
+  "lineIndex": 10,
+  "speaker": "周既明",
+  "text": "明天早上，要不要一起吃早饭？不用我帮你修网页。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1293036839,
+  "textSha256": "c5650299bb5569225e1af473025d1fbe1ed75671e5437ef4f350e64fcad089b9",
+  "medium": "spoken",
+  "requestSha256": "8dad5a62229236876cf3d51c466a8097e75705e68735d77f0fa7b87f85d98b4d",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天早上要不要一起吃早饭不用我帮你修网页",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 21.741,
+  "loudness": {
+    "input_i": "-25.13",
+    "input_tp": "-6.64",
+    "input_lra": "0.20",
+    "input_thresh": "-35.27",
+    "output_i": "-20.04",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.16",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-011/raw.wav",
+      "bytes": 345680,
+      "sha256": "51e1960a53c6f091dadca564f67f7712431db46251d2afc8e3b0dbc1c007fe7c"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-011/master.wav",
+      "bytes": 172878,
+      "sha256": "503409cbbb0389caeff64d83ebfc6313a5d7b57a8e700ab3520f4756d4b88132"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-011/runtime.ogg",
+      "bytes": 31560,
+      "sha256": "df17db6835f0f36082ec04d7a3c30874780ec65a502f6b9e9aa79b6b7020adef"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

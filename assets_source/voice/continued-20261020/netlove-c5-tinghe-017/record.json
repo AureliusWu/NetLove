@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-017",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-017",
+  "lineIndex": 16,
+  "speaker": "周既明",
+  "text": "你把有空的那天发给我。没话说的时候，也可以一起吃个饭。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1424083287,
+  "textSha256": "bc83f01ada929dcccf6fcbe5fe680cbc648193c7faa0c31e0de6b41de71a42f0",
+  "medium": "spoken",
+  "requestSha256": "25021bd77a174e7956adb11d18d507f36019dbc831ed393946e6d6577cba657c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你把有空的那天发给我啊没话说的时候也可以一起吃个饭",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.36,
+  "wallSeconds": 42.923,
+  "loudness": {
+    "input_i": "-28.44",
+    "input_tp": "-9.01",
+    "input_lra": "0.90",
+    "input_thresh": "-38.56",
+    "output_i": "-20.10",
+    "output_tp": "-2.00",
+    "output_lra": "1.30",
+    "output_thresh": "-30.56",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-017/raw.wav",
+      "bytes": 514640,
+      "sha256": "d427bf04e085efdb350294247c842ffe028adbd485342a435b4da5bea094b263"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-017/master.wav",
+      "bytes": 257358,
+      "sha256": "37483aaa1c5e4a2ea39e8d90a5af67d63e071e47ad21ff6577db54b04dd79551"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-017/runtime.ogg",
+      "bytes": 44033,
+      "sha256": "1204ccf2ded23e7b514ab07580fc67c393b160beb8b9a5b09572eb450afd4208"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-003",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-003",
+  "lineIndex": 2,
+  "speaker": "许弥",
+  "text": "以前总觉得奖状能替我说一句“这个人行”。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1583475783,
+  "textSha256": "5d8c53a87010233ba4efc5789c7983b18f3c670ec774fc7bfff670933cacfc4e",
+  "medium": "call",
+  "requestSha256": "d9b6ab1f01b05f18e4b89f1b36968e3fdb7ac350ae83a6ba5b9ed34f6559e05c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前总觉得,讲仗能替我说一句,这个人行。",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.28,
+  "wallSeconds": 310.743,
+  "loudness": {
+    "input_i": "-23.77",
+    "input_tp": "-5.06",
+    "input_lra": "1.20",
+    "input_thresh": "-33.77",
+    "output_i": "-20.45",
+    "output_tp": "-2.04",
+    "output_lra": "0.50",
+    "output_thresh": "-30.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.45"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-003/raw.wav",
+      "bytes": 506960,
+      "sha256": "ee8da56e05b643460895d060183c19326a69b260ec6197f7dc132c9413af6134"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-003/master.wav",
+      "bytes": 253518,
+      "sha256": "d1861a9837efa6f66ab39bd591a85f55f2210bb413fc8ecdf304fdd978235583"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-003/runtime.ogg",
+      "bytes": 40241,
+      "sha256": "e486f3dbe4971691657eca6f24bda8cc747c54771d783eed664508f8511de978"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

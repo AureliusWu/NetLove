@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-remove-006",
+  "sceneId": "c3-remove",
+  "lineId": "c3-remove-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "对不起。我想解决了再说。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 259148780,
+  "textSha256": "a9be329754981608a5fe82b51bc60751b7e6de8799d9210ebc46c5db1093a8fb",
+  "medium": "chat",
+  "requestSha256": "142dba317d475aa83572d2bbd32a66ff597df2689fbc07d809d4a2f2b22f4148",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "对不起 我想解决了再说",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 9.289,
+  "loudness": {
+    "input_i": "-26.02",
+    "input_tp": "-7.84",
+    "input_lra": "0.00",
+    "input_thresh": "-36.28",
+    "output_i": "-20.18",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.45",
+    "normalization_type": "linear",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-remove-006/raw.wav",
+      "bytes": 184400,
+      "sha256": "924d7519044df16da6dac7730e902fe1f1c366569cb289dbcd578c3a0891c25c"
+    },
+    "master": {
+      "path": "netlove-c3-remove-006/master.wav",
+      "bytes": 92238,
+      "sha256": "7dc0bae01f1efe2840b8305d5ef348e7e0202980f8625d4c0370af5eaf0f7168"
+    },
+    "runtime": {
+      "path": "netlove-c3-remove-006/runtime.ogg",
+      "bytes": 18566,
+      "sha256": "db79b365a7c7f50e62c1c2eccb437af88632f07c2c2ed5eac856e4f39586b2f6"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

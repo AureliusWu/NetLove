@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-013",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-013",
+  "lineIndex": 12,
+  "speaker": "许弥",
+  "text": "想。但我得先让这里能少了我也运转。还有，作品需要重新选。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 126379633,
+  "textSha256": "9b56bf02b580084c0172e4091c66c06935d84f1ef28c081790a1a31d34a32c8f",
+  "medium": "call",
+  "requestSha256": "67122c2cb7f236631709f55c30188ca4697a2f2bc487b04728bed3fa989190d5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想 但我得先让这里 能少了我也运转还有 作品需要重新选",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 10.24,
+  "wallSeconds": 1731.233,
+  "loudness": {
+    "input_i": "-18.44",
+    "input_tp": "-4.12",
+    "input_lra": "4.10",
+    "input_thresh": "-29.59",
+    "output_i": "-18.79",
+    "output_tp": "-4.38",
+    "output_lra": "3.60",
+    "output_thresh": "-29.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.21"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-013/raw.wav",
+      "bytes": 983120,
+      "sha256": "b889f42689ea10b2619726e9730e07541d19ec866acce2505e7fe386056c8988"
+    },
+    "master": {
+      "path": "netlove-c3-frame-013/master.wav",
+      "bytes": 491598,
+      "sha256": "9eb97d61fe531a1e8b1bccd1fe042519c01a6f3ae5fe3ac2183e1a3b0abb133a"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-013/runtime.ogg",
+      "bytes": 70239,
+      "sha256": "e51756baefee4713eb6e8c8041bbe9937016ca59beb1e5b3bd73d86b1fb95204"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

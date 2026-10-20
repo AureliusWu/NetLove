@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-016",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-016",
+  "lineIndex": 15,
+  "speaker": "谢听禾",
+  "text": "我也想。可是开学以后，我可能真的很忙。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1338958063,
+  "textSha256": "56b7590fa28bc629dae97903f6847dfe69d0121ecce69057eaaab81018b80b6c",
+  "medium": "spoken",
+  "requestSha256": "bdc8935116e14ba97c87ac0107275a67996c1c02e95a7d35202bb8a8e417091b",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也想 可是開學以後 我可能真的很忙",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 181.646,
+  "loudness": {
+    "input_i": "-26.03",
+    "input_tp": "-11.44",
+    "input_lra": "1.10",
+    "input_thresh": "-36.77",
+    "output_i": "-19.71",
+    "output_tp": "-5.30",
+    "output_lra": "1.10",
+    "output_thresh": "-30.54",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.29"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-016/raw.wav",
+      "bytes": 407120,
+      "sha256": "7d714d6eb3b789eb9024cd915268bf00afaeb497668818d8cace2349344e75eb"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-016/master.wav",
+      "bytes": 203598,
+      "sha256": "e1c2209d7179b6ee8f40eef0753eae49045516009137a21f50781c29a9eb451d"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-016/runtime.ogg",
+      "bytes": 33254,
+      "sha256": "0370dd2c43f628fc935f9bfe196dcdfcbf8caa13c09bcfb96ce180e1c06a6125"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-009",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-009",
+  "lineIndex": 8,
+  "speaker": "许弥",
+  "text": "能。改了八次“请稍等”，最后写成“我会看见”。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 119520161,
+  "textSha256": "4eab042b2efb90d55b43aa752d479acf52cf2a942be27515b208c675e44fdeec",
+  "medium": "call",
+  "requestSha256": "465c1887d294abf23a8356352febe52cbbe109750ef43d37118505b917567423",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能 改了八次 請稍等 最後寫成 我會看見",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 270.546,
+  "loudness": {
+    "input_i": "-22.45",
+    "input_tp": "-4.10",
+    "input_lra": "1.20",
+    "input_thresh": "-32.71",
+    "output_i": "-19.90",
+    "output_tp": "-2.00",
+    "output_lra": "0.80",
+    "output_thresh": "-30.06",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.10"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-009/raw.wav",
+      "bytes": 537680,
+      "sha256": "c5f6068613eb67e949f1072208437312c15d89e6ebc646031ffef0aed4c142b8"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-009/master.wav",
+      "bytes": 268878,
+      "sha256": "9640bd72ca1d720176ac972c17137388a95b0c33acbec4472271164edcfcdc24"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-009/runtime.ogg",
+      "bytes": 42352,
+      "sha256": "922f786f55163443f44923b1ac77af1d9cd27e3ae0014c010c42afc2f5536037"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

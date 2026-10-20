@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-002",
+  "sceneId": "group",
+  "lineId": "group-002",
+  "lineIndex": 1,
+  "speaker": "暂停营业",
+  "text": "表格打不开。我妈用的手机比我年纪还大。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1458756006,
+  "textSha256": "00b17666c00576c78918588fcb6b8d020f5f1bc895a59cdfc8e9699d3e38a3a8",
+  "medium": "chat",
+  "requestSha256": "1a6b00a4dccff7897e6ea9c5bccda6c4cbfa30f221ea21ac23659ab128049f47",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "表哥打不开。我妈用的手机比我年纪还大。",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 135.271,
+  "loudness": {
+    "input_i": "-18.55",
+    "input_tp": "-3.73",
+    "input_lra": "1.70",
+    "input_thresh": "-28.70",
+    "output_i": "-18.77",
+    "output_tp": "-3.67",
+    "output_lra": "0.40",
+    "output_thresh": "-28.90",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.23"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-002/raw.wav",
+      "bytes": 407120,
+      "sha256": "0066b379f2755d4b8f2294075af4ceb882c09b42d5f7f701b10262e5e4da3b3b"
+    },
+    "master": {
+      "path": "netlove-group-002/master.wav",
+      "bytes": 203598,
+      "sha256": "ee20ae1cf8ec6dfc93250c9dccde15fda636a760d1ca1ddf8b10e7f43ab36702"
+    },
+    "runtime": {
+      "path": "netlove-group-002/runtime.ogg",
+      "bytes": 33522,
+      "sha256": "ee4bb47feefc4733753063bb3c8c409aa782970d45b07a8cab1c6c7ade134d1f"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

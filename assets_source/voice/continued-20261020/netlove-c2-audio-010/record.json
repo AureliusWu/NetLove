@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-010",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "这次没有我的叹气？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1471461750,
+  "textSha256": "93325a5620cd7bb82b5775460f3f1910f3ca67824e206face4bbe2959d578716",
+  "medium": "call",
+  "requestSha256": "65e3f526cb3a9375c8f144f354f4c3a91ddfefb30223e2367ec89f54e8adf4e8",
+  "attempt": 5,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这次没有我的叹气",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 11.573,
+  "loudness": {
+    "input_i": "-21.40",
+    "input_tp": "-3.66",
+    "input_lra": "0.00",
+    "input_thresh": "-31.40",
+    "output_i": "-19.99",
+    "output_tp": "-2.26",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-010/raw.wav",
+      "bytes": 176720,
+      "sha256": "d23cc2e80112842db7675d629031aa0138ea1b4423b108e7ffda46c38c385a92"
+    },
+    "master": {
+      "path": "netlove-c2-audio-010/master.wav",
+      "bytes": 88398,
+      "sha256": "aeb59be27cc4a62580b4c77cbeb18dd1fe4b0cff6fc154a515e5a971280e0b12"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-010/runtime.ogg",
+      "bytes": 18610,
+      "sha256": "2079c013887c13b32bcd152cc79542f06b27343ef4b60153bcd8028276a2e08e"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

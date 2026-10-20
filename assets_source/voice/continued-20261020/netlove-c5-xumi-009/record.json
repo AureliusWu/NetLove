@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-009",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "那先说近一点的。明早有空吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1416631750,
+  "textSha256": "114ad41a0f3d47d483227ddbb48c1cf06cdb577b014f49db1189540934a6ca2c",
+  "medium": "spoken",
+  "requestSha256": "c4c1999eea0090077693dc41b8bb5afad47915461054101dba43e99cfc21bfd0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先说近一点的明早有空吗",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 134.818,
+  "loudness": {
+    "input_i": "-27.49",
+    "input_tp": "-11.32",
+    "input_lra": "0.00",
+    "input_thresh": "-38.26",
+    "output_i": "-20.00",
+    "output_tp": "-3.83",
+    "output_lra": "0.00",
+    "output_thresh": "-30.77",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-009/raw.wav",
+      "bytes": 261200,
+      "sha256": "3953ca1deec63a61e25e23d965ad46015c063be82961d1bca064f0e7e0c4813f"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-009/master.wav",
+      "bytes": 130638,
+      "sha256": "cd181e88fff07bde3692be22c9e2e9f9443bdfa362a268dbd07858873cd20b44"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-009/runtime.ogg",
+      "bytes": 23263,
+      "sha256": "128a5f4f4c338ea97779891531b0f206a5f06109cde3ddb9974e04e1aa3abbf8"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

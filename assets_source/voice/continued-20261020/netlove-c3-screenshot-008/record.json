@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-screenshot-008",
+  "sceneId": "c3-screenshot",
+  "lineId": "c3-screenshot-008",
+  "lineIndex": 7,
+  "speaker": "陆衡",
+  "text": "负责人已经撤下。我找管理员关掉原帖转发。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 568262459,
+  "textSha256": "e1d33fee68f727b49df372047a61a059575e20b2808d38e6b0609eaacc401e60",
+  "medium": "chat",
+  "requestSha256": "15c99a0cbe0c6540c88b4bf94cfe96b9b7871d045660b51e855ad2c85600b837",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "負責人已經撤下我找管理員關掉原鐵轉發",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 179.25,
+  "loudness": {
+    "input_i": "-27.05",
+    "input_tp": "-10.16",
+    "input_lra": "1.30",
+    "input_thresh": "-37.81",
+    "output_i": "-19.48",
+    "output_tp": "-2.97",
+    "output_lra": "0.00",
+    "output_thresh": "-30.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.52"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-screenshot-008/raw.wav",
+      "bytes": 353360,
+      "sha256": "81383a2b6dba6cddfbfe63722e36d4b3ee7c053118c9e90f9769911fc596a581"
+    },
+    "master": {
+      "path": "netlove-c3-screenshot-008/master.wav",
+      "bytes": 176718,
+      "sha256": "da8feb069afb25bd3b17308dca0a22a3bf9fd2836b28011dcd4df019b471a337"
+    },
+    "runtime": {
+      "path": "netlove-c3-screenshot-008/runtime.ogg",
+      "bytes": 29714,
+      "sha256": "b9bc067c1e784b535d744252dc01e559c06bbf1613b7fc9bedb48fd507261df8"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-open-009",
+  "sceneId": "c2-open",
+  "lineId": "c2-open-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "名字比账号好记。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1016942987,
+  "textSha256": "aeb60e42b916b570f5c38eb5499d5cbac19103230660f380a40c84015d1ddc14",
+  "medium": "chat",
+  "requestSha256": "a4ed37128ba94c72704dc9fd7fccf13f7e7617ae625c68984cfad9f8ac4f5010",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "名字比帐号好记",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 88.796,
+  "loudness": {
+    "input_i": "-23.99",
+    "input_tp": "-4.42",
+    "input_lra": "0.00",
+    "input_thresh": "-33.99",
+    "output_i": "-21.57",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.57",
+    "normalization_type": "linear",
+    "target_offset": "1.57"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-open-009/raw.wav",
+      "bytes": 153680,
+      "sha256": "6a20c3425bebff630c824ae1b4e29040ecf7d825c4be7ee1181143533a6e77b8"
+    },
+    "master": {
+      "path": "netlove-c2-open-009/master.wav",
+      "bytes": 76878,
+      "sha256": "a10a62480ff062be848691c3b713836630027cd20bcc66497224e3196c621eec"
+    },
+    "runtime": {
+      "path": "netlove-c2-open-009/runtime.ogg",
+      "bytes": 15637,
+      "sha256": "0a7fde9c6a440a95da4e4f05ee3bf015c49286ac07ffa7bfc0697e381f2ab0eb"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

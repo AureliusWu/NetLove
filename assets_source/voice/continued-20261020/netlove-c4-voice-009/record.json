@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-009",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "难受。昨晚我把我们的聊天翻了好几遍，连标点都看了。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 904164439,
+  "textSha256": "1f000409082379970b2afcb253bde51a5d9e2f54c4614e9cb87ab539d9f08418",
+  "medium": "call",
+  "requestSha256": "48dc368da690fedc7adafff8c7de85ded231a70d1d46160485e5da69a99d2364",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "难受,昨晚我把我们的聊天翻了好几遍,连标点都看了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 233.129,
+  "loudness": {
+    "input_i": "-28.44",
+    "input_tp": "-7.92",
+    "input_lra": "0.40",
+    "input_thresh": "-38.56",
+    "output_i": "-20.32",
+    "output_tp": "-2.00",
+    "output_lra": "0.20",
+    "output_thresh": "-30.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-009/raw.wav",
+      "bytes": 483920,
+      "sha256": "cf131c89a9afd8972501de4bc3267da48d24d3bcd6cc6dcd358f2371d96eaf07"
+    },
+    "master": {
+      "path": "netlove-c4-voice-009/master.wav",
+      "bytes": 241998,
+      "sha256": "13b123a80a3ef2a49904e503bc93b75f1873880123dd829f8712b99d28073aa1"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-009/runtime.ogg",
+      "bytes": 41866,
+      "sha256": "56e876b6651486eccc775bc5aac17016f0a47d71a58da2eb6e2415e8cc91c890"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

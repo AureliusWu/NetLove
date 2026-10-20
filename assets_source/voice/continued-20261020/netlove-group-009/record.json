@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-009",
+  "sceneId": "group",
+  "lineId": "group-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "新群里的邻居。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1978995520,
+  "textSha256": "ec6cc7c2cd84e85fd78b306f9678077379bc8290befb481275999ca4ee3bfa11",
+  "medium": "chat",
+  "requestSha256": "20c38bd693f257026bebfff417acf33c01563a664a5f8176fd61c9b3f3777018",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "新群里的邻居",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 13.547,
+  "loudness": {
+    "input_i": "-29.58",
+    "input_tp": "-14.91",
+    "input_lra": "0.00",
+    "input_thresh": "-39.58",
+    "output_i": "-20.00",
+    "output_tp": "-5.32",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-009/raw.wav",
+      "bytes": 122960,
+      "sha256": "b70627a5612d5cb6d780de661b540eca94d35dc7283e81019766b1f30b2e4ffc"
+    },
+    "master": {
+      "path": "netlove-group-009/master.wav",
+      "bytes": 61518,
+      "sha256": "17ab3cbd5f4bc8193d45440e09284eaa42d633b350aa0390eccae377f74928d4"
+    },
+    "runtime": {
+      "path": "netlove-group-009/runtime.ogg",
+      "bytes": 13881,
+      "sha256": "39878563b67d1765d6ff03f0878192c2c7e277f5ef20524803145279698c16fb"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

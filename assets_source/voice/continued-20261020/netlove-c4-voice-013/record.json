@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-013",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-013",
+  "lineIndex": 12,
+  "speaker": "谢听禾",
+  "text": "我们以后还会像现在这样说话吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1102064648,
+  "textSha256": "f32a8ebf1cc970790a3268f1d30eae9c3992a2a7fb64631722dd2e611b9c64a4",
+  "medium": "call",
+  "requestSha256": "2d942ba03a15f0ec6b67ee966848ab6ea1370de433aceebad66ff00ec76c7173",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我们以后还会像现在这样说话吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 279.036,
+  "loudness": {
+    "input_i": "-26.87",
+    "input_tp": "-14.07",
+    "input_lra": "0.00",
+    "input_thresh": "-36.87",
+    "output_i": "-20.00",
+    "output_tp": "-7.20",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-013/raw.wav",
+      "bytes": 245840,
+      "sha256": "190bd8fcd229902b1a9c285d553312c5e1db8e35d77e8101340ebf240e283275"
+    },
+    "master": {
+      "path": "netlove-c4-voice-013/master.wav",
+      "bytes": 122958,
+      "sha256": "f3edd8ca0f005e9322e89cb1cac5d34fc146714c5bcc4b4896605e2ac2e518cf"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-013/runtime.ogg",
+      "bytes": 22207,
+      "sha256": "dfecec574c6e5b58eb589a7ebd72cbabbabe40c5222a2d458fdce37d1f55ba52"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

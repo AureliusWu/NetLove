@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-010",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "嗯，不过停得挺好。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 158971820,
+  "textSha256": "9535f59b5ef9f280398be0fd5c3fca27a1cd0ba638adbbd82e46705098a8ebc7",
+  "medium": "call",
+  "requestSha256": "0ce44404a3efeb360377118b4f92454d693b5c8dceeab8f39639311edd8bd12c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯不过停的挺好",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 44.397,
+  "loudness": {
+    "input_i": "-25.53",
+    "input_tp": "-9.54",
+    "input_lra": "0.00",
+    "input_thresh": "-35.53",
+    "output_i": "-19.99",
+    "output_tp": "-4.01",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-010/raw.wav",
+      "bytes": 138320,
+      "sha256": "84cc7d4bdf47dcae188bf7e9dcf02c2715ba2c162ccbfecb7155ae9e8efe852f"
+    },
+    "master": {
+      "path": "netlove-c2-camera-010/master.wav",
+      "bytes": 69198,
+      "sha256": "75c1ec41e9b956254ca6d59e0abeb30aa4629acbf101af88edfa043b37d6a722"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-010/runtime.ogg",
+      "bytes": 14754,
+      "sha256": "83277afe2974dc649b502f5df09d55eaa58760a01170253b048bf31e01831e01"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

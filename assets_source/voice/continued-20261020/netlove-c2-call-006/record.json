@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-call-006",
+  "sceneId": "c2-call",
+  "lineId": "c2-call-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1538661797,
+  "textSha256": "34dd051bdaaa3c5606ee46cf90f08a01624b068414b02947bb4a81ee3697cfa6",
+  "medium": "call",
+  "requestSha256": "521c28e1055fb25fb062902574c0582b4005b9b65a8bac077dd62d9f43fa0041",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先说一下 我的网可能卡卡住的时候不用急着挂",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.28,
+  "wallSeconds": 151.26,
+  "loudness": {
+    "input_i": "-26.08",
+    "input_tp": "-10.95",
+    "input_lra": "2.80",
+    "input_thresh": "-36.85",
+    "output_i": "-20.13",
+    "output_tp": "-5.40",
+    "output_lra": "2.60",
+    "output_thresh": "-30.78",
+    "normalization_type": "dynamic",
+    "target_offset": "0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-call-006/raw.wav",
+      "bytes": 506960,
+      "sha256": "e0c9fd23a4aea37e50d239b2d909f03ae8c84b49c1a8ccbd300433366cb8b15a"
+    },
+    "master": {
+      "path": "netlove-c2-call-006/master.wav",
+      "bytes": 253518,
+      "sha256": "1f11517c8de26d8460224fdca2569c6401dc54074d80a5e3313f3268865aae63"
+    },
+    "runtime": {
+      "path": "netlove-c2-call-006/runtime.ogg",
+      "bytes": 40646,
+      "sha256": "2879cabd34d7c25bb5507a6ea09cf912b3d0bd1415b79776be9005438be08533"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-name-006",
+  "sceneId": "c4-name",
+  "lineId": "c4-name-006",
+  "lineIndex": 5,
+  "speaker": "陆衡",
+  "text": "因为他欠我一个需求单的筛选按钮。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1806063051,
+  "textSha256": "fd39641928571eaeb424b53f0d700133c2c33ca70d16995c8e48522df838a260",
+  "medium": "chat",
+  "requestSha256": "5e86d121610dc6d5695133f0666aa1e95533cefefb54e7ca432ad4e60ab2d0b8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "因為他欠我一個需求單的篩選按鈕",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 104.124,
+  "loudness": {
+    "input_i": "-20.52",
+    "input_tp": "-4.87",
+    "input_lra": "0.20",
+    "input_thresh": "-30.52",
+    "output_i": "-19.77",
+    "output_tp": "-4.18",
+    "output_lra": "0.00",
+    "output_thresh": "-29.77",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-name-006/raw.wav",
+      "bytes": 299600,
+      "sha256": "4c0c217d7f8ac4a063612f8fcfb53af9dff10b62c0cfeaad858bd07c7cc9fcd3"
+    },
+    "master": {
+      "path": "netlove-c4-name-006/master.wav",
+      "bytes": 149838,
+      "sha256": "a0602c5a930918c281629f261f19d556ea7a4ea84ff757f7885efb3d0bdcb10f"
+    },
+    "runtime": {
+      "path": "netlove-c4-name-006/runtime.ogg",
+      "bytes": 26751,
+      "sha256": "1ffb92595dd2de29ac527b2e42bb69d9660e762b180fbf0913f78fc4b9b468c4"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

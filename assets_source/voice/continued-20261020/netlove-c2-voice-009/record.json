@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-009",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "她确实觉得苹果很重要。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1044930415,
+  "textSha256": "fd855c10aefc6a00aabb13d5c965519f318e5dc3ab990a59b3e5ae44ecda6b66",
+  "medium": "call",
+  "requestSha256": "63cdbe92120b70e43108a72af55dbffb5888a7cd291c1541f620cf6adde46e19",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "确实觉得苹果很重要",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 60.314,
+  "loudness": {
+    "input_i": "-28.36",
+    "input_tp": "-10.97",
+    "input_lra": "0.00",
+    "input_thresh": "-38.36",
+    "output_i": "-19.98",
+    "output_tp": "-2.61",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-009/raw.wav",
+      "bytes": 161360,
+      "sha256": "1ecffdea6cdf85da31333f32d7a5fc592e3b0b52af3d5302904135db2a03ccd2"
+    },
+    "master": {
+      "path": "netlove-c2-voice-009/master.wav",
+      "bytes": 80718,
+      "sha256": "dafb678b66781fa07148152ddfef779840b223c2945c202e172878dc4b35d494"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-009/runtime.ogg",
+      "bytes": 17347,
+      "sha256": "a1430b04e9161e55d8037de5076b0915466c6740c496b1da8e8ee9da9045f158"
+    }
+  },
+  "recoveredFromRun": 39436514322
+}

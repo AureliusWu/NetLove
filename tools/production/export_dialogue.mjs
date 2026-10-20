@@ -32,7 +32,16 @@ const add=(sceneId,lineId,index,line,extra={})=>{
 };
 if(project==='NetLove'){
   const story=source('src/story/story.json');scenes=story.scenes;
-  for(const scene of scenes)scene.lines.forEach((line,i)=>add(scene.id,line.id,i,line));
+  for(const scene of scenes)scene.lines.forEach((line,i)=>{
+    if(scene.id==='c1-end' && ['c1-end-001','c1-end-002'].includes(line.id)){
+      const colon=line.text.indexOf('：');
+      if(line.speaker!=='系统' || colon<1)throw Error('Authored human message changed: '+line.id);
+      add(scene.id,line.id,i,{...line,speaker:line.text.slice(0,colon),text:line.text.slice(colon+1),medium:'chat'},
+        {sourceSpeaker:line.speaker,sourceText:line.text});
+    }else add(scene.id,line.id,i,line);
+    if(line.variant && !['旁白','系统'].includes(line.speaker))
+      add(scene.id,line.id+'--variant',i,{...line,text:line.variant.text},{variant:line.variant});
+  });
 }else if(project==='Healing'){
   scenes=loadTypescript('src/story/index.ts').scenes;
   for(const scene of scenes)scene.lines.forEach((line,i)=>add(scene.id,`${scene.id}--${String(i+1).padStart(3,'0')}`,i,line));

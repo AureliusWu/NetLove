@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "batch": "20261020-continue-verified-01",
+  "count": 220,
+  "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
+  "attemptOffset": 3,
+  "reuse": "byte-verified accepted takes only",
+  "humanListening": false
+}

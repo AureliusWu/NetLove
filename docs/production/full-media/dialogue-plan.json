@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "project": "NetLove",
-  "sourceCommit": "0c1685184173194df1404eaf56e376d12eef3f40",
+  "sourceCommit": "03d7d6911a98955443ab3c8f2a2b799d436e781d",
   "sourceFiles": [
     {
       "path": "src/story/story.json",
       "sha256": "06c87bd9a23dfc033c90f60001a0e0cc735b29e2b7120a9b94f0dfe0b45a64df"
     }
   ],
-  "semanticSha256": "6738621876df153f05502c04db46d54bd2863aca57d6e282f6654104e8330288",
+  "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
   "scope": {
     "allBranches": true,
     "writtenDialogue": true,
     "narration": false,
-    "excludedCount": 290
+    "excludedCount": 288
   },
   "sceneCount": 43,
   "model": {
@@ -733,6 +733,38 @@
       "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
       "seed": 996728514,
       "textSha256": "8a82bd040e67194ef5fcf265df2f9f2766aa974884c49d3bcd4478b44d5cb3b6",
+      "medium": "chat"
+    },
+    {
+      "id": "netlove-c1-end-001",
+      "sceneId": "c1-end",
+      "lineId": "c1-end-001",
+      "lineIndex": 0,
+      "speaker": "一格信号",
+      "text": "我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
+      "sourceSpeaker": "系统",
+      "sourceText": "一格信号：我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
+      "actorId": "谢听禾",
+      "voice": "Serena",
+      "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+      "seed": 1506951038,
+      "textSha256": "7000e4c0f67ec036e130e511804724c3d8914bc1c7acf492823adbc6c9418013",
+      "medium": "chat"
+    },
+    {
+      "id": "netlove-c1-end-002",
+      "sceneId": "c1-end",
+      "lineId": "c1-end-002",
+      "lineIndex": 1,
+      "speaker": "暂停营业",
+      "text": "明天把旧手机给你看看。就放门口，不碰面。",
+      "sourceSpeaker": "系统",
+      "sourceText": "暂停营业：明天把旧手机给你看看。就放门口，不碰面。",
+      "actorId": "许弥",
+      "voice": "Vivian",
+      "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+      "seed": 408497579,
+      "textSha256": "2ed55ad97b3b0db668e0d21039f773162c8dd31f73ba65066a21b35a0ce4678e",
       "medium": "chat"
     },
     {
@@ -2472,6 +2504,25 @@
       "medium": "chat"
     },
     {
+      "id": "netlove-c4-name-003--variant",
+      "sceneId": "c4-name",
+      "lineId": "c4-name-003--variant",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。",
+      "variant": {
+        "stat": "honesty",
+        "min": 3,
+        "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。"
+      },
+      "actorId": "周既明",
+      "voice": "Dylan",
+      "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+      "seed": 91015988,
+      "textSha256": "9d9cffca5c6b21069779c1bea96535519d57d0cc98e0c2b0390f0fc9a37cf6c9",
+      "medium": "chat"
+    },
+    {
       "id": "netlove-c4-name-004",
       "sceneId": "c4-name",
       "lineId": "c4-name-004",
@@ -3407,22 +3458,6 @@
       "lineIndex": 11,
       "speaker": "旁白",
       "text": "我看了一眼对面的窗，又把手机搁到杯子旁边。屏幕没有熄，楼下的晾衣杆碰了一声。",
-      "reason": "narration_or_system"
-    },
-    {
-      "sceneId": "c1-end",
-      "lineId": "c1-end-001",
-      "lineIndex": 0,
-      "speaker": "系统",
-      "text": "一格信号：我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
-      "reason": "narration_or_system"
-    },
-    {
-      "sceneId": "c1-end",
-      "lineId": "c1-end-002",
-      "lineIndex": 1,
-      "speaker": "系统",
-      "text": "暂停营业：明天把旧手机给你看看。就放门口，不碰面。",
       "reason": "narration_or_system"
     },
     {

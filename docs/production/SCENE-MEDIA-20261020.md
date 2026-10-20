@@ -1,4 +1,4 @@
-# 场景美术与音乐 · 2026-10-20
+# 场景美术与音乐 · v0.4.0已发布 · 2026-10-20
 
 c5-friends 使用四碗面CG和专曲；沿用事件CG的到达证明、鉴赏、回看和备份链，不提前解锁恋爱路线图片。
 
@@ -17,3 +17,7 @@ c5-friends 使用四碗面CG和专曲；沿用事件CG的到达证明、鉴赏�
 ## 可复用办法
 
 SceneLoop把本地OGG接到已有音乐总线，异步解码结束后重新核对场景与上下文，避免旧场景迟到开播；同一曲目不重复启动。按作品保留独立编配与CG，只交流工具及制作方法。新增OGG要同时核对实际缓存清单，图片只在对应物品出现后显示，收走后恢复场景。
+
+## 本版发布回读
+
+[本版Build](https://github.com/AureliusWu/NetLove/actions/runs/39370224243) 与[公开PWA](https://github.com/AureliusWu/NetLove/actions/runs/39370788457) 均成功；源码与实际Windows包检查通过。[v0.4.0下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.4.0) 已公开。独立下载PWA ZIP后，SHA-256与GitHub摘要相同，ZIP CRC通过，新增CG和OGG逐字节匹配已测源。较早“本地未执行”保留为本地环境边界；本段是当前CI实际结果。真人试听与最终美术选择仍待体验。

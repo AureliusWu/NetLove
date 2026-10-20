@@ -2,19 +2,28 @@
   "date": "2026-10-20",
   "project": "NetLove",
   "version": "0.4.0",
-  "status": "candidate_pending_current_CI",
+  "status": "published_and_pwa_verified",
   "cgManifest": "docs/art/four-bowls-manifest.json",
   "musicManifest": "docs/audio/four-bowls-score-manifest.json",
   "tests": {
     "local_logic_or_python": 62,
     "passed": true,
-    "browser": "not executed locally: browser archive download was truncated",
-    "windows": "not executed locally; current CI required",
+    "browser": "passed in current CI",
+    "windows": "source and packaged EXE passed in current CI",
     "humanListening": "pending",
     "artFinalChoice": "pending"
   },
   "compatibility": "Stable scene/line IDs, choices, recorded lines and save identity retained",
   "limits": "Earlier release evidence is historical, not validation for this candidate.",
   "build": "passed",
-  "newCgAndMusicPrecached": true
+  "newCgAndMusicPrecached": true,
+  "runtimeCommit": "fd7d6edf8d7f8378fb85929274930ff3d597ef6d",
+  "buildRun": 39370224243,
+  "pagesRun": 39370788457,
+  "release": "https://github.com/AureliusWu/NetLove/releases/tag/v0.4.0",
+  "publicPwaDownload": {
+    "sha256": "d4a04125b72a9bdef2e466beb654ff008f66ec777e62ce328fd15008b5fd70b1",
+    "zipCRC": "passed",
+    "newCgAndMusicBytes": "exact match to tested source assets"
+  }
 }

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-public-003",
+  "sceneId": "c3-public",
+  "lineId": "c3-public-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "请停止转发和猜测。已经发出去的，麻烦联系我登记来源，我逐个去处理。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1664064805,
+  "textSha256": "111a6640fff4cb019ddf06568eb9de788e8f9c2161931d8c9bd0ef855083b1c9",
+  "medium": "chat",
+  "requestSha256": "cee71c0baad91a22c1fab4424d9d617935345deccd9302eecccfacf8ee4daa53",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "请停止转发和猜测已经发出去的麻烦联系我登记来源我逐个去处理",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 301.237,
+  "loudness": {
+    "input_i": "-22.21",
+    "input_tp": "-5.81",
+    "input_lra": "1.90",
+    "input_thresh": "-32.52",
+    "output_i": "-19.21",
+    "output_tp": "-2.53",
+    "output_lra": "1.40",
+    "output_thresh": "-29.74",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-public-003/raw.wav",
+      "bytes": 599120,
+      "sha256": "ae1c64b360acb106b5c08c3bdfd0a4b45e86a1626302d5cb4b7661b00dd50486"
+    },
+    "master": {
+      "path": "netlove-c3-public-003/master.wav",
+      "bytes": 299598,
+      "sha256": "cedb45872186e785125b920695c670878231b42999b0cabc9f1daad09c5eced2"
+    },
+    "runtime": {
+      "path": "netlove-c3-public-003/runtime.ogg",
+      "bytes": 48886,
+      "sha256": "e9931bd0367e0af0b8a2ff8679e7849ec683d19b6e222ead3d4fd1dbbc52b11f"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

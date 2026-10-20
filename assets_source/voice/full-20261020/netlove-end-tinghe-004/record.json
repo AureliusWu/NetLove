@@ -1,0 +1,55 @@
+{
+  "id": "netlove-end-tinghe-004",
+  "sceneId": "end-tinghe",
+  "lineId": "end-tinghe-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "好。这次别把汤喝完才问我吃不吃葱。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1093772706,
+  "textSha256": "75c1c0d39780263856d3fb0766e5df166e9cbd46a7a7d05f21dd7c3b3f8e726e",
+  "medium": "spoken",
+  "requestSha256": "ef526dbecde5d76d5fc681b69458eb2af9e5e15ac0c2e7659001ca0ba6813456",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好這次別把湯喝完才問我吃不吃蔥",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 290.038,
+  "loudness": {
+    "input_i": "-29.03",
+    "input_tp": "-10.71",
+    "input_lra": "2.20",
+    "input_thresh": "-39.56",
+    "output_i": "-19.18",
+    "output_tp": "-2.00",
+    "output_lra": "0.40",
+    "output_thresh": "-30.62",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.82"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-end-tinghe-004/raw.wav",
+      "bytes": 476240,
+      "sha256": "201247326ccee945aa1f5e6f63a66e13c793697f2086d5336cf6e11d0ebe9c5e"
+    },
+    "master": {
+      "path": "netlove-end-tinghe-004/master.wav",
+      "bytes": 238158,
+      "sha256": "119981a1b323ab031a1f621b21d1ae66104a832b3e5cbe4a1750b9bedd8518aa"
+    },
+    "runtime": {
+      "path": "netlove-end-tinghe-004/runtime.ogg",
+      "bytes": 36658,
+      "sha256": "66f19ed3915619cd61f3b4f3c0571093740aab843fd194571f3275602108b3b1"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

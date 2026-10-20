@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-006",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "那你是哪家店？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 236375428,
+  "textSha256": "00ac40854766f139f4d78cbd7ce5b17759333f1065e0159431ebf9a663c38a35",
+  "medium": "chat",
+  "requestSha256": "1b2cc45ca7583c4d19a57321920dbd7405d906bf4a8d8397abe346149922919e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你是哪家店",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 73.896,
+  "loudness": {
+    "input_i": "-22.32",
+    "input_tp": "-3.45",
+    "input_lra": "0.00",
+    "input_thresh": "-32.32",
+    "output_i": "-20.86",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.86",
+    "normalization_type": "linear",
+    "target_offset": "0.86"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-006/raw.wav",
+      "bytes": 138320,
+      "sha256": "077e6ebd2cd83ac991547e2017494b6d5f1a67b0d8d2170aa30add2390fa0d8c"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-006/master.wav",
+      "bytes": 69198,
+      "sha256": "a3b0e00a37309cfe0df4f63ef1bf9fbf1317ae9d2a22156ac3970992d9e4eb1e"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-006/runtime.ogg",
+      "bytes": 16234,
+      "sha256": "95e38b586fe4d77cfad4c2ecf0e52fbb90973fb630873aa1c919545266fc9e82"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

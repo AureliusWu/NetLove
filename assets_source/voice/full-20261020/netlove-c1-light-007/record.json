@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-007",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "收到。私人失误档案。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1953022314,
+  "textSha256": "8272f792cdf49ed20bac1c3513fb57f643a3ce6ac908556acb8c45b9c4b6357e",
+  "medium": "chat",
+  "requestSha256": "e89916bb23eb4d7493820c794aca9d5376197774b786dee522d6f257447025e7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "收到私人失误档案",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 88.918,
+  "loudness": {
+    "input_i": "-23.84",
+    "input_tp": "-5.16",
+    "input_lra": "0.00",
+    "input_thresh": "-33.84",
+    "output_i": "-20.68",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.68",
+    "normalization_type": "linear",
+    "target_offset": "0.68"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-007/raw.wav",
+      "bytes": 153680,
+      "sha256": "46af3ace4bdbecd80d3f3b3527e24372d7faf62f77affb04684c937506046aaf"
+    },
+    "master": {
+      "path": "netlove-c1-light-007/master.wav",
+      "bytes": 76878,
+      "sha256": "c2c85608fa814e55d721afec3b14e8a587838207ce3e128f095fc43ef084f2e4"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-007/runtime.ogg",
+      "bytes": 15318,
+      "sha256": "b200fee724f42b97f76be63fac243c8b247edd2cd682021020881407c3f76016"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

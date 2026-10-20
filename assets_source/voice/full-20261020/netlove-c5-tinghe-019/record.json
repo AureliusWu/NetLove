@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-019",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-019",
+  "lineIndex": 18,
+  "speaker": "周既明",
+  "text": "这次也可以。前面有面馆。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 934987778,
+  "textSha256": "6ed2facac685855622667caa1c757c38ab9d81e0a4eb2f5a525e066574e9f453",
+  "medium": "spoken",
+  "requestSha256": "39173ac1782f35ba502b44a990f78dd52c06ff1f46f14daa30c70ef5995f7ca7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这一次也可以前面有面馆",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 104.816,
+  "loudness": {
+    "input_i": "-25.31",
+    "input_tp": "-7.28",
+    "input_lra": "0.00",
+    "input_thresh": "-35.82",
+    "output_i": "-20.03",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.54",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-019/raw.wav",
+      "bytes": 199760,
+      "sha256": "1a80fb47b9693566451094f1425775fa5284ac0828f83b23ecdc626dfd75760a"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-019/master.wav",
+      "bytes": 99918,
+      "sha256": "8d6000621b1279dce00f833ba5f9b442daed7f5ce11967241b02efbc8af08fc2"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-019/runtime.ogg",
+      "bytes": 19223,
+      "sha256": "948b5db8411b8fc7879d664ce67c06eec1a7249a0869a0d4badd40e21d5ad964"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

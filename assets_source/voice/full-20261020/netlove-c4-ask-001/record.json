@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-001",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "我有点担心。今天公司终止实习，我可能把几件事混在一起了。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1432026742,
+  "textSha256": "1339404ce6a6f00104d8c05279c5a35d02b740ef4f8ea870b8a68919e5587dcb",
+  "medium": "chat",
+  "requestSha256": "3758deb94bf5dbba066afec352c52db40d24e2d5fa0e3b618e78fa426b654083",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我有点担心今天公司终止实习我可能把几件事混在一起了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 332.688,
+  "loudness": {
+    "input_i": "-25.17",
+    "input_tp": "-6.26",
+    "input_lra": "0.20",
+    "input_thresh": "-35.27",
+    "output_i": "-20.27",
+    "output_tp": "-2.00",
+    "output_lra": "0.40",
+    "output_thresh": "-30.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-001/raw.wav",
+      "bytes": 537680,
+      "sha256": "4d85601476b6f526ca22a5c79c7b6a10fcda54d4938fa4e809f3b4ea1e2d69e4"
+    },
+    "master": {
+      "path": "netlove-c4-ask-001/master.wav",
+      "bytes": 268878,
+      "sha256": "3725ba4beb0a72b982b28ebbaebb151a15cdcb9bcfb94dc700e8656060e8e6b3"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-001/runtime.ogg",
+      "bytes": 46891,
+      "sha256": "abdcf89e568f8698da04e1257257574fd036e45a37c03660c207a74b41d753be"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

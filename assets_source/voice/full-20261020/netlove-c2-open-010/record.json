@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-open-010",
+  "sceneId": "c2-open",
+  "lineId": "c2-open-010",
+  "lineIndex": 9,
+  "speaker": "谢听禾",
+  "text": "账号是我家网太差才改的。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1313306120,
+  "textSha256": "342c08cccfe50cbf6eeb030c18e3f7414fa0f17a72f41383925194b8a192bad7",
+  "medium": "chat",
+  "requestSha256": "e5161cfebb0d404b05a6ea0ae782dac21ad436c303add996d0cb892bbe6c04e3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "帐號是我家網太差才改的",
+    "cer": 0.090909,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 20.318,
+  "loudness": {
+    "input_i": "-21.53",
+    "input_tp": "-7.37",
+    "input_lra": "0.00",
+    "input_thresh": "-31.53",
+    "output_i": "-20.00",
+    "output_tp": "-5.84",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-open-010/raw.wav",
+      "bytes": 215120,
+      "sha256": "798f37f596d077ffe54a47dfc41a0892c2e7041c5f71ba7a85fbb15f84c7145c"
+    },
+    "master": {
+      "path": "netlove-c2-open-010/master.wav",
+      "bytes": 107598,
+      "sha256": "4cb00845346a6315f9a035764f5e9f2780e6e4c8c1df0cae5f4aee11f7bc0806"
+    },
+    "runtime": {
+      "path": "netlove-c2-open-010/runtime.ogg",
+      "bytes": 20140,
+      "sha256": "6af4670dd149e03aca859193406a02ec4212172de0e57447caad02e574b0f5f9"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

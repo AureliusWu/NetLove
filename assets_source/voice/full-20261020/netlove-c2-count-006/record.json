@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-count-006",
+  "sceneId": "c2-count",
+  "lineId": "c2-count-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "因为我知道哪里容易填错。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1795394647,
+  "textSha256": "804d6dbb293157a01b52f16e1dae5c3f5a2691b988f5b4df99c7e3b35aa1f984",
+  "medium": "chat",
+  "requestSha256": "84b790b38314be719cccda992a7265a3eb1b1380364f0cca3e05a89d6f329293",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "因为我知道哪里容易填错",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 115.155,
+  "loudness": {
+    "input_i": "-24.00",
+    "input_tp": "-7.58",
+    "input_lra": "0.00",
+    "input_thresh": "-34.00",
+    "output_i": "-20.00",
+    "output_tp": "-3.58",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-count-006/raw.wav",
+      "bytes": 199760,
+      "sha256": "4879e43e9ea48380f8735690f6c34fcbaf01f7228e667d7bcf736094ee530442"
+    },
+    "master": {
+      "path": "netlove-c2-count-006/master.wav",
+      "bytes": 99918,
+      "sha256": "2780f10a4475842477a3527bc3527159fd14a4d21ca1847955da3aa453675796"
+    },
+    "runtime": {
+      "path": "netlove-c2-count-006/runtime.ogg",
+      "bytes": 19557,
+      "sha256": "6ca30fdf74fba13bdd56f2bbb301393e320dd97a02caecb54895cb0e2caaff85"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

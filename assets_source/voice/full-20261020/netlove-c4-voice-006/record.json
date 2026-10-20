@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-006",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "没删。你那次叹气，我也没放进公开版。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 83456969,
+  "textSha256": "02d3035be290f3565b0855b86a5f5adbc6abb6bd0fd0d0b64d6f49494ae797cf",
+  "medium": "call",
+  "requestSha256": "04101565d9f851b46f8500337e8be06b8dc96aa6af48a2ba7a74326cdac28fff",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "梅山,你那次探棄,我也沒放進公開吧。",
+    "cer": 0.333333,
+    "polarityCountsMatch": false,
+    "passed": false
+  },
+  "duration": 4.24,
+  "wallSeconds": 138.751,
+  "loudness": {
+    "input_i": "-25.20",
+    "input_tp": "-10.32",
+    "input_lra": "0.90",
+    "input_thresh": "-35.39",
+    "output_i": "-19.59",
+    "output_tp": "-5.20",
+    "output_lra": "0.90",
+    "output_thresh": "-30.30",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.41"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-006/raw.wav",
+      "bytes": 407120,
+      "sha256": "072f498a748ac11f2bf2e74df893593f8c96ef66810b99bad8bddb0a8d946c57"
+    },
+    "master": {
+      "path": "netlove-c4-voice-006/master.wav",
+      "bytes": 203598,
+      "sha256": "cc0f8585dd93698e54443c6474390bb38d1e0bb621b4167c5815b13b0793532e"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-006/runtime.ogg",
+      "bytes": 33561,
+      "sha256": "416f0925e226295c7988617c02134300bce61eacbbf76f8747364ccfaf27b70a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-open-011",
+  "sceneId": "c4-open",
+  "lineId": "c4-open-011",
+  "lineIndex": 10,
+  "speaker": "许弥",
+  "text": "她下午借路由器去了。你吃了没？别拿一件事给另一件事判结果。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 148767559,
+  "textSha256": "1f7c239539e884691e4a6134a4ba0c9e9f38bb80cd665c0a3413317fc8020d76",
+  "medium": "chat",
+  "requestSha256": "a012c876b93864b7e31e4e92f752bf2ba4774675666f41182e0e7cad37c2304e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他下午借路游戚去了你吃了没别拿一件事给另一件事判结果",
+    "cer": 0.115385,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 313.302,
+  "loudness": {
+    "input_i": "-20.93",
+    "input_tp": "-3.36",
+    "input_lra": "0.20",
+    "input_thresh": "-31.65",
+    "output_i": "-19.80",
+    "output_tp": "-2.14",
+    "output_lra": "3.30",
+    "output_thresh": "-30.57",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-open-011/raw.wav",
+      "bytes": 637520,
+      "sha256": "5c5fb3f9dc1187a2eb07275fb67ab454a0d56b387ae5116908608fedb920bf4a"
+    },
+    "master": {
+      "path": "netlove-c4-open-011/master.wav",
+      "bytes": 318798,
+      "sha256": "3e81e4a15dfd6cc58802356540df6fe74780397ba1d1f6a71898e5e6cac69d49"
+    },
+    "runtime": {
+      "path": "netlove-c4-open-011/runtime.ogg",
+      "bytes": 49134,
+      "sha256": "b8d06f6c2912d755dff4ddb101ce3ebebc7426fda4b8e4ad9e88383d7b404d66"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

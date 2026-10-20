@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-007",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-007",
+  "lineIndex": 6,
+  "speaker": "暂停营业",
+  "text": "拾光。拐角那家。招牌的“光”少一根灯管。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1523754552,
+  "textSha256": "b8a75fa7fd66bfdc1dbd077b624383ec574994b720166ee7c027b98b0a60efbc",
+  "medium": "chat",
+  "requestSha256": "677e25d6356f87b80e61f3ea83a7a6fd752504eb4910cc85de6684ffc36556c8",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "时光拐脚纳家,招牌的光少一根灯管。",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 23.557,
+  "loudness": {
+    "input_i": "-18.35",
+    "input_tp": "-1.27",
+    "input_lra": "1.50",
+    "input_thresh": "-28.99",
+    "output_i": "-19.92",
+    "output_tp": "-3.49",
+    "output_lra": "2.10",
+    "output_thresh": "-30.63",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-007/raw.wav",
+      "bytes": 483920,
+      "sha256": "fa1fac28af0106ca74852706c27f5a3309b30b1f3331be76c6200cacb0da3674"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-007/master.wav",
+      "bytes": 241998,
+      "sha256": "d0f9f58d563df81a34e0382b7706511dc2f73a8cc0514d72546a4d0c007fb12d"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-007/runtime.ogg",
+      "bytes": 37875,
+      "sha256": "fa8ff3c706ffd4abed54e197595cb1ded5456ae294a7a0715f7d45b3d9bbec6d"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

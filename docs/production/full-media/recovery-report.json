@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "sourceRun": 39386251023,
+  "semanticSha256": "6738621876df153f05502c04db46d54bd2863aca57d6e282f6654104e8330288",
+  "target": 217,
+  "accepted": 203,
+  "pendingCount": 14,
+  "pending": [
+    {
+      "id": "netlove-c1-window-004",
+      "text": "晾衣杆。风一吹就响。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "两一干 风一吹就行",
+        "cer": 0.5,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c2-open-008",
+      "text": "听是听见的听。禾是稻子的禾。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "听是听见的听, 和是道子的和。",
+        "cer": 0.25,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c2-audio-010",
+      "text": "这次没有我的叹气？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "这是没有我的探戏",
+        "cer": 0.375,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c3-repair-014",
+      "text": "拍。它坐得比我稳。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "嗨!他做的比我稳!",
+        "cer": 0.571429,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c3-frame-007",
+      "text": "第三种不能校色。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "第三种不能叫啥呢?",
+        "cer": 0.428571,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c4-voice-006",
+      "text": "没删。你那次叹气，我也没放进公开版。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "梅山,你那次探棄,我也沒放進公開吧。",
+        "cer": 0.333333,
+        "polarityCountsMatch": false,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "netlove-c5-tinghe-016",
+      "text": "我也想。可是开学以后，我可能真的很忙。",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-xumi-002",
+      "text": "真人看起来，比蓝底照片自然一点。",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-xumi-011",
+      "text": "明天早上，要不要一起吃早饭？不用我帮你修网页。",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-xumi-019",
+      "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-end-xumi-003",
+      "text": "说好的提前呢？",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-friends-009",
+      "text": "互助群以后不用每天看了吧？",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-friends-010",
+      "text": "大群不用。小群看你们。别都等我喊。",
+      "status": "missing"
+    },
+    {
+      "id": "netlove-c5-letter-006",
+      "text": "你别又把午饭整理没了。",
+      "status": "missing"
+    }
+  ],
+  "status": "recovered_verified_takes",
+  "archive": "assets_source/voice/full-20261020",
+  "humanListening": false,
+  "runtimeIntegration": "pending",
+  "release": "not_published"
+}

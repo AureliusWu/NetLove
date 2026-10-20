@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-end-005",
+  "sceneId": "c3-end",
+  "lineId": "c3-end-005",
+  "lineIndex": 4,
+  "speaker": "谢听禾",
+  "text": "好。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1167838135,
+  "textSha256": "061dc3a2e5c7e436c621c77aa82c3cb6759345d51a920b40239a336272405fc7",
+  "medium": "chat",
+  "requestSha256": "7609d9e9faa420cb5fc11566cdc230a7d0e9aa4ccf49a7cdeee62bd14cf161ca",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 55.867,
+  "loudness": {
+    "input_i": "-26.51",
+    "input_tp": "-12.21",
+    "input_lra": "0.00",
+    "input_thresh": "-36.51",
+    "output_i": "-20.00",
+    "output_tp": "-5.70",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-end-005/raw.wav",
+      "bytes": 92240,
+      "sha256": "8038efcb3b6705c30e2ad28bdee34b604a2f027a2394992efddafe73b7a57f7d"
+    },
+    "master": {
+      "path": "netlove-c3-end-005/master.wav",
+      "bytes": 46158,
+      "sha256": "566186a7cacd399b69a9f54f6b3a6fb777b8c0ca086114ee2712c82af80a2fc2"
+    },
+    "runtime": {
+      "path": "netlove-c3-end-005/runtime.ogg",
+      "bytes": 9986,
+      "sha256": "e0b06f6cf87ccda6047eb5ee10db5ab3adc7b207d1123db779c8bf5a4e2482c0"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

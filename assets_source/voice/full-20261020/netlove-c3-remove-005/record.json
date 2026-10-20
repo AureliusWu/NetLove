@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-remove-005",
+  "sceneId": "c3-remove",
+  "lineId": "c3-remove-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "你先把这句告诉我，我就不用猜半天。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1971915323,
+  "textSha256": "68d29e59a7fdd3cb79887920ae4c7c431eecc081c2ffd517a4085ae9328696f6",
+  "medium": "chat",
+  "requestSha256": "5307b1257dfbe296d7e2ce85a28f0d7722fa5f2281b83e110931c74bdf13bcd2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你先把这句告诉我我就不用猜半天",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 180.423,
+  "loudness": {
+    "input_i": "-20.75",
+    "input_tp": "-4.25",
+    "input_lra": "1.20",
+    "input_thresh": "-31.03",
+    "output_i": "-19.95",
+    "output_tp": "-3.84",
+    "output_lra": "0.00",
+    "output_thresh": "-30.22",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-remove-005/raw.wav",
+      "bytes": 338000,
+      "sha256": "e220fbd7e4bc2fbaac7c631eb9dc7a6abfc4e89e88983d3da4a6ccffb976b8b1"
+    },
+    "master": {
+      "path": "netlove-c3-remove-005/master.wav",
+      "bytes": 169038,
+      "sha256": "fa79771fe522124b4719a31a24cd9eb1e14a5e479d444dde9099f696339245d6"
+    },
+    "runtime": {
+      "path": "netlove-c3-remove-005/runtime.ogg",
+      "bytes": 29493,
+      "sha256": "19ba34e3ef461535a7f79fef90a9f1c91ba01bc2cbc12f81e717abccb5a58841"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

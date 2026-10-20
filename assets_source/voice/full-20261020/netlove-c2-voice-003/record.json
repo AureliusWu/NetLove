@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-003",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "我不是不想认识你。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1188168056,
+  "textSha256": "51ab200fa99599f89b41a67d8547913cb723a6888c606a2a207f2cbd896df4a4",
+  "medium": "call",
+  "requestSha256": "fdc5240f9380af8c6b0400727d8d50ec51140dff879876e8d391f9160732dd1d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我不是不想認識你",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 62.282,
+  "loudness": {
+    "input_i": "-21.33",
+    "input_tp": "-6.85",
+    "input_lra": "0.00",
+    "input_thresh": "-31.33",
+    "output_i": "-20.01",
+    "output_tp": "-5.52",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-003/raw.wav",
+      "bytes": 107600,
+      "sha256": "29211e21afbb05d940f102a9bbd98cbd9338b75d9a66d47cfdb03691c60a50a5"
+    },
+    "master": {
+      "path": "netlove-c2-voice-003/master.wav",
+      "bytes": 53838,
+      "sha256": "e6d18ee9c8923baad55f800a21a6870d8dda6254f6f0232f021048e44c8ba0e3"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-003/runtime.ogg",
+      "bytes": 11777,
+      "sha256": "8a635c0f4a958da6b3fcb923d31d0d1129013a01fe1fbfc64079ec6736d5aa79"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

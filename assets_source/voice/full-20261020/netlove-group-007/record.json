@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-007",
+  "sceneId": "group",
+  "lineId": "group-007",
+  "lineIndex": 6,
+  "speaker": "一格信号",
+  "text": "只说明怎么填，别录门牌和电话。录完我先让陆衡确认。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1277499234,
+  "textSha256": "def6985d3f33934013d8e2c5c7a49a9571d5b104724ba282ae2cac4a8335c910",
+  "medium": "chat",
+  "requestSha256": "edc2c8c4375573daf07639b1bf28f573fb6499258e2c0ba757292f4a865ba400",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "只说名怎么填,别录门牌和电话。录完我先让录横确认。",
+    "cer": 0.136364,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 284.046,
+  "loudness": {
+    "input_i": "-23.89",
+    "input_tp": "-5.71",
+    "input_lra": "0.40",
+    "input_thresh": "-34.20",
+    "output_i": "-19.11",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.51",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.89"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-007/raw.wav",
+      "bytes": 460880,
+      "sha256": "6bf5438e0c0d87cfebbe1c21f7b99607b7f214d2cdc593a8b29227541ec7d659"
+    },
+    "master": {
+      "path": "netlove-group-007/master.wav",
+      "bytes": 230478,
+      "sha256": "9f08bce418fada2c695edefbf320f44c8f3741152f0e1e39c2d21464759dd769"
+    },
+    "runtime": {
+      "path": "netlove-group-007/runtime.ogg",
+      "bytes": 36608,
+      "sha256": "beea13fb76e2336023af4cc02882bd6e50adfa049ddf0ab81808abbe20889328"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

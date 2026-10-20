@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-009",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-009",
+  "lineIndex": 8,
+  "speaker": "周既明",
+  "text": "我知道。那张蓝底照片把我拍得像在认错。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 291330934,
+  "textSha256": "3b3ffd4c7f1dc11f614bfbb73d1b402c5ae89f653cfca6a40fe85ea5f95462c7",
+  "medium": "chat",
+  "requestSha256": "d6ae2eaf0798186f780f670719e4550c6c26514c16edad1f67d3831cf32957b2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道那张蓝底照片把我拍的像在认错",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 110.087,
+  "loudness": {
+    "input_i": "-22.78",
+    "input_tp": "-6.39",
+    "input_lra": "0.20",
+    "input_thresh": "-32.78",
+    "output_i": "-19.85",
+    "output_tp": "-3.50",
+    "output_lra": "0.00",
+    "output_thresh": "-29.85",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.15"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-009/raw.wav",
+      "bytes": 314960,
+      "sha256": "f039c70e2dff085fcd718c7bdaec2cef5178e12664c342d471a3a119f2fd0bcf"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-009/master.wav",
+      "bytes": 157518,
+      "sha256": "b815f604989fc49c42894ccf8a87d1de19cef97626579030ca20cf9ebca26d7d"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-009/runtime.ogg",
+      "bytes": 28459,
+      "sha256": "f723f4a7e2d9d77d3a33a627974bf1e85ac8d5a2adb0fb66b21693a3c7d719a7"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-003",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-003",
+  "lineIndex": 2,
+  "speaker": "暂停营业",
+  "text": "表是一件事。还有我妈老让我问，照相馆什么时候能开。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 278624555,
+  "textSha256": "de8845466da0544a27ec07dd7abf846a2f0b597ee20f43b574649d4da9236939",
+  "medium": "chat",
+  "requestSha256": "09ae6161a9f6f9e112cea9b06b5b6ae0a20840c86ecf32dc2b1a2f574f5791d1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "表示一件事,還有我媽老讓我問,這相管什麼時候能開?",
+    "cer": 0.136364,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 47.003,
+  "loudness": {
+    "input_i": "-20.79",
+    "input_tp": "-5.49",
+    "input_lra": "1.30",
+    "input_thresh": "-31.42",
+    "output_i": "-20.18",
+    "output_tp": "-5.02",
+    "output_lra": "1.30",
+    "output_thresh": "-30.83",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-003/raw.wav",
+      "bytes": 583760,
+      "sha256": "e090c97ef20e2adec90bd18eec7edb79df57354dc5b06f2ece24c5ac9782fdae"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-003/master.wav",
+      "bytes": 291918,
+      "sha256": "959fd16bb11fc09d0a90173e2184c288628e1536449c6071421a1aa123680250"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-003/runtime.ogg",
+      "bytes": 45016,
+      "sha256": "a0702958fd5ffe9245dd1ad8ed794d553af99bda8db3f2f363a0be3a7e0bc07d"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

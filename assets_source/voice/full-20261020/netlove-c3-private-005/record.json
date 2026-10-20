@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-005",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-005",
+  "lineIndex": 4,
+  "speaker": "周既明",
+  "text": "好。你希望我做什么？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1748931453,
+  "textSha256": "8c142c4fda23a853e863263c2ca001d55bfc93ca742ee731c44af4d940ea68df",
+  "medium": "chat",
+  "requestSha256": "c9146c71ce6f2cbaa543189353dabe8f1aae5c4ff2ef1cbf163d78e082ca7af9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好,你希望我做什么?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.8,
+  "wallSeconds": 93.864,
+  "loudness": {
+    "input_i": "-30.89",
+    "input_tp": "-10.71",
+    "input_lra": "0.00",
+    "input_thresh": "-42.51",
+    "output_i": "-22.19",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.81",
+    "normalization_type": "linear",
+    "target_offset": "2.19"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-005/raw.wav",
+      "bytes": 268880,
+      "sha256": "de946497088239a047e7a728dc0e1779424a2f256f774a25f3634dd26153ef5e"
+    },
+    "master": {
+      "path": "netlove-c3-private-005/master.wav",
+      "bytes": 134478,
+      "sha256": "9d3a0c9e2982a52b35a753746dff279c3618bb367a8ff5775924111ff9cb61cd"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-005/runtime.ogg",
+      "bytes": 22784,
+      "sha256": "15dd0ac4d2f19a4bd8db2833ea5c328d06ea14262b13ed0d6a5687818f746912"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

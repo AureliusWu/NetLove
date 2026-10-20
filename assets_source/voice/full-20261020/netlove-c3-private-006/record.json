@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-006",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-006",
+  "lineIndex": 5,
+  "speaker": "许弥",
+  "text": "把发给谁、什么时候发、怎么回复，列给我。不要贴群里。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 402137208,
+  "textSha256": "f35ec88484a2ee7bd7afefe25b3988a6336ebb7dd1e35b11630e4409f192544b",
+  "medium": "chat",
+  "requestSha256": "3b4aa5a9b0acf1ac7f80b2d5a729f4a58745be3418b8e8aa83eaedf982d7ffba",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "把發給誰?什麼時候發?怎麼回覆?列給我。不要貼群裡。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.52,
+  "wallSeconds": 258.271,
+  "loudness": {
+    "input_i": "-21.17",
+    "input_tp": "-3.97",
+    "input_lra": "0.60",
+    "input_thresh": "-31.44",
+    "output_i": "-19.70",
+    "output_tp": "-2.35",
+    "output_lra": "0.50",
+    "output_thresh": "-29.95",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.30"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-006/raw.wav",
+      "bytes": 530000,
+      "sha256": "5cffa7e124c06c1ccb417d6ab350aa2c24f4f2bd1854373dd16f171c2870c8f7"
+    },
+    "master": {
+      "path": "netlove-c3-private-006/master.wav",
+      "bytes": 265038,
+      "sha256": "017ee1704a9481770e1d4c10ed30e4a81967a5f0800f132d126a7ba1b0eac054"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-006/runtime.ogg",
+      "bytes": 42307,
+      "sha256": "31cc4675aeb535edcb0e763e939e75c9d3ea522638f1fc318ce3fcb173e3dc23"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

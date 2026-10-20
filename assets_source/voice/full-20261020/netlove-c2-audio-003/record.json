@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-003",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "你自己也可以列在署名里。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 818738961,
+  "textSha256": "f00ce857bcbb6918be42b0330ce6e9d63c078fad8f55cb6b1c3ab49db11cbe3c",
+  "medium": "call",
+  "requestSha256": "cdcc1ad29231ad720f04d0d3ff9f80ba279e02bbea35e59dbb95492a2e076131",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你自己也可以列在署名里",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 64.273,
+  "loudness": {
+    "input_i": "-28.11",
+    "input_tp": "-9.88",
+    "input_lra": "0.00",
+    "input_thresh": "-38.11",
+    "output_i": "-20.22",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.22",
+    "normalization_type": "linear",
+    "target_offset": "0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-003/raw.wav",
+      "bytes": 176720,
+      "sha256": "74fd93bf2c467ed13c83ead81c56188c9fa686e407e320f3acd59ef829c7eb50"
+    },
+    "master": {
+      "path": "netlove-c2-audio-003/master.wav",
+      "bytes": 88398,
+      "sha256": "cfcd7e5a3e3ddb0d3a98c906775f3d78bc5006ccaa5a981d17c60fa64e16f68e"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-003/runtime.ogg",
+      "bytes": 19640,
+      "sha256": "f9ed58ea6645191ab05eb7733296e90d32132801bb779d7575d1b2a87122c67b"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

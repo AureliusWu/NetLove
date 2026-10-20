@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-008",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-008",
+  "lineIndex": 7,
+  "speaker": "谢听禾",
+  "text": "工作那件事，你还难受吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1216231745,
+  "textSha256": "b683e8a513d7fe76db2db72b330ee8495d4193f0dd000044d0e0f37ce0eef1ce",
+  "medium": "call",
+  "requestSha256": "b948347649afb647660d35ebc488270d91bedfd514d7cdc356123b6eb10febab",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "工作那件事,你還難受嗎?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 210.001,
+  "loudness": {
+    "input_i": "-25.96",
+    "input_tp": "-11.71",
+    "input_lra": "1.80",
+    "input_thresh": "-36.35",
+    "output_i": "-18.44",
+    "output_tp": "-4.80",
+    "output_lra": "0.00",
+    "output_thresh": "-28.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.56"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-008/raw.wav",
+      "bytes": 338000,
+      "sha256": "f1f242f9a9cd51d96f4c863e3357fc04d619205143befe63d2698b52fe67c806"
+    },
+    "master": {
+      "path": "netlove-c4-voice-008/master.wav",
+      "bytes": 169038,
+      "sha256": "4aa9460ced67f09f00acfb8ff023438fb1e62951e37d058c0371d69765ad04ab"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-008/runtime.ogg",
+      "bytes": 26289,
+      "sha256": "0ccc90054f709dd508a6a72f57e878ad7eb2215e63d7364fdc30c60227706bb7"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

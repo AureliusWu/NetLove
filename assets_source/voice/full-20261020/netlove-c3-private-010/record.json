@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-private-010",
+  "sceneId": "c3-private",
+  "lineId": "c3-private-010",
+  "lineIndex": 9,
+  "speaker": "许弥",
+  "text": "今晚不选照片了。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1791938669,
+  "textSha256": "008c8ce109cc0751dc0a2a76b5bedc854ee59baea82d0fe9c275dd3bcdaf903d",
+  "medium": "chat",
+  "requestSha256": "e4553539ce9146533753c37e241fbdcbea00b117710e903f7027db93dd1d1a50",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今晚不選照片了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 97.178,
+  "loudness": {
+    "input_i": "-19.21",
+    "input_tp": "-4.85",
+    "input_lra": "0.00",
+    "input_thresh": "-29.21",
+    "output_i": "-20.01",
+    "output_tp": "-5.64",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-private-010/raw.wav",
+      "bytes": 169040,
+      "sha256": "0303c58c4bbb8957c2ac213b58e6c891ecf53f6658625e11c63141b93ea03929"
+    },
+    "master": {
+      "path": "netlove-c3-private-010/master.wav",
+      "bytes": 84558,
+      "sha256": "beaf9f58373e5943d79018cb58901d3821b09dcfd809e9f705dfb37076dcff0e"
+    },
+    "runtime": {
+      "path": "netlove-c3-private-010/runtime.ogg",
+      "bytes": 16067,
+      "sha256": "4e94c487b4b69b99ea1190ec563cf8685775e41a61ab5111193587e1a2e00912"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

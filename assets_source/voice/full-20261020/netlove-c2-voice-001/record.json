@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-001",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "今晚只通话吧。房间有点乱，我还没准备好。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 288580643,
+  "textSha256": "8894b0a52d3560f1066e246208dec1c56bcf388e38fd517ffdf900f329e6e34f",
+  "medium": "call",
+  "requestSha256": "8847bb707cb16fca6da475cae6bcbdf81164eb80b12a879205a27e240ff92739",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今晚只通話吧房間有點亂我還沒準備好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 16.493,
+  "loudness": {
+    "input_i": "-23.15",
+    "input_tp": "-5.80",
+    "input_lra": "1.80",
+    "input_thresh": "-33.43",
+    "output_i": "-18.75",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.02",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.25"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-001/raw.wav",
+      "bytes": 345680,
+      "sha256": "5e96823ac732ce40cf353268a18c48e3b5c9f6e4c6cfe4bb4f5669dbe31ea2ec"
+    },
+    "master": {
+      "path": "netlove-c2-voice-001/master.wav",
+      "bytes": 172878,
+      "sha256": "644801c25ad543863c6041d96883c0b5e8aab37ea45047f0cc7a2e19b59b4ba6"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-001/runtime.ogg",
+      "bytes": 30123,
+      "sha256": "40f23437ed53874c669be1a4647ad2e48cc4eb38ad5a4edda5327018b6200c0a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

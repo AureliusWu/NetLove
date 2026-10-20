@@ -1,0 +1,55 @@
+{
+  "id": "netlove-first-reply-003",
+  "sceneId": "first-reply",
+  "lineId": "first-reply-003",
+  "lineIndex": 2,
+  "speaker": "一格信号",
+  "text": "刚才的录音听得清吗？我担心语速太快。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1479403713,
+  "textSha256": "c779863a5f9db15886d9516fe0cb358d8d867dc9ced78294e248dd6c272a7d1f",
+  "medium": "chat",
+  "requestSha256": "8979dd5c8f87dbf87a46592017e31edb666067b2fa71f8155b3a27a814a51f47",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "剛才的錄音聽得清嗎?我擔心語速太快",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 183.865,
+  "loudness": {
+    "input_i": "-23.73",
+    "input_tp": "-7.95",
+    "input_lra": "2.60",
+    "input_thresh": "-34.00",
+    "output_i": "-20.08",
+    "output_tp": "-5.03",
+    "output_lra": "2.00",
+    "output_thresh": "-30.43",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-first-reply-003/raw.wav",
+      "bytes": 407120,
+      "sha256": "4a7d103bdc98117801851b9762dec0043c15900f64b00934acdf1ce7e8af701a"
+    },
+    "master": {
+      "path": "netlove-first-reply-003/master.wav",
+      "bytes": 203598,
+      "sha256": "c584ed03ee5cc10c78fa9d8723c9f26dc1cb0721bfc2998cc5743dc9aa97b97d"
+    },
+    "runtime": {
+      "path": "netlove-first-reply-003/runtime.ogg",
+      "bytes": 32521,
+      "sha256": "be322b2043eb1b0f9a7a979611f481843a782635a4eca56fcc680b2e73d1538e"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

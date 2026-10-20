@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-008",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-008",
+  "lineIndex": 7,
+  "speaker": "一格信号",
+  "text": "那今天先别对着它坐到两点。录音里的第三步，我读错了一个字。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1607326017,
+  "textSha256": "caeeec591565a91a017cb9d2f325ab49d2bb6afa85d1f5ff5f08dccbb71b1112",
+  "medium": "chat",
+  "requestSha256": "4e7a71bd81e64fa6f022910af8f27d9f36ec68a1b6b0c834817ca5371fcbee7d",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那今天先别对着他做到两点录音里的第三部我读错了一个字",
+    "cer": 0.115385,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.84,
+  "wallSeconds": 266.889,
+  "loudness": {
+    "input_i": "-26.01",
+    "input_tp": "-8.24",
+    "input_lra": "3.60",
+    "input_thresh": "-36.39",
+    "output_i": "-20.84",
+    "output_tp": "-3.64",
+    "output_lra": "4.00",
+    "output_thresh": "-31.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.84"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-008/raw.wav",
+      "bytes": 560720,
+      "sha256": "6f5b18b9845f64c8d5be734aacdc61513dc6f472c7457a19d1d8f4d2c7ac7c85"
+    },
+    "master": {
+      "path": "netlove-c1-honest-008/master.wav",
+      "bytes": 280398,
+      "sha256": "9d202b3c09034b516f53bde07492cce5a8278991d556b4a90c043b4ea64c45d7"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-008/runtime.ogg",
+      "bytes": 46491,
+      "sha256": "457a7add7e3d608dc0a1747483f680589fa6d48538249aa4a983b8babb6b39af"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-public-008",
+  "sceneId": "c3-public",
+  "lineId": "c3-public-008",
+  "lineIndex": 7,
+  "speaker": "许弥",
+  "text": "你能解释你怎么发的。店里要怎么说，我自己来。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1205823171,
+  "textSha256": "bbea40a9c126ed7d379dc8d68774fdddcf924ef9cc2054ae6ab4415607d21ac8",
+  "medium": "chat",
+  "requestSha256": "4503506c2bee8d488ea193e6df4b59c3a341a4ed97976c4ed3491be0f4617a3a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你能解釋,你怎麼發的。電靈要怎麼說,我自己來。",
+    "cer": 0.105263,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 43.467,
+  "loudness": {
+    "input_i": "-21.43",
+    "input_tp": "-7.03",
+    "input_lra": "0.40",
+    "input_thresh": "-32.00",
+    "output_i": "-19.31",
+    "output_tp": "-4.45",
+    "output_lra": "2.50",
+    "output_thresh": "-29.80",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.69"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-public-008/raw.wav",
+      "bytes": 537680,
+      "sha256": "e8c0a34008cafa226e66a3ec337822479659b65fabe217d3c59851708defc388"
+    },
+    "master": {
+      "path": "netlove-c3-public-008/master.wav",
+      "bytes": 268878,
+      "sha256": "4050a88c3842e5a8a40069748b9b2dc4917eb703ea7b2caac5ca66215f9af277"
+    },
+    "runtime": {
+      "path": "netlove-c3-public-008/runtime.ogg",
+      "bytes": 41502,
+      "sha256": "85b5af8031e47bb278295eaf5f152110af23480c07a7ea01dab66fd6e2e2285f"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-004",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "晾衣杆。风一吹就响。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 216723774,
+  "textSha256": "ba0a1cb87495d6e9ee63314f9442b3fc1de3ab0005db20a7e3e0b4f3b330f270",
+  "medium": "chat",
+  "requestSha256": "0e113e8f9fbca05750cf9c2c92b6f60f9d4015d11a912f95bf748af0696a3ce3",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "两一干 风一吹就行",
+    "cer": 0.5,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 1.92,
+  "wallSeconds": 134.757,
+  "loudness": {
+    "input_i": "-22.65",
+    "input_tp": "-5.55",
+    "input_lra": "0.00",
+    "input_thresh": "-32.65",
+    "output_i": "-19.99",
+    "output_tp": "-2.90",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-004/raw.wav",
+      "bytes": 184400,
+      "sha256": "20f59e78b890bcffd1c25a40cd775793fef52bf2c93c013fbd7a6a31b9df8580"
+    },
+    "master": {
+      "path": "netlove-c1-window-004/master.wav",
+      "bytes": 92238,
+      "sha256": "eb5bfc136185803b49f8d01f822b510cf25a6c43e8f4068a2eee194e4d69db7e"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-004/runtime.ogg",
+      "bytes": 17517,
+      "sha256": "ed8337f63f3cb200f8252894378b8aa59187654447d65a69ba8ad1435624a0b7"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

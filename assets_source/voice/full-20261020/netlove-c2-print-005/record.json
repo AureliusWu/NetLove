@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-005",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "我妈说字再大一点。她眼睛比我早退休。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 632076493,
+  "textSha256": "1d5e5298749da9e50b8f80617057c03e6068d94a609c4d15f1995a86ba11b1b9",
+  "medium": "call",
+  "requestSha256": "8a7fbd7168625c98c2f02e3b084e17b709d931b8ffef3463d1e46f2875b1681e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我妈说 字再大一点她眼睛比我早退休",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 317.36,
+  "loudness": {
+    "input_i": "-17.64",
+    "input_tp": "-2.89",
+    "input_lra": "2.50",
+    "input_thresh": "-28.24",
+    "output_i": "-17.74",
+    "output_tp": "-2.76",
+    "output_lra": "0.90",
+    "output_thresh": "-28.42",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.26"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-005/raw.wav",
+      "bytes": 430160,
+      "sha256": "6dc6dbe41e5927ec4eb3262c55df3ea76233707de8c64a9c2cac25459d90e8b0"
+    },
+    "master": {
+      "path": "netlove-c2-print-005/master.wav",
+      "bytes": 215118,
+      "sha256": "6c9c66ebea0d506de1425f4473642189a3d6bb2324de67bd0636983f5467c035"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-005/runtime.ogg",
+      "bytes": 34222,
+      "sha256": "80d47cdd058629f352a81e326e49603378c212d47647bb41505127a89d525ab5"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

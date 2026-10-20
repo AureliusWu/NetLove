@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-repair-014",
+  "sceneId": "c3-repair",
+  "lineId": "c3-repair-014",
+  "lineIndex": 13,
+  "speaker": "许弥",
+  "text": "拍。它坐得比我稳。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1208675337,
+  "textSha256": "fbb28958f44fbdeb637e95bf9250cf859fcd855d23947c3d436b9e47d5195755",
+  "medium": "call",
+  "requestSha256": "4c06d4fbf67699038d7fb6005fac4033e453b84502b24265cef8f65cd6823edc",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "嗨!他做的比我稳!",
+    "cer": 0.571429,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 2.4,
+  "wallSeconds": 119.979,
+  "loudness": {
+    "input_i": "-18.22",
+    "input_tp": "-3.30",
+    "input_lra": "0.00",
+    "input_thresh": "-28.89",
+    "output_i": "-20.00",
+    "output_tp": "-5.08",
+    "output_lra": "0.00",
+    "output_thresh": "-30.46",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-repair-014/raw.wav",
+      "bytes": 230480,
+      "sha256": "dba03a6a235adad2d449ef7a77d7267d112ae9abe0b268621207b42b83d16832"
+    },
+    "master": {
+      "path": "netlove-c3-repair-014/master.wav",
+      "bytes": 115278,
+      "sha256": "6483dd7ef3c914a20736ad3b57e84bbdf359431a97912fc713a276feb387c802"
+    },
+    "runtime": {
+      "path": "netlove-c3-repair-014/runtime.ogg",
+      "bytes": 19922,
+      "sha256": "7508899a039436c6bd7005db328f5f8284d60f3218fac4f4c6441f93a1f21e03"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

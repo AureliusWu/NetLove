@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-017",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-017",
+  "lineIndex": 16,
+  "speaker": "许弥",
+  "text": "别提前半小时。我不想刚起床就欠你一个很隆重的早晨。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1198886227,
+  "textSha256": "c9a2ada8de82d31c56c02f8ee0452c63b72a1e4c30bb35bd59aad8fad809d458",
+  "medium": "spoken",
+  "requestSha256": "321d45c1815f49bcb7ffaa928e640307a87f91d7849ea8ffc6ce4b3332faffd5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "別提前半小時 我不想剛起床 就欠你一個很隆重的早晨",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 225.162,
+  "loudness": {
+    "input_i": "-21.63",
+    "input_tp": "-4.34",
+    "input_lra": "0.70",
+    "input_thresh": "-31.74",
+    "output_i": "-19.92",
+    "output_tp": "-2.58",
+    "output_lra": "0.20",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-017/raw.wav",
+      "bytes": 445520,
+      "sha256": "a31354a997da180bcc41d163147bdacb920df9c662780432f77fc673df5b4a38"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-017/master.wav",
+      "bytes": 222798,
+      "sha256": "9f7549205d17b54a18b5ce33bda8312c53c4aad946fd6deb10195b21a9bf0c87"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-017/runtime.ogg",
+      "bytes": 38594,
+      "sha256": "2ea36c532077b60dd7f8435f760e3d8d59286d9abf7e3f19380c453d518618e0"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

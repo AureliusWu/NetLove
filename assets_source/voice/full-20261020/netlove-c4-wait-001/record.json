@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-wait-001",
+  "sceneId": "c4-wait",
+  "lineId": "c4-wait-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "看到你要借设备了。方便时再回，我先吃饭。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1049802884,
+  "textSha256": "ec71975844ee52d720c57215f6fb5307bf66154420fa44f432ffc1ecbda7d656",
+  "medium": "chat",
+  "requestSha256": "20b3cb60e9aef2beb9faa3772bfb91ec7c2b3bf4345d1ed0e7e3461827ce4f25",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "看得你要借设备了方便是再回我先吃饭",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 29.946,
+  "loudness": {
+    "input_i": "-27.32",
+    "input_tp": "-5.89",
+    "input_lra": "0.90",
+    "input_thresh": "-37.59",
+    "output_i": "-20.04",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.16",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-wait-001/raw.wav",
+      "bytes": 338000,
+      "sha256": "c237bd58a2a4ec939a8f34700533bb2958bfd56d4d9788fa6aa4e8e58fdef8dd"
+    },
+    "master": {
+      "path": "netlove-c4-wait-001/master.wav",
+      "bytes": 169038,
+      "sha256": "2b0307ec0139f63fb28a139f0aba45c09d3288161e56e57e72e0b041caa6b9a4"
+    },
+    "runtime": {
+      "path": "netlove-c4-wait-001/runtime.ogg",
+      "bytes": 30430,
+      "sha256": "15854b199866f95510c642485a2100188f9a382e567cef1c3f3df83b68f1c2c5"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

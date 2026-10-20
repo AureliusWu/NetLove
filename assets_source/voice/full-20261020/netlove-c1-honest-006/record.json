@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-006",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-006",
+  "lineIndex": 5,
+  "speaker": "一格信号",
+  "text": "你那张表，今晚一定要填吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 731084618,
+  "textSha256": "267b8c0cfa3957336ba4441a0367abaa4d8a15013ab361fb4826aa48a8c4f471",
+  "medium": "chat",
+  "requestSha256": "e53410320f44aeef1c01f92503c27258c4bb9a2f84103099ec4b76e6c284a8ce",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你那张表,今晚一定要填吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.8,
+  "wallSeconds": 13.451,
+  "loudness": {
+    "input_i": "-26.33",
+    "input_tp": "-12.61",
+    "input_lra": "0.00",
+    "input_thresh": "-36.69",
+    "output_i": "-19.99",
+    "output_tp": "-6.29",
+    "output_lra": "0.00",
+    "output_thresh": "-30.53",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-006/raw.wav",
+      "bytes": 268880,
+      "sha256": "d0d4ce5ea0e7c3388a0b626625f447a799b0d4dc654ce8ea9988370113446f6d"
+    },
+    "master": {
+      "path": "netlove-c1-honest-006/master.wav",
+      "bytes": 134478,
+      "sha256": "536336ea930833aafb0d4369d4a276e0fd23224fd90f85f8e3de57178635415b"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-006/runtime.ogg",
+      "bytes": 23767,
+      "sha256": "b77fa40e55937702fb4d312f2dc44adb38fdbe0e3c8ca9ed1a94d0663ff26250"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

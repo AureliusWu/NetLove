@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-008",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-008",
+  "lineIndex": 7,
+  "speaker": "许弥",
+  "text": "先寄作品。周四聊完才知道去不去，火车票还没买。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1181470085,
+  "textSha256": "db93f67235d976b872e9fcc32285619cf17cf09180d55aca3f6dbb652f974c51",
+  "medium": "spoken",
+  "requestSha256": "e9e1596da714b75f2018212bab4b9494c2bdc3abedfa45e99eb03e715ea24b68",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先寄作品周四聊完才知道去不去火车票还没买",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.36,
+  "wallSeconds": 32.668,
+  "loudness": {
+    "input_i": "-17.75",
+    "input_tp": "-1.50",
+    "input_lra": "1.10",
+    "input_thresh": "-27.98",
+    "output_i": "-19.55",
+    "output_tp": "-3.65",
+    "output_lra": "0.90",
+    "output_thresh": "-29.75",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.45"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-008/raw.wav",
+      "bytes": 706640,
+      "sha256": "8d46f6c4672d8ca6956584f0312083eb906dd4bc19682880d7e7a045a63a2f50"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-008/master.wav",
+      "bytes": 353358,
+      "sha256": "894050e948ed8a761443e78551e8582f199a2c438ddd4fa4d8d687516b39d907"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-008/runtime.ogg",
+      "bytes": 54632,
+      "sha256": "7f2319191c21188aa3a0c1102c98fae184b2c4f1f967455382c928cb24faf875"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

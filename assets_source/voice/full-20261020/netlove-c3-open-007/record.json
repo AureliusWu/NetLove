@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-open-007",
+  "sceneId": "c3-open",
+  "lineId": "c3-open-007",
+  "lineIndex": 6,
+  "speaker": "许弥",
+  "text": "可以。现在还听得到那根坏掉的灯管。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1059614325,
+  "textSha256": "2e756c7c0c4627c7bbaa9521d11fe62ba7b3a15ecb4adbd6d5ea1bca26915870",
+  "medium": "chat",
+  "requestSha256": "b3f198d551030270b59236dcee8f0f61ebdce79fd9435ca674976b2169f448d4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以现在还听得到那根坏掉的灯管",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.68,
+  "wallSeconds": 43.71,
+  "loudness": {
+    "input_i": "-18.94",
+    "input_tp": "-3.58",
+    "input_lra": "2.30",
+    "input_thresh": "-29.17",
+    "output_i": "-19.18",
+    "output_tp": "-4.24",
+    "output_lra": "2.30",
+    "output_thresh": "-29.46",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.82"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-open-007/raw.wav",
+      "bytes": 545360,
+      "sha256": "3735f11e13c01ab7debfd6150dbb75bc169cd718b2730db1ceca7d345bfc1417"
+    },
+    "master": {
+      "path": "netlove-c3-open-007/master.wav",
+      "bytes": 272718,
+      "sha256": "ad4a3ba2bf277c77943bd102b3756d971c049ebc082d80d8c85eef5b5469a76c"
+    },
+    "runtime": {
+      "path": "netlove-c3-open-007/runtime.ogg",
+      "bytes": 41773,
+      "sha256": "8fb83581929d4deabffdb165a06bb02997e28b2b45bb7a4cb9bdeca817a678c6"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

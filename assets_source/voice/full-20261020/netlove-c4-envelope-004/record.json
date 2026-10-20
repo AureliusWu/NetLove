@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-004",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "这次给谁看？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1376444005,
+  "textSha256": "2b5ed4696b452af8460c9066b9e2b126170c5663a3e7608e697077588f1c0fd2",
+  "medium": "call",
+  "requestSha256": "218972f9ecef4789de88aae31e313b3e04b4ccf7b59436a9148ba47fecfc80be",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这次给谁看",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 61.531,
+  "loudness": {
+    "input_i": "-24.45",
+    "input_tp": "-6.84",
+    "input_lra": "0.00",
+    "input_thresh": "-34.45",
+    "output_i": "-19.98",
+    "output_tp": "-2.39",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-004/raw.wav",
+      "bytes": 107600,
+      "sha256": "51919d323c0c38c511dac380f0f28634820df668b861ab1028123316016aef53"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-004/master.wav",
+      "bytes": 53838,
+      "sha256": "aa1ae5edf6262bd0966ba46844d31d4446a22f96ac7c60a41381c7f8a5df7b3d"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-004/runtime.ogg",
+      "bytes": 12019,
+      "sha256": "476c46d10b204806ff6ec1e64eda33379124e8ed95e1477d0388ff1375475ff4"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

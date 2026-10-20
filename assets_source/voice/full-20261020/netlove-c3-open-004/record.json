@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-open-004",
+  "sceneId": "c3-open",
+  "lineId": "c3-open-004",
+  "lineIndex": 3,
+  "speaker": "许弥",
+  "text": "这张先别转。人还没确认，家里人也没看过。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 422184581,
+  "textSha256": "69c9909d8b3c3f17f3f54e8f0acf072bac4f666183c530907d4166274975cb28",
+  "medium": "chat",
+  "requestSha256": "4780b82061f9ae08095afb14a7a1c1b12982f31d4431a5b3c9f625cbffe8e5d6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这张仙别转人还没确认家里人也没看过",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 209.351,
+  "loudness": {
+    "input_i": "-17.62",
+    "input_tp": "-0.40",
+    "input_lra": "0.80",
+    "input_thresh": "-28.24",
+    "output_i": "-19.38",
+    "output_tp": "-2.24",
+    "output_lra": "0.30",
+    "output_thresh": "-29.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.62"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-open-004/raw.wav",
+      "bytes": 414800,
+      "sha256": "87a4fcbd36306860e755fc4bc649fe522195b42fc299520f603615ee3cf20629"
+    },
+    "master": {
+      "path": "netlove-c3-open-004/master.wav",
+      "bytes": 207438,
+      "sha256": "f4439cf8cdd18546098f49dd794969b4514a42dae8ade6589a20be90d826f22e"
+    },
+    "runtime": {
+      "path": "netlove-c3-open-004/runtime.ogg",
+      "bytes": 33023,
+      "sha256": "07c515e9a304b2fec14c254053effe8f9057e1d44ef22d10896a1a834e4da1aa"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

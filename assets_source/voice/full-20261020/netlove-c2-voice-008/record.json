@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-008",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-008",
+  "lineIndex": 7,
+  "speaker": "谢听禾",
+  "text": "像有人离开电脑，去做一件更重要的事。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1900819243,
+  "textSha256": "945ac3c94e7303e6a79290aec8694f2aea78941f0a7407f036f2d72919ddf8ae",
+  "medium": "call",
+  "requestSha256": "4963313425d6a84e7554cc090d6515d9d8fdb5c2ccf2d40db002a744200e9700",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "向有人离开电脑去做一件更重要的事",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 98.669,
+  "loudness": {
+    "input_i": "-25.80",
+    "input_tp": "-8.47",
+    "input_lra": "1.00",
+    "input_thresh": "-36.07",
+    "output_i": "-19.88",
+    "output_tp": "-2.93",
+    "output_lra": "0.00",
+    "output_thresh": "-30.14",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-008/raw.wav",
+      "bytes": 345680,
+      "sha256": "de1449d94acbe5e9128ed81629829fa07644debc3092ed2a4385efc09e10d10d"
+    },
+    "master": {
+      "path": "netlove-c2-voice-008/master.wav",
+      "bytes": 172878,
+      "sha256": "b30f92e0e66bb921a9e68db2d0b55900195de95c137dc4538cce3425b7776a9e"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-008/runtime.ogg",
+      "bytes": 29317,
+      "sha256": "eb43837d81f778f87dcdb829e385a7288191a74da682aa33613ae6093de7eb14"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

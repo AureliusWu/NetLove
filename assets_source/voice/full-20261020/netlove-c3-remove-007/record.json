@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-remove-007",
+  "sceneId": "c3-remove",
+  "lineId": "c3-remove-007",
+  "lineIndex": 6,
+  "speaker": "许弥",
+  "text": "已经发生的事，不会因为你忙着处理就少发生一次。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 578686177,
+  "textSha256": "3f371c794d2a892175929416cd0fb0946e0f7a43c08cec0e629a600eae002959",
+  "medium": "chat",
+  "requestSha256": "2e429729bc3513971c8f063b0423f5d22fcc94070050750eaf183a601ea2fa59",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "已經發生的事,不會因為你忙著處理就少發生一次",
+    "cer": 0.047619,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 209.588,
+  "loudness": {
+    "input_i": "-21.53",
+    "input_tp": "-5.04",
+    "input_lra": "1.50",
+    "input_thresh": "-31.93",
+    "output_i": "-19.93",
+    "output_tp": "-3.76",
+    "output_lra": "1.40",
+    "output_thresh": "-30.16",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-remove-007/raw.wav",
+      "bytes": 414800,
+      "sha256": "dbfe052ef9a36ca9347165df90bcc6d50b04b0e7b6cc9615c2a17fe38165d265"
+    },
+    "master": {
+      "path": "netlove-c3-remove-007/master.wav",
+      "bytes": 207438,
+      "sha256": "d55f100b466399f2688f8de268ade95e47069a7aca943cc7acff7f96d3cd79c3"
+    },
+    "runtime": {
+      "path": "netlove-c3-remove-007/runtime.ogg",
+      "bytes": 34975,
+      "sha256": "6e57159e36d37297d0ecd5e412dbb85506063927d1666a73548c24b2515df7a4"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

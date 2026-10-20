@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-005",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-005",
+  "lineIndex": 4,
+  "speaker": "周既明",
+  "text": "你问了能不能用，还改了好多遍。也算做了。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1627534991,
+  "textSha256": "149892f7c1668d6274ac5b23a27ef90091da248cd79ffbc272d16a605bd04c6a",
+  "medium": "call",
+  "requestSha256": "4a3b1aae2f78951cb092dfe3e5a6c6061c7229a062c30d44fe5b407ac9b1e89a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你问了能不能用,还改了好多遍,也算做了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 384.216,
+  "loudness": {
+    "input_i": "-28.22",
+    "input_tp": "-8.77",
+    "input_lra": "0.60",
+    "input_thresh": "-38.95",
+    "output_i": "-19.47",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.53"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-005/raw.wav",
+      "bytes": 368720,
+      "sha256": "af48fbb790e6480b00726affdd4f20127c2750764d2aa6c325806570eb51e29d"
+    },
+    "master": {
+      "path": "netlove-c2-audio-005/master.wav",
+      "bytes": 184398,
+      "sha256": "84235e00d1468022edf3f028a77e89b8ead2cc7ddda5e98c0691122b7f9e5ccd"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-005/runtime.ogg",
+      "bytes": 32284,
+      "sha256": "c0b803bd22d5440197888f5123fd0e2fc23cf824cccbd751098bd7920dfb7424"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-011",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-011",
+  "lineIndex": 10,
+  "speaker": "许弥",
+  "text": "换个名字。不想每天打开都像还没营业。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 881882184,
+  "textSha256": "22b2e58f9a1047ec3bd72d2ae5b5d7cca408869a97d86a2e28e91a689984b932",
+  "medium": "spoken",
+  "requestSha256": "5eadf50bd441408476b901f95f2edabc0c379189d7017fc96a37469394c48c8c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "換個名字,不想每天打開都像還沒營業",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 37.069,
+  "loudness": {
+    "input_i": "-19.59",
+    "input_tp": "-5.01",
+    "input_lra": "1.30",
+    "input_thresh": "-30.23",
+    "output_i": "-18.79",
+    "output_tp": "-4.59",
+    "output_lra": "0.60",
+    "output_thresh": "-29.67",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.21"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-011/raw.wav",
+      "bytes": 445520,
+      "sha256": "cce7473e3870186e4758307788d49307f219cbfa85bc3a84ebe0d7dfb93d2578"
+    },
+    "master": {
+      "path": "netlove-c5-friends-011/master.wav",
+      "bytes": 222798,
+      "sha256": "261b3bc7038f70c7af7be188284d2f1e1378ac2f37829bc4a13cf957c6f3624f"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-011/runtime.ogg",
+      "bytes": 35422,
+      "sha256": "28ac6d2ec9238ff761a06ba814cb064e38b30609a0ac4f39d67fb1f362212d9f"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

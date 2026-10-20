@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-007",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-007",
+  "lineIndex": 6,
+  "speaker": "许弥",
+  "text": "我妈会接单了。网页上还有你写的大字。她说你把她当小学生。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1606489171,
+  "textSha256": "f56038cce49cdef7266fa9b0b50bc1b3343bfa604c16f0dde957808f2d092a5e",
+  "medium": "call",
+  "requestSha256": "ab798e7bcc5984a875f9ad27cc176fe7e0ec30212ec540ec2f365d99d85b8d69",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我妈会接单了网页上还有你写的大字她说你把她当小学生",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.52,
+  "wallSeconds": 176.636,
+  "loudness": {
+    "input_i": "-18.31",
+    "input_tp": "-2.66",
+    "input_lra": "1.30",
+    "input_thresh": "-28.64",
+    "output_i": "-20.20",
+    "output_tp": "-5.05",
+    "output_lra": "1.70",
+    "output_thresh": "-30.55",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-007/raw.wav",
+      "bytes": 530000,
+      "sha256": "99c509b8b4ee7ace7fcd836be09c7c9823555581801797095278d8f579479d8d"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-007/master.wav",
+      "bytes": 265038,
+      "sha256": "ec9a9fe8c714c34a82a27261f5cba9ad9a180b450d793b461c750fbe4416ee7d"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-007/runtime.ogg",
+      "bytes": 42056,
+      "sha256": "dc050dea5261fd39bd9aa64047829166322bf3995b25b429c13a2a9ccdf2841b"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

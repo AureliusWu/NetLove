@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-open-010",
+  "sceneId": "c4-open",
+  "lineId": "c4-open-010",
+  "lineIndex": 9,
+  "speaker": "周既明",
+  "text": "实习终止了。听禾也一直没回。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 290792975,
+  "textSha256": "0dd2967989be1c4047f16d7555f6d9f4936f4dec179c9a0918b886e7ee5cdf5c",
+  "medium": "chat",
+  "requestSha256": "5fecd6c8323fbf983e4bccb44cfdfbfe92f568b9ba588bd6a38b5590ffc5e0bf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "实习终止了听河也一直没回",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.88,
+  "wallSeconds": 169.981,
+  "loudness": {
+    "input_i": "-27.69",
+    "input_tp": "-7.27",
+    "input_lra": "0.00",
+    "input_thresh": "-37.85",
+    "output_i": "-22.41",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-32.57",
+    "normalization_type": "linear",
+    "target_offset": "2.41"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-open-010/raw.wav",
+      "bytes": 276560,
+      "sha256": "62e0e75502020301325362e6a9f0deeea7e8036bea3f1df30add9ae0bed18d99"
+    },
+    "master": {
+      "path": "netlove-c4-open-010/master.wav",
+      "bytes": 138318,
+      "sha256": "7cec6857aed75fddb3a89d1b9bf659c623052a3ba92ff676dd9742dde4e84d52"
+    },
+    "runtime": {
+      "path": "netlove-c4-open-010/runtime.ogg",
+      "bytes": 26294,
+      "sha256": "14e0708ec5136909bfe4c5550a58ce090ad803aacaf1a8867b314d4eae2772b8"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

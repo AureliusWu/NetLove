@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-002",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-002",
+  "lineIndex": 1,
+  "speaker": "谢听禾",
+  "text": "好。我也把镜头关着。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1854340459,
+  "textSha256": "6282fb59223f59bcafcae28d310a242ab0066a780339d5690bdd76dcf88fb6e0",
+  "medium": "call",
+  "requestSha256": "bdec85cd5b06341ecc9731a6a596a9c00fd734f15f6d923c461e933e12815899",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好 我也把镜头关着",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.08,
+  "wallSeconds": 130.831,
+  "loudness": {
+    "input_i": "-26.20",
+    "input_tp": "-11.38",
+    "input_lra": "0.90",
+    "input_thresh": "-36.57",
+    "output_i": "-18.34",
+    "output_tp": "-3.73",
+    "output_lra": "0.50",
+    "output_thresh": "-29.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.66"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-002/raw.wav",
+      "bytes": 391760,
+      "sha256": "6bd65e8a4178ca801210c810e927196356878d84b5646df29a0221a0361af871"
+    },
+    "master": {
+      "path": "netlove-c2-voice-002/master.wav",
+      "bytes": 195918,
+      "sha256": "4c156891f0c8d1f0a35778ad61ba3ec7590d49bd45c866af28862f25cd5b55d0"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-002/runtime.ogg",
+      "bytes": 30987,
+      "sha256": "df93abb45e47bc67a8b8f55dc74895ba76f355c292bccd5548e5bffd6d94da1a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

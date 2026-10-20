@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-remove-004",
+  "sceneId": "c3-remove",
+  "lineId": "c3-remove-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "是。我正在联系他们删。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1072929078,
+  "textSha256": "6533ed2abee0ea46e6f660c5e4d0bffe686766c853ada8837ebc539cef9c1f12",
+  "medium": "chat",
+  "requestSha256": "f430a988123d53610f22288f969ece054f6f108d155bb6b9338169ab9721a114",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "是 我正在联系他们山",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 53.622,
+  "loudness": {
+    "input_i": "-24.20",
+    "input_tp": "-7.03",
+    "input_lra": "0.00",
+    "input_thresh": "-34.50",
+    "output_i": "-20.00",
+    "output_tp": "-2.83",
+    "output_lra": "0.00",
+    "output_thresh": "-30.30",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-remove-004/raw.wav",
+      "bytes": 176720,
+      "sha256": "7958bed54d56f0506c6e9e60a5ae74244113684df3bc4d0913c159e83446baea"
+    },
+    "master": {
+      "path": "netlove-c3-remove-004/master.wav",
+      "bytes": 88398,
+      "sha256": "2defe6f4368bd97e6c3dcfdd96be9494daa7ffdbc67838dd7b9e09d65f59f971"
+    },
+    "runtime": {
+      "path": "netlove-c3-remove-004/runtime.ogg",
+      "bytes": 16956,
+      "sha256": "06ed504a47083369ed7ef6782a36b686b0b3dd38c0ffbff22304ff419a83b911"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

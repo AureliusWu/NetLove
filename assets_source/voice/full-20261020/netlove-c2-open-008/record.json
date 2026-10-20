@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-open-008",
+  "sceneId": "c2-open",
+  "lineId": "c2-open-008",
+  "lineIndex": 7,
+  "speaker": "谢听禾",
+  "text": "听是听见的听。禾是稻子的禾。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1179569581,
+  "textSha256": "4313f6d026af000c259aa77666f259546e941138dbbe451b188c908ef89bd50d",
+  "medium": "chat",
+  "requestSha256": "676658e1d576296297f04abfdaecdca8f2d50e9b9c78140360ad04962a18f05d",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "听是听见的听, 和是道子的和。",
+    "cer": 0.25,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 5.28,
+  "wallSeconds": 316.0,
+  "loudness": {
+    "input_i": "-26.66",
+    "input_tp": "-12.20",
+    "input_lra": "0.60",
+    "input_thresh": "-37.30",
+    "output_i": "-18.50",
+    "output_tp": "-3.46",
+    "output_lra": "0.50",
+    "output_thresh": "-29.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.50"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-open-008/raw.wav",
+      "bytes": 506960,
+      "sha256": "d3c108c3763345849512ec48acb136c296b7903da477baa6e1f845b36afdb4cf"
+    },
+    "master": {
+      "path": "netlove-c2-open-008/master.wav",
+      "bytes": 253518,
+      "sha256": "85e321f24e36a18e33ed852406fd493c66bf91338c8c25c69ee9d5cadba1e646"
+    },
+    "runtime": {
+      "path": "netlove-c2-open-008/runtime.ogg",
+      "bytes": 38955,
+      "sha256": "d9eda4f31bf6bf9afecde56e104d30731a78c844976e26963e8263a64c8c727f"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

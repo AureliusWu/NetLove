@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-public-006",
+  "sceneId": "c3-public",
+  "lineId": "c3-public-006",
+  "lineIndex": 5,
+  "speaker": "许弥",
+  "text": "下次先跟我说一声。现在店里接了好几个电话。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1363907948,
+  "textSha256": "df3ae74e6ea86eea76c4c21cce44c23fff61f479e2d561f31319eafb18ee948f",
+  "medium": "chat",
+  "requestSha256": "387562d9e495cff972ee06d4572fab015c03e4250b6c2acd650d69e717c085a0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下次先跟我说一声现在店里接了好几个电话",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 184.576,
+  "loudness": {
+    "input_i": "-20.71",
+    "input_tp": "-6.28",
+    "input_lra": "0.90",
+    "input_thresh": "-31.10",
+    "output_i": "-19.88",
+    "output_tp": "-5.63",
+    "output_lra": "0.50",
+    "output_thresh": "-30.23",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-public-006/raw.wav",
+      "bytes": 407120,
+      "sha256": "2083070530dfc4af89d5ad3e30aa8c02ac1994558f174fa9c8b0b028fa1d8a66"
+    },
+    "master": {
+      "path": "netlove-c3-public-006/master.wav",
+      "bytes": 203598,
+      "sha256": "3c35fb349b7a27e2f90e4cf5f0feff5f99c711e72eed51afb21b345548f159da"
+    },
+    "runtime": {
+      "path": "netlove-c3-public-006/runtime.ogg",
+      "bytes": 34373,
+      "sha256": "02ad64462d4eea40c3438c663e1acdb5b73b9e4c96f7907f1f00701e52cdfd1f"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

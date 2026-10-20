@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-name-003",
+  "sceneId": "c4-name",
+  "lineId": "c4-name-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "还没有。只是想先用名字。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1751151380,
+  "textSha256": "c7dbf50134cc7d409bf83e8efdc513ecdabb700453f8d818dafe85c25397b627",
+  "medium": "chat",
+  "requestSha256": "4df836188dfc93d401a353400d86138d44dc157619928280d1b2a8417212b8a1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "还没有只是想先用名字",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 128.605,
+  "loudness": {
+    "input_i": "-25.83",
+    "input_tp": "-9.18",
+    "input_lra": "0.00",
+    "input_thresh": "-36.25",
+    "output_i": "-20.02",
+    "output_tp": "-3.35",
+    "output_lra": "0.00",
+    "output_thresh": "-30.43",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-name-003/raw.wav",
+      "bytes": 230480,
+      "sha256": "2b1ec9cbf9ea4d1931de4cd08641381af7df48b194de59599d14c5c8859fdbcb"
+    },
+    "master": {
+      "path": "netlove-c4-name-003/master.wav",
+      "bytes": 115278,
+      "sha256": "97e75f9fe539dac1f40d07a39bdd19a32885188c85d8ced02551fd8cdd0f7c51"
+    },
+    "runtime": {
+      "path": "netlove-c4-name-003/runtime.ogg",
+      "bytes": 20873,
+      "sha256": "ff87b2763a66a3ddf6d4d9833538aa5795c47a6297007949803cef7d11d1adc0"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

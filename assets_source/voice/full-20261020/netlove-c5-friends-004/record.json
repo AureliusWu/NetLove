@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-004",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-004",
+  "lineIndex": 3,
+  "speaker": "许弥",
+  "text": "在忙。你那碗不需要挑吗？",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1300714609,
+  "textSha256": "29be8e8391e1dd5a5cad3fe49043e2cd7393e6b53a41ba034f0f6b46f289022a",
+  "medium": "spoken",
+  "requestSha256": "462141b719cba02f99dc5ed0de580756cb5caff78f85402b22dd55f46b2f24d0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "再忙,你那碗不需要挑嗎?",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 12.314,
+  "loudness": {
+    "input_i": "-18.01",
+    "input_tp": "-1.91",
+    "input_lra": "0.00",
+    "input_thresh": "-28.64",
+    "output_i": "-20.01",
+    "output_tp": "-3.90",
+    "output_lra": "0.00",
+    "output_thresh": "-30.64",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-004/raw.wav",
+      "bytes": 245840,
+      "sha256": "bf84dd9c829378b81940995e908599c5b23ce5e957be432d4a95efeaa5dbb709"
+    },
+    "master": {
+      "path": "netlove-c5-friends-004/master.wav",
+      "bytes": 122958,
+      "sha256": "71ba72d05032dc125a463f7ba63059d90188c7a292a4eb0d45341ed9b4723861"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-004/runtime.ogg",
+      "bytes": 21224,
+      "sha256": "ff6c9e1ded98b8a7762166dbb6875afc1c68d7f13cfdfbd9909de75c79363086"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

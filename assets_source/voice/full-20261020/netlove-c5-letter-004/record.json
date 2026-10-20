@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-letter-004",
+  "sceneId": "c5-letter",
+  "lineId": "c5-letter-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "好。想见的时候再问，不用赶在今天。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 533626682,
+  "textSha256": "eff87747c74a5c9371bbd553cc4ce360f2e133a7054922a3eae2b004d52782ec",
+  "medium": "spoken",
+  "requestSha256": "f700bb4c70693bd3bc7adcd09aede9145bc6bba8299c133bab148b891eae9da7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好,想見的時候再問,不用趕在今天。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 21.409,
+  "loudness": {
+    "input_i": "-22.14",
+    "input_tp": "-6.36",
+    "input_lra": "2.00",
+    "input_thresh": "-32.38",
+    "output_i": "-20.51",
+    "output_tp": "-5.19",
+    "output_lra": "1.70",
+    "output_thresh": "-30.93",
+    "normalization_type": "dynamic",
+    "target_offset": "0.51"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-letter-004/raw.wav",
+      "bytes": 445520,
+      "sha256": "e45bf317f5b2e555b92801742f9737956dbbea7cb758ded6fbf540d323678d69"
+    },
+    "master": {
+      "path": "netlove-c5-letter-004/master.wav",
+      "bytes": 222798,
+      "sha256": "470cdb24e6bda8a6aa33695ea2d2f40ffe76e3564e7e27e19a0815400aa8f13a"
+    },
+    "runtime": {
+      "path": "netlove-c5-letter-004/runtime.ogg",
+      "bytes": 35933,
+      "sha256": "04c851e367c0f5b9fdbd23d255982b99ded2d02e40b13b58a931390783979ddd"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

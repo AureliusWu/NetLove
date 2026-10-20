@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-010",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-010",
+  "lineIndex": 9,
+  "speaker": "谢听禾",
+  "text": "那里面找不到公司的公章。你别再查我昨天少回了哪个字。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 932011926,
+  "textSha256": "9110b4805d532408ac7bbff2dd9556e74600c45b0bbbd780c4ce4f8497696077",
+  "medium": "call",
+  "requestSha256": "2913abe4f657616645fa06bb2b0e55f7de178f035a5cbcadedf27a5d355897a5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那里面找不到公司的公章你别再查我昨天少回了那个字",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 42.742,
+  "loudness": {
+    "input_i": "-24.03",
+    "input_tp": "-7.27",
+    "input_lra": "0.60",
+    "input_thresh": "-34.27",
+    "output_i": "-19.64",
+    "output_tp": "-2.72",
+    "output_lra": "0.60",
+    "output_thresh": "-29.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.36"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-010/raw.wav",
+      "bytes": 522320,
+      "sha256": "98aa64ece173095f4de9d934baa292c1f8b7ca4ce03761795c54d364f10b88b3"
+    },
+    "master": {
+      "path": "netlove-c4-voice-010/master.wav",
+      "bytes": 261198,
+      "sha256": "12b706eea06173ff8285e37ff99cdda10eacf3bb3d52936c85908de757e7ce3f"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-010/runtime.ogg",
+      "bytes": 42651,
+      "sha256": "080aee448e6606f8ce9fa0e5a939cf74561ab0ab5641a593883ceeafc4c5480a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

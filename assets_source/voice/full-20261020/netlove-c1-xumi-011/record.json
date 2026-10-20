@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-011",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-011",
+  "lineIndex": 10,
+  "speaker": "周既明",
+  "text": "你也拍？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 702106056,
+  "textSha256": "848eee74ff7002b9ddf5e41b81ffacc5144d60d7949ac4476e507d87a06b83fe",
+  "medium": "chat",
+  "requestSha256": "aa7ebda09a80b3dada7c07ca1802803b135bf23772c9802853a36cf6a5843316",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你也拍",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 45.869,
+  "loudness": {
+    "input_i": "-22.58",
+    "input_tp": "-4.34",
+    "input_lra": "0.00",
+    "input_thresh": "-32.58",
+    "output_i": "-20.26",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.26",
+    "normalization_type": "linear",
+    "target_offset": "0.26"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-011/raw.wav",
+      "bytes": 76880,
+      "sha256": "18f0af2576f37dd379c6d44d48ec21ef4aea889e3be0ab1785cf825807fbdcd4"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-011/master.wav",
+      "bytes": 38478,
+      "sha256": "18422eba4642ea203a234329a4db1cbf47704435f8b4641a3ed719a83828dcd8"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-011/runtime.ogg",
+      "bytes": 9902,
+      "sha256": "9b4a90c3c4bbc7de70080863ed6455b6b8fc104ca0921403f18c41c59657f402"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

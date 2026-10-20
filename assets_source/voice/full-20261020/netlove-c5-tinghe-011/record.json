@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-011",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-011",
+  "lineIndex": 10,
+  "speaker": "谢听禾",
+  "text": "你今天约我，是想说什么吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1950352152,
+  "textSha256": "dc7c365c4723591b59c707dff6dc5292f7a2268c9b97b8fd68ccf1578456bc2b",
+  "medium": "spoken",
+  "requestSha256": "41d2dea7e35d63ba1707bcc790303a53de4fa59390dab1a885b82dd1dd346699",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你今天约我,是想说什么吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.48,
+  "wallSeconds": 12.177,
+  "loudness": {
+    "input_i": "-22.28",
+    "input_tp": "-8.24",
+    "input_lra": "0.00",
+    "input_thresh": "-32.28",
+    "output_i": "-20.00",
+    "output_tp": "-5.96",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-011/raw.wav",
+      "bytes": 238160,
+      "sha256": "5a085e0666063985d94436c70247feb607db16886bfd958083bfe9283da13b03"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-011/master.wav",
+      "bytes": 119118,
+      "sha256": "fa3ad32860e7da2530a37e0ceb19d27b3c01dedb090d8203eb0f090c499d6f1d"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-011/runtime.ogg",
+      "bytes": 20996,
+      "sha256": "330df8f5b63a2c753e082a98f2db82229de1d7f2d11bc758903b785d957762cd"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

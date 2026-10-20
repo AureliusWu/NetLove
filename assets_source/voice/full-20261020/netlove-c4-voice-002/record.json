@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-002",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-002",
+  "lineIndex": 1,
+  "speaker": "谢听禾",
+  "text": "老师问我，为什么收进自己的呼吸声。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1636748946,
+  "textSha256": "ee2b5b0f22b32e08ebdc6cbe7d355bf1081dcd639f8b5b31790e5d5425ee34c5",
+  "medium": "call",
+  "requestSha256": "ce433706d8c3859d0ff9f36d463a285a3800d5be1f69cd871bb4ba6088e55ef6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "老师问我,为什么收进自己的呼吸声?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 30.112,
+  "loudness": {
+    "input_i": "-25.29",
+    "input_tp": "-8.00",
+    "input_lra": "0.80",
+    "input_thresh": "-35.29",
+    "output_i": "-20.13",
+    "output_tp": "-3.12",
+    "output_lra": "0.00",
+    "output_thresh": "-30.13",
+    "normalization_type": "dynamic",
+    "target_offset": "0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-002/raw.wav",
+      "bytes": 353360,
+      "sha256": "4af9849176441a4fd0e18b7397e5d15dd71b62d9c6b4d0931c7d91b77a52c2ca"
+    },
+    "master": {
+      "path": "netlove-c4-voice-002/master.wav",
+      "bytes": 176718,
+      "sha256": "03238ac95cc3ab6b66a7fd46c9010bc3bb63f5a42abe235baea75e5c78caa5b3"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-002/runtime.ogg",
+      "bytes": 29368,
+      "sha256": "77bfbc43da9baca1ce80456927617350182be04fc10dc96006d8d2e52cacb07e"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

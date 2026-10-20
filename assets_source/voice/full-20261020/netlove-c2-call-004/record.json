@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-call-004",
+  "sceneId": "c2-call",
+  "lineId": "c2-call-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1932503465,
+  "textSha256": "347fcc3a4f2ac08f38a9b4ed2c334e3c43ce81da55719496a62e29f5de1e3663",
+  "medium": "call",
+  "requestSha256": "a049dbfc5d0a00350f9f087f0aefa5ceafb73f29d6604561b064028587c19778",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能一起听吗发文件过去听的时候总不再同一秒",
+    "cer": 0.05,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.52,
+  "wallSeconds": 43.193,
+  "loudness": {
+    "input_i": "-20.50",
+    "input_tp": "-5.61",
+    "input_lra": "1.80",
+    "input_thresh": "-31.19",
+    "output_i": "-20.43",
+    "output_tp": "-5.60",
+    "output_lra": "2.20",
+    "output_thresh": "-31.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.43"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-call-004/raw.wav",
+      "bytes": 530000,
+      "sha256": "cb005e70a4fe9a2db063fc7f25c903549fe4b9b2f2c545e7495481a9e1c375e5"
+    },
+    "master": {
+      "path": "netlove-c2-call-004/master.wav",
+      "bytes": 265038,
+      "sha256": "74753a2e432c39220e0688bce9cc846c80ed08f0f65a60c4c9b6e3befa4f7767"
+    },
+    "runtime": {
+      "path": "netlove-c2-call-004/runtime.ogg",
+      "bytes": 41759,
+      "sha256": "358511632a7f63f6e8230c0552134b3b1f57639c9ee33d9a41212f8cfc16f4ea"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

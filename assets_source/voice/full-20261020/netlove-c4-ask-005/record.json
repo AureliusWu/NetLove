@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-005",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-005",
+  "lineIndex": 4,
+  "speaker": "谢听禾",
+  "text": "今天设备坏了，答辩又要换文件。我也急。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 190315405,
+  "textSha256": "ce21e80ad28862c6f2c395c041b6dc3f14e92a8c16c3909f0884a879b2f58109",
+  "medium": "chat",
+  "requestSha256": "f88292cd84b89dc0c5c0a2ad8ad0123e37a5c82658aac047d87bbd6075fe5a8f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天設備壞了, 打遍要換文件, 我也急",
+    "cer": 0.1875,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 32.76,
+  "loudness": {
+    "input_i": "-26.94",
+    "input_tp": "-9.83",
+    "input_lra": "0.30",
+    "input_thresh": "-37.50",
+    "output_i": "-19.82",
+    "output_tp": "-2.53",
+    "output_lra": "0.00",
+    "output_thresh": "-30.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-005/raw.wav",
+      "bytes": 384080,
+      "sha256": "53f555b8b4a8213c8b25d74359875959e7669fea69c6eaf80090563b0966068a"
+    },
+    "master": {
+      "path": "netlove-c4-ask-005/master.wav",
+      "bytes": 192078,
+      "sha256": "0a65bc847ce53f5cd0e98d6b178aad726ba1ce2d445f9d3bb7e10d1f236512bf"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-005/runtime.ogg",
+      "bytes": 31123,
+      "sha256": "faa40951ae6f7b296d48d633640b36ff64776887d7b83c3cab1285a40f12cf74"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

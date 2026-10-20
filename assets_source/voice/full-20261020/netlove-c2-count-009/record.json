@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-count-009",
+  "sceneId": "c2-count",
+  "lineId": "c2-count-009",
+  "lineIndex": 8,
+  "speaker": "陆衡",
+  "text": "以后你的网页上留个“找人核对”。别装得什么都知道。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1826606145,
+  "textSha256": "8e12ffe1e4a182876982f26f69d8eab7de94cdecc04f69d516b3a86f7dd28d63",
+  "medium": "chat",
+  "requestSha256": "62441be6490eae0e9d90cf70276f4b8b2ff31c5107be030812f1b3c907c85921",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以后你的网页上留个找人核对,别装的什么都知道。",
+    "cer": 0.047619,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 232.531,
+  "loudness": {
+    "input_i": "-24.49",
+    "input_tp": "-6.33",
+    "input_lra": "1.20",
+    "input_thresh": "-34.76",
+    "output_i": "-19.65",
+    "output_tp": "-2.00",
+    "output_lra": "0.80",
+    "output_thresh": "-29.89",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.35"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-count-009/raw.wav",
+      "bytes": 384080,
+      "sha256": "34addb202a6e3cbcd33d3926c71e80c4c4ab5169029a750d892dc66fcd514673"
+    },
+    "master": {
+      "path": "netlove-c2-count-009/master.wav",
+      "bytes": 192078,
+      "sha256": "be17e06aaecf346b899e8eef9c2309187eb207caa45cd70bdfb52ba9a0f686b0"
+    },
+    "runtime": {
+      "path": "netlove-c2-count-009/runtime.ogg",
+      "bytes": 35701,
+      "sha256": "d4f8f6139706fe82fe2c05897dd15780c2b687f814357df76bce0cd81ecfbf47"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

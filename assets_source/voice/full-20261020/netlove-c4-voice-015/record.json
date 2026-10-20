@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-015",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-015",
+  "lineIndex": 14,
+  "speaker": "谢听禾",
+  "text": "我也想。可以先不用把每天都答应下来。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1694624969,
+  "textSha256": "c06351d4659d2bab958a44fd1444d6c8f00884ee8ceea966ab14f6a2a0a736f9",
+  "medium": "call",
+  "requestSha256": "ced6cabd8e2bb1cfbd0f3afeb2c8ff417070dc7a73a45e40afd6bdebbfb53a4b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也想可以先不用把每天都答应下来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 123.739,
+  "loudness": {
+    "input_i": "-24.51",
+    "input_tp": "-7.17",
+    "input_lra": "0.30",
+    "input_thresh": "-35.02",
+    "output_i": "-18.85",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.61",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.15"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-015/raw.wav",
+      "bytes": 361040,
+      "sha256": "7077301efb9828936627b1ffb8318d32dd5a588539bb21a872cc744f838abbe4"
+    },
+    "master": {
+      "path": "netlove-c4-voice-015/master.wav",
+      "bytes": 180558,
+      "sha256": "5f5bf4343462f1a1d523a44de887e8b9cb72b15d4996d011b40d01e328764110"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-015/runtime.ogg",
+      "bytes": 29045,
+      "sha256": "5a8ed47dfa6ba0a831fc963b14681f76646bbe34b20b44751a8309a34a739160"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

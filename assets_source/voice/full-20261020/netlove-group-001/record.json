@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-001",
+  "sceneId": "group",
+  "lineId": "group-001",
+  "lineIndex": 0,
+  "speaker": "陆衡",
+  "text": "新增需求填表。门牌和电话只交给负责的人，别整张贴群里。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1360226975,
+  "textSha256": "cad6ca7be85b139d5c8812509009e4750a38fc609c4d26af38cb53383b02ed2e",
+  "medium": "chat",
+  "requestSha256": "dca05d1f1465e75f984e3daec534e0178230f92dbb565ceca6d1c7455b028eda",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "新增需求填表,門牌和電話只交給負責的人,別整張貼群裡。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 226.716,
+  "loudness": {
+    "input_i": "-25.05",
+    "input_tp": "-7.90",
+    "input_lra": "2.80",
+    "input_thresh": "-35.64",
+    "output_i": "-20.47",
+    "output_tp": "-4.16",
+    "output_lra": "2.60",
+    "output_thresh": "-31.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.47"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-001/raw.wav",
+      "bytes": 583760,
+      "sha256": "2ff05c4e5383ae906c66442a96b71df6c9141b413ee5eca5d361e2eb15a8897e"
+    },
+    "master": {
+      "path": "netlove-group-001/master.wav",
+      "bytes": 291918,
+      "sha256": "2b2b3cfce8b1e1c96194534bdc52bc60e5347bd49e7d4175c6bced8051f312a0"
+    },
+    "runtime": {
+      "path": "netlove-group-001/runtime.ogg",
+      "bytes": 48157,
+      "sha256": "e62865ff4a6425bac3f0112c0047062f355168212afa36f7e4a5441c1a18d7e5"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

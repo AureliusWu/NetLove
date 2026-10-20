@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-open-006",
+  "sceneId": "c5-open",
+  "lineId": "c5-open-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "明天要回学校取东西。今天下午可以去江边。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1108941049,
+  "textSha256": "ad783d400667b09beb2816c0efed5a3c4176a15d248e7ea3d1a2d85ebc62a5fc",
+  "medium": "chat",
+  "requestSha256": "f6e7f5b53c29d68bed6f303bb113f62726bdd648310142766dbbe6474609de6c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天要回學校取東西今天下午可以去江邊",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 21.327,
+  "loudness": {
+    "input_i": "-25.33",
+    "input_tp": "-8.33",
+    "input_lra": "2.00",
+    "input_thresh": "-35.46",
+    "output_i": "-19.72",
+    "output_tp": "-3.28",
+    "output_lra": "0.90",
+    "output_thresh": "-30.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.28"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-open-006/raw.wav",
+      "bytes": 460880,
+      "sha256": "d8731ff43b492ea13aae69d8e37d41a88ffb5539fa54c1911a99cd5586bbd421"
+    },
+    "master": {
+      "path": "netlove-c5-open-006/master.wav",
+      "bytes": 230478,
+      "sha256": "1db87d1f5029b44a529547e595dbdb3794649ab60227e8a3f2a99066098b3818"
+    },
+    "runtime": {
+      "path": "netlove-c5-open-006/runtime.ogg",
+      "bytes": 36869,
+      "sha256": "d52350b90490dc9ca9d51340768b95e3c4950786736e32277002c4937f972c40"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

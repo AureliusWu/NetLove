@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-003",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-003",
+  "lineIndex": 2,
+  "speaker": "周既明",
+  "text": "有一遍能过就行。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 398089416,
+  "textSha256": "f7f871aa9232a71e071dc98f649e9fc1685865018800328ca408c2f56a9a55c5",
+  "medium": "chat",
+  "requestSha256": "e01b391b204735f4803b48f4f31224aa39dd321e5e35a57651b494bd207809f2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有一遍能过就行",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 43.605,
+  "loudness": {
+    "input_i": "-23.62",
+    "input_tp": "-9.00",
+    "input_lra": "0.00",
+    "input_thresh": "-34.06",
+    "output_i": "-20.00",
+    "output_tp": "-5.38",
+    "output_lra": "0.00",
+    "output_thresh": "-30.43",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-003/raw.wav",
+      "bytes": 130640,
+      "sha256": "11d354972e032da6df183aedee85cb58811c5d047b0aed10da55087cc2c9b068"
+    },
+    "master": {
+      "path": "netlove-c1-light-003/master.wav",
+      "bytes": 65358,
+      "sha256": "a9ce8d17b0deef580f95df3343deed44e9f9275beb1e5b71516cf9d446be088f"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-003/runtime.ogg",
+      "bytes": 13954,
+      "sha256": "9d3f7b83315189a540820b0ac1ba8d70f91430b47ea414f2c717218f39a49d24"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

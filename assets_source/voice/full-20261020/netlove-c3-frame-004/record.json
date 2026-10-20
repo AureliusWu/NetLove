@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-004",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "那你给个标准。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 790551401,
+  "textSha256": "e8302ba0fe7850cd57ca74649b1ea3b1e549ad66338a8efd2b3683fc97926b49",
+  "medium": "call",
+  "requestSha256": "368cd93611aeb6d00802b1e1a85e98e7cfb18cff45e9e653c082a9e853e17397",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你给个标准",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 134.4,
+  "loudness": {
+    "input_i": "-26.33",
+    "input_tp": "-10.00",
+    "input_lra": "0.00",
+    "input_thresh": "-36.33",
+    "output_i": "-19.99",
+    "output_tp": "-3.67",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-004/raw.wav",
+      "bytes": 122960,
+      "sha256": "2e9d7db292a8d2825576eeb55bb52dc9232a72236fa44ac8842089a40150ab29"
+    },
+    "master": {
+      "path": "netlove-c3-frame-004/master.wav",
+      "bytes": 61518,
+      "sha256": "deb675957d85f6492a8f32c1cd3c849c7c61388ecafe1bafa3e161a81bd79e81"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-004/runtime.ogg",
+      "bytes": 13854,
+      "sha256": "03ef19b26ddb81518604e19dbdec92d91aa9c1c29b863cfb24791049faa61e90"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

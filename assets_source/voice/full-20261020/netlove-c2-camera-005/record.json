@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-005",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-005",
+  "lineIndex": 4,
+  "speaker": "周既明",
+  "text": "我以为学声音的，桌上会很整齐。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1940630916,
+  "textSha256": "521a75a05a974f58da1f2442590961987317aa6ec8778702639d23ee9d08181d",
+  "medium": "call",
+  "requestSha256": "d2006068284d607417ce339397c2e1caccedda60626c4a338d2f46b1f27f98ca",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我以为学声音的桌上会很整齐",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 164.638,
+  "loudness": {
+    "input_i": "-25.93",
+    "input_tp": "-7.58",
+    "input_lra": "0.20",
+    "input_thresh": "-35.93",
+    "output_i": "-20.10",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.10",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-005/raw.wav",
+      "bytes": 291920,
+      "sha256": "5177546b537470aa11c33833cd507ab3acb56afaf7e21b9963717a3a26f40325"
+    },
+    "master": {
+      "path": "netlove-c2-camera-005/master.wav",
+      "bytes": 145998,
+      "sha256": "afeb3ad2cd09ef4f5c2898c0e3b604f2f8014fde85b5e87f305de041eecf15aa"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-005/runtime.ogg",
+      "bytes": 26525,
+      "sha256": "b4fa9da2345bea13699dae259d16c45e97f59e8088068027f6870c5bce70a285"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

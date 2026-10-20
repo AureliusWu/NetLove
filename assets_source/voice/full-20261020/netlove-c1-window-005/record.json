@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-005",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-005",
+  "lineIndex": 4,
+  "speaker": "一格信号",
+  "text": "能录十秒吗？我的作业要收集现在的城市声音。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 515258363,
+  "textSha256": "f75936b3cb3a7190ad6ec5801e615611ef219e2f4d5186d35631001f2ffd944e",
+  "medium": "chat",
+  "requestSha256": "38efb691e8e5e392a6533ccf9b47c3c741c6caef3202caf8af74859cc69dca23",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能錄十秒嗎?我的作業要收集現在的城市聲音",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.72,
+  "wallSeconds": 21.899,
+  "loudness": {
+    "input_i": "-26.26",
+    "input_tp": "-9.13",
+    "input_lra": "0.70",
+    "input_thresh": "-36.75",
+    "output_i": "-19.27",
+    "output_tp": "-2.24",
+    "output_lra": "0.10",
+    "output_thresh": "-29.89",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.73"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-005/raw.wav",
+      "bytes": 453200,
+      "sha256": "dd11a296ea99ef5b03c2cda7a2b98578b2369f5f2973fad403ce03bd24008329"
+    },
+    "master": {
+      "path": "netlove-c1-window-005/master.wav",
+      "bytes": 226638,
+      "sha256": "483ea38adbc3f2f5056b3d8b864e58eb921096dfe2179ede15036bc8ac3048f6"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-005/runtime.ogg",
+      "bytes": 36598,
+      "sha256": "859fa8b5ac9448baaed5dfefc5f598eb843b3a5dc0fe8f6433bdcf0ebdecf868"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

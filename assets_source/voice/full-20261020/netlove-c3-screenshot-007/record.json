@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-screenshot-007",
+  "sceneId": "c3-screenshot",
+  "lineId": "c3-screenshot-007",
+  "lineIndex": 6,
+  "speaker": "谢听禾",
+  "text": "先别转新的解释图。越转越有人从别处截。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1771709673,
+  "textSha256": "94497f2f7258b14974a7327f8b57522ab32bdefa7230f83ffcbe3376b9710888",
+  "medium": "chat",
+  "requestSha256": "1c48848eaa36800de8e73a670572211c326a1f6def24852c00bc3cbc9ec4b2e0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先别转新的解释图越转越有人从别处解",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.56,
+  "wallSeconds": 124.795,
+  "loudness": {
+    "input_i": "-24.76",
+    "input_tp": "-7.05",
+    "input_lra": "1.30",
+    "input_thresh": "-35.14",
+    "output_i": "-19.75",
+    "output_tp": "-2.42",
+    "output_lra": "0.70",
+    "output_thresh": "-30.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.25"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-screenshot-007/raw.wav",
+      "bytes": 437840,
+      "sha256": "1c33c70d63a9ea61c6110e232283ace23a00346855be8bc6f4cd03dd3e0c2f7c"
+    },
+    "master": {
+      "path": "netlove-c3-screenshot-007/master.wav",
+      "bytes": 218958,
+      "sha256": "f05b1911002470da6120c4073f931077848d687a0abb659e84c9b262800a9c60"
+    },
+    "runtime": {
+      "path": "netlove-c3-screenshot-007/runtime.ogg",
+      "bytes": 36605,
+      "sha256": "0afc42e5171982cd23e5c3be882e7a6b5289ee3128bc08b8811b325a6e585fb0"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-013",
+  "sceneId": "group",
+  "lineId": "group-013",
+  "lineIndex": 12,
+  "speaker": "暂停营业",
+  "text": "挺好。很像一条还没填完的横线。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 954492332,
+  "textSha256": "7734a873ad440c706c4e54f784bd9948ddd6e06e5159353fe08140941c0187d3",
+  "medium": "chat",
+  "requestSha256": "b61a8cea3daa94f34d96662c67db388a75732963aa01d5cdd057e00371f8af6f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "挺好,很像一条还没填完的横线。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.12,
+  "wallSeconds": 23.14,
+  "loudness": {
+    "input_i": "-21.03",
+    "input_tp": "-6.36",
+    "input_lra": "0.60",
+    "input_thresh": "-31.26",
+    "output_i": "-19.92",
+    "output_tp": "-4.94",
+    "output_lra": "0.60",
+    "output_thresh": "-30.30",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-013/raw.wav",
+      "bytes": 491600,
+      "sha256": "5a9ddb74a2fdecb0495556ce5bad6fa412371e5d7d5a66ef120990c3ea3a8ba5"
+    },
+    "master": {
+      "path": "netlove-group-013/master.wav",
+      "bytes": 245838,
+      "sha256": "7b33284877146e7be11997a614c23c4379583f44e7245de787700fd1d415f24d"
+    },
+    "runtime": {
+      "path": "netlove-group-013/runtime.ogg",
+      "bytes": 39311,
+      "sha256": "4d3db0d5791533198008c344fae04707635102581b45d04127bedc7e2b049294"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

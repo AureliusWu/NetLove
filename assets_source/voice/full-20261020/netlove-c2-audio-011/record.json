@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-011",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-011",
+  "lineIndex": 10,
+  "speaker": "谢听禾",
+  "text": "留在私人版里。你要我删吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 124440655,
+  "textSha256": "dbff673c45db7db6f558d0de34908d28d9020803b777a8e66c92f9d691e76dc2",
+  "medium": "call",
+  "requestSha256": "f5381e1e7f6ab1aa639b93ef13b2bc80f762c2e4be81ef7a4693179243d8ce18",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "留在私人版里,你要我删吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 20.232,
+  "loudness": {
+    "input_i": "-21.27",
+    "input_tp": "-6.85",
+    "input_lra": "0.00",
+    "input_thresh": "-31.72",
+    "output_i": "-19.98",
+    "output_tp": "-5.58",
+    "output_lra": "0.00",
+    "output_thresh": "-30.43",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-011/raw.wav",
+      "bytes": 215120,
+      "sha256": "5ff00b6cfc7704d7ebe45e0232286f85c7cb6aa05af37747b611b892bf401497"
+    },
+    "master": {
+      "path": "netlove-c2-audio-011/master.wav",
+      "bytes": 107598,
+      "sha256": "70d4b8084ee530b208661e3d6c4c114764b1c837c4f786bf85744f271a27726a"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-011/runtime.ogg",
+      "bytes": 19367,
+      "sha256": "0a7f69609d09c5525289fc8805e5e95105aff1d382ed503fe65cb8c5be8a9b4b"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

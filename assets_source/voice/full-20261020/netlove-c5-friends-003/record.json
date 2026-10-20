@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-friends-003",
+  "sceneId": "c5-friends",
+  "lineId": "c5-friends-003",
+  "lineIndex": 2,
+  "speaker": "陆衡",
+  "text": "你们网上打字那么快，怎么真人都不说话？",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 513398810,
+  "textSha256": "2a4ef38bc67ce6c77cb188fdb8c025f5e49428be2070b76d942cd20315b114fc",
+  "medium": "spoken",
+  "requestSha256": "f7c20223be41608e7dfcda19fc7298938016a76a121fb63097ff0c9c0ee3f04a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你们网上打字那么快怎么真人都不说话",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.12,
+  "wallSeconds": 860.92,
+  "loudness": {
+    "input_i": "-26.31",
+    "input_tp": "-9.35",
+    "input_lra": "1.00",
+    "input_thresh": "-37.46",
+    "output_i": "-19.15",
+    "output_tp": "-2.00",
+    "output_lra": "1.80",
+    "output_thresh": "-30.05",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.85"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-friends-003/raw.wav",
+      "bytes": 491600,
+      "sha256": "06e9ec9990e9622191a0deb9e2902425fa0a6070f644cad119515c9265b33a70"
+    },
+    "master": {
+      "path": "netlove-c5-friends-003/master.wav",
+      "bytes": 245838,
+      "sha256": "4723fa85755ec38f711a9c96f0ca3331390d7dbbecd9a34879632267c7cf2754"
+    },
+    "runtime": {
+      "path": "netlove-c5-friends-003/runtime.ogg",
+      "bytes": 38726,
+      "sha256": "60d71d37a391811214d74a79219faf3e347aec2027a83ae0365b5493c9df7936"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

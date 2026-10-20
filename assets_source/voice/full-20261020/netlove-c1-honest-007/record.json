@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-007",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "不用。周五前。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 379857721,
+  "textSha256": "e144280505d2bbf7e3b778935136362ef7cd633a539f9c432a651685cc4d2c31",
+  "medium": "chat",
+  "requestSha256": "624cdb5af451e9750bb967d508b88dd4faed16cdd2a3243653d8e1b8e2adf33e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不用 周五前",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 49.685,
+  "loudness": {
+    "input_i": "-23.52",
+    "input_tp": "-6.84",
+    "input_lra": "0.00",
+    "input_thresh": "-33.52",
+    "output_i": "-20.02",
+    "output_tp": "-3.32",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-007/raw.wav",
+      "bytes": 130640,
+      "sha256": "56b52262606c8169d9672cb78579459396e19fca1cfcf35b720109f9a73571c3"
+    },
+    "master": {
+      "path": "netlove-c1-honest-007/master.wav",
+      "bytes": 65358,
+      "sha256": "f22ed1b0f2c1d47318c6d1c582746a8c1f0a2577cf568de7d94e7b08f35f1f2b"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-007/runtime.ogg",
+      "bytes": 13793,
+      "sha256": "e0466c4cfa76a912638752779d34f31b179daab62dc72fd490b787b029f0e1e7"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-wait-005",
+  "sceneId": "c4-wait",
+  "lineId": "c4-wait-005",
+  "lineIndex": 4,
+  "speaker": "周既明",
+  "text": "给。明天要把寄送地址发过去。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1008404555,
+  "textSha256": "a0fd5db4092e393390c89b89d2a2eb3212efdd4e69c97ebd88a8a0836a814e3f",
+  "medium": "chat",
+  "requestSha256": "fc27624e5d1b95f4bae70b6c6d628f4dbaac6930bc26ac191161513592bdcfd3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天要把接送地址发过去",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 308.027,
+  "loudness": {
+    "input_i": "-26.38",
+    "input_tp": "-6.99",
+    "input_lra": "0.00",
+    "input_thresh": "-36.58",
+    "output_i": "-21.40",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.59",
+    "normalization_type": "linear",
+    "target_offset": "1.40"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-wait-005/raw.wav",
+      "bytes": 245840,
+      "sha256": "cb2e03c1cb2d8f73d8775d96dfbeca4afc7df93a54c256a83e57e674d7bc6018"
+    },
+    "master": {
+      "path": "netlove-c4-wait-005/master.wav",
+      "bytes": 122958,
+      "sha256": "8520bc7ec1db3a47eec4982184045f116111cd72e254820b796e389947a1bb33"
+    },
+    "runtime": {
+      "path": "netlove-c4-wait-005/runtime.ogg",
+      "bytes": 23197,
+      "sha256": "74383c1dbed31a735a9f1f9611b3324ef4b42b36bd6fc9042fc905615b5ae059"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

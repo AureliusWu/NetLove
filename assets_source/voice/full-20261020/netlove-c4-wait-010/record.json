@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-wait-010",
+  "sceneId": "c4-wait",
+  "lineId": "c4-wait-010",
+  "lineIndex": 9,
+  "speaker": "谢听禾",
+  "text": "借到电脑了。很累，今晚想直接睡。明天再说好吗？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1939806196,
+  "textSha256": "92347926bd48e3ed06b1ad29e11d5fdd673d953d4f0d49b9e688fe45be8db1f3",
+  "medium": "chat",
+  "requestSha256": "c808241441abb9af926555b62c65113799755f63f4513d018c371a9bb5fd2135",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "借到电脑了很累今晚想直接睡明天再说好吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.96,
+  "wallSeconds": 30.871,
+  "loudness": {
+    "input_i": "-24.50",
+    "input_tp": "-8.90",
+    "input_lra": "2.50",
+    "input_thresh": "-35.64",
+    "output_i": "-18.24",
+    "output_tp": "-2.00",
+    "output_lra": "4.30",
+    "output_thresh": "-29.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.76"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-wait-010/raw.wav",
+      "bytes": 668240,
+      "sha256": "0474937bc60c58c251422aa5e35cda005568d67de5b2ac217643d9a1608cafeb"
+    },
+    "master": {
+      "path": "netlove-c4-wait-010/master.wav",
+      "bytes": 334158,
+      "sha256": "dd0ad8eca13c149ab0033ec7c45c4b21fd867d7be6cba49e46602108f124011b"
+    },
+    "runtime": {
+      "path": "netlove-c4-wait-010/runtime.ogg",
+      "bytes": 49542,
+      "sha256": "f9d98d07ad5e92fd394144639e5808bbaabcee01d8bf3ebff7d284341d8e0f61"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

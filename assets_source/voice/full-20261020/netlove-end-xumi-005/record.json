@@ -1,0 +1,55 @@
+{
+  "id": "netlove-end-xumi-005",
+  "sceneId": "end-xumi",
+  "lineId": "end-xumi-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "下次发条消息。我刚才还替你挡了一回收碗的阿姨。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 816833864,
+  "textSha256": "ff895d89a9b7e9688f9239690c39a2170be8b6f97cb5bb199b0914f57574b069",
+  "medium": "spoken",
+  "requestSha256": "aa392230d9c8a99d013c1beb47010dbef5de9aace18576f5da787aa7f1aec420",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下次發條消息我剛才還替你擋了一回收碗的阿姨",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 211.933,
+  "loudness": {
+    "input_i": "-17.91",
+    "input_tp": "-2.10",
+    "input_lra": "3.70",
+    "input_thresh": "-28.13",
+    "output_i": "-17.66",
+    "output_tp": "-2.00",
+    "output_lra": "3.70",
+    "output_thresh": "-28.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.34"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-end-xumi-005/raw.wav",
+      "bytes": 583760,
+      "sha256": "6550c8c25c9e3e79a47d18a18fd1c6e35c1afa2c4a322f0485842ef23edeb56c"
+    },
+    "master": {
+      "path": "netlove-end-xumi-005/master.wav",
+      "bytes": 291918,
+      "sha256": "7d0f7d00beb98ac1fc16f1a3b7cc3278c47fd1047fdad391d36bdbab88debfe0"
+    },
+    "runtime": {
+      "path": "netlove-end-xumi-005/runtime.ogg",
+      "bytes": 45860,
+      "sha256": "4660cc32a804534f986f700968354ce9ab384a93f26d0c2c90eb8276204b8494"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

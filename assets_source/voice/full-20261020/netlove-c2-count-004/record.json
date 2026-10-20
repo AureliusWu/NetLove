@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-count-004",
+  "sceneId": "c2-count",
+  "lineId": "c2-count-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "我就经常这样。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1304618535,
+  "textSha256": "6a73cb39866203661b6dbe0e328d1a0097df00dc0a345c8bf86c78b0cf5d521f",
+  "medium": "chat",
+  "requestSha256": "45f963e403b3ed6e07878a04f2ec6981577d6862659130bc0720de12b8e0d465",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我就经常这样",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 5.65,
+  "loudness": {
+    "input_i": "-25.62",
+    "input_tp": "-9.09",
+    "input_lra": "0.00",
+    "input_thresh": "-35.62",
+    "output_i": "-20.02",
+    "output_tp": "-3.47",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-count-004/raw.wav",
+      "bytes": 99920,
+      "sha256": "7d539eac3c6f6dcee8b7098d55df7ebd87e14cb0e5f3d9abeacf19847eee981e"
+    },
+    "master": {
+      "path": "netlove-c2-count-004/master.wav",
+      "bytes": 49998,
+      "sha256": "19815120d6202d96d4e6fbb878226a2d37305f8a6a0abac21d6d5badde394808"
+    },
+    "runtime": {
+      "path": "netlove-c2-count-004/runtime.ogg",
+      "bytes": 11867,
+      "sha256": "86b84ef0357a9d946cebf11fff582cade34d6289088d60e48659ec12fb2e6863"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

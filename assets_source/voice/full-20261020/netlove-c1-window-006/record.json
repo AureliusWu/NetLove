@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-006",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "现在还能收到什么？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 464135794,
+  "textSha256": "daf8dc708b509458ec6e502aa91e3ed18aeb0b15ad4578457e088719774d7d0b",
+  "medium": "chat",
+  "requestSha256": "0a27e730acbafeeb292399bbea04f890b3c14e9d712fec2b934247a939ffb9f8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "现在还能收到什么",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 86.849,
+  "loudness": {
+    "input_i": "-24.93",
+    "input_tp": "-6.76",
+    "input_lra": "0.00",
+    "input_thresh": "-35.62",
+    "output_i": "-20.16",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.85",
+    "normalization_type": "linear",
+    "target_offset": "0.16"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-006/raw.wav",
+      "bytes": 153680,
+      "sha256": "27c6975c60d861c7699496f9a404a10d52ca3f18147f7c2fb29da0f289c75839"
+    },
+    "master": {
+      "path": "netlove-c1-window-006/master.wav",
+      "bytes": 76878,
+      "sha256": "142f397e9e363662b39b06dab692f19cd9ce2509dc00f4e0f30e2beed8d5f513"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-006/runtime.ogg",
+      "bytes": 16122,
+      "sha256": "f2cae05becc8e089e2d3a191ee39243feb9be29ed38c8ab71cb72e8e51cc2dff"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

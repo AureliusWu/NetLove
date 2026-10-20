@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-005",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-005",
+  "lineIndex": 4,
+  "speaker": "暂停营业",
+  "text": "别问哪张是我。这里面有七个同名的人。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 889229278,
+  "textSha256": "1be0e6425926d4958d3222e17338a845b41e0fedbb715cb95f3731200a6147e1",
+  "medium": "chat",
+  "requestSha256": "c1a00f5e8818fa201d2ac48c14d40e45454797ffe2d3f8e8830ffb3d3ab562e5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "別問哪張是我這裡面有七個同名的人",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 104.197,
+  "loudness": {
+    "input_i": "-20.91",
+    "input_tp": "-3.16",
+    "input_lra": "1.70",
+    "input_thresh": "-31.52",
+    "output_i": "-19.16",
+    "output_tp": "-2.03",
+    "output_lra": "0.00",
+    "output_thresh": "-29.73",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.84"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-005/raw.wav",
+      "bytes": 361040,
+      "sha256": "0259597701ee141609c13977c2df45a9c17816386233185cef5d123d169e56de"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-005/master.wav",
+      "bytes": 180558,
+      "sha256": "4bad554455e634248f4b86be7f7b27e4b4f7fff49ed2f177bd7f8cc6d7ae0ac6"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-005/runtime.ogg",
+      "bytes": 29692,
+      "sha256": "ab32f960650184ee2abcd29c075bc75a31c1b9f4c9e717718bb1f06758a98361"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

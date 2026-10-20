@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-007",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-007",
+  "lineIndex": 6,
+  "speaker": "周既明",
+  "text": "对不起。我想听到你，又怕说得像在催。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 469672742,
+  "textSha256": "9fea6c62d1433e7db415ea95319a8b5a28e010e37007bcd4a3c3a1829579c1cd",
+  "medium": "chat",
+  "requestSha256": "62f9548b489433af076194bf18945f6435f8b8ffac6feaaabebba1816e833fd3",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "对不起我想听到你又怕说的像在催",
+    "cer": 0.066667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 170.445,
+  "loudness": {
+    "input_i": "-23.91",
+    "input_tp": "-5.86",
+    "input_lra": "2.10",
+    "input_thresh": "-34.78",
+    "output_i": "-17.45",
+    "output_tp": "-2.00",
+    "output_lra": "3.30",
+    "output_thresh": "-28.93",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.55"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-007/raw.wav",
+      "bytes": 499280,
+      "sha256": "7dcc9b8bb3f4bf7f92f20fd2e8f32f6cc38838c587e07df39485cf526161278d"
+    },
+    "master": {
+      "path": "netlove-c4-ask-007/master.wav",
+      "bytes": 249678,
+      "sha256": "7584eb8a2bb7933ad028663c5982d0e682fdc743c04db0ba35742890a16dd424"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-007/runtime.ogg",
+      "bytes": 39461,
+      "sha256": "2ceab99b5f785fa65de322249bb4c209a491ca3ed80589defa6c06a699be2270"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

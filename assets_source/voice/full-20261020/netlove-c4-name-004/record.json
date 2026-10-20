@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-name-004",
+  "sceneId": "c4-name",
+  "lineId": "c4-name-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "收到了。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 301977303,
+  "textSha256": "e3e603f875043b090b785f6614fb50a0d0233a1269e8fd5781d5b3eab31666fd",
+  "medium": "chat",
+  "requestSha256": "0b6b6efde91acb714bf5b49a5625f2040dba8be1366301818d0937b5e569eec0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "收到了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 11.079,
+  "loudness": {
+    "input_i": "-24.04",
+    "input_tp": "-9.68",
+    "input_lra": "0.00",
+    "input_thresh": "-34.04",
+    "output_i": "-20.02",
+    "output_tp": "-5.64",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-name-004/raw.wav",
+      "bytes": 92240,
+      "sha256": "300cb5e07c4b8e31ad1003aaec1862781388c1c826d06a3725c1050ffc7bfb85"
+    },
+    "master": {
+      "path": "netlove-c4-name-004/master.wav",
+      "bytes": 46158,
+      "sha256": "d2116d820febed265d2c6e97c2a8343c932e34862a255ba576d8eb627d324c42"
+    },
+    "runtime": {
+      "path": "netlove-c4-name-004/runtime.ogg",
+      "bytes": 10282,
+      "sha256": "9e642335f31bf52921ab09171f738602cb5615d5a648d4976078eb2c8de39f26"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

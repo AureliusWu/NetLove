@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-006",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-006",
+  "lineIndex": 5,
+  "speaker": "一格信号",
+  "text": "这段不能进群。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 233701535,
+  "textSha256": "6e0374ff857ae0632dda32b82ae4cabb4ffb834930616be72bb9d519aa6742e0",
+  "medium": "chat",
+  "requestSha256": "24d8ed47de2c578c66b63f52afceeecbe8303eaafd76d6ca2ed669f9a7289e24",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "這段不能進群",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 7.565,
+  "loudness": {
+    "input_i": "-22.73",
+    "input_tp": "-7.95",
+    "input_lra": "0.00",
+    "input_thresh": "-32.73",
+    "output_i": "-20.00",
+    "output_tp": "-5.22",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-006/raw.wav",
+      "bytes": 138320,
+      "sha256": "9ca0417b646a3e301d096320ef541b987cb97b2dd46d9bf329948fda17185c03"
+    },
+    "master": {
+      "path": "netlove-c1-light-006/master.wav",
+      "bytes": 69198,
+      "sha256": "e8dbeb0642934493cb7e3ea295b1581f164235204de69e164a3e568a68e2161c"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-006/runtime.ogg",
+      "bytes": 14225,
+      "sha256": "a1014b18123bbaca5f2ede6626388a5c555c7f7773f350f063b2c6de17475647"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

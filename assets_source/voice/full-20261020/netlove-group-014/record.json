@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-014",
+  "sceneId": "group",
+  "lineId": "group-014",
+  "lineIndex": 13,
+  "speaker": "一格信号",
+  "text": "也像还可以继续写。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 240839898,
+  "textSha256": "6d9eff07e8f32e6a811c9fec26c2a0f75f357f192e0b17d2e03072d885c4fc4d",
+  "medium": "chat",
+  "requestSha256": "79fd3c5e2d50499f4c622738b94652479eb20a1913f6b14cc1ea581f05373787",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "也像还可以继续写。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.0,
+  "wallSeconds": 69.448,
+  "loudness": {
+    "input_i": "-23.75",
+    "input_tp": "-8.94",
+    "input_lra": "0.00",
+    "input_thresh": "-33.75",
+    "output_i": "-19.99",
+    "output_tp": "-5.18",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-014/raw.wav",
+      "bytes": 192080,
+      "sha256": "bb7124f7265f131cd03a96bec4164ce19756d90cdd2ca856e0c2e416704583a2"
+    },
+    "master": {
+      "path": "netlove-group-014/master.wav",
+      "bytes": 96078,
+      "sha256": "d91a5930d42e2f427efdcfcfef11b57c63a71150b34165fb0745d30349de7f66"
+    },
+    "runtime": {
+      "path": "netlove-group-014/runtime.ogg",
+      "bytes": 17814,
+      "sha256": "86f773588e7f3968e26d368422159bdf34b0e68b531cb7917da6c04a12ca1908"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

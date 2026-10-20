@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-006",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "我看见你的消息时，第一反应是又有一件必须马上做的事。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 372178291,
+  "textSha256": "bee0da5e46dcb1e8a9cbe4ed26e40a2050085832a676ce5d0d475d6777bc57a0",
+  "medium": "chat",
+  "requestSha256": "2953eba460ca72832fa3a37e84128bd1dcc234101273ef218c97c74c15def83d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我看見你的消息時第一反應是要有一件必須馬上做的事",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.76,
+  "wallSeconds": 356.597,
+  "loudness": {
+    "input_i": "-24.16",
+    "input_tp": "-6.52",
+    "input_lra": "0.80",
+    "input_thresh": "-34.16",
+    "output_i": "-20.23",
+    "output_tp": "-2.65",
+    "output_lra": "1.10",
+    "output_thresh": "-30.23",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-006/raw.wav",
+      "bytes": 553040,
+      "sha256": "826b836d60432be78f3c971a40c8260d23bdc109fc2f1828dc0313723f71bd66"
+    },
+    "master": {
+      "path": "netlove-c4-ask-006/master.wav",
+      "bytes": 276558,
+      "sha256": "7dd138450e52e7fe43a7c4e78b87f0cd77c2acf6bcc8afedf86acb86472dcff4"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-006/runtime.ogg",
+      "bytes": 45519,
+      "sha256": "4ff2d6d8315335d59b96a415afc04ac55a1fae76e575f3d8bf3f14404b5d98a6"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

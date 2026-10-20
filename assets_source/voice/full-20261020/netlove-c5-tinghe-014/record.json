@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-014",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-014",
+  "lineIndex": 13,
+  "speaker": "周既明",
+  "text": "想继续认识你。你回学校之后，也想约你见面。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1126474820,
+  "textSha256": "092ec05d6302a0f58f7b95b0d2b501848bce9cccd0d71d14887f4b50051bdb13",
+  "medium": "spoken",
+  "requestSha256": "1b472f9552d7b46765c0ad020bfe6c52d495b46022fa0ede68cd00279a59e672",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想继续认识你你回学校之后也想约你见面",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 271.834,
+  "loudness": {
+    "input_i": "-23.24",
+    "input_tp": "-3.58",
+    "input_lra": "0.30",
+    "input_thresh": "-33.68",
+    "output_i": "-19.82",
+    "output_tp": "-2.00",
+    "output_lra": "0.30",
+    "output_thresh": "-30.46",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-014/raw.wav",
+      "bytes": 445520,
+      "sha256": "61419e9867700f3643f2c196d163234931cdbe2e61f18846299c73e50b96580d"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-014/master.wav",
+      "bytes": 222798,
+      "sha256": "b9cd9350e42540e1d27f01c1ce4f72323d4235095fd6248b1082b1173a533bc1"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-014/runtime.ogg",
+      "bytes": 38496,
+      "sha256": "5eb81d74296ae6db48306034bbb8a90b87981bb309feddafd04cf521ea2823c9"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

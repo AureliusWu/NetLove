@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-open-009",
+  "sceneId": "c4-open",
+  "lineId": "c4-open-009",
+  "lineIndex": 8,
+  "speaker": "许弥",
+  "text": "你今天校色怎么只回一个“嗯”？",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 383670846,
+  "textSha256": "b0e8479eb58053ef54342dc47fc1232331702914871c121602d714a6e74d8c96",
+  "medium": "chat",
+  "requestSha256": "260a843fc3a25796878619ab7d2435a0d111ae94d12ac7cf8129da7903024a60",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你今天校色怎么只活一个嗯",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 277.118,
+  "loudness": {
+    "input_i": "-15.85",
+    "input_tp": "-3.80",
+    "input_lra": "0.00",
+    "input_thresh": "-25.85",
+    "output_i": "-19.99",
+    "output_tp": "-7.95",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-open-009/raw.wav",
+      "bytes": 245840,
+      "sha256": "4b36e7da03c807c0cd1417d5094954056e63bc466a1c894f95f06969a57fff46"
+    },
+    "master": {
+      "path": "netlove-c4-open-009/master.wav",
+      "bytes": 122958,
+      "sha256": "c7278e6b29a445c6e8a838540df5a566afed51f3dd8b451f7d034feb03223bd3"
+    },
+    "runtime": {
+      "path": "netlove-c4-open-009/runtime.ogg",
+      "bytes": 21527,
+      "sha256": "98128e07e5a66c8c2d66fa332fde6d1a939d3a8c1f0e763109fa4d857a8c758a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

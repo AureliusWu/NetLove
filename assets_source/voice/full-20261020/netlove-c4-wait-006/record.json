@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-wait-006",
+  "sceneId": "c4-wait",
+  "lineId": "c4-wait-006",
+  "lineIndex": 5,
+  "speaker": "外婆",
+  "text": "那先办那件。",
+  "actorId": "外婆",
+  "voice": "Serena",
+  "instruct": "年长女性，普通话，平缓温和，字句清楚，不使用年轻撒娇语气。 只朗读给定台词，不添加词语或音效。",
+  "seed": 753336192,
+  "textSha256": "8f39f2260c6446066b2714385c6e9ff8ae0f60a765cd56dfa98aeba9b84db79b",
+  "medium": "chat",
+  "requestSha256": "2f2ed1406e0662fb87fee243c86360aef03c037658ff9ec1363750d04de39258",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那先拜那件",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 45.513,
+  "loudness": {
+    "input_i": "-22.28",
+    "input_tp": "-10.77",
+    "input_lra": "0.00",
+    "input_thresh": "-32.28",
+    "output_i": "-19.98",
+    "output_tp": "-8.48",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-wait-006/raw.wav",
+      "bytes": 115280,
+      "sha256": "054baf9bf9a4d366697d7048971774d4be3b911159824acd6267d131ebfc2cde"
+    },
+    "master": {
+      "path": "netlove-c4-wait-006/master.wav",
+      "bytes": 57678,
+      "sha256": "c826f8769ed85d7b2a39173a9cdd65a7b54ac81fd02295e6a405efcf537fca85"
+    },
+    "runtime": {
+      "path": "netlove-c4-wait-006/runtime.ogg",
+      "bytes": 12259,
+      "sha256": "a091d67e4bef73deacf7b3768e0e622e75c3617ce7d8df28e146495ffc32be2a"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

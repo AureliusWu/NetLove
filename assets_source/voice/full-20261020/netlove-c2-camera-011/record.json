@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-011",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-011",
+  "lineIndex": 10,
+  "speaker": "谢听禾",
+  "text": "那你先别截。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 37222614,
+  "textSha256": "4c9e3e5de3dbed0cd92a44d4d19754efb3d1214d23d591080e98b1a054f937cf",
+  "medium": "call",
+  "requestSha256": "82d492a733a59e39ff3eb54df38559b88d913a0269803b22312a86990bffae3a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你先别结。",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 88.025,
+  "loudness": {
+    "input_i": "-24.84",
+    "input_tp": "-10.68",
+    "input_lra": "0.00",
+    "input_thresh": "-35.97",
+    "output_i": "-20.02",
+    "output_tp": "-5.85",
+    "output_lra": "0.00",
+    "output_thresh": "-31.16",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-011/raw.wav",
+      "bytes": 153680,
+      "sha256": "9062a32e3e78726a8142b53a662e6b0de058e87dc9541bae2b532c0d2014b8be"
+    },
+    "master": {
+      "path": "netlove-c2-camera-011/master.wav",
+      "bytes": 76878,
+      "sha256": "5df01dbdd948e9998065b34752dc164cfd3a69954487151c88c616829982c08b"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-011/runtime.ogg",
+      "bytes": 15103,
+      "sha256": "57a78675767f56dd438ddc9a2389649cbdfa960f6208ac048c21778892532454"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

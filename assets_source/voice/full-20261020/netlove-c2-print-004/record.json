@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-004",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "可以评价。我在记。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1459706774,
+  "textSha256": "b6b5a4b9f14568a2f39ce5d556a45530853cc3a61ff9eec0e2225171a20adfbc",
+  "medium": "call",
+  "requestSha256": "c9b31ed2ebbd620f405830c5d678b44df560921ac1f3b8d534573acf87694fbe",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以评价我再记",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 8.693,
+  "loudness": {
+    "input_i": "-23.80",
+    "input_tp": "-4.58",
+    "input_lra": "0.00",
+    "input_thresh": "-34.10",
+    "output_i": "-21.25",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.54",
+    "normalization_type": "linear",
+    "target_offset": "1.25"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-004/raw.wav",
+      "bytes": 169040,
+      "sha256": "bbfe4a2bda525f6ed7dbcd4447296b4b8ff8640609e5f3b4de529153758a51fc"
+    },
+    "master": {
+      "path": "netlove-c2-print-004/master.wav",
+      "bytes": 84558,
+      "sha256": "649a6a3c93fc9973e153935c93a2e03d6f064968d610b00da6019d4bbf51866d"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-004/runtime.ogg",
+      "bytes": 17278,
+      "sha256": "be9a2aec29ebd226c46835a1b901573a17e6707fbf0cfd81b796a2641d729978"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

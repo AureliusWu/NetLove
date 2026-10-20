@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-011",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-011",
+  "lineIndex": 10,
+  "speaker": "谢听禾",
+  "text": "好。别让他每天点名。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1509566034,
+  "textSha256": "dd1149890207560cf762e89f57e8d876b82666692b4b432b7de5b359f864d145",
+  "medium": "chat",
+  "requestSha256": "6c29f69ac5740e604b82395bd77c4658a7f386e240f66d884cfc7a806b7f4e81",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好,別讓他每天點名",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.0,
+  "wallSeconds": 83.277,
+  "loudness": {
+    "input_i": "-23.67",
+    "input_tp": "-5.86",
+    "input_lra": "0.00",
+    "input_thresh": "-34.29",
+    "output_i": "-20.02",
+    "output_tp": "-2.18",
+    "output_lra": "0.00",
+    "output_thresh": "-30.64",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-011/raw.wav",
+      "bytes": 192080,
+      "sha256": "8fc5d4f5869193944667885f08a50507eb0f5c5074f2e73db2475f05f3608e7e"
+    },
+    "master": {
+      "path": "netlove-c4-ask-011/master.wav",
+      "bytes": 96078,
+      "sha256": "f5aaa049cd07e9990bfafc8c30614b22b046f12393ac5a89ced6113f8f11dc99"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-011/runtime.ogg",
+      "bytes": 17195,
+      "sha256": "38d5a6b8bdcf0bde5d63a18e33abf1eed1f509f833c743fe86befe4cc80f7731"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

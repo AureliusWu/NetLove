@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-xumi-002",
+  "sceneId": "c1-xumi",
+  "lineId": "c1-xumi-002",
+  "lineIndex": 1,
+  "speaker": "周既明",
+  "text": "可以。需求表吗？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 960550328,
+  "textSha256": "4c6529ce70538b6e6458cf5075d1a77a73b11554f0e9800206f1a90004104cec",
+  "medium": "chat",
+  "requestSha256": "85f8aa01031c81fcc5f76fd8f5f820b13a3c00c076bb535cf9ee0864bfd9e4b9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以 需求表吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.0,
+  "wallSeconds": 82.435,
+  "loudness": {
+    "input_i": "-35.36",
+    "input_tp": "-12.42",
+    "input_lra": "0.00",
+    "input_thresh": "-45.88",
+    "output_i": "-24.95",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-35.47",
+    "normalization_type": "linear",
+    "target_offset": "4.95"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-xumi-002/raw.wav",
+      "bytes": 192080,
+      "sha256": "b4211dd1bad2d4a11110f1e18ce10b052dd6f3ae285430ef4de96f7478c71123"
+    },
+    "master": {
+      "path": "netlove-c1-xumi-002/master.wav",
+      "bytes": 96078,
+      "sha256": "3073dfcedb18db07645a13d402c3f75cbecc51eb0e53a5187aadbb7c94327cfe"
+    },
+    "runtime": {
+      "path": "netlove-c1-xumi-002/runtime.ogg",
+      "bytes": 17729,
+      "sha256": "9514d7ac18a2c947aaeb6234a6247a569c194c80158cec505c05fa5883698fd2"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

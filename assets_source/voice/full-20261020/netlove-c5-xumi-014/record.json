@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-xumi-014",
+  "sceneId": "c5-xumi",
+  "lineId": "c5-xumi-014",
+  "lineIndex": 13,
+  "speaker": "周既明",
+  "text": "想约你。也想以后继续约。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 266403157,
+  "textSha256": "e8092a5700dc8512e9b9b720fc5179463ae000794be4a59cb84348a7331f5f2f",
+  "medium": "spoken",
+  "requestSha256": "830b2ce267b6dd19c9c8b45a8a74e79a162aaf3ca93c9e5dcef31b020d2027ef",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想约你也想以后继续约",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.88,
+  "wallSeconds": 103.137,
+  "loudness": {
+    "input_i": "-24.94",
+    "input_tp": "-6.34",
+    "input_lra": "0.00",
+    "input_thresh": "-35.29",
+    "output_i": "-20.61",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.96",
+    "normalization_type": "linear",
+    "target_offset": "0.61"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-xumi-014/raw.wav",
+      "bytes": 276560,
+      "sha256": "5c2620534e73e1320df8019d3a0ef6cfed1384344b41b9b58ccb0d2cf64f4841"
+    },
+    "master": {
+      "path": "netlove-c5-xumi-014/master.wav",
+      "bytes": 138318,
+      "sha256": "b109737b576e39f4db95f1a5f8da8cdd59ddd7d56268a2690651bcff728dca1a"
+    },
+    "runtime": {
+      "path": "netlove-c5-xumi-014/runtime.ogg",
+      "bytes": 25105,
+      "sha256": "70e47482715d2d505245ff95a1f22590efb6c0bdb44a50d95336b423581ad4e0"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

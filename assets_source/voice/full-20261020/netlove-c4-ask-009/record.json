@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-ask-009",
+  "sceneId": "c4-ask",
+  "lineId": "c4-ask-009",
+  "lineIndex": 8,
+  "speaker": "谢听禾",
+  "text": "“今天不在”这个办法可以。可是有时我连这句都会忘。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 925797893,
+  "textSha256": "821d00282e2c4429a1bcb9cd70dd6a98ae242454136ddeb81ae24d8a741e6983",
+  "medium": "chat",
+  "requestSha256": "32e58b7fee55849247a13eca48ad65788dd17b36f160723dd0672a10978ee083",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天不在这个办法可以可是有时我连这局都会忘",
+    "cer": 0.047619,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.92,
+  "wallSeconds": 283.767,
+  "loudness": {
+    "input_i": "-30.59",
+    "input_tp": "-10.33",
+    "input_lra": "1.90",
+    "input_thresh": "-41.47",
+    "output_i": "-19.80",
+    "output_tp": "-2.00",
+    "output_lra": "3.00",
+    "output_thresh": "-31.24",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-ask-009/raw.wav",
+      "bytes": 568400,
+      "sha256": "5e863b267bcf33ebe703b72d7e21864156abf95787c6d454eaf2510f34a7527e"
+    },
+    "master": {
+      "path": "netlove-c4-ask-009/master.wav",
+      "bytes": 284238,
+      "sha256": "47e134dbe8196289dd30bf79c4a44f8131ad80c58a41ebbac471fe56fbeac7a9"
+    },
+    "runtime": {
+      "path": "netlove-c4-ask-009/runtime.ogg",
+      "bytes": 44543,
+      "sha256": "ce472afe664945d6640bb09045e2af215c66755f2fc39a87c6543db7d0c69f78"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

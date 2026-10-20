@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-008",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-008",
+  "lineIndex": 7,
+  "speaker": "许弥",
+  "text": "第三种决定我今天还有没有耐心教你。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1753718274,
+  "textSha256": "0cbc343ce7273acc845c3945e72efb7d71d968c5417d8263d0846c215aa480c1",
+  "medium": "call",
+  "requestSha256": "91dc18be08ede0e2ec2a291552d1887f2876ed1e1761117d9d1da4e23f48743d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "第三種決定,我今天還有沒有耐心教你?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 384.883,
+  "loudness": {
+    "input_i": "-19.21",
+    "input_tp": "-2.06",
+    "input_lra": "0.20",
+    "input_thresh": "-29.49",
+    "output_i": "-19.13",
+    "output_tp": "-2.12",
+    "output_lra": "0.00",
+    "output_thresh": "-29.38",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.87"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-008/raw.wav",
+      "bytes": 368720,
+      "sha256": "1010e0625dbf6d95e8f5066d453a1f732522963da85619fe549b3fb9c7c99a78"
+    },
+    "master": {
+      "path": "netlove-c3-frame-008/master.wav",
+      "bytes": 184398,
+      "sha256": "ed79a787ed3198236e577b8a87ec3f6d77b47df8b98f468056159cd0c2a29b01"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-008/runtime.ogg",
+      "bytes": 31140,
+      "sha256": "340d2f798692cb520f7b920b46b6700d373e555ad06b670bd1d51a9a9fd62835"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

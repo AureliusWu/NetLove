@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-voice-006",
+  "sceneId": "c2-voice",
+  "lineId": "c2-voice-006",
+  "lineIndex": 5,
+  "speaker": "谢听禾",
+  "text": "这里不该切得这么齐。把你外婆喊你第二声也接上吧。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1158080872,
+  "textSha256": "08b2415a5ff67b2dd63378ed21939331fba91fd2abc838bf5f85359acd71cbe7",
+  "medium": "call",
+  "requestSha256": "867cd47d1c57d1ba1f75b9968bacf620c34a0fdfd03ebd890478fb9794c308d1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这里不该切的这么齐把你外婆喊你第二声也接上吧",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 37.042,
+  "loudness": {
+    "input_i": "-27.61",
+    "input_tp": "-8.42",
+    "input_lra": "1.00",
+    "input_thresh": "-38.01",
+    "output_i": "-19.97",
+    "output_tp": "-2.00",
+    "output_lra": "0.70",
+    "output_thresh": "-30.41",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-voice-006/raw.wav",
+      "bytes": 445520,
+      "sha256": "18533e82b16099c9ede828f715ebdf14f0ebf1e98fcb48e96c18b192cc1051b7"
+    },
+    "master": {
+      "path": "netlove-c2-voice-006/master.wav",
+      "bytes": 222798,
+      "sha256": "f2276b29aec10c6644ea62f7d3c76596662e339c1c71e5d2ada4c88e783ba36f"
+    },
+    "runtime": {
+      "path": "netlove-c2-voice-006/runtime.ogg",
+      "bytes": 36703,
+      "sha256": "9d0647893dbeaa4f3f9449f20612b9e45ae874704e0f020d6d6389ef37b01227"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

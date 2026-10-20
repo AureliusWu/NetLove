@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-light-001",
+  "sceneId": "c1-light",
+  "lineId": "c1-light-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "听得清。我外婆也听明白了，问是不是电台播的。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 102022771,
+  "textSha256": "52c405f6c501722596185182c113cd462452be53863da70970896dc2fdc7bae6",
+  "medium": "chat",
+  "requestSha256": "6b878b1d208d28f9b61930c3bf9361ffcdba3c4e26feed2b0e3fda289a446e85",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "听得清,我外婆也听明白了那是不是电台拨的",
+    "cer": 0.105263,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 158.11,
+  "loudness": {
+    "input_i": "-27.11",
+    "input_tp": "-9.97",
+    "input_lra": "0.70",
+    "input_thresh": "-37.31",
+    "output_i": "-19.32",
+    "output_tp": "-2.24",
+    "output_lra": "0.00",
+    "output_thresh": "-29.57",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.68"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-light-001/raw.wav",
+      "bytes": 361040,
+      "sha256": "445b1b1456dfe4ed24d8b4f185a1e856bd9a80282cf8427e62c038b361ea5d69"
+    },
+    "master": {
+      "path": "netlove-c1-light-001/master.wav",
+      "bytes": 180558,
+      "sha256": "c6332f917576684f6c6473a7029318932cebc844ef46a7fcf9709f34da07df0e"
+    },
+    "runtime": {
+      "path": "netlove-c1-light-001/runtime.ogg",
+      "bytes": 31745,
+      "sha256": "b779cfe3c965d267a9b469b6bd24f522553870b281e47288782400ca1d5a0ffe"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

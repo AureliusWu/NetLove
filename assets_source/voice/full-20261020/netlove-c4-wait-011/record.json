@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-wait-011",
+  "sceneId": "c4-wait",
+  "lineId": "c4-wait-011",
+  "lineIndex": 10,
+  "speaker": "周既明",
+  "text": "好。晚安。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 218430041,
+  "textSha256": "f8e8a88a21e813c594c545317da4fcfef8d312d49263f1361ffa14a4fc1ab397",
+  "medium": "chat",
+  "requestSha256": "0ff8a9a3ff2d279cb6f6c75081432dd7114c0dd97fcd3902d4f67cd3bfe5dd07",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好 晚安",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 139.252,
+  "loudness": {
+    "input_i": "-29.57",
+    "input_tp": "-10.65",
+    "input_lra": "0.00",
+    "input_thresh": "-40.08",
+    "output_i": "-20.92",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.43",
+    "normalization_type": "linear",
+    "target_offset": "0.92"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-wait-011/raw.wav",
+      "bytes": 122960,
+      "sha256": "256db1ae3a4fa08ba6291b83d764d4124953d3d1770086e1d6ac8778ce31a132"
+    },
+    "master": {
+      "path": "netlove-c4-wait-011/master.wav",
+      "bytes": 61518,
+      "sha256": "36b6355d5dd4e6044a0c918cd82064f5c6b883614f6a4319a8ad8bbfe53e8677"
+    },
+    "runtime": {
+      "path": "netlove-c4-wait-011/runtime.ogg",
+      "bytes": 12722,
+      "sha256": "19ded4eabd896205c8e16ea0723bb2df8a515477cb2985815b772aaa49344ee5"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

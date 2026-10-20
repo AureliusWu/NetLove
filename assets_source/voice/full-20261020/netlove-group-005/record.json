@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-005",
+  "sceneId": "group",
+  "lineId": "group-005",
+  "lineIndex": 4,
+  "speaker": "一格信号",
+  "text": "可以把项目念给她听吗？我来录一版。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1808871092,
+  "textSha256": "428604342c9e8a81435484b02b80b99ff2bd05acf9c120d0e35d76170106f807",
+  "medium": "chat",
+  "requestSha256": "6b32dd128b33ecc27563f98f93262cb38017eac0007e7e8f3d2a928e1385f369",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以把项目念给他听吗?我来录一把。",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.96,
+  "wallSeconds": 118.718,
+  "loudness": {
+    "input_i": "-26.90",
+    "input_tp": "-12.27",
+    "input_lra": "0.00",
+    "input_thresh": "-37.08",
+    "output_i": "-20.00",
+    "output_tp": "-5.37",
+    "output_lra": "0.00",
+    "output_thresh": "-30.18",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-005/raw.wav",
+      "bytes": 284240,
+      "sha256": "ac3085504bc3576513b665c7ea1f565722f95c395fecf38bbddaccd33749f962"
+    },
+    "master": {
+      "path": "netlove-group-005/master.wav",
+      "bytes": 142158,
+      "sha256": "438bc7bd79b33eafe7762afa2c1c40213f55fdfcafdf14a4f4abc7286bec73e5"
+    },
+    "runtime": {
+      "path": "netlove-group-005/runtime.ogg",
+      "bytes": 24180,
+      "sha256": "5a40f21af85e4b37e2b2a5bdd593933e4f52afc9a3752d89461c8da20be24334"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

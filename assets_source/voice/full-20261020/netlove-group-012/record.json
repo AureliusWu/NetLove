@@ -1,0 +1,55 @@
+{
+  "id": "netlove-group-012",
+  "sceneId": "group",
+  "lineId": "group-012",
+  "lineIndex": 11,
+  "speaker": "周既明",
+  "text": "本来想改，忘了。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 65459774,
+  "textSha256": "a8c45c4e64e945efe1846a267fdc9ce90b84328e56671f14e0d305a33b02a3de",
+  "medium": "chat",
+  "requestSha256": "31ad7ef9df025f0d4fec9b9708211bdd1398066ccea28e62436ca144e096b5ea",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "本来想改忘了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 60.01,
+  "loudness": {
+    "input_i": "-28.04",
+    "input_tp": "-8.40",
+    "input_lra": "0.00",
+    "input_thresh": "-38.04",
+    "output_i": "-21.64",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.64",
+    "normalization_type": "linear",
+    "target_offset": "1.64"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-group-012/raw.wav",
+      "bytes": 161360,
+      "sha256": "22f06a7bad2cdba71a8a0aa5c95443ee7b9e580327ccebf7178c488e840ef8db"
+    },
+    "master": {
+      "path": "netlove-group-012/master.wav",
+      "bytes": 80718,
+      "sha256": "fce99f6ca357913674390ce9fe25f96b92dcc5f36a5874b82676d47cb1e5f89a"
+    },
+    "runtime": {
+      "path": "netlove-group-012/runtime.ogg",
+      "bytes": 17788,
+      "sha256": "1484f550b6301a96e6de48968f3a81c63a550f4a6ac60d147b226980cc997f63"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

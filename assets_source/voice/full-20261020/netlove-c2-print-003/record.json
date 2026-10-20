@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-print-003",
+  "sceneId": "c2-print",
+  "lineId": "c2-print-003",
+  "lineIndex": 2,
+  "speaker": "许弥",
+  "text": "等一下，先别评价人家做得丑。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 799468054,
+  "textSha256": "20fb247096cf8b18e40e823deeb774685f182007f12996589f1f8d360f0e8810",
+  "medium": "call",
+  "requestSha256": "a62a9f753a223e4ccf0ce99ef323558dd1fc355e3ad588acd7f52f9d54f8fb20",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "等一下,先别评价人家做的丑",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 104.043,
+  "loudness": {
+    "input_i": "-22.89",
+    "input_tp": "-7.83",
+    "input_lra": "0.30",
+    "input_thresh": "-33.07",
+    "output_i": "-19.06",
+    "output_tp": "-4.07",
+    "output_lra": "0.00",
+    "output_thresh": "-29.42",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.94"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-print-003/raw.wav",
+      "bytes": 299600,
+      "sha256": "be2b1287b54baf4bc81dd9afa5e1604ba5ff51cd415cd55175a02e67bee6cad5"
+    },
+    "master": {
+      "path": "netlove-c2-print-003/master.wav",
+      "bytes": 149838,
+      "sha256": "b96b11d0e6b15ad1f91fca930a464abbbe6a99d59906cd3cbf93912cedd8b37d"
+    },
+    "runtime": {
+      "path": "netlove-c2-print-003/runtime.ogg",
+      "bytes": 25850,
+      "sha256": "c5a15126127c22275d191f358b9c7d19c5721d39de24a5280c7e094fcfe3e69c"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

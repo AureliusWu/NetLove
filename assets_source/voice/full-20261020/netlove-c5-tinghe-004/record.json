@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-004",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-004",
+  "lineIndex": 3,
+  "speaker": "周既明",
+  "text": "你好。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 378514905,
+  "textSha256": "81fddea03ec6aa29ed52fc9b346ca130613650a71fd8d3ffc93077bc27806bc1",
+  "medium": "spoken",
+  "requestSha256": "4f2b95797e84b95cd69790f5bac460a7f92661be8661695aaee00c6c4ec24f26",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 45.464,
+  "loudness": {
+    "input_i": "-27.89",
+    "input_tp": "-11.46",
+    "input_lra": "0.00",
+    "input_thresh": "-37.89",
+    "output_i": "-19.99",
+    "output_tp": "-3.57",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-004/raw.wav",
+      "bytes": 76880,
+      "sha256": "9ec4d535533a9368c8f243efad2f1dc664c66c5a29c7c4edc8bad9b5ff3b8af3"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-004/master.wav",
+      "bytes": 38478,
+      "sha256": "8c06a26b8cc5ab2d298122fadb6ccce7e2307829e98a7bf84b9365b29168996a"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-004/runtime.ogg",
+      "bytes": 9567,
+      "sha256": "1573fc7f63f594a0f6f4f1fb3e184a3f18d14155fbe739585c6474059bdd6af8"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

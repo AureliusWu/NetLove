@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-open-005",
+  "sceneId": "c3-open",
+  "lineId": "c3-open-005",
+  "lineIndex": 4,
+  "speaker": "陆衡",
+  "text": "收到。",
+  "actorId": "陆衡",
+  "voice": "Ryan",
+  "instruct": "二十四岁成年男性，普通话，平实爽朗的朋友口吻，关心而不说教。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1706102372,
+  "textSha256": "d55b704f1348a1eead227fe3eba91e476fdad55bfcf9f772b23583127eae46ff",
+  "medium": "chat",
+  "requestSha256": "bf508541e3230d89ebc2d19c342f402ad08a60c75b8d152fd01e4fb1f30bba75",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "收到",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.4,
+  "wallSeconds": 20.845,
+  "loudness": {
+    "input_i": "-19.35",
+    "input_tp": "-2.85",
+    "input_lra": "0.00",
+    "input_thresh": "-29.35",
+    "output_i": "-19.95",
+    "output_tp": "-3.50",
+    "output_lra": "0.00",
+    "output_thresh": "-29.95",
+    "normalization_type": "linear",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-open-005/raw.wav",
+      "bytes": 38480,
+      "sha256": "bc536b81a43b7575f59388ed8696bd81ab9f480d2d62560890473e210415b389"
+    },
+    "master": {
+      "path": "netlove-c3-open-005/master.wav",
+      "bytes": 19278,
+      "sha256": "c0c93792a33c380e12a2a0d03ce4511d4ee072042f22b0e09969d2681041bac1"
+    },
+    "runtime": {
+      "path": "netlove-c3-open-005/runtime.ogg",
+      "bytes": 7169,
+      "sha256": "a3f9d9e90365a1f807ff488e1d31a85576ac2f6613c4de991cbaa963aeacd851"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

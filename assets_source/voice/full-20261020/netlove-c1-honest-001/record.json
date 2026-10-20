@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-001",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-001",
+  "lineIndex": 0,
+  "speaker": "周既明",
+  "text": "听得清。刚才没回，是在看公司的表。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 696317539,
+  "textSha256": "a0501c69fdc72dedcd54a518c04be62a75b3547990a3f8c1fa70785410c37b76",
+  "medium": "chat",
+  "requestSha256": "cad19dd19f510880385a5c3c0d25cbc7e3ce675f4c5fb578194625bbf6b54180",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "听得清 刚才没回是在看公司的表",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 375.634,
+  "loudness": {
+    "input_i": "-26.85",
+    "input_tp": "-10.86",
+    "input_lra": "0.40",
+    "input_thresh": "-36.97",
+    "output_i": "-20.16",
+    "output_tp": "-4.16",
+    "output_lra": "0.00",
+    "output_thresh": "-30.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-001/raw.wav",
+      "bytes": 368720,
+      "sha256": "b1686771d183caa86292c334da679a556f941d460b4f7d96d63d845423b4371d"
+    },
+    "master": {
+      "path": "netlove-c1-honest-001/master.wav",
+      "bytes": 184398,
+      "sha256": "15814bf6195f9c4f906a5fc9d56e6a819682a213fbc9ce20eb8a7fd24bc7afb5"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-001/runtime.ogg",
+      "bytes": 31391,
+      "sha256": "7a9d349ccd31ff2599084c528b1279124d1ed30dde06595bdb16e6a28ccf7892"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

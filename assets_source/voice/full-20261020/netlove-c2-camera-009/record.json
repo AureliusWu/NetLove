@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-camera-009",
+  "sceneId": "c2-camera",
+  "lineId": "c2-camera-009",
+  "lineIndex": 8,
+  "speaker": "谢听禾",
+  "text": "是不是卡了？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 364646790,
+  "textSha256": "08e640bbd7eac82a3c2386435c4804480d959bbe3c15b5cefdd3375a277d49e7",
+  "medium": "call",
+  "requestSha256": "8f69d10621e9656064cdec9c43aaaafc2ea603f058d544c2b9538557378efcf6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "是不是卡了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.88,
+  "wallSeconds": 10.876,
+  "loudness": {
+    "input_i": "-26.29",
+    "input_tp": "-11.23",
+    "input_lra": "0.00",
+    "input_thresh": "-36.29",
+    "output_i": "-20.01",
+    "output_tp": "-4.93",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-camera-009/raw.wav",
+      "bytes": 84560,
+      "sha256": "882a343c75dbda0926fa575e0765cee3cc542efb704ee31cae6b545979cc2a63"
+    },
+    "master": {
+      "path": "netlove-c2-camera-009/master.wav",
+      "bytes": 42318,
+      "sha256": "614cccae8926e1d68fdc0d09187f077a591be8ab199ad5a2486540ef69d49c3b"
+    },
+    "runtime": {
+      "path": "netlove-c2-camera-009/runtime.ogg",
+      "bytes": 10018,
+      "sha256": "efd1bd9e5d3ed9f196c560514ade030d395208c1ef42cc6ce14c448e93c5a8b6"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

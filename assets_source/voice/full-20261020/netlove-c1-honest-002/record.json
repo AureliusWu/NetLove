@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-honest-002",
+  "sceneId": "c1-honest",
+  "lineId": "c1-honest-002",
+  "lineIndex": 1,
+  "speaker": "周既明",
+  "text": "他们让我们先待在家里。我不知道实习还算不算数。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1553318010,
+  "textSha256": "95756cf0decaee5be8e4481fee4c5901f0c57c35a9729b7da20d988c865c4e99",
+  "medium": "chat",
+  "requestSha256": "51e18c719280d5a4c8bd683a3e79a3ddaf9c280d1645a27299258e2799fb603e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他们让我们先待在家里我不知道实习还算不算数",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 33.902,
+  "loudness": {
+    "input_i": "-25.35",
+    "input_tp": "-7.67",
+    "input_lra": "1.70",
+    "input_thresh": "-35.88",
+    "output_i": "-19.73",
+    "output_tp": "-2.52",
+    "output_lra": "0.70",
+    "output_thresh": "-30.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.27"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-honest-002/raw.wav",
+      "bytes": 407120,
+      "sha256": "8bbef0de2f662c30700a375935f54ddc3cc1ef927b15504ff661a4769fd33c55"
+    },
+    "master": {
+      "path": "netlove-c1-honest-002/master.wav",
+      "bytes": 203598,
+      "sha256": "3dc28a31ce6d8b6916e8ee7d1d444f6a104dfa2ee977938bb7128ea7c248f68c"
+    },
+    "runtime": {
+      "path": "netlove-c1-honest-002/runtime.ogg",
+      "bytes": 33775,
+      "sha256": "ebcda840e23b0abe5195e694833777fcf8d6075ab742609b39a74219ef392392"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

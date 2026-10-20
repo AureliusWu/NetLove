@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c5-tinghe-005",
+  "sceneId": "c5-tinghe",
+  "lineId": "c5-tinghe-005",
+  "lineIndex": 4,
+  "speaker": "谢听禾",
+  "text": "你好。你的声音离近了，跟耳机里有点不一样。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1119619561,
+  "textSha256": "92f4073a70659908e51cf83c77036382b5b2a121ef619fd3ca14f6c37d1a3fa2",
+  "medium": "spoken",
+  "requestSha256": "2f914655ab783d37d5b69e02997188e6a937f1f392e2b82d4bc7e89a9340b4db",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你好 你的声音离境了 跟耳机里有点不一样",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 38.695,
+  "loudness": {
+    "input_i": "-28.17",
+    "input_tp": "-16.18",
+    "input_lra": "2.20",
+    "input_thresh": "-38.92",
+    "output_i": "-18.48",
+    "output_tp": "-6.17",
+    "output_lra": "1.50",
+    "output_thresh": "-29.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.52"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c5-tinghe-005/raw.wav",
+      "bytes": 460880,
+      "sha256": "4655f1c91ed3fceab93d17251b03891d322644083f975339050cbeeea50292e2"
+    },
+    "master": {
+      "path": "netlove-c5-tinghe-005/master.wav",
+      "bytes": 230478,
+      "sha256": "3b5daaa715e6600f70907e001b47eacf2f6a9f805aa11ecb3ccb4a6b60affd15"
+    },
+    "runtime": {
+      "path": "netlove-c5-tinghe-005/runtime.ogg",
+      "bytes": 35727,
+      "sha256": "017c14c2ad4d2d843d1af0607d9e397e93627cfb25d3c288d1e4f1c3fa524830"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-name-005",
+  "sceneId": "c4-name",
+  "lineId": "c4-name-005",
+  "lineIndex": 4,
+  "speaker": "许弥",
+  "text": "系统没发改名通知，你们怎么都盯着他看。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1644651489,
+  "textSha256": "806a82d8eacda6c7a198907dfa2cecb8d448c52e1b2cfefef087eaa49fac009b",
+  "medium": "chat",
+  "requestSha256": "c1f2d3e3763aa08248dd680b866109be771970155af8234d84af59a86238a2a3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "系统没法改名通知你们怎么都盯着他看",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 102.733,
+  "loudness": {
+    "input_i": "-19.34",
+    "input_tp": "-3.14",
+    "input_lra": "1.30",
+    "input_thresh": "-29.48",
+    "output_i": "-19.83",
+    "output_tp": "-4.17",
+    "output_lra": "0.00",
+    "output_thresh": "-30.08",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.17"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-name-005/raw.wav",
+      "bytes": 361040,
+      "sha256": "c8995370d17bd6d86ae055ca4f9cada9cefa2c49c8b7a28e2533fc103253b8d0"
+    },
+    "master": {
+      "path": "netlove-c4-name-005/master.wav",
+      "bytes": 180558,
+      "sha256": "f9c42cc548769e985590afc192174caafd597d02689854b944d30931b4bfe483"
+    },
+    "runtime": {
+      "path": "netlove-c4-name-005/runtime.ogg",
+      "bytes": 31241,
+      "sha256": "17c30e4198bdb2673a18e64541968d12df084b745c4dfa4b2886cc7678dcd2cc"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

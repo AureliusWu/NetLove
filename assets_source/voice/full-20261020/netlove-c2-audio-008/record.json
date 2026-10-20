@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c2-audio-008",
+  "sceneId": "c2-audio",
+  "lineId": "c2-audio-008",
+  "lineIndex": 7,
+  "speaker": "谢听禾",
+  "text": "他不知道有人在录。重新问也会让他觉得自己在添麻烦。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 281345128,
+  "textSha256": "14340a7bdb8199ccd0fed5f30593b4306694a5e5173e7d7da046b3c6535f1c08",
+  "medium": "call",
+  "requestSha256": "a27283750ce919034072f870dad522ef69f03b2ef9bf2dcfeae0609d9526af3f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他不知道有人在錄,重新問也會讓他覺得自己在貼麻煩",
+    "cer": 0.043478,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 262.665,
+  "loudness": {
+    "input_i": "-23.40",
+    "input_tp": "-6.00",
+    "input_lra": "2.20",
+    "input_thresh": "-33.59",
+    "output_i": "-20.18",
+    "output_tp": "-3.16",
+    "output_lra": "2.30",
+    "output_thresh": "-30.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c2-audio-008/raw.wav",
+      "bytes": 445520,
+      "sha256": "2c00a5ce413bb7311162f6284b319f8ac1a38aded76610b8a41fe8c9b09b0f0f"
+    },
+    "master": {
+      "path": "netlove-c2-audio-008/master.wav",
+      "bytes": 222798,
+      "sha256": "a09e2760fbabe5fca6c3b649a3b049ace09f031a5a9f6a53e250b635c47709ab"
+    },
+    "runtime": {
+      "path": "netlove-c2-audio-008/runtime.ogg",
+      "bytes": 37192,
+      "sha256": "63277f0f97d421e3a31cce1e4809cb3de2b40dfa84666bb172e0a4ec9acd42e8"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

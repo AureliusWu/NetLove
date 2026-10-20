@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-004",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-004",
+  "lineIndex": 3,
+  "speaker": "谢听禾",
+  "text": "说因为录音的人也住在这座城里。说完手一直抖。",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1422881989,
+  "textSha256": "0cc6f1ddd0189b868651ef2f07b182b6dcc3145b4087dce69237802ef87f3351",
+  "medium": "call",
+  "requestSha256": "476fd65950bc67e312074fd35ffffd72435fb0d301fdf89f9729a2835d80a667",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "说,因为录音的人也住在这座城里说完手一只斗",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.16,
+  "wallSeconds": 194.614,
+  "loudness": {
+    "input_i": "-21.16",
+    "input_tp": "-7.93",
+    "input_lra": "2.60",
+    "input_thresh": "-31.73",
+    "output_i": "-20.18",
+    "output_tp": "-7.04",
+    "output_lra": "2.50",
+    "output_thresh": "-30.83",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-004/raw.wav",
+      "bytes": 591440,
+      "sha256": "46fc7d19820e49046c81d9c63794c5c3acc30dfa9122601e22c4375755d166dc"
+    },
+    "master": {
+      "path": "netlove-c4-voice-004/master.wav",
+      "bytes": 295758,
+      "sha256": "2fe12e96c79e07fa0e3f60a4851a4f5bc52e9e41608a12e7c1c1edfb31fed58b"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-004/runtime.ogg",
+      "bytes": 46284,
+      "sha256": "84f6a1e2bdb2ccd139bafddfd8a7a0748146685c3e1f14e0289a95542f1250e5"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

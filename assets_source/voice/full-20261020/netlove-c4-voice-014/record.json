@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-voice-014",
+  "sceneId": "c4-voice",
+  "lineId": "c4-voice-014",
+  "lineIndex": 13,
+  "speaker": "周既明",
+  "text": "不知道会不会每天。但我想。",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 607855091,
+  "textSha256": "bb54d7233b46809da69f42c48476fae1d23d5df2b905dcd72e72e76178e108ee",
+  "medium": "call",
+  "requestSha256": "1e67d422c773b9b53cc6464d86bc81e72e92686cc2bb4d4d8ee2f00ecd20efaa",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不知道会不会每天但我想",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 12.473,
+  "loudness": {
+    "input_i": "-23.00",
+    "input_tp": "-5.06",
+    "input_lra": "0.00",
+    "input_thresh": "-33.60",
+    "output_i": "-20.00",
+    "output_tp": "-2.05",
+    "output_lra": "0.00",
+    "output_thresh": "-30.60",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-voice-014/raw.wav",
+      "bytes": 253520,
+      "sha256": "65aca956124f6e06736fbdfde9dc372f80a3456c5a41454d43f934d5ddd9c2d5"
+    },
+    "master": {
+      "path": "netlove-c4-voice-014/master.wav",
+      "bytes": 126798,
+      "sha256": "6a87e9678a42115495af699d56a7b507e7883071ec043e9872f055e5108e37b7"
+    },
+    "runtime": {
+      "path": "netlove-c4-voice-014/runtime.ogg",
+      "bytes": 21765,
+      "sha256": "c4bcebf187c8ecea2929f9dba800dbca2fcc034c3415317607eba78c249887be"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

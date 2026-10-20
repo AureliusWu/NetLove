@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c1-window-003",
+  "sceneId": "c1-window",
+  "lineId": "c1-window-003",
+  "lineIndex": 2,
+  "speaker": "一格信号",
+  "text": "你那边是不是有金属碰撞的声音？",
+  "actorId": "谢听禾",
+  "voice": "Serena",
+  "instruct": "年轻成年女性，普通话，自然轻声说话，声音温和清楚，克制，不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 683951311,
+  "textSha256": "a512a5a7af346b002640a522f54d895039cdce9bb1b1480c324d8beae5013c78",
+  "medium": "chat",
+  "requestSha256": "0ee12dd05a0706ed01da03125d9edecd56db1a23990bce50678dc30985cbc8f4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你那边是不是有金属碰撞的声音",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 69.066,
+  "loudness": {
+    "input_i": "-23.76",
+    "input_tp": "-10.74",
+    "input_lra": "0.00",
+    "input_thresh": "-33.76",
+    "output_i": "-19.99",
+    "output_tp": "-6.98",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c1-window-003/raw.wav",
+      "bytes": 222800,
+      "sha256": "0036e3a63983d921e44896a9ae775b3fff2474cb0289ce243ea556cfc85edfd1"
+    },
+    "master": {
+      "path": "netlove-c1-window-003/master.wav",
+      "bytes": 111438,
+      "sha256": "564e6c8216d3d80620cbef072955bb2e40a1149af8f64c2739bfb244e63bdb80"
+    },
+    "runtime": {
+      "path": "netlove-c1-window-003/runtime.ogg",
+      "bytes": 20561,
+      "sha256": "8ee49be7e39754ddcafde1de84d8d90a6926b2c2e3880f5dc3befa7c9aff7fc6"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c4-envelope-006",
+  "sceneId": "c4-envelope",
+  "lineId": "c4-envelope-006",
+  "lineIndex": 5,
+  "speaker": "周既明",
+  "text": "店里呢？",
+  "actorId": "周既明",
+  "voice": "Dylan",
+  "instruct": "二十三岁成年男性，普通话，日常交流，略显拘谨，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 400210020,
+  "textSha256": "fb7adc050f170a95293334d59dbc38768ff2de0fbf18d471f8f04d2b8d1cecf7",
+  "medium": "call",
+  "requestSha256": "ef8891756ca2b87b39ce13f899c979677ccaaa94051a45a1690b8c9bf4a11ec1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "店里呢",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.88,
+  "wallSeconds": 28.731,
+  "loudness": {
+    "input_i": "-23.64",
+    "input_tp": "-10.58",
+    "input_lra": "0.00",
+    "input_thresh": "-33.64",
+    "output_i": "-19.95",
+    "output_tp": "-6.94",
+    "output_lra": "0.00",
+    "output_thresh": "-29.95",
+    "normalization_type": "linear",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c4-envelope-006/raw.wav",
+      "bytes": 84560,
+      "sha256": "e8eaea3ff2ff1bf6496849285092004dbb0e3299923eefda63bcc1fe43ff925e"
+    },
+    "master": {
+      "path": "netlove-c4-envelope-006/master.wav",
+      "bytes": 42318,
+      "sha256": "531528756b20db4487a2e07c3206b91e35838192bc1654a7ec5195b072a4e6b1"
+    },
+    "runtime": {
+      "path": "netlove-c4-envelope-006/runtime.ogg",
+      "bytes": 10921,
+      "sha256": "4f5ae07d83c4de12fa16fba4e01a8f46e8acc735b295299fed126b229249b566"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

@@ -1,0 +1,55 @@
+{
+  "id": "netlove-c3-frame-006",
+  "sceneId": "c3-frame",
+  "lineId": "c3-frame-006",
+  "lineIndex": 5,
+  "speaker": "许弥",
+  "text": "这是白。后面墙是发黄的白。我今天心情是没睡够的白。",
+  "actorId": "许弥",
+  "voice": "Vivian",
+  "instruct": "年轻成年女性，普通话，语气自然爽朗，轻微打趣，清晰不过分夸张。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1834978626,
+  "textSha256": "76e925a2925894ec8e367c09141997df4dcb39bf8098b4529dd9903cc7c2f451",
+  "medium": "call",
+  "requestSha256": "d996e44a053122a04bdcd06ee6c2ba77ea10853509b1606e1f677f4d9f124110",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "這是白,後面牆是發黃的白,我今天心情是沒睡夠的白",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 48.206,
+  "loudness": {
+    "input_i": "-19.38",
+    "input_tp": "-4.88",
+    "input_lra": "0.90",
+    "input_thresh": "-29.94",
+    "output_i": "-19.78",
+    "output_tp": "-5.34",
+    "output_lra": "1.60",
+    "output_thresh": "-30.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "netlove-c3-frame-006/raw.wav",
+      "bytes": 599120,
+      "sha256": "aeb1e0458784796f3a40c96b4d6627df9471b2c516eafc0c99c76c60e5c2e7c3"
+    },
+    "master": {
+      "path": "netlove-c3-frame-006/master.wav",
+      "bytes": 299598,
+      "sha256": "b467085fedaeeed12e0fd9883f1cc52015d85a6ed9c273d59a2775d4e3d3908c"
+    },
+    "runtime": {
+      "path": "netlove-c3-frame-006/runtime.ogg",
+      "bytes": 47853,
+      "sha256": "74597b406006074dc470102efb357c19f3393c2b72b334b7fba8ed08cc9ed804"
+    }
+  },
+  "recoveredFromRun": 39386251023
+}

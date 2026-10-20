@@ -25,5 +25,14 @@
     "sha256": "d4a04125b72a9bdef2e466beb654ff008f66ec777e62ce328fd15008b5fd70b1",
     "zipCRC": "passed",
     "newCgAndMusicBytes": "exact match to tested source assets"
+  },
+  "jointOffline": {
+    "status": "passed",
+    "runId": 39382250096,
+    "report": "docs/production/FOUR-GAMES-OFFLINE-20261020.json",
+    "games": 4,
+    "cachedFiles": 192,
+    "pageErrors": 0,
+    "cacheAndSaveIsolation": true
   }
 }

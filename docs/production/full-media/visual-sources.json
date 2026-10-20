@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "date": "2026-10-20",
+  "status": "raw_sources_saved_runtime_integration_pending",
+  "characterCount": 3,
+  "assets": [
+    {
+      "id": "luheng-draft",
+      "kind": "atlas",
+      "active": false,
+      "source": "assets_source/characters/full-20261020/luheng-expressions-v1.png",
+      "sourceBytes": 1617275,
+      "gitBlobSha": "9ce2b8d37846744b86afed9bc4977147184f3130",
+      "prompt": "Use case: illustration-story. Asset type: original visual novel transparent character expression atlas. The input image is ONLY a style reference for linework, flat colors, restrained cel shading and ordinary adult proportions; do not copy its female character. Create Lu Heng, the 24-year-old Chinese male pharmacy clerk and neighborhood volunteer group administrator in the existing original game NetLove, set in fictional Wucheng in 2020. New male identity: short tidy black hair, warm dark brown eyes, slightly broad shoulders and an approachable ordinary face, no glasses. Muted teal casual overshirt open over an ivory crewneck T-shirt, charcoal straight trousers, off-white canvas shoes. Carry one small plain grocery tote in his left hand, right hand relaxed; no medical uniform, no logos. Make ONE clean 3-column by 2-row sprite sheet with SIX clearly separated FULL BODY standing drawings of EXACTLY the SAME man and same pose/outfit/scale. Top row left to right: neutral, gentle smile, surprised. Bottom row: worried, quietly hurt/disappointed, slightly shy with both eyes open. Every figure includes the complete head, both hands and shoes, same frontal three-quarter view. Wide TRANSPARENT gutters horizontally and vertically, full empty margins, no overlap between figures. True transparent RGBA background throughout including all gutters, no floor, shadow, glow, gradients, checkerboard, text, labels or grid lines. High quality Chinese indie visual novel hand-drawn linework matching the stylistic reference. Landscape canvas approximately 2160 by 1440 pixels. Nonsexual everyday clothing.",
+      "references": [
+        "public/art/tinghe.webp"
+      ],
+      "tool": "image_gen",
+      "status": "superseded_source_preserved"
+    },
+    {
+      "id": "luheng",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/luheng-expressions.png",
+      "sourceBytes": 1538008,
+      "gitBlobSha": "13a03325f7b41fb073b1a3765d7c20bcf696a12c",
+      "prompt": "Use case: illustration-story. Asset type: original visual novel transparent character expression atlas. The input image is ONLY a style reference for linework, flat colors, restrained cel shading and ordinary adult proportions; do not copy its female character. Create Lu Heng, the 24-year-old Chinese male pharmacy clerk and neighborhood volunteer group administrator in the existing original game NetLove, set in fictional Wucheng in 2020. New male identity: short tidy black hair, warm dark brown eyes, slightly broad shoulders and an approachable ordinary face, no glasses. Muted teal casual overshirt open over an ivory crewneck T-shirt, charcoal straight trousers, off-white canvas shoes. Carry one small plain grocery tote in his left hand, right hand relaxed; no medical uniform, no logos. Make ONE clean 3-column by 2-row sprite sheet with SIX clearly separated FULL BODY standing drawings of EXACTLY the SAME man and same pose/outfit/scale. Top row left to right: neutral, gentle smile, surprised. Bottom row: worried, quietly hurt/disappointed, slightly shy with both eyes open. Every figure includes the complete head, both hands and shoes, same frontal three-quarter view. Wide TRANSPARENT gutters horizontally and vertically, full empty margins, no overlap between figures. True transparent RGBA background throughout including all gutters, no floor, shadow, glow, gradients, checkerboard, text, labels or grid lines. High quality Chinese indie visual novel hand-drawn linework matching the stylistic reference. Landscape canvas approximately 2160 by 1440 pixels. Nonsexual everyday clothing. CRITICAL LAYOUT CORRECTION: Use the provided six-figure atlas to preserve the SAME male identity. Recompose the entire atlas with all six complete figures substantially smaller, each at most 410 pixels tall on the 1536x1024 canvas. Top-row feet above y=470, bottom-row heads below y=560 and feet above y=980. Leave at least 25px true transparent margin above every hairstyle and below every shoe. No visible body part touches ANY canvas border. Restore every shoe, never crop a lower figure. Make identical facial anatomy and standing pose in all six. This is an atlas layout and full-body visibility correction; no other design changes.",
+      "references": [
+        "public/art/tinghe.webp",
+        "assets_source/characters/full-20261020/luheng-expressions-v1.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "jiming",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/jiming-expressions.png",
+      "sourceBytes": 1479051,
+      "gitBlobSha": "babbd730610c4f8e4568d75406dfec5140790799",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese visual novel NetLove. Image 1 provides ONLY the established clean hand-drawn linework, simple cel shading and modest everyday style; do not copy the female heroine. Zhou Jiming, the 23-year-old Chinese adult male player character and web-production intern. Distinct from Lu Heng: medium-short dark brown hair with a neat side part, narrow dark brown eyes, slender ordinary adult build, slightly reserved face. Plain navy zip hoodie over an ivory T-shirt, gray straight trousers, plain white sneakers. Hands relaxed at his sides, no props, no logos. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly shy with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/tinghe.webp",
+        "assets_source/characters/full-20261020/luheng-expressions.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "grandma",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/grandma-expressions.png",
+      "sourceBytes": 1453868,
+      "gitBlobSha": "ba1137843efcaa5dddeda4cb5147046b98ab4ffd",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese visual novel NetLove. Image 1 provides ONLY the established clean hand-drawn linework, simple cel shading and modest everyday style; do not copy the female heroine. The protagonist's Chinese grandmother, an ordinary elderly woman around seventy, gently lined face, silver-gray hair in a low neat bun, brown eyes, natural elderly proportions, warm practical manner. Muted plum-brown knitted cardigan, pale cream collared blouse, navy loose straight trousers and dark flat walking shoes. Hands loosely together in front, no props. Make the expressions subtle and appropriate to her age, no romantic blushing. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly embarrassed/apologetic with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/tinghe.webp",
+        "assets_source/characters/full-20261020/luheng-expressions.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    }
+  ],
+  "limitations": [
+    "Runtime integration, complete dialogue recordings, complete CG production and the next release are not yet complete.",
+    "Local authoring environment connection was interrupted; source images and exact prompts are preserved here."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "four-bowls",
+  "title": "四碗面",
+  "generator": "original composition and additive program synthesis; no samples or music model",
+  "recipe": "docs/audio/four-bowls-score.json",
+  "recipe_sha256": "9c91e7ee4c325c7e547aa280a0d9395c9901bc2d4426f6c989c87702b82bc7f3",
+  "source": "assets_source/audio/scene-20261020/four-bowls.wav",
+  "source_sha256": "3e648e5d0833a2945ba05cbca15a2703af24c9900fe76ccd312786ed11dd2367",
+  "output": "public/audio/bgm/four-bowls.ogg",
+  "sha256": "de8cd4350acdb7b8993cb13ef0f885ab0eef1dddcb794aa518e62945cc6002a4",
+  "duration_seconds": 41.739125,
+  "sample_rate": 24000,
+  "channels": 2,
+  "peak": 0.272399,
+  "rms_dbfs": -23.996,
+  "loop_boundary_delta": 0.011656,
+  "human_listening_review": "pending",
+  "license": "Project-original composition, MIT code; no external recordings"
+}

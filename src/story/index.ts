@@ -16,8 +16,9 @@ export const endingInfo: Record<Ending, { label: string; subtitle: string; badge
   'letter-final': { label: '离线也会想念', subtitle: '各自回到生活里，承认相遇真实，也允许关系停在这里。', badge: '个人篇 · 告别' },
 };
 export const finalEndingIds: Ending[] = Object.keys(endingInfo) as Ending[];
-export const eventCgIds: EventCgId[] = ['tinghe-meeting', 'xumi-envelope'];
+export const eventCgIds: EventCgId[] = ['tinghe-meeting', 'xumi-envelope', 'four-bowls'];
 export const cgInfo = {
+  'four-bowls': { title: '四碗面', description: '四碗面摆满小桌，手机先收进口袋。' },
   'tinghe-meeting': { title: '听见你的地方', description: '五月江边，谢听禾带着录音笔，第一次当面听见你的声音。' },
   'xumi-envelope': { title: '下一张合照', description: '重开的照相馆里，许弥递来一只留给下一张照片的空白信封。' },
   bedroom: { title: '等待消息的房间', description: '旧房间、电脑与窗外的灯，长夜从这里开始。' },
@@ -27,7 +28,7 @@ export const cgInfo = {
   riverbank: { title: '梧江步道', description: '五月的江边，那句终于可以当面说完的话。' },
 } as const;
 export function pictureAsset(id: string): string {
-  return id === 'tinghe-meeting' || id === 'xumi-envelope' ? `cg-${id}` : id;
+  return eventCgIds.includes(id as EventCgId) ? `cg-${id}` : id;
 }
 export const characterInfo = {
   tinghe: { name: '谢听禾', role: '22 岁 / 声音设计学生 / 一格信号', subtitle: '栗棕低辫、蓝色发夹、芥黄色开衫。她记录窗外的声音，也会删掉录音里自己的停顿。', quote: '“这一段别降噪了。我想知道你那边也在下雨。”' },

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "tool": "built-in image_gen",
+  "intent": "new event CG using project style reference",
+  "prompt": "Use case: illustration-story. Asset type: full-screen 16:9 event CG for Chinese everyday-life visual novel NetLove. Reference image 1 is only the established clear hand-drawn anime linework, warm palette and gentle cel shading. Do not reproduce its woman or photo shop. New scene: four friends having noodles at a small unbranded Chinese neighborhood noodle shop by the river on a late spring afternoon. A small square worn wooden table crowded with EXACTLY FOUR ceramic bowls of soup noodles, one at each side. Four pairs of chopsticks, one small vinegar bottle, one little saucer of picked-out coriander near the foreground bowl. Close slightly overhead tabletop camera, no faces and no phones, no identifiable people needed; only food and ordinary objects. Soft steam and afternoon light across ceramics, a blurred street with parked bicycle beyond. Charming observed everyday detail, no elaborate restaurant styling. Keep all four bowls visible in the middle 60 percent, lower 26 percent darker table wood for dialogue overlay. Original polished 2D Chinese visual novel illustration, clean linework, soft flat shadows; wide 16:9. No lettering, no logos, no interface, no watermark.",
+  "references": [
+    "public/art/cg-xumi-envelope.webp"
+  ],
+  "humanApproval": "pending"
+}

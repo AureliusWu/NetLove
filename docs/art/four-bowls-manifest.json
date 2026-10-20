@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "four-bowls",
+  "source": "assets_source/cg/scene-20261020/four-bowls.png",
+  "sourceSha256": "2f394ba9bc1242c4c4b5f01951b21896261a6de9206d0baf40c7aaa06efdeabc",
+  "sourceDimensions": [
+    1672,
+    941
+  ],
+  "output": "public/art/cg-four-bowls.webp",
+  "sha256": "dbebf6ec16806bf47275f3e66dfe2d97f83ebde415558e6d43e5e520d78c8094",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 380334,
+  "prompt": "docs/art/four-bowls-prompt.json",
+  "promptSha256": "c26251c3024a224de3098a18f83ab5950896db7b406cb46045a823ca72d78bf1",
+  "references": [
+    {
+      "path": "public/art/cg-xumi-envelope.webp",
+      "sha256": "916bd4dfd4264654e7f934e547801e173b0ba7a0b18ce4df3b0f8f45bb007977"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "license": "AI-generated project-only artwork; platform output terms apply",
+  "integrationReview": "full generated image inspected; scene and UI cropping pending",
+  "humanApproval": "pending",
+  "processing": "RGB encoding; preserve original dimensions"
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "project": "NetLove",
+  "version": "0.4.0",
+  "status": "candidate_pending_current_CI",
+  "cgManifest": "docs/art/four-bowls-manifest.json",
+  "musicManifest": "docs/audio/four-bowls-score-manifest.json",
+  "tests": {
+    "local_logic_or_python": 62,
+    "passed": true,
+    "browser": "not executed locally: browser archive download was truncated",
+    "windows": "not executed locally; current CI required",
+    "humanListening": "pending",
+    "artFinalChoice": "pending"
+  },
+  "compatibility": "Stable scene/line IDs, choices, recorded lines and save identity retained",
+  "limits": "Earlier release evidence is historical, not validation for this candidate.",
+  "build": "passed",
+  "newCgAndMusicPrecached": true
+}

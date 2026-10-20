@@ -3274,8 +3274,9 @@
         }
       ],
       "noSprite": true,
-      "music": "workshop",
-      "next": "end-friends"
+      "music": "four-bowls",
+      "next": "end-friends",
+      "cg": "four-bowls"
     },
     {
       "id": "end-friends",

@@ -191,7 +191,7 @@
       "id": "procedural-web-audio",
       "kind": "tool",
       "reuse": "recipe",
-      "origin": "Original project melody/chord/WebAudio synthesis; adapt scene IDs, UI store and browser audio unlock",
+      "origin": "Original project scores, WebAudio and local OGG loop lifecycle; adapt scene IDs and provide/render the project-only OGG before integration",
       "sourceStatus": "not-applicable",
       "license": {
         "name": "MIT — original project code/procedural material only",
@@ -207,19 +207,31 @@
           "role": "recipe",
           "path": "src/game/score.ts",
           "encoding": "text-lf",
-          "sha256": "2a9c35be38a493ec2328320fc1dcb5839d1a867718ce28821d52f653717505fc"
+          "sha256": "3ba3bef09a34805b6988d4b2226566e1641386f2ffb4c8a92c0bdf5fbc9e26f6"
         },
         {
           "role": "recipe",
           "path": "src/game/music.ts",
           "encoding": "text-lf",
-          "sha256": "28e22c08cfcfd1630c78ca240edce439d9ab73d266892706e877d4f7fe8793f3"
+          "sha256": "74cae942482c0c3828e67e5ab98e9da7fe573bf4183bd985ddd414ad05eaa5bc"
         },
         {
           "role": "recipe",
           "path": "src/game/types.ts",
           "encoding": "text-lf",
-          "sha256": "c3f74de2da37872d9efecaccacc05950eeeed9a81350e30c41d2280771d55926"
+          "sha256": "15dc1459769d9c099275b99a12bdb50cc1210cc8161114432248162518bde1db"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/sceneLoop.ts",
+          "encoding": "text-lf",
+          "sha256": "eca0391a912f5e9d27e16f3c3f1d8c2aa9d92b2f793fe7b34e1a96ef929e9872"
+        },
+        {
+          "role": "recipe",
+          "path": "tools/audio/render_scene_score.py",
+          "encoding": "text-lf",
+          "sha256": "7423fb45f6e2a61f840859dd83ff1eda21e1484c73cb736ac82700127aa22cd0"
         }
       ]
     },
@@ -922,6 +934,70 @@
           "path": "public/voice/c5-xumi-019.ogg",
           "encoding": "binary",
           "sha256": "5866ad6088321c73bfa96d5a062bc80852c0e6187dd25b6dde71a5b6fb8f9662"
+        }
+      ]
+    },
+    {
+      "id": "cg-four-bowls",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact request and project-owned reference saved",
+      "sourceStatus": "present",
+      "licenseNote": "AI-generated project-only artwork; platform output terms apply",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-four-bowls.webp",
+          "encoding": "binary",
+          "sha256": "dbebf6ec16806bf47275f3e66dfe2d97f83ebde415558e6d43e5e520d78c8094"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/cg/scene-20261020/four-bowls.png",
+          "encoding": "binary",
+          "sha256": "2f394ba9bc1242c4c4b5f01951b21896261a6de9206d0baf40c7aaa06efdeabc"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/art/four-bowls-prompt.json",
+          "encoding": "text-lf",
+          "sha256": "c26251c3024a224de3098a18f83ab5950896db7b406cb46045a823ca72d78bf1"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 380334,
+        "alpha": false
+      }
+    },
+    {
+      "id": "scene-score-four-bowls",
+      "kind": "audio",
+      "reuse": "project-only",
+      "origin": "Original program composition with versioned note recipe; no music model or sampled recording",
+      "sourceStatus": "present",
+      "licenseNote": "Project-original score; listening review pending",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/audio/bgm/four-bowls.ogg",
+          "encoding": "binary",
+          "sha256": "de8cd4350acdb7b8993cb13ef0f885ab0eef1dddcb794aa518e62945cc6002a4"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/audio/scene-20261020/four-bowls.wav",
+          "encoding": "binary",
+          "sha256": "3e648e5d0833a2945ba05cbca15a2703af24c9900fe76ccd312786ed11dd2367"
+        },
+        {
+          "role": "recipe",
+          "path": "docs/audio/four-bowls-score.json",
+          "encoding": "text-lf",
+          "sha256": "9c91e7ee4c325c7e547aa280a0d9395c9901bc2d4426f6c989c87702b82bc7f3"
         }
       ]
     }

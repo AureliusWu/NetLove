@@ -217,6 +217,24 @@
           561
         ]
       ]
+    },
+    {
+      "id": "cg-four-bowls",
+      "path": "public/art/cg-four-bowls.webp",
+      "source": "assets_source/cg/scene-20261020/four-bowls.png",
+      "sourceSha256": "2f394ba9bc1242c4c4b5f01951b21896261a6de9206d0baf40c7aaa06efdeabc",
+      "sha256": "dbebf6ec16806bf47275f3e66dfe2d97f83ebde415558e6d43e5e520d78c8094",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 380334,
+      "alpha": false,
+      "promptRegistry": "docs/art/four-bowls-prompt.json",
+      "generator": "built-in image_gen",
+      "approval": "agent integration review; user final visual choice pending"
     }
   ]
 }

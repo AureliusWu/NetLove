@@ -85,3 +85,31 @@ for (const event of [
   await page.screenshot({ path: `test-results/previews/${event.id}-offline-${info.project.name}.png` });
   await context.setOffline(false);
 });
+
+test('four bowls stays an event picture on phones and ships its actual scene music offline', async ({ page, context }, info) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  await seed(page, 'c5-friends', 0, 3);
+  await expect(page.locator('.scene-background')).toHaveAttribute('data-cg', 'four-bowls');
+  await expect(page.locator('.netlove-sprite')).toHaveCount(0);
+  for (const [width, height] of [[1440, 900], [412, 915], [568, 320], [640, 360], [844, 390], [915, 412]]) {
+    await page.setViewportSize({ width, height });
+    await expect(page.locator('.scene-background')).toHaveJSProperty('naturalWidth', 1672);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.getByRole('button', { name: '返回标题', exact: true }).click();
+  await page.getByRole('button', { name: '安装与离线', exact: true }).click();
+  await expect(page.getByRole('heading', { name: '可以离线阅读', exact: true })).toBeVisible({ timeout: 30000 });
+  await page.getByRole('button', { name: '关闭', exact: true }).click();
+  await context.setOffline(true); await page.reload();
+  await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+  await expect(page.locator('.scene-background')).toHaveAttribute('data-cg', 'four-bowls');
+  const duration = await page.evaluate(async () => {
+    const audio = new AudioContext();
+    try { return (await audio.decodeAudioData(await (await fetch('./audio/bgm/four-bowls.ogg')).arrayBuffer())).duration; }
+    finally { await audio.close(); }
+  });
+  expect(duration).toBeGreaterThan(40); expect(duration).toBeLessThan(43);
+  await mkdir('test-results/previews', { recursive: true });
+  await page.screenshot({ path: `test-results/previews/four-bowls-offline-${info.project.name}.png` });
+  expect(errors).toEqual([]); await context.setOffline(false);
+});

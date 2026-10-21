@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "project": "NetLove",
-  "batch": "20261021-final-targeted-retakes-03",
+  "batch": "20261021-complete-media-retakes-04",
   "count": 220,
   "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
-  "attemptOffset": 9,
+  "attemptOffset": 12,
   "reuse": "byte-verified accepted takes only",
   "humanListening": false,
   "sourceArchive": "assets_source/voice/continued-20261020",

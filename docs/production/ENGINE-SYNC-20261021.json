@@ -14,12 +14,72 @@
     "recorded_audio": "8 clips, 24 source/runtime decodes and exact text/ASR fingerprints passed"
   },
   "platform_validation": {
-    "github_ci": "pending push",
-    "windows_actual_package": "pending exact-commit CI",
-    "public_pwa": "pending exact-commit deployment"
+    "github_ci": [
+      {
+        "id": 39528133150,
+        "name": "Build NetLove",
+        "status": "completed",
+        "conclusion": "success",
+        "commit": "26fe52c3a2a41ee7b3463870aa69faee88fa4beb",
+        "url": "https://github.com/AureliusWu/NetLove/actions/runs/39528133150"
+      },
+      {
+        "id": 39528854377,
+        "name": "Publish NetLove PWA",
+        "status": "completed",
+        "conclusion": "success",
+        "commit": "26fe52c3a2a41ee7b3463870aa69faee88fa4beb",
+        "url": "https://github.com/AureliusWu/NetLove/actions/runs/39528854377"
+      }
+    ],
+    "windows_actual_package": {
+      "status": "passed",
+      "run_id": 39528133150
+    },
+    "public_pwa": {
+      "status": "passed",
+      "url": "https://aureliuswu.github.io/NetLove/",
+      "run_id": 39528854377
+    },
+    "release": {
+      "status": "published",
+      "version": "0.4.1",
+      "tag": "v0.4.1",
+      "tag_commit": "26fe52c3a2a41ee7b3463870aa69faee88fa4beb",
+      "prerelease": true,
+      "url": "https://github.com/AureliusWu/NetLove/releases/tag/v0.4.1",
+      "assets": [
+        {
+          "name": "NetLove-0.4.1-x64-Portable.exe",
+          "bytes": 118345913,
+          "sha256": "sha256:ff2f04157de680e0e601d6792d1adc648f940e7e0afde18a44dae57d1a525070"
+        },
+        {
+          "name": "NetLove-0.4.1-x64-Setup.exe",
+          "bytes": 118565285,
+          "sha256": "sha256:3857379cf6f7b24316c34af7c596c81de69dde587cf3b84c4ab5ab8a126aa5a7"
+        },
+        {
+          "name": "NetLove-PWA-0.4.1.zip",
+          "bytes": 6763861,
+          "sha256": "sha256:c70793c366bfc3a32528223f0f80842e51fb81650fbe2a1a4824d86f35e64933"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 279,
+          "sha256": "sha256:505916a09b8d72f8d7afd8b688876c9dda77d2c099f8229230cb4473182aacf8"
+        }
+      ]
+    }
   },
   "fingerprints": {
     "src/game/sceneLoop.ts": "96a6297419f4f89b5713e13f255d9eeb15d59d6ee8cd6905261c35a84c38d518",
     "tests/scene-loop.test.ts": "29cc6c024bae0bbc8783df5a2d3309a3a99e67aaeaf39c539b1b411167a792c4"
+  },
+  "runtime_commit": "26fe52c3a2a41ee7b3463870aa69faee88fa4beb",
+  "ci_browser": {
+    "passed": 58,
+    "skipped": 0,
+    "failed": 0
   }
 }

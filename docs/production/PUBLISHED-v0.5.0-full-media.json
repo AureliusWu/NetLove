@@ -1,0 +1,52 @@
+{
+  "version": "0.5.0",
+  "commit": "7cab876b5f1a178099afbd31c1fae6e638fba297",
+  "run": 39596383055,
+  "pagesRun": 39597413596,
+  "release": "https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0",
+  "prerelease": true,
+  "assets": [
+    {
+      "id": 662388980,
+      "name": "NetLove-0.5.0-x64-Portable.exe",
+      "bytes": 126908516,
+      "sha256": "0fece66587517c73e767d09d3cd79799b2824d51c16279039cc98e858393525d",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.5.0/NetLove-0.5.0-x64-Portable.exe"
+    },
+    {
+      "id": 662388977,
+      "name": "NetLove-0.5.0-x64-Setup.exe",
+      "bytes": 127127982,
+      "sha256": "e06a4ed2e8bf34e5e145dacbaf30ca3cfd4db1958e55becfc8b763656eda0592",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.5.0/NetLove-0.5.0-x64-Setup.exe"
+    },
+    {
+      "id": 662388979,
+      "name": "NetLove-PWA-0.5.0.zip",
+      "bytes": 15982425,
+      "sha256": "5c1f648ceef2644aaefd323d0763f801f19142dced2a6c4eda50aa3e5f4f916a",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.5.0/NetLove-PWA-0.5.0.zip"
+    },
+    {
+      "id": 662388978,
+      "name": "SHA256SUMS.txt",
+      "bytes": 279,
+      "sha256": "3a372f26274f42200594d822bfa7e9b9d5b1e7b66e6d160c4eddddce4c64c930",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v0.5.0/SHA256SUMS.txt"
+    }
+  ],
+  "status": "published_and_public_bytes_verified",
+  "checksumEntries": 3,
+  "pwaZipCrc": true,
+  "pwaFiles": 259,
+  "voiceRuntimeFiles": 220,
+  "logicTests": 67,
+  "windows": "source, ASAR, installed upgrade and portable wrapper passed",
+  "publicPwa": "desktop, portrait and landscape offline checks passed",
+  "humanListening": false,
+  "humanVisualApproval": false,
+  "browserTests": {
+    "passed": 58,
+    "failed": 0
+  }
+}

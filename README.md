@@ -1,3 +1,5 @@
+> 2026-10-21：**v0.5.0 全对白与完整角色素材预览版已发布**。220 条人物配音、五位角色和新结局 CG 已接入，Windows、58 项浏览器与公开 PWA 离线复验通过。见[发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)和[下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0)。
+
 > 2026-10-21：v0.4.1 引擎补丁通过本次 Windows、浏览器与公开离线验证；可玩预览已发布。详见[最终同步记录](docs/production/ENGINE-SYNC-20261021.md)。
 
 > 2026-10-19：**v0.3.1 已发布**。按已读章节、说话人和关键词筛选，并保持原回看索引已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v0.3.1.json) · [下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.1)。

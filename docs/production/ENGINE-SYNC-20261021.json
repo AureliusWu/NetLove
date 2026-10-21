@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-21",
+  "project": "NetLove",
+  "version": "0.4.1",
+  "base_commit": "14c08814271543729c054ef9c8f298b01cedecd8",
+  "local": {
+    "unit_tests_passed": 67,
+    "production_build": "passed",
+    "browser": {
+      "passed": 26,
+      "kind": "desktop and mobile production build: voice/CG, background reading, backup, decoded-loop reuse"
+    },
+    "materials": "10 tool tests and source fingerprints passed",
+    "recorded_audio": "8 clips, 24 source/runtime decodes and exact text/ASR fingerprints passed"
+  },
+  "platform_validation": {
+    "github_ci": "pending push",
+    "windows_actual_package": "pending exact-commit CI",
+    "public_pwa": "pending exact-commit deployment"
+  },
+  "fingerprints": {
+    "src/game/sceneLoop.ts": "96a6297419f4f89b5713e13f255d9eeb15d59d6ee8cd6905261c35a84c38d518",
+    "tests/scene-loop.test.ts": "29cc6c024bae0bbc8783df5a2d3309a3a99e67aaeaf39c539b1b411167a792c4"
+  }
+}

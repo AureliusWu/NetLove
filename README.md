@@ -1,3 +1,5 @@
+> 2026-10-21：v0.4.1 引擎优化候选；改动及本次验证见[同步记录](docs/production/ENGINE-SYNC-20261021.md)。
+
 > 2026-10-19：**v0.3.1 已发布**。按已读章节、说话人和关键词筛选，并保持原回看索引已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v0.3.1.json) · [下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.1)。
 
 # “网”恋 / NetLove

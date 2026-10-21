@@ -12,141 +12,45 @@
   "textSha256": "02d3035be290f3565b0855b86a5f5adbc6abb6bd0fd0d0b64d6f49494ae797cf",
   "medium": "call",
   "requestSha256": "04101565d9f851b46f8500337e8be06b8dc96aa6af48a2ba7a74326cdac28fff",
-  "attempt": 8,
-  "status": "needs_review",
+  "attempt": 10,
+  "status": "accepted",
   "asr": {
-    "transcript": "梅珊,你那次探氣我也沒放進公開吧?",
-    "cer": 0.266667,
-    "polarityCountsMatch": false,
-    "passed": false,
-    "phoneticReview": {
-      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-      "expected": "没删你那次叹气我也没放进公开版",
-      "observed": "梅珊你那次探气我也没放进公开吧",
-      "expectedSyllables": [
-        "mei2",
-        "shan1",
-        "ni3",
-        "na4",
-        "ci4",
-        "tan4",
-        "qi4",
-        "wo3",
-        "ye3",
-        "mei2",
-        "fang4",
-        "jin4",
-        "gong1",
-        "kai1",
-        "ban3"
-      ],
-      "observedSyllables": [
-        "mei2",
-        "shan1",
-        "ni3",
-        "na4",
-        "ci4",
-        "tan4",
-        "qi4",
-        "wo3",
-        "ye3",
-        "mei2",
-        "fang4",
-        "jin4",
-        "gong1",
-        "kai1",
-        "ba5"
-      ],
-      "sameLength": true,
-      "polarityCountsMatch": false,
-      "passed": false,
-      "humanListening": false
-    },
-    "model": "Systran/faster-whisper-medium",
-    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-    "audioSha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
+    "transcript": "沒閃,你那次探氣,我也沒放進公開板",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true,
+    "expectedSpokenText": "没删。你那次叹气，我也没放进公开版。"
   },
-  "duration": 3.76,
-  "wallSeconds": 22.308,
+  "duration": 4.64,
+  "wallSeconds": 223.635,
   "loudness": {
-    "input_i": "-24.58",
-    "input_tp": "-10.05",
-    "input_lra": "0.10",
-    "input_thresh": "-34.72",
-    "output_i": "-19.63",
-    "output_tp": "-5.07",
-    "output_lra": "0.00",
-    "output_thresh": "-29.89",
+    "input_i": "-27.09",
+    "input_tp": "-13.72",
+    "input_lra": "0.20",
+    "input_thresh": "-37.47",
+    "output_i": "-19.24",
+    "output_tp": "-6.20",
+    "output_lra": "0.10",
+    "output_thresh": "-29.99",
     "normalization_type": "dynamic",
-    "target_offset": "-0.37"
+    "target_offset": "-0.76"
   },
   "files": {
     "raw": {
       "path": "netlove-c4-voice-006/raw.wav",
-      "bytes": 361040,
-      "sha256": "1a4a974296dc089d0e5000d5bd285c6f6f639b1a9b49a6eb988e52458efcb68d"
+      "bytes": 445520,
+      "sha256": "2b999cb789207df4201942da6e544d309be20313a849dbc489d7d2c0bc93e3d6"
     },
     "master": {
       "path": "netlove-c4-voice-006/master.wav",
-      "bytes": 180558,
-      "sha256": "5bc874776a05b1b5530615d2e5071efc5c89438b7e9c7399552a73f740a30daa"
+      "bytes": 222798,
+      "sha256": "cf1313207b0a4ecb26d9426647cf513ea5c8610f0105f2c14bf3f54eea3e0be1"
     },
     "runtime": {
       "path": "netlove-c4-voice-006/runtime.ogg",
-      "bytes": 30270,
-      "sha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
+      "bytes": 35478,
+      "sha256": "9468768f532a7b20c515b4e83d63375d531c00198353c20cab0fe4475c32efd8"
     }
   },
-  "recoveredFromRun": 39522070665,
-  "asrReviewHistory": [
-    {
-      "transcript": "梅山,你那次探棄我也沒放進公開吧",
-      "cer": 0.333333,
-      "polarityCountsMatch": false,
-      "passed": false,
-      "phoneticReview": {
-        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-        "expected": "没删你那次叹气我也没放进公开版",
-        "observed": "梅山你那次探弃我也没放进公开吧",
-        "expectedSyllables": [
-          "mei2",
-          "shan1",
-          "ni3",
-          "na4",
-          "ci4",
-          "tan4",
-          "qi4",
-          "wo3",
-          "ye3",
-          "mei2",
-          "fang4",
-          "jin4",
-          "gong1",
-          "kai1",
-          "ban3"
-        ],
-        "observedSyllables": [
-          "mei2",
-          "shan1",
-          "ni3",
-          "na4",
-          "ci4",
-          "tan4",
-          "qi4",
-          "wo3",
-          "ye3",
-          "mei2",
-          "fang4",
-          "jin4",
-          "gong1",
-          "kai1",
-          "ba5"
-        ],
-        "sameLength": true,
-        "polarityCountsMatch": false,
-        "passed": false,
-        "humanListening": false
-      }
-    }
-  ]
+  "recoveredFromRun": 39525777280
 }

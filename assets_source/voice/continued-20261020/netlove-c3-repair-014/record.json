@@ -12,22 +12,22 @@
   "textSha256": "fbb28958f44fbdeb637e95bf9250cf859fcd855d23947c3d436b9e47d5195755",
   "medium": "call",
   "requestSha256": "4c06d4fbf67699038d7fb6005fac4033e453b84502b24265cef8f65cd6823edc",
-  "attempt": 8,
+  "attempt": 11,
   "status": "needs_review",
   "asr": {
-    "transcript": "嗨,她坐的比我穩",
+    "transcript": "嗨,她坐的比我稳",
     "cer": 0.428571,
     "polarityCountsMatch": true,
     "passed": false,
     "phoneticReview": {
-      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
       "expected": "拍它坐得比我稳",
       "observed": "嗨她坐的比我稳",
       "expectedSyllables": [
         "pai1",
         "ta1",
         "zuo4",
-        "de2",
+        "de5",
         "bi3",
         "wo3",
         "wen3"
@@ -48,55 +48,56 @@
     },
     "model": "Systran/faster-whisper-medium",
     "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-    "audioSha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
+    "audioSha256": "5531a53d1e57499aad395db1ce8abaf559dadac77172d0a194071b8f97e756a3"
   },
-  "duration": 3.04,
-  "wallSeconds": 17.998,
+  "duration": 2.24,
+  "wallSeconds": 120.423,
   "loudness": {
-    "input_i": "-18.73",
-    "input_tp": "-3.46",
-    "input_lra": "0.10",
-    "input_thresh": "-29.26",
-    "output_i": "-18.94",
-    "output_tp": "-3.73",
+    "input_i": "-21.71",
+    "input_tp": "-5.35",
+    "input_lra": "0.00",
+    "input_thresh": "-32.24",
+    "output_i": "-20.01",
+    "output_tp": "-3.65",
     "output_lra": "0.00",
-    "output_thresh": "-29.49",
-    "normalization_type": "dynamic",
-    "target_offset": "-1.06"
+    "output_thresh": "-30.54",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
   },
   "files": {
     "raw": {
       "path": "netlove-c3-repair-014/raw.wav",
-      "bytes": 291920,
-      "sha256": "dad10089da21eaa21966ad0318c4da3647458cd06e01e2d2574f6d9b38fb78db"
+      "bytes": 215120,
+      "sha256": "caff893c073927166a8693bec4391e167ed9a30e610607a6ee001836a52122b2"
     },
     "master": {
       "path": "netlove-c3-repair-014/master.wav",
-      "bytes": 145998,
-      "sha256": "6b034f6fc43a623a5b19204972cd513b97e42fcc91dc6a0c3a99f4a97dc16561"
+      "bytes": 107598,
+      "sha256": "c6c40d7322e2423346d5e4a6874abfb5be003f230ec0fa69394bab072d3b1162"
     },
     "runtime": {
       "path": "netlove-c3-repair-014/runtime.ogg",
-      "bytes": 23864,
-      "sha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
+      "bytes": 18842,
+      "sha256": "5531a53d1e57499aad395db1ce8abaf559dadac77172d0a194071b8f97e756a3"
     }
   },
-  "recoveredFromRun": 39522070665,
+  "recoveredFromRun": 39525777280,
   "asrReviewHistory": [
     {
-      "transcript": "他?他做得比我穩",
+      "transcript": "他,他做得比我穩",
       "cer": 0.428571,
       "polarityCountsMatch": true,
       "passed": false,
+      "expectedSpokenText": "拍。它坐得比我稳。",
       "phoneticReview": {
-        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
         "expected": "拍它坐得比我稳",
         "observed": "他他做得比我稳",
         "expectedSyllables": [
           "pai1",
           "ta1",
           "zuo4",
-          "de2",
+          "de5",
           "bi3",
           "wo3",
           "wen3"

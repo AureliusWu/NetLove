@@ -2,27 +2,27 @@
   "schema": 1,
   "project": "NetLove",
   "target": 220,
-  "accepted": 218,
-  "pendingCount": 2,
+  "accepted": 219,
+  "pendingCount": 1,
   "pending": [
     {
       "id": "netlove-c3-repair-014",
       "text": "拍。它坐得比我稳。",
       "status": "needs_review",
       "asr": {
-        "transcript": "嗨,她坐的比我穩",
+        "transcript": "嗨,她坐的比我稳",
         "cer": 0.428571,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "拍它坐得比我稳",
           "observed": "嗨她坐的比我稳",
           "expectedSyllables": [
             "pai1",
             "ta1",
             "zuo4",
-            "de2",
+            "de5",
             "bi3",
             "wo3",
             "wen3"
@@ -43,64 +43,7 @@
         },
         "model": "Systran/faster-whisper-medium",
         "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-        "audioSha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
-      }
-    },
-    {
-      "id": "netlove-c4-voice-006",
-      "text": "没删。你那次叹气，我也没放进公开版。",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "梅珊,你那次探氣我也沒放進公開吧?",
-        "cer": 0.266667,
-        "polarityCountsMatch": false,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-          "expected": "没删你那次叹气我也没放进公开版",
-          "observed": "梅珊你那次探气我也没放进公开吧",
-          "expectedSyllables": [
-            "mei2",
-            "shan1",
-            "ni3",
-            "na4",
-            "ci4",
-            "tan4",
-            "qi4",
-            "wo3",
-            "ye3",
-            "mei2",
-            "fang4",
-            "jin4",
-            "gong1",
-            "kai1",
-            "ban3"
-          ],
-          "observedSyllables": [
-            "mei2",
-            "shan1",
-            "ni3",
-            "na4",
-            "ci4",
-            "tan4",
-            "qi4",
-            "wo3",
-            "ye3",
-            "mei2",
-            "fang4",
-            "jin4",
-            "gong1",
-            "kai1",
-            "ba5"
-          ],
-          "sameLength": true,
-          "polarityCountsMatch": false,
-          "passed": false,
-          "humanListening": false
-        },
-        "model": "Systran/faster-whisper-medium",
-        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-        "audioSha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
+        "audioSha256": "5531a53d1e57499aad395db1ce8abaf559dadac77172d0a194071b8f97e756a3"
       }
     }
   ],

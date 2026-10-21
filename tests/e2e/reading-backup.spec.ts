@@ -67,7 +67,10 @@ test('downloads a complete compact backup and imports it in a separate browser c
       if (name === `${key}:save:auto` || name.endsWith(':scores')) continue;
       const decoded = JSON.parse(imported[name]!) as { state?: unknown };
       const expected = JSON.parse(original) as { state?: unknown };
-      expect(decoded.state ?? decoded).toEqual(expected.state ?? expected);
+      if (name === `${key}:gallery`) {
+        // Resuming this previously completed ending reaches its newly added CG.
+        expect(decoded).toEqual([...JSON.parse(original), 'own-letter']);
+      } else expect(decoded.state ?? decoded).toEqual(expected.state ?? expected);
     }
     await target.getByRole('button', { name: '回到标题', exact: true }).click();
     await target.getByRole('button', { name: '回忆', exact: true }).click();

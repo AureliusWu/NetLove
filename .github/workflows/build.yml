@@ -37,6 +37,10 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
           python scripts/validate-voice.py
+      - name: Verify every full-dialogue byte and runtime image
+        run: |
+          python -m pip install Pillow
+          python tools/production/validate_runtime.py --require-complete --decode --report reports/full-media.json
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium

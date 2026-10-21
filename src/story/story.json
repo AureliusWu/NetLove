@@ -3495,7 +3495,8 @@
       ],
       "noSprite": true,
       "music": "after-rain",
-      "ending": "letter-final"
+      "ending": "letter-final",
+      "cg": "own-letter"
     }
   ]
 }

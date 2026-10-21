@@ -82,12 +82,12 @@ export function App() {
     setAuto(false); setFast(false); setToast(''); setUiHidden(true);
   }, []);
   useEffect(() => {
-    voice.configure(settings.voiceEnabled !== false, settings.voiceVolume ?? 0.8, screen === 'game' && !panel && !confirm && !uiHidden, !pageHidden, panel === 'history');
-  }, [voice, settings.voiceEnabled, settings.voiceVolume, screen, panel, confirm, uiHidden, pageHidden]);
+    voice.configure(settings.voiceEnabled !== false && !fast, settings.voiceVolume ?? 0.8, screen === 'game' && !panel && !confirm && !uiHidden, !pageHidden, panel === 'history');
+  }, [voice, settings.voiceEnabled, settings.voiceVolume, screen, panel, confirm, uiHidden, pageHidden, fast]);
   useEffect(() => {
-    if (screen === 'game') voice.enter(currentVoice ? { ...currentVoice, src: `${import.meta.env.BASE_URL}${currentVoice.src}` } : undefined, `${game.sceneId}/${game.line}/${readingSession}/${settings.voiceEnabled !== false}`);
+    if (screen === 'game') voice.enter(currentVoice ? { ...currentVoice, src: `${import.meta.env.BASE_URL}${currentVoice.src}` } : undefined, `${game.sceneId}/${game.line}/${readingSession}/${settings.voiceEnabled !== false}/${fast}`);
     else voice.stop();
-  }, [voice, screen, game.sceneId, game.line, readingSession, currentVoice, settings.voiceEnabled]);
+  }, [voice, screen, game.sceneId, game.line, readingSession, currentVoice, settings.voiceEnabled, fast]);
   useEffect(() => () => voice.stop(), [voice]);
   useEffect(() => { if (screen === 'game') window.scrollTo(0, 0); }, [screen]);
   const refreshSaves = useCallback(() => setSaveList(Object.fromEntries(slots.map(s => [s, readSave(s)])) as Record<Slot, Save | null>), []);

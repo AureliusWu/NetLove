@@ -1,0 +1,1989 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "target": 220,
+  "accepted": 220,
+  "complete": true,
+  "clips": [
+    {
+      "id": "netlove-arrival-005",
+      "lineId": "arrival-005",
+      "sceneId": "arrival",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "是。应该是。",
+      "src": "audio/voice/full-20261021/netlove-arrival-005.ogg"
+    },
+    {
+      "id": "netlove-arrival-011",
+      "lineId": "arrival-011",
+      "sceneId": "arrival",
+      "lineIndex": 10,
+      "speaker": "陆衡",
+      "text": "先别往外跑。进这个群，门口收货、邻里需求都在这儿登记。",
+      "src": "audio/voice/full-20261021/netlove-arrival-011.ogg"
+    },
+    {
+      "id": "netlove-group-001",
+      "lineId": "group-001",
+      "sceneId": "group",
+      "lineIndex": 0,
+      "speaker": "陆衡",
+      "text": "新增需求填表。门牌和电话只交给负责的人，别整张贴群里。",
+      "src": "audio/voice/full-20261021/netlove-group-001.ogg"
+    },
+    {
+      "id": "netlove-group-002",
+      "lineId": "group-002",
+      "sceneId": "group",
+      "lineIndex": 1,
+      "speaker": "暂停营业",
+      "text": "表格打不开。我妈用的手机比我年纪还大。",
+      "src": "audio/voice/full-20261021/netlove-group-002.ogg"
+    },
+    {
+      "id": "netlove-group-003",
+      "lineId": "group-003",
+      "sceneId": "group",
+      "lineIndex": 2,
+      "speaker": "陆衡",
+      "text": "你少夸张。你帮她报。",
+      "src": "audio/voice/full-20261021/netlove-group-003.ogg"
+    },
+    {
+      "id": "netlove-group-004",
+      "lineId": "group-004",
+      "sceneId": "group",
+      "lineIndex": 3,
+      "speaker": "暂停营业",
+      "text": "她觉得我把字打进去，菜就自动长在手机里了。",
+      "src": "audio/voice/full-20261021/netlove-group-004.ogg"
+    },
+    {
+      "id": "netlove-group-005",
+      "lineId": "group-005",
+      "sceneId": "group",
+      "lineIndex": 4,
+      "speaker": "一格信号",
+      "text": "可以把项目念给她听吗？我来录一版。",
+      "src": "audio/voice/full-20261021/netlove-group-005.ogg"
+    },
+    {
+      "id": "netlove-group-007",
+      "lineId": "group-007",
+      "sceneId": "group",
+      "lineIndex": 6,
+      "speaker": "一格信号",
+      "text": "只说明怎么填，别录门牌和电话。录完我先让陆衡确认。",
+      "src": "audio/voice/full-20261021/netlove-group-007.ogg"
+    },
+    {
+      "id": "netlove-group-009",
+      "lineId": "group-009",
+      "sceneId": "group",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "新群里的邻居。",
+      "src": "audio/voice/full-20261021/netlove-group-009.ogg"
+    },
+    {
+      "id": "netlove-group-010",
+      "lineId": "group-010",
+      "sceneId": "group",
+      "lineIndex": 9,
+      "speaker": "暂停营业",
+      "text": "新来的，名字后面那个下划线是没想好叫啥吗？",
+      "src": "audio/voice/full-20261021/netlove-group-010.ogg"
+    },
+    {
+      "id": "netlove-group-012",
+      "lineId": "group-012",
+      "sceneId": "group",
+      "lineIndex": 11,
+      "speaker": "周既明",
+      "text": "本来想改，忘了。",
+      "src": "audio/voice/full-20261021/netlove-group-012.ogg"
+    },
+    {
+      "id": "netlove-group-013",
+      "lineId": "group-013",
+      "sceneId": "group",
+      "lineIndex": 12,
+      "speaker": "暂停营业",
+      "text": "挺好。很像一条还没填完的横线。",
+      "src": "audio/voice/full-20261021/netlove-group-013.ogg"
+    },
+    {
+      "id": "netlove-group-014",
+      "lineId": "group-014",
+      "sceneId": "group",
+      "lineIndex": 13,
+      "speaker": "一格信号",
+      "text": "也像还可以继续写。",
+      "src": "audio/voice/full-20261021/netlove-group-014.ogg"
+    },
+    {
+      "id": "netlove-first-reply-003",
+      "lineId": "first-reply-003",
+      "sceneId": "first-reply",
+      "lineIndex": 2,
+      "speaker": "一格信号",
+      "text": "刚才的录音听得清吗？我担心语速太快。",
+      "src": "audio/voice/full-20261021/netlove-first-reply-003.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-001",
+      "lineId": "c1-honest-001",
+      "sceneId": "c1-honest",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "听得清。刚才没回，是在看公司的表。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-001.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-002",
+      "lineId": "c1-honest-002",
+      "sceneId": "c1-honest",
+      "lineIndex": 1,
+      "speaker": "周既明",
+      "text": "他们让我们先待在家里。我不知道实习还算不算数。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-002.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-004",
+      "lineId": "c1-honest-004",
+      "sceneId": "c1-honest",
+      "lineIndex": 3,
+      "speaker": "一格信号",
+      "text": "我也不知道什么时候返校。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-004.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-005",
+      "lineId": "c1-honest-005",
+      "sceneId": "c1-honest",
+      "lineIndex": 4,
+      "speaker": "一格信号",
+      "text": "今天交了一份作业，老师回复“收到”，我盯着那两个字看了很久。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-005.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-006",
+      "lineId": "c1-honest-006",
+      "sceneId": "c1-honest",
+      "lineIndex": 5,
+      "speaker": "一格信号",
+      "text": "你那张表，今晚一定要填吗？",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-006.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-007",
+      "lineId": "c1-honest-007",
+      "sceneId": "c1-honest",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "不用。周五前。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-007.ogg"
+    },
+    {
+      "id": "netlove-c1-honest-008",
+      "lineId": "c1-honest-008",
+      "sceneId": "c1-honest",
+      "lineIndex": 7,
+      "speaker": "一格信号",
+      "text": "那今天先别对着它坐到两点。录音里的第三步，我读错了一个字。",
+      "src": "audio/voice/full-20261021/netlove-c1-honest-008.ogg"
+    },
+    {
+      "id": "netlove-c1-light-001",
+      "lineId": "c1-light-001",
+      "sceneId": "c1-light",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "听得清。我外婆也听明白了，问是不是电台播的。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-001.ogg"
+    },
+    {
+      "id": "netlove-c1-light-002",
+      "lineId": "c1-light-002",
+      "sceneId": "c1-light",
+      "lineIndex": 1,
+      "speaker": "一格信号",
+      "text": "别让她失望，我录了五遍。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-002.ogg"
+    },
+    {
+      "id": "netlove-c1-light-003",
+      "lineId": "c1-light-003",
+      "sceneId": "c1-light",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "有一遍能过就行。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-003.ogg"
+    },
+    {
+      "id": "netlove-c1-light-004",
+      "lineId": "c1-light-004",
+      "sceneId": "c1-light",
+      "lineIndex": 3,
+      "speaker": "一格信号",
+      "text": "有一遍能被人听完，就已经不错了。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-004.ogg"
+    },
+    {
+      "id": "netlove-c1-light-006",
+      "lineId": "c1-light-006",
+      "sceneId": "c1-light",
+      "lineIndex": 5,
+      "speaker": "一格信号",
+      "text": "这段不能进群。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-006.ogg"
+    },
+    {
+      "id": "netlove-c1-light-007",
+      "lineId": "c1-light-007",
+      "sceneId": "c1-light",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "收到。私人失误档案。",
+      "src": "audio/voice/full-20261021/netlove-c1-light-007.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-001",
+      "lineId": "c1-xumi-001",
+      "sceneId": "c1-xumi",
+      "lineIndex": 0,
+      "speaker": "暂停营业",
+      "text": "陆衡说你会做网页。老手机能不能看那种不用下载的？",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-001.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-002",
+      "lineId": "c1-xumi-002",
+      "sceneId": "c1-xumi",
+      "lineIndex": 1,
+      "speaker": "周既明",
+      "text": "可以。需求表吗？",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-002.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-003",
+      "lineId": "c1-xumi-003",
+      "sceneId": "c1-xumi",
+      "lineIndex": 2,
+      "speaker": "暂停营业",
+      "text": "表是一件事。还有我妈老让我问，照相馆什么时候能开。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-003.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-005",
+      "lineId": "c1-xumi-005",
+      "sceneId": "c1-xumi",
+      "lineIndex": 4,
+      "speaker": "暂停营业",
+      "text": "别问哪张是我。这里面有七个同名的人。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-005.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-006",
+      "lineId": "c1-xumi-006",
+      "sceneId": "c1-xumi",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "那你是哪家店？",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-006.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-007",
+      "lineId": "c1-xumi-007",
+      "sceneId": "c1-xumi",
+      "lineIndex": 6,
+      "speaker": "暂停营业",
+      "text": "拾光。拐角那家。招牌的“光”少一根灯管。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-007.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-009",
+      "lineId": "c1-xumi-009",
+      "sceneId": "c1-xumi",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "我知道。那张蓝底照片把我拍得像在认错。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-009.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-010",
+      "lineId": "c1-xumi-010",
+      "sceneId": "c1-xumi",
+      "lineIndex": 9,
+      "speaker": "暂停营业",
+      "text": "可能你本来就在认错。我帮人选照片，见过更凶的。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-010.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-011",
+      "lineId": "c1-xumi-011",
+      "sceneId": "c1-xumi",
+      "lineIndex": 10,
+      "speaker": "周既明",
+      "text": "你也拍？",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-011.ogg"
+    },
+    {
+      "id": "netlove-c1-xumi-012",
+      "lineId": "c1-xumi-012",
+      "sceneId": "c1-xumi",
+      "lineIndex": 11,
+      "speaker": "暂停营业",
+      "text": "拍。拍得最多的是“这张能不能再瘦一点”。",
+      "src": "audio/voice/full-20261021/netlove-c1-xumi-012.ogg"
+    },
+    {
+      "id": "netlove-c1-window-003",
+      "lineId": "c1-window-003",
+      "sceneId": "c1-window",
+      "lineIndex": 2,
+      "speaker": "一格信号",
+      "text": "你那边是不是有金属碰撞的声音？",
+      "src": "audio/voice/full-20261021/netlove-c1-window-003.ogg"
+    },
+    {
+      "id": "netlove-c1-window-004",
+      "lineId": "c1-window-004",
+      "sceneId": "c1-window",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "晾衣杆。风一吹就响。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-004.ogg"
+    },
+    {
+      "id": "netlove-c1-window-005",
+      "lineId": "c1-window-005",
+      "sceneId": "c1-window",
+      "lineIndex": 4,
+      "speaker": "一格信号",
+      "text": "能录十秒吗？我的作业要收集现在的城市声音。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-005.ogg"
+    },
+    {
+      "id": "netlove-c1-window-006",
+      "lineId": "c1-window-006",
+      "sceneId": "c1-window",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "现在还能收到什么？",
+      "src": "audio/voice/full-20261021/netlove-c1-window-006.ogg"
+    },
+    {
+      "id": "netlove-c1-window-007",
+      "lineId": "c1-window-007",
+      "sceneId": "c1-window",
+      "lineIndex": 6,
+      "speaker": "一格信号",
+      "text": "电饭煲。楼上拖椅子。家里有人不小心把碗放重了。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-007.ogg"
+    },
+    {
+      "id": "netlove-c1-window-008",
+      "lineId": "c1-window-008",
+      "sceneId": "c1-window",
+      "lineIndex": 7,
+      "speaker": "一格信号",
+      "text": "以前公交经过就盖住了。现在听得见。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-008.ogg"
+    },
+    {
+      "id": "netlove-c1-window-010",
+      "lineId": "c1-window-010",
+      "sceneId": "c1-window",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "失败了。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-010.ogg"
+    },
+    {
+      "id": "netlove-c1-window-011",
+      "lineId": "c1-window-011",
+      "sceneId": "c1-window",
+      "lineIndex": 10,
+      "speaker": "一格信号",
+      "text": "没有。你最后叹了一口气。",
+      "src": "audio/voice/full-20261021/netlove-c1-window-011.ogg"
+    },
+    {
+      "id": "netlove-c1-end-001",
+      "lineId": "c1-end-001",
+      "sceneId": "c1-end",
+      "lineIndex": 0,
+      "speaker": "系统",
+      "text": "一格信号：我想做一份“梧城还在响”的声音地图。你愿意帮我试试吗？",
+      "src": "audio/voice/full-20261021/netlove-c1-end-001.ogg"
+    },
+    {
+      "id": "netlove-c1-end-002",
+      "lineId": "c1-end-002",
+      "sceneId": "c1-end",
+      "lineIndex": 1,
+      "speaker": "系统",
+      "text": "暂停营业：明天把旧手机给你看看。就放门口，不碰面。",
+      "src": "audio/voice/full-20261021/netlove-c1-end-002.ogg"
+    },
+    {
+      "id": "netlove-c1-end-009",
+      "lineId": "c1-end-009",
+      "sceneId": "c1-end",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "今天不是。",
+      "src": "audio/voice/full-20261021/netlove-c1-end-009.ogg"
+    },
+    {
+      "id": "netlove-c2-open-003",
+      "lineId": "c2-open-003",
+      "sceneId": "c2-open",
+      "lineIndex": 2,
+      "speaker": "陆衡",
+      "text": "不要一天到晚问“还需要什么”。看分工表，空着的那栏才需要。",
+      "src": "audio/voice/full-20261021/netlove-c2-open-003.ogg"
+    },
+    {
+      "id": "netlove-c2-open-005",
+      "lineId": "c2-open-005",
+      "sceneId": "c2-open",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "弥是弥补的弥。不是谜语的谜，证件上都有人写错。",
+      "src": "audio/voice/full-20261021/netlove-c2-open-005.ogg"
+    },
+    {
+      "id": "netlove-c2-open-008",
+      "lineId": "c2-open-008",
+      "sceneId": "c2-open",
+      "lineIndex": 7,
+      "speaker": "谢听禾",
+      "text": "听是听见的听。禾是稻子的禾。",
+      "src": "audio/voice/full-20261021/netlove-c2-open-008.ogg"
+    },
+    {
+      "id": "netlove-c2-open-009",
+      "lineId": "c2-open-009",
+      "sceneId": "c2-open",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "名字比账号好记。",
+      "src": "audio/voice/full-20261021/netlove-c2-open-009.ogg"
+    },
+    {
+      "id": "netlove-c2-open-010",
+      "lineId": "c2-open-010",
+      "sceneId": "c2-open",
+      "lineIndex": 9,
+      "speaker": "谢听禾",
+      "text": "账号是我家网太差才改的。",
+      "src": "audio/voice/full-20261021/netlove-c2-open-010.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-002",
+      "lineId": "c2-audio-002",
+      "sceneId": "c2-audio",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "不要听到最后那个。那是我试麦。",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-002.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-003",
+      "lineId": "c2-audio-003",
+      "sceneId": "c2-audio",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "你自己也可以列在署名里。",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-003.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-004",
+      "lineId": "c2-audio-004",
+      "sceneId": "c2-audio",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "我没做什么。就是把它们接起来。",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-004.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-005",
+      "lineId": "c2-audio-005",
+      "sceneId": "c2-audio",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "你问了能不能用，还改了好多遍。也算做了。",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-005.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-008",
+      "lineId": "c2-audio-008",
+      "sceneId": "c2-audio",
+      "lineIndex": 7,
+      "speaker": "谢听禾",
+      "text": "他不知道有人在录。重新问也会让他觉得自己在添麻烦。",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-008.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-010",
+      "lineId": "c2-audio-010",
+      "sceneId": "c2-audio",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "这次没有我的叹气？",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-010.ogg"
+    },
+    {
+      "id": "netlove-c2-audio-011",
+      "lineId": "c2-audio-011",
+      "sceneId": "c2-audio",
+      "lineIndex": 10,
+      "speaker": "谢听禾",
+      "text": "留在私人版里。你要我删吗？",
+      "src": "audio/voice/full-20261021/netlove-c2-audio-011.ogg"
+    },
+    {
+      "id": "netlove-c2-print-002",
+      "lineId": "c2-print-002",
+      "sceneId": "c2-print",
+      "lineIndex": 1,
+      "speaker": "许弥",
+      "text": "别双击。它没你想得那么迟钝。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-002.ogg"
+    },
+    {
+      "id": "netlove-c2-print-003",
+      "lineId": "c2-print-003",
+      "sceneId": "c2-print",
+      "lineIndex": 2,
+      "speaker": "许弥",
+      "text": "等一下，先别评价人家做得丑。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-003.ogg"
+    },
+    {
+      "id": "netlove-c2-print-004",
+      "lineId": "c2-print-004",
+      "sceneId": "c2-print",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "可以评价。我在记。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-004.ogg"
+    },
+    {
+      "id": "netlove-c2-print-005",
+      "lineId": "c2-print-005",
+      "sceneId": "c2-print",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "我妈说字再大一点。她眼睛比我早退休。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-005.ogg"
+    },
+    {
+      "id": "netlove-c2-print-007",
+      "lineId": "c2-print-007",
+      "sceneId": "c2-print",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "你怎么不把相机里的照片也做个网页？",
+      "src": "audio/voice/full-20261021/netlove-c2-print-007.ogg"
+    },
+    {
+      "id": "netlove-c2-print-008",
+      "lineId": "c2-print-008",
+      "sceneId": "c2-print",
+      "lineIndex": 7,
+      "speaker": "许弥",
+      "text": "那些东西没有人要。以前投过一个比赛，没入围。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-008.ogg"
+    },
+    {
+      "id": "netlove-c2-print-009",
+      "lineId": "c2-print-009",
+      "sceneId": "c2-print",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "你现在还拍吗？",
+      "src": "audio/voice/full-20261021/netlove-c2-print-009.ogg"
+    },
+    {
+      "id": "netlove-c2-print-010",
+      "lineId": "c2-print-010",
+      "sceneId": "c2-print",
+      "lineIndex": 9,
+      "speaker": "许弥",
+      "text": "店里东西没搬走。每天换一个角度拍那把空椅子。",
+      "src": "audio/voice/full-20261021/netlove-c2-print-010.ogg"
+    },
+    {
+      "id": "netlove-c2-count-003",
+      "lineId": "c2-count-003",
+      "sceneId": "c2-count",
+      "lineIndex": 2,
+      "speaker": "陆衡",
+      "text": "你看。人忙的时候都会觉得自己填过了，最后又不放心填一次。",
+      "src": "audio/voice/full-20261021/netlove-c2-count-003.ogg"
+    },
+    {
+      "id": "netlove-c2-count-004",
+      "lineId": "c2-count-004",
+      "sceneId": "c2-count",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "我就经常这样。",
+      "src": "audio/voice/full-20261021/netlove-c2-count-004.ogg"
+    },
+    {
+      "id": "netlove-c2-count-005",
+      "lineId": "c2-count-005",
+      "sceneId": "c2-count",
+      "lineIndex": 4,
+      "speaker": "陆衡",
+      "text": "那你怎么还敢给人做表？",
+      "src": "audio/voice/full-20261021/netlove-c2-count-005.ogg"
+    },
+    {
+      "id": "netlove-c2-count-006",
+      "lineId": "c2-count-006",
+      "sceneId": "c2-count",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "因为我知道哪里容易填错。",
+      "src": "audio/voice/full-20261021/netlove-c2-count-006.ogg"
+    },
+    {
+      "id": "netlove-c2-count-009",
+      "lineId": "c2-count-009",
+      "sceneId": "c2-count",
+      "lineIndex": 8,
+      "speaker": "陆衡",
+      "text": "以后你的网页上留个“找人核对”。别装得什么都知道。",
+      "src": "audio/voice/full-20261021/netlove-c2-count-009.ogg"
+    },
+    {
+      "id": "netlove-c2-call-004",
+      "lineId": "c2-call-004",
+      "sceneId": "c2-call",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "能一起听吗？发文件过去，听的时候总不在同一秒。",
+      "src": "audio/voice/full-20261021/netlove-c2-call-004.ogg"
+    },
+    {
+      "id": "netlove-c2-call-006",
+      "lineId": "c2-call-006",
+      "sceneId": "c2-call",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "先说一下，我的网可能卡。卡住的时候不用急着挂。",
+      "src": "audio/voice/full-20261021/netlove-c2-call-006.ogg"
+    },
+    {
+      "id": "netlove-c2-call-008",
+      "lineId": "c2-call-008",
+      "sceneId": "c2-call",
+      "lineIndex": 7,
+      "speaker": "周既明",
+      "text": "好。",
+      "src": "audio/voice/full-20261021/netlove-c2-call-008.ogg"
+    },
+    {
+      "id": "netlove-c2-call-009",
+      "lineId": "c2-call-009",
+      "sceneId": "c2-call",
+      "lineIndex": 8,
+      "speaker": "谢听禾",
+      "text": "要视频吗？不方便也没关系。",
+      "src": "audio/voice/full-20261021/netlove-c2-call-009.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-002",
+      "lineId": "c2-camera-002",
+      "sceneId": "c2-camera",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "不用收。很像我房间，什么都舍不得扔。",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-002.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-005",
+      "lineId": "c2-camera-005",
+      "sceneId": "c2-camera",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "我以为学声音的，桌上会很整齐。",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-005.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-006",
+      "lineId": "c2-camera-006",
+      "sceneId": "c2-camera",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "你从哪里得出的结论？",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-006.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-009",
+      "lineId": "c2-camera-009",
+      "sceneId": "c2-camera",
+      "lineIndex": 8,
+      "speaker": "谢听禾",
+      "text": "是不是卡了？",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-009.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-010",
+      "lineId": "c2-camera-010",
+      "sceneId": "c2-camera",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "嗯，不过停得挺好。",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-010.ogg"
+    },
+    {
+      "id": "netlove-c2-camera-011",
+      "lineId": "c2-camera-011",
+      "sceneId": "c2-camera",
+      "lineIndex": 10,
+      "speaker": "谢听禾",
+      "text": "那你先别截。",
+      "src": "audio/voice/full-20261021/netlove-c2-camera-011.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-001",
+      "lineId": "c2-voice-001",
+      "sceneId": "c2-voice",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "今晚只通话吧。房间有点乱，我还没准备好。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-001.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-002",
+      "lineId": "c2-voice-002",
+      "sceneId": "c2-voice",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "好。我也把镜头关着。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-002.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-003",
+      "lineId": "c2-voice-003",
+      "sceneId": "c2-voice",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "我不是不想认识你。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-003.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-004",
+      "lineId": "c2-voice-004",
+      "sceneId": "c2-voice",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "我知道。我们已经认识了一部分。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-004.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-006",
+      "lineId": "c2-voice-006",
+      "sceneId": "c2-voice",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "这里不该切得这么齐。把你外婆喊你第二声也接上吧。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-006.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-008",
+      "lineId": "c2-voice-008",
+      "sceneId": "c2-voice",
+      "lineIndex": 7,
+      "speaker": "谢听禾",
+      "text": "像有人离开电脑，去做一件更重要的事。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-008.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-009",
+      "lineId": "c2-voice-009",
+      "sceneId": "c2-voice",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "她确实觉得苹果很重要。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-009.ogg"
+    },
+    {
+      "id": "netlove-c2-voice-011",
+      "lineId": "c2-voice-011",
+      "sceneId": "c2-voice",
+      "lineIndex": 10,
+      "speaker": "谢听禾",
+      "text": "这部分比较整齐。先给你认识这部分。",
+      "src": "audio/voice/full-20261021/netlove-c2-voice-011.ogg"
+    },
+    {
+      "id": "netlove-c3-open-004",
+      "lineId": "c3-open-004",
+      "sceneId": "c3-open",
+      "lineIndex": 3,
+      "speaker": "许弥",
+      "text": "这张先别转。人还没确认，家里人也没看过。",
+      "src": "audio/voice/full-20261021/netlove-c3-open-004.ogg"
+    },
+    {
+      "id": "netlove-c3-open-005",
+      "lineId": "c3-open-005",
+      "sceneId": "c3-open",
+      "lineIndex": 4,
+      "speaker": "陆衡",
+      "text": "收到。",
+      "src": "audio/voice/full-20261021/netlove-c3-open-005.ogg"
+    },
+    {
+      "id": "netlove-c3-open-006",
+      "lineId": "c3-open-006",
+      "sceneId": "c3-open",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "我能用店门口的声音做一条配套录音吗？只录环境。",
+      "src": "audio/voice/full-20261021/netlove-c3-open-006.ogg"
+    },
+    {
+      "id": "netlove-c3-open-007",
+      "lineId": "c3-open-007",
+      "sceneId": "c3-open",
+      "lineIndex": 6,
+      "speaker": "许弥",
+      "text": "可以。现在还听得到那根坏掉的灯管。",
+      "src": "audio/voice/full-20261021/netlove-c3-open-007.ogg"
+    },
+    {
+      "id": "netlove-c3-screenshot-007",
+      "lineId": "c3-screenshot-007",
+      "sceneId": "c3-screenshot",
+      "lineIndex": 6,
+      "speaker": "谢听禾",
+      "text": "先别转新的解释图。越转越有人从别处截。",
+      "src": "audio/voice/full-20261021/netlove-c3-screenshot-007.ogg"
+    },
+    {
+      "id": "netlove-c3-screenshot-008",
+      "lineId": "c3-screenshot-008",
+      "sceneId": "c3-screenshot",
+      "lineIndex": 7,
+      "speaker": "陆衡",
+      "text": "负责人已经撤下。我找管理员关掉原帖转发。",
+      "src": "audio/voice/full-20261021/netlove-c3-screenshot-008.ogg"
+    },
+    {
+      "id": "netlove-c3-screenshot-009",
+      "lineId": "c3-screenshot-009",
+      "sceneId": "c3-screenshot",
+      "lineIndex": 8,
+      "speaker": "许弥",
+      "text": "我把这组都删了。算了。",
+      "src": "audio/voice/full-20261021/netlove-c3-screenshot-009.ogg"
+    },
+    {
+      "id": "netlove-c3-public-003",
+      "lineId": "c3-public-003",
+      "sceneId": "c3-public",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "请停止转发和猜测。已经发出去的，麻烦联系我登记来源，我逐个去处理。",
+      "src": "audio/voice/full-20261021/netlove-c3-public-003.ogg"
+    },
+    {
+      "id": "netlove-c3-public-006",
+      "lineId": "c3-public-006",
+      "sceneId": "c3-public",
+      "lineIndex": 5,
+      "speaker": "许弥",
+      "text": "下次先跟我说一声。现在店里接了好几个电话。",
+      "src": "audio/voice/full-20261021/netlove-c3-public-006.ogg"
+    },
+    {
+      "id": "netlove-c3-public-007",
+      "lineId": "c3-public-007",
+      "sceneId": "c3-public",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "对不起。我以为先说明，会帮你挡一点。",
+      "src": "audio/voice/full-20261021/netlove-c3-public-007.ogg"
+    },
+    {
+      "id": "netlove-c3-public-008",
+      "lineId": "c3-public-008",
+      "sceneId": "c3-public",
+      "lineIndex": 7,
+      "speaker": "许弥",
+      "text": "你能解释你怎么发的。店里要怎么说，我自己来。",
+      "src": "audio/voice/full-20261021/netlove-c3-public-008.ogg"
+    },
+    {
+      "id": "netlove-c3-private-001",
+      "lineId": "c3-private-001",
+      "sceneId": "c3-private",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "第一份附件是我发的。问尺寸时多选了那张。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-001.ogg"
+    },
+    {
+      "id": "netlove-c3-private-002",
+      "lineId": "c3-private-002",
+      "sceneId": "c3-private",
+      "lineIndex": 1,
+      "speaker": "周既明",
+      "text": "我补过不能用，对方回了好。我没有再核对，也没有立刻告诉你。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-002.ogg"
+    },
+    {
+      "id": "netlove-c3-private-004",
+      "lineId": "c3-private-004",
+      "sceneId": "c3-private",
+      "lineIndex": 3,
+      "speaker": "许弥",
+      "text": "我在接电话。先别让其他人继续帮我解释。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-004.ogg"
+    },
+    {
+      "id": "netlove-c3-private-005",
+      "lineId": "c3-private-005",
+      "sceneId": "c3-private",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "好。你希望我做什么？",
+      "src": "audio/voice/full-20261021/netlove-c3-private-005.ogg"
+    },
+    {
+      "id": "netlove-c3-private-006",
+      "lineId": "c3-private-006",
+      "sceneId": "c3-private",
+      "lineIndex": 5,
+      "speaker": "许弥",
+      "text": "把发给谁、什么时候发、怎么回复，列给我。不要贴群里。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-006.ogg"
+    },
+    {
+      "id": "netlove-c3-private-010",
+      "lineId": "c3-private-010",
+      "sceneId": "c3-private",
+      "lineIndex": 9,
+      "speaker": "许弥",
+      "text": "今晚不选照片了。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-010.ogg"
+    },
+    {
+      "id": "netlove-c3-private-011",
+      "lineId": "c3-private-011",
+      "sceneId": "c3-private",
+      "lineIndex": 10,
+      "speaker": "周既明",
+      "text": "好。明天你想继续的时候再找我。",
+      "src": "audio/voice/full-20261021/netlove-c3-private-011.ogg"
+    },
+    {
+      "id": "netlove-c3-remove-004",
+      "lineId": "c3-remove-004",
+      "sceneId": "c3-remove",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "是。我正在联系他们删。",
+      "src": "audio/voice/full-20261021/netlove-c3-remove-004.ogg"
+    },
+    {
+      "id": "netlove-c3-remove-005",
+      "lineId": "c3-remove-005",
+      "sceneId": "c3-remove",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "你先把这句告诉我，我就不用猜半天。",
+      "src": "audio/voice/full-20261021/netlove-c3-remove-005.ogg"
+    },
+    {
+      "id": "netlove-c3-remove-006",
+      "lineId": "c3-remove-006",
+      "sceneId": "c3-remove",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "对不起。我想解决了再说。",
+      "src": "audio/voice/full-20261021/netlove-c3-remove-006.ogg"
+    },
+    {
+      "id": "netlove-c3-remove-007",
+      "lineId": "c3-remove-007",
+      "sceneId": "c3-remove",
+      "lineIndex": 6,
+      "speaker": "许弥",
+      "text": "已经发生的事，不会因为你忙着处理就少发生一次。",
+      "src": "audio/voice/full-20261021/netlove-c3-remove-007.ogg"
+    },
+    {
+      "id": "netlove-c3-remove-009",
+      "lineId": "c3-remove-009",
+      "sceneId": "c3-remove",
+      "lineIndex": 8,
+      "speaker": "许弥",
+      "text": "这几处我们追不到。别给别人一个错的结论。",
+      "src": "audio/voice/full-20261021/netlove-c3-remove-009.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-003",
+      "lineId": "c3-repair-003",
+      "sceneId": "c3-repair",
+      "lineIndex": 2,
+      "speaker": "许弥",
+      "text": "他说愿意展。但是展哪张、配什么字，我重新跟他确认了。",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-003.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-004",
+      "lineId": "c3-repair-004",
+      "sceneId": "c3-repair",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "还办吗？",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-004.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-005",
+      "lineId": "c3-repair-005",
+      "sceneId": "c3-repair",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "办。否则店里只会留下别人转错的那张。",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-005.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-012",
+      "lineId": "c3-repair-012",
+      "sceneId": "c3-repair",
+      "lineIndex": 11,
+      "speaker": "许弥",
+      "text": "你现在别夸我坚强。",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-012.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-013",
+      "lineId": "c3-repair-013",
+      "sceneId": "c3-repair",
+      "lineIndex": 12,
+      "speaker": "周既明",
+      "text": "我想问那把椅子，明天还拍吗？",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-013.ogg"
+    },
+    {
+      "id": "netlove-c3-repair-014",
+      "lineId": "c3-repair-014",
+      "sceneId": "c3-repair",
+      "lineIndex": 13,
+      "speaker": "许弥",
+      "text": "拍。它坐得比我稳。",
+      "src": "audio/voice/full-20261021/netlove-c3-repair-014.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-003",
+      "lineId": "c3-frame-003",
+      "sceneId": "c3-frame",
+      "lineIndex": 2,
+      "speaker": "许弥",
+      "text": "你这显示器太蓝了。照片里的太阳像刚从冰箱拿出来。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-003.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-004",
+      "lineId": "c3-frame-004",
+      "sceneId": "c3-frame",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "那你给个标准。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-004.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-006",
+      "lineId": "c3-frame-006",
+      "sceneId": "c3-frame",
+      "lineIndex": 5,
+      "speaker": "许弥",
+      "text": "这是白。后面墙是发黄的白。我今天心情是没睡够的白。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-006.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-007",
+      "lineId": "c3-frame-007",
+      "sceneId": "c3-frame",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "第三种不能校色。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-007.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-008",
+      "lineId": "c3-frame-008",
+      "sceneId": "c3-frame",
+      "lineIndex": 7,
+      "speaker": "许弥",
+      "text": "第三种决定我今天还有没有耐心教你。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-008.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-010",
+      "lineId": "c3-frame-010",
+      "sceneId": "c3-frame",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "信封有什么用？",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-010.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-011",
+      "lineId": "c3-frame-011",
+      "sceneId": "c3-frame",
+      "lineIndex": 10,
+      "speaker": "许弥",
+      "text": "以前想把作品寄给外地的工作室。打印好了，没寄。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-011.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-012",
+      "lineId": "c3-frame-012",
+      "sceneId": "c3-frame",
+      "lineIndex": 11,
+      "speaker": "周既明",
+      "text": "现在还想去吗？",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-012.ogg"
+    },
+    {
+      "id": "netlove-c3-frame-013",
+      "lineId": "c3-frame-013",
+      "sceneId": "c3-frame",
+      "lineIndex": 12,
+      "speaker": "许弥",
+      "text": "想。但我得先让这里能少了我也运转。还有，作品需要重新选。",
+      "src": "audio/voice/full-20261021/netlove-c3-frame-013.ogg"
+    },
+    {
+      "id": "netlove-c3-end-002",
+      "lineId": "c3-end-002",
+      "sceneId": "c3-end",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "有个地方留空了。我总觉得填上就太满。",
+      "src": "audio/voice/full-20261021/netlove-c3-end-002.ogg"
+    },
+    {
+      "id": "netlove-c3-end-004",
+      "lineId": "c3-end-004",
+      "sceneId": "c3-end",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "留着吧。人看照片也会停一下。",
+      "src": "audio/voice/full-20261021/netlove-c3-end-004.ogg"
+    },
+    {
+      "id": "netlove-c3-end-005",
+      "lineId": "c3-end-005",
+      "sceneId": "c3-end",
+      "lineIndex": 4,
+      "speaker": "谢听禾",
+      "text": "好。",
+      "src": "audio/voice/full-20261021/netlove-c3-end-005.ogg"
+    },
+    {
+      "id": "netlove-c3-end-007",
+      "lineId": "c3-end-007",
+      "sceneId": "c3-end",
+      "lineIndex": 6,
+      "speaker": "谢听禾",
+      "text": "那就先做到今天能做到的。",
+      "src": "audio/voice/full-20261021/netlove-c3-end-007.ogg"
+    },
+    {
+      "id": "netlove-c4-open-009",
+      "lineId": "c4-open-009",
+      "sceneId": "c4-open",
+      "lineIndex": 8,
+      "speaker": "许弥",
+      "text": "你今天校色怎么只回一个“嗯”？",
+      "src": "audio/voice/full-20261021/netlove-c4-open-009.ogg"
+    },
+    {
+      "id": "netlove-c4-open-010",
+      "lineId": "c4-open-010",
+      "sceneId": "c4-open",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "实习终止了。听禾也一直没回。",
+      "src": "audio/voice/full-20261021/netlove-c4-open-010.ogg"
+    },
+    {
+      "id": "netlove-c4-open-011",
+      "lineId": "c4-open-011",
+      "sceneId": "c4-open",
+      "lineIndex": 10,
+      "speaker": "许弥",
+      "text": "她下午借路由器去了。你吃了没？别拿一件事给另一件事判结果。",
+      "src": "audio/voice/full-20261021/netlove-c4-open-011.ogg"
+    },
+    {
+      "id": "netlove-c4-wait-001",
+      "lineId": "c4-wait-001",
+      "sceneId": "c4-wait",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "看到你要借设备了。方便时再回，我先吃饭。",
+      "src": "audio/voice/full-20261021/netlove-c4-wait-001.ogg"
+    },
+    {
+      "id": "netlove-c4-wait-005",
+      "lineId": "c4-wait-005",
+      "sceneId": "c4-wait",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "给。明天要把寄送地址发过去。",
+      "src": "audio/voice/full-20261021/netlove-c4-wait-005.ogg"
+    },
+    {
+      "id": "netlove-c4-wait-006",
+      "lineId": "c4-wait-006",
+      "sceneId": "c4-wait",
+      "lineIndex": 5,
+      "speaker": "外婆",
+      "text": "那先办那件。",
+      "src": "audio/voice/full-20261021/netlove-c4-wait-006.ogg"
+    },
+    {
+      "id": "netlove-c4-wait-010",
+      "lineId": "c4-wait-010",
+      "sceneId": "c4-wait",
+      "lineIndex": 9,
+      "speaker": "谢听禾",
+      "text": "借到电脑了。很累，今晚想直接睡。明天再说好吗？",
+      "src": "audio/voice/full-20261021/netlove-c4-wait-010.ogg"
+    },
+    {
+      "id": "netlove-c4-wait-011",
+      "lineId": "c4-wait-011",
+      "sceneId": "c4-wait",
+      "lineIndex": 10,
+      "speaker": "周既明",
+      "text": "好。晚安。",
+      "src": "audio/voice/full-20261021/netlove-c4-wait-011.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-001",
+      "lineId": "c4-ask-001",
+      "sceneId": "c4-ask",
+      "lineIndex": 0,
+      "speaker": "周既明",
+      "text": "我有点担心。今天公司终止实习，我可能把几件事混在一起了。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-001.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-002",
+      "lineId": "c4-ask-002",
+      "sceneId": "c4-ask",
+      "lineIndex": 1,
+      "speaker": "周既明",
+      "text": "你忙完再回。以后有事可以留一句“今天不在”，不用解释全部。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-002.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-005",
+      "lineId": "c4-ask-005",
+      "sceneId": "c4-ask",
+      "lineIndex": 4,
+      "speaker": "谢听禾",
+      "text": "今天设备坏了，答辩又要换文件。我也急。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-005.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-006",
+      "lineId": "c4-ask-006",
+      "sceneId": "c4-ask",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "我看见你的消息时，第一反应是又有一件必须马上做的事。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-006.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-007",
+      "lineId": "c4-ask-007",
+      "sceneId": "c4-ask",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "对不起。我想听到你，又怕说得像在催。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-007.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-008",
+      "lineId": "c4-ask-008",
+      "sceneId": "c4-ask",
+      "lineIndex": 7,
+      "speaker": "谢听禾",
+      "text": "你可以说想我。我也可以今天没力气聊。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-008.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-009",
+      "lineId": "c4-ask-009",
+      "sceneId": "c4-ask",
+      "lineIndex": 8,
+      "speaker": "谢听禾",
+      "text": "“今天不在”这个办法可以。可是有时我连这句都会忘。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-009.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-010",
+      "lineId": "c4-ask-010",
+      "sceneId": "c4-ask",
+      "lineIndex": 9,
+      "speaker": "周既明",
+      "text": "那我们第二天再联系。真有急事，联系陆衡确认一次就好。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-010.ogg"
+    },
+    {
+      "id": "netlove-c4-ask-011",
+      "lineId": "c4-ask-011",
+      "sceneId": "c4-ask",
+      "lineIndex": 10,
+      "speaker": "谢听禾",
+      "text": "好。别让他每天点名。",
+      "src": "audio/voice/full-20261021/netlove-c4-ask-011.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-002",
+      "lineId": "c4-voice-002",
+      "sceneId": "c4-voice",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "老师问我，为什么收进自己的呼吸声。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-002.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-003",
+      "lineId": "c4-voice-003",
+      "sceneId": "c4-voice",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "你怎么答？",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-003.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-004",
+      "lineId": "c4-voice-004",
+      "sceneId": "c4-voice",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "说因为录音的人也住在这座城里。说完手一直抖。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-004.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-005",
+      "lineId": "c4-voice-005",
+      "sceneId": "c4-voice",
+      "lineIndex": 4,
+      "speaker": "周既明",
+      "text": "那你后来删了吗？",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-005.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-006",
+      "lineId": "c4-voice-006",
+      "sceneId": "c4-voice",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "没删。你那次叹气，我也没放进公开版。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-006.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-008",
+      "lineId": "c4-voice-008",
+      "sceneId": "c4-voice",
+      "lineIndex": 7,
+      "speaker": "谢听禾",
+      "text": "工作那件事，你还难受吗？",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-008.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-009",
+      "lineId": "c4-voice-009",
+      "sceneId": "c4-voice",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "难受。昨晚我把我们的聊天翻了好几遍，连标点都看了。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-009.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-010",
+      "lineId": "c4-voice-010",
+      "sceneId": "c4-voice",
+      "lineIndex": 9,
+      "speaker": "谢听禾",
+      "text": "那里面找不到公司的公章。你别再查我昨天少回了哪个字。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-010.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-011",
+      "lineId": "c4-voice-011",
+      "sceneId": "c4-voice",
+      "lineIndex": 10,
+      "speaker": "周既明",
+      "text": "嗯。我今天先把实习证明要回来。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-011.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-013",
+      "lineId": "c4-voice-013",
+      "sceneId": "c4-voice",
+      "lineIndex": 12,
+      "speaker": "谢听禾",
+      "text": "我们以后还会像现在这样说话吗？",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-013.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-014",
+      "lineId": "c4-voice-014",
+      "sceneId": "c4-voice",
+      "lineIndex": 13,
+      "speaker": "周既明",
+      "text": "不知道会不会每天。但我想。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-014.ogg"
+    },
+    {
+      "id": "netlove-c4-voice-015",
+      "lineId": "c4-voice-015",
+      "sceneId": "c4-voice",
+      "lineIndex": 14,
+      "speaker": "谢听禾",
+      "text": "我也想。可以先不用把每天都答应下来。",
+      "src": "audio/voice/full-20261021/netlove-c4-voice-015.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-003",
+      "lineId": "c4-envelope-003",
+      "sceneId": "c4-envelope",
+      "lineIndex": 2,
+      "speaker": "许弥",
+      "text": "以前总觉得奖状能替我说一句“这个人行”。",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-003.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-004",
+      "lineId": "c4-envelope-004",
+      "sceneId": "c4-envelope",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "这次给谁看？",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-004.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-005",
+      "lineId": "c4-envelope-005",
+      "sceneId": "c4-envelope",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "外地那家工作室。先问他们收不收新人作品。收了也未必去。",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-005.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-006",
+      "lineId": "c4-envelope-006",
+      "sceneId": "c4-envelope",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "店里呢？",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-006.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-007",
+      "lineId": "c4-envelope-007",
+      "sceneId": "c4-envelope",
+      "lineIndex": 6,
+      "speaker": "许弥",
+      "text": "我妈会接单了。网页上还有你写的大字。她说你把她当小学生。",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-007.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-008",
+      "lineId": "c4-envelope-008",
+      "sceneId": "c4-envelope",
+      "lineIndex": 7,
+      "speaker": "周既明",
+      "text": "她已经能自己改了吗？",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-008.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-009",
+      "lineId": "c4-envelope-009",
+      "sceneId": "c4-envelope",
+      "lineIndex": 8,
+      "speaker": "许弥",
+      "text": "能。改了八次“请稍等”，最后写成“我会看见”。",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-009.ogg"
+    },
+    {
+      "id": "netlove-c4-envelope-012",
+      "lineId": "c4-envelope-012",
+      "sceneId": "c4-envelope",
+      "lineIndex": 11,
+      "speaker": "许弥",
+      "text": "你要找新的实习，先用自己的名字。别什么都叫临时项目。",
+      "src": "audio/voice/full-20261021/netlove-c4-envelope-012.ogg"
+    },
+    {
+      "id": "netlove-c4-name-003",
+      "lineId": "c4-name-003",
+      "sceneId": "c4-name",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "还没有。只是想先用名字。",
+      "src": "audio/voice/full-20261021/netlove-c4-name-003.ogg"
+    },
+    {
+      "id": "netlove-c4-name-003--variant",
+      "lineId": "c4-name-003",
+      "sceneId": "c4-name",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "陆衡第一个发现，问我是不是终于把那条横线填完了。我想起那份写着自己名字的解释。",
+      "src": "audio/voice/full-20261021/netlove-c4-name-003--variant.ogg"
+    },
+    {
+      "id": "netlove-c4-name-004",
+      "lineId": "c4-name-004",
+      "sceneId": "c4-name",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "收到了。",
+      "src": "audio/voice/full-20261021/netlove-c4-name-004.ogg"
+    },
+    {
+      "id": "netlove-c4-name-005",
+      "lineId": "c4-name-005",
+      "sceneId": "c4-name",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "系统没发改名通知，你们怎么都盯着他看。",
+      "src": "audio/voice/full-20261021/netlove-c4-name-005.ogg"
+    },
+    {
+      "id": "netlove-c4-name-006",
+      "lineId": "c4-name-006",
+      "sceneId": "c4-name",
+      "lineIndex": 5,
+      "speaker": "陆衡",
+      "text": "因为他欠我一个需求单的筛选按钮。",
+      "src": "audio/voice/full-20261021/netlove-c4-name-006.ogg"
+    },
+    {
+      "id": "netlove-c5-open-006",
+      "lineId": "c5-open-006",
+      "sceneId": "c5-open",
+      "lineIndex": 5,
+      "speaker": "谢听禾",
+      "text": "明天要回学校取东西。今天下午可以去江边。",
+      "src": "audio/voice/full-20261021/netlove-c5-open-006.ogg"
+    },
+    {
+      "id": "netlove-c5-open-007",
+      "lineId": "c5-open-007",
+      "sceneId": "c5-open",
+      "lineIndex": 6,
+      "speaker": "许弥",
+      "text": "今天开门试营业。你们路过可以进来坐，但没有开业礼物。",
+      "src": "audio/voice/full-20261021/netlove-c5-open-007.ogg"
+    },
+    {
+      "id": "netlove-c5-open-008",
+      "lineId": "c5-open-008",
+      "sceneId": "c5-open",
+      "lineIndex": 7,
+      "speaker": "陆衡",
+      "text": "我四点下班。吃面可以，长篇演讲不行。",
+      "src": "audio/voice/full-20261021/netlove-c5-open-008.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-004",
+      "lineId": "c5-tinghe-004",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "你好。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-004.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-005",
+      "lineId": "c5-tinghe-005",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 4,
+      "speaker": "谢听禾",
+      "text": "你好。你的声音离近了，跟耳机里有点不一样。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-005.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-006",
+      "lineId": "c5-tinghe-006",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 5,
+      "speaker": "周既明",
+      "text": "失望吗？",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-006.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-007",
+      "lineId": "c5-tinghe-007",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 6,
+      "speaker": "谢听禾",
+      "text": "没有。只是要重新听一遍。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-007.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-011",
+      "lineId": "c5-tinghe-011",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 10,
+      "speaker": "谢听禾",
+      "text": "你今天约我，是想说什么吗？",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-011.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-013",
+      "lineId": "c5-tinghe-013",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 12,
+      "speaker": "周既明",
+      "text": "我喜欢和你一起待着。屏幕里也是，现在也是。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-013.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-014",
+      "lineId": "c5-tinghe-014",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 13,
+      "speaker": "周既明",
+      "text": "想继续认识你。你回学校之后，也想约你见面。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-014.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-016",
+      "lineId": "c5-tinghe-016",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 15,
+      "speaker": "谢听禾",
+      "text": "我也想。可是开学以后，我可能真的很忙。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-016.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-017",
+      "lineId": "c5-tinghe-017",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 16,
+      "speaker": "周既明",
+      "text": "你把有空的那天发给我。没话说的时候，也可以一起吃个饭。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-017.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-018",
+      "lineId": "c5-tinghe-018",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 17,
+      "speaker": "谢听禾",
+      "text": "那下次我可能只会说，我饿了。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-018.ogg"
+    },
+    {
+      "id": "netlove-c5-tinghe-019",
+      "lineId": "c5-tinghe-019",
+      "sceneId": "c5-tinghe",
+      "lineIndex": 18,
+      "speaker": "周既明",
+      "text": "这次也可以。前面有面馆。",
+      "src": "audio/voice/full-20261021/netlove-c5-tinghe-019.ogg"
+    },
+    {
+      "id": "netlove-end-tinghe-002",
+      "lineId": "end-tinghe-002",
+      "sceneId": "end-tinghe",
+      "lineIndex": 1,
+      "speaker": "谢听禾",
+      "text": "那天要不要一起录点声音？",
+      "src": "audio/voice/full-20261021/netlove-end-tinghe-002.ogg"
+    },
+    {
+      "id": "netlove-end-tinghe-003",
+      "lineId": "end-tinghe-003",
+      "sceneId": "end-tinghe",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "录完再吃面。",
+      "src": "audio/voice/full-20261021/netlove-end-tinghe-003.ogg"
+    },
+    {
+      "id": "netlove-end-tinghe-004",
+      "lineId": "end-tinghe-004",
+      "sceneId": "end-tinghe",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "好。这次别把汤喝完才问我吃不吃葱。",
+      "src": "audio/voice/full-20261021/netlove-end-tinghe-004.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-002",
+      "lineId": "c5-xumi-002",
+      "sceneId": "c5-xumi",
+      "lineIndex": 1,
+      "speaker": "许弥",
+      "text": "真人看起来，比蓝底照片自然一点。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-002.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-003",
+      "lineId": "c5-xumi-003",
+      "sceneId": "c5-xumi",
+      "lineIndex": 2,
+      "speaker": "周既明",
+      "text": "你还留着那张？",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-003.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-004",
+      "lineId": "c5-xumi-004",
+      "sceneId": "c5-xumi",
+      "lineIndex": 3,
+      "speaker": "许弥",
+      "text": "店里老客户的底片会归档。没拿来做展。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-004.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-007",
+      "lineId": "c5-xumi-007",
+      "sceneId": "c5-xumi",
+      "lineIndex": 6,
+      "speaker": "周既明",
+      "text": "决定去了？",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-007.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-008",
+      "lineId": "c5-xumi-008",
+      "sceneId": "c5-xumi",
+      "lineIndex": 7,
+      "speaker": "许弥",
+      "text": "先寄作品。周四聊完才知道去不去，火车票还没买。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-008.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-009",
+      "lineId": "c5-xumi-009",
+      "sceneId": "c5-xumi",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "那先说近一点的。明早有空吗？",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-009.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-010",
+      "lineId": "c5-xumi-010",
+      "sceneId": "c5-xumi",
+      "lineIndex": 9,
+      "speaker": "许弥",
+      "text": "你说。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-010.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-011",
+      "lineId": "c5-xumi-011",
+      "sceneId": "c5-xumi",
+      "lineIndex": 10,
+      "speaker": "周既明",
+      "text": "明天早上，要不要一起吃早饭？不用我帮你修网页。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-011.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-013",
+      "lineId": "c5-xumi-013",
+      "sceneId": "c5-xumi",
+      "lineIndex": 12,
+      "speaker": "许弥",
+      "text": "你是想当我的固定技术支持，还是想约我？",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-013.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-014",
+      "lineId": "c5-xumi-014",
+      "sceneId": "c5-xumi",
+      "lineIndex": 13,
+      "speaker": "周既明",
+      "text": "想约你。也想以后继续约。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-014.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-015",
+      "lineId": "c5-xumi-015",
+      "sceneId": "c5-xumi",
+      "lineIndex": 14,
+      "speaker": "许弥",
+      "text": "好。七点半，拐角那家。晚了我会自己先吃。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-015.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-016",
+      "lineId": "c5-xumi-016",
+      "sceneId": "c5-xumi",
+      "lineIndex": 15,
+      "speaker": "周既明",
+      "text": "我会提前到。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-016.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-017",
+      "lineId": "c5-xumi-017",
+      "sceneId": "c5-xumi",
+      "lineIndex": 16,
+      "speaker": "许弥",
+      "text": "别提前半小时。我不想刚起床就欠你一个很隆重的早晨。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-017.ogg"
+    },
+    {
+      "id": "netlove-c5-xumi-019",
+      "lineId": "c5-xumi-019",
+      "sceneId": "c5-xumi",
+      "lineIndex": 18,
+      "speaker": "许弥",
+      "text": "下次一起拍的照片放这儿。拍之前我会问你。",
+      "src": "audio/voice/full-20261021/netlove-c5-xumi-019.ogg"
+    },
+    {
+      "id": "netlove-end-xumi-003",
+      "lineId": "end-xumi-003",
+      "sceneId": "end-xumi",
+      "lineIndex": 2,
+      "speaker": "许弥",
+      "text": "说好的提前呢？",
+      "src": "audio/voice/full-20261021/netlove-end-xumi-003.ogg"
+    },
+    {
+      "id": "netlove-end-xumi-004",
+      "lineId": "end-xumi-004",
+      "sceneId": "end-xumi",
+      "lineIndex": 3,
+      "speaker": "周既明",
+      "text": "以后我核对一下路线。",
+      "src": "audio/voice/full-20261021/netlove-end-xumi-004.ogg"
+    },
+    {
+      "id": "netlove-end-xumi-005",
+      "lineId": "end-xumi-005",
+      "sceneId": "end-xumi",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "下次发条消息。我刚才还替你挡了一回收碗的阿姨。",
+      "src": "audio/voice/full-20261021/netlove-end-xumi-005.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-003",
+      "lineId": "c5-friends-003",
+      "sceneId": "c5-friends",
+      "lineIndex": 2,
+      "speaker": "陆衡",
+      "text": "你们网上打字那么快，怎么真人都不说话？",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-003.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-004",
+      "lineId": "c5-friends-004",
+      "sceneId": "c5-friends",
+      "lineIndex": 3,
+      "speaker": "许弥",
+      "text": "在忙。你那碗不需要挑吗？",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-004.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-005",
+      "lineId": "c5-friends-005",
+      "sceneId": "c5-friends",
+      "lineIndex": 4,
+      "speaker": "陆衡",
+      "text": "我的世界比较宽容。",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-005.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-009",
+      "lineId": "c5-friends-009",
+      "sceneId": "c5-friends",
+      "lineIndex": 8,
+      "speaker": "周既明",
+      "text": "互助群以后不用每天看了吧？",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-009.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-010",
+      "lineId": "c5-friends-010",
+      "sceneId": "c5-friends",
+      "lineIndex": 9,
+      "speaker": "陆衡",
+      "text": "大群不用。小群看你们。别都等我喊。",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-010.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-011",
+      "lineId": "c5-friends-011",
+      "sceneId": "c5-friends",
+      "lineIndex": 10,
+      "speaker": "许弥",
+      "text": "换个名字。不想每天打开都像还没营业。",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-011.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-012",
+      "lineId": "c5-friends-012",
+      "sceneId": "c5-friends",
+      "lineIndex": 11,
+      "speaker": "谢听禾",
+      "text": "“这周谁有空”？",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-012.ogg"
+    },
+    {
+      "id": "netlove-c5-friends-014",
+      "lineId": "c5-friends-014",
+      "sceneId": "c5-friends",
+      "lineIndex": 13,
+      "speaker": "陆衡",
+      "text": "你看，还是得我有空。",
+      "src": "audio/voice/full-20261021/netlove-c5-friends-014.ogg"
+    },
+    {
+      "id": "netlove-c5-letter-004",
+      "lineId": "c5-letter-004",
+      "sceneId": "c5-letter",
+      "lineIndex": 3,
+      "speaker": "谢听禾",
+      "text": "好。想见的时候再问，不用赶在今天。",
+      "src": "audio/voice/full-20261021/netlove-c5-letter-004.ogg"
+    },
+    {
+      "id": "netlove-c5-letter-005",
+      "lineId": "c5-letter-005",
+      "sceneId": "c5-letter",
+      "lineIndex": 4,
+      "speaker": "许弥",
+      "text": "信封我给你留着。",
+      "src": "audio/voice/full-20261021/netlove-c5-letter-005.ogg"
+    },
+    {
+      "id": "netlove-c5-letter-006",
+      "lineId": "c5-letter-006",
+      "sceneId": "c5-letter",
+      "lineIndex": 5,
+      "speaker": "陆衡",
+      "text": "你别又把午饭整理没了。",
+      "src": "audio/voice/full-20261021/netlove-c5-letter-006.ogg"
+    }
+  ]
+}

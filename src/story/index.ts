@@ -16,8 +16,9 @@ export const endingInfo: Record<Ending, { label: string; subtitle: string; badge
   'letter-final': { label: '离线也会想念', subtitle: '各自回到生活里，承认相遇真实，也允许关系停在这里。', badge: '个人篇 · 告别' },
 };
 export const finalEndingIds: Ending[] = Object.keys(endingInfo) as Ending[];
-export const eventCgIds: EventCgId[] = ['tinghe-meeting', 'xumi-envelope', 'four-bowls'];
+export const eventCgIds: EventCgId[] = ['tinghe-meeting', 'xumi-envelope', 'four-bowls', 'own-letter'];
 export const cgInfo = {
+  'own-letter': { title: '给自己的信', description: '折好的信和旧采购清单，留在自己的生活里。' },
   'four-bowls': { title: '四碗面', description: '四碗面摆满小桌，手机先收进口袋。' },
   'tinghe-meeting': { title: '听见你的地方', description: '五月江边，谢听禾带着录音笔，第一次当面听见你的声音。' },
   'xumi-envelope': { title: '下一张合照', description: '重开的照相馆里，许弥递来一只留给下一张照片的空白信封。' },
@@ -31,6 +32,10 @@ export function pictureAsset(id: string): string {
   return eventCgIds.includes(id as EventCgId) ? `cg-${id}` : id;
 }
 export const characterInfo = {
+  jiming: { name: '周既明', role: '23 岁 / 网页制作实习生 / 玩家视角', subtitle: '在陌生的互助群里，学着把承诺落到自己的日常。', quote: '“想继续认识你。”' },
+  luheng: { name: '陆衡', role: '24 岁 / 药店店员 / 互助群管理员', subtitle: '核对药名和采购清单，也记得喊朋友一起吃午饭。', quote: '“大群不用。小群看你们。别都等我喊。”' },
+  grandma: { name: '外婆', role: '谢听禾的外婆', subtitle: '隔着电话关心听禾，也有自己的生活安排。', quote: '电话里的惦念，保留在她们自己的生活里。' },
+
   tinghe: { name: '谢听禾', role: '22 岁 / 声音设计学生 / 一格信号', subtitle: '栗棕低辫、蓝色发夹、芥黄色开衫。她记录窗外的声音，也会删掉录音里自己的停顿。', quote: '“这一段别降噪了。我想知道你那边也在下雨。”' },
   xumi: { name: '许弥', role: '23 岁 / 照相馆助理 / 暂停营业', subtitle: '蓝黑短发、珊瑚发夹、青色围裙。帮别人把照片冲洗清楚，自己的计划却迟迟没有交卷。', quote: '“寄不到也先留着。信封又不会催你。”' },
 };

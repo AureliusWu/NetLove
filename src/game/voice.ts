@@ -61,6 +61,6 @@ export class RecordedVoice {
   }
   resume(){if(this.state.status==='paused'||this.state.status==='blocked')void this.play();}
   unlock(){if(this.state.status==='blocked')void this.play();}
-  private stopAudio(){this.generation++;if(this.audio){this.audio.onended=null;this.audio.onerror=null;this.audio.pause();this.audio=null;}}
+  private stopAudio(){this.generation++;if(this.audio){this.audio.onended=null;this.audio.onerror=null;this.audio.pause();this.audio.removeAttribute?.('src');this.audio.load?.();this.audio=null;}}
   stop(){this.stopAudio();this.visit='';this.historyReplay=false;this.state={status:'idle',userPaused:false};this.emit({});}
 }

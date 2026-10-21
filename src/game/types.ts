@@ -1,7 +1,7 @@
-export type Character = 'tinghe' | 'xumi';
+export type Character = 'tinghe' | 'xumi' | 'luheng' | 'jiming' | 'grandma';
 export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
 export type Background = 'bedroom' | 'balcony' | 'gate' | 'printshop' | 'riverbank';
-export type EventCgId = 'tinghe-meeting' | 'xumi-envelope' | 'four-bowls';
+export type EventCgId = 'tinghe-meeting' | 'xumi-envelope' | 'four-bowls' | 'own-letter';
 export type CgId = Background | EventCgId;
 export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain' | 'four-bowls';
 export type Ending = 'tinghe-final' | 'xumi-final' | 'friends-final' | 'letter-final';

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "assets": [
+    {
+      "id": "own-letter",
+      "title": "给自己的信",
+      "kind": "cg",
+      "binding": "end-letter",
+      "source": "assets_source/cg/full-20261021/own-letter.png",
+      "sourceSha256": "c85249f32d4ed67b737fb6399d736fc9237c520e6883d1c33ab77d4c133401c2",
+      "sourceLibraryId": "libfile_15b442e228448191ac530d19d9a0a855",
+      "output": "public/art/cg-own-letter.webp",
+      "sha256": "52fb93a2d1548c0f3be2714bb4b49ec4e1cfe0bc630bcd512efe3c579115f6c4",
+      "width": 1672,
+      "height": 941,
+      "tool": "image_gen",
+      "promptStatus": "original_generation_request_not_retained_in_recovered_PNG",
+      "prompt": null,
+      "approval": "agent_visual_review_human_final_pending"
+    }
+  ],
+  "humanVisualApproval": false
+}

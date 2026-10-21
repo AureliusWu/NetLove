@@ -50,7 +50,7 @@ describe('complete reading backup', () => {
     const retained = [data.get(`${KEY}:save:2`), data.get(`${KEY}:chapter:2`), data.get(`${KEY}:ending:xumi-final`)];
     backup.memories.gallery = ['bedroom']; applyProgressImport(decodeProgressFile(JSON.stringify(backup)));
     expect([data.get(`${KEY}:save:2`), data.get(`${KEY}:chapter:2`), data.get(`${KEY}:ending:xumi-final`)]).toEqual(retained);
-    expect(readGallery()).toHaveLength(8); expect(readEndings()).toHaveLength(4);
+    expect(readGallery()).toHaveLength(9); expect(readEndings()).toHaveLength(4);
   });
   it('keeps a reached event picture proof after starting over, and rejects a forged unread event', () => {
     const state = replay(decisions, 'c5-tinghe', 4);

@@ -1,6 +1,6 @@
 import type { Character, Expression, Scene } from './types';
 const speakers: Record<string, Character | undefined> = { 谢听禾: 'tinghe', 许弥: 'xumi' };
-export const characterIds: Character[] = ['tinghe', 'xumi'];
+export const characterIds: Character[] = ['tinghe', 'xumi', 'luheng', 'jiming', 'grandma'];
 export const expressionIds: Expression[] = ['neutral', 'smile', 'surprised', 'worried', 'hurt', 'shy'];
 export const expressionLabels: Record<Expression, string> = {
   neutral: '平静', smile: '微笑', surprised: '惊讶', worried: '担忧', hurt: '委屈', shy: '害羞',

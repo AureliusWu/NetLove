@@ -43,10 +43,24 @@ it('does not play a newly loaded line while hidden, supports explicit same-line 
  voice.configure(true,1,true,true,false);await settle();voice.enter(clip,'same-line-new-session');await settle();expect(audios).toHaveLength(2);expect(audios[0].paused).toBe(true);
  voice.configure(false,1,true,true,false);expect(voice.getState().status).toBe('idle');expect(voiceBlocksAuto(voice.getState())).toBe(false);
 });
-it('keeps planned line bindings exact without publishing placeholder recordings or chat voices',()=>{
- const plan=JSON.parse(readFileSync('docs/production/VOICE-BINDINGS-v0.3.0.json','utf8'));
- expect(plan.clips).toHaveLength(10);expect(plan.publishedClips).toBe(voiceClips.length);expect(voiceClips).toHaveLength(8);
- for(const planned of plan.clips){const scene=scenes.find(scene=>scene.id===planned.sceneId)!;const line=scene.lines.find(line=>line.id===planned.lineId)!;expect(line.text).toBe(planned.text);expect(line.speaker).toBe(planned.speaker);expect(line.medium).not.toBe('chat');expect(createHash('sha256').update(line.text).digest('hex')).toBe(planned.textSha256);const recorded=voiceClips.find(clip=>clip.lineId===line.id);if(recorded){expect(voiceFor(line)).toEqual(recorded);expect(planned.status).toBe('recorded-pending-human-listening');const bytes=readFileSync(`public/${recorded.src}`);expect(bytes.subarray(0,4).toString()).toBe('OggS');}else{expect(voiceFor(line)).toBeUndefined();expect(planned.status).toBe('planned-not-recorded');}}
+it('binds all 220 recordings, including written human messages and the conditional alternate', () => {
+ const plan=JSON.parse(readFileSync('docs/production/full-media/dialogue-plan.json','utf8'));
+ const report=JSON.parse(readFileSync('docs/production/full-media/runtime-voice.json','utf8'));
+ expect(voiceClips).toHaveLength(220); expect(report.pending).toEqual([]);
+ for(const planned of plan.lines) {
+   const scene=scenes.find(scene=>scene.id===planned.sceneId)!;
+   const authored=scene.lines[planned.lineIndex];
+   const line={...authored,text:planned.sourceText??planned.text};
+   const recorded=voiceFor(line); expect(recorded,planned.id).toBeDefined();
+   expect(recorded!.id).toBe(planned.id);
+   const bytes=readFileSync('public/'+recorded!.src);
+   expect(bytes.subarray(0,4).toString()).toBe('OggS');
+   expect(createHash('sha256').update(bytes).digest('hex')).toBe(report.bindings.find((b:{id:string})=>b.id===planned.id).sha256);
+ }
+ for(const scene of scenes) for(const line of scene.lines) {
+   if(line.speaker==='旁白') expect(voiceFor(line)).toBeUndefined();
+ }
+ expect(voiceFor(scenes.find(s=>s.id==='c1-end')!.lines[0])).toBeDefined();
 });
 it('defaults independent voice preferences for older settings',()=>{
  const original=Object.getOwnPropertyDescriptor(globalThis,'localStorage');Object.defineProperty(globalThis,'localStorage',{configurable:true,value:{getItem:(key:string)=>key===`${KEY}:settings`?'{"volume":0.1,"voiceVolume":3}':null}});

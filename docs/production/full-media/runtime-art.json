@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "outputs": [
+    {
+      "id": "luheng",
+      "output": "public/art/luheng-expressions.webp",
+      "sha256": "c3d0158e2acd36b26ed1c991b41a69526146c41ea1fe6e5bf07b5ae04c6db727"
+    },
+    {
+      "id": "jiming",
+      "output": "public/art/jiming-expressions.webp",
+      "sha256": "83d5bd3c0ea6c7d4330549e78af37b92d30e80d311a033a5ff624eedc1bf671d"
+    },
+    {
+      "id": "grandma",
+      "output": "public/art/grandma-expressions.webp",
+      "sha256": "cfcfc1e776ad0fe1517c3c7f52446ae273c6408c9edd27629d1982d83ca6d065"
+    },
+    {
+      "id": "own-letter",
+      "output": "public/art/cg-own-letter.webp",
+      "sha256": "52fb93a2d1548c0f3be2714bb4b49ec4e1cfe0bc630bcd512efe3c579115f6c4"
+    }
+  ],
+  "humanVisualApproval": false,
+  "release": "not_published",
+  "status": "runtime_files_prepared"
+}

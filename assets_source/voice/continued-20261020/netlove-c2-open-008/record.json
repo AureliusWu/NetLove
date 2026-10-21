@@ -13,12 +13,50 @@
   "medium": "chat",
   "requestSha256": "676658e1d576296297f04abfdaecdca8f2d50e9b9c78140360ad04962a18f05d",
   "attempt": 5,
-  "status": "needs_review",
+  "status": "accepted",
   "asr": {
     "transcript": "听是听见的听 和是道子的和",
     "cer": 0.25,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": true,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "听是听见的听禾是稻子的禾",
+      "observed": "听是听见的听和是道子的和",
+      "expectedSyllables": [
+        "ting1",
+        "shi4",
+        "ting1",
+        "jian4",
+        "de5",
+        "ting1",
+        "he2",
+        "shi4",
+        "dao4",
+        "zi5",
+        "de5",
+        "he2"
+      ],
+      "observedSyllables": [
+        "ting1",
+        "shi4",
+        "ting1",
+        "jian4",
+        "de5",
+        "ting1",
+        "he2",
+        "shi4",
+        "dao4",
+        "zi5",
+        "de5",
+        "he2"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": true,
+      "humanListening": false
+    },
+    "acceptance": "exact_toned_homophones"
   },
   "duration": 3.52,
   "wallSeconds": 214.472,
@@ -51,5 +89,5 @@
       "sha256": "94418ea14a5c0ac71a80e680f86693a3fd2ea00e881cea1665e9e1bb7b93737c"
     }
   },
-  "recoveredFromRun": 39436514322
+  "recoveredFromRun": 39522070665
 }

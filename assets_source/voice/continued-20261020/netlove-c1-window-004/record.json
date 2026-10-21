@@ -12,44 +12,73 @@
   "textSha256": "ba0a1cb87495d6e9ee63314f9442b3fc1de3ab0005db20a7e3e0b4f3b330f270",
   "medium": "chat",
   "requestSha256": "0e113e8f9fbca05750cf9c2c92b6f60f9d4015d11a912f95bf748af0696a3ce3",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
     "transcript": "两一干 风一吹就响",
     "cer": 0.375,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "晾衣杆风一吹就响",
+      "observed": "两一干风一吹就响",
+      "expectedSyllables": [
+        "liang4",
+        "yi1",
+        "gan1",
+        "feng1",
+        "yi1",
+        "chui1",
+        "jiu4",
+        "xiang3"
+      ],
+      "observedSyllables": [
+        "liang3",
+        "yi1",
+        "gan1",
+        "feng1",
+        "yi1",
+        "chui1",
+        "jiu4",
+        "xiang3"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 1.84,
-  "wallSeconds": 69.356,
+  "duration": 2.0,
+  "wallSeconds": 12.576,
   "loudness": {
-    "input_i": "-24.73",
-    "input_tp": "-8.93",
+    "input_i": "-22.66",
+    "input_tp": "-4.15",
     "input_lra": "0.00",
-    "input_thresh": "-34.73",
-    "output_i": "-19.99",
-    "output_tp": "-4.20",
+    "input_thresh": "-32.66",
+    "output_i": "-20.50",
+    "output_tp": "-2.00",
     "output_lra": "0.00",
-    "output_thresh": "-29.99",
+    "output_thresh": "-30.50",
     "normalization_type": "linear",
-    "target_offset": "-0.01"
+    "target_offset": "0.50"
   },
   "files": {
     "raw": {
       "path": "netlove-c1-window-004/raw.wav",
-      "bytes": 176720,
-      "sha256": "d97251981e7ed50092c1dc95461b43dce7cfa7176489522f90c13efe2b0d9563"
+      "bytes": 192080,
+      "sha256": "9e0016e2d59d165e1bc0e91010dfd5efc99200951f8744dd81244300d63250a9"
     },
     "master": {
       "path": "netlove-c1-window-004/master.wav",
-      "bytes": 88398,
-      "sha256": "ca450dcc8cb7ee547971eeed45d22bd27b9a7f5a25582e426a69848506339b8f"
+      "bytes": 96078,
+      "sha256": "dfacee7c74b3514e117f33426cae2b98876ddb2d89c47f59cafd09714f5fe0e4"
     },
     "runtime": {
       "path": "netlove-c1-window-004/runtime.ogg",
-      "bytes": 16911,
-      "sha256": "95fd59c1dbaef316f137750112e14672f5993e563cd61956a717f5eb958f5437"
+      "bytes": 18318,
+      "sha256": "d7f5a48319c3e71d3ce74f382d74be9eedb815f90536df6393affd41eaa2db41"
     }
   },
-  "recoveredFromRun": 39436514322
+  "recoveredFromRun": 39522070665
 }

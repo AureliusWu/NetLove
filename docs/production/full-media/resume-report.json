@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "project": "NetLove",
-  "sourceRun": 39436514322,
+  "sourceRun": 39522070665,
   "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
   "target": 220,
-  "accepted": 216,
-  "pendingCount": 4,
+  "accepted": 217,
+  "pendingCount": 3,
   "pending": [
     {
       "id": "netlove-c1-window-004",
@@ -15,19 +15,36 @@
         "transcript": "两一干 风一吹就响",
         "cer": 0.375,
         "polarityCountsMatch": true,
-        "passed": false
-      },
-      "error": null
-    },
-    {
-      "id": "netlove-c2-open-008",
-      "text": "听是听见的听。禾是稻子的禾。",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "听是听见的听 和是道子的和",
-        "cer": 0.25,
-        "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "晾衣杆风一吹就响",
+          "observed": "两一干风一吹就响",
+          "expectedSyllables": [
+            "liang4",
+            "yi1",
+            "gan1",
+            "feng1",
+            "yi1",
+            "chui1",
+            "jiu4",
+            "xiang3"
+          ],
+          "observedSyllables": [
+            "liang3",
+            "yi1",
+            "gan1",
+            "feng1",
+            "yi1",
+            "chui1",
+            "jiu4",
+            "xiang3"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
       "error": null
     },
@@ -36,10 +53,37 @@
       "text": "拍。它坐得比我稳。",
       "status": "needs_review",
       "asr": {
-        "transcript": "嗨 她做我的比我穩",
-        "cer": 0.714286,
+        "transcript": "他?他做得比我穩",
+        "cer": 0.428571,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "拍它坐得比我稳",
+          "observed": "他他做得比我稳",
+          "expectedSyllables": [
+            "pai1",
+            "ta1",
+            "zuo4",
+            "de2",
+            "bi3",
+            "wo3",
+            "wen3"
+          ],
+          "observedSyllables": [
+            "ta1",
+            "ta1",
+            "zuo4",
+            "de2",
+            "bi3",
+            "wo3",
+            "wen3"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
       "error": null
     },
@@ -48,10 +92,53 @@
       "text": "没删。你那次叹气，我也没放进公开版。",
       "status": "needs_review",
       "asr": {
-        "transcript": "梅山,你那次探棄,我也沒放進公開板。",
+        "transcript": "梅山,你那次探棄我也沒放進公開吧",
         "cer": 0.333333,
         "polarityCountsMatch": false,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "没删你那次叹气我也没放进公开版",
+          "observed": "梅山你那次探弃我也没放进公开吧",
+          "expectedSyllables": [
+            "mei2",
+            "shan1",
+            "ni3",
+            "na4",
+            "ci4",
+            "tan4",
+            "qi4",
+            "wo3",
+            "ye3",
+            "mei2",
+            "fang4",
+            "jin4",
+            "gong1",
+            "kai1",
+            "ban3"
+          ],
+          "observedSyllables": [
+            "mei2",
+            "shan1",
+            "ni3",
+            "na4",
+            "ci4",
+            "tan4",
+            "qi4",
+            "wo3",
+            "ye3",
+            "mei2",
+            "fang4",
+            "jin4",
+            "gong1",
+            "kai1",
+            "ba5"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": false,
+          "passed": false,
+          "humanListening": false
+        }
       },
       "error": null
     }

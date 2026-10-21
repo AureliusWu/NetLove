@@ -12,44 +12,87 @@
   "textSha256": "02d3035be290f3565b0855b86a5f5adbc6abb6bd0fd0d0b64d6f49494ae797cf",
   "medium": "call",
   "requestSha256": "04101565d9f851b46f8500337e8be06b8dc96aa6af48a2ba7a74326cdac28fff",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "梅山,你那次探棄,我也沒放進公開板。",
+    "transcript": "梅山,你那次探棄我也沒放進公開吧",
     "cer": 0.333333,
     "polarityCountsMatch": false,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "没删你那次叹气我也没放进公开版",
+      "observed": "梅山你那次探弃我也没放进公开吧",
+      "expectedSyllables": [
+        "mei2",
+        "shan1",
+        "ni3",
+        "na4",
+        "ci4",
+        "tan4",
+        "qi4",
+        "wo3",
+        "ye3",
+        "mei2",
+        "fang4",
+        "jin4",
+        "gong1",
+        "kai1",
+        "ban3"
+      ],
+      "observedSyllables": [
+        "mei2",
+        "shan1",
+        "ni3",
+        "na4",
+        "ci4",
+        "tan4",
+        "qi4",
+        "wo3",
+        "ye3",
+        "mei2",
+        "fang4",
+        "jin4",
+        "gong1",
+        "kai1",
+        "ba5"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": false,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 3.52,
-  "wallSeconds": 21.07,
+  "duration": 3.76,
+  "wallSeconds": 22.308,
   "loudness": {
-    "input_i": "-24.23",
-    "input_tp": "-8.86",
-    "input_lra": "0.30",
-    "input_thresh": "-34.37",
-    "output_i": "-19.86",
-    "output_tp": "-4.43",
+    "input_i": "-24.58",
+    "input_tp": "-10.05",
+    "input_lra": "0.10",
+    "input_thresh": "-34.72",
+    "output_i": "-19.63",
+    "output_tp": "-5.07",
     "output_lra": "0.00",
-    "output_thresh": "-29.86",
+    "output_thresh": "-29.89",
     "normalization_type": "dynamic",
-    "target_offset": "-0.14"
+    "target_offset": "-0.37"
   },
   "files": {
     "raw": {
       "path": "netlove-c4-voice-006/raw.wav",
-      "bytes": 338000,
-      "sha256": "d945fe17e137e73e3eb01bc75f2c8d826b3b374d2cfa4a993b7f90d5646c7f59"
+      "bytes": 361040,
+      "sha256": "1a4a974296dc089d0e5000d5bd285c6f6f639b1a9b49a6eb988e52458efcb68d"
     },
     "master": {
       "path": "netlove-c4-voice-006/master.wav",
-      "bytes": 169038,
-      "sha256": "389d9ef075bb1285a1d49357b75d68641166c20505dd130a7ce7127a49407efc"
+      "bytes": 180558,
+      "sha256": "5bc874776a05b1b5530615d2e5071efc5c89438b7e9c7399552a73f740a30daa"
     },
     "runtime": {
       "path": "netlove-c4-voice-006/runtime.ogg",
-      "bytes": 28827,
-      "sha256": "4f722d16ffc4b218291724870d98b94211ddb2a97d508d05795ecadfcd363322"
+      "bytes": 30270,
+      "sha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
     }
   },
-  "recoveredFromRun": 39436514322
+  "recoveredFromRun": 39522070665
 }

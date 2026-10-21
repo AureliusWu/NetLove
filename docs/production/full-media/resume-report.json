@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "NetLove",
-  "sourceRun": 39525777280,
+  "sourceRun": 39561182473,
   "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
   "target": 220,
   "accepted": 219,
@@ -12,7 +12,7 @@
       "text": "拍。它坐得比我稳。",
       "status": "needs_review",
       "asr": {
-        "transcript": "他,他做得比我穩",
+        "transcript": "他…他做得比我稳",
         "cer": 0.428571,
         "polarityCountsMatch": true,
         "passed": false,

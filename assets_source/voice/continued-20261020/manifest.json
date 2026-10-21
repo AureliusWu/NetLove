@@ -2107,16 +2107,16 @@
       "medium": "chat",
       "requestSha256": "0e113e8f9fbca05750cf9c2c92b6f60f9d4015d11a912f95bf748af0696a3ce3",
       "attempt": 8,
-      "status": "needs_review",
+      "status": "accepted",
       "asr": {
-        "transcript": "两一干 风一吹就响",
-        "cer": 0.375,
+        "transcript": "晾一干风一吹就响",
+        "cer": 0.25,
         "polarityCountsMatch": true,
-        "passed": false,
+        "passed": true,
         "phoneticReview": {
           "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
           "expected": "晾衣杆风一吹就响",
-          "observed": "两一干风一吹就响",
+          "observed": "晾一干风一吹就响",
           "expectedSyllables": [
             "liang4",
             "yi1",
@@ -2128,7 +2128,7 @@
             "xiang3"
           ],
           "observedSyllables": [
-            "liang3",
+            "liang4",
             "yi1",
             "gan1",
             "feng1",
@@ -2139,9 +2139,13 @@
           ],
           "sameLength": true,
           "polarityCountsMatch": true,
-          "passed": false,
+          "passed": true,
           "humanListening": false
-        }
+        },
+        "acceptance": "exact_toned_homophones",
+        "model": "Systran/faster-whisper-medium",
+        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+        "audioSha256": "d7f5a48319c3e71d3ce74f382d74be9eedb815f90536df6393affd41eaa2db41"
       },
       "duration": 2.0,
       "wallSeconds": 12.576,
@@ -2174,7 +2178,44 @@
           "sha256": "d7f5a48319c3e71d3ce74f382d74be9eedb815f90536df6393affd41eaa2db41"
         }
       },
-      "recoveredFromRun": 39522070665
+      "recoveredFromRun": 39522070665,
+      "asrReviewHistory": [
+        {
+          "transcript": "两一干 风一吹就响",
+          "cer": 0.375,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "phoneticReview": {
+            "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+            "expected": "晾衣杆风一吹就响",
+            "observed": "两一干风一吹就响",
+            "expectedSyllables": [
+              "liang4",
+              "yi1",
+              "gan1",
+              "feng1",
+              "yi1",
+              "chui1",
+              "jiu4",
+              "xiang3"
+            ],
+            "observedSyllables": [
+              "liang3",
+              "yi1",
+              "gan1",
+              "feng1",
+              "yi1",
+              "chui1",
+              "jiu4",
+              "xiang3"
+            ],
+            "sameLength": true,
+            "polarityCountsMatch": true,
+            "passed": false,
+            "humanListening": false
+          }
+        }
+      ]
     },
     {
       "id": "netlove-c1-window-005",
@@ -6635,14 +6676,14 @@
       "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "他?他做得比我穩",
+        "transcript": "嗨,她坐的比我穩",
         "cer": 0.428571,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
           "expected": "拍它坐得比我稳",
-          "observed": "他他做得比我稳",
+          "observed": "嗨她坐的比我稳",
           "expectedSyllables": [
             "pai1",
             "ta1",
@@ -6653,10 +6694,10 @@
             "wen3"
           ],
           "observedSyllables": [
-            "ta1",
+            "hai1",
             "ta1",
             "zuo4",
-            "de2",
+            "de5",
             "bi3",
             "wo3",
             "wen3"
@@ -6665,7 +6706,10 @@
           "polarityCountsMatch": true,
           "passed": false,
           "humanListening": false
-        }
+        },
+        "model": "Systran/faster-whisper-medium",
+        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+        "audioSha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
       },
       "duration": 3.04,
       "wallSeconds": 17.998,
@@ -6698,7 +6742,42 @@
           "sha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
         }
       },
-      "recoveredFromRun": 39522070665
+      "recoveredFromRun": 39522070665,
+      "asrReviewHistory": [
+        {
+          "transcript": "他?他做得比我穩",
+          "cer": 0.428571,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "phoneticReview": {
+            "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+            "expected": "拍它坐得比我稳",
+            "observed": "他他做得比我稳",
+            "expectedSyllables": [
+              "pai1",
+              "ta1",
+              "zuo4",
+              "de2",
+              "bi3",
+              "wo3",
+              "wen3"
+            ],
+            "observedSyllables": [
+              "ta1",
+              "ta1",
+              "zuo4",
+              "de2",
+              "bi3",
+              "wo3",
+              "wen3"
+            ],
+            "sameLength": true,
+            "polarityCountsMatch": true,
+            "passed": false,
+            "humanListening": false
+          }
+        }
+      ]
     },
     {
       "id": "netlove-c3-frame-003",
@@ -8587,14 +8666,14 @@
       "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "梅山,你那次探棄我也沒放進公開吧",
-        "cer": 0.333333,
+        "transcript": "梅珊,你那次探氣我也沒放進公開吧?",
+        "cer": 0.266667,
         "polarityCountsMatch": false,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
           "expected": "没删你那次叹气我也没放进公开版",
-          "observed": "梅山你那次探弃我也没放进公开吧",
+          "observed": "梅珊你那次探气我也没放进公开吧",
           "expectedSyllables": [
             "mei2",
             "shan1",
@@ -8633,7 +8712,10 @@
           "polarityCountsMatch": false,
           "passed": false,
           "humanListening": false
-        }
+        },
+        "model": "Systran/faster-whisper-medium",
+        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+        "audioSha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
       },
       "duration": 3.76,
       "wallSeconds": 22.308,
@@ -8666,7 +8748,58 @@
           "sha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
         }
       },
-      "recoveredFromRun": 39522070665
+      "recoveredFromRun": 39522070665,
+      "asrReviewHistory": [
+        {
+          "transcript": "梅山,你那次探棄我也沒放進公開吧",
+          "cer": 0.333333,
+          "polarityCountsMatch": false,
+          "passed": false,
+          "phoneticReview": {
+            "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+            "expected": "没删你那次叹气我也没放进公开版",
+            "observed": "梅山你那次探弃我也没放进公开吧",
+            "expectedSyllables": [
+              "mei2",
+              "shan1",
+              "ni3",
+              "na4",
+              "ci4",
+              "tan4",
+              "qi4",
+              "wo3",
+              "ye3",
+              "mei2",
+              "fang4",
+              "jin4",
+              "gong1",
+              "kai1",
+              "ban3"
+            ],
+            "observedSyllables": [
+              "mei2",
+              "shan1",
+              "ni3",
+              "na4",
+              "ci4",
+              "tan4",
+              "qi4",
+              "wo3",
+              "ye3",
+              "mei2",
+              "fang4",
+              "jin4",
+              "gong1",
+              "kai1",
+              "ba5"
+            ],
+            "sameLength": true,
+            "polarityCountsMatch": false,
+            "passed": false,
+            "humanListening": false
+          }
+        }
+      ]
     },
     {
       "id": "netlove-c4-voice-008",
@@ -12250,5 +12383,43 @@
     }
   ],
   "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
-  "sourceRun": 39522070665
+  "sourceRun": 39522070665,
+  "reviewModel": {
+    "id": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "sha256": "db7c0371f46f0840b8f25794c1e3321c9b5820a8cb6ba9694a46fc64b8fae5a6",
+        "bytes": 1477
+      },
+      {
+        "path": "README.md",
+        "sha256": "a30144a6232423e5e4e9e17952b5a543a506dc0cb9de02fd9d875d7ec40fef83",
+        "bytes": 2005
+      },
+      {
+        "path": "config.json",
+        "sha256": "3622a2ddc41ec0e0fd4e68c13c6830f03b90c38d89aaad184de02c8c642cf807",
+        "bytes": 2257
+      },
+      {
+        "path": "model.bin",
+        "sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae",
+        "bytes": 1527906378
+      },
+      {
+        "path": "tokenizer.json",
+        "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+        "bytes": 2203239
+      },
+      {
+        "path": "vocabulary.txt",
+        "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+        "bytes": 459861
+      }
+    ],
+    "networkPolicy": "network_syscalls_denied_and_telemetry_disabled"
+  },
+  "humanListening": false
 }

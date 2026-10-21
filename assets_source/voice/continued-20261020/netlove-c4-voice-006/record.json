@@ -15,14 +15,14 @@
   "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "梅山,你那次探棄我也沒放進公開吧",
-    "cer": 0.333333,
+    "transcript": "梅珊,你那次探氣我也沒放進公開吧?",
+    "cer": 0.266667,
     "polarityCountsMatch": false,
     "passed": false,
     "phoneticReview": {
       "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
       "expected": "没删你那次叹气我也没放进公开版",
-      "observed": "梅山你那次探弃我也没放进公开吧",
+      "observed": "梅珊你那次探气我也没放进公开吧",
       "expectedSyllables": [
         "mei2",
         "shan1",
@@ -61,7 +61,10 @@
       "polarityCountsMatch": false,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
   },
   "duration": 3.76,
   "wallSeconds": 22.308,
@@ -94,5 +97,56 @@
       "sha256": "4b18c4264185f73432dfe8c362d2b934b421575433c7ca96490538e0df45ec71"
     }
   },
-  "recoveredFromRun": 39522070665
+  "recoveredFromRun": 39522070665,
+  "asrReviewHistory": [
+    {
+      "transcript": "梅山,你那次探棄我也沒放進公開吧",
+      "cer": 0.333333,
+      "polarityCountsMatch": false,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "没删你那次叹气我也没放进公开版",
+        "observed": "梅山你那次探弃我也没放进公开吧",
+        "expectedSyllables": [
+          "mei2",
+          "shan1",
+          "ni3",
+          "na4",
+          "ci4",
+          "tan4",
+          "qi4",
+          "wo3",
+          "ye3",
+          "mei2",
+          "fang4",
+          "jin4",
+          "gong1",
+          "kai1",
+          "ban3"
+        ],
+        "observedSyllables": [
+          "mei2",
+          "shan1",
+          "ni3",
+          "na4",
+          "ci4",
+          "tan4",
+          "qi4",
+          "wo3",
+          "ye3",
+          "mei2",
+          "fang4",
+          "jin4",
+          "gong1",
+          "kai1",
+          "ba5"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": false,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

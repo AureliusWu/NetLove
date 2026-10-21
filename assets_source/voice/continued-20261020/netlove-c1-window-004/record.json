@@ -13,16 +13,16 @@
   "medium": "chat",
   "requestSha256": "0e113e8f9fbca05750cf9c2c92b6f60f9d4015d11a912f95bf748af0696a3ce3",
   "attempt": 8,
-  "status": "needs_review",
+  "status": "accepted",
   "asr": {
-    "transcript": "两一干 风一吹就响",
-    "cer": 0.375,
+    "transcript": "晾一干风一吹就响",
+    "cer": 0.25,
     "polarityCountsMatch": true,
-    "passed": false,
+    "passed": true,
     "phoneticReview": {
       "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
       "expected": "晾衣杆风一吹就响",
-      "observed": "两一干风一吹就响",
+      "observed": "晾一干风一吹就响",
       "expectedSyllables": [
         "liang4",
         "yi1",
@@ -34,7 +34,7 @@
         "xiang3"
       ],
       "observedSyllables": [
-        "liang3",
+        "liang4",
         "yi1",
         "gan1",
         "feng1",
@@ -45,9 +45,13 @@
       ],
       "sameLength": true,
       "polarityCountsMatch": true,
-      "passed": false,
+      "passed": true,
       "humanListening": false
-    }
+    },
+    "acceptance": "exact_toned_homophones",
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "d7f5a48319c3e71d3ce74f382d74be9eedb815f90536df6393affd41eaa2db41"
   },
   "duration": 2.0,
   "wallSeconds": 12.576,
@@ -80,5 +84,42 @@
       "sha256": "d7f5a48319c3e71d3ce74f382d74be9eedb815f90536df6393affd41eaa2db41"
     }
   },
-  "recoveredFromRun": 39522070665
+  "recoveredFromRun": 39522070665,
+  "asrReviewHistory": [
+    {
+      "transcript": "两一干 风一吹就响",
+      "cer": 0.375,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "晾衣杆风一吹就响",
+        "observed": "两一干风一吹就响",
+        "expectedSyllables": [
+          "liang4",
+          "yi1",
+          "gan1",
+          "feng1",
+          "yi1",
+          "chui1",
+          "jiu4",
+          "xiang3"
+        ],
+        "observedSyllables": [
+          "liang3",
+          "yi1",
+          "gan1",
+          "feng1",
+          "yi1",
+          "chui1",
+          "jiu4",
+          "xiang3"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

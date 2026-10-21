@@ -15,14 +15,14 @@
   "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "他?他做得比我穩",
+    "transcript": "嗨,她坐的比我穩",
     "cer": 0.428571,
     "polarityCountsMatch": true,
     "passed": false,
     "phoneticReview": {
       "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
       "expected": "拍它坐得比我稳",
-      "observed": "他他做得比我稳",
+      "observed": "嗨她坐的比我稳",
       "expectedSyllables": [
         "pai1",
         "ta1",
@@ -33,10 +33,10 @@
         "wen3"
       ],
       "observedSyllables": [
-        "ta1",
+        "hai1",
         "ta1",
         "zuo4",
-        "de2",
+        "de5",
         "bi3",
         "wo3",
         "wen3"
@@ -45,7 +45,10 @@
       "polarityCountsMatch": true,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
   },
   "duration": 3.04,
   "wallSeconds": 17.998,
@@ -78,5 +81,40 @@
       "sha256": "df26eedabf21ae54740280dc0210ecbc7dfaa633f35def15874337ceaa4187fe"
     }
   },
-  "recoveredFromRun": 39522070665
+  "recoveredFromRun": 39522070665,
+  "asrReviewHistory": [
+    {
+      "transcript": "他?他做得比我穩",
+      "cer": 0.428571,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "拍它坐得比我稳",
+        "observed": "他他做得比我稳",
+        "expectedSyllables": [
+          "pai1",
+          "ta1",
+          "zuo4",
+          "de2",
+          "bi3",
+          "wo3",
+          "wen3"
+        ],
+        "observedSyllables": [
+          "ta1",
+          "ta1",
+          "zuo4",
+          "de2",
+          "bi3",
+          "wo3",
+          "wen3"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

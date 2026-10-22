@@ -1,3 +1,11 @@
+# 2026-10-22 · v0.5.0 全对白与完整角色素材已交付
+
+当前可玩预览为 [v0.5.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0)：220 条人物对白、五位角色图鉴与四张事件 CG 已进入 Windows 和 PWA。67 项逻辑、58 项浏览器、Windows 源码 / 成品 / 实际安装升级 / 便携和公开三屏离线通过，四份公开下载及三条校验和已回读。
+
+精确来源见 [发布凭据](production/PUBLISHED-v0.5.0-full-media.json) 与 [独立回读](production/PUBLIC-READBACK-20261022.json)。本轮再次导出当前剧本，并核对全部录音、四张新运行图和生产构建，见 [四作素材审计](production/FULL-MEDIA-AUDIT-20261022.json)。真人听感、物理设备和创作定案继续按实际体验登记。下方早期版本按日期保留。
+
+---
+
 # 2026-10-19 · v0.3.1 阅读体验已发布
 
 当前可玩预览下载（prerelease）为 [v0.3.1](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.1)；该版已交付。v0.3.1 本轮实现：已读回看按章节、说话人和关键词交叉筛选；章节选项只来自真实已读记录，筛选后保留原段落、画面与语音身份。

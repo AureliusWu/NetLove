@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-22T02:28:24.583Z",
+  "project": "NetLove",
+  "status": "public_assets_verified",
+  "assets": [
+    {
+      "repo": "NetLove",
+      "name": "NetLove-0.5.0-x64-Portable.exe",
+      "id": 662388980,
+      "bytes": 126908516,
+      "sha256": "0fece66587517c73e767d09d3cd79799b2824d51c16279039cc98e858393525d",
+      "verified": true
+    },
+    {
+      "repo": "NetLove",
+      "name": "NetLove-0.5.0-x64-Setup.exe",
+      "id": 662388977,
+      "bytes": 127127982,
+      "sha256": "e06a4ed2e8bf34e5e145dacbaf30ca3cfd4db1958e55becfc8b763656eda0592",
+      "verified": true
+    },
+    {
+      "repo": "NetLove",
+      "name": "NetLove-PWA-0.5.0.zip",
+      "id": 662388979,
+      "bytes": 15982425,
+      "sha256": "5c1f648ceef2644aaefd323d0763f801f19142dced2a6c4eda50aa3e5f4f916a",
+      "verified": true,
+      "zipCrc": true,
+      "zipFiles": 268
+    },
+    {
+      "repo": "NetLove",
+      "name": "SHA256SUMS.txt",
+      "id": 662388978,
+      "bytes": 279,
+      "sha256": "3a372f26274f42200594d822bfa7e9b9d5b1e7b66e6d160c4eddddce4c64c930",
+      "verified": true
+    }
+  ],
+  "checksumsVerified": 3,
+  "pwaZipCrc": "passed",
+  "humanListening": false,
+  "humanVisualApproval": false,
+  "note": "Independent download of existing immutable release assets; this documentation commit does not rebuild the player."
+}

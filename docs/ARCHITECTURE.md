@@ -10,7 +10,7 @@ NetLove 使用 game=netlove、storyVersion=netlove-v1、localStorage=netlove:v1�
 
 导入只接受本游戏、本故事、合法段落和可达选择序列；分数与历史由 engine.replay 重建，不信任文件提交的数据。章首和结局重读保存实际路线。台词变体由真实选择状态计算，稳定段落 ID 与位置不变。
 
-音乐复用 Project1 的六首原创程序音序，并据梧城场景调整曲名；本作另有 8 句独立离线角色录音，绑定稳定台词，支持当前句/已读重听与自动阅读等待。Web Audio 和录音在用户操作后启动，音乐、雨声、提示音及人物语音按各自设置控制；播放器不依赖模型或账号。
+音乐复用 Project1 的六首原创程序音序，并据梧城场景调整曲名；本作 v0.5.0 已接入 220 条独立离线人物对白录音，原 8 句关键录音保留，绑定稳定台词，支持当前句/已读重听与自动阅读等待。Web Audio 和录音在用户操作后启动，音乐、雨声、提示音及人物语音按各自设置控制；播放器不依赖模型或账号。
 
 开发：npm ci / npm run dev。生产：npm run build。Windows：npm run desktop:win。实际包检查：npm run test:desktop:packaged。全部生成物和依赖不入 Git。
 

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "project": "NetLove",
+  "targetVersion": "1.0.0",
+  "baselineCommit": "83b33b910d783f9eea423799dafcc5aeed33d5ef",
+  "status": "planned",
+  "gates": {
+    "implementation": "pending",
+    "localValidation": "pending",
+    "windowsRuntime": "pending",
+    "pwaRuntime": "pending",
+    "publicRelease": "pending",
+    "publicReadback": "pending",
+    "fourGameCoexistence": "pending"
+  },
+  "humanReview": "pending-user-consolidated",
+  "evidence": [],
+  "blockers": []
+}

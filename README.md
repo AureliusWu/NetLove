@@ -1,3 +1,5 @@
+**发布后素材审阅（2026-10-23）**：发布后素材质检：220 条对白、16 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；15 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
+
 > 2026-10-23：**v1.0.0 五章完整正式版已发布**。游玩帮助、完整字体及草稿附件字节验证已交付；Windows、公开三屏离线、四份下载与四作共同断网复验全部通过。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。下方旧版状态保留为历史证据。
 
 > 2026-10-21：**v0.5.0 全对白与完整角色素材预览版已发布**。220 条人物配音、五位角色和新结局 CG 已接入，Windows、58 项浏览器与公开 PWA 离线复验通过。见[发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)和[下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0)。

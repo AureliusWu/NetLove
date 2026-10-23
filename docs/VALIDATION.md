@@ -1,3 +1,9 @@
+# 2026-10-23 · v1.0.0 已正式发布并完成本轮验收
+
+标题与阅读中的玩家帮助、完整发行验证已交付；本轮实际 Windows、公开 PWA、全部公开附件回读及四作共同断网复验通过。运行 / tag 为 `6e53a29d653b7b0a1095c999ab03415655fb7f80`。各平台、失败重试与未完成人工事项分别记录在 [发布凭据](production/PUBLISHED-v1.0.0.json) 和 [四作闭环](production/FOUR-GAMES-CLOSURE-20261023.md)。真人试听、阅读计时、普通电脑 / DPI、实体设备和最终创作审阅仍集中待验。下方较早候选与旧版状态保留为历史记录。
+
+---
+
 # v0.3.0 声音与事件画面预览已发布 — 2026-10-18
 
 [可玩预览 v0.3.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.3.0) 与 [在线PWA](https://aureliuswu.github.io/NetLove/) 已完成本版交付。新增8句独立离线录音、两张按真实分支解锁的事件CG，延续43场景、507段、288路线和netlove-v1存档。

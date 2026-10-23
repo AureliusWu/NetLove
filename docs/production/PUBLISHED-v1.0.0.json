@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "version": "1.0.0",
+  "status": "released-and-verified",
+  "checkedAt": "2026-10-23T15:07:34.468305+00:00",
+  "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+  "tagCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+  "release": {
+    "id": 421536452,
+    "tag_name": "v1.0.0",
+    "html_url": "https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0",
+    "target_commitish": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+    "draft": false,
+    "prerelease": false
+  },
+  "build": {
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/39914224966",
+    "conclusion": "success"
+  },
+  "publication": {
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/39914224966",
+    "conclusion": "success",
+    "mode": "draft-upload-verify-all-bytes-then-public",
+    "immutable": true
+  },
+  "pwa": {
+    "id": 39915052813,
+    "attempt": 2,
+    "conclusion": "success",
+    "headCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+    "verifiedRuntimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+    "verification": "Exact candidate platform workflow and actual public offline verification.",
+    "url": "https://github.com/AureliusWu/NetLove/actions/runs/39915052813",
+    "screens": "Actual public desktop, portrait and landscape offline verification.",
+    "entrypoints": [
+      {
+        "project": "NetLove",
+        "file": "index.html",
+        "status": "passed",
+        "bytes": 1144,
+        "sha256": "3a71b6f55d1084ab3b8d3dcf276f019db6bf27b97413ffa833db3f8731cdb574"
+      },
+      {
+        "project": "NetLove",
+        "file": "sw.js",
+        "status": "passed",
+        "bytes": 14665,
+        "sha256": "a23478c0003caf4974f4fc8e8b1233f0fc5057c513bd8dd9d5d20c6dc2e5cc44"
+      }
+    ],
+    "artifactId": 12509995059,
+    "artifactSha256": "20a240206313faaede196fe8d9fb104f30059babdb8abbf6c5e9c9c27f9e2f8d",
+    "proof": "PWA-LIVE-v1.0.0-20261023.json"
+  },
+  "validation": {
+    "logicTests": 67,
+    "publisherTests": 18,
+    "materialTests": 10,
+    "browserPassed": 66,
+    "dialogueBindings": 220,
+    "routes": 288
+  },
+  "publicReadback": {
+    "path": "PUBLIC-READBACK-v1.0.0-20261023.json",
+    "assets": 4,
+    "bytes": 270027106,
+    "allBytesAndChecksumsPassed": true
+  },
+  "fourGameCoexistence": {
+    "status": "passed",
+    "run": "https://github.com/AureliusWu/Circuit/actions/runs/39972929371",
+    "ciReport": "FOUR-GAMES-LIVE-CI-20261023.json",
+    "independentLocalReport": "FOUR-GAMES-LIVE-20261023.json",
+    "versions": {
+      "Rain": "1.6.0",
+      "Healing": "1.4.0",
+      "NetLove": "1.0.0",
+      "Circuit": "1.8.0"
+    },
+    "cachedFiles": 1248,
+    "pageErrors": []
+  },
+  "humanReview": {
+    "status": "pending-user-consolidated",
+    "checks": [
+      "full human listening",
+      "effective reading time",
+      "physical mobile installation",
+      "ordinary Windows / Chinese paths / DPI",
+      "final creative acceptance"
+    ],
+    "machineEvidenceDoesNotClaimHumanAcceptance": true
+  },
+  "history": [
+    {
+      "run": 39915052813,
+      "attempt": 1,
+      "status": "failed",
+      "detail": "Initial complete offline download failed after exact entrypoint hashes matched. Same frozen artifact passed all original assertions on attempt 2; no payload changes."
+    }
+  ],
+  "nativeInstalledProof": "WINDOWS-v1.0.0-20261023.json",
+  "nativeAsarSha256": "4c157161bbc1b1167323fcea0fd6755f72205f5118988246bb15c9decc7ca76f"
+}

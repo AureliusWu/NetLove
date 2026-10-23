@@ -4,15 +4,15 @@
   "project": "NetLove",
   "targetVersion": "1.0.0",
   "baselineCommit": "83b33b910d783f9eea423799dafcc5aeed33d5ef",
-  "status": "candidate-ci-pending",
+  "status": "released-and-verified",
   "gates": {
     "implementation": "passed",
     "localValidation": "passed",
-    "windowsRuntime": "pending",
-    "pwaRuntime": "pending",
-    "publicRelease": "pending",
-    "publicReadback": "pending",
-    "fourGameCoexistence": "pending"
+    "windowsRuntime": "passed",
+    "pwaRuntime": "passed",
+    "publicRelease": "passed",
+    "publicReadback": "passed",
+    "fourGameCoexistence": "passed"
   },
   "humanReview": "pending-user-consolidated",
   "evidence": [
@@ -27,10 +27,17 @@
     {
       "commit": "a914433500abe6b886f73d9f9c1b3213c92b2849",
       "kind": "tested-help-and-version-checkpoint"
+    },
+    {
+      "kind": "final-release-closure",
+      "path": "docs/production/PUBLISHED-v1.0.0.json",
+      "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+      "platforms": "actual Windows and public PWA",
+      "fourGamesCiRun": 39972929371
     }
   ],
   "blockers": [],
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-23T15:07:34.468305+00:00",
   "implementationBaseCommit": "0a130bc704bbdd440b42313a91324df0a8628496",
   "playerRuntimeCheckpoint": "a914433500abe6b886f73d9f9c1b3213c92b2849",
   "frozenContent": {
@@ -110,9 +117,10 @@
     }
   },
   "platformNotes": {
-    "windows": "Pending exact final candidate CI: source, packaged ASAR, real v0.5.0 installation upgrade and portable wrapper. Not executed on local Linux.",
-    "publicRelease": "Pending current main full Build gate; draft upload and byte verification must precede publication.",
-    "publicPwa": "Pending exact candidate Pages job and actual online/offline readback.",
-    "fourGameCoexistence": "Pending unified final target versions; older four-game results are baseline evidence only."
-  }
+    "windows": "Passed exact runtime build 39914224966: source, actual package, real installed upgrade; NetLove also executes portable wrapper.",
+    "publicRelease": "Stable, non-draft; immutable exact runtime tag. All public attachment bytes downloaded again.",
+    "publicPwa": "Passed exact public PWA verification run 39915052813, final attempt 2; actual public offline resume at three sizes.",
+    "fourGameCoexistence": "Passed CI 39972929371 and independent local run at all four target versions."
+  },
+  "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80"
 }

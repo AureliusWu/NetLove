@@ -1,0 +1,76 @@
+{
+  "schema": 2,
+  "status": "passed",
+  "phase": "complete",
+  "version": "1.0.0",
+  "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
+  "runId": 39914224966,
+  "checksumEntries": 3,
+  "pwaZipCrc": true,
+  "pwaFiles": 259,
+  "pwaFilesMatchTestedArtifact": true,
+  "releaseId": 421536452,
+  "prerelease": false,
+  "draftAssets": [
+    {
+      "id": 668270780,
+      "name": "NetLove-1.0.0-x64-Portable.exe",
+      "bytes": 126911031,
+      "sha256": "003c21c68f9c1e257b8e8a367e957304e05321fab85bdf94132516435c4db51d",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/untagged-0848d00c998c50749c96/NetLove-1.0.0-x64-Portable.exe"
+    },
+    {
+      "id": 668270949,
+      "name": "NetLove-1.0.0-x64-Setup.exe",
+      "bytes": 127130397,
+      "sha256": "68848ad8b6c0b9cef5a41ea387d1f6f3eef7c1de47d5012fb7c20184a982ea68",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/untagged-0848d00c998c50749c96/NetLove-1.0.0-x64-Setup.exe"
+    },
+    {
+      "id": 668271138,
+      "name": "NetLove-PWA-1.0.0.zip",
+      "bytes": 15985399,
+      "sha256": "244998e2c4440088c4fc8fd83f2fcfb35059e1f74ffe88f46fcfa08f90abbb18",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/untagged-0848d00c998c50749c96/NetLove-PWA-1.0.0.zip"
+    },
+    {
+      "id": 668271187,
+      "name": "SHA256SUMS.txt",
+      "bytes": 279,
+      "sha256": "d533c7f221f6d5a38563c8a4d213e58b3d7da97b6f07d88153430af29758d8d2",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/untagged-0848d00c998c50749c96/SHA256SUMS.txt"
+    }
+  ],
+  "assets": [
+    {
+      "id": 668270780,
+      "name": "NetLove-1.0.0-x64-Portable.exe",
+      "bytes": 126911031,
+      "sha256": "003c21c68f9c1e257b8e8a367e957304e05321fab85bdf94132516435c4db51d",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v1.0.0/NetLove-1.0.0-x64-Portable.exe"
+    },
+    {
+      "id": 668270949,
+      "name": "NetLove-1.0.0-x64-Setup.exe",
+      "bytes": 127130397,
+      "sha256": "68848ad8b6c0b9cef5a41ea387d1f6f3eef7c1de47d5012fb7c20184a982ea68",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v1.0.0/NetLove-1.0.0-x64-Setup.exe"
+    },
+    {
+      "id": 668271138,
+      "name": "NetLove-PWA-1.0.0.zip",
+      "bytes": 15985399,
+      "sha256": "244998e2c4440088c4fc8fd83f2fcfb35059e1f74ffe88f46fcfa08f90abbb18",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v1.0.0/NetLove-PWA-1.0.0.zip"
+    },
+    {
+      "id": 668271187,
+      "name": "SHA256SUMS.txt",
+      "bytes": 279,
+      "sha256": "d533c7f221f6d5a38563c8a4d213e58b3d7da97b6f07d88153430af29758d8d2",
+      "url": "https://github.com/AureliusWu/NetLove/releases/download/v1.0.0/SHA256SUMS.txt"
+    }
+  ],
+  "allDraftBytesMatchTestedArtifacts": true,
+  "allPublicBytesMatchTestedArtifacts": true
+}

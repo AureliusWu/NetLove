@@ -1,4 +1,4 @@
-> 2026-10-23：**v1.0.0 五章完整正式版候选**，新增标题 / 阅读中游玩帮助，发行改为草稿全部附件下载校验后公开。当前候选的平台与公开门禁见[本轮状态](docs/production/RELEASE-READINESS-20261022.json)及[本版说明](docs/releases/v1.0.0.md)；下面旧版结果保留为历史证据。
+> 2026-10-23：**v1.0.0 五章完整正式版已发布**。游玩帮助、完整字体及草稿附件字节验证已交付；Windows、公开三屏离线、四份下载与四作共同断网复验全部通过。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。下方旧版状态保留为历史证据。
 
 > 2026-10-21：**v0.5.0 全对白与完整角色素材预览版已发布**。220 条人物配音、五位角色和新结局 CG 已接入，Windows、58 项浏览器与公开 PWA 离线复验通过。见[发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)和[下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0)。
 
@@ -10,9 +10,9 @@
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-**v1.0.0 五章完整正式版候选，PWA + Windows 安装版 / 便携版。**
+**v1.0.0 五章完整正式版，PWA + Windows 安装版 / 便携版。**
 
-[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v0.5.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0) · [本版说明](docs/releases/v0.5.0.md) · [发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)
+[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v1.0.0](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [本版说明](docs/releases/v1.0.0.md) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json)
 
 2020年架空城市“梧城”，二十三岁的周既明在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、首次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
 
@@ -38,13 +38,11 @@ Windows安装版可选择安装位置；便携版直接启动。PWA先联网完�
 
 ## 工程验收
 
-1.0.0 使用18项发行失败路径检查与新增8项帮助浏览器检查；全部本轮结果见[实施记录](docs/production/RELEASE-v1.0.0.md)和[当前门禁状态](docs/production/RELEASE-READINESS-20261022.json)。以下计数与链接属于已发布0.5.0基线，不能代替1.0.0平台结果。
+v1.0.0 的 18 项发行失败路径、67 项逻辑、10 项素材和 66 项浏览器检查通过，包含全部 288 路线及新增 8 项帮助检查。Windows 源码、ASAR、真实 v0.5.0 → 1.0.0 同 profile 安装升级、portable 外壳及其真实子程序分别通过。
 
-67 项逻辑测试覆盖 288 条路线；58 项浏览器检查覆盖配音、分支 CG、角色图鉴、阅读备份、打字暂停、离线与更新。Windows 源码、ASAR 成品、实际安装升级和 portable 外层及其子程序分别通过。
+四个公开附件已重新匿名下载，三个 SHA256SUMS 条目和 PWA ZIP CRC 通过。公开 PWA 三屏实际断网续读、入口 / Worker 精确字节及四作同源共存通过；证据见 [发布凭据](docs/production/PUBLISHED-v1.0.0.json)、[独立回读](docs/production/PUBLIC-READBACK-v1.0.0-20261023.json) 和 [当前状态](docs/STATUS.md)。
 
-公开发行文件须与同次验收的原始工件逐字节一致，校验全部四份下载、三个 SHA256SUMS 条目和 PWA ZIP CRC / 文件清单。公开 PWA 以同次已测构建部署，另验入口 / worker 和三屏断网续读。精确运行编号与结果见 [发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)、[2026-10-22 独立回读](docs/production/PUBLIC-READBACK-20261022.json) 和 [当前状态](docs/STATUS.md)。
-
-上述0.5.0保持可玩预览身份。1.0.0完成本轮内容与工程门禁后以正式版标记发布。真人试听、实体设备、普通电脑/中文路径/DPI与最终创作审阅单独记录。
+v1.0.0 以正式版标记交付本轮五章范围。真人试听、有效阅读计时、实体设备、普通电脑 / 中文路径 / DPI 与最终创作审阅继续集中待验。
 
 ## 开发
 
@@ -80,6 +78,8 @@ npm run test:desktop:installed仅用于本仓临时Windows Actions运行器，�
 [v0.2.6历史发布](docs/production/RELEASE-CLOSURE-20261018.md) · [v0.2.0电脑/手机预览](docs/previews/v0.2.0/README.md) · [完整验证记录](docs/VALIDATION.md)
 
 ## 四作共存复验
+
+本次 v1.0.0 与 Circuit 1.8.0、Healing 1.4.0、Rain 1.6.0 在独立本地与 CI 两次通过。1,248 条缓存、实际进度与各自 Worker 保持，四站共同断网重开，页面错误为零。[本轮闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。以下为历史版本结果。
 
 本次 v0.5.0 与 Circuit 1.7.0、Healing 1.3.0、Rain 1.5.0 完成同源共存和四站断网重开，1,248 条缓存与实际存档状态保留，页面错误为零。[本轮闭环](docs/production/FOUR-GAMES-CLOSURE-20261022.md)。
 

@@ -1,0 +1,57 @@
+{
+  "previousVersion": "0.5.0",
+  "version": "1.0.0",
+  "measuredAt": "2026-10-23T06:58:59.937Z",
+  "installation": "D:\\a\\_temp\\NetLove-installed-TVUvSZ\\game",
+  "stages": [
+    {
+      "name": "baseline-installed",
+      "version": "0.5.0",
+      "smoke": true,
+      "pid": 6012
+    },
+    {
+      "name": "upgrade-installed",
+      "version": "1.0.0",
+      "sameInstallation": true,
+      "sameProfile": true,
+      "actualPriorSaveRestored": true,
+      "smoke": true
+    },
+    {
+      "name": "portable-outer-wrapper",
+      "version": "1.0.0",
+      "actualChildProof": {
+        "story": true,
+        "autosave": true,
+        "fullWindow": true,
+        "pictureMode": true,
+        "sandbox": true,
+        "tinghe": true,
+        "xumi": true,
+        "ending": true,
+        "archive": true,
+        "nativeFullscreen": true,
+        "fullscreenProgress": true,
+        "hiddenWindow": true,
+        "smokeShowEvents": 1,
+        "packaged": true,
+        "version": "1.0.0",
+        "profile": "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\netlove-smoke-9620",
+        "asarSha256": "4c157161bbc1b1167323fcea0fd6755f72205f5118988246bb15c9decc7ca76f"
+      }
+    }
+  ],
+  "baselineInstallerSha256": "e06a4ed2e8bf34e5e145dacbaf30ca3cfd4db1958e55becfc8b763656eda0592",
+  "currentInstallerSha256": "68848ad8b6c0b9cef5a41ea387d1f6f3eef7c1de47d5012fb7c20184a982ea68",
+  "baselineExecutableVersion": "0.5.0",
+  "upgradedExecutableVersion": "1.0.0",
+  "installedAsarSha256": "4c157161bbc1b1167323fcea0fd6755f72205f5118988246bb15c9decc7ca76f",
+  "builtAsarSha256": "4c157161bbc1b1167323fcea0fd6755f72205f5118988246bb15c9decc7ca76f",
+  "portable": {
+    "file": "D:\\a\\NetLove\\NetLove\\release\\NetLove-1.0.0-x64-Portable.exe",
+    "sha256": "003c21c68f9c1e257b8e8a367e957304e05321fab85bdf94132516435c4db51d",
+    "report": "D:\\a\\_temp\\NetLove-installed-TVUvSZ\\portable-result.json"
+  },
+  "ok": true
+}

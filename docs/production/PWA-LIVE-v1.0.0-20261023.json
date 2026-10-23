@@ -1,0 +1,41 @@
+{
+  "browserVersion": "153.0.8010.12",
+  "results": [
+    {
+      "screen": "desktop",
+      "url": "https://aureliuswu.github.io/NetLove/",
+      "version": "1.0.0",
+      "scope": "https://aureliuswu.github.io/NetLove/",
+      "fullWindowArtwork": true,
+      "hideRestore": true,
+      "rotation": false,
+      "offlineResume": true,
+      "assets": true,
+      "pageErrors": []
+    },
+    {
+      "screen": "mobile",
+      "url": "https://aureliuswu.github.io/NetLove/",
+      "version": "1.0.0",
+      "scope": "https://aureliuswu.github.io/NetLove/",
+      "fullWindowArtwork": true,
+      "hideRestore": true,
+      "rotation": true,
+      "offlineResume": true,
+      "assets": true,
+      "pageErrors": []
+    },
+    {
+      "screen": "landscape",
+      "url": "https://aureliuswu.github.io/NetLove/",
+      "version": "1.0.0",
+      "scope": "https://aureliuswu.github.io/NetLove/",
+      "fullWindowArtwork": true,
+      "hideRestore": true,
+      "rotation": false,
+      "offlineResume": true,
+      "assets": true,
+      "pageErrors": []
+    }
+  ]
+}

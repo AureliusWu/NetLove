@@ -4,10 +4,10 @@
   "project": "NetLove",
   "targetVersion": "1.0.0",
   "baselineCommit": "83b33b910d783f9eea423799dafcc5aeed33d5ef",
-  "status": "planned",
+  "status": "candidate-ci-pending",
   "gates": {
-    "implementation": "pending",
-    "localValidation": "pending",
+    "implementation": "passed",
+    "localValidation": "passed",
     "windowsRuntime": "pending",
     "pwaRuntime": "pending",
     "publicRelease": "pending",
@@ -15,6 +15,104 @@
     "fourGameCoexistence": "pending"
   },
   "humanReview": "pending-user-consolidated",
-  "evidence": [],
-  "blockers": []
+  "evidence": [
+    {
+      "path": "docs/production/RELEASE-v1.0.0.md",
+      "kind": "implementation-and-local-validation"
+    },
+    {
+      "commit": "2a7e74aa748f97a576f815b409a849b153515939",
+      "kind": "tested-publisher-checkpoint"
+    },
+    {
+      "commit": "a914433500abe6b886f73d9f9c1b3213c92b2849",
+      "kind": "tested-help-and-version-checkpoint"
+    }
+  ],
+  "blockers": [],
+  "updatedAt": "2026-10-23",
+  "implementationBaseCommit": "0a130bc704bbdd440b42313a91324df0a8628496",
+  "playerRuntimeCheckpoint": "a914433500abe6b886f73d9f9c1b3213c92b2849",
+  "frozenContent": {
+    "chapters": 5,
+    "scenes": 43,
+    "lines": 507,
+    "choices": 6,
+    "routes": 288,
+    "endings": 4,
+    "characterDialogueRecordings": 220,
+    "storyVersion": "netlove-v1",
+    "storageKey": "netlove:v1",
+    "noSpritePreserved": true
+  },
+  "localValidation": {
+    "publisherFailurePaths": {
+      "status": "passed",
+      "tests": 18,
+      "command": "python3 -m unittest discover -s scripts -p 'test_publish_release.py' -v"
+    },
+    "logic": {
+      "status": "passed",
+      "tests": 67,
+      "routes": 288,
+      "command": "npm test"
+    },
+    "materials": {
+      "status": "passed",
+      "toolTests": 10,
+      "sharedFiles": 15,
+      "command": "npm run test:materials",
+      "export": {
+        "entries": 7,
+        "files": 32,
+        "excludedProjectOnly": 21
+      }
+    },
+    "productionBuild": {
+      "status": "passed",
+      "pwaFiles": 257,
+      "command": "npm run build"
+    },
+    "helpBrowser": {
+      "status": "passed",
+      "tests": 8,
+      "browser": "Chromium 153.0.8010.0 (local extracted runtime)",
+      "viewports": [
+        "1440x900",
+        "568x320",
+        "844x390",
+        "412x915"
+      ],
+      "workers": 1
+    },
+    "fullBrowser": {
+      "status": "passed",
+      "tests": 66,
+      "workers": 1,
+      "durationMinutes": 6.0,
+      "browser": "Chromium 153.0.8010.0 (local extracted runtime)",
+      "command": "npm run test:e2e -- --workers=1",
+      "environmentNote": "Minimal no-sandbox/no-zygote/disable-dev-shm-usage arguments and LD_LIBRARY_PATH required by local environment only; CI retains official installed Chromium and two workers."
+    },
+    "fullMedia": {
+      "status": "passed",
+      "target": 220,
+      "accepted": 220,
+      "images": 4,
+      "allRuntimeVoiceBytesDecoded": true,
+      "command": "python3 tools/production/validate_runtime.py --require-complete --decode"
+    },
+    "legacyVoice": {
+      "status": "passed",
+      "recordings": 8,
+      "decodedSourceAndRuntimeFiles": 24,
+      "command": "python3 scripts/validate-voice.py"
+    }
+  },
+  "platformNotes": {
+    "windows": "Pending exact final candidate CI: source, packaged ASAR, real v0.5.0 installation upgrade and portable wrapper. Not executed on local Linux.",
+    "publicRelease": "Pending current main full Build gate; draft upload and byte verification must precede publication.",
+    "publicPwa": "Pending exact candidate Pages job and actual online/offline readback.",
+    "fourGameCoexistence": "Pending unified final target versions; older four-game results are baseline evidence only."
+  }
 }

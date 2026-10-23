@@ -124,21 +124,41 @@ def verify_assets(api, release, expected, public=False):
     return records
 
 
+def existing_release(api, tag):
+    published = api.request('GET', 'releases/tags/' + tag)
+    if published is not None:
+        return published
+    # The tag endpoint is documented for published releases. Enumerate the
+    # authenticated release list as well so an abandoned draft cannot be adopted.
+    page = 1
+    while True:
+        releases = api.request('GET', f'releases?per_page=100&page={page}')
+        require(isinstance(releases, list), 'Unable to inspect existing drafts')
+        for release in releases:
+            if release['tag_name'] == tag:
+                return release
+        if len(releases) < 100:
+            return None
+        page += 1
+
+
 def publish(api, commit, version, title, notes, expected, record):
     tag, prerelease = release_spec(version)
     guard_target(api, commit, tag)
-    existing = api.request('GET', 'releases/tags/' + tag)
+    existing = existing_release(api, tag)
     # Neither previous public releases nor abandoned drafts may be overwritten or adopted.
     require(existing is None, 'Release already exists; immutable release left untouched')
     draft = api.request('POST', 'releases', {'tag_name': tag, 'target_commitish': commit, 'name': title,
                                           'body': notes, 'draft': True, 'prerelease': prerelease})
     record.update({'releaseId': draft['id'], 'phase': 'draft-upload', 'prerelease': prerelease})
-    require(draft['draft'] and draft['tag_name'] == tag, 'GitHub did not create the requested draft')
+    require(draft['draft'] and draft['tag_name'] == tag and draft['target_commitish'] == commit,
+            'GitHub did not create the requested draft')
     upload_url = draft['upload_url'].split('{', 1)[0]
     for name in sorted(expected):
         api.request('POST', upload_url + '?name=' + urllib.parse.quote(name), expected[name], content_type='application/octet-stream')
     draft = api.request('GET', 'releases/' + str(draft['id']))
-    require(draft['draft'] and draft['tag_name'] == tag and draft['prerelease'] == prerelease, 'Draft release identity changed')
+    require(draft['draft'] and draft['tag_name'] == tag and draft['prerelease'] == prerelease
+            and draft['target_commitish'] == commit, 'Draft release identity changed')
     record['draftAssets'] = verify_assets(api, draft, expected)
     record['phase'] = 'draft-verified'
     guard_target(api, commit, tag)

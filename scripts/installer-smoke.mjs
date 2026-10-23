@@ -9,7 +9,7 @@ import path from 'node:path';
 // Windows runner may execute this gate; local desktop tests use isolated ASAR.
 if (process.platform !== 'win32' || process.env.CI !== 'true' || process.env.GITHUB_ACTIONS !== 'true' || process.env.RUNNER_OS !== 'Windows' || !process.env.RUNNER_TEMP || process.env.GITHUB_REPOSITORY !== 'AureliusWu/NetLove') throw new Error('Installer smoke requires the NetLove disposable Windows Actions runner');
 const version = JSON.parse(await readFile('package.json', 'utf8')).version;
-const previousVersion = '0.2.6';
+const previousVersion = '0.5.0';
 if (version === previousVersion) throw new Error('Upgrade needs a newer package version');
 const installer = path.resolve(`release/NetLove-${version}-x64-Setup.exe`);
 await access(installer);
@@ -72,7 +72,7 @@ try {
   await run(oldInstaller, ['/S', '/currentuser', `/D=${installation}`]);
   await access(executable);
   evidence.baselineExecutableVersion = await executableVersion(executable);
-  if (evidence.baselineExecutableVersion !== previousVersion) throw new Error('Installed baseline EXE version is not v0.2.6');
+  if (evidence.baselineExecutableVersion !== previousVersion) throw new Error('Installed baseline EXE version is not v' + previousVersion);
   const baseline = await run(executable, ['--smoke-test'], 'DESKTOP_SMOKE_OK', 60000);
   const profile = isolatedProfile(baseline.pid);
   await access(profile);

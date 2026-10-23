@@ -1,3 +1,5 @@
+> 2026-10-23：**v1.0.0 五章完整正式版候选**，新增标题 / 阅读中游玩帮助，发行改为草稿全部附件下载校验后公开。当前候选的平台与公开门禁见[本轮状态](docs/production/RELEASE-READINESS-20261022.json)及[本版说明](docs/releases/v1.0.0.md)；下面旧版结果保留为历史证据。
+
 > 2026-10-21：**v0.5.0 全对白与完整角色素材预览版已发布**。220 条人物配音、五位角色和新结局 CG 已接入，Windows、58 项浏览器与公开 PWA 离线复验通过。见[发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)和[下载](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0)。
 
 > 2026-10-21：v0.4.1 引擎补丁通过本次 Windows、浏览器与公开离线验证；可玩预览已发布。详见[最终同步记录](docs/production/ENGINE-SYNC-20261021.md)。
@@ -8,7 +10,7 @@
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-**v0.5.0 全对白与完整角色素材可玩预览，PWA + Windows 安装版 / 便携版。**
+**v1.0.0 五章完整正式版候选，PWA + Windows 安装版 / 便携版。**
 
 [在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v0.5.0](https://github.com/AureliusWu/NetLove/releases/tag/v0.5.0) · [本版说明](docs/releases/v0.5.0.md) · [发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)
 
@@ -28,17 +30,21 @@
 
 ## 游玩与备份
 
+标题页和阅读画面左上方的“帮助”提供完整操作、备份、回看、离线和更新说明。打开帮助暂停打字 / 自动 / 快进 / 当前语音，关闭后保留段落和打字位置并恢复入口焦点。
+
 Windows安装版可选择安装位置；便携版直接启动。PWA先联网完成完整缓存后再断网，支持桌面、手机和横屏。底部阅读层提供存档、回看、自动、快进、隐藏、全屏与设置；界面透明度独立保存。
 
 空格/Enter推进，H隐藏/恢复，S存档，L回看，A自动。旋转、隐藏和全屏保持段落；自动/快进在选择和章末停下。JSON阅读备份用于双端迁移，浏览器清理数据前请先导出。
 
 ## 工程验收
 
+1.0.0 使用18项发行失败路径检查与新增8项帮助浏览器检查；全部本轮结果见[实施记录](docs/production/RELEASE-v1.0.0.md)和[当前门禁状态](docs/production/RELEASE-READINESS-20261022.json)。以下计数与链接属于已发布0.5.0基线，不能代替1.0.0平台结果。
+
 67 项逻辑测试覆盖 288 条路线；58 项浏览器检查覆盖配音、分支 CG、角色图鉴、阅读备份、打字暂停、离线与更新。Windows 源码、ASAR 成品、实际安装升级和 portable 外层及其子程序分别通过。
 
 公开发行文件须与同次验收的原始工件逐字节一致，校验全部四份下载、三个 SHA256SUMS 条目和 PWA ZIP CRC / 文件清单。公开 PWA 以同次已测构建部署，另验入口 / worker 和三屏断网续读。精确运行编号与结果见 [发布凭据](docs/production/PUBLISHED-v0.5.0-full-media.json)、[2026-10-22 独立回读](docs/production/PUBLIC-READBACK-20261022.json) 和 [当前状态](docs/STATUS.md)。
 
-本版保持可玩预览身份。真人试听、实体设备、普通电脑/中文路径/DPI与最终创作审阅单独记录。
+上述0.5.0保持可玩预览身份。1.0.0完成本轮内容与工程门禁后以正式版标记发布。真人试听、实体设备、普通电脑/中文路径/DPI与最终创作审阅单独记录。
 
 ## 开发
 
@@ -55,6 +61,7 @@ npm run dev
 node scripts/vn-contract.mjs src/story/story.json
 npm run test:materials
 npm test
+python3 -m unittest discover -s scripts -p 'test_publish_release.py' -v
 npm run build
 npx playwright install chromium
 npm run test:e2e

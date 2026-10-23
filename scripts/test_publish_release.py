@@ -16,13 +16,18 @@ FILES = {'Setup.exe': b'MZsetup', 'Portable.exe': b'MZportable', 'PWA.zip': b'zi
 
 
 class FakeGitHub:
-    def __init__(self, *, existing=None, tag=None, upload_error=False, corrupt=False, missing=False, moved=False):
+    def __init__(self, *, existing=None, tag=None, upload_error=False, corrupt=False, missing=False, moved=False,
+                 moved_tag=False, tampered=False, bad_digest=False, moved_target=False):
         self.existing = existing
         self.tag = tag
         self.upload_error = upload_error
         self.corrupt = corrupt
         self.missing = missing
         self.moved = moved
+        self.moved_tag = moved_tag
+        self.tampered = tampered
+        self.bad_digest = bad_digest
+        self.moved_target = moved_target
         self.mutations = []
         self.downloads = []
         self.release = None
@@ -30,6 +35,8 @@ class FakeGitHub:
         self.head_reads = 0
 
     def tag_commit(self, tag):
+        if self.moved_tag and self.head_reads > 1:
+            return 'b' * 40
         return self.tag
 
     def request(self, method, path, data=None, binary=False, anonymous=False, content_type=None):
@@ -39,7 +46,9 @@ class FakeGitHub:
             self.head_reads += 1
             return {'object': {'sha': 'b' * 40 if self.moved and self.head_reads > 1 else COMMIT}}
         if path.startswith('releases/tags/'):
-            return self.existing
+            return self.existing if self.existing is None or not self.existing.get('draft') else None
+        if path.startswith('releases?'):
+            return [{**self.existing, 'tag_name': 'v1.0.0'}] if self.existing else []
         if path == 'releases' and method == 'POST':
             self.release = {**data, 'id': 17, 'upload_url': 'https://uploads.example/17{?name,label}', 'assets': []}
             return copy.deepcopy(self.release)
@@ -48,12 +57,15 @@ class FakeGitHub:
                 raise RuntimeError('upload interrupted')
             name = publisher.urllib.parse.parse_qs(publisher.urllib.parse.urlsplit(path).query)['name'][0]
             self.data[name] = data
+            uploaded = bytes([data[0] ^ 1]) + data[1:] if self.tampered else data
             if not (self.missing and name == 'PWA.zip'):
                 self.release['assets'].append({'id': len(self.data), 'name': name, 'size': len(data),
-                    'digest': 'sha256:' + hashlib.sha256(data).hexdigest(), 'url': 'https://api.example/' + name,
+                    'digest': 'sha256:' + ('0' * 64 if self.bad_digest else hashlib.sha256(uploaded).hexdigest()), 'url': 'https://api.example/' + name,
                     'browser_download_url': 'https://public.example/' + name})
             return {}
         if path == 'releases/17':
+            if self.moved_target:
+                self.release['target_commitish'] = 'main'
             if method == 'PATCH':
                 self.release.update(data)
                 self.tag = COMMIT
@@ -61,6 +73,8 @@ class FakeGitHub:
         if binary:
             name = path.rsplit('/', 1)[1]
             self.downloads.append((name, anonymous))
+            if self.tampered:
+                return bytes([self.data[name][0] ^ 1]) + self.data[name][1:]
             return b'corrupt' if self.corrupt else self.data[name]
         raise AssertionError((method, path))
 
@@ -106,6 +120,19 @@ class PublisherTests(unittest.TestCase):
             run(api)
         self.assertEqual(api.mutations, [])
 
+    def test_existing_draft_on_later_list_page_is_not_overwritten(self):
+        class Paginated(FakeGitHub):
+            def request(self, method, path, **kwargs):
+                if path == 'releases?per_page=100&page=1':
+                    return [{'tag_name': 'unrelated-' + str(i)} for i in range(100)]
+                if path == 'releases?per_page=100&page=2':
+                    return [{'tag_name': 'v1.0.0', 'draft': True}]
+                return super().request(method, path, **kwargs)
+        api = Paginated()
+        with self.assertRaisesRegex(RuntimeError, 'already exists'):
+            run(api)
+        self.assertEqual(api.mutations, [])
+
     def test_wrong_tag_never_mutates(self):
         api = FakeGitHub(tag='b' * 40)
         with self.assertRaisesRegex(RuntimeError, 'different commit'):
@@ -131,6 +158,30 @@ class PublisherTests(unittest.TestCase):
             run(api)
         self.assert_unpublished(api)
         self.assertTrue(api.release['draft'])
+
+    def test_tag_changed_after_upload_leaves_only_a_draft(self):
+        api = FakeGitHub(moved_tag=True)
+        with self.assertRaisesRegex(RuntimeError, 'different commit'):
+            run(api)
+        self.assert_unpublished(api)
+
+    def test_draft_target_changed_after_upload_leaves_only_a_draft(self):
+        api = FakeGitHub(moved_target=True)
+        with self.assertRaisesRegex(RuntimeError, 'identity changed'):
+            run(api)
+        self.assert_unpublished(api)
+
+    def test_remote_digest_mismatch_leaves_only_a_draft(self):
+        api = FakeGitHub(bad_digest=True)
+        with self.assertRaisesRegex(RuntimeError, 'digest mismatch'):
+            run(api)
+        self.assert_unpublished(api)
+
+    def test_same_size_rehashed_tampering_still_fails_byte_comparison(self):
+        api = FakeGitHub(tampered=True)
+        with self.assertRaisesRegex(RuntimeError, 'bytes differ'):
+            run(api)
+        self.assert_unpublished(api)
 
     def test_corrupt_draft_download_leaves_only_a_draft(self):
         api = FakeGitHub(corrupt=True)

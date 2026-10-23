@@ -6,6 +6,7 @@ import { CharacterSprite } from './components/CharacterSprite';
 import { CharacterGallery } from './components/CharacterGallery';
 import { ChapterMenu, MemoryBook, Credits } from './components/EditionPanels';
 import { PwaPanel } from './components/PwaPanel';
+import { PlayerHelp } from './components/PlayerHelp';
 import { FullscreenButton, RotationHint } from './components/DisplayControls';
 import { useDisplayMode } from './useDisplayMode';
 import { pwa } from './pwa';
@@ -21,9 +22,9 @@ import { musicFor, readGallery, readScores, rememberProgress } from './game/prog
 import type { CgId, GameState, MusicId, Save, Settings } from './game/types';
 import { chapters, cgInfo, endingInfo } from './story';
 
-type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'credits' | 'pwa' | null;
+type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'credits' | 'pwa' | 'help' | null;
 const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
-const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '消息归档', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这段相遇', credits: '制作人员', pwa: '把故事留在身边' };
+const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '消息归档', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这段相遇', credits: '制作人员', pwa: '把故事留在身边', help: '游玩帮助' };
 const backgroundLabels = { bedroom: '梧城夜晚的旧房间', balcony: '隔窗相望的住宅楼', gate: '梧桐里小区门口', printshop: '拾光照相馆', riverbank: '五月的梧江步道' };
 
 export function App() {
@@ -273,10 +274,11 @@ export function App() {
         <div className="chapter-note"><span className="note-number">05</span><div><span>五章故事 / 四种结局</span><p>从一个好友申请，到一句当面说出的名字。</p></div></div>
       </section>
       <section className="title-visual" aria-label="梧城夜色与谢听禾"><img className="cover-background" src={art('balcony')} alt="梧城的旧楼，仍然亮着的一扇窗" /><div className="cover-wash" /><img className="cover-character" src={art('tinghe')} alt="谢听禾，带着录音笔的声音设计学生" /><div className="visual-date">梧城 · 2020<br /><span>21:30 / ONE BAR OF SIGNAL</span></div><div className="visual-caption"><span className="caption-line" /><p>“这一段别降噪了。<br />我想听见你那边的雨。”</p><small>谢听禾</small></div><span className="visual-index">01 — 05</span></section>
-      <footer className="title-footer"><span><i className={`status-dot ${pwaState.status === 'ready' || pwaState.status === 'desktop' ? 'ready' : ''}`} />{pwaState.status === 'desktop' ? '桌面版 · 离线阅读' : pwaState.status === 'ready' ? `${pwaState.online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : pwaState.status === 'downloading' ? '正在下载离线内容…' : pwaState.status === 'error' ? '离线下载待重试' : '2020 · 梧城 · 原创视觉小说'}</span><div>{pwaState.status !== 'desktop' && <button onClick={() => setPanel('pwa')}><Icon name={pwaState.updateReady ? 'check' : 'download'} size={14} />{pwaState.updateReady ? '有新版本' : '安装与离线'}</button>}<button onClick={() => setPanel('saves')}>存档迁移</button><button onClick={() => setPanel('credits')}>制作人员</button><span>v{__APP_VERSION__}</span></div></footer>
+      <footer className="title-footer"><span><i className={`status-dot ${pwaState.status === 'ready' || pwaState.status === 'desktop' ? 'ready' : ''}`} />{pwaState.status === 'desktop' ? '桌面版 · 离线阅读' : pwaState.status === 'ready' ? `${pwaState.online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : pwaState.status === 'downloading' ? '正在下载离线内容…' : pwaState.status === 'error' ? '离线下载待重试' : '2020 · 梧城 · 原创视觉小说'}</span><div>{pwaState.status !== 'desktop' && <button onClick={() => setPanel('pwa')}><Icon name={pwaState.updateReady ? 'check' : 'download'} size={14} />{pwaState.updateReady ? '有新版本' : '安装与离线'}</button>}<button onClick={() => setPanel('help')}>游玩帮助</button><button onClick={() => setPanel('saves')}>存档迁移</button><button onClick={() => setPanel('credits')}>制作人员</button><span>v{__APP_VERSION__}</span></div></footer>
     </main> : <main className="game-screen" data-scene={game.sceneId} data-line={game.line} data-ui-hidden={uiHidden} data-rereading={rereading}>
       {rereading && <aside className="reread-banner" aria-label="重读状态"><span>正在重读 · 原进度已保留</span><button type="button" onClick={returnFromReread}>返回原进度</button></aside>}
       <header className="game-header">
+        <div className="reading-help"><button className="paper-button" onClick={() => setPanel('help')} aria-label="游玩帮助"><Icon name="book" size={17} /><span>帮助</span></button></div>
         <button className="paper-button" onClick={returnToTitle} aria-label="返回标题"><Icon name="home" size={17} /><span>“网”恋</span></button>
         <div className="scene-heading"><span>0{chapter.id} / {chapter.title}</span><strong>{scene.title}</strong><div className="scene-time"><span>{scene.location}</span><small>{scene.time}</small></div></div>
         <div className="game-header-actions"><FullscreenButton display={display} compact /><button className="paper-button" onClick={() => setPanel('settings')} aria-label="阅读设置"><Icon name="gear" size={18} /></button></div>
@@ -313,6 +315,7 @@ export function App() {
 
     {panel && !confirm && <Dialog title={panelTitles[panel]} onClose={closePanel} wide={panel === 'characters' || panel === 'saves' || panel === 'memories' || panel === 'history'} subtitle={panel === 'saves' ? '在这里留住进度，也可以带到另一台设备。' : undefined}>
       {panel === 'pwa' && <PwaPanel state={pwaState} />}
+      {panel === 'help' && <PlayerHelp />}
       {panel === 'chapters' && <ChapterMenu begin={begin} load={load} />}
       {panel === 'characters' && <CharacterGallery />}
       {panel === 'memories' && <MemoryBook endings={endings} gallery={gallery} scores={scores} load={load} audition={audition} onAudition={setAudition} />}

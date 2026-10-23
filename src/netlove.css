@@ -39,3 +39,19 @@
 .save-actions button{min-height:44px}
 .save-backup-note{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 18px}
 @media(max-height:380px) and (orientation:landscape){.dialog-heading p{display:none}.save-backup-note{font-size:10px;margin-bottom:10px}.save-actions{margin-bottom:6px}}
+
+.player-help { font-size: 13px; line-height: 1.9; overflow-wrap: anywhere; }
+.player-help section { margin-top: 22px; }
+.player-help h3 { font-family: var(--serif); font-size: 17px; font-weight: 500; margin-bottom: 8px; }
+.player-help p + p { margin-top: 8px; }
+.player-help .help-intro { color: #326466; }
+.player-help .soft-note { margin-top: 22px; }
+.reading-help { position: fixed; top: max(12px, env(safe-area-inset-top)); left: max(12px, env(safe-area-inset-left)); z-index: 9; }
+.game-screen .reread-banner { max-width: calc(100vw - 116px); }
+.reading-help .paper-button { display: flex; align-items: center; gap: 7px; min-height: 44px; }
+.game-header .reading-help .paper-button > span { display: inline; font-size: 11px; }
+@media (orientation: landscape) and (max-height: 380px) {
+  .player-help { font-size: 12px; }
+  .player-help section { margin-top: 16px; }
+  .title-footer > div { gap: 10px; }
+}

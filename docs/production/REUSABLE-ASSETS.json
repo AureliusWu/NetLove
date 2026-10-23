@@ -114,7 +114,7 @@
       "reuse": "licensed",
       "origin": "Noto Serif SC; project-specific subset",
       "sourceStatus": "not-in-repository",
-      "sourceNote": "Upstream full font is not stored here; regenerate with target JSON/UI glyph coverage, preserve OFL naming restrictions",
+      "sourceNote": "Official Google Fonts NotoSerifSC[wght].ttf; source SHA-256 050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9. Regenerated 2026-10-23 for complete story and player-help UI glyph coverage; preserve OFL naming restrictions.",
       "license": {
         "name": "SIL Open Font License 1.1",
         "file": {
@@ -129,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "57ce62a77a9ca40dd578ff4e343e4d09ed49ad3ad55ed907dbee1be2a1b94c23"
+          "sha256": "456ee824189be32d30afbe78cbad90dbe7f5b6093dda3ac585f742b20221ab7e"
         },
         {
           "role": "recipe",

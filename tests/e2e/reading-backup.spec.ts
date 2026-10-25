@@ -55,6 +55,7 @@ test('downloads a complete compact backup and imports it in a separate browser c
   const destination = await browser.newContext({ viewport: info.project.name === 'mobile' ? { width: 412, height: 915 } : { width: 1440, height: 900 } });
   try {
     const target = await destination.newPage();
+    await target.bringToFront();
     await seed(target);
     await target.getByRole('button', { name: '存档迁移', exact: true }).click();
     await target.getByLabel('选择存档文件').setInputFiles(file);

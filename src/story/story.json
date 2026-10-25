@@ -1289,7 +1289,7 @@
       "chapter": 3,
       "background": "printshop",
       "location": "拾光照相馆",
-      "time": "2020.03.06",
+      "time": "2020.03.06 起",
       "lines": [
         {
           "id": "c3-open-001",
@@ -1366,7 +1366,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.07",
       "lines": [
         {
           "id": "c3-screenshot-001",
@@ -1442,7 +1442,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.07",
       "lines": [
         {
           "id": "c3-choice-001",
@@ -1508,7 +1508,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.07",
       "lines": [
         {
           "id": "c3-public-001",
@@ -1585,7 +1585,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.07",
       "lines": [
         {
           "id": "c3-private-001",
@@ -1665,7 +1665,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.07",
       "lines": [
         {
           "id": "c3-remove-001",
@@ -1738,7 +1738,7 @@
       "chapter": 3,
       "background": "printshop",
       "location": "拾光照相馆",
-      "time": "2020.03.06",
+      "time": "2020.03.09",
       "lines": [
         {
           "id": "c3-repair-001",
@@ -1832,7 +1832,7 @@
       "chapter": 3,
       "background": "printshop",
       "location": "拾光照相馆",
-      "time": "2020.03.06",
+      "time": "2020.03.09",
       "lines": [
         {
           "id": "c3-frame-001",
@@ -1930,7 +1930,7 @@
       "chapter": 3,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.03.06",
+      "time": "2020.03.09",
       "lines": [
         {
           "id": "c3-end-001",
@@ -2300,7 +2300,7 @@
       "chapter": 4,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.04.10",
+      "time": "2020.04.11",
       "lines": [
         {
           "id": "c4-voice-001",
@@ -2414,7 +2414,7 @@
       "chapter": 4,
       "background": "printshop",
       "location": "拾光照相馆",
-      "time": "2020.04.10",
+      "time": "2020.04.11",
       "lines": [
         {
           "id": "c4-envelope-001",
@@ -2512,7 +2512,7 @@
       "chapter": 4,
       "background": "balcony",
       "location": "梧桐里 · 隔窗",
-      "time": "2020.04.10",
+      "time": "2020.04.11",
       "lines": [
         {
           "id": "c4-name-001",
@@ -2590,7 +2590,7 @@
       "chapter": 4,
       "background": "bedroom",
       "location": "周既明的房间",
-      "time": "2020.04.10",
+      "time": "2020.04 下旬",
       "lines": [
         {
           "id": "c4-end-001",
@@ -2625,7 +2625,7 @@
         {
           "id": "c4-end-007",
           "speaker": "旁白",
-          "text": "那晚我十一点关灯。群里还有消息，我决定明早看。"
+          "text": "那晚我打算十一点关灯。群里还有消息，我决定明早看。"
         },
         {
           "id": "c4-end-008",
@@ -2920,7 +2920,7 @@
       "chapter": 5,
       "background": "riverbank",
       "location": "梧江步道",
-      "time": "2020.05.17",
+      "time": "2020.05 · 返校前后",
       "lines": [
         {
           "id": "end-tinghe-001",
@@ -3119,7 +3119,7 @@
       "chapter": 5,
       "background": "printshop",
       "location": "拾光照相馆",
-      "time": "2020.05.17",
+      "time": "2020.05.18 起",
       "lines": [
         {
           "id": "end-xumi-001",
@@ -3284,7 +3284,7 @@
       "chapter": 5,
       "background": "riverbank",
       "location": "梧江步道",
-      "time": "2020.05.17",
+      "time": "2020.05 之后",
       "lines": [
         {
           "id": "end-friends-001",
@@ -3440,7 +3440,7 @@
       "chapter": 5,
       "background": "balcony",
       "location": "梧桐里 · 隔窗",
-      "time": "2020.05.17",
+      "time": "2020.05 · 入夏前",
       "lines": [
         {
           "id": "end-letter-001",

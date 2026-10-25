@@ -6,6 +6,99 @@
   "correction": "明天是不是周一 → 今天是不是周一",
   "recordedDialogueChanged": false,
   "lineIdsAndSavePositionsPreserved": true,
-  "reviewedBaselineRevisedParagraphs": 43,
-  "scope": "One definite temporal continuity fix; not a claim that all narrative quality has been reviewed."
+  "reviewedBaselineRevisedParagraphs": 44,
+  "scope": "One definite temporal continuity fix; not a claim that all narrative quality has been reviewed.",
+  "additionalNarrationFix": {
+    "scene": "c4-end",
+    "line": 6,
+    "correction": "十一点关灯 → 打算十一点关灯",
+    "reason": "Keeps a planned 23:00 bedtime consistent with the following 21:30 message action."
+  },
+  "timeMetadataCorrections": [
+    {
+      "scene": "c3-open",
+      "from": "2020.03.06",
+      "to": "2020.03.06 起"
+    },
+    {
+      "scene": "c3-screenshot",
+      "from": "2020.03.06",
+      "to": "2020.03.07"
+    },
+    {
+      "scene": "c3-choice",
+      "from": "2020.03.06",
+      "to": "2020.03.07"
+    },
+    {
+      "scene": "c3-public",
+      "from": "2020.03.06",
+      "to": "2020.03.07"
+    },
+    {
+      "scene": "c3-private",
+      "from": "2020.03.06",
+      "to": "2020.03.07"
+    },
+    {
+      "scene": "c3-remove",
+      "from": "2020.03.06",
+      "to": "2020.03.07"
+    },
+    {
+      "scene": "c3-repair",
+      "from": "2020.03.06",
+      "to": "2020.03.09"
+    },
+    {
+      "scene": "c3-frame",
+      "from": "2020.03.06",
+      "to": "2020.03.09"
+    },
+    {
+      "scene": "c3-end",
+      "from": "2020.03.06",
+      "to": "2020.03.09"
+    },
+    {
+      "scene": "c4-voice",
+      "from": "2020.04.10",
+      "to": "2020.04.11"
+    },
+    {
+      "scene": "c4-envelope",
+      "from": "2020.04.10",
+      "to": "2020.04.11"
+    },
+    {
+      "scene": "c4-name",
+      "from": "2020.04.10",
+      "to": "2020.04.11"
+    },
+    {
+      "scene": "c4-end",
+      "from": "2020.04.10",
+      "to": "2020.04 下旬"
+    },
+    {
+      "scene": "end-tinghe",
+      "from": "2020.05.17",
+      "to": "2020.05 · 返校前后"
+    },
+    {
+      "scene": "end-xumi",
+      "from": "2020.05.17",
+      "to": "2020.05.18 起"
+    },
+    {
+      "scene": "end-friends",
+      "from": "2020.05.17",
+      "to": "2020.05 之后"
+    },
+    {
+      "scene": "end-letter",
+      "from": "2020.05.17",
+      "to": "2020.05 · 入夏前"
+    }
+  ]
 }

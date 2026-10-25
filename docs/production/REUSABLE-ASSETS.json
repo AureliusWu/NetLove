@@ -129,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "456ee824189be32d30afbe78cbad90dbe7f5b6093dda3ac585f742b20221ab7e"
+          "sha256": "c01dfa22081276302f835ce153d2404c4323871040b32125731bf6c0c4b2eb98"
         },
         {
           "role": "recipe",
@@ -207,13 +207,13 @@
           "role": "recipe",
           "path": "src/game/score.ts",
           "encoding": "text-lf",
-          "sha256": "3ba3bef09a34805b6988d4b2226566e1641386f2ffb4c8a92c0bdf5fbc9e26f6"
+          "sha256": "ae11e32a55e15e44489326a2b23233e880c29195ed6fc42310c7ac7ce896efae"
         },
         {
           "role": "recipe",
           "path": "src/game/music.ts",
           "encoding": "text-lf",
-          "sha256": "74cae942482c0c3828e67e5ab98e9da7fe573bf4183bd985ddd414ad05eaa5bc"
+          "sha256": "b5ed8fec4acd613804c75a5bc1969c2dddb70bd18413cfd33107d2239f2cdf47"
         },
         {
           "role": "recipe",

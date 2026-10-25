@@ -32,7 +32,7 @@ export function Credits() {
     <div><dt>创作与制作</dt><dd>AureliusWu 与 AI 协作</dd></div>
     <div><dt>剧本</dt><dd>五章原创故事 · 四种结局</dd></div>
     <div><dt>美术</dt><dd>内置图像生成工具 · 两位角色与五处梧城场景</dd></div>
-    <div><dt>框架与音乐</dt><dd>Project1 双端基础与六首程序配乐 · MIT</dd></div>
+    <div><dt>框架与音乐</dt><dd>Project1 双端基础与程序配乐 · MIT；新增原创音乐的乐器许可随包提供</dd></div>
     <div><dt>制作方法</dt><dd>Test 剧情校验、素材溯源与实际包验收</dd></div>
     <div><dt>字体</dt><dd>Story Serif / Noto Serif SC · SIL OFL</dd></div>
   </dl><p className="soft-note">“网”恋 v{__APP_VERSION__} · 2020 架空梧城<br/>全部剧情与资源随客户端提供。</p></div>;

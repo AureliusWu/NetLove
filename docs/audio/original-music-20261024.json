@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "version": "1.1.0",
+  "date": "2026-10-24",
+  "stage": "local-runtime-verified",
+  "baselineCommit": "8dcb0c02359100f4c04b30ba028cbb997172e875",
+  "soundfont": {
+    "version": "2.0.3",
+    "author": "S. Christian Collins",
+    "source": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+    "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+  },
+  "soundfontLicense": "public/licenses/GeneralUser-GS-LICENSE.txt",
+  "tracks": [
+    {
+      "id": "netlove-windowlight",
+      "title": "屏幕那端的灯",
+      "vocals": false,
+      "bpm": 88,
+      "key": "D major",
+      "instruments": [
+        "Rhodes 电钢琴",
+        "弱音电吉他",
+        "暖合成器铺底",
+        "指弹贝司",
+        "颤音琴",
+        "轻鼓组"
+      ],
+      "loopFrames": 4189120,
+      "loopSampleRate": 48000,
+      "loopDurationSeconds": 87.273333,
+      "loopEntireFile": true,
+      "runtime": "public/audio/bgm/netlove-windowlight.ogg",
+      "sha256": "783f17dbbd4836015a7650e507e88845c2632d06bd33a8f51f7f0033b6e0ea7c",
+      "bindings": [
+        "window"
+      ],
+      "bindingRegistry": "src/game/score.ts",
+      "score": "assets_source/music/original-20261024/scores/netlove-windowlight.json",
+      "midi": "assets_source/music/original-20261024/scores/netlove-windowlight.mid",
+      "quality": {
+        "path": "NetLove/loops/netlove-windowlight_loop.ogg",
+        "bytes": 1416056,
+        "sha256": "783f17dbbd4836015a7650e507e88845c2632d06bd33a8f51f7f0033b6e0ea7c",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 4189120,
+        "seconds": 87.273333,
+        "finite": true,
+        "samplePeakDbfs": -7.6358,
+        "rmsDbfs": -23.2747,
+        "integratedLufs": -20.96,
+        "truePeakDbtp": -7.63,
+        "loudnessRangeLu": 4.2,
+        "loopBoundaryDelta": 0.0003583468496799469,
+        "humanListening": "pending",
+        "originalRenderPath": "loops/05_NetLove_windowlight_loop.ogg"
+      },
+      "humanListening": "pending"
+    },
+    {
+      "id": "netlove-offline",
+      "title": "离线以后还在",
+      "vocals": false,
+      "bpm": 76,
+      "key": "A minor",
+      "instruments": [
+        "柔和电钢琴",
+        "尼龙弦吉他",
+        "颤音琴",
+        "暖合成器",
+        "指弹贝司",
+        "轻打击乐"
+      ],
+      "loopFrames": 4850496,
+      "loopSampleRate": 48000,
+      "loopDurationSeconds": 101.052,
+      "loopEntireFile": true,
+      "runtime": "public/audio/bgm/netlove-offline.ogg",
+      "sha256": "9bb8a37a1d2412cb48900065355256fa2e3d17d3338dc110ba4ed64f810db8c1",
+      "bindings": [
+        "rain"
+      ],
+      "bindingRegistry": "src/game/score.ts",
+      "score": "assets_source/music/original-20261024/scores/netlove-offline.json",
+      "midi": "assets_source/music/original-20261024/scores/netlove-offline.mid",
+      "quality": {
+        "path": "NetLove/loops/netlove-offline_loop.ogg",
+        "bytes": 1488193,
+        "sha256": "9bb8a37a1d2412cb48900065355256fa2e3d17d3338dc110ba4ed64f810db8c1",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 4850496,
+        "seconds": 101.052,
+        "finite": true,
+        "samplePeakDbfs": -6.6273,
+        "rmsDbfs": -23.1573,
+        "integratedLufs": -20.98,
+        "truePeakDbtp": -6.61,
+        "loudnessRangeLu": 3.9,
+        "loopBoundaryDelta": 0.0008912784978747368,
+        "humanListening": "pending",
+        "originalRenderPath": "loops/06_NetLove_offline_loop.ogg"
+      },
+      "humanListening": "pending"
+    }
+  ],
+  "pending": [
+    "actual Windows package validation",
+    "public PWA and release validation",
+    "human listening and physical devices"
+  ],
+  "lastValidatedOn": "2026-10-25"
+}

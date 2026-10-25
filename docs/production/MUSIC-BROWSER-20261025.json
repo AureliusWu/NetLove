@@ -1,0 +1,240 @@
+{
+  "config": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/workspace/scratch/2d7c1ba6d546/NetLove/node_modules/@playwright/test/cli.js",
+      "test",
+      "--config=../.qa-tools/NetLove-music.config.mjs",
+      "--reporter=list,json"
+    ],
+    "configFile": "/workspace/scratch/2d7c1ba6d546/.qa-tools/NetLove-music.config.mjs",
+    "rootDir": "/workspace/scratch/2d7c1ba6d546/NetLove/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/scratch/2d7c1ba6d546/NetLove/test-results/original-music-current",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "/workspace/scratch/2d7c1ba6d546/NetLove/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "original-music.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/2d7c1ba6d546/NetLove/test-results/original-music-current",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/workspace/scratch/2d7c1ba6d546/NetLove/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "original-music.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview -- --port 51232 --host 127.0.0.1 --strictPort",
+      "cwd": "/workspace/scratch/2d7c1ba6d546/NetLove",
+      "url": "http://127.0.0.1:51232",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "original-music.spec.ts",
+      "file": "original-music.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "original loop audio/bgm/netlove-windowlight.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:08.517Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-97f3df7373a4bac7ffbe",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/netlove-offline.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:12.119Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-b03270c9eaa3e43cbcc2",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/netlove-windowlight.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3824,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:15.580Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-52077160cd53cbc6ac53",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/netlove-offline.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2817,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:19.525Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-7d597a908d57fd457b90",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T23:22:07.487Z",
+    "duration": 14943.842,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

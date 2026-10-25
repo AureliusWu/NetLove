@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-10-25",
   "project": "NetLove",
-  "type": "聊天 / 通话驱动的互动小说，含视觉小说演出",
+  "type": "消息 / 通话驱动的恋爱互动小说",
   "version": "1.1.1",
   "runtimeCommit": "6ab0a51167251e7017a074ca0bf6f174c8622537",
   "buildRun": 40148750505,
@@ -10,7 +10,7 @@
   "publicPwaRun": 40149636112,
   "publicPwaConclusion": "success",
   "browserSummary": "82 项完整浏览器检查全部通过（最终时间线修正提交，标准 CI）",
-  "nativeSummary": "源码 Electron、实际 ASAR、NSIS 安装及 v0.5.0 旧档升级、便携启动器与真实子程序、全屏 / 存档 / 退出均通过",
+  "nativeSummary": "本轮 73 项逻辑、构建和 220 文件完整解码通过。运行源码未变化，冻结 v1.1.1 标准 CI 全部 82 浏览器通过；源码 / ASAR / NSIS、真实 v0.5.0 旧档升级、便携启动器子程序和保存 / 全屏 / 退出通过。本轮共同断网检查重新覆盖公开版本。",
   "publicReadback": {
     "schema": 1,
     "checkedAt": 1792890730.093645,
@@ -55,19 +55,137 @@
     "status": "passed"
   },
   "sameOrigin": {
-    "status": "passed",
-    "run": 40148998570,
-    "attempt": 2,
-    "expectedVersions": {
-      "Circuit": "1.9.0",
+    "schema": 1,
+    "checked_at": "2026-10-25T06:26:36.168286+00:00",
+    "expected_versions": {
+      "Circuit": "1.10.1",
       "NetLove": "1.1.1",
-      "Healing": "1.5.2",
+      "Healing": "1.5.4",
       "Rain": "1.7.0"
     },
-    "totalCachedFiles": 1257,
-    "pageErrors": []
+    "status": "passed",
+    "installs": [
+      {
+        "game": "Circuit",
+        "version": "1.10.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Circuit/",
+          "active": "https://aureliuswu.github.io/Circuit/sw.js",
+          "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+        },
+        "own_cache_entries": {
+          "workbox-precache-v2-https://aureliuswu.github.io/Circuit/": 493
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "NetLove",
+        "version": "1.1.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "active": "https://aureliuswu.github.io/NetLove/sw.js",
+          "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+        },
+        "own_cache_entries": {
+          "netlove-v2:https%3A%2F%2Faureliuswu.github.io%2FNetLove%2F:aaf7b2e55977b0": 260
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "Healing",
+        "version": "1.5.4",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Healing/",
+          "active": "https://aureliuswu.github.io/Healing/sw.js",
+          "controller": "https://aureliuswu.github.io/Healing/sw.js"
+        },
+        "own_cache_entries": {
+          "moist-healing-v2:https%3A%2F%2Faureliuswu.github.io%2FHealing%2F:7854d1327e6175": 478
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "Rain",
+        "version": "1.7.0",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Rain/",
+          "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+          "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+        },
+        "own_cache_entries": {
+          "rain-pwa:/Rain/:f83e74ac401a19dd622d9cd6": 37
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      }
+    ],
+    "offline": [
+      {
+        "game": "Circuit",
+        "version": "1.10.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Circuit/",
+          "active": "https://aureliuswu.github.io/Circuit/sw.js",
+          "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "NetLove",
+        "version": "1.1.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "active": "https://aureliuswu.github.io/NetLove/sw.js",
+          "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "Healing",
+        "version": "1.5.4",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Healing/",
+          "active": "https://aureliuswu.github.io/Healing/sw.js",
+          "controller": "https://aureliuswu.github.io/Healing/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "Rain",
+        "version": "1.7.0",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Rain/",
+          "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+          "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      }
+    ],
+    "page_errors": [],
+    "scope": "Fresh Chromium profile; same-origin caches, real React autosaves and offline startup. Native Save/Load, Windows and physical devices are separate checks.",
+    "browser_version": "156.0.8078.4",
+    "cache_inventory_sha256": "a21a34ce8f8c69a8c130d3bdf96380fa2b795b5bc2b08d08f12c712e15949ccb",
+    "registrations": [
+      "https://aureliuswu.github.io/Circuit/",
+      "https://aureliuswu.github.io/Healing/",
+      "https://aureliuswu.github.io/NetLove/",
+      "https://aureliuswu.github.io/Rain/"
+    ],
+    "total_cached_files": 1268,
+    "verificationRun": 40169055016,
+    "runAttempt": 1
   },
   "finalWorkAccepted": false,
   "humanListeningClaimed": false,
-  "remaining": "P2：15 项录音线索、音乐 / 音效听感、全篇文本与演出审读。P3：1 项旧原生成请求补档、普通设备 / DPI 与阅读计时。没有因为立绘数量少而判定核心玩法缺失。"
+  "remaining": "P2：15 条旧 ASR 差异、音乐 / 音效听感与完整文本 / 演出终审。P3：一项历史原生成请求补档，普通设备 / DPI 与阅读计时。没有未实现却对外声称存在的网页解谜、多窗口或全旁白配音。",
+  "engineeringReleaseVerified": true,
+  "thisContinuation": "重新运行 73 项原生逻辑和生产构建，220 条录音完整解码，逐场梳理五章主线与全部四结局，复核 17 个时间标签、消息身份、照片授权冲突和最终邀约；最新四作同源测试复验公开 v1.1.1。保持已验证的事件音、人声压低 BGM 与旧档契约。",
+  "completedGaps": "本轮未发现新的 P0 / 明确剧情错误。此前已修开场周一、末章多日时间、事件音缺口和语音期间音乐竞争，本次均保留；不把后台测试提示计时误记为玩家存档损坏。"
 }

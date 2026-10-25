@@ -1,5 +1,7 @@
 > 2026-10-25：**当前发行 v1.1.1 已通过 Windows、公开 PWA 和下载回读**。新增事件音效、人声播放时降低背景音乐，以及多日时间线修正；聊天 / 通话可见性和独立存档保持。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.1.1) · [实际验收与缺口](docs/production/ACCEPTANCE-20261025.md) · [精确提交与机器凭据](docs/production/VERIFIED-DELIVERY-20261025.json)。
 
+**当前版本素材复核（2026-10-25）**：220处对白绑定、16图完整测量，客观错误0；审阅工具13项实际检查通过。[当前可试听目录](docs/production/quality-20261025/README.md)。全部素材仍保留独立人工审阅状态，历史记录不冒充新版意见。
+
 **发布后素材审阅（2026-10-23）**：发布后素材质检：220 条对白、16 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；15 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
 
 > 2026-10-23：**v1.0.0 五章完整正式版已发布**。游玩帮助、完整字体及草稿附件字节验证已交付；Windows、公开三屏离线、四份下载与四作共同断网复验全部通过。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。下方旧版状态保留为历史证据。

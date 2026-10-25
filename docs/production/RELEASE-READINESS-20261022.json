@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "project": "NetLove",
-  "targetVersion": "1.0.0",
-  "baselineCommit": "83b33b910d783f9eea423799dafcc5aeed33d5ef",
+  "targetVersion": "1.1.1",
+  "runtimeCommit": "6ab0a51167251e7017a074ca0bf6f174c8622537",
   "status": "released-and-verified",
+  "acceptanceScope": "engineering release; human creative/listening/physical-device review pending",
   "gates": {
     "implementation": "passed",
     "localValidation": "passed",
@@ -14,113 +15,27 @@
     "publicReadback": "passed",
     "fourGameCoexistence": "passed"
   },
-  "humanReview": "pending-user-consolidated",
+  "humanReview": "pending",
+  "humanListeningClaimed": false,
   "evidence": [
-    {
-      "path": "docs/production/RELEASE-v1.0.0.md",
-      "kind": "implementation-and-local-validation"
-    },
-    {
-      "commit": "2a7e74aa748f97a576f815b409a849b153515939",
-      "kind": "tested-publisher-checkpoint"
-    },
-    {
-      "commit": "a914433500abe6b886f73d9f9c1b3213c92b2849",
-      "kind": "tested-help-and-version-checkpoint"
-    },
-    {
-      "kind": "final-release-closure",
-      "path": "docs/production/PUBLISHED-v1.0.0.json",
-      "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80",
-      "platforms": "actual Windows and public PWA",
-      "fourGamesCiRun": 39972929371
-    }
+    "docs/production/VERIFIED-DELIVERY-20261025.json",
+    "docs/production/ACCEPTANCE-20261025.md",
+    "docs/production/quality-20261025/media-quality.json",
+    "docs/production/quality-20261025/review-browser.json"
   ],
+  "previousReadiness": "docs/production/quality-20261025/previous-readiness.json",
+  "previousTargetVersion": "1.0.0",
   "blockers": [],
-  "updatedAt": "2026-10-23T15:07:34.468305+00:00",
-  "implementationBaseCommit": "0a130bc704bbdd440b42313a91324df0a8628496",
-  "playerRuntimeCheckpoint": "a914433500abe6b886f73d9f9c1b3213c92b2849",
-  "frozenContent": {
-    "chapters": 5,
-    "scenes": 43,
-    "lines": 507,
-    "choices": 6,
-    "routes": 288,
-    "endings": 4,
-    "characterDialogueRecordings": 220,
-    "storyVersion": "netlove-v1",
-    "storageKey": "netlove:v1",
-    "noSpritePreserved": true
-  },
-  "localValidation": {
-    "publisherFailurePaths": {
-      "status": "passed",
-      "tests": 18,
-      "command": "python3 -m unittest discover -s scripts -p 'test_publish_release.py' -v"
-    },
-    "logic": {
-      "status": "passed",
-      "tests": 67,
-      "routes": 288,
-      "command": "npm test"
-    },
-    "materials": {
-      "status": "passed",
-      "toolTests": 10,
-      "sharedFiles": 15,
-      "command": "npm run test:materials",
-      "export": {
-        "entries": 7,
-        "files": 32,
-        "excludedProjectOnly": 21
-      }
-    },
-    "productionBuild": {
-      "status": "passed",
-      "pwaFiles": 257,
-      "command": "npm run build"
-    },
-    "helpBrowser": {
-      "status": "passed",
-      "tests": 8,
-      "browser": "Chromium 153.0.8010.0 (local extracted runtime)",
-      "viewports": [
-        "1440x900",
-        "568x320",
-        "844x390",
-        "412x915"
-      ],
-      "workers": 1
-    },
-    "fullBrowser": {
-      "status": "passed",
-      "tests": 66,
-      "workers": 1,
-      "durationMinutes": 6.0,
-      "browser": "Chromium 153.0.8010.0 (local extracted runtime)",
-      "command": "npm run test:e2e -- --workers=1",
-      "environmentNote": "Minimal no-sandbox/no-zygote/disable-dev-shm-usage arguments and LD_LIBRARY_PATH required by local environment only; CI retains official installed Chromium and two workers."
-    },
-    "fullMedia": {
-      "status": "passed",
-      "target": 220,
-      "accepted": 220,
-      "images": 4,
-      "allRuntimeVoiceBytesDecoded": true,
-      "command": "python3 tools/production/validate_runtime.py --require-complete --decode"
-    },
-    "legacyVoice": {
-      "status": "passed",
-      "recordings": 8,
-      "decodedSourceAndRuntimeFiles": 24,
-      "command": "python3 scripts/validate-voice.py"
+  "quality": {
+    "dialogueBindings": 220,
+    "uniqueAudioFiles": 220,
+    "artworkFiles": 16,
+    "fullMediaNewImages": 4,
+    "audioDurationSeconds": 764.251,
+    "reviewPriorityItems": 15,
+    "objectiveErrorItems": 0,
+    "flags": {
+      "asr_difference": 15
     }
-  },
-  "platformNotes": {
-    "windows": "Passed exact runtime build 39914224966: source, actual package, real installed upgrade; NetLove also executes portable wrapper.",
-    "publicRelease": "Stable, non-draft; immutable exact runtime tag. All public attachment bytes downloaded again.",
-    "publicPwa": "Passed exact public PWA verification run 39915052813, final attempt 2; actual public offline resume at three sizes.",
-    "fourGameCoexistence": "Passed CI 39972929371 and independent local run at all four target versions."
-  },
-  "runtimeCommit": "6e53a29d653b7b0a1095c999ab03415655fb7f80"
+  }
 }

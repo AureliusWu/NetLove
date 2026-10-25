@@ -11,3 +11,5 @@
 - 只维护 main，保留远端改动，不 force push。先验证再提交。保留真实断点和可复用经验。
 
 剧情、美术精修另读 [协作方法](docs/production/CREATIVE-PLAYBOOK.md)。保留原段落、路线与录音句，检查点与实际平台证据分别留档。
+
+项目类型和完成标准另读 [本作验收](docs/production/PROJECT-ACCEPTANCE.md)，以用户 2026-10-25 四作要求为准。按各作实际玩法验收，不强制统一 Galgame 模板；资源必须实际触发并验证效果，才能标记完成。

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "method": "current runtime bytes, complete SoundFile decode, finite samples, peak and loop boundary; no human listening claimed",
+  "tracks": [
+    {
+      "id": "netlove-windowlight",
+      "runtime": "public/audio/bgm/netlove-windowlight.ogg",
+      "sha256": "783f17dbbd4836015a7650e507e88845c2632d06bd33a8f51f7f0033b6e0ea7c",
+      "frames": 4189120,
+      "sampleRate": 48000,
+      "channels": 2,
+      "seconds": 87.27333333333333,
+      "finite": true,
+      "samplePeakDbfs": -7.6358418464660645,
+      "loopBoundaryDelta": 0.00035834498703479767
+    },
+    {
+      "id": "netlove-offline",
+      "runtime": "public/audio/bgm/netlove-offline.ogg",
+      "sha256": "9bb8a37a1d2412cb48900065355256fa2e3d17d3338dc110ba4ed64f810db8c1",
+      "frames": 4850496,
+      "sampleRate": 48000,
+      "channels": 2,
+      "seconds": 101.052,
+      "finite": true,
+      "samplePeakDbfs": -6.627316474914551,
+      "loopBoundaryDelta": 0.0008912775665521622
+    }
+  ]
+}

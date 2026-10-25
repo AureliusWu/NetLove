@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "version": "1.1.1",
+  "unitTests": 73,
+  "build": "passed",
+  "materials": "passed",
+  "e2e": "running separately; not claimed passed",
+  "windows": "pending matching CI",
+  "records": [
+    {
+      "file": "NetLove-final-unit.log",
+      "sha256": "12c821c1e576b6c291eb29bbf3617528fff74da0d081e2997b53059409f0bc70",
+      "bytes": 594
+    },
+    {
+      "file": "NetLove-final-materials.log",
+      "sha256": "23353bcc543907d9ba5774d946246a4fdb4b211b84d427821b2b45075633009a",
+      "bytes": 1372
+    },
+    {
+      "file": "NetLove-final-build.log",
+      "sha256": "95de9f7f376ae8753d7f4517b7cfe1bfabf0cc9973148de2f611102c3e2ff99a",
+      "bytes": 652
+    }
+  ]
+}

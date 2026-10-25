@@ -16,6 +16,7 @@ import { applyProgressImport, createReadingBackup, decodeProgressFile } from './
 import { RecordedVoice, voiceBlocksAuto } from './game/voice';
 import { voiceClips, voiceFor } from './game/voice-catalog';
 import { music } from './game/music';
+import { useSceneCue } from './useSceneCue';
 import { presentationAt } from './game/presentation';
 import { historyState } from './game/history-preview';
 import { musicFor, readGallery, readScores, rememberProgress } from './game/progress';
@@ -105,10 +106,12 @@ export function App() {
   useEffect(() => {
     try { localStorage.setItem(`${KEY}:settings`, JSON.stringify(settings)); } catch { /* Settings can remain in memory. */ }
     music.setPaused(!!confirm || uiHidden || pageHidden || (!!panel && !(panel === 'memories' && !!audition)));
-    music.configure({ ...settings, music: panel === 'memories' && !!audition ? true : settings.music });
+    music.configure({ ...settings, volume: settings.volume * (voiceState.status === 'playing' ? .32 : 1), music: panel === 'memories' && !!audition ? true : settings.music });
     music.setScene(panel === 'memories' && audition ? audition : screen === 'game' ? musicFor(scene.id) : 'rain', screen === 'game' && panel !== 'memories' && !!scene.rain);
-  }, [settings, scene.id, scene.rain, screen, audition, panel, confirm, uiHidden, pageHidden]);
+  }, [settings, scene.id, scene.rain, screen, audition, panel, confirm, uiHidden, pageHidden, voiceState.status]);
   useEffect(() => { if (panel !== 'memories') setAudition(null); }, [panel]);
+  useSceneCue(scene.id, game.line, readingSession,
+    screen === 'game' && !panel && !confirm && !uiHidden && !pageHidden && !fast);
   useEffect(() => {
     if (screen === 'game') store('auto', liveGame);
   }, [liveGame, screen, store]);

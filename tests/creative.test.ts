@@ -9,7 +9,7 @@ import {decodeSave,encodeSave} from '../src/game/storage';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 describe('creative revision and existing saves',()=>{
-  it('preserves all positions and choices against the reviewed baseline',()=>{expect(auditRevision(baseline,story).revisedParagraphs).toBe(42);expect(validateFrames(frames)).toBe(5);});
+  it('preserves all positions and choices against the reviewed baseline',()=>{expect(auditRevision(baseline,story).revisedParagraphs).toBe(43);expect(validateFrames(frames)).toBe(5);});
   it('restores emotion after narration and old-style load without revealing chat-only characters',()=>{
     const state=replay([{sceneId:'first-reply',choiceId:'first-reply-1'},{sceneId:'c2-open',choiceId:'c2-open-1'},{sceneId:'c2-call',choiceId:'c2-call-1'}],'c2-camera',6);
     expect(presentationAt(getScene(state),6)).toEqual({character:'tinghe',expression:'surprised'});

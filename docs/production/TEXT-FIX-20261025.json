@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "scene": "arrival",
+  "line": "arrival-004",
+  "issue": "The 2020-01-27 Monday scene asked whether tomorrow was Monday, but the following narration confirms today is Monday.",
+  "correction": "明天是不是周一 → 今天是不是周一",
+  "recordedDialogueChanged": false,
+  "lineIdsAndSavePositionsPreserved": true,
+  "reviewedBaselineRevisedParagraphs": 43,
+  "scope": "One definite temporal continuity fix; not a claim that all narrative quality has been reviewed."
+}

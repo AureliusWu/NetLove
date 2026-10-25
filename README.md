@@ -1,3 +1,5 @@
+> 2026-10-25：**当前发行 v1.1.1 已通过 Windows、公开 PWA 和下载回读**。新增事件音效、人声播放时降低背景音乐，以及多日时间线修正；聊天 / 通话可见性和独立存档保持。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.1.1) · [实际验收与缺口](docs/production/ACCEPTANCE-20261025.md) · [精确提交与机器凭据](docs/production/VERIFIED-DELIVERY-20261025.json)。
+
 **发布后素材审阅（2026-10-23）**：发布后素材质检：220 条对白、16 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；15 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
 
 > 2026-10-23：**v1.0.0 五章完整正式版已发布**。游玩帮助、完整字体及草稿附件字节验证已交付；Windows、公开三屏离线、四份下载与四作共同断网复验全部通过。[正式下载](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。下方旧版状态保留为历史证据。
@@ -12,9 +14,9 @@
 
 > 那年，城市按下暂停。你却出现在我的消息里。
 
-**v1.0.0 五章完整正式版，PWA + Windows 安装版 / 便携版。**
+**当前发行 v1.1.1，五章互动小说，PWA + Windows 安装版 / 便携版。**
 
-[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载v1.0.0](https://github.com/AureliusWu/NetLove/releases/tag/v1.0.0) · [本版说明](docs/releases/v1.0.0.md) · [发布凭据](docs/production/PUBLISHED-v1.0.0.json)
+[在线游玩 / 安装PWA](https://aureliuswu.github.io/NetLove/) · [下载 v1.1.1](https://github.com/AureliusWu/NetLove/releases/tag/v1.1.1) · [本版说明](docs/releases/v1.1.1.md) · [本轮凭据](docs/production/VERIFIED-DELIVERY-20261025.json)
 
 2020年架空城市“梧城”，二十三岁的周既明在社区互助群中认识声音设计学生谢听禾与照相馆助理许弥。好友申请、首次通话、被误传的照片、离线的夜晚与线下邀约，通向两条感情结局、友情或认真道别。
 
@@ -38,7 +40,7 @@ Windows安装版可选择安装位置；便携版直接启动。PWA先联网完�
 
 空格/Enter推进，H隐藏/恢复，S存档，L回看，A自动。旋转、隐藏和全屏保持段落；自动/快进在选择和章末停下。JSON阅读备份用于双端迁移，浏览器清理数据前请先导出。
 
-## 工程验收
+## v1.0.0 历史工程验收
 
 v1.0.0 的 18 项发行失败路径、67 项逻辑、10 项素材和 66 项浏览器检查通过，包含全部 288 路线及新增 8 项帮助检查。Windows 源码、ASAR、真实 v0.5.0 → 1.0.0 同 profile 安装升级、portable 外壳及其真实子程序分别通过。
 
@@ -80,6 +82,8 @@ npm run test:desktop:installed仅用于本仓临时Windows Actions运行器，�
 [v0.2.6历史发布](docs/production/RELEASE-CLOSURE-20261018.md) · [v0.2.0电脑/手机预览](docs/previews/v0.2.0/README.md) · [完整验证记录](docs/VALIDATION.md)
 
 ## 四作共存复验
+
+2026-10-25：当前四版共同断网复验通过，1,257 条缓存、各自 scope / controller 与真实 React 存档保持，页面异常为 0。[本轮结果](docs/production/VERIFIED-DELIVERY-20261025.json)。以下为历史版本。
 
 本次 v1.0.0 与 Circuit 1.8.0、Healing 1.4.0、Rain 1.6.0 在独立本地与 CI 两次通过。1,248 条缓存、实际进度与各自 Worker 保持，四站共同断网重开，页面错误为零。[本轮闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。以下为历史版本结果。
 

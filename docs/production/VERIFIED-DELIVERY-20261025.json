@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "project": "NetLove",
+  "type": "聊天 / 通话驱动的互动小说，含视觉小说演出",
+  "version": "1.1.1",
+  "runtimeCommit": "6ab0a51167251e7017a074ca0bf6f174c8622537",
+  "buildRun": 40148750505,
+  "buildConclusion": "success",
+  "publicPwaRun": 40149636112,
+  "publicPwaConclusion": "success",
+  "browserSummary": "82 项完整浏览器检查全部通过（最终时间线修正提交，标准 CI）",
+  "nativeSummary": "源码 Electron、实际 ASAR、NSIS 安装及 v0.5.0 旧档升级、便携启动器与真实子程序、全屏 / 存档 / 退出均通过",
+  "publicReadback": {
+    "schema": 1,
+    "checkedAt": 1792890730.093645,
+    "repo": "NetLove",
+    "version": "v1.1.1",
+    "runtimeCommit": "6ab0a51167251e7017a074ca0bf6f174c8622537",
+    "releaseUrl": "https://github.com/AureliusWu/NetLove/releases/tag/v1.1.1",
+    "publicAssets": [
+      {
+        "name": "NetLove-1.1.1-x64-Portable.exe",
+        "size": 129713305,
+        "sha256": "a82a08f5edb6e985b873d1fada2410ed84ebaf82d201feadc996c12d68d5e01a",
+        "githubDigestMatches": true
+      },
+      {
+        "name": "NetLove-1.1.1-x64-Setup.exe",
+        "size": 129932680,
+        "sha256": "ad67f6f15972fcac02b37270ff8b8becd83e0c330d9ecf45d99c583fec10424d",
+        "githubDigestMatches": true
+      },
+      {
+        "name": "NetLove-PWA-1.1.1.zip",
+        "size": 18824908,
+        "sha256": "1294d65cbaeadbd41e8f4eb5cd2318d84782141451f9a6e17a8633e703b62d92",
+        "githubDigestMatches": true,
+        "zipCrcPassed": true,
+        "files": 262,
+        "forbiddenDevelopmentFiles": []
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 279,
+        "sha256": "78ac1312db2ed0a98909ae8a317f9029de0506fb0e40e2ad1e3f4085a6ac6207",
+        "githubDigestMatches": true
+      }
+    ],
+    "checksumEntries": {
+      "NetLove-1.1.1-x64-Portable.exe": true,
+      "NetLove-1.1.1-x64-Setup.exe": true,
+      "NetLove-PWA-1.1.1.zip": true
+    },
+    "status": "passed"
+  },
+  "sameOrigin": {
+    "status": "passed",
+    "run": 40148998570,
+    "attempt": 2,
+    "expectedVersions": {
+      "Circuit": "1.9.0",
+      "NetLove": "1.1.1",
+      "Healing": "1.5.2",
+      "Rain": "1.7.0"
+    },
+    "totalCachedFiles": 1257,
+    "pageErrors": []
+  },
+  "finalWorkAccepted": false,
+  "humanListeningClaimed": false,
+  "remaining": "P2：15 项录音线索、音乐 / 音效听感、全篇文本与演出审读。P3：1 项旧原生成请求补档、普通设备 / DPI 与阅读计时。没有因为立绘数量少而判定核心玩法缺失。"
+}

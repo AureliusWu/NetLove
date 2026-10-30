@@ -1,0 +1,50 @@
+{
+  "schema": "vn-workflow-profile-v1",
+  "workflowVersion": "1.0.0",
+  "repository": "AureliusWu/NetLove",
+  "kind": "game",
+  "engine": "React / TypeScript / Electron",
+  "releaseAuthority": "native-project-gates",
+  "sources": [
+    "src/story/story.json"
+  ],
+  "requiredPaths": [
+    "AGENTS.md",
+    "docs/production/VN-WORKFLOW-R1.md",
+    "docs/STORY.md",
+    "docs/ARCHITECTURE.md",
+    "docs/production/PROJECT-ACCEPTANCE.md"
+  ],
+  "commands": [
+    {
+      "id": "full-check",
+      "argv": [
+        "npm",
+        "run",
+        "check"
+      ]
+    },
+    {
+      "id": "materials",
+      "argv": [
+        "npm",
+        "run",
+        "test:materials"
+      ]
+    },
+    {
+      "id": "desktop",
+      "argv": [
+        "npm",
+        "run",
+        "test:desktop:installed"
+      ]
+    }
+  ],
+  "workflows": [
+    ".github/workflows/build.yml",
+    ".github/workflows/pages.yml"
+  ],
+  "identityNotes": "保留 netlove-v1 / netlove:v1；匿名聊天、电话与 noSprite 按本作语义，不能套用 RESET 的旁白清空规则。",
+  "sharedManifest": "docs/production/REUSE-MANIFEST.json"
+}

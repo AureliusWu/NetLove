@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "project": "NetLove",
+  "sourceCommit": "9e24e0e4f43df4f0dad68c910649f398ef7a1619",
+  "currentSourceFiles": [
+    {
+      "path": "src/story/story.json",
+      "sha256": "bb1b48866451894354acb635170295bbfda0e1327e26b6e663ef00be55d34d2f"
+    }
+  ],
+  "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
+  "retainedPlanSha256": "9e7af75e26c776f28dba9b5742f4110e610bc10183aafa8ac5d6526e2cf17f25",
+  "target": 220,
+  "accepted": 220,
+  "decoded": true,
+  "seedAndMerge": "PASS",
+  "technicalStatus": "PASS",
+  "synthesized": 0,
+  "humanListening": false,
+  "runtimeInteraction": "NOT_RUN",
+  "release": "NOT_ASSESSED"
+}

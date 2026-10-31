@@ -14,6 +14,10 @@
 
 # “网”恋 / NetLove
 
+<!-- project-badges:start -->
+[![Version](https://img.shields.io/github/v/tag/AureliusWu/NetLove?sort=semver&style=flat-square&label=version)](https://github.com/AureliusWu/NetLove/tags) [![Build](https://github.com/AureliusWu/NetLove/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AureliusWu/NetLove/actions/workflows/build.yml) [![Last commit](https://img.shields.io/github/last-commit/AureliusWu/NetLove?style=flat-square)](https://github.com/AureliusWu/NetLove/commits/main) [![License](https://img.shields.io/github/license/AureliusWu/NetLove?style=flat-square)](LICENSE)
+<!-- project-badges:end -->
+
 > 那年，城市按下暂停。你却出现在我的消息里。
 
 **当前发行 v1.1.1，五章互动小说，PWA + Windows 安装版 / 便携版。**

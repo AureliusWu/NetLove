@@ -139,6 +139,44 @@ class PublisherTests(unittest.TestCase):
             run(api)
         self.assertEqual(api.mutations, [])
 
+    def test_published_version_on_older_commit_is_validation_only(self):
+        api = FakeGitHub(existing={'draft': False, 'tag_name': 'v1.0.0'}, tag='b' * 40)
+        plan = publisher.publication_plan(api, COMMIT, '1.0.0')
+        self.assertEqual(plan, {'publish': False, 'reason': 'already-published',
+                                'tag': 'v1.0.0', 'releaseCommit': 'b' * 40})
+        self.assertEqual(api.mutations, [])
+
+    def test_new_version_is_planned_without_mutation(self):
+        for target in (None, COMMIT):
+            api = FakeGitHub(tag=target)
+            self.assertTrue(publisher.publication_plan(api, COMMIT, '1.0.0')['publish'])
+            self.assertEqual(api.mutations, [])
+
+    def test_unpublished_mismatched_tag_still_blocks(self):
+        api = FakeGitHub(tag='b' * 40)
+        with self.assertRaisesRegex(RuntimeError, 'different commit'):
+            publisher.publication_plan(api, COMMIT, '1.0.0')
+        self.assertEqual(api.mutations, [])
+
+    def test_existing_draft_still_blocks_publication_planning(self):
+        api = FakeGitHub(existing={'draft': True, 'tag_name': 'v1.0.0'})
+        with self.assertRaisesRegex(RuntimeError, 'draft requires separate recovery'):
+            publisher.publication_plan(api, COMMIT, '1.0.0')
+        self.assertEqual(api.mutations, [])
+
+    def test_missing_published_tag_is_not_silently_skipped(self):
+        api = FakeGitHub(existing={'draft': False, 'tag_name': 'v1.0.0'})
+        with self.assertRaisesRegex(RuntimeError, 'no matching tag'):
+            publisher.publication_plan(api, COMMIT, '1.0.0')
+        self.assertEqual(api.mutations, [])
+
+    def test_superseded_commit_does_not_plan_a_release(self):
+        api = FakeGitHub()
+        plan = publisher.publication_plan(api, 'c' * 40, '1.0.0')
+        self.assertEqual(plan['reason'], 'superseded')
+        self.assertFalse(plan['publish'])
+        self.assertEqual(api.mutations, [])
+
     def test_stale_head_never_mutates(self):
         api = FakeGitHub()
         with self.assertRaisesRegex(RuntimeError, 'main changed'):

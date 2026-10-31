@@ -11,6 +11,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   web:
+    outputs:
+      publish: ${{ steps.publication.outputs.publish }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -33,6 +35,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Decide whether this version needs publication
+        id: publication
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/publish-release.py --plan-only
       - name: Verify offline voice sources and runtime audio
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
@@ -93,7 +101,7 @@ jobs:
           path: test-results/desktop/
   release:
     needs: [web, windows]
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.web.outputs.publish == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

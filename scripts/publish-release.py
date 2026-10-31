@@ -142,6 +142,22 @@ def existing_release(api, tag):
         page += 1
 
 
+def publication_plan(api, commit, version):
+    """Separate ordinary validation from creating a new immutable release."""
+    tag, _ = release_spec(version)
+    head = api.request('GET', 'git/ref/heads/main')
+    if head['object']['sha'] != commit:
+        return {'publish': False, 'reason': 'superseded', 'tag': tag}
+    existing = existing_release(api, tag)
+    target = api.tag_commit(tag)
+    if existing is not None:
+        require(not existing['draft'], 'An existing draft requires separate recovery; refusing to adopt it')
+        require(existing['tag_name'] == tag and target is not None, 'Published release has no matching tag')
+        return {'publish': False, 'reason': 'already-published', 'tag': tag, 'releaseCommit': target}
+    require(target in (None, commit), 'Release tag identifies a different commit')
+    return {'publish': True, 'reason': 'unpublished-version', 'tag': tag}
+
+
 def publish(api, commit, version, title, notes, expected, record):
     tag, prerelease = release_spec(version)
     guard_target(api, commit, tag)
@@ -179,16 +195,28 @@ def main():
     parser.add_argument('--assets', type=Path, default=Path('release-assets'))
     parser.add_argument('--pwa', type=Path, default=Path('pwa'))
     parser.add_argument('--report', type=Path, default=Path('public-readback/result.json'))
+    parser.add_argument('--plan-only', action='store_true', help='Read-only publication decision; never uploads or changes tags')
     args = parser.parse_args()
     version = json.loads(Path('package.json').read_text(encoding='utf-8'))['version']
-    notes = Path(f'docs/releases/v{version}.md').read_text(encoding='utf-8')
     commit = os.environ['GITHUB_SHA']
+    api = GitHub(os.environ['GITHUB_REPOSITORY'], os.environ['GH_TOKEN'])
+    if args.plan_only:
+        plan = publication_plan(api, commit, version)
+        if os.environ.get('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+                output.write('publish=' + str(plan['publish']).lower() + '\n')
+        if os.environ.get('GITHUB_STEP_SUMMARY'):
+            with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+                summary.write(f"Publication: {plan['reason']} ({plan['tag']}). Existing releases and tags are immutable.\n")
+        print(json.dumps(plan), flush=True)
+        return
+    notes = Path(f'docs/releases/v{version}.md').read_text(encoding='utf-8')
     record = {'schema': 2, 'status': 'failed', 'phase': 'preflight', 'version': version,
               'runtimeCommit': commit, 'runId': int(os.environ['GITHUB_RUN_ID'])}
     try:
         expected, count = local_assets(args.assets, args.pwa, version)
         record.update({'checksumEntries': 3, 'pwaZipCrc': True, 'pwaFiles': count, 'pwaFilesMatchTestedArtifact': True})
-        publish(GitHub(os.environ['GITHUB_REPOSITORY'], os.environ['GH_TOKEN']), commit, version,
+        publish(api, commit, version,
                 notes.splitlines()[0].lstrip('# '), notes, expected, record)
     except Exception as error:
         record['error'] = str(error)
